@@ -8,7 +8,9 @@ Fuente de recursos gráficos, versiones y evidencia de aprobación para tres pro
 - `catalogo/aprobaciones.json`: evidencia y alcance (identidad, escena o carta); las entregas posteriores no son aprobadas automáticamente.
 - `catalogo/inventario.json`: cada archivo conservado, origen local, versión, fechas observadas y duplicados por contenido.
 - `historial/`: entregas agrupadas por fecha y colección; los binarios se guardan una sola vez en `objetos/`.
-- `CRONOLOGIA.md` y `galeria.html`: evolución y revisión visual.
+- `CRONOLOGIA.md`, `catalogo/evolucion.json` y `galeria.html`: evolución y revisión visual.
+- `aprobados.html`: cartas finales y roles pendientes lado a lado.
+- `catalogo/seleccion_roles.json`: candidatos v09 para revisar, sin promoverlos al canon.
 - `PENDIENTES.md`: pentagrama, Vigía y decisiones que faltan.
 
 ## Obtener y comprobar
