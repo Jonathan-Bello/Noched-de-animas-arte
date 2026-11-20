@@ -1,0 +1,19 @@
+{
+  "fecha_observada": "2026-11-10",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "fuentes_iniciales",
+  "archivos": [
+    {
+      "origen": "Noche_de_Animas_Catalogo_Visual_v3 (1).pdf",
+      "coleccion": "fuentes_iniciales",
+      "fecha_observada": "2026-11-10",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-11T23:13:41.384676-06:00",
+      "ultima_modificacion_observada": "2026-11-10T12:39:57.226464-06:00",
+      "sha256": "530d9688b4396eb8a9a4e8660c4ef2934ca9624154ba92523c2e456049f9f037",
+      "bytes": 7581741,
+      "objeto": "objetos/53/530d9688b4396eb8a9a4e8660c4ef2934ca9624154ba92523c2e456049f9f037.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}
