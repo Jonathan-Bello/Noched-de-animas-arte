@@ -1,0 +1,163 @@
+{
+  "fecha_observada": "2026-11-16",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/arte_asistente_fantasma.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:11.542880-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:25:19.731698-06:00",
+      "sha256": "a42fc0472b43ee4e8b5863e558b6a8087ca1db436533fa008db7b6b8de6b8ccf",
+      "bytes": 2356160,
+      "objeto": "objetos/a4/a42fc0472b43ee4e8b5863e558b6a8087ca1db436533fa008db7b6b8de6b8ccf.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/arte_asistente_viva.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:25:44.335770-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:21:27.865319-06:00",
+      "sha256": "7cb95ffa490dd3e22b6298315b286d506160f86e1768d5f54f3559c6d91c6bb4",
+      "bytes": 2492949,
+      "objeto": "objetos/7c/7cb95ffa490dd3e22b6298315b286d506160f86e1768d5f54f3559c6d91c6bb4.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/Comparacion_viva_fantasma.jpg",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:12.378074-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:12.395462-06:00",
+      "sha256": "4d2e6f2ba0120d04e969307bbf5dece37a4171f5c5fb1c1887f1719108dab7eb",
+      "bytes": 616429,
+      "objeto": "objetos/4d/4d2e6f2ba0120d04e969307bbf5dece37a4171f5c5fb1c1887f1719108dab7eb.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/LEEME.txt",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:25:46.071229-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:25:46.074934-06:00",
+      "sha256": "1e6dfd0886032dc686aefb154e96978e62b151225b1a4301e83c53c2e8733ca3",
+      "bytes": 697,
+      "objeto": "objetos/1e/1e6dfd0886032dc686aefb154e96978e62b151225b1a4301e83c53c2e8733ca3.txt",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/manifest.json",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:12.395462-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:12.395462-06:00",
+      "sha256": "a2bc70533a16d4279c8b1e9c47ee770bef9983ec4cf45c77b3b185abd3300df4",
+      "bytes": 1111,
+      "objeto": "objetos/a2/a2bc70533a16d4279c8b1e9c47ee770bef9983ec4cf45c77b3b185abd3300df4.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/prompts_y_fuentes.json",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:26:38.650786-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:26:38.650786-06:00",
+      "sha256": "056f415311ba0b2e3a5dd686b3aa901eef13da8bd34c301f09b70dd9dc66ac71",
+      "bytes": 5562,
+      "objeto": "objetos/05/056f415311ba0b2e3a5dd686b3aa901eef13da8bd34c301f09b70dd9dc66ac71.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/referencias_y_cambios.json",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:22:08.037377-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:22:08.037377-06:00",
+      "sha256": "45cd7604c1e295634ab9c9970973e03be776447703d9a50dbb9dc4fcd3ccc1ba",
+      "bytes": 1835,
+      "objeto": "objetos/45/45cd7604c1e295634ab9c9970973e03be776447703d9a50dbb9dc4fcd3ccc1ba.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_fantasma.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:12.102478-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:12.177820-06:00",
+      "sha256": "8b4121c3e9f6332efe321e0417e09d27e1e1d39724bb466030809fc1385f995f",
+      "bytes": 805914,
+      "objeto": "objetos/8b/8b4121c3e9f6332efe321e0417e09d27e1e1d39724bb466030809fc1385f995f.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_fantasma.webp",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:12.177820-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:12.378074-06:00",
+      "sha256": "21b7530d2ec557ef634821e19ff1542cc23c1b8926a9d6e35a6ee4f6e875b7e8",
+      "bytes": 183842,
+      "objeto": "objetos/21/21b7530d2ec557ef634821e19ff1542cc23c1b8926a9d6e35a6ee4f6e875b7e8.webp",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_fantasma_alta.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:11.742755-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:12.068829-06:00",
+      "sha256": "5be4908e50965c3b74da9b5bd66e004c85cd397241d7344aeccc2339a25fdea0",
+      "bytes": 2718170,
+      "objeto": "objetos/5b/5be4908e50965c3b74da9b5bd66e004c85cd397241d7344aeccc2339a25fdea0.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_viva.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:11.173400-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:11.242523-06:00",
+      "sha256": "f9be4e168e26f46ba5aa3281d6caa8e0f0cbd01d8fe84d0617275c265e296d7f",
+      "bytes": 826206,
+      "objeto": "objetos/f9/f9be4e168e26f46ba5aa3281d6caa8e0f0cbd01d8fe84d0617275c265e296d7f.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_viva.webp",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:11.342446-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:11.542880-06:00",
+      "sha256": "e6b0afd8a339043573bf4bf90f7feeba03bf90444f3c10c2f642af048bb1643f",
+      "bytes": 193490,
+      "objeto": "objetos/e6/e6b0afd8a339043573bf4bf90f7feeba03bf90444f3c10c2f642af048bb1643f.webp",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v07_Asistente/tecnico_asistente_viva_alta.png",
+      "coleccion": "Expansion_Roles_Arte_v07_Asistente",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T01:27:10.843630-06:00",
+      "ultima_modificacion_observada": "2026-11-16T01:27:11.126061-06:00",
+      "sha256": "822df8306834466038df2e37b3655edf6577558020129418893170f1758004e1",
+      "bytes": 2840451,
+      "objeto": "objetos/82/822df8306834466038df2e37b3655edf6577558020129418893170f1758004e1.png",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

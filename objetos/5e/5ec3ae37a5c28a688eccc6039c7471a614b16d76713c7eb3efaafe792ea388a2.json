@@ -1,0 +1,23 @@
+{
+  "fecha": "2026-11-16",
+  "estado": "Referencias proporcionadas por el usuario; nueva ilustración pendiente de valoración",
+  "tecnico": {
+    "personaje_existente": "Robert / Roberto, El Técnico",
+    "referencia": "../Expansion_Amigos_Referencias/fotos_originales/foto_14_tecnico_nueva_referencia.png",
+    "usar": "Hombre en primer plano de la primera foto. No asignar identidad a la mujer parcialmente visible a la izquierda.",
+    "rasgos_para_dibujo": "Rostro ancho de contorno redondeado/ovalado, mejillas llenas, mentón y mandíbula suaves, nariz de punta redondeada y base media/ancha, cabello oscuro abundante peinado hacia atrás con mechón curvado suelto; pequeño lunar oscuro en la mejilla tal como se observa en la foto; sin lentes ni barba marcada.",
+    "expresion_en_arte": "Serio concentrado reparando, mirada hacia aparato; no copiar obligatoriamente la sonrisa de la foto ni mantener la mandíbula angular del arte anterior."
+  },
+  "asistente": {
+    "nombre_real": null,
+    "id_de_trabajo": "asistente_tecnico",
+    "referencia": "../Expansion_Amigos_Referencias/fotos_originales/foto_15_asistente_tecnico_referencia.png",
+    "rasgos_para_dibujo": "Rostro suave ovalado/redondeado, cabello oscuro largo y lacio con flequillo ligero, mechones recogidos a los lados y pequeños accesorios amarillos, sin lentes; sonrisa leve.",
+    "papel": "Personaje de apoyo al fondo del taller en esta carta, sin nuevo rol o poder mecánico.",
+    "vestuario_propuesto": "Camisa marfil con detalle guinda y mandil petróleo sencillo, acorde al juego.",
+    "limites": "No se proporciona nombre, altura ni edad. No asociarla a La Devota u otra persona del elenco."
+  },
+  "estilo": "Caricaturización del mazo: ojos gráficos y pupilas simples, cejas por formas, piel mate sin poros y sombras amplias suaves. Retener volumen ilustrado y tonos medios; grano de impresión en ropa y escenario.",
+  "conservar": "Acción de reparación, equipo simplificado, cuerpo, ropa y mesa del Técnico v05. Agregar asistente sin tapar al protagonista ni cruzar sus rostros.",
+  "alcance": "Propuesta nueva de arte y frente de carta. No sustituye automáticamente el catálogo, imprenta ni avatares anteriores antes de valorar el rostro."
+}

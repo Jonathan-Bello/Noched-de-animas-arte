@@ -1,0 +1,43 @@
+{
+  "fecha_observada": "2026-11-16",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Expansion_Roles_Arte_v08_Piernas",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v08_Piernas/arte_asistente_fantasma_piernas_corregidas.png",
+      "coleccion": "Expansion_Roles_Arte_v08_Piernas",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:30:49.265998-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:30:31.249779-06:00",
+      "sha256": "13b690e35beb2cb3b44782f72368712936746ee129d444c2b03aca9dc8497a42",
+      "bytes": 2187279,
+      "objeto": "objetos/13/13b690e35beb2cb3b44782f72368712936746ee129d444c2b03aca9dc8497a42.png",
+      "estado": "arte_aprobado_sin_aprobar_todas_variantes"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v08_Piernas/arte_asistente_viva_piernas_corregidas.png",
+      "coleccion": "Expansion_Roles_Arte_v08_Piernas",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:30:18.027859-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:29:57.176424-06:00",
+      "sha256": "2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9",
+      "bytes": 2338494,
+      "objeto": "objetos/25/2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9.png",
+      "estado": "arte_aprobado_sin_aprobar_todas_variantes"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v08_Piernas/prompts_y_cambios.json",
+      "coleccion": "Expansion_Roles_Arte_v08_Piernas",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:30:36.659533-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:30:36.659533-06:00",
+      "sha256": "659b38af6b305cd3077dd664b9f6ea2a5002086e81e2264e838936f2bb462b85",
+      "bytes": 2020,
+      "objeto": "objetos/65/659b38af6b305cd3077dd664b9f6ea2a5002086e81e2264e838936f2bb462b85.json",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

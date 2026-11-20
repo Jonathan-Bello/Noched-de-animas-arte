@@ -1,0 +1,91 @@
+{
+  "fecha_observada": "2026-11-16",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/arte_tecnico_asistente_v06.png",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:55:13.454266-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:52:41.282149-06:00",
+      "sha256": "f6e1152a23bd98d7b97a272774686f0835517f78576f38eea7bcbedb749bbde5",
+      "bytes": 2653815,
+      "objeto": "objetos/f6/f6e1152a23bd98d7b97a272774686f0835517f78576f38eea7bcbedb749bbde5.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/carta_tecnico_asistente_v06.png",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:55:13.991408-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:55:14.058169-06:00",
+      "sha256": "f68227106f0c4e4ee99427d35a6da76cead5f05aa271da6c4b90cb3dbb3de3cd",
+      "bytes": 851260,
+      "objeto": "objetos/f6/f68227106f0c4e4ee99427d35a6da76cead5f05aa271da6c4b90cb3dbb3de3cd.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/carta_tecnico_asistente_v06.webp",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:55:14.131549-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:55:14.316364-06:00",
+      "sha256": "309b65847920a16d4a22f618e6c78cc2e66d2023f9c2f99dc69cafdce377bb59",
+      "bytes": 201826,
+      "objeto": "objetos/30/309b65847920a16d4a22f618e6c78cc2e66d2023f9c2f99dc69cafdce377bb59.webp",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/carta_tecnico_asistente_v06_alta.png",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:55:13.661075-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:55:13.951311-06:00",
+      "sha256": "6a9645dd7a4c4c4a49a7963b198a4c45c275cc24fd811177c4f286276d17b102",
+      "bytes": 2963821,
+      "objeto": "objetos/6a/6a9645dd7a4c4c4a49a7963b198a4c45c275cc24fd811177c4f286276d17b102.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/manifest.json",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:55:14.316364-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:55:14.316364-06:00",
+      "sha256": "3094c9903a06ba282ff07bbf9ab472b0de8a88cee72e6c2e28a7bf00cf057036",
+      "bytes": 918,
+      "objeto": "objetos/30/3094c9903a06ba282ff07bbf9ab472b0de8a88cee72e6c2e28a7bf00cf057036.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/prompt_y_fuentes.json",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:54:27.602745-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:54:27.608356-06:00",
+      "sha256": "55ffcad6cf18221f4385f12864e58078b271176494a79cd998fa161e2550892f",
+      "bytes": 4677,
+      "objeto": "objetos/55/55ffcad6cf18221f4385f12864e58078b271176494a79cd998fa161e2550892f.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v06_Tecnico/referencias_actualizadas.json",
+      "coleccion": "Expansion_Roles_Arte_v06_Tecnico",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T00:52:16.372825-06:00",
+      "ultima_modificacion_observada": "2026-11-16T00:52:16.372825-06:00",
+      "sha256": "5ec3ae37a5c28a688eccc6039c7471a614b16d76713c7eb3efaafe792ea388a2",
+      "bytes": 2243,
+      "objeto": "objetos/5e/5ec3ae37a5c28a688eccc6039c7471a614b16d76713c7eb3efaafe792ea388a2.json",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

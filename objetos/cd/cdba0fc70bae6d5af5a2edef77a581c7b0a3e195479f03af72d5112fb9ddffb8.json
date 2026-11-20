@@ -1,0 +1,152 @@
+{
+  "avatares": [
+    {
+      "id": "vigia_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 128494,
+      "semitransparentes": 132487
+    },
+    {
+      "id": "vigia_muerto",
+      "alpha_min_max": [
+        0,
+        249
+      ],
+      "transparentes": 102843,
+      "semitransparentes": 159301
+    },
+    {
+      "id": "improvisador_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 129247,
+      "semitransparentes": 131596
+    },
+    {
+      "id": "improvisador_muerto",
+      "alpha_min_max": [
+        0,
+        243
+      ],
+      "transparentes": 100510,
+      "semitransparentes": 161634
+    },
+    {
+      "id": "tecnico_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 119630,
+      "semitransparentes": 141396
+    },
+    {
+      "id": "tecnico_muerto",
+      "alpha_min_max": [
+        0,
+        253
+      ],
+      "transparentes": 98459,
+      "semitransparentes": 163685
+    },
+    {
+      "id": "detective_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 136162,
+      "semitransparentes": 124890
+    },
+    {
+      "id": "detective_muerto",
+      "alpha_min_max": [
+        0,
+        251
+      ],
+      "transparentes": 101262,
+      "semitransparentes": 160882
+    },
+    {
+      "id": "curandero_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 114498,
+      "semitransparentes": 146325
+    },
+    {
+      "id": "curandero_muerto",
+      "alpha_min_max": [
+        0,
+        241
+      ],
+      "transparentes": 52847,
+      "semitransparentes": 209297
+    },
+    {
+      "id": "devota_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 126508,
+      "semitransparentes": 134092
+    },
+    {
+      "id": "devota_muerto",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 101303,
+      "semitransparentes": 160658
+    },
+    {
+      "id": "sensitivo_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 128289,
+      "semitransparentes": 132449
+    },
+    {
+      "id": "sensitivo_muerto",
+      "alpha_min_max": [
+        0,
+        252
+      ],
+      "transparentes": 113207,
+      "semitransparentes": 148937
+    },
+    {
+      "id": "guardaespaldas_vivo",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparentes": 125159,
+      "semitransparentes": 135803
+    },
+    {
+      "id": "guardaespaldas_muerto",
+      "alpha_min_max": [
+        0,
+        250
+      ],
+      "transparentes": 76300,
+      "semitransparentes": 185844
+    }
+  ],
+  "roles": 8,
+  "estados": 2,
+  "cartas_actualizadas": 5,
+  "rutas_verificadas": true
+}

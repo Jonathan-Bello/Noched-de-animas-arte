@@ -1,0 +1,19 @@
+{
+  "fecha_observada": "2026-11-16",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Guia_Artistica_Noche_de_Animas",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Guia_Artistica_Noche_de_Animas/parametros_artisticos.json",
+      "coleccion": "Guia_Artistica_Noche_de_Animas",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T21:15:28.141359-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:37:27.568162-06:00",
+      "sha256": "af556a530b4f363c3dc4500fd45ba2ed45e54e7c2516c0d446bcb94b6382c8df",
+      "bytes": 39247,
+      "objeto": "objetos/af/af556a530b4f363c3dc4500fd45ba2ed45e54e7c2516c0d446bcb94b6382c8df.json",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

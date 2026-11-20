@@ -1,0 +1,25 @@
+{
+  "version": "0.6 propuesta visual",
+  "id": "tecnico",
+  "titulo": "El Técnico",
+  "arte": "arte_tecnico_asistente_v06.png",
+  "carta": "carta_tecnico_asistente_v06.png",
+  "carta_alta": "carta_tecnico_asistente_v06_alta.png",
+  "webp": "carta_tecnico_asistente_v06.webp",
+  "dimensiones": [
+    580,
+    880
+  ],
+  "dimensiones_alta": [
+    1160,
+    1760
+  ],
+  "cambios": [
+    "Rostro basado en nueva foto del usuario, con mejillas y mandíbula redondeadas, cabello y lunar de mejilla",
+    "Asistente al fondo basada en segunda foto, con flequillo y accesorios amarillos"
+  ],
+  "conservado": "Acción de reparación, equipo, estilo gráfico y marco/ícono/título/leyenda del Técnico v05",
+  "estado": "Propuesta separada, pendiente de valoración; sin sustituir catálogo/imprenta/avatares",
+  "herramienta": "image_gen integrada",
+  "referencias": "referencias_actualizadas.json"
+}

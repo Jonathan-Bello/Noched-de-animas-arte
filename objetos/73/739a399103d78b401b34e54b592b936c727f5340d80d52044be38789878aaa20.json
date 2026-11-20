@@ -1,0 +1,49 @@
+{
+  "version": "0.10 propuesta de artes",
+  "cartas": [
+    {
+      "id": "velar",
+      "role_id": "espiritu_velar",
+      "variante": "velar",
+      "titulo": "Velar",
+      "arte": "artes/rol_velar.png",
+      "frente": "cartas/rol_velar.png",
+      "frente_alta": "cartas/rol_velar_alta.png",
+      "webp": "webp/rol_velar.webp",
+      "reverso": "reversos/reverso_espiritu.png",
+      "estado": "Propuesta pendiente de valoración"
+    },
+    {
+      "id": "manifestar",
+      "role_id": "espiritu_manifestar",
+      "variante": "manifestar_alternativa",
+      "titulo": "Manifestar · alternativa",
+      "arte": "artes/rol_manifestar_alternativa.png",
+      "frente": "cartas/rol_manifestar_alternativa.png",
+      "frente_alta": "cartas/rol_manifestar_alternativa_alta.png",
+      "webp": "webp/rol_manifestar_alternativa.webp",
+      "reverso": "reversos/reverso_espiritu.png",
+      "estado": "Propuesta pendiente de valoración"
+    }
+  ],
+  "manifestar_original": {
+    "id": "manifestar",
+    "role_id": "espiritu_manifestar",
+    "variante": "manifestar_original",
+    "titulo": "Manifestar · original conservado",
+    "arte": "artes/rol_manifestar.png",
+    "frente": "cartas/rol_manifestar.png",
+    "frente_alta": "cartas/rol_manifestar_alta.png"
+  },
+  "integracion": "Velar propuesto reemplaza visualmente Velar. Manifestar alternativa es opcional; conservar una sola carta funcional Manifestar, no duplicar reglas.",
+  "reglas_modificadas": false,
+  "dimensiones": [
+    580,
+    880
+  ],
+  "alta": [
+    1160,
+    1760
+  ],
+  "herramienta": "image_gen integrada"
+}

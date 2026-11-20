@@ -1,0 +1,7 @@
+El Técnico — dos propuestas de asistente, versión 0.7.
+
+Ambas versiones usan las facciones y el cabello de la nueva referencia del usuario: una asistente viva y la misma como fantasma translúcido. El Técnico y la escena de reparación se conservan de v06.
+
+Se incluyen ilustraciones sin marco, frentes de carta PNG en 580×880 y 1160×1760, WebP, comparación y manifiesto. Los prompts y las fuentes quedan en prompts_y_fuentes.json.
+
+Generación con herramienta integrada image_gen. Maquetación/exportación con Pillow. No se incluyen fotografías personales en el ZIP. Son propuestas separadas pendientes de valoración; no se ha sustituido la imprenta, catálogo ni avatares anteriores.

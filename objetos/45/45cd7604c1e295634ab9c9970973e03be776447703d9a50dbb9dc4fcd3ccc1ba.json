@@ -1,0 +1,18 @@
+{
+  "fecha": "2026-11-16",
+  "peticion": "Dos versiones del arte: asistente real/viva y asistente fantasma; ambas con las facciones de la nueva fotografía.",
+  "modelo_asistente": {
+    "nombre_real": null,
+    "foto": "../Expansion_Amigos_Referencias/fotos_originales/foto_16_asistente_nueva_referencia.png",
+    "prioridad": "Esta nueva fotografía sustituye visualmente a la modelo anterior de la asistente para estas propuestas. No asumir que son la misma persona real.",
+    "rasgos_para_caricaturizacion": "Rostro ovalado suave que se estrecha hacia mentón redondeado; mejillas suaves, ojos almendrados, cejas finas de arco leve, nariz media/pequeña de punta redondeada y labios más llenos con arco de cupido. Cabello oscuro largo suelto, flequillo lateral diagonal y onda leve. Sin lentes; sin coletas dobles ni accesorios amarillos del dibujo anterior.",
+    "vestuario": "Conservar camisa marfil bordada y mandil petróleo del juego, no copiar la ropa de la fotografía."
+  },
+  "versiones": {
+    "viva": "Humana sólida, piel cálida y ropa en colores del taller.",
+    "fantasma": "Misma cara, pelo, ropa y pose, pero figura translúcida en tinta teal/gris azulada; partes del fondo visibles a través del cuerpo. Sin aura brillante, gore ni rostro de calavera."
+  },
+  "invariantes": "El Técnico conserva exactamente rostro, lunar, cabello, expresión concentrada, ropa, cuerpo y reparación de v06. Conservar mesa, aparatos, iluminación, composición y estilo. La asistente sigue secundaria al fondo a la derecha.",
+  "acabado": "Ojos gráficos de pupila simple, cejas por formas, piel mate sin poros, planos amplios suaves; volumen ilustrado, tonos medios y textura de impresión en ropa/entorno.",
+  "estado": "Dos propuestas separadas pendientes de valoración, sin reemplazar catálogo/imprenta ni avatares."
+}

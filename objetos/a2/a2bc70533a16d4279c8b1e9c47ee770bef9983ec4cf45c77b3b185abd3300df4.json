@@ -1,0 +1,36 @@
+{
+  "version": "0.7 propuesta",
+  "cartas": [
+    {
+      "estado": "viva",
+      "titulo": "El Técnico",
+      "etiqueta_comparacion": "Asistente viva",
+      "arte": "arte_asistente_viva.png",
+      "carta": "tecnico_asistente_viva.png",
+      "carta_alta": "tecnico_asistente_viva_alta.png",
+      "webp": "tecnico_asistente_viva.webp",
+      "estado_aprobacion": "Propuesta pendiente de valoración"
+    },
+    {
+      "estado": "fantasma",
+      "titulo": "El Técnico",
+      "etiqueta_comparacion": "Asistente fantasma",
+      "arte": "arte_asistente_fantasma.png",
+      "carta": "tecnico_asistente_fantasma.png",
+      "carta_alta": "tecnico_asistente_fantasma_alta.png",
+      "webp": "tecnico_asistente_fantasma.webp",
+      "estado_aprobacion": "Propuesta pendiente de valoración"
+    }
+  ],
+  "dimensiones": [
+    580,
+    880
+  ],
+  "alta": [
+    1160,
+    1760
+  ],
+  "cambios": "Solo rostro/cabello y estado de asistente; conservar Técnico v06, mesa, equipo y maquetación",
+  "herramienta": "image_gen integrada",
+  "prompt_set": "prompts_y_fuentes.json"
+}

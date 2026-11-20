@@ -1,0 +1,151 @@
+{
+  "fecha_observada": "2026-11-16",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Noche_de_Animas_Espiritu_v10",
+  "archivos": [
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/artes/rol_manifestar_alternativa.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:35.687352-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:12.836733-06:00",
+      "sha256": "8232eb64aa0db166dbdb2cdac13bfdc260662cf9e3fcaaeea431980413d134e6",
+      "bytes": 2946015,
+      "objeto": "objetos/82/8232eb64aa0db166dbdb2cdac13bfdc260662cf9e3fcaaeea431980413d134e6.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/artes/rol_velar.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:34.816480-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:44:57.151852-06:00",
+      "sha256": "a4669d3767248b6bf77fa671a817edbcdc7fa6a34c09474dfe795600e53b478e",
+      "bytes": 3065137,
+      "objeto": "objetos/a4/a4669d3767248b6bf77fa671a817edbcdc7fa6a34c09474dfe795600e53b478e.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_manifestar_alternativa.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.175898-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.248064-06:00",
+      "sha256": "16e6f2c8777ced0b8433943c70151bb3b6d53aae3176f4103841f7768be97aea",
+      "bytes": 884817,
+      "objeto": "objetos/16/16e6f2c8777ced0b8433943c70151bb3b6d53aae3176f4103841f7768be97aea.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_manifestar_alternativa_alta.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:35.869397-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.132168-06:00",
+      "sha256": "7f31b7d59e833591b33c36ec7e5c67cdf022902afe1feb5ba35b316594a274ac",
+      "bytes": 3137238,
+      "objeto": "objetos/7f/7f31b7d59e833591b33c36ec7e5c67cdf022902afe1feb5ba35b316594a274ac.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_velar.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:35.323591-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:35.387033-06:00",
+      "sha256": "e384e9cb7d98ab353caaed75dfbad2f404af3ff4d9eb45cf10366d857e32328b",
+      "bytes": 898329,
+      "objeto": "objetos/e3/e384e9cb7d98ab353caaed75dfbad2f404af3ff4d9eb45cf10366d857e32328b.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_velar_alta.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:35.030646-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:35.291691-06:00",
+      "sha256": "ac0c1057c6b5ff0bce652cd3bd0f9fa512724ccc29a4813fd4e01ca7968f3b20",
+      "bytes": 3214610,
+      "objeto": "objetos/ac/ac0c1057c6b5ff0bce652cd3bd0f9fa512724ccc29a4813fd4e01ca7968f3b20.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/Comparacion_v10.jpg",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.543372-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.559161-06:00",
+      "sha256": "e70737ccdf23cc751a860fd8f812d538f811f9b0c7187b8d5aed3cad3f8fcb7f",
+      "bytes": 984450,
+      "objeto": "objetos/e7/e70737ccdf23cc751a860fd8f812d538f811f9b0c7187b8d5aed3cad3f8fcb7f.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/fuentes_y_prompts.json",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:32.649423-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:32.649423-06:00",
+      "sha256": "7743309ba6edccd784fc151fefa5ae3cb33aef0d46f47dfde89885cab3036cbb",
+      "bytes": 4331,
+      "objeto": "objetos/77/7743309ba6edccd784fc151fefa5ae3cb33aef0d46f47dfde89885cab3036cbb.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/LEEME.txt",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.559161-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.559161-06:00",
+      "sha256": "e79a7b96f0ce6a7439e7f13f4d1d4623963f5f91ceecac7a6fb2f850fcbf2561",
+      "bytes": 687,
+      "objeto": "objetos/e7/e79a7b96f0ce6a7439e7f13f4d1d4623963f5f91ceecac7a6fb2f850fcbf2561.txt",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/manifest.json",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.463284-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.463956-06:00",
+      "sha256": "739a399103d78b401b34e54b592b936c727f5340d80d52044be38789878aaa20",
+      "bytes": 1634,
+      "objeto": "objetos/73/739a399103d78b401b34e54b592b936c727f5340d80d52044be38789878aaa20.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/webp/rol_manifestar_alternativa.webp",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.249101-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:36.449745-06:00",
+      "sha256": "e1986f19717568512766998e84333988cf0309ec479a7776fcf68aa940042b27",
+      "bytes": 222534,
+      "objeto": "objetos/e1/e1986f19717568512766998e84333988cf0309ec479a7776fcf68aa940042b27.webp",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/webp/rol_velar.webp",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-16",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:35.450478-06:00",
+      "ultima_modificacion_observada": "2026-11-16T20:45:35.687352-06:00",
+      "sha256": "09267fc7ae7f4cbe1a954c63e11d5a8b7ba73151b140fa38ffc428aa9b063899",
+      "bytes": 224670,
+      "objeto": "objetos/09/09267fc7ae7f4cbe1a954c63e11d5a8b7ba73151b140fa38ffc428aa9b063899.webp",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

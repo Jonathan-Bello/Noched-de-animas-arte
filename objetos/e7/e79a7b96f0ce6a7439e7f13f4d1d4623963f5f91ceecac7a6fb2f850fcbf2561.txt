@@ -1,0 +1,7 @@
+PROPUESTAS DE ARTES DE ESPÍRITU v10
+Velar: Alex/Alexis espíritu interpone su cuerpo y retiene un ánima.
+Manifestar alternativa: Detective/Fermín espíritu se esfuerza por activar el equipo; Alex vivo se asusta.
+Manifestar original conservado.
+Incluye artes PNG sin marco, cartas PNG 580x880 y 1160x1760, WebP y reverso Espíritu. Mantiene títulos, iconos y leyendas existentes. No duplica funcionalidades ni modifica reglas.
+Esta entrega complementa Roles v09. Los nuevos artes permanecen separados hasta valoración. No se ha sustituido el paquete v09 ni la imprenta.
+Generación image_gen integrada; prompts y fuentes en fuentes_y_prompts.json. Galería: Galeria_v10.html.

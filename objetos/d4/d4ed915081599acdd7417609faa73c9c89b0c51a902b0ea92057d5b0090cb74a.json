@@ -1,0 +1,339 @@
+{
+  "version": "0.9",
+  "ruta_base": "..",
+  "tipo": "Bustos estáticos transparentes de los ocho roles",
+  "estados": [
+    "vivo",
+    "muerto"
+  ],
+  "muerto_representado_como": "espíritu",
+  "tamanos": [
+    1024,
+    512,
+    256
+  ],
+  "formato": "PNG/WebP RGBA",
+  "atlas": "avatares/atlas_512.json",
+  "avatares": [
+    {
+      "id": "vigia",
+      "role_id": "vigia",
+      "titulo": "El Vigía",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_vigia_vivo.png",
+            "webp": "avatares/1024/avatar_vigia_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_vigia_vivo.png",
+            "webp": "avatares/512/avatar_vigia_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_vigia_vivo.png",
+            "webp": "avatares/256/avatar_vigia_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_vigia_muerto.png",
+            "webp": "avatares/1024/avatar_vigia_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_vigia_muerto.png",
+            "webp": "avatares/512/avatar_vigia_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_vigia_muerto.png",
+            "webp": "avatares/256/avatar_vigia_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "vigia_vivo",
+        "muerto": "vigia_muerto"
+      }
+    },
+    {
+      "id": "improvisador",
+      "role_id": "improvisador",
+      "titulo": "El Improvisador",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_improvisador_vivo.png",
+            "webp": "avatares/1024/avatar_improvisador_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_improvisador_vivo.png",
+            "webp": "avatares/512/avatar_improvisador_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_improvisador_vivo.png",
+            "webp": "avatares/256/avatar_improvisador_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_improvisador_muerto.png",
+            "webp": "avatares/1024/avatar_improvisador_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_improvisador_muerto.png",
+            "webp": "avatares/512/avatar_improvisador_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_improvisador_muerto.png",
+            "webp": "avatares/256/avatar_improvisador_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "improvisador_vivo",
+        "muerto": "improvisador_muerto"
+      }
+    },
+    {
+      "id": "tecnico",
+      "role_id": "tecnico",
+      "titulo": "El Técnico",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_tecnico_vivo.png",
+            "webp": "avatares/1024/avatar_tecnico_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_tecnico_vivo.png",
+            "webp": "avatares/512/avatar_tecnico_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_tecnico_vivo.png",
+            "webp": "avatares/256/avatar_tecnico_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_tecnico_muerto.png",
+            "webp": "avatares/1024/avatar_tecnico_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_tecnico_muerto.png",
+            "webp": "avatares/512/avatar_tecnico_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_tecnico_muerto.png",
+            "webp": "avatares/256/avatar_tecnico_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "tecnico_vivo",
+        "muerto": "tecnico_muerto"
+      }
+    },
+    {
+      "id": "detective",
+      "role_id": "detective",
+      "titulo": "El Detective",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_detective_vivo.png",
+            "webp": "avatares/1024/avatar_detective_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_detective_vivo.png",
+            "webp": "avatares/512/avatar_detective_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_detective_vivo.png",
+            "webp": "avatares/256/avatar_detective_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_detective_muerto.png",
+            "webp": "avatares/1024/avatar_detective_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_detective_muerto.png",
+            "webp": "avatares/512/avatar_detective_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_detective_muerto.png",
+            "webp": "avatares/256/avatar_detective_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "detective_vivo",
+        "muerto": "detective_muerto"
+      }
+    },
+    {
+      "id": "curandero",
+      "role_id": "curandera",
+      "titulo": "El Curandero",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_curandero_vivo.png",
+            "webp": "avatares/1024/avatar_curandero_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_curandero_vivo.png",
+            "webp": "avatares/512/avatar_curandero_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_curandero_vivo.png",
+            "webp": "avatares/256/avatar_curandero_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_curandero_muerto.png",
+            "webp": "avatares/1024/avatar_curandero_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_curandero_muerto.png",
+            "webp": "avatares/512/avatar_curandero_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_curandero_muerto.png",
+            "webp": "avatares/256/avatar_curandero_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "curandero_vivo",
+        "muerto": "curandero_muerto"
+      }
+    },
+    {
+      "id": "devota",
+      "role_id": "padre",
+      "titulo": "La Devota",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_devota_vivo.png",
+            "webp": "avatares/1024/avatar_devota_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_devota_vivo.png",
+            "webp": "avatares/512/avatar_devota_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_devota_vivo.png",
+            "webp": "avatares/256/avatar_devota_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_devota_muerto.png",
+            "webp": "avatares/1024/avatar_devota_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_devota_muerto.png",
+            "webp": "avatares/512/avatar_devota_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_devota_muerto.png",
+            "webp": "avatares/256/avatar_devota_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "devota_vivo",
+        "muerto": "devota_muerto"
+      }
+    },
+    {
+      "id": "sensitivo",
+      "role_id": "sensitiva",
+      "titulo": "El Sensitivo",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_sensitivo_vivo.png",
+            "webp": "avatares/1024/avatar_sensitivo_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_sensitivo_vivo.png",
+            "webp": "avatares/512/avatar_sensitivo_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_sensitivo_vivo.png",
+            "webp": "avatares/256/avatar_sensitivo_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_sensitivo_muerto.png",
+            "webp": "avatares/1024/avatar_sensitivo_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_sensitivo_muerto.png",
+            "webp": "avatares/512/avatar_sensitivo_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_sensitivo_muerto.png",
+            "webp": "avatares/256/avatar_sensitivo_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "sensitivo_vivo",
+        "muerto": "sensitivo_muerto"
+      }
+    },
+    {
+      "id": "guardaespaldas",
+      "role_id": "guardaespaldas",
+      "titulo": "El Guardaespaldas",
+      "estados": {
+        "vivo": {
+          "1024": {
+            "png": "avatares/1024/avatar_guardaespaldas_vivo.png",
+            "webp": "avatares/1024/avatar_guardaespaldas_vivo.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_guardaespaldas_vivo.png",
+            "webp": "avatares/512/avatar_guardaespaldas_vivo.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_guardaespaldas_vivo.png",
+            "webp": "avatares/256/avatar_guardaespaldas_vivo.webp"
+          }
+        },
+        "muerto": {
+          "1024": {
+            "png": "avatares/1024/avatar_guardaespaldas_muerto.png",
+            "webp": "avatares/1024/avatar_guardaespaldas_muerto.webp"
+          },
+          "512": {
+            "png": "avatares/512/avatar_guardaespaldas_muerto.png",
+            "webp": "avatares/512/avatar_guardaespaldas_muerto.webp"
+          },
+          "256": {
+            "png": "avatares/256/avatar_guardaespaldas_muerto.png",
+            "webp": "avatares/256/avatar_guardaespaldas_muerto.webp"
+          }
+        }
+      },
+      "estado_muerto": "Espíritu translúcido, misma identidad y ropa",
+      "atlas_frames": {
+        "vivo": "guardaespaldas_vivo",
+        "muerto": "guardaespaldas_muerto"
+      }
+    }
+  ]
+}

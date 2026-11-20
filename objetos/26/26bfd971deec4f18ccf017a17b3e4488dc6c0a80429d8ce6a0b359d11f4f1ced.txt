@@ -1,0 +1,6 @@
+NOCHE DE ÁNIMAS v09
+Abrir Galeria_v09.html. Paquete completo de 8 roles: 6 conservados de v05; Técnico y Devota actualizados.
+Cartas PNG 580x880 y 1160x1760, WebP; artes sin marco. Avatares estáticos vivo/muerto (espíritu), RGBA PNG/WebP 1024/512/256; atlas 4096x1024 y manifiestos con rutas compatibles. Devota conserva role_id padre para compatibilidad.
+Técnico base: asistente viva. Variante opcional: asistente fantasma. El estado muerto corresponde al Técnico, no a su asistente.
+No incluye animaciones ni nuevas expresiones emocionales: usa los mismos dos estados de los demás roles. No cambia reglas. Fotografías personales excluidas del ZIP.
+Generación: image_gen integrada. Prompts en prompts_v09.json.
