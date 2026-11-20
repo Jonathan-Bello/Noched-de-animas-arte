@@ -1,0 +1,236 @@
+{
+  "fecha": "2026-11-20",
+  "mapa": [
+    {
+      "ruta_local": "2026-11-13",
+      "destino_logico": "cartas_arte",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "2026-11-16",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Alex_Curandero_Prueba_Repositorio_v05.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Alexis_Curandero_Lowpoly_Sin_Rostro_v03.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Alexis_Curandero_VectorSculpture_v04.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Arte_Conceptual_3D_v01",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Arte_Produccion_3D_v02",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Avance_Grafico_v10",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Decoracion_Casona_v13",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Decoracion_Casona_v14",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Decoracion_Casona_v15",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Decoracion_Casona_v16",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Editor_v20",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Editor_v21",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Elenco_Revision_v07",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Elenco_Revision_v07.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "fuentes_v09.json",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "importar_biblioteca_arte.py",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Instrumentos_v17",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Integracion_Arte_Alex",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Modelo_Curandero_Lowpoly_v03",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Modelo_Curandero_VectorSculpture_v04",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "montar_actualizacion_v09.py",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "montar_espiritu_v10.py",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Muebles_v19",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Arte_para_Claude_v02.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Catalogo_Visual_v3 (1).pdf",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Catalogo_Visual_v3.pdf",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Espiritu_v10",
+      "destino_logico": "cartas_arte",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Roles_v04",
+      "destino_logico": "cartas_arte",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Roles_v05",
+      "destino_logico": "cartas_arte",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_Roles_v09",
+      "destino_logico": "cartas_arte",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos.pdf",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos_v3.pdf",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Objetos_v18",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Plano_Casona_v11",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Plano_Casona_v11_Para_Claude.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Prueba_Alex_Repositorio_v05",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "QA_Arte_Alex",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "QA_Modelos_v09",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "QA_Modelos_v10",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Reconstruccion_Casona_v11",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Revision_Casona_v12",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Revision_Visual_v09",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Sensitivo_Revision_v06",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    },
+    {
+      "ruta_local": "Sensitivo_Revision_v06.zip",
+      "destino_logico": "3d_o_integracion_separada",
+      "original_conservado": true
+    }
+  ],
+  "politica": "No mover ni borrar originales; código del juego de cartas y del 3D fuera de esta biblioteca."
+}

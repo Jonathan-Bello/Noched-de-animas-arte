@@ -1,0 +1,20 @@
+{
+  "fuentes": 1397,
+  "objetos_unicos": 1136,
+  "bytes_unicos": 1515684197,
+  "fechas_observadas": [
+    "2026-11-10",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "cartas_base_aprobadas": 99,
+  "reversos_base_aprobados": 15,
+  "fotos_publicadas": 0,
+  "vacios": [
+    "Noche_de_Animas_Catalogo_Visual_v3.pdf",
+    "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos.pdf",
+    "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos_v3.pdf"
+  ]
+}

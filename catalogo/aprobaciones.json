@@ -1,0 +1,45 @@
+{
+  "advertencia": "Aprobación de identidad no implica aprobación de cada escena/exportación. Fotografías no incluidas.",
+  "registros": [
+    {
+      "id": "base-cartas-2026-11-14",
+      "alcance": "cartas_base",
+      "estado": "aprobado",
+      "fecha": "2026-11-14",
+      "evidencia": "AGENTS.md de Noche_de_Animas_Importacion_Web indica imágenes actuales aprobadas; guía registra siete rediseños aprobados e integrados.",
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Importacion_Web/AGENTS.md"
+    },
+    {
+      "id": "identidades-v03",
+      "alcance": "identidad_y_estilo_facial; no todas las escenas posteriores",
+      "estado": "aprobado",
+      "fecha": "2026-11-15",
+      "evidencia": "rasgos_ilustrados_aprobados_v03.json registra aprobación expresa de personajes v03."
+    },
+    {
+      "id": "tecnico-v08",
+      "alcance": "arte_sin_marco_con_asistente_piernas_corregidas",
+      "estado": "aprobado",
+      "fecha_precision": "contexto de conversación; día aproximado",
+      "evidencia": "En este chat el usuario respondió Perfecto tras la corrección de piernas y solicitó sus variantes; guía actualizacion_devota_tecnico_v09 registra aceptación de v08.",
+      "fecha_contexto_aproximada": null,
+      "fecha": null
+    },
+    {
+      "id": "manifestar-original",
+      "alcance": "arte_y_carta_original_manifestar",
+      "estado": "aprobado",
+      "fecha_precision": "contexto de conversación; día aproximado",
+      "evidencia": "Usuario en este chat: el de manifestacion esta bien; solicitó otra versión como alternativa.",
+      "fecha_contexto_aproximada": null,
+      "fecha": null
+    },
+    {
+      "id": "vigia-revision-2026-11-20",
+      "alcance": "identidad_actual_vigia",
+      "estado": "requiere_correccion",
+      "fecha": "2026-11-20",
+      "evidencia": "Usuario pide rehacer el Vigía porque se desvió del modelo original."
+    }
+  ]
+}

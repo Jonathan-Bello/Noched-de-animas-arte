@@ -1,0 +1,101 @@
+{
+  "fecha": "2026-11-15",
+  "fuente": "Usuario: Ame el arte y los personajes. Conservar personajes de esta primera versión; adaptar escenas del listado posterior.",
+  "consulta_obligatoria": "Antes de generar nuevas escenas de estos roles, abrir las referencias v03. Conservar las caras caricaturizadas; las fotos son apoyo de identidad, no estilo.",
+  "acabado": "Ojos crema con pupila oscura simple, cejas por formas, planos de nariz/mentón, piel mate sin poros ni iris fotográfico; conservar volumen, tonos medios y grano impreso en escena/ropa.",
+  "personajes": [
+    {
+      "id": "vigia",
+      "role_id": "vigia",
+      "titulo": "El Vigía",
+      "modelo": "Jhonnatan / Jonathan",
+      "leyenda": "La sombra cambió de sitio. Él no apartó la mirada.",
+      "rasgos_invariantes": "Jhonnatan: rostro ovalado algo alargado, mentón suave; cabello oscuro medio con apertura central y mechones hasta nuca; cejas anchas simples; sin lentes ni barba marcada. Complexión similar a Alexis; más alto que Alexis, sin orden frente a Roberto/Jorge.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_vigia.png",
+      "sha256": "961e86ab966e0a11b8cea30a3a38d622abd7eb9b74291561165f423702185379",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "improvisador",
+      "role_id": "improvisador",
+      "titulo": "El Improvisador",
+      "modelo": "Ángel",
+      "leyenda": "Con lo que quedaba, todavía podía intentarlo.",
+      "rasgos_invariantes": "Ángel: cuerpo esbelto, rostro largo y estrecho, mentón fino; pelo oscuro con flequillo, lentes rectangulares negros gruesos, cejas oscuras. Chaqueta roja con capucha, bordado y cordones crema como ancla de vestuario; sin barba.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_improvisador.png",
+      "sha256": "b949ccf2fefbf37fcd406ffbd8a9ab23e1f85d295675e7a3b57c50b6d92292a2",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "tecnico",
+      "role_id": "tecnico",
+      "titulo": "El Técnico",
+      "modelo": "Robert",
+      "leyenda": "Entre dos chasquidos, alguien dijo mi nombre.",
+      "rasgos_invariantes": "Robert/Roberto: torso robusto y hombros amplios, rostro ancho y mejillas llenas, mentón redondeado; pelo oscuro corto con mechón elevado; sin lentes ni barba. Ojos cerrados como curvas en versión aprobada. No copiar rostro de Jorge.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_tecnico.png",
+      "sha256": "520162e9452eddea2ee147ebe629127b53bae8775fcac8818292fa8657fcf3fc",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "detective",
+      "role_id": "detective",
+      "titulo": "El Detective",
+      "modelo": "Fermín",
+      "leyenda": "La pista estaba donde nadie había querido mirar.",
+      "rasgos_invariantes": "Fermín: rostro ovalado, frente amplia, mentón suave; pelo corto oscuro con volumen superior ondulado/rizado y laterales cortos; cejas marcadas; sin lentes, barba o bigote. Vestuario nuevo inspirado en Tomás, conservando cara de Fermín.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_detective.png",
+      "sha256": "d9d0d9d35763254c3a2f0fed4311f2ca3d9423b78b89003896754f17e7989b3a",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "curandero",
+      "role_id": "curandera",
+      "titulo": "El Curandero",
+      "modelo": "Alexis · natural",
+      "leyenda": "El té calmó el temblor. La casa seguía despierta.",
+      "rasgos_invariantes": "Alexis natural: rostro ovalado algo alargado, cejas oscuras anchas; pelo oscuro partido cerca del centro con mechas rojizas; lentes grandes rectangulares redondeados de armazón claro fino; sin barba ni bigote. Camisa guinda bordada y chaleco petróleo. Variante masculina del Curandero.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_curandero.png",
+      "sha256": "af7ceb1255bbfbbd3b4b4057c3c82c3bc3cd23560e27788694a3cda6c357862b",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "devota",
+      "role_id": "padre",
+      "titulo": "La Devota",
+      "modelo": "Chica provisional, sin persona real de referencia",
+      "leyenda": "Apreté las cuentas. Alguien contó conmigo.",
+      "rasgos_invariantes": "Chica ficticia provisional: bob corto oscuro ondulado/rizado, rostro ovalado levemente anguloso, cejas anchas, aros dorados; blusa marfil con bordado floral guinda, rebozo petróleo, falda vino. Mantener cara aprobada hasta recibir modelo real. No es el padre Mateo.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_devota.png",
+      "sha256": "5c40ac7456f5bed7a853c2f6ca3c471d2b6a02e36c0ae495a8e6fd02f7346a0a",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "sensitivo",
+      "role_id": "sensitiva",
+      "titulo": "El Sensitivo",
+      "modelo": "Alexis · catrina",
+      "leyenda": "El último susurro no se fue con quien lo escuchó.",
+      "rasgos_invariantes": "Alexis catrina: misma identidad de Alexis natural, sin lentes en esta variante; cabello oscuro partido con mechas rojas. Maquillaje blanco, ojos rodeados de rojo y festón negro, nariz negra, sonrisa extendida roja/negra, pétalos en frente/mentón y pequeña cruz frontal. Es hombre vivo maquillado, no un cadáver ni mujer ni forma espíritu.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_sensitivo.png",
+      "sha256": "6b18c4ff306e071406f7c15abf46f3291fb38d4aca63c44fe7651f4a35d4c8b4",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    },
+    {
+      "id": "guardaespaldas",
+      "role_id": "guardaespaldas",
+      "titulo": "El Guardaespaldas",
+      "modelo": "Jorge",
+      "leyenda": "Dio un paso al frente. La sombra se detuvo.",
+      "rasgos_invariantes": "Jorge: torso robusto, rostro ancho redondeado y mejillas llenas, pelo oscuro corto con flequillo; lentes rectangulares finos oscuros, cejas marcadas, sin barba ni bigote. Abrigo largo taupe/oliva sobre negro. No copiar rostro/altura de Robert.",
+      "referencia_ilustrada": "outputs/Expansion_Roles_Arte_v03/artes/rol_guardaespaldas.png",
+      "sha256": "f2bde6e011b380bd01aa0fcf26ffb49fcb12bf6cc3c05c0a944e81bf789c92c0",
+      "estado": "Arte e identidad aprobados expresamente por usuario el 15 nov 2026"
+    }
+  ],
+  "cambios_autorizados_siguiente_revision": "Cambiar escenas según listado del usuario. Vestuario ligeramente modificable salvo Vigía y Técnico que requieren cambio claro y Detective que usará prendas inspiradas en Tomás sin copiar su cara/bigote. Curandera->Curandero; Padre->Devota; Sensitiva->Sensitivo. No actualizar mecánicas con descripciones del brief artístico.",
+  "actualizaciones_posteriores": {
+    "devota": "devota_modelo_real/rasgos.json: nueva modelo proporcionada por usuario; reemplaza referencia provisional para próximas generaciones",
+    "tecnico": "D:/Noche de las Animas/Noche_de_Animas_Roles_v09/artes/rol_tecnico.png: rostro actualizado y continuidad de piernas de asistente corregida"
+  }
+}
