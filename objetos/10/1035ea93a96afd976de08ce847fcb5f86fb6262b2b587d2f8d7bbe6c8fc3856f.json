@@ -1,0 +1,75 @@
+{
+  "estado": "Revisión de arte y catálogo; aprobación final pendiente",
+  "ilustraciones": {
+    "id15": [
+      1173,
+      1341
+    ],
+    "id16": [
+      1174,
+      1340
+    ],
+    "id17": [
+      1174,
+      1339
+    ],
+    "id18": [
+      1174,
+      1339
+    ],
+    "id19": [
+      1174,
+      1340
+    ],
+    "id20": [
+      1175,
+      1339
+    ],
+    "id21": [
+      1174,
+      1340
+    ],
+    "p07": [
+      1174,
+      1340
+    ],
+    "s15": [
+      1174,
+      1340
+    ],
+    "s16": [
+      1174,
+      1340
+    ],
+    "s17": [
+      1174,
+      1340
+    ],
+    "s18": [
+      1174,
+      1340
+    ],
+    "s19": [
+      1174,
+      1340
+    ],
+    "s20": [
+      1174,
+      1340
+    ],
+    "s21": [
+      1175,
+      1339
+    ]
+  },
+  "metodo": "Herramienta integrada image_gen; conceptos aprobados conservados; 14 parejas originales revisadas",
+  "frentes_corregidos": 16,
+  "identidades_nuevas_sin_numero": true,
+  "titulos_alineados_izquierda": true,
+  "leyendas_maximo_lineas": 2,
+  "corte_mm": [
+    58,
+    88
+  ],
+  "certificacion_imprenta": false
+}

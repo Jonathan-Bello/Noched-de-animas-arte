@@ -1,0 +1,165 @@
+{
+  "cartas": 148,
+  "paginas": 296,
+  "dimensiones_mm": [
+    58,
+    88
+  ],
+  "sangrado_mm": 0,
+  "cajas_iguales": true,
+  "orden_frente_impar_reverso_par": true,
+  "paginas_originales_comparadas_identicas": 261,
+  "paginas_renderizadas": 296,
+  "perfil_salida": "FOGRA39 - ISO Coated v2 300% (ECI)",
+  "perfil_fuente": "https://eci.org/lib/exe/eci_offset_2009.zip",
+  "pdf_x4_declarado": true,
+  "pdf_x4_certificado": false,
+  "nota_pdfx": "Se incorpora perfil de salida; no se declara conformidad PDF/X-4 sin un validador de preimpresión independiente.",
+  "reglas": [
+    {
+      "reverso": "R01",
+      "bloque": "1. Completa tu mano",
+      "lineas": 2
+    },
+    {
+      "reverso": "R01",
+      "bloque": "2. Puedes acusar",
+      "lineas": 2
+    },
+    {
+      "reverso": "R01",
+      "bloque": "3. Actúa",
+      "lineas": 2
+    },
+    {
+      "reverso": "R01",
+      "bloque": "Improvisa",
+      "lineas": 2
+    },
+    {
+      "reverso": "R01",
+      "bloque": "Después",
+      "lineas": 2
+    },
+    {
+      "reverso": "R01",
+      "bloque": "Manos secretas",
+      "lineas": 1
+    },
+    {
+      "reverso": "R02",
+      "bloque": "Paga 1 de cordura",
+      "lineas": 2
+    },
+    {
+      "reverso": "R02",
+      "bloque": "Dado: 4, 5 o 6",
+      "lineas": 2
+    },
+    {
+      "reverso": "R02",
+      "bloque": "Kit e improvisar",
+      "lineas": 2
+    },
+    {
+      "reverso": "R02",
+      "bloque": "Sí = confirmada",
+      "lineas": 2
+    },
+    {
+      "reverso": "R02",
+      "bloque": "Las pistas pueden mentir",
+      "lineas": 2
+    },
+    {
+      "reverso": "R03",
+      "bloque": "Cacería: 4 o menos",
+      "lineas": 2
+    },
+    {
+      "reverso": "R03",
+      "bloque": "Defensas",
+      "lineas": 2
+    },
+    {
+      "reverso": "R03",
+      "bloque": "Ruda",
+      "lineas": 2
+    },
+    {
+      "reverso": "R03",
+      "bloque": "Al morir",
+      "lineas": 2
+    },
+    {
+      "reverso": "R03",
+      "bloque": "El Alba",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Juega 1 y repón",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Dos habilidades",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Responde con verdad",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Espanto: una sola vez",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Victoria del Espanto",
+      "lineas": 2
+    },
+    {
+      "reverso": "R04",
+      "bloque": "Otras victorias",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "Sin voz",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "Responde…",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "…o juega",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "Eco",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "Velar",
+      "lineas": 2
+    },
+    {
+      "reverso": "R05",
+      "bloque": "Silencio del ánima",
+      "lineas": 1
+    }
+  ],
+  "imagenes_por_espacio_color": {
+    "/DeviceCMYK": 100,
+    "/DeviceGray": 1
+  },
+  "fuentes_sin_incrustar_detectadas": []
+}

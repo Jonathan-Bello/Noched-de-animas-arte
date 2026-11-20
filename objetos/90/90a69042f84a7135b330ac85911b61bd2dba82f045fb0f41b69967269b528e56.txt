@@ -1,0 +1,11 @@
+PARA EL OTRO CHAT QUE DESARROLLA EL VIDEOJUEGO
+
+Integra este paquete en el proyecto web existente de Noche de Ánimas.
+1. Lee LEEME.txt y manifest.json antes de editar el proyecto.
+2. Usa las imágenes y los IDs suministrados; no generes arte ni cambies títulos, marco, leyendas o composición.
+3. Hay 99 definiciones, 15 reversos y 148 instancias; cada copia tiene instanceId propio. Respeta quantity y backId.
+4. Los siete rediseños ya fueron aprobados por el usuario. En o02 ambas manos tocan el puntero sobre SÍ; el alfabeto completo es intencional.
+5. Mantén la lógica e interfaz del proyecto actual. Usa el cargador ES module o adapta el JSON a su modelo de cartas. Las rutas son relativas a la carpeta raíz del paquete.
+6. Separa inventario de mazos de juego; usa el reglamento v4 suministrado como referencia para la preparación. No inventes efectos a partir de las imágenes.
+7. Antes de cualquier cambio futuro al arte, consulta la guía artística y pide el cambio de alcance al usuario si no lo ha solicitado.
+8. Verifica la carga de frentes/reversos y el conteo de copias. El ejemplo y npm run check son referencias de integración, no un motor de juego.

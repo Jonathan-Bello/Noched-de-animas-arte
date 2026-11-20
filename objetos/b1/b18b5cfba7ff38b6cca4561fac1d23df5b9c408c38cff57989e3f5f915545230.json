@@ -1,0 +1,4705 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "Noche de Ánimas",
+  "edition": "08",
+  "variant": "B sin franja de iconos",
+  "revision": "2026-11-14-approved-redesigns",
+  "language": "es-MX",
+  "cardSize": {
+    "width": 580,
+    "height": 880,
+    "aspectRatio": 0.6590909090909091,
+    "unit": "logical-pixels",
+    "physicalWidthMm": 58,
+    "physicalHeightMm": 88
+  },
+  "colorSpace": "sRGB",
+  "counts": {
+    "cardDefinitions": 99,
+    "backDefinitions": 15,
+    "instances": 148,
+    "atlasPages": 5
+  },
+  "cards": [
+    {
+      "id": "i01",
+      "name": "Termómetro",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i01.webp",
+        "png": "assets/png/cards/i01.png",
+        "thumbnail": "assets/thumbs/cards/i01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e6939243aaff5548127aa7aaa53edd568976bc048f85a6ce02f78aed3f24d8e3",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i01",
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 1
+    },
+    {
+      "id": "i02",
+      "name": "Lámpara UV",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i02.webp",
+        "png": "assets/png/cards/i02.png",
+        "thumbnail": "assets/thumbs/cards/i02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "9616aad941a3ce31f0558ff0aa080a5bf6b4ed154ba9561384590a5b89885270",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i02",
+          "frame": {
+            "x": 592,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 5
+    },
+    {
+      "id": "i03",
+      "name": "Grabadora",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i03.webp",
+        "png": "assets/png/cards/i03.png",
+        "thumbnail": "assets/thumbs/cards/i03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6e6d485f20fb8e0160adf75c0c8724c25cc716b00980adb77f5bca9aa1538ca0",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i03",
+          "frame": {
+            "x": 1180,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 9
+    },
+    {
+      "id": "i04",
+      "name": "Cámara de movimiento",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i04.webp",
+        "png": "assets/png/cards/i04.png",
+        "thumbnail": "assets/thumbs/cards/i04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6ea18baa6702b1e195628a0f1cda696f7da05601c6d663794cd4e16be5277c71",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i04",
+          "frame": {
+            "x": 1768,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 13
+    },
+    {
+      "id": "i05",
+      "name": "Detector EMF",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i05.webp",
+        "png": "assets/png/cards/i05.png",
+        "thumbnail": "assets/thumbs/cards/i05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6cb5f29ac4fb4079fcc8f7d8cbc666b2c49c5e3978cb339b686d6eca34794bda",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i05",
+          "frame": {
+            "x": 2356,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 17
+    },
+    {
+      "id": "i06",
+      "name": "Espejo de mano",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i06.webp",
+        "png": "assets/png/cards/i06.png",
+        "thumbnail": "assets/thumbs/cards/i06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "61754be45abdb74c5b39e82ebc13ea0c04ac133ec4e40905d7df29cf05c1d015",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i06",
+          "frame": {
+            "x": 2944,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 21
+    },
+    {
+      "id": "i07",
+      "name": "Sensor de gases",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i07.webp",
+        "png": "assets/png/cards/i07.png",
+        "thumbnail": "assets/thumbs/cards/i07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a41c15cf6e76b7ecb8a15490b1d47da0ac606b971ad17acfcb37d6eda95ce023",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i07",
+          "frame": {
+            "x": 4,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 25
+    },
+    {
+      "id": "i08",
+      "name": "Kit de campo",
+      "category": "investigador",
+      "quantity": 6,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i08.webp",
+        "png": "assets/png/cards/i08.png",
+        "thumbnail": "assets/thumbs/cards/i08.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "72cc2bc9ffd897884b0249d69937396f611014ab110c41d31551b6029aced9b8",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i08",
+          "frame": {
+            "x": 592,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 29
+    },
+    {
+      "id": "i09",
+      "name": "Té de tila",
+      "category": "investigador",
+      "quantity": 8,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i09.webp",
+        "png": "assets/png/cards/i09.png",
+        "thumbnail": "assets/thumbs/cards/i09.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "b8f4a8d1a0f1b57c051ebb3d821579b00e7ed320795fa54396024222b6d29d2b",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i09",
+          "frame": {
+            "x": 1180,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 41
+    },
+    {
+      "id": "i10",
+      "name": "Respirar hondo",
+      "category": "investigador",
+      "quantity": 4,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i10.webp",
+        "png": "assets/png/cards/i10.png",
+        "thumbnail": "assets/thumbs/cards/i10.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e0dac7f28336459479292bde481aa43f6d2f2fe30a2c0b52bebf2386fdf9250d",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i10",
+          "frame": {
+            "x": 1768,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 57
+    },
+    {
+      "id": "i11",
+      "name": "Rosario",
+      "category": "investigador",
+      "quantity": 7,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i11.webp",
+        "png": "assets/png/cards/i11.png",
+        "thumbnail": "assets/thumbs/cards/i11.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "97299077a43b95549c7e206a10753b4ef9929cca8e31b875331201368571f998",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i11",
+          "frame": {
+            "x": 2356,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 65
+    },
+    {
+      "id": "i12",
+      "name": "Esconderse",
+      "category": "investigador",
+      "quantity": 3,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i12.webp",
+        "png": "assets/png/cards/i12.png",
+        "thumbnail": "assets/thumbs/cards/i12.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e39d5b8445747403491fccee75e881646e4c56954bd78a025dd89f7529559445",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i12",
+          "frame": {
+            "x": 2944,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 79
+    },
+    {
+      "id": "i13",
+      "name": "Ruda",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i13.webp",
+        "png": "assets/png/cards/i13.png",
+        "thumbnail": "assets/thumbs/cards/i13.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "c81137c5d319f461aa579de6e086e9ae129b9b5f72d71c5ac163f9f0ecd3fde7",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i13",
+          "frame": {
+            "x": 4,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 85
+    },
+    {
+      "id": "i14",
+      "name": "Copal",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i14.webp",
+        "png": "assets/png/cards/i14.png",
+        "thumbnail": "assets/thumbs/cards/i14.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "126862f890620f11c9f3af5a5b05fcb1f816767228d8709df2fb73f5bff1be76",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i14",
+          "frame": {
+            "x": 592,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 89
+    },
+    {
+      "id": "i15",
+      "name": "Ultraje espiritual",
+      "category": "investigador",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/i15.webp",
+        "png": "assets/png/cards/i15.png",
+        "thumbnail": "assets/thumbs/cards/i15.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f46621ca9c99134edc7ceada77631fdcfde559369b4ffbbfcc14c43ae8f3b33a",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/i15",
+          "frame": {
+            "x": 1180,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 93
+    },
+    {
+      "id": "a01",
+      "name": "Escalofrío",
+      "category": "anima_comun",
+      "quantity": 5,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a01.webp",
+        "png": "assets/png/cards/a01.png",
+        "thumbnail": "assets/thumbs/cards/a01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "670c921d6c326049538f714376d1b5471252d2041fec1444528d726bb0a25b15",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a01",
+          "frame": {
+            "x": 1768,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 97
+    },
+    {
+      "id": "a02",
+      "name": "Portazo",
+      "category": "anima_comun",
+      "quantity": 3,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a02.webp",
+        "png": "assets/png/cards/a02.png",
+        "thumbnail": "assets/thumbs/cards/a02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "2e5736baab066d2b4996944db0ae7f0ea65acc2177b0c5cfea50298b16f057c1",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a02",
+          "frame": {
+            "x": 2356,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 107
+    },
+    {
+      "id": "a03",
+      "name": "Travesura",
+      "category": "anima_comun",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a03.webp",
+        "png": "assets/png/cards/a03.png",
+        "thumbnail": "assets/thumbs/cards/a03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e48d9be0d06621f91bc112c44b3da999e4eabd6c2d386bef5ba2af1b3a718904",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a03",
+          "frame": {
+            "x": 2944,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 113
+    },
+    {
+      "id": "a04",
+      "name": "Manifestación",
+      "category": "anima_comun",
+      "quantity": 3,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a04.webp",
+        "png": "assets/png/cards/a04.png",
+        "thumbnail": "assets/thumbs/cards/a04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "54616a014098fec2c86efc52b2f136236d755d998aaa241564588ed4854b5e05",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a04",
+          "frame": {
+            "x": 4,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 115
+    },
+    {
+      "id": "a05",
+      "name": "Posesión demoníaca",
+      "category": "anima_comun",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a05.webp",
+        "png": "assets/png/cards/a05.png",
+        "thumbnail": "assets/thumbs/cards/a05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e79d06946c85053bc35adfe5162d27f5d92a03b9ba71a6b6974127cf02b12fb4",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a05",
+          "frame": {
+            "x": 592,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 121
+    },
+    {
+      "id": "a06",
+      "name": "Interferencia",
+      "category": "anima_comun",
+      "quantity": 3,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a06.webp",
+        "png": "assets/png/cards/a06.png",
+        "thumbnail": "assets/thumbs/cards/a06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "763a1211e95cd71a44b15074ef395e2c09d716c51ed9372517d71ebaa3e55d54",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a06",
+          "frame": {
+            "x": 1180,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 123
+    },
+    {
+      "id": "a07",
+      "name": "Presencia",
+      "category": "anima_comun",
+      "quantity": 2,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a07.webp",
+        "png": "assets/png/cards/a07.png",
+        "thumbnail": "assets/thumbs/cards/a07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f9467550614c8970e74664a424bf3b3b7cd224ad9e58ac57ecd7da312949f0ea",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a07",
+          "frame": {
+            "x": 1768,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 129
+    },
+    {
+      "id": "a08",
+      "name": "Cacería",
+      "category": "anima_comun",
+      "quantity": 4,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a08.webp",
+        "png": "assets/png/cards/a08.png",
+        "thumbnail": "assets/thumbs/cards/a08.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "ba5155bd0cf89e01a80c53812baebb235e3853d60207ff7b2e6f04840d91c792",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a08",
+          "frame": {
+            "x": 2356,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 133
+    },
+    {
+      "id": "a09",
+      "name": "Cacería total",
+      "category": "anima_comun",
+      "quantity": 2,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/a09.webp",
+        "png": "assets/png/cards/a09.png",
+        "thumbnail": "assets/thumbs/cards/a09.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "0eb4bb6f1c3d6a6468d8a83a73289425404582a6f0b8cd22063f77d3df6f6dff",
+        "atlas": {
+          "image": "assets/atlases/atlas-01.webp",
+          "json": "assets/atlases/atlas-01.json",
+          "key": "front/a09",
+          "frame": {
+            "x": 2944,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 141
+    },
+    {
+      "id": "e01",
+      "name": "Bajo cero",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e01.webp",
+        "png": "assets/png/cards/e01.png",
+        "thumbnail": "assets/thumbs/cards/e01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "58a005ebd8ace2548b87a587b2c6b828507489f27418d9f705efe47e698de8af",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e01",
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 145
+    },
+    {
+      "id": "e02",
+      "name": "Huellas de ceniza",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e02.webp",
+        "png": "assets/png/cards/e02.png",
+        "thumbnail": "assets/thumbs/cards/e02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "2a2f7ebaef4943da35dce9f92e17ab7e251280613e4f049d2a9ab7153de69ad5",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e02",
+          "frame": {
+            "x": 592,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 147
+    },
+    {
+      "id": "e03",
+      "name": "Susurros",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e03.webp",
+        "png": "assets/png/cards/e03.png",
+        "thumbnail": "assets/thumbs/cards/e03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a10da3d9e28017fea102363ed3385f96e1ba71a4754e6b0241173aa97034f74d",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e03",
+          "frame": {
+            "x": 1180,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 149
+    },
+    {
+      "id": "e04",
+      "name": "Objetos movidos",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e04.webp",
+        "png": "assets/png/cards/e04.png",
+        "thumbnail": "assets/thumbs/cards/e04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "7b5338b416dd6d205797ca222a302d9876e8018bc1d122c8457eae6e8f7a780b",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e04",
+          "frame": {
+            "x": 1768,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 151
+    },
+    {
+      "id": "h01",
+      "name": "Helada",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h01.webp",
+        "png": "assets/png/cards/h01.png",
+        "thumbnail": "assets/thumbs/cards/h01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "274076d27c99bba6481edd958d6ac2fc0e7a76c23301ea55e9acd36a205cdd68",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h01",
+          "frame": {
+            "x": 2356,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 153
+    },
+    {
+      "id": "h02",
+      "name": "Acecho",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h02.webp",
+        "png": "assets/png/cards/h02.png",
+        "thumbnail": "assets/thumbs/cards/h02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "9ecee22f66122ec4daa5143b7287f797498ee26158233abbdad070a2774c7e45",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h02",
+          "frame": {
+            "x": 2944,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 155
+    },
+    {
+      "id": "h03",
+      "name": "Lamento",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h03.webp",
+        "png": "assets/png/cards/h03.png",
+        "thumbnail": "assets/thumbs/cards/h03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f92f758d554f8efe4803705ef44785a01248dba226cdd2ec2f4bb923d786c4aa",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h03",
+          "frame": {
+            "x": 4,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 157
+    },
+    {
+      "id": "h04",
+      "name": "Lluvia de objetos",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h04.webp",
+        "png": "assets/png/cards/h04.png",
+        "thumbnail": "assets/thumbs/cards/h04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "fa3d95a6dc04080da7b7de1562696cc9ca7d56561b079d1d4398679904964685",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h04",
+          "frame": {
+            "x": 592,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 159
+    },
+    {
+      "id": "e05",
+      "name": "Luces parpadeantes",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e05.webp",
+        "png": "assets/png/cards/e05.png",
+        "thumbnail": "assets/thumbs/cards/e05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "876a09fe294681592dc45ff3f81a0181b6a80446ae0d1894c869a76465a58828",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e05",
+          "frame": {
+            "x": 1180,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 161
+    },
+    {
+      "id": "e06",
+      "name": "Marcas en el espejo",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e06.webp",
+        "png": "assets/png/cards/e06.png",
+        "thumbnail": "assets/thumbs/cards/e06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "54137d8ed18b7859e02444a83a84b0807c5761e7ac7850f25e6f2d17c558db6c",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e06",
+          "frame": {
+            "x": 1768,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 163
+    },
+    {
+      "id": "e07",
+      "name": "Olor a azufre",
+      "category": "evidencia",
+      "quantity": 1,
+      "backId": "back05",
+      "front": {
+        "webp": "assets/cards/e07.webp",
+        "png": "assets/png/cards/e07.png",
+        "thumbnail": "assets/thumbs/cards/e07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "11909671df7f0ade0938b5b8dec4013f1c53c73642970f54db036e8f42b609c0",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/e07",
+          "frame": {
+            "x": 2356,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 165
+    },
+    {
+      "id": "h05",
+      "name": "Apagón",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h05.webp",
+        "png": "assets/png/cards/h05.png",
+        "thumbnail": "assets/thumbs/cards/h05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "949991d5b9e9f2e7df8a0069be5327202b96478ab75fe9a0eacd6858fb045ddc",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h05",
+          "frame": {
+            "x": 2944,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 167
+    },
+    {
+      "id": "h06",
+      "name": "Arrastrar",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h06.webp",
+        "png": "assets/png/cards/h06.png",
+        "thumbnail": "assets/thumbs/cards/h06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "14f005a103db03e9b9677a3fc8ce40d9506fab1eab4aad59789903d958dc5a34",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h06",
+          "frame": {
+            "x": 4,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 169
+    },
+    {
+      "id": "h07",
+      "name": "Furia",
+      "category": "habilidad_evidencia",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/h07.webp",
+        "png": "assets/png/cards/h07.png",
+        "thumbnail": "assets/thumbs/cards/h07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "d589c48fd6a66c418ca95ec918be08227b9bd987b9907d3c7e4de64c2162fc18",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/h07",
+          "frame": {
+            "x": 592,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 171
+    },
+    {
+      "id": "id01",
+      "name": "La Llorona",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id01.webp",
+        "png": "assets/png/cards/id01.png",
+        "thumbnail": "assets/thumbs/cards/id01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "7f10679a125b27416a0005481b50c97ec71932687ab32e64ef87c8d69883dfc9",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id01",
+          "frame": {
+            "x": 1180,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 173
+    },
+    {
+      "id": "id02",
+      "name": "Nahual",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id02.webp",
+        "png": "assets/png/cards/id02.png",
+        "thumbnail": "assets/thumbs/cards/id02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "20d6c642c81ce30f3ca5cfdce09e1f4bd22f1ee9b4422359d29631fabc441cfd",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id02",
+          "frame": {
+            "x": 1768,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 175
+    },
+    {
+      "id": "id03",
+      "name": "Ánima en pena",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id03.webp",
+        "png": "assets/png/cards/id03.png",
+        "thumbnail": "assets/thumbs/cards/id03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "89ef6e3184459fa644be7b91d9cc0ba224a8ab3245763a84d91733ea8834fca6",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id03",
+          "frame": {
+            "x": 2356,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 177
+    },
+    {
+      "id": "id04",
+      "name": "Demonio",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id04.webp",
+        "png": "assets/png/cards/id04.png",
+        "thumbnail": "assets/thumbs/cards/id04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "5c5e43bfdf90a2700f1a8655c8ecd2660aa7985afa2dad08829a72568fef79aa",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id04",
+          "frame": {
+            "x": 2944,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 179
+    },
+    {
+      "id": "s01",
+      "name": "Llanto eterno",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s01.webp",
+        "png": "assets/png/cards/s01.png",
+        "thumbnail": "assets/thumbs/cards/s01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a9fa62f3c8e73bceea3c414f7ce153b0db69a9360dd659f99f35abc402d7a833",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/s01",
+          "frame": {
+            "x": 4,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 181
+    },
+    {
+      "id": "s02",
+      "name": "La bestia",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s02.webp",
+        "png": "assets/png/cards/s02.png",
+        "thumbnail": "assets/thumbs/cards/s02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "742f82254529745d358b82d200b928cb1896f42aebf0d773a0b6d2a3aad6e9fe",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/s02",
+          "frame": {
+            "x": 592,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 183
+    },
+    {
+      "id": "s03",
+      "name": "Cadenas",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s03.webp",
+        "png": "assets/png/cards/s03.png",
+        "thumbnail": "assets/thumbs/cards/s03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "30f0e40194a76e1fae4ba3f0023ee587097fadb9fd75b0f7e014a4a4eaccf3eb",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/s03",
+          "frame": {
+            "x": 1180,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 185
+    },
+    {
+      "id": "s04",
+      "name": "Infierno",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s04.webp",
+        "png": "assets/png/cards/s04.png",
+        "thumbnail": "assets/thumbs/cards/s04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6f96a772d914a203e5bf97434ebd1091c0a7407eb0810e4bb1a737697c68d505",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/s04",
+          "frame": {
+            "x": 1768,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 187
+    },
+    {
+      "id": "id05",
+      "name": "Aparecido",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id05.webp",
+        "png": "assets/png/cards/id05.png",
+        "thumbnail": "assets/thumbs/cards/id05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "62fe12c22de14c835f83ba9b53922b9f5e513690b89acb3c36c0bffbba23dfac",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id05",
+          "frame": {
+            "x": 2356,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 189
+    },
+    {
+      "id": "id06",
+      "name": "Bruja",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id06.webp",
+        "png": "assets/png/cards/id06.png",
+        "thumbnail": "assets/thumbs/cards/id06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "31ea697deadf0a6a7f94fc53936252afe3f1732df4c0b036e985ee002f50c0d7",
+        "atlas": {
+          "image": "assets/atlases/atlas-02.webp",
+          "json": "assets/atlases/atlas-02.json",
+          "key": "front/id06",
+          "frame": {
+            "x": 2944,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 191
+    },
+    {
+      "id": "id07",
+      "name": "Chaneque",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id07.webp",
+        "png": "assets/png/cards/id07.png",
+        "thumbnail": "assets/thumbs/cards/id07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "3007a2747cc7bb452209cedfc2f4b11122a441c8732147eb180cd47b207c2ce2",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id07",
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 193
+    },
+    {
+      "id": "id08",
+      "name": "Yohualtepuztli",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id08.webp",
+        "png": "assets/png/cards/id08.png",
+        "thumbnail": "assets/thumbs/cards/id08.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "ab3b0ec25865aae2cd83a51ec73479262207f950cf75544515db37524c2a5c64",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id08",
+          "frame": {
+            "x": 592,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 195
+    },
+    {
+      "id": "s05",
+      "name": "Aparición final",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s05.webp",
+        "png": "assets/png/cards/s05.png",
+        "thumbnail": "assets/thumbs/cards/s05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "4069584efb5c608eac13e52ac52ec63e97b7d713b15791eee443d12da3387c78",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s05",
+          "frame": {
+            "x": 1180,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 197
+    },
+    {
+      "id": "s06",
+      "name": "Aquelarre",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s06.webp",
+        "png": "assets/png/cards/s06.png",
+        "thumbnail": "assets/thumbs/cards/s06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "324ab6127f15349e84e5f36004bb167d19d0e55d1e9a799a421f370efda676f0",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s06",
+          "frame": {
+            "x": 1768,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 199
+    },
+    {
+      "id": "s07",
+      "name": "Juego del monte",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s07.webp",
+        "png": "assets/png/cards/s07.png",
+        "thumbnail": "assets/thumbs/cards/s07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "b2c551ca5cc2b4b6654f3e9017c27f76ac0de17134ba39d4dba32eb0c7bc7f5b",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s07",
+          "frame": {
+            "x": 2356,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 201
+    },
+    {
+      "id": "s08",
+      "name": "Hacha nocturna",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s08.webp",
+        "png": "assets/png/cards/s08.png",
+        "thumbnail": "assets/thumbs/cards/s08.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6af735e4676e2b28add9f252c15980552e1d8501ae1437f78e565ac59522f410",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s08",
+          "frame": {
+            "x": 2944,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 203
+    },
+    {
+      "id": "id09",
+      "name": "Cihuateteo",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id09.webp",
+        "png": "assets/png/cards/id09.png",
+        "thumbnail": "assets/thumbs/cards/id09.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "359a41e43916e6a779e594cb1819ba2e44fc235063a95c776adeffa8b3692ea7",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id09",
+          "frame": {
+            "x": 4,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 205
+    },
+    {
+      "id": "id10",
+      "name": "Tlahuelpuchi",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id10.webp",
+        "png": "assets/png/cards/id10.png",
+        "thumbnail": "assets/thumbs/cards/id10.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "cb175b29d43663d9dc0c0f611f4f5357993a928eaa8099e280ddceafb3d36eb0",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id10",
+          "frame": {
+            "x": 592,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 207
+    },
+    {
+      "id": "id11",
+      "name": "Matlacíhuatl",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id11.webp",
+        "png": "assets/png/cards/id11.png",
+        "thumbnail": "assets/thumbs/cards/id11.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "c9c85da24a5f341e2044d0654fe77c2fc7b0d2d980a1506a0281dadbe3ad8d0f",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id11",
+          "frame": {
+            "x": 1180,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 209
+    },
+    {
+      "id": "s09",
+      "name": "Encrucijada",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s09.webp",
+        "png": "assets/png/cards/s09.png",
+        "thumbnail": "assets/thumbs/cards/s09.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "0009638bfb203934015610207d0fae1dcbba61c12a2db853247806c3b7066d57",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s09",
+          "frame": {
+            "x": 1768,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 211
+    },
+    {
+      "id": "s10",
+      "name": "Vuelo de sangre",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s10.webp",
+        "png": "assets/png/cards/s10.png",
+        "thumbnail": "assets/thumbs/cards/s10.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "4435e29f9140123a2d7d990272e6775eb03abc79ecbdbdcda14bf137a5f7e731",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s10",
+          "frame": {
+            "x": 2356,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 213
+    },
+    {
+      "id": "s11",
+      "name": "La red",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s11.webp",
+        "png": "assets/png/cards/s11.png",
+        "thumbnail": "assets/thumbs/cards/s11.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "8ae713540f18a6a4a2b0b2bcc47b07e245b30258a6a142cb73239023b35f8eca",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s11",
+          "frame": {
+            "x": 2944,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 215
+    },
+    {
+      "id": "id12",
+      "name": "Charro Negro",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id12.webp",
+        "png": "assets/png/cards/id12.png",
+        "thumbnail": "assets/thumbs/cards/id12.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "eae8ca28506b75252b9b96ababe6ad1d613b32122592a1e3b17bf32158c20af0",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id12",
+          "frame": {
+            "x": 4,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 217
+    },
+    {
+      "id": "id13",
+      "name": "La Planchada",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id13.webp",
+        "png": "assets/png/cards/id13.png",
+        "thumbnail": "assets/thumbs/cards/id13.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "759739d3c8cabad9a077f395867d715a9d43aab1edf323db2320d38467ee81f1",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id13",
+          "frame": {
+            "x": 592,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 219
+    },
+    {
+      "id": "id14",
+      "name": "Xtabay",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id14.webp",
+        "png": "assets/png/cards/id14.png",
+        "thumbnail": "assets/thumbs/cards/id14.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "1f36fd185cf88631912b7d20a5abaa815abb08105c7ed90377ad446646adf38c",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id14",
+          "frame": {
+            "x": 1180,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 221
+    },
+    {
+      "id": "s12",
+      "name": "Trato con el diablo",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s12.webp",
+        "png": "assets/png/cards/s12.png",
+        "thumbnail": "assets/thumbs/cards/s12.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "60d4724dd25ff3b9464e955f03ce9383cde19e9f462ded2a1e6f700222af5d7f",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s12",
+          "frame": {
+            "x": 1768,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 223
+    },
+    {
+      "id": "s13",
+      "name": "Ronda nocturna",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s13.webp",
+        "png": "assets/png/cards/s13.png",
+        "thumbnail": "assets/thumbs/cards/s13.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "afae79c563f5192db042eb6573bde64f4fcc1e5b59d35c0f7ad06633e1980218",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s13",
+          "frame": {
+            "x": 2356,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 225
+    },
+    {
+      "id": "s14",
+      "name": "Canto de la ceiba",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s14.webp",
+        "png": "assets/png/cards/s14.png",
+        "thumbnail": "assets/thumbs/cards/s14.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "564495d829b6b7ef0ae166aabb49cce8206f19777c34d1123d193f90e083262c",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s14",
+          "frame": {
+            "x": 2944,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 227
+    },
+    {
+      "id": "id15",
+      "name": "El Mal Aire",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id15.webp",
+        "png": "assets/png/cards/id15.png",
+        "thumbnail": "assets/thumbs/cards/id15.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "d7bdd6314fa74c2337ddd746c4b45416a999a13dc6b52f2c732010e0b191c1a2",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id15",
+          "frame": {
+            "x": 4,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "15 · El Mal Aire"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 229
+    },
+    {
+      "id": "s15",
+      "name": "Soplo del mal viento",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s15.webp",
+        "png": "assets/png/cards/s15.png",
+        "thumbnail": "assets/thumbs/cards/s15.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f74931febeb630c22c5dff525c8570faec49d336e44cf17e1215f6ebe88e5734",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s15",
+          "frame": {
+            "x": 592,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 231
+    },
+    {
+      "id": "id16",
+      "name": "El Guardián del Entierro",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id16.webp",
+        "png": "assets/png/cards/id16.png",
+        "thumbnail": "assets/thumbs/cards/id16.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "2f6483a10011cdbc8892273205fe555e92bdce183f83f26cc225cf60a91985b1",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id16",
+          "frame": {
+            "x": 1180,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "16 · El Guardián del Entierro"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 233
+    },
+    {
+      "id": "s16",
+      "name": "Maldición del entierro",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s16.webp",
+        "png": "assets/png/cards/s16.png",
+        "thumbnail": "assets/thumbs/cards/s16.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "fbbd0604b93d65ffa7eb7d246e51c3bc4831a77d22a986952ecfb2d98bce73ee",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s16",
+          "frame": {
+            "x": 1768,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 235
+    },
+    {
+      "id": "id17",
+      "name": "El Cucuy",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id17.webp",
+        "png": "assets/png/cards/id17.png",
+        "thumbnail": "assets/thumbs/cards/id17.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "fec76eeaed34a3b8131a21234ebd30b572ce717acc2e1331999c9fbf53197e43",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/id17",
+          "frame": {
+            "x": 2356,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "17 · El Cucuy"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 237
+    },
+    {
+      "id": "s17",
+      "name": "Desde la penumbra",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s17.webp",
+        "png": "assets/png/cards/s17.png",
+        "thumbnail": "assets/thumbs/cards/s17.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "55ad391865e670912a8526413b7b4f0c46135338ece810dc6d06a2b416d27d69",
+        "atlas": {
+          "image": "assets/atlases/atlas-03.webp",
+          "json": "assets/atlases/atlas-03.json",
+          "key": "front/s17",
+          "frame": {
+            "x": 2944,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 239
+    },
+    {
+      "id": "id18",
+      "name": "El Cadejo Negro",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id18.webp",
+        "png": "assets/png/cards/id18.png",
+        "thumbnail": "assets/thumbs/cards/id18.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "3d7e8328c74a6fca2cbc52209d8608443682d78c635a0c56beeec84e40a2b739",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/id18",
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "18 · El Cadejo Negro"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 241
+    },
+    {
+      "id": "s18",
+      "name": "Arrastre de cadenas",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s18.webp",
+        "png": "assets/png/cards/s18.png",
+        "thumbnail": "assets/thumbs/cards/s18.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "c8134daa101132d49ae74022390a1c2755d05504c17a5a76d36772ea2c1c94f3",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/s18",
+          "frame": {
+            "x": 592,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 243
+    },
+    {
+      "id": "id19",
+      "name": "Espíritu Chocarrero",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id19.webp",
+        "png": "assets/png/cards/id19.png",
+        "thumbnail": "assets/thumbs/cards/id19.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "d1d2d4c4fb0195f49e6f7889c7332b4fbaf8876ad1dbaf794e637f1ddd067b41",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/id19",
+          "frame": {
+            "x": 1180,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "19 · El Espíritu Chocarrero"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 245
+    },
+    {
+      "id": "s19",
+      "name": "Tornado de objetos",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s19.webp",
+        "png": "assets/png/cards/s19.png",
+        "thumbnail": "assets/thumbs/cards/s19.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "35b454d75fb7e36700daf65ae830bbe6a06feee1943faead2082011bc33aa96d",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/s19",
+          "frame": {
+            "x": 1768,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "Alboroto en la casona"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 247
+    },
+    {
+      "id": "id20",
+      "name": "La Mulata de Córdoba",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id20.webp",
+        "png": "assets/png/cards/id20.png",
+        "thumbnail": "assets/thumbs/cards/id20.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f90392080d73e4c7df1810c79fe1ce7a0900be24df7d789723d9756e9ee441a1",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/id20",
+          "frame": {
+            "x": 2356,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "20 · La Mulata de Córdoba"
+      ],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 249
+    },
+    {
+      "id": "s20",
+      "name": "El barco en la pared",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s20.webp",
+        "png": "assets/png/cards/s20.png",
+        "thumbnail": "assets/thumbs/cards/s20.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "4efbbfdf63bc3828578cf95e8b311999d63390b6c07ee4ee5337b6d4569b5d11",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/s20",
+          "frame": {
+            "x": 2944,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 251
+    },
+    {
+      "id": "id21",
+      "name": "El Uay Chivo",
+      "category": "identidad",
+      "quantity": 1,
+      "backId": "back03",
+      "front": {
+        "webp": "assets/cards/id21.webp",
+        "png": "assets/png/cards/id21.png",
+        "thumbnail": "assets/thumbs/cards/id21.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "8af9f38d4e26c4cd48b10670a09c71b90866f16f3783b3da761bef10c6cc925b",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/id21",
+          "frame": {
+            "x": 4,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "21 · El Uay Chivo"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 253
+    },
+    {
+      "id": "s21",
+      "name": "Mirada de cabra",
+      "category": "espanto",
+      "quantity": 1,
+      "backId": "back04",
+      "front": {
+        "webp": "assets/cards/s21.webp",
+        "png": "assets/png/cards/s21.png",
+        "thumbnail": "assets/thumbs/cards/s21.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "6975c8346f241396332e3359314e5aa5d145dd62f5cd00f2a647cb5673f3e898",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/s21",
+          "frame": {
+            "x": 592,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 255
+    },
+    {
+      "id": "o01",
+      "name": "Radio",
+      "category": "objeto_maldito",
+      "quantity": 2,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o01.webp",
+        "png": "assets/png/cards/o01.png",
+        "thumbnail": "assets/thumbs/cards/o01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "59b7a5e896ee0294d228f001592667485a54763bd6b2c06a3876ed8246c6bef4",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o01",
+          "frame": {
+            "x": 1180,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 257
+    },
+    {
+      "id": "o02",
+      "name": "Tablilla espiritista",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o02.webp",
+        "png": "assets/png/cards/o02.png",
+        "thumbnail": "assets/thumbs/cards/o02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a88b445f8e93d941b7a0c3e913bd70cb4c9522ecd1e825c1486eebc8840e0402",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o02",
+          "frame": {
+            "x": 1768,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "Ouija"
+      ],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 261
+    },
+    {
+      "id": "o03",
+      "name": "Mano del mono",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o03.webp",
+        "png": "assets/png/cards/o03.png",
+        "thumbnail": "assets/thumbs/cards/o03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "c3339099cb71e588167d4651ba9be08db86e830e8e0f513564141bdb181b1b49",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o03",
+          "frame": {
+            "x": 2356,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 263
+    },
+    {
+      "id": "o04",
+      "name": "Limpia con huevo",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o04.webp",
+        "png": "assets/png/cards/o04.png",
+        "thumbnail": "assets/thumbs/cards/o04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "43fe622e06d0237bfa0c8a79110c8be2d1a463834b6293c3572a4873739d0227",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o04",
+          "frame": {
+            "x": 2944,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 265
+    },
+    {
+      "id": "o05",
+      "name": "Espejo de plata",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o05.webp",
+        "png": "assets/png/cards/o05.png",
+        "thumbnail": "assets/thumbs/cards/o05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e9d4ad066cb3c384e359f5de03615a5f29f8bd82657e291af39e79052d071f3c",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o05",
+          "frame": {
+            "x": 4,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "approved-redesign-2026-11-14",
+      "sourceFrontPage": 267
+    },
+    {
+      "id": "o06",
+      "name": "Tarot",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/o06.webp",
+        "png": "assets/png/cards/o06.png",
+        "thumbnail": "assets/thumbs/cards/o06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "5dfbd08f3bb7013560860c85dba3c90250fc0f769fa30fd9a0d155ea96ebed15",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o06",
+          "frame": {
+            "x": 592,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 269
+    },
+    {
+      "id": "o07",
+      "name": "Muñeca de la isla",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/o07.webp",
+        "png": "assets/png/cards/o07.png",
+        "thumbnail": "assets/thumbs/cards/o07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "4655bd02e430e54b7cbb638d9268bdd1bda0fc8052c9eb6bed49da5d16cdc6af",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o07",
+          "frame": {
+            "x": 1180,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 271
+    },
+    {
+      "id": "o08",
+      "name": "Espejo de obsidiana",
+      "category": "objeto_maldito",
+      "quantity": 1,
+      "backId": "back02",
+      "front": {
+        "webp": "assets/cards/o08.webp",
+        "png": "assets/png/cards/o08.png",
+        "thumbnail": "assets/thumbs/cards/o08.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "76a7512cdde4b1f38835dfb7bb59d5fe9d859f7c05f46e5c7e746db545cf700a",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/o08",
+          "frame": {
+            "x": 1768,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 273
+    },
+    {
+      "id": "p02",
+      "name": "Alba",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "back01",
+      "front": {
+        "webp": "assets/cards/p02.webp",
+        "png": "assets/png/cards/p02.png",
+        "thumbnail": "assets/thumbs/cards/p02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "9e816d5863642d94b6f0c2f473fadc63677d81ba1a97d6ac98edd9cb376b4e18",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p02",
+          "frame": {
+            "x": 2356,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 275
+    },
+    {
+      "id": "p03",
+      "name": "Reglas 1: Tu turno",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "R01",
+      "front": {
+        "webp": "assets/cards/p03.webp",
+        "png": "assets/png/cards/p03.png",
+        "thumbnail": "assets/thumbs/cards/p03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "14913154c90bc8722abf5607be0931fcbaa531a62ee3454bf67c995265eddcb0",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p03",
+          "frame": {
+            "x": 2944,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 277
+    },
+    {
+      "id": "p04",
+      "name": "Reglas 2: Investigar",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "R02",
+      "front": {
+        "webp": "assets/cards/p04.webp",
+        "png": "assets/png/cards/p04.png",
+        "thumbnail": "assets/thumbs/cards/p04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "46e579f62b8099d71eb7536fb200970dd5c5e7d46381b048a83e4700f9babe09",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p04",
+          "frame": {
+            "x": 4,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 279
+    },
+    {
+      "id": "p05",
+      "name": "Reglas 3: Peligro",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "R03",
+      "front": {
+        "webp": "assets/cards/p05.webp",
+        "png": "assets/png/cards/p05.png",
+        "thumbnail": "assets/thumbs/cards/p05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "efecce219fd0e3a3b0fcf12223c0f51b868fa041560267517bb37f820e340598",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p05",
+          "frame": {
+            "x": 592,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 281
+    },
+    {
+      "id": "p06",
+      "name": "Reglas 4: El ánima",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "R04",
+      "front": {
+        "webp": "assets/cards/p06.webp",
+        "png": "assets/png/cards/p06.png",
+        "thumbnail": "assets/thumbs/cards/p06.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f019c2a1513355e886e96a30906693b349de0d21d2616a05383353de6591512a",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p06",
+          "frame": {
+            "x": 1180,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 283
+    },
+    {
+      "id": "p07",
+      "name": "El espíritu",
+      "category": "apoyo",
+      "quantity": 1,
+      "backId": "R05",
+      "front": {
+        "webp": "assets/cards/p07.webp",
+        "png": "assets/png/cards/p07.png",
+        "thumbnail": "assets/thumbs/cards/p07.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "ab54cf35c5bc41b6df03d52a6682a8ef44b544556878c10b5cbab72706c65cef",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/p07",
+          "frame": {
+            "x": 1768,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [
+        "Reglas 5: El espíritu"
+      ],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 285
+    },
+    {
+      "id": "Q1",
+      "name": "Consulta de íconos 1",
+      "category": "consulta",
+      "quantity": 1,
+      "backId": "Q1B",
+      "front": {
+        "webp": "assets/cards/Q1.webp",
+        "png": "assets/png/cards/Q1.png",
+        "thumbnail": "assets/thumbs/cards/Q1.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f1835072d6ee843e9753e08727aec92b4a5f7e589a20ab195fdb82aea8275453",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/Q1",
+          "frame": {
+            "x": 2356,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 287
+    },
+    {
+      "id": "Q2",
+      "name": "Consulta de íconos 2",
+      "category": "consulta",
+      "quantity": 1,
+      "backId": "Q2B",
+      "front": {
+        "webp": "assets/cards/Q2.webp",
+        "png": "assets/png/cards/Q2.png",
+        "thumbnail": "assets/thumbs/cards/Q2.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "2ffde205ab0eebdd5436e82cfca2e50991d084907b7f96357760e5ce809fc821",
+        "atlas": {
+          "image": "assets/atlases/atlas-04.webp",
+          "json": "assets/atlases/atlas-04.json",
+          "key": "front/Q2",
+          "frame": {
+            "x": 2944,
+            "y": 2668,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 289
+    },
+    {
+      "id": "Q3",
+      "name": "Consulta de íconos 3",
+      "category": "consulta",
+      "quantity": 1,
+      "backId": "Q3B",
+      "front": {
+        "webp": "assets/cards/Q3.webp",
+        "png": "assets/png/cards/Q3.png",
+        "thumbnail": "assets/thumbs/cards/Q3.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a89662b29f23f4d36f3ebf10d80ec601ae0c896727dfa81b739a0b44992dd07f",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "front/Q3",
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 291
+    },
+    {
+      "id": "Q4",
+      "name": "Consulta de íconos 4",
+      "category": "consulta",
+      "quantity": 1,
+      "backId": "Q4B",
+      "front": {
+        "webp": "assets/cards/Q4.webp",
+        "png": "assets/png/cards/Q4.png",
+        "thumbnail": "assets/thumbs/cards/Q4.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "3038f606032b8d38582b61a67ea554c1a173c995890b9c3da540cc732235a4f3",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "front/Q4",
+          "frame": {
+            "x": 592,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 293
+    },
+    {
+      "id": "Q5",
+      "name": "Consulta de íconos 5",
+      "category": "consulta",
+      "quantity": 1,
+      "backId": "Q5B",
+      "front": {
+        "webp": "assets/cards/Q5.webp",
+        "png": "assets/png/cards/Q5.png",
+        "thumbnail": "assets/thumbs/cards/Q5.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "55a20b19529db5f87e447deb0854d8be7a22cd1dc1f278afdbec1f81d6661a3d",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "front/Q5",
+          "frame": {
+            "x": 1180,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "aliases": [],
+      "artRevision": "retained-v2",
+      "sourceFrontPage": 295
+    }
+  ],
+  "backs": [
+    {
+      "id": "back01",
+      "image": {
+        "webp": "assets/backs/back01.webp",
+        "png": "assets/png/backs/back01.png",
+        "thumbnail": "assets/thumbs/backs/back01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "60c324671f3c10c593f40cc23df993e10d9e67747f25b1803dab068f0b248aa7",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/back01",
+          "frame": {
+            "x": 1768,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 2
+    },
+    {
+      "id": "back02",
+      "image": {
+        "webp": "assets/backs/back02.webp",
+        "png": "assets/png/backs/back02.png",
+        "thumbnail": "assets/thumbs/backs/back02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "35cef03863c8f5993521c9d47aef49618adef7c84c7025b0479639715b327fbf",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/back02",
+          "frame": {
+            "x": 2356,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 98
+    },
+    {
+      "id": "back05",
+      "image": {
+        "webp": "assets/backs/back05.webp",
+        "png": "assets/png/backs/back05.png",
+        "thumbnail": "assets/thumbs/backs/back05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a8f9e0c4ac17eeebd823970f7cf537b83e897d15846d7fd28312a58ca3a6ae43",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/back05",
+          "frame": {
+            "x": 2944,
+            "y": 4,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 146
+    },
+    {
+      "id": "back03",
+      "image": {
+        "webp": "assets/backs/back03.webp",
+        "png": "assets/png/backs/back03.png",
+        "thumbnail": "assets/thumbs/backs/back03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "3b6a4d78f61665f3831658d2f7ccf7dfd07391d05abef7ab7e984206b2d8a80b",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/back03",
+          "frame": {
+            "x": 4,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 174
+    },
+    {
+      "id": "back04",
+      "image": {
+        "webp": "assets/backs/back04.webp",
+        "png": "assets/png/backs/back04.png",
+        "thumbnail": "assets/thumbs/backs/back04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "5c8197831cd628e85ea377bb6a40fe75e3b46253824e94f3f7b816e50e21182e",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/back04",
+          "frame": {
+            "x": 592,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 182
+    },
+    {
+      "id": "R01",
+      "image": {
+        "webp": "assets/backs/R01.webp",
+        "png": "assets/png/backs/R01.png",
+        "thumbnail": "assets/thumbs/backs/R01.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "28915901fa5adef4a7eaf6883c67a0dd8a66dc65070e59abbf693f96eac35414",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/R01",
+          "frame": {
+            "x": 1180,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 278
+    },
+    {
+      "id": "R02",
+      "image": {
+        "webp": "assets/backs/R02.webp",
+        "png": "assets/png/backs/R02.png",
+        "thumbnail": "assets/thumbs/backs/R02.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "67f1bff0a3fe6e268385838b660fbdb951227401929e10377176ef97cd812c7e",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/R02",
+          "frame": {
+            "x": 1768,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 280
+    },
+    {
+      "id": "R03",
+      "image": {
+        "webp": "assets/backs/R03.webp",
+        "png": "assets/png/backs/R03.png",
+        "thumbnail": "assets/thumbs/backs/R03.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "4353b7c1fd5601b050c6db706b1ad7740054040f1e84d2f07442e160b39e9840",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/R03",
+          "frame": {
+            "x": 2356,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 282
+    },
+    {
+      "id": "R04",
+      "image": {
+        "webp": "assets/backs/R04.webp",
+        "png": "assets/png/backs/R04.png",
+        "thumbnail": "assets/thumbs/backs/R04.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "f0ae6bbc6805c8ab799c04ffc477044f9062e58d104f9cf7a28a6eb49ec58820",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/R04",
+          "frame": {
+            "x": 2944,
+            "y": 892,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 284
+    },
+    {
+      "id": "R05",
+      "image": {
+        "webp": "assets/backs/R05.webp",
+        "png": "assets/png/backs/R05.png",
+        "thumbnail": "assets/thumbs/backs/R05.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "d2e5c1241589c609be424ac33ed3679d9e3e7ba3dc0ca964e1346033fe645154",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/R05",
+          "frame": {
+            "x": 4,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 286
+    },
+    {
+      "id": "Q1B",
+      "image": {
+        "webp": "assets/backs/Q1B.webp",
+        "png": "assets/png/backs/Q1B.png",
+        "thumbnail": "assets/thumbs/backs/Q1B.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "a3f7ea7168d7e79d302343b8eedd189636178387cfaae7ce7cc4f9264898cebb",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/Q1B",
+          "frame": {
+            "x": 592,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 288
+    },
+    {
+      "id": "Q2B",
+      "image": {
+        "webp": "assets/backs/Q2B.webp",
+        "png": "assets/png/backs/Q2B.png",
+        "thumbnail": "assets/thumbs/backs/Q2B.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "9e47861caa116bc972896cd3d972e4c885c507ce34eef14d980df34c3fa8b7d5",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/Q2B",
+          "frame": {
+            "x": 1180,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 290
+    },
+    {
+      "id": "Q3B",
+      "image": {
+        "webp": "assets/backs/Q3B.webp",
+        "png": "assets/png/backs/Q3B.png",
+        "thumbnail": "assets/thumbs/backs/Q3B.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "0d3ea1f219943c7f0a344c0be1349d350fc02f92255e3da1c49466d415e51d67",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/Q3B",
+          "frame": {
+            "x": 1768,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 292
+    },
+    {
+      "id": "Q4B",
+      "image": {
+        "webp": "assets/backs/Q4B.webp",
+        "png": "assets/png/backs/Q4B.png",
+        "thumbnail": "assets/thumbs/backs/Q4B.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "e4c6c9912a229179c4a219d502595293af8c86fa5b5c7b24e2bd9d665d5dc293",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/Q4B",
+          "frame": {
+            "x": 2356,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 294
+    },
+    {
+      "id": "Q5B",
+      "image": {
+        "webp": "assets/backs/Q5B.webp",
+        "png": "assets/png/backs/Q5B.png",
+        "thumbnail": "assets/thumbs/backs/Q5B.webp",
+        "width": 1160,
+        "height": 1760,
+        "pngWidth": 580,
+        "pngHeight": 880,
+        "sha256": "15e8ab62020ed48e997fc5c359e946bfbb2b2665c124b7efc3ce6ecf26ad7c9e",
+        "atlas": {
+          "image": "assets/atlases/atlas-05.webp",
+          "json": "assets/atlases/atlas-05.json",
+          "key": "back/Q5B",
+          "frame": {
+            "x": 2944,
+            "y": 1780,
+            "w": 580,
+            "h": 880
+          }
+        }
+      },
+      "sourceBackPage": 296
+    }
+  ],
+  "instances": [
+    {
+      "instanceId": "i01-01",
+      "cardId": "i01",
+      "copy": 1,
+      "sourceFrontPage": 1,
+      "sourceBackPage": 2
+    },
+    {
+      "instanceId": "i01-02",
+      "cardId": "i01",
+      "copy": 2,
+      "sourceFrontPage": 3,
+      "sourceBackPage": 4
+    },
+    {
+      "instanceId": "i02-01",
+      "cardId": "i02",
+      "copy": 1,
+      "sourceFrontPage": 5,
+      "sourceBackPage": 6
+    },
+    {
+      "instanceId": "i02-02",
+      "cardId": "i02",
+      "copy": 2,
+      "sourceFrontPage": 7,
+      "sourceBackPage": 8
+    },
+    {
+      "instanceId": "i03-01",
+      "cardId": "i03",
+      "copy": 1,
+      "sourceFrontPage": 9,
+      "sourceBackPage": 10
+    },
+    {
+      "instanceId": "i03-02",
+      "cardId": "i03",
+      "copy": 2,
+      "sourceFrontPage": 11,
+      "sourceBackPage": 12
+    },
+    {
+      "instanceId": "i04-01",
+      "cardId": "i04",
+      "copy": 1,
+      "sourceFrontPage": 13,
+      "sourceBackPage": 14
+    },
+    {
+      "instanceId": "i04-02",
+      "cardId": "i04",
+      "copy": 2,
+      "sourceFrontPage": 15,
+      "sourceBackPage": 16
+    },
+    {
+      "instanceId": "i05-01",
+      "cardId": "i05",
+      "copy": 1,
+      "sourceFrontPage": 17,
+      "sourceBackPage": 18
+    },
+    {
+      "instanceId": "i05-02",
+      "cardId": "i05",
+      "copy": 2,
+      "sourceFrontPage": 19,
+      "sourceBackPage": 20
+    },
+    {
+      "instanceId": "i06-01",
+      "cardId": "i06",
+      "copy": 1,
+      "sourceFrontPage": 21,
+      "sourceBackPage": 22
+    },
+    {
+      "instanceId": "i06-02",
+      "cardId": "i06",
+      "copy": 2,
+      "sourceFrontPage": 23,
+      "sourceBackPage": 24
+    },
+    {
+      "instanceId": "i07-01",
+      "cardId": "i07",
+      "copy": 1,
+      "sourceFrontPage": 25,
+      "sourceBackPage": 26
+    },
+    {
+      "instanceId": "i07-02",
+      "cardId": "i07",
+      "copy": 2,
+      "sourceFrontPage": 27,
+      "sourceBackPage": 28
+    },
+    {
+      "instanceId": "i08-01",
+      "cardId": "i08",
+      "copy": 1,
+      "sourceFrontPage": 29,
+      "sourceBackPage": 30
+    },
+    {
+      "instanceId": "i08-02",
+      "cardId": "i08",
+      "copy": 2,
+      "sourceFrontPage": 31,
+      "sourceBackPage": 32
+    },
+    {
+      "instanceId": "i08-03",
+      "cardId": "i08",
+      "copy": 3,
+      "sourceFrontPage": 33,
+      "sourceBackPage": 34
+    },
+    {
+      "instanceId": "i08-04",
+      "cardId": "i08",
+      "copy": 4,
+      "sourceFrontPage": 35,
+      "sourceBackPage": 36
+    },
+    {
+      "instanceId": "i08-05",
+      "cardId": "i08",
+      "copy": 5,
+      "sourceFrontPage": 37,
+      "sourceBackPage": 38
+    },
+    {
+      "instanceId": "i08-06",
+      "cardId": "i08",
+      "copy": 6,
+      "sourceFrontPage": 39,
+      "sourceBackPage": 40
+    },
+    {
+      "instanceId": "i09-01",
+      "cardId": "i09",
+      "copy": 1,
+      "sourceFrontPage": 41,
+      "sourceBackPage": 42
+    },
+    {
+      "instanceId": "i09-02",
+      "cardId": "i09",
+      "copy": 2,
+      "sourceFrontPage": 43,
+      "sourceBackPage": 44
+    },
+    {
+      "instanceId": "i09-03",
+      "cardId": "i09",
+      "copy": 3,
+      "sourceFrontPage": 45,
+      "sourceBackPage": 46
+    },
+    {
+      "instanceId": "i09-04",
+      "cardId": "i09",
+      "copy": 4,
+      "sourceFrontPage": 47,
+      "sourceBackPage": 48
+    },
+    {
+      "instanceId": "i09-05",
+      "cardId": "i09",
+      "copy": 5,
+      "sourceFrontPage": 49,
+      "sourceBackPage": 50
+    },
+    {
+      "instanceId": "i09-06",
+      "cardId": "i09",
+      "copy": 6,
+      "sourceFrontPage": 51,
+      "sourceBackPage": 52
+    },
+    {
+      "instanceId": "i09-07",
+      "cardId": "i09",
+      "copy": 7,
+      "sourceFrontPage": 53,
+      "sourceBackPage": 54
+    },
+    {
+      "instanceId": "i09-08",
+      "cardId": "i09",
+      "copy": 8,
+      "sourceFrontPage": 55,
+      "sourceBackPage": 56
+    },
+    {
+      "instanceId": "i10-01",
+      "cardId": "i10",
+      "copy": 1,
+      "sourceFrontPage": 57,
+      "sourceBackPage": 58
+    },
+    {
+      "instanceId": "i10-02",
+      "cardId": "i10",
+      "copy": 2,
+      "sourceFrontPage": 59,
+      "sourceBackPage": 60
+    },
+    {
+      "instanceId": "i10-03",
+      "cardId": "i10",
+      "copy": 3,
+      "sourceFrontPage": 61,
+      "sourceBackPage": 62
+    },
+    {
+      "instanceId": "i10-04",
+      "cardId": "i10",
+      "copy": 4,
+      "sourceFrontPage": 63,
+      "sourceBackPage": 64
+    },
+    {
+      "instanceId": "i11-01",
+      "cardId": "i11",
+      "copy": 1,
+      "sourceFrontPage": 65,
+      "sourceBackPage": 66
+    },
+    {
+      "instanceId": "i11-02",
+      "cardId": "i11",
+      "copy": 2,
+      "sourceFrontPage": 67,
+      "sourceBackPage": 68
+    },
+    {
+      "instanceId": "i11-03",
+      "cardId": "i11",
+      "copy": 3,
+      "sourceFrontPage": 69,
+      "sourceBackPage": 70
+    },
+    {
+      "instanceId": "i11-04",
+      "cardId": "i11",
+      "copy": 4,
+      "sourceFrontPage": 71,
+      "sourceBackPage": 72
+    },
+    {
+      "instanceId": "i11-05",
+      "cardId": "i11",
+      "copy": 5,
+      "sourceFrontPage": 73,
+      "sourceBackPage": 74
+    },
+    {
+      "instanceId": "i11-06",
+      "cardId": "i11",
+      "copy": 6,
+      "sourceFrontPage": 75,
+      "sourceBackPage": 76
+    },
+    {
+      "instanceId": "i11-07",
+      "cardId": "i11",
+      "copy": 7,
+      "sourceFrontPage": 77,
+      "sourceBackPage": 78
+    },
+    {
+      "instanceId": "i12-01",
+      "cardId": "i12",
+      "copy": 1,
+      "sourceFrontPage": 79,
+      "sourceBackPage": 80
+    },
+    {
+      "instanceId": "i12-02",
+      "cardId": "i12",
+      "copy": 2,
+      "sourceFrontPage": 81,
+      "sourceBackPage": 82
+    },
+    {
+      "instanceId": "i12-03",
+      "cardId": "i12",
+      "copy": 3,
+      "sourceFrontPage": 83,
+      "sourceBackPage": 84
+    },
+    {
+      "instanceId": "i13-01",
+      "cardId": "i13",
+      "copy": 1,
+      "sourceFrontPage": 85,
+      "sourceBackPage": 86
+    },
+    {
+      "instanceId": "i13-02",
+      "cardId": "i13",
+      "copy": 2,
+      "sourceFrontPage": 87,
+      "sourceBackPage": 88
+    },
+    {
+      "instanceId": "i14-01",
+      "cardId": "i14",
+      "copy": 1,
+      "sourceFrontPage": 89,
+      "sourceBackPage": 90
+    },
+    {
+      "instanceId": "i14-02",
+      "cardId": "i14",
+      "copy": 2,
+      "sourceFrontPage": 91,
+      "sourceBackPage": 92
+    },
+    {
+      "instanceId": "i15-01",
+      "cardId": "i15",
+      "copy": 1,
+      "sourceFrontPage": 93,
+      "sourceBackPage": 94
+    },
+    {
+      "instanceId": "i15-02",
+      "cardId": "i15",
+      "copy": 2,
+      "sourceFrontPage": 95,
+      "sourceBackPage": 96
+    },
+    {
+      "instanceId": "a01-01",
+      "cardId": "a01",
+      "copy": 1,
+      "sourceFrontPage": 97,
+      "sourceBackPage": 98
+    },
+    {
+      "instanceId": "a01-02",
+      "cardId": "a01",
+      "copy": 2,
+      "sourceFrontPage": 99,
+      "sourceBackPage": 100
+    },
+    {
+      "instanceId": "a01-03",
+      "cardId": "a01",
+      "copy": 3,
+      "sourceFrontPage": 101,
+      "sourceBackPage": 102
+    },
+    {
+      "instanceId": "a01-04",
+      "cardId": "a01",
+      "copy": 4,
+      "sourceFrontPage": 103,
+      "sourceBackPage": 104
+    },
+    {
+      "instanceId": "a01-05",
+      "cardId": "a01",
+      "copy": 5,
+      "sourceFrontPage": 105,
+      "sourceBackPage": 106
+    },
+    {
+      "instanceId": "a02-01",
+      "cardId": "a02",
+      "copy": 1,
+      "sourceFrontPage": 107,
+      "sourceBackPage": 108
+    },
+    {
+      "instanceId": "a02-02",
+      "cardId": "a02",
+      "copy": 2,
+      "sourceFrontPage": 109,
+      "sourceBackPage": 110
+    },
+    {
+      "instanceId": "a02-03",
+      "cardId": "a02",
+      "copy": 3,
+      "sourceFrontPage": 111,
+      "sourceBackPage": 112
+    },
+    {
+      "instanceId": "a03-01",
+      "cardId": "a03",
+      "copy": 1,
+      "sourceFrontPage": 113,
+      "sourceBackPage": 114
+    },
+    {
+      "instanceId": "a04-01",
+      "cardId": "a04",
+      "copy": 1,
+      "sourceFrontPage": 115,
+      "sourceBackPage": 116
+    },
+    {
+      "instanceId": "a04-02",
+      "cardId": "a04",
+      "copy": 2,
+      "sourceFrontPage": 117,
+      "sourceBackPage": 118
+    },
+    {
+      "instanceId": "a04-03",
+      "cardId": "a04",
+      "copy": 3,
+      "sourceFrontPage": 119,
+      "sourceBackPage": 120
+    },
+    {
+      "instanceId": "a05-01",
+      "cardId": "a05",
+      "copy": 1,
+      "sourceFrontPage": 121,
+      "sourceBackPage": 122
+    },
+    {
+      "instanceId": "a06-01",
+      "cardId": "a06",
+      "copy": 1,
+      "sourceFrontPage": 123,
+      "sourceBackPage": 124
+    },
+    {
+      "instanceId": "a06-02",
+      "cardId": "a06",
+      "copy": 2,
+      "sourceFrontPage": 125,
+      "sourceBackPage": 126
+    },
+    {
+      "instanceId": "a06-03",
+      "cardId": "a06",
+      "copy": 3,
+      "sourceFrontPage": 127,
+      "sourceBackPage": 128
+    },
+    {
+      "instanceId": "a07-01",
+      "cardId": "a07",
+      "copy": 1,
+      "sourceFrontPage": 129,
+      "sourceBackPage": 130
+    },
+    {
+      "instanceId": "a07-02",
+      "cardId": "a07",
+      "copy": 2,
+      "sourceFrontPage": 131,
+      "sourceBackPage": 132
+    },
+    {
+      "instanceId": "a08-01",
+      "cardId": "a08",
+      "copy": 1,
+      "sourceFrontPage": 133,
+      "sourceBackPage": 134
+    },
+    {
+      "instanceId": "a08-02",
+      "cardId": "a08",
+      "copy": 2,
+      "sourceFrontPage": 135,
+      "sourceBackPage": 136
+    },
+    {
+      "instanceId": "a08-03",
+      "cardId": "a08",
+      "copy": 3,
+      "sourceFrontPage": 137,
+      "sourceBackPage": 138
+    },
+    {
+      "instanceId": "a08-04",
+      "cardId": "a08",
+      "copy": 4,
+      "sourceFrontPage": 139,
+      "sourceBackPage": 140
+    },
+    {
+      "instanceId": "a09-01",
+      "cardId": "a09",
+      "copy": 1,
+      "sourceFrontPage": 141,
+      "sourceBackPage": 142
+    },
+    {
+      "instanceId": "a09-02",
+      "cardId": "a09",
+      "copy": 2,
+      "sourceFrontPage": 143,
+      "sourceBackPage": 144
+    },
+    {
+      "instanceId": "e01-01",
+      "cardId": "e01",
+      "copy": 1,
+      "sourceFrontPage": 145,
+      "sourceBackPage": 146
+    },
+    {
+      "instanceId": "e02-01",
+      "cardId": "e02",
+      "copy": 1,
+      "sourceFrontPage": 147,
+      "sourceBackPage": 148
+    },
+    {
+      "instanceId": "e03-01",
+      "cardId": "e03",
+      "copy": 1,
+      "sourceFrontPage": 149,
+      "sourceBackPage": 150
+    },
+    {
+      "instanceId": "e04-01",
+      "cardId": "e04",
+      "copy": 1,
+      "sourceFrontPage": 151,
+      "sourceBackPage": 152
+    },
+    {
+      "instanceId": "h01-01",
+      "cardId": "h01",
+      "copy": 1,
+      "sourceFrontPage": 153,
+      "sourceBackPage": 154
+    },
+    {
+      "instanceId": "h02-01",
+      "cardId": "h02",
+      "copy": 1,
+      "sourceFrontPage": 155,
+      "sourceBackPage": 156
+    },
+    {
+      "instanceId": "h03-01",
+      "cardId": "h03",
+      "copy": 1,
+      "sourceFrontPage": 157,
+      "sourceBackPage": 158
+    },
+    {
+      "instanceId": "h04-01",
+      "cardId": "h04",
+      "copy": 1,
+      "sourceFrontPage": 159,
+      "sourceBackPage": 160
+    },
+    {
+      "instanceId": "e05-01",
+      "cardId": "e05",
+      "copy": 1,
+      "sourceFrontPage": 161,
+      "sourceBackPage": 162
+    },
+    {
+      "instanceId": "e06-01",
+      "cardId": "e06",
+      "copy": 1,
+      "sourceFrontPage": 163,
+      "sourceBackPage": 164
+    },
+    {
+      "instanceId": "e07-01",
+      "cardId": "e07",
+      "copy": 1,
+      "sourceFrontPage": 165,
+      "sourceBackPage": 166
+    },
+    {
+      "instanceId": "h05-01",
+      "cardId": "h05",
+      "copy": 1,
+      "sourceFrontPage": 167,
+      "sourceBackPage": 168
+    },
+    {
+      "instanceId": "h06-01",
+      "cardId": "h06",
+      "copy": 1,
+      "sourceFrontPage": 169,
+      "sourceBackPage": 170
+    },
+    {
+      "instanceId": "h07-01",
+      "cardId": "h07",
+      "copy": 1,
+      "sourceFrontPage": 171,
+      "sourceBackPage": 172
+    },
+    {
+      "instanceId": "id01-01",
+      "cardId": "id01",
+      "copy": 1,
+      "sourceFrontPage": 173,
+      "sourceBackPage": 174
+    },
+    {
+      "instanceId": "id02-01",
+      "cardId": "id02",
+      "copy": 1,
+      "sourceFrontPage": 175,
+      "sourceBackPage": 176
+    },
+    {
+      "instanceId": "id03-01",
+      "cardId": "id03",
+      "copy": 1,
+      "sourceFrontPage": 177,
+      "sourceBackPage": 178
+    },
+    {
+      "instanceId": "id04-01",
+      "cardId": "id04",
+      "copy": 1,
+      "sourceFrontPage": 179,
+      "sourceBackPage": 180
+    },
+    {
+      "instanceId": "s01-01",
+      "cardId": "s01",
+      "copy": 1,
+      "sourceFrontPage": 181,
+      "sourceBackPage": 182
+    },
+    {
+      "instanceId": "s02-01",
+      "cardId": "s02",
+      "copy": 1,
+      "sourceFrontPage": 183,
+      "sourceBackPage": 184
+    },
+    {
+      "instanceId": "s03-01",
+      "cardId": "s03",
+      "copy": 1,
+      "sourceFrontPage": 185,
+      "sourceBackPage": 186
+    },
+    {
+      "instanceId": "s04-01",
+      "cardId": "s04",
+      "copy": 1,
+      "sourceFrontPage": 187,
+      "sourceBackPage": 188
+    },
+    {
+      "instanceId": "id05-01",
+      "cardId": "id05",
+      "copy": 1,
+      "sourceFrontPage": 189,
+      "sourceBackPage": 190
+    },
+    {
+      "instanceId": "id06-01",
+      "cardId": "id06",
+      "copy": 1,
+      "sourceFrontPage": 191,
+      "sourceBackPage": 192
+    },
+    {
+      "instanceId": "id07-01",
+      "cardId": "id07",
+      "copy": 1,
+      "sourceFrontPage": 193,
+      "sourceBackPage": 194
+    },
+    {
+      "instanceId": "id08-01",
+      "cardId": "id08",
+      "copy": 1,
+      "sourceFrontPage": 195,
+      "sourceBackPage": 196
+    },
+    {
+      "instanceId": "s05-01",
+      "cardId": "s05",
+      "copy": 1,
+      "sourceFrontPage": 197,
+      "sourceBackPage": 198
+    },
+    {
+      "instanceId": "s06-01",
+      "cardId": "s06",
+      "copy": 1,
+      "sourceFrontPage": 199,
+      "sourceBackPage": 200
+    },
+    {
+      "instanceId": "s07-01",
+      "cardId": "s07",
+      "copy": 1,
+      "sourceFrontPage": 201,
+      "sourceBackPage": 202
+    },
+    {
+      "instanceId": "s08-01",
+      "cardId": "s08",
+      "copy": 1,
+      "sourceFrontPage": 203,
+      "sourceBackPage": 204
+    },
+    {
+      "instanceId": "id09-01",
+      "cardId": "id09",
+      "copy": 1,
+      "sourceFrontPage": 205,
+      "sourceBackPage": 206
+    },
+    {
+      "instanceId": "id10-01",
+      "cardId": "id10",
+      "copy": 1,
+      "sourceFrontPage": 207,
+      "sourceBackPage": 208
+    },
+    {
+      "instanceId": "id11-01",
+      "cardId": "id11",
+      "copy": 1,
+      "sourceFrontPage": 209,
+      "sourceBackPage": 210
+    },
+    {
+      "instanceId": "s09-01",
+      "cardId": "s09",
+      "copy": 1,
+      "sourceFrontPage": 211,
+      "sourceBackPage": 212
+    },
+    {
+      "instanceId": "s10-01",
+      "cardId": "s10",
+      "copy": 1,
+      "sourceFrontPage": 213,
+      "sourceBackPage": 214
+    },
+    {
+      "instanceId": "s11-01",
+      "cardId": "s11",
+      "copy": 1,
+      "sourceFrontPage": 215,
+      "sourceBackPage": 216
+    },
+    {
+      "instanceId": "id12-01",
+      "cardId": "id12",
+      "copy": 1,
+      "sourceFrontPage": 217,
+      "sourceBackPage": 218
+    },
+    {
+      "instanceId": "id13-01",
+      "cardId": "id13",
+      "copy": 1,
+      "sourceFrontPage": 219,
+      "sourceBackPage": 220
+    },
+    {
+      "instanceId": "id14-01",
+      "cardId": "id14",
+      "copy": 1,
+      "sourceFrontPage": 221,
+      "sourceBackPage": 222
+    },
+    {
+      "instanceId": "s12-01",
+      "cardId": "s12",
+      "copy": 1,
+      "sourceFrontPage": 223,
+      "sourceBackPage": 224
+    },
+    {
+      "instanceId": "s13-01",
+      "cardId": "s13",
+      "copy": 1,
+      "sourceFrontPage": 225,
+      "sourceBackPage": 226
+    },
+    {
+      "instanceId": "s14-01",
+      "cardId": "s14",
+      "copy": 1,
+      "sourceFrontPage": 227,
+      "sourceBackPage": 228
+    },
+    {
+      "instanceId": "id15-01",
+      "cardId": "id15",
+      "copy": 1,
+      "sourceFrontPage": 229,
+      "sourceBackPage": 230
+    },
+    {
+      "instanceId": "s15-01",
+      "cardId": "s15",
+      "copy": 1,
+      "sourceFrontPage": 231,
+      "sourceBackPage": 232
+    },
+    {
+      "instanceId": "id16-01",
+      "cardId": "id16",
+      "copy": 1,
+      "sourceFrontPage": 233,
+      "sourceBackPage": 234
+    },
+    {
+      "instanceId": "s16-01",
+      "cardId": "s16",
+      "copy": 1,
+      "sourceFrontPage": 235,
+      "sourceBackPage": 236
+    },
+    {
+      "instanceId": "id17-01",
+      "cardId": "id17",
+      "copy": 1,
+      "sourceFrontPage": 237,
+      "sourceBackPage": 238
+    },
+    {
+      "instanceId": "s17-01",
+      "cardId": "s17",
+      "copy": 1,
+      "sourceFrontPage": 239,
+      "sourceBackPage": 240
+    },
+    {
+      "instanceId": "id18-01",
+      "cardId": "id18",
+      "copy": 1,
+      "sourceFrontPage": 241,
+      "sourceBackPage": 242
+    },
+    {
+      "instanceId": "s18-01",
+      "cardId": "s18",
+      "copy": 1,
+      "sourceFrontPage": 243,
+      "sourceBackPage": 244
+    },
+    {
+      "instanceId": "id19-01",
+      "cardId": "id19",
+      "copy": 1,
+      "sourceFrontPage": 245,
+      "sourceBackPage": 246
+    },
+    {
+      "instanceId": "s19-01",
+      "cardId": "s19",
+      "copy": 1,
+      "sourceFrontPage": 247,
+      "sourceBackPage": 248
+    },
+    {
+      "instanceId": "id20-01",
+      "cardId": "id20",
+      "copy": 1,
+      "sourceFrontPage": 249,
+      "sourceBackPage": 250
+    },
+    {
+      "instanceId": "s20-01",
+      "cardId": "s20",
+      "copy": 1,
+      "sourceFrontPage": 251,
+      "sourceBackPage": 252
+    },
+    {
+      "instanceId": "id21-01",
+      "cardId": "id21",
+      "copy": 1,
+      "sourceFrontPage": 253,
+      "sourceBackPage": 254
+    },
+    {
+      "instanceId": "s21-01",
+      "cardId": "s21",
+      "copy": 1,
+      "sourceFrontPage": 255,
+      "sourceBackPage": 256
+    },
+    {
+      "instanceId": "o01-01",
+      "cardId": "o01",
+      "copy": 1,
+      "sourceFrontPage": 257,
+      "sourceBackPage": 258
+    },
+    {
+      "instanceId": "o01-02",
+      "cardId": "o01",
+      "copy": 2,
+      "sourceFrontPage": 259,
+      "sourceBackPage": 260
+    },
+    {
+      "instanceId": "o02-01",
+      "cardId": "o02",
+      "copy": 1,
+      "sourceFrontPage": 261,
+      "sourceBackPage": 262
+    },
+    {
+      "instanceId": "o03-01",
+      "cardId": "o03",
+      "copy": 1,
+      "sourceFrontPage": 263,
+      "sourceBackPage": 264
+    },
+    {
+      "instanceId": "o04-01",
+      "cardId": "o04",
+      "copy": 1,
+      "sourceFrontPage": 265,
+      "sourceBackPage": 266
+    },
+    {
+      "instanceId": "o05-01",
+      "cardId": "o05",
+      "copy": 1,
+      "sourceFrontPage": 267,
+      "sourceBackPage": 268
+    },
+    {
+      "instanceId": "o06-01",
+      "cardId": "o06",
+      "copy": 1,
+      "sourceFrontPage": 269,
+      "sourceBackPage": 270
+    },
+    {
+      "instanceId": "o07-01",
+      "cardId": "o07",
+      "copy": 1,
+      "sourceFrontPage": 271,
+      "sourceBackPage": 272
+    },
+    {
+      "instanceId": "o08-01",
+      "cardId": "o08",
+      "copy": 1,
+      "sourceFrontPage": 273,
+      "sourceBackPage": 274
+    },
+    {
+      "instanceId": "p02-01",
+      "cardId": "p02",
+      "copy": 1,
+      "sourceFrontPage": 275,
+      "sourceBackPage": 276
+    },
+    {
+      "instanceId": "p03-01",
+      "cardId": "p03",
+      "copy": 1,
+      "sourceFrontPage": 277,
+      "sourceBackPage": 278
+    },
+    {
+      "instanceId": "p04-01",
+      "cardId": "p04",
+      "copy": 1,
+      "sourceFrontPage": 279,
+      "sourceBackPage": 280
+    },
+    {
+      "instanceId": "p05-01",
+      "cardId": "p05",
+      "copy": 1,
+      "sourceFrontPage": 281,
+      "sourceBackPage": 282
+    },
+    {
+      "instanceId": "p06-01",
+      "cardId": "p06",
+      "copy": 1,
+      "sourceFrontPage": 283,
+      "sourceBackPage": 284
+    },
+    {
+      "instanceId": "p07-01",
+      "cardId": "p07",
+      "copy": 1,
+      "sourceFrontPage": 285,
+      "sourceBackPage": 286
+    },
+    {
+      "instanceId": "Q1-01",
+      "cardId": "Q1",
+      "copy": 1,
+      "sourceFrontPage": 287,
+      "sourceBackPage": 288
+    },
+    {
+      "instanceId": "Q2-01",
+      "cardId": "Q2",
+      "copy": 1,
+      "sourceFrontPage": 289,
+      "sourceBackPage": 290
+    },
+    {
+      "instanceId": "Q3-01",
+      "cardId": "Q3",
+      "copy": 1,
+      "sourceFrontPage": 291,
+      "sourceBackPage": 292
+    },
+    {
+      "instanceId": "Q4-01",
+      "cardId": "Q4",
+      "copy": 1,
+      "sourceFrontPage": 293,
+      "sourceBackPage": 294
+    },
+    {
+      "instanceId": "Q5-01",
+      "cardId": "Q5",
+      "copy": 1,
+      "sourceFrontPage": 295,
+      "sourceBackPage": 296
+    }
+  ],
+  "groups": [
+    {
+      "id": "investigador",
+      "name": "Investigadores",
+      "cardIds": [
+        "i01",
+        "i02",
+        "i03",
+        "i04",
+        "i05",
+        "i06",
+        "i07",
+        "i08",
+        "i09",
+        "i10",
+        "i11",
+        "i12",
+        "i13",
+        "i14",
+        "i15"
+      ],
+      "quantity": 48
+    },
+    {
+      "id": "anima_comun",
+      "name": "Ánima: comunes",
+      "cardIds": [
+        "a01",
+        "a02",
+        "a03",
+        "a04",
+        "a05",
+        "a06",
+        "a07",
+        "a08",
+        "a09"
+      ],
+      "quantity": 24
+    },
+    {
+      "id": "evidencia",
+      "name": "Evidencias",
+      "cardIds": [
+        "e01",
+        "e02",
+        "e03",
+        "e04",
+        "e05",
+        "e06",
+        "e07"
+      ],
+      "quantity": 7
+    },
+    {
+      "id": "habilidad_evidencia",
+      "name": "Habilidades de evidencia",
+      "cardIds": [
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07"
+      ],
+      "quantity": 7
+    },
+    {
+      "id": "identidad",
+      "name": "Identidades",
+      "cardIds": [
+        "id01",
+        "id02",
+        "id03",
+        "id04",
+        "id05",
+        "id06",
+        "id07",
+        "id08",
+        "id09",
+        "id10",
+        "id11",
+        "id12",
+        "id13",
+        "id14",
+        "id15",
+        "id16",
+        "id17",
+        "id18",
+        "id19",
+        "id20",
+        "id21"
+      ],
+      "quantity": 21
+    },
+    {
+      "id": "espanto",
+      "name": "Espantos",
+      "cardIds": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08",
+        "s09",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21"
+      ],
+      "quantity": 21
+    },
+    {
+      "id": "objeto_maldito",
+      "name": "Objetos malditos",
+      "cardIds": [
+        "o01",
+        "o02",
+        "o03",
+        "o04",
+        "o05",
+        "o06",
+        "o07",
+        "o08"
+      ],
+      "quantity": 9
+    },
+    {
+      "id": "apoyo",
+      "name": "Alba y reglas",
+      "cardIds": [
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": "consulta",
+      "name": "Consulta",
+      "cardIds": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "quantity": 5
+    }
+  ],
+  "rules": {
+    "source": "sources/rules/Reglamento_v4.txt",
+    "status": "source-reference-only; no automated rule engine"
+  },
+  "styleGuide": "sources/style-guide/parametros_artisticos.json",
+  "integrationModule": "integration/catalog-loader.mjs",
+  "notes": [
+    "IDs estables; imágenes referidas con rutas relativas, respetar mayúsculas/minúsculas.",
+    "quantity es inventario total. No barajar las 148 cartas como un solo mazo.",
+    "WebP es alta resolución; PNG es alternativa de 580x880; ambos comparten composición.",
+    "Los reversos de reglas y consulta contienen información distinta del frente."
+  ]
+}

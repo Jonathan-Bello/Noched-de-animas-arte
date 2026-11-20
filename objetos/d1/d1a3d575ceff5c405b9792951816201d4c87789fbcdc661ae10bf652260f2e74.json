@@ -1,0 +1,129 @@
+{
+  "estado": "CATÁLOGO DE PRUEBA, NO IMPRENTA FINAL",
+  "fuentes_editables_07_disponibles": false,
+  "pdfx4_fogra39_validado": false,
+  "resolucion_minima_1900x2200_cumplida": false,
+  "metodo": "Herramienta integrada image_gen; referencias del PDF aprobado",
+  "imagenes": {
+    "id15": {
+      "archivo": "id15.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id16": {
+      "archivo": "id16.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id17": {
+      "archivo": "id17.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id18": {
+      "archivo": "id18.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id19": {
+      "archivo": "id19.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id20": {
+      "archivo": "id20.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "id21": {
+      "archivo": "id21.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s15": {
+      "archivo": "s15.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s16": {
+      "archivo": "s16.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s17": {
+      "archivo": "s17.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s18": {
+      "archivo": "s18.png",
+      "pixeles": [
+        1086,
+        1448
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s19": {
+      "archivo": "s19.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s20": {
+      "archivo": "s20.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "s21": {
+      "archivo": "s21.png",
+      "pixeles": [
+        1214,
+        1295
+      ],
+      "estado": "prueba pendiente de aprobación"
+    },
+    "p07": {
+      "archivo": "p07.png",
+      "pixeles": [
+        1173,
+        1341
+      ],
+      "estado": "prueba pendiente de aprobación"
+    }
+  }
+}

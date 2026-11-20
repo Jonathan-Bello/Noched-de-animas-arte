@@ -1,0 +1,641 @@
+{
+  "cartas": 148,
+  "frentes": 99,
+  "reversos": 15,
+  "paginas": 18,
+  "secciones": [
+    {
+      "nombre": "Investigadores",
+      "pagina": 2,
+      "vistas": 15
+    },
+    {
+      "nombre": "Ánima: cartas comunes",
+      "pagina": 4,
+      "vistas": 9
+    },
+    {
+      "nombre": "Evidencias",
+      "pagina": 5,
+      "vistas": 7
+    },
+    {
+      "nombre": "Habilidades de evidencia",
+      "pagina": 6,
+      "vistas": 7
+    },
+    {
+      "nombre": "Identidades: las 21 ánimas",
+      "pagina": 7,
+      "vistas": 21
+    },
+    {
+      "nombre": "Espantos: los 21 ataques",
+      "pagina": 10,
+      "vistas": 21
+    },
+    {
+      "nombre": "Objetos malditos",
+      "pagina": 13,
+      "vistas": 8
+    },
+    {
+      "nombre": "Alba y tarjetas de reglas",
+      "pagina": 14,
+      "vistas": 6
+    },
+    {
+      "nombre": "Tarjetas de consulta",
+      "pagina": 15,
+      "vistas": 5
+    },
+    {
+      "nombre": "Reversos compartidos",
+      "pagina": 16,
+      "vistas": 5
+    },
+    {
+      "nombre": "Reversos de reglas",
+      "pagina": 17,
+      "vistas": 5
+    },
+    {
+      "nombre": "Reversos de consulta",
+      "pagina": 18,
+      "vistas": 5
+    }
+  ],
+  "origen": "Noche_de_Animas_Imprenta_v2_B_Sin_Iconos.pdf",
+  "ubicaciones": [
+    {
+      "catalog_page": 2,
+      "id": "i01",
+      "source_page": 1
+    },
+    {
+      "catalog_page": 2,
+      "id": "i02",
+      "source_page": 5
+    },
+    {
+      "catalog_page": 2,
+      "id": "i03",
+      "source_page": 9
+    },
+    {
+      "catalog_page": 2,
+      "id": "i04",
+      "source_page": 13
+    },
+    {
+      "catalog_page": 2,
+      "id": "i05",
+      "source_page": 17
+    },
+    {
+      "catalog_page": 2,
+      "id": "i06",
+      "source_page": 21
+    },
+    {
+      "catalog_page": 2,
+      "id": "i07",
+      "source_page": 25
+    },
+    {
+      "catalog_page": 2,
+      "id": "i08",
+      "source_page": 29
+    },
+    {
+      "catalog_page": 2,
+      "id": "i09",
+      "source_page": 41
+    },
+    {
+      "catalog_page": 3,
+      "id": "i10",
+      "source_page": 57
+    },
+    {
+      "catalog_page": 3,
+      "id": "i11",
+      "source_page": 65
+    },
+    {
+      "catalog_page": 3,
+      "id": "i12",
+      "source_page": 79
+    },
+    {
+      "catalog_page": 3,
+      "id": "i13",
+      "source_page": 85
+    },
+    {
+      "catalog_page": 3,
+      "id": "i14",
+      "source_page": 89
+    },
+    {
+      "catalog_page": 3,
+      "id": "i15",
+      "source_page": 93
+    },
+    {
+      "catalog_page": 4,
+      "id": "a01",
+      "source_page": 97
+    },
+    {
+      "catalog_page": 4,
+      "id": "a02",
+      "source_page": 107
+    },
+    {
+      "catalog_page": 4,
+      "id": "a03",
+      "source_page": 113
+    },
+    {
+      "catalog_page": 4,
+      "id": "a04",
+      "source_page": 115
+    },
+    {
+      "catalog_page": 4,
+      "id": "a05",
+      "source_page": 121
+    },
+    {
+      "catalog_page": 4,
+      "id": "a06",
+      "source_page": 123
+    },
+    {
+      "catalog_page": 4,
+      "id": "a07",
+      "source_page": 129
+    },
+    {
+      "catalog_page": 4,
+      "id": "a08",
+      "source_page": 133
+    },
+    {
+      "catalog_page": 4,
+      "id": "a09",
+      "source_page": 141
+    },
+    {
+      "catalog_page": 5,
+      "id": "e01",
+      "source_page": 145
+    },
+    {
+      "catalog_page": 5,
+      "id": "e02",
+      "source_page": 147
+    },
+    {
+      "catalog_page": 5,
+      "id": "e03",
+      "source_page": 149
+    },
+    {
+      "catalog_page": 5,
+      "id": "e04",
+      "source_page": 151
+    },
+    {
+      "catalog_page": 5,
+      "id": "e05",
+      "source_page": 161
+    },
+    {
+      "catalog_page": 5,
+      "id": "e06",
+      "source_page": 163
+    },
+    {
+      "catalog_page": 5,
+      "id": "e07",
+      "source_page": 165
+    },
+    {
+      "catalog_page": 6,
+      "id": "h01",
+      "source_page": 153
+    },
+    {
+      "catalog_page": 6,
+      "id": "h02",
+      "source_page": 155
+    },
+    {
+      "catalog_page": 6,
+      "id": "h03",
+      "source_page": 157
+    },
+    {
+      "catalog_page": 6,
+      "id": "h04",
+      "source_page": 159
+    },
+    {
+      "catalog_page": 6,
+      "id": "h05",
+      "source_page": 167
+    },
+    {
+      "catalog_page": 6,
+      "id": "h06",
+      "source_page": 169
+    },
+    {
+      "catalog_page": 6,
+      "id": "h07",
+      "source_page": 171
+    },
+    {
+      "catalog_page": 7,
+      "id": "id01",
+      "source_page": 173
+    },
+    {
+      "catalog_page": 7,
+      "id": "id02",
+      "source_page": 175
+    },
+    {
+      "catalog_page": 7,
+      "id": "id03",
+      "source_page": 177
+    },
+    {
+      "catalog_page": 7,
+      "id": "id04",
+      "source_page": 179
+    },
+    {
+      "catalog_page": 7,
+      "id": "id05",
+      "source_page": 189
+    },
+    {
+      "catalog_page": 7,
+      "id": "id06",
+      "source_page": 191
+    },
+    {
+      "catalog_page": 7,
+      "id": "id07",
+      "source_page": 193
+    },
+    {
+      "catalog_page": 7,
+      "id": "id08",
+      "source_page": 195
+    },
+    {
+      "catalog_page": 7,
+      "id": "id09",
+      "source_page": 205
+    },
+    {
+      "catalog_page": 8,
+      "id": "id10",
+      "source_page": 207
+    },
+    {
+      "catalog_page": 8,
+      "id": "id11",
+      "source_page": 209
+    },
+    {
+      "catalog_page": 8,
+      "id": "id12",
+      "source_page": 217
+    },
+    {
+      "catalog_page": 8,
+      "id": "id13",
+      "source_page": 219
+    },
+    {
+      "catalog_page": 8,
+      "id": "id14",
+      "source_page": 221
+    },
+    {
+      "catalog_page": 8,
+      "id": "id15",
+      "source_page": 229
+    },
+    {
+      "catalog_page": 8,
+      "id": "id16",
+      "source_page": 233
+    },
+    {
+      "catalog_page": 8,
+      "id": "id17",
+      "source_page": 237
+    },
+    {
+      "catalog_page": 8,
+      "id": "id18",
+      "source_page": 241
+    },
+    {
+      "catalog_page": 9,
+      "id": "id19",
+      "source_page": 245
+    },
+    {
+      "catalog_page": 9,
+      "id": "id20",
+      "source_page": 249
+    },
+    {
+      "catalog_page": 9,
+      "id": "id21",
+      "source_page": 253
+    },
+    {
+      "catalog_page": 10,
+      "id": "s01",
+      "source_page": 181
+    },
+    {
+      "catalog_page": 10,
+      "id": "s02",
+      "source_page": 183
+    },
+    {
+      "catalog_page": 10,
+      "id": "s03",
+      "source_page": 185
+    },
+    {
+      "catalog_page": 10,
+      "id": "s04",
+      "source_page": 187
+    },
+    {
+      "catalog_page": 10,
+      "id": "s05",
+      "source_page": 197
+    },
+    {
+      "catalog_page": 10,
+      "id": "s06",
+      "source_page": 199
+    },
+    {
+      "catalog_page": 10,
+      "id": "s07",
+      "source_page": 201
+    },
+    {
+      "catalog_page": 10,
+      "id": "s08",
+      "source_page": 203
+    },
+    {
+      "catalog_page": 10,
+      "id": "s09",
+      "source_page": 211
+    },
+    {
+      "catalog_page": 11,
+      "id": "s10",
+      "source_page": 213
+    },
+    {
+      "catalog_page": 11,
+      "id": "s11",
+      "source_page": 215
+    },
+    {
+      "catalog_page": 11,
+      "id": "s12",
+      "source_page": 223
+    },
+    {
+      "catalog_page": 11,
+      "id": "s13",
+      "source_page": 225
+    },
+    {
+      "catalog_page": 11,
+      "id": "s14",
+      "source_page": 227
+    },
+    {
+      "catalog_page": 11,
+      "id": "s15",
+      "source_page": 231
+    },
+    {
+      "catalog_page": 11,
+      "id": "s16",
+      "source_page": 235
+    },
+    {
+      "catalog_page": 11,
+      "id": "s17",
+      "source_page": 239
+    },
+    {
+      "catalog_page": 11,
+      "id": "s18",
+      "source_page": 243
+    },
+    {
+      "catalog_page": 12,
+      "id": "s19",
+      "source_page": 247
+    },
+    {
+      "catalog_page": 12,
+      "id": "s20",
+      "source_page": 251
+    },
+    {
+      "catalog_page": 12,
+      "id": "s21",
+      "source_page": 255
+    },
+    {
+      "catalog_page": 13,
+      "id": "o01",
+      "source_page": 257
+    },
+    {
+      "catalog_page": 13,
+      "id": "o02",
+      "source_page": 261
+    },
+    {
+      "catalog_page": 13,
+      "id": "o03",
+      "source_page": 263
+    },
+    {
+      "catalog_page": 13,
+      "id": "o04",
+      "source_page": 265
+    },
+    {
+      "catalog_page": 13,
+      "id": "o05",
+      "source_page": 267
+    },
+    {
+      "catalog_page": 13,
+      "id": "o06",
+      "source_page": 269
+    },
+    {
+      "catalog_page": 13,
+      "id": "o07",
+      "source_page": 271
+    },
+    {
+      "catalog_page": 13,
+      "id": "o08",
+      "source_page": 273
+    },
+    {
+      "catalog_page": 14,
+      "id": "p02",
+      "source_page": 275
+    },
+    {
+      "catalog_page": 14,
+      "id": "p03",
+      "source_page": 277
+    },
+    {
+      "catalog_page": 14,
+      "id": "p04",
+      "source_page": 279
+    },
+    {
+      "catalog_page": 14,
+      "id": "p05",
+      "source_page": 281
+    },
+    {
+      "catalog_page": 14,
+      "id": "p06",
+      "source_page": 283
+    },
+    {
+      "catalog_page": 14,
+      "id": "p07",
+      "source_page": 285
+    },
+    {
+      "catalog_page": 15,
+      "id": "Q1",
+      "source_page": 287
+    },
+    {
+      "catalog_page": 15,
+      "id": "Q2",
+      "source_page": 289
+    },
+    {
+      "catalog_page": 15,
+      "id": "Q3",
+      "source_page": 291
+    },
+    {
+      "catalog_page": 15,
+      "id": "Q4",
+      "source_page": 293
+    },
+    {
+      "catalog_page": 15,
+      "id": "Q5",
+      "source_page": 295
+    },
+    {
+      "catalog_page": 16,
+      "id": "back01",
+      "source_page": 2
+    },
+    {
+      "catalog_page": 16,
+      "id": "back02",
+      "source_page": 98
+    },
+    {
+      "catalog_page": 16,
+      "id": "back05",
+      "source_page": 146
+    },
+    {
+      "catalog_page": 16,
+      "id": "back03",
+      "source_page": 174
+    },
+    {
+      "catalog_page": 16,
+      "id": "back04",
+      "source_page": 182
+    },
+    {
+      "catalog_page": 17,
+      "id": "R01",
+      "source_page": 278
+    },
+    {
+      "catalog_page": 17,
+      "id": "R02",
+      "source_page": 280
+    },
+    {
+      "catalog_page": 17,
+      "id": "R03",
+      "source_page": 282
+    },
+    {
+      "catalog_page": 17,
+      "id": "R04",
+      "source_page": 284
+    },
+    {
+      "catalog_page": 17,
+      "id": "R05",
+      "source_page": 286
+    },
+    {
+      "catalog_page": 18,
+      "id": "Q1B",
+      "source_page": 288
+    },
+    {
+      "catalog_page": 18,
+      "id": "Q2B",
+      "source_page": 290
+    },
+    {
+      "catalog_page": 18,
+      "id": "Q3B",
+      "source_page": 292
+    },
+    {
+      "catalog_page": 18,
+      "id": "Q4B",
+      "source_page": 294
+    },
+    {
+      "catalog_page": 18,
+      "id": "Q5B",
+      "source_page": 296
+    }
+  ]
+}

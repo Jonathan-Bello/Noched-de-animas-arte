@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "definitions": 99,
+  "backs": 15,
+  "instances": 148,
+  "imagesChecked": 342,
+  "atlasPages": 5,
+  "checks": [
+    "estructura",
+    "copias",
+    "rutas",
+    "sha256",
+    "dimensiones PNG",
+    "atlas",
+    "API cargador",
+    "reversos"
+  ]
+}

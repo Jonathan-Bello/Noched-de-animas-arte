@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "browser": "Chromium headless",
+  "definitionsVisible": 99,
+  "identityFilter": 21,
+  "highResolutionImage": [
+    1160,
+    1760
+  ],
+  "frontBackFlip": true,
+  "atlasRendered": true,
+  "sevenApprovedImagesDecoded": [
+    {
+      "id": "e05",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "e06",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "id20",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "o01",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "o02",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "o03",
+      "w": 1160,
+      "h": 1760
+    },
+    {
+      "id": "o05",
+      "w": 1160,
+      "h": 1760
+    }
+  ],
+  "pngFallback": true,
+  "jsErrors": []
+}

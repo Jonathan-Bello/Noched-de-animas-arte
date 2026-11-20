@@ -1,0 +1,33 @@
+{
+  "project": "Noche de Ánimas",
+  "date": "2026-11-14",
+  "revision": "ed08-B-approved-redesigns",
+  "cards": 99,
+  "backs": 15,
+  "instances": 148,
+  "updatedArt": [
+    "e05",
+    "e06",
+    "id20",
+    "o01",
+    "o02",
+    "o03",
+    "o05"
+  ],
+  "browserSmokeTest": true,
+  "manifestValidation": true,
+  "mainEntry": "manifest.json",
+  "handoffInstructions": "PARA_EL_OTRO_CHAT.txt",
+  "preview": "example/index.html",
+  "readme": "LEEME.txt",
+  "webpPixels": [
+    1160,
+    1760
+  ],
+  "pngFallbackPixels": [
+    580,
+    880
+  ],
+  "atlasPages": 5,
+  "includedRuleEngine": false
+}

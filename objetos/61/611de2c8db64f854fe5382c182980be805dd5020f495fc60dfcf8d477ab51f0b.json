@@ -1,0 +1,162 @@
+{
+  "estilo": {
+    "comun": "Ilustración de arte popular mexicano en capas de papel recortado, con textura granulada de grabado y bordes limpios; formas planas superpuestas, sin degradados fotográficos ni 3D; motivos de Día de Muertos (cempasúchil, veladoras, papel picado) cuando la escena lo permita; composición vertical centrada en el personaje, con aire arriba y abajo para la cabecera y la leyenda; sin texto, sin letras, sin marco, sin bordes.",
+    "identidad": "Paleta nocturna a todo color: azules y verdes profundos con luces cálidas de veladora, naranja de cempasúchil y luna pálida.",
+    "espanto": "Paleta casi monocromática en carmesí, guinda y magenta, con luces rosa pálido; el mismo personaje en su momento de ataque, más cerca y más amenazante.",
+    "evitar": "Gore explícito, sangre realista, rostros fotográficos, texto, marcas de agua, estilo anime o cómic.",
+    "formato": "Vertical 7:8, mínimo 1900 × 2200 px."
+  },
+  "escenas": {
+    "identidades": [
+      {
+        "id": "id15",
+        "titulo": "15 · El Mal Aire",
+        "titulo_corto": "15 · Mal Aire",
+        "leyenda": "Las flores amanecieron negras, y nadie abrió la ventana.",
+        "evidencias": "Bajo cero, Luces parpadeantes, Marcas en el espejo",
+        "arte": "Corriente de neblina espesa y verdosa con forma vagamente humana colándose por las rendijas de una ventana de madera, congelando flores de cempasúchil a su paso.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id16",
+        "titulo": "16 · El Guardián del Entierro",
+        "titulo_corto": "16 · El Guardián",
+        "leyenda": "Bajo la losa, algo cuenta monedas en la oscuridad.",
+        "evidencias": "Bajo cero, Susurros, Objetos movidos",
+        "arte": "Figura espectral de época con ropa empolvada de hacendado, señalando con un dedo huesudo una grieta en el suelo de losa de la que brota una flama azul pálido.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id17",
+        "titulo": "17 · El Cucuy",
+        "titulo_corto": "17 · Cucuy",
+        "leyenda": "La puerta del ropero no estaba así cuando apagué la luz.",
+        "evidencias": "Huellas de ceniza, Objetos movidos, Marcas en el espejo",
+        "arte": "Criatura alargada de extremidades delgadas y dedos largos asomando apenas por la puerta entreabierta de un ropero antiguo de madera tallada.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id18",
+        "titulo": "18 · El Cadejo Negro",
+        "titulo_corto": "18 · Cadejo Negro",
+        "leyenda": "Detrás de mí, las cadenas seguían mi paso.",
+        "evidencias": "Huellas de ceniza, Luces parpadeantes, Olor a azufre",
+        "arte": "Perro negro colosal agazapado al fondo de un patio empedrado en tinieblas, con dos brasas rojas por ojos y gruesas cadenas oxidadas enredadas en el cuello.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id19",
+        "titulo": "19 · El Espíritu Chocarrero",
+        "titulo_corto": "19 · Chocarrero",
+        "leyenda": "Alguien se reía cada vez que caía una taza.",
+        "evidencias": "Susurros, Objetos movidos, Luces parpadeantes",
+        "arte": "Silueta translúcida de rostro borroso en una cocina colonial en penumbra, rodeada de platos de barro, sillas y veladoras flotando en el aire.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id20",
+        "titulo": "20 · La Mulata de Córdoba",
+        "titulo_corto": "20 · La Mulata",
+        "leyenda": "En la pared de la celda quedó un barco, y nadie adentro.",
+        "evidencias": "Susurros, Marcas en el espejo, Olor a azufre",
+        "arte": "Mujer afrodescendiente de porte sereno y mirada intensa, con vestido colonial sencillo, sosteniendo un trozo de carbón frente a una pared de piedra húmeda. Retrato digno y respetuoso, sin caricatura.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      },
+      {
+        "id": "id21",
+        "titulo": "21 · El Uay Chivo",
+        "titulo_corto": "21 · Uay Chivo",
+        "leyenda": "Olía a monte quemado, y algo caminaba en dos patas.",
+        "evidencias": "Bajo cero, Susurros, Olor a azufre",
+        "arte": "Macho cabrío negro erguido parcialmente sobre dos patas tras un umbral de piedra maya, con cuernos retorcidos y ojos rojos que iluminan la oscuridad.",
+        "reverso": "back03",
+        "paleta": "identidad"
+      }
+    ],
+    "espantos": [
+      {
+        "id": "s15",
+        "titulo": "Soplo del mal viento",
+        "leyenda": "El aire entró por las rendijas y ya no pude moverme.",
+        "efecto_consulta": "Cacería a todos con 3 o menos; ni Rosario ni Esconderse sirven",
+        "arte": "Ráfagas de humo helado y hojas secas remolinando dentro de un cuarto cerrado, envolviendo la silueta de una persona que cae de rodillas.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s16",
+        "titulo": "Maldición del entierro",
+        "leyenda": "Tomé una moneda. Desde entonces, la flama me sigue.",
+        "efecto_consulta": "Cada investigador elige: descarta 2 cartas o pierde 3 de cordura; después, cacería a todos con 4 o menos",
+        "arte": "Un cofre de hierro entreabierto entre tierra removida, del que escapan monedas de oro ennegrecidas y un denso humo que llena la habitación.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s17",
+        "titulo": "Desde la penumbra",
+        "leyenda": "No era una sombra. Eran todas.",
+        "efecto_consulta": "Cacería a todos con 4 o menos; el de menos cordura es cazado dos veces",
+        "arte": "Múltiples sombras con dedos largos y afilados saliendo al mismo tiempo de debajo de la cama, del ropero y de las esquinas oscuras hacia el centro del cuarto.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s18",
+        "titulo": "Arrastre de cadenas",
+        "leyenda": "Las cadenas se rompieron, y el perro ya no tenía prisa.",
+        "efecto_consulta": "Encadena al de menos cordura con el de más cordura; cacería a todos con 4 o menos; si uno de los encadenados muere, el otro también",
+        "arte": "El Cadejo abalanzándose en primer plano con el hocico abierto entre chispas, rompiendo sus cadenas mientras su sombra cubre toda la puerta.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s19",
+        "titulo": "Alboroto en la casona",
+        "leyenda": "Toda la casa se nos vino encima a la vez.",
+        "efecto_consulta": "Cada investigador pierde 1 de cordura por carta en su mano; después, cacería a todos con 4 o menos",
+        "arte": "Sillas, espejos, lámparas y libros estrellándose a toda velocidad contra las paredes de un pasillo oscuro, entre nubes de polvo y astillas.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s20",
+        "titulo": "El barco en la pared",
+        "leyenda": "El agua salada empezó a salir de la piedra.",
+        "efecto_consulta": "Cada investigador pasa su mano al de su izquierda; después, cacería a todos con 4 o menos",
+        "arte": "Un galeón dibujado al carbón que cobra relieve y rompe la pared de piedra de la casona, desbordando agua salada y niebla marina hacia el interior.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      },
+      {
+        "id": "s21",
+        "titulo": "Mirada de cabra",
+        "leyenda": "Me miró una sola vez, y ardí en fiebre hasta el alba.",
+        "efecto_consulta": "Elige a un investigador: su cordura baja a 3; después, cacería a todos con 4 o menos",
+        "arte": "Primerísimo plano de los dos ojos encendidos del Uay Chivo rasgando la oscuridad absoluta, reflejando en sus pupilas una veladora que se apaga.",
+        "reverso": "back04",
+        "paleta": "espanto"
+      }
+    ],
+    "reglas": [
+      {
+        "id": "p07",
+        "titulo": "El espíritu",
+        "pie": "R05 · Noche de Ánimas",
+        "leyenda": "Todavía puedo ayudarles desde aquí.",
+        "arte": "Silueta translúcida y azulada de un investigador muerto, de pie junto a sus compañeros vivos que no lo ven, con la mano sobre el puntero de una tablilla espiritista iluminada por veladoras.",
+        "paleta": "identidad",
+        "reverso": "R05",
+        "opcional": true,
+        "nota": "Si se omite, el total baja a 147 cartas y 294 páginas"
+      }
+    ]
+  },
+  "referencia": "Arte original de la edición 07, solo como referencia de estilo; sin regenerar originales"
+}

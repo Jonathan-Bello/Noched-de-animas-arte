@@ -1,0 +1,9 @@
+{
+  "definitions": 99,
+  "backs": 15,
+  "instances": 148,
+  "all_asset_paths_exist": true,
+  "all_dimensions_match": true,
+  "all_back_links_exist": true,
+  "seven_approved_art_revisions_integrated": true
+}

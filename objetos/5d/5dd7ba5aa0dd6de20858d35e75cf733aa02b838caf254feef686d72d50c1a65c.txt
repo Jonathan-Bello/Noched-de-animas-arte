@@ -1,0 +1,61 @@
+NOCHE DE ÁNIMAS — PAQUETE DE IMPORTACIÓN WEB
+Edición 08 B · 14 de noviembre de 2026
+
+QUÉ INCLUYE
+99 diseños de frente, 15 reversos y 148 instancias físicas. Están integrados los siete rediseños aprobados: e05, e06, id20, o01, o02, o03 y o05. La Tablilla espiritista muestra ambas manos tocando el puntero sobre SÍ.
+
+PUNTO DE ENTRADA: manifest.json
+cards: una definición por ID, con nombre, categoría, quantity, backId e imágenes.
+backs: los 15 reversos compartidos o informativos.
+instances: las 148 copias, cada una con instanceId único y cardId.
+groups: categorías e inventario de cada grupo.
+Los identificadores permanecen estables aunque cambie el nombre. o02 es la antigua Ouija y s19 es el actual Tornado de objetos.
+
+IMÁGENES
+assets/cards y assets/backs: WebP de 1160 × 1760, alta resolución para zoom y pantallas.
+assets/png: PNG de 580 × 880 como alternativa de compatibilidad y archivo sin pérdidas a esa resolución.
+assets/thumbs: WebP de 232 × 352 para listas y manos pequeñas.
+assets/atlases: cinco páginas de 4096 × 4096 con sus JSON de coordenadas; cada carta ocupa 580 × 880, con separación y borde extruido para evitar contaminación de bordes al escalar.
+Las imágenes incluyen la carta completa (título, marco, arte y leyenda). Relación de aspecto 58:88. Color de pantalla sRGB, sin sangrado ni márgenes exteriores añadidos. No estirar la carta ni recortar su marco.
+
+IMPORTACIÓN EN EL PROYECTO QUE YA EXISTE
+1. Descomprime y copia esta carpeta a la carpeta pública/estática de tu proyecto, por ejemplo bajo /noche-de-animas/.
+2. Carga manifest.json con fetch. Todas las rutas de imágenes son relativas a la raíz del paquete. Conserva las mayúsculas: Q1, Q2 y sus archivos tienen IDs sensibles a mayúsculas.
+3. Puedes usar el cargador sin dependencias:
+
+import { loadCatalog } from '/noche-de-animas/integration/catalog-loader.mjs';
+const catalog = await loadCatalog('/noche-de-animas/');
+const imageUrl = catalog.urlFor('o02', 'front', 'webp');
+const backUrl = catalog.urlFor('o02', 'back', 'webp');
+const investigators = catalog.createInstances({ category: 'investigador' }); // 48
+const allInventory = catalog.createInstances(); // 148, inventario completo
+
+Para usar Canvas y atlas:
+await catalog.drawFromAtlas(ctx, 'o02', 'front', x, y, width, height);
+
+No hay que instalar ninguna biblioteca para usar este cargador. Si ya tienes un motor o gestión de cartas, adapta estos datos a su modelo y conserva los IDs. El paquete no sustituye la lógica ni la interfaz del juego existente.
+
+IMPORTANTE SOBRE LAS COPIAS
+quantity indica inventario, no una recomendación de barajar todo junto. Identidades, Espantos, evidencias, habilidades, Alba y reglas no son un único mazo de robo. Consulta el reglamento para la preparación y las zonas de juego. Cada instanceId debe tener estado propio; las definiciones y las texturas se comparten.
+
+PRUEBA LOCAL
+Desde esta carpeta, con Node.js instalado:
+  npm run check
+  npm run serve
+Abre http://localhost:8000/example/
+Alternativa para servir estáticamente, si tienes Python:
+  python -m http.server 8000
+No abras example/index.html mediante file://: los módulos y fetch necesitan un servidor HTTP.
+
+REGLAS Y CONTEXTO
+sources/rules/Reglamento_v4.txt es la referencia suministrada por el usuario, con sus notas de borrador. No es un motor ejecutable de reglas.
+sources/rules/Especificacion_edicion_08_original.json conserva el inventario y las instrucciones originales de producción como referencia; las revisiones de arte aprobadas y los nombres de manifest.json son los actuales.
+Los efectos de las cartas de la versión B se consultan en el reglamento; muchos frentes solo llevan título y leyenda. No inferir efectos a partir de la ilustración ni tratar una habilidad falsa como evidencia confirmada.
+El Pentagrama separado no estaba dentro de la baraja fuente de 148 cartas; no se incluye ni se ha inventado un recurso para él.
+
+CONSISTENCIA ARTÍSTICA
+Antes de generar o editar arte, leer sources/style-guide/parametros_artisticos.json y abrir sus referencias. El archivo describe el análisis de 92 frentes y 15 reversos, con las siete cartas originales cuestionadas excluidas como patrón. Los siete reemplazos actuales sí están aprobados.
+sources/approved-art incluye los PNG originales aprobados de esos siete rediseños. No regenerarlos ni volver a simplificarlos durante la importación.
+
+ALCANCE
+Este ZIP es un paquete de recursos, inventario, atlas y código de importación independiente del motor. No es el videojuego terminado ni un instalador específico de una plataforma. Incluye un ejemplo navegable para comprobar las imágenes, los reversos y la carga desde atlas.

@@ -1,0 +1,1 @@
+{"name":"noche-de-animas-assets","version":"1.0.0","private":true,"type":"module","scripts":{"serve":"node integration/serve.mjs","check":"node integration/check.mjs"}}

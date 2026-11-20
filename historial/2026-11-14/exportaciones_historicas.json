@@ -1,0 +1,163 @@
+{
+  "fecha_observada": "2026-11-14",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "exportaciones_historicas",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Cartas_nuevas_B_Corregidas.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T12:18:43.498105-06:00",
+      "ultima_modificacion_observada": "2026-11-14T12:18:43.931032-06:00",
+      "sha256": "c45316b252f9062c4fe15072187baed0657ed391b4c6c90c8abf213598997906",
+      "bytes": 18191869,
+      "objeto": "objetos/c4/c45316b252f9062c4fe15072187baed0657ed391b4c6c90c8abf213598997906.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Frentes_nuevos_B_Corregidos.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T12:18:49.755328-06:00",
+      "ultima_modificacion_observada": "2026-11-14T12:18:50.131505-06:00",
+      "sha256": "2082580315502a86da0bd26f5d9e3bb7cfab4479548985d43706ecdde874808a",
+      "bytes": 18151103,
+      "objeto": "objetos/20/2082580315502a86da0bd26f5d9e3bb7cfab4479548985d43706ecdde874808a.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Hoja_de_prueba_arte_nuevo.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T11:32:24.572083-06:00",
+      "ultima_modificacion_observada": "2026-11-14T11:33:27.159636-06:00",
+      "sha256": "72c5bb1d011fad7e1271ce27709b1f163cde5d98cb9e9c2aedcfe17ed386b24e",
+      "bytes": 21186328,
+      "objeto": "objetos/72/72c5bb1d011fad7e1271ce27709b1f163cde5d98cb9e9c2aedcfe17ed386b24e.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Indice_Catalogo_Actualizado_Web.json",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T22:07:04.294142-06:00",
+      "ultima_modificacion_observada": "2026-11-14T22:07:04.294142-06:00",
+      "sha256": "12841750ff7a33e61386c1c118b0a90b5c1f4510bcacd6da0a2f579a3f54d997",
+      "bytes": 11317,
+      "objeto": "objetos/12/12841750ff7a33e61386c1c118b0a90b5c1f4510bcacd6da0a2f579a3f54d997.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Indice_Catalogo_Completo_v2.json",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T20:40:46.404363-06:00",
+      "ultima_modificacion_observada": "2026-11-14T20:42:23.286630-06:00",
+      "sha256": "12841750ff7a33e61386c1c118b0a90b5c1f4510bcacd6da0a2f579a3f54d997",
+      "bytes": 11317,
+      "objeto": "objetos/12/12841750ff7a33e61386c1c118b0a90b5c1f4510bcacd6da0a2f579a3f54d997.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Catalogo_Actualizado_Web.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T22:06:57.333318-06:00",
+      "ultima_modificacion_observada": "2026-11-14T22:06:57.553901-06:00",
+      "sha256": "d76f514d47a174a9e803fe7b92ff5c6fdc3262997f4b3f649ae2383c9703185a",
+      "bytes": 120264861,
+      "objeto": "objetos/d7/d76f514d47a174a9e803fe7b92ff5c6fdc3262997f4b3f649ae2383c9703185a.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Catalogo_Completo_v2_B.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T20:40:39.462097-06:00",
+      "ultima_modificacion_observada": "2026-11-14T20:42:17.579261-06:00",
+      "sha256": "425dab42c8826bca68f2ef57e9f6b436ba0b5fab9b4f78f95775f7581625101f",
+      "bytes": 86040386,
+      "objeto": "objetos/42/425dab42c8826bca68f2ef57e9f6b436ba0b5fab9b4f78f95775f7581625101f.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Catalogo_v2_B_Corregido.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T12:18:38.781688-06:00",
+      "ultima_modificacion_observada": "2026-11-14T12:18:39.978535-06:00",
+      "sha256": "03fece5a7e92b418e8437a453fa0d9a248288f517b07bf063fced172f36a7d2c",
+      "bytes": 54737536,
+      "objeto": "objetos/03/03fece5a7e92b418e8437a453fa0d9a248288f517b07bf063fced172f36a7d2c.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Catalogo_v2_B_PRUEBA.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T11:32:04.461034-06:00",
+      "ultima_modificacion_observada": "2026-11-14T11:33:21.863292-06:00",
+      "sha256": "f34edd61fd0168949539377f84b9572685748b360f4c5b87842ee30694a7e13d",
+      "bytes": 58210905,
+      "objeto": "objetos/f3/f34edd61fd0168949539377f84b9572685748b360f4c5b87842ee30694a7e13d.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Imprenta_v2_B_Sin_Iconos.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T12:43:40.221177-06:00",
+      "ultima_modificacion_observada": "2026-11-14T12:47:06.433132-06:00",
+      "sha256": "a57ea6415409244f1a057d723ddcabf8d2a347cdd1150765716cf208f6ec2341",
+      "bytes": 86173573,
+      "objeto": "objetos/a5/a57ea6415409244f1a057d723ddcabf8d2a347cdd1150765716cf208f6ec2341.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Referencia_20_cartas_originales.png",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T11:55:52.209904-06:00",
+      "ultima_modificacion_observada": "2026-11-14T11:55:52.455502-06:00",
+      "sha256": "31d873ce7d3007ecdd5bd285b1fd7775e1c51d747a1f24324a85de4694e605d9",
+      "bytes": 5994135,
+      "objeto": "objetos/31/31d873ce7d3007ecdd5bd285b1fd7775e1c51d747a1f24324a85de4694e605d9.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Revision_arte_nuevo_B.json",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T11:31:56.617637-06:00",
+      "ultima_modificacion_observada": "2026-11-14T11:31:56.617637-06:00",
+      "sha256": "d1a3d575ceff5c405b9792951816201d4c87789fbcdc661ae10bf652260f2e74",
+      "bytes": 2719,
+      "objeto": "objetos/d1/d1a3d575ceff5c405b9792951816201d4c87789fbcdc661ae10bf652260f2e74.json",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Verificacion_tecnica_v2_FINAL.json",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-14",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-14T12:44:11.333840-06:00",
+      "ultima_modificacion_observada": "2026-11-14T12:48:24.139760-06:00",
+      "sha256": "7517d4fba0b1c23ba1711529eeb3b6c99c097632bd7c10169650575e65de63ab",
+      "bytes": 3338,
+      "objeto": "objetos/75/7517d4fba0b1c23ba1711529eeb3b6c99c097632bd7c10169650575e65de63ab.json",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}
