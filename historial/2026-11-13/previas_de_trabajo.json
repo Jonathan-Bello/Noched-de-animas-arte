@@ -1,0 +1,43 @@
+{
+  "fecha_observada": "2026-11-13",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "previas_de_trabajo",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/work/catalogo.png",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-13",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-13T16:26:05.268437-06:00",
+      "ultima_modificacion_observada": "2026-11-13T16:26:05.336010-06:00",
+      "sha256": "70a81a025b12f481bd75491fbffe0e45f05da28f965ace0e0c58a8be64aab78f",
+      "bytes": 1540504,
+      "objeto": "objetos/70/70a81a025b12f481bd75491fbffe0e45f05da28f965ace0e0c58a8be64aab78f.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/imprenta.png",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-13",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-13T16:26:05.391666-06:00",
+      "ultima_modificacion_observada": "2026-11-13T16:26:05.399983-06:00",
+      "sha256": "ee541717c0c61b43a6fc0cfb2888caf7c16802ed0d98e46feaf43ec012e87715",
+      "bytes": 173958,
+      "objeto": "objetos/ee/ee541717c0c61b43a6fc0cfb2888caf7c16802ed0d98e46feaf43ec012e87715.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/verificacion.png",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-13",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-13T16:26:53.039068-06:00",
+      "ultima_modificacion_observada": "2026-11-13T16:26:53.093409-06:00",
+      "sha256": "d55cca1da93e7c8eae9646f38520fe755b73d524cb2e7492c41a0277ffbc80e8",
+      "bytes": 1043050,
+      "objeto": "objetos/d5/d55cca1da93e7c8eae9646f38520fe755b73d524cb2e7492c41a0277ffbc80e8.png",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

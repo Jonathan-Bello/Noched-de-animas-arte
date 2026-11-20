@@ -1,0 +1,19 @@
+{
+  "fecha_observada": "2026-11-13",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "exportaciones_historicas",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Noche_de_Animas_Imprenta_Margenes_Corregidos.pdf",
+      "coleccion": "exportaciones_historicas",
+      "fecha_observada": "2026-11-13",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-13T16:26:52.371294-06:00",
+      "ultima_modificacion_observada": "2026-11-13T16:26:52.623372-06:00",
+      "sha256": "1c7a27293ed80e1cec962dfd65a45a74b837fe3a652c6b2cd82625371a4d5d4b",
+      "bytes": 16045353,
+      "objeto": "objetos/1c/1c7a27293ed80e1cec962dfd65a45a74b837fe3a652c6b2cd82625371a4d5d4b.pdf",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}
