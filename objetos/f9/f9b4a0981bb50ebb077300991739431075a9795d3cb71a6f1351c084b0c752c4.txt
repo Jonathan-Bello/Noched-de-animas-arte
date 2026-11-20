@@ -1,0 +1,139 @@
+# Prompts de arte · Noche de Ánimas
+
+Los prompts van en inglés porque los generadores de imagen lo entienden mejor; el nombre de cada pieza está en español. Para que todo combine con las cartas, **pega siempre el bloque de estilo al inicio** y, si tu herramienta lo permite, sube 2–3 cartas como referencia de estilo (por ejemplo `es_bruja`, `id_llorona` y un reverso).
+
+## Bloque de estilo (pégalo antes de cada prompt)
+
+```
+Style: Mexican folk-art illustration in layered cut paper (papel picado) and textured craft paper, flat shapes with soft paper shadows, visible paper grain, ornamental marigold and calavera motifs, warm candlelight. Palette: deep wine red #5a0f1e, burnt orange #e0782a, marigold gold #f2b04e, plum purple #4a2347, bone cream #f3e6cf, night indigo #1a1430. Mood: eerie but warm, Día de Muertos night, storytelling, no gore. Clean composition, high detail, no text, no watermark, no signature.
+```
+
+**Negativo** (si tu herramienta lo admite): `text, letters, watermark, logo, photorealistic, 3D render, gore, blood splatter, anime, extra fingers, blurry`
+
+---
+
+## 1. Carta de Espanto «Penitencia» (Ánima en pena) — 580×880, vertical
+
+```
+A lone wandering soul in purgatory, a translucent hooded woman kneeling among dozens of lit votive candles, holding a rosary of marigold beads, her breath forming pale smoke that rises like prayers, faint flames of purgatory at the bottom edge, empty chapel arches behind her, vertical card illustration, centered figure, leave a plain dark band at the top and bottom for card frame.
+```
+
+## 2. Logo «Noche de Ánimas» — 1600×600, fondo transparente
+
+```
+Title lettering for a board game called "Noche de Ánimas", hand-cut paper letters in marigold gold with wine-red drop shadow, a small calavera replacing the dot of the "i", papel picado flags hanging above the words, candle flame accent on the "Á", horizontal wordmark, transparent background.
+```
+> Los generadores suelen fallar con letras. Si sale mal escrito, pide solo los adornos («ornaments for a title, no text») y yo monto el texto con la tipografía Grenze que ya usa la demo.
+
+## 3. Ícono de la app / favicon — 512×512
+
+```
+App icon, single bold symbol: a lit candle whose smoke curls into a small ghostly face, inside a wine-red circle with a thin marigold papel picado border, flat cut-paper look, high contrast, readable at 32 pixels, square, no text.
+```
+
+## 4. Fondo de portada — 1920×1080 (horizontal) y 1080×1920 (vertical)
+
+```
+An old colonial Mexican hacienda (la casona) at night under a huge indigo sky, one window glowing with candlelight, marigold petals on the cobblestone path, papel picado strings fading into the dark, a faint ghostly silhouette behind a curtain, full moon partly covered by clouds, wide landscape composition with empty dark sky in the upper third for the title.
+```
+Para la versión vertical, cambia el final por: `tall portrait composition, the house in the lower half, empty sky in the upper half for the title`.
+
+## 5. Imagen para compartir el enlace — 1200×630
+
+```
+Wide banner: four investigators with lanterns approaching the glowing door of a haunted colonial house at night, a large translucent spirit rising above the roof, marigold petals floating, papel picado borders on top, empty space on the left for the title.
+```
+
+## 6. Investigadores (4–6) — 512×768, fondo transparente, de frente, de la cintura para arriba
+
+Usa el bloque de estilo y este molde, cambiando la descripción:
+
+```
+Character portrait for a board game, front view, waist-up, standing behind a table, holding [OBJETO], [DESCRIPCIÓN], expressive but friendly face, transparent background, consistent lighting from a candle below.
+```
+Sugerencias (cada una tiene un color de jugador para que se reconozca en la mesa):
+- **La curandera** (verde): `an older woman healer with a rebozo, braids and a bundle of rue herbs`, objeto: `a clay copal burner with smoke`.
+- **El periodista** (azul): `a young man reporter with round glasses and a vest`, objeto: `an old film camera`.
+- **La radioaficionada** (amarillo): `a woman engineer with a headscarf and headphones`, objeto: `a vintage radio with glowing dial`.
+- **El sacristán** (rojo): `a middle-aged man in a dark shirt and scapular`, objeto: `a wooden rosary and a lantern`.
+- **La estudiante de historia** (morado): `a young woman with a notebook and a shawl`, objeto: `a stack of old documents and a magnifying glass`.
+- **El velador** (naranja): `an old night watchman with a wide-brim hat and a poncho`, objeto: `a kerosene lantern`.
+
+Para el **retrato circular** (256×256) pide el mismo personaje: `tight head-and-shoulders crop, circular composition, plain wine-red background`.
+
+## 7. Versión espíritu de cada investigador
+
+```
+The same character as a translucent pale-blue ghost, softly glowing edges, marigold petals drifting through the body, serene expression, transparent background.
+```
+(Sube la imagen del personaje como referencia.)
+
+## 8. La presencia del ánima en la mesa — 512×768, fondo transparente
+
+```
+A faceless hooded spirit made of smoke and torn cut paper, only two candle-like glowing eyes, hands hidden in long sleeves, floating slightly above the floor, ambiguous so it could be any ghost, transparent background.
+```
+
+## 9. Fichas de cordura — 256×256, fondo transparente
+
+```
+A round game token seen from above, carved bone-colored disk with a small candle flame engraved in the center and a papel picado rim, flat lighting, transparent background.
+```
+Pide una sola; los colores de cada jugador los aplico yo en la demo.
+
+## 10. Caras del dado (opcional) — 256×256 cada una
+
+```
+Top view of one face of a carved wooden die, [N] pips shaped like small calavera skulls, worn wood texture, transparent background.
+```
+Repite con N = 1 a 6.
+
+## 11. Texturas del cuarto (opcional) — 2048×2048, en mosaico (tileable)
+
+- Piso: `seamless tileable texture of old dark wooden floorboards with marigold petals, top view`
+- Muros: `seamless tileable texture of aged lime-washed adobe wall in deep plum, faint cracks`
+- Mantel: `seamless tileable texture of embroidered Mexican tablecloth, wine red with marigold flowers`
+- Cielo de la ventana: `night sky with full moon and drifting clouds seen through a window, indigo` (no necesita mosaico).
+
+## 12. Iconos de evidencias (7) — 256×256, un solo color sobre fondo transparente
+
+Molde: `Simple flat icon, single color silhouette, bold shapes, readable at 24 pixels, transparent background: [SÍMBOLO]`
+
+| Evidencia | Símbolo |
+|---|---|
+| Bajo cero | `a snowflake with a thermometer` |
+| Susurros | `an ear with three small wavy lines` |
+| Marcas en el espejo | `an oval hand mirror with a handprint` |
+| Huellas de ceniza | `two footprints made of ash dots` |
+| Objetos movidos | `a tilted chair with motion lines` |
+| Olor a azufre | `a wisp of smoke with a small flame` |
+| Luces parpadeantes | `a light bulb with broken rays` |
+
+## 13. Iconos de defensas y tipos de carta (8) — mismo molde que arriba
+
+| Carta | Símbolo |
+|---|---|
+| Rosario | `a rosary with a cross` |
+| Esconderse | `a closed wardrobe door with an eye in the gap` |
+| Ultraje espiritual | `a raised fist with sparks` |
+| Copal | `a clay incense burner with smoke` |
+| Ruda | `a sprig of rue leaves` |
+| Herramienta | `a magnifying glass` |
+| Habilidad del ánima | `a ghost hand with long fingers` |
+| Cacería | `a skull with crossed bones and a red eye` |
+
+## 14. Ilustraciones de final — 1600×900
+
+- **Gana el ánima:** `the haunted house at dawn that never comes, all windows dark except one, the hooded spirit standing at the door, candles blown out on the steps, wide composition`.
+- **Ganan los investigadores:** `sunrise over the colonial house, the investigators walking out the door with their lanterns, the spirit dissolving into marigold petals in the morning light, wide composition`.
+
+---
+
+## Los botones de la interfaz
+
+Los iconos chicos de la interfaz (cámara, mis cartas, dado, espíritu, candado, lupa, descargar, cerrar) conviene dibujarlos como SVG simples en lugar de generarlos con IA: salen más nítidos y se tiñen con el tema. Los puedo hacer yo cuando quieras.
+
+## Al entregarlos
+
+- Formatos: PNG con transparencia o WebP. Yo los convierto a WebP y los integro.
+- Nombres sugeridos: `logo.png`, `icono.png`, `portada-h.png`, `portada-v.png`, `compartir.png`, `inv_curandera.png` y `inv_curandera_espiritu.png` (uno por personaje), `presencia.png`, `ficha.png`, `ev_0.png` … `ev_6.png`, `def_ros.png` …, `final_anima.png`, `final_vivos.png`, `es_anima.png` (Penitencia).

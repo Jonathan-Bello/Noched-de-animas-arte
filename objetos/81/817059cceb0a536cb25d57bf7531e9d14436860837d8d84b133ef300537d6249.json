@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "cartas_roles": 8,
+  "estados_avatar": 16,
+  "avatar_archivos_por_tamano_formato": 96,
+  "transparencia_real": true,
+  "zips": [
+    {
+      "archivo": "Noche_de_Animas_Roles_y_Avatares_v05.zip",
+      "archivos": 170,
+      "MB": 150.0,
+      "integridad": "correcta"
+    },
+    {
+      "archivo": "Noche_de_Animas_Avatares_v05.zip",
+      "archivos": 101,
+      "MB": 54.6,
+      "integridad": "correcta"
+    }
+  ]
+}

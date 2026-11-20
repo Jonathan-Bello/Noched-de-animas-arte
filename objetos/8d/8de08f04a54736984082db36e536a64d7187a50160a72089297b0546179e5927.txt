@@ -1,0 +1,8 @@
+Propuestas visuales generadas con la herramienta integrada image_gen.
+
+Abre Galeria_propuestas.html para comparar las cinco imágenes. Los títulos A, B y C identifican conceptos; la portada solo lleva el nombre del juego.
+
+Prompts completos: Prompts_generacion.json.
+Referencia de estilo: guía artística del proyecto y cartas aprobadas p07/a09. Elenco derivado de las propuestas de personajes del proyecto. Mateo se presenta como alternativa.
+
+Son imágenes conceptuales raster, no portada final preparada para impresión ni archivos por capas. No se han reemplazado catálogo, imprenta ni assets del demo.

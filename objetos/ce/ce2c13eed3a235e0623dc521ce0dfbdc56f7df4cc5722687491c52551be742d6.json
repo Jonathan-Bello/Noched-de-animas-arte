@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "role_types": 8,
+  "retratos": 11,
+  "pool_sin_duplicados": true,
+  "checks": [
+    {
+      "id": "jhonnatan_vigia",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "angel_improvisador",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "robert_tecnico",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "fermin_detective",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "amalia_curandera",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "mateo_padre",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "alexis_sensitivo",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "jorge_guardaespaldas",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "rafael_tecnico",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "tomas_detective",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    },
+    {
+      "id": "ines_sensitiva",
+      "dimensiones": "PASS",
+      "tipografia_visible": true
+    }
+  ],
+  "balance": "No simulado"
+}

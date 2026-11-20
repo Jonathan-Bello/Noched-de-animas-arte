@@ -1,0 +1,77 @@
+{
+  "estado": "Propuestas no aprobadas; sin generación de arte nuevo",
+  "frentes_inspeccionados": 99,
+  "elenco_recomendado": [
+    "Inés",
+    "Rafael",
+    "Tomás",
+    "Amalia"
+  ],
+  "alternativa": "Mateo puede sustituir a Tomás si se prefiere menos integración de figuras distintas, o quedar como personaje adicional.",
+  "personajes": [
+    {
+      "nombre_provisional": "Inés",
+      "base": [
+        "i06",
+        "i15",
+        "a01",
+        "a07",
+        "h02",
+        "h06"
+      ],
+      "observado": "Cabello oscuro recogido o trenzado, aretes de aro, blusa clara con bordado floral guinda, falda amplia y rebozo; flor naranja en algunas apariciones. Las prendas varían: no se confirma que sea la misma mujer.",
+      "propuesta": "Unificar una investigadora de 28–35 años, rostro ovalado, cejas marcadas y trenza gruesa recogida. Blusa marfil con bordado guinda, falda ciruela y rebozo magenta; flor naranja y aros como firma opcional.",
+      "objetos": "Farol y libreta; espejo como alternativa narrativa.",
+      "actitud": "Observadora y decidida; expresar concentración además de susto.",
+      "no_inferir": "Nombre, edad, biografía y continuidad son nuevos; no es una médium ni tiene poderes asignados."
+    },
+    {
+      "nombre_provisional": "Rafael",
+      "base": [
+        "i10"
+      ],
+      "observado": "Cabello oscuro ondulado, bigote y barba corta, cejas espesas, camisa beige remangada, chaleco verde con bolsillos y pañuelo rojo al cuello.",
+      "propuesta": "Investigador de 35–45 años, complexión media y hombros anchos; conservar el chaleco, la barba y el pañuelo. Pantalón café y calzado práctico son ampliaciones propuestas.",
+      "objetos": "Detector EMF o Kit de campo; no llevar todos los instrumentos a la vez.",
+      "actitud": "Práctico y sereno, capaz de tener miedo; no convertirlo en soldado o cazador armado.",
+      "no_inferir": "Profesión, edad y equipo asignado no están establecidos por la carta."
+    },
+    {
+      "nombre_provisional": "Tomás",
+      "base": [
+        "a08",
+        "e01",
+        "p07"
+      ],
+      "observado": "En Cacería: hombre de bigote, camisa clara, pañuelo rojo, tirantes oscuros, cinturón y morral. En Bajo cero: figura con sombrero de ala y capa/poncho geométrico, bigote, libreta y lápiz. No se confirma que sean la misma persona.",
+      "propuesta": "Unificar deliberadamente un investigador de 40–50 años con bigote y rostro más largo, sin barba completa; camisa marfil, tirantes, morral de cuero y poncho petróleo con motivos crema. Sombrero como accesorio, no rasgo obligatorio en cada pose.",
+      "objetos": "Bloc de deducción y lápiz.",
+      "actitud": "Metódico; distinguir su silueta de Rafael por sombrero/poncho y ausencia de barba.",
+      "no_inferir": "La fusión de las figuras es una propuesta nueva; no mezclarlo con El Aparecido ni con Charro Negro."
+    },
+    {
+      "nombre_provisional": "Amalia",
+      "base": [
+        "o04",
+        "i13",
+        "o06"
+      ],
+      "observado": "Limpia con huevo muestra una mujer de cabello oscuro trenzado/recogido, aros, prenda clara de bordado floral guinda y falda oscura; levanta un huevo sobre otra persona. Ruda y Tarot muestran manos/mangas bordadas, sin identidad facial confirmable.",
+      "propuesta": "Mujer de 50–60 años, rostro más anguloso y mechones grises discretos como adiciones; trenza larga, rebozo marfil de bordado guinda y falda verde musgo. Evitar copiar la silueta joven de Inés.",
+      "objetos": "Ramo pequeño de ruda o recipiente de copal; conservarlos como utilería visual, no habilidad.",
+      "actitud": "Calma y atención al entorno; tratarla como persona, no como estereotipo de bruja.",
+      "no_inferir": "Edad y canas son propuestas. La escena original no confirma nombre, profesión ni relación con Inés. Su origen visual es una carta de expansión, pero no se importan sus reglas."
+    },
+    {
+      "nombre_provisional": "Mateo (alternativa al elenco principal)",
+      "base": [
+        "i11"
+      ],
+      "observado": "Cabello oscuro abundante, cejas fuertes, bigote y vello facial parcialmente tapado por manos, chaqueta guinda/morada con solapas y hombreras, camisa clara y Rosario ámbar.",
+      "propuesta": "Adulto de 30–40 años, chaqueta vino como firma y manos expresivas. Definir barba en una ficha; la imagen no permite reconstruir toda la mandíbula con certeza.",
+      "objetos": "Rosario guardado en mano o bolsillo y grabadora como alternativa.",
+      "actitud": "Introspectivo y valiente pese al miedo; no dibujarlo rezando en todas las poses.",
+      "no_inferir": "No está confirmado que sea distinto del hombre de Respirar hondo. Propuesta de diseño separarlo, no descubrimiento de un personaje ya nombrado."
+    }
+  ]
+}

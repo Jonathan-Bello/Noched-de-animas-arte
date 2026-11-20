@@ -1,0 +1,15 @@
+NOCHE DE ÁNIMAS — ROLES Y AVATARES v0.5
+
+Abrir Galeria_roles_y_espiritu.html para ver cartas y cambiar avatares entre vivo y espíritu.
+
+Incluye 8 cartas de rol corregidas; 2 cartas de Espíritu y 3 reversos conservados de v04. Los cambios concretos están en Cambios_solicitados.json. El Guardaespaldas recupera exactamente el arte aprobado v03 con farol y palma al frente. No se cambian reglas, poderes ni textos mecánicos. Las cartas llevan solo ícono, rol, arte y leyenda.
+
+AVATARES PARA JUEGO WEB
+16 bustos transparentes: 8 personajes × vivo/muerto. Muerto se representa como el mismo personaje en forma de espíritu translúcido. Son imágenes estáticas; no incluyen animación de muerte.
+PNG y WebP con alfa a 1024, 512 y 256 px. avatares/manifest_avatares.json contiene las rutas por rol, estado y tamaño. Las rutas son relativas a la raíz de esta entrega (directorio padre de avatares). El manifest.json principal también incluye los avatares asociados a cada rol.
+Para cambiar visualmente al morir, conservar el mismo id de rol y cargar el archivo del estado muerto. Para mostrar el vivo, usar estado vivo. No usar la variante de Alexis catrina como estado muerto: el Sensitivo vivo ya lleva maquillaje; su espíritu es una variante adicional.
+
+Atlas: avatares/atlas_512.png o .webp, 4096×1024; avatares/atlas_512.json usa formato de frames con coordenadas sin recorte, pivote central. Primera fila = vivos; segunda = espíritus; columnas en orden de roles del manifest. Usar transparencia normal de alfa, sin fondo negro y sin aplicar un filtro gris al avatar vivo.
+
+PROCEDENCIA
+Artes y avatares con herramienta integrada image_gen; exportación, atlas y maquetación con Pillow. Los prompts se conservan en prompts_*.json. Las fotografías personales no están incluidas en el paquete. Las identidades v03 están aprobadas; estas correcciones v05 y avatares quedan separados hasta valoración. La Devota sigue siendo modelo femenino provisional.

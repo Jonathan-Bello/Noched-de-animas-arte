@@ -1,0 +1,94 @@
+{
+  "expansion": "Los Testigos de la Casona",
+  "version": "0.1 de prueba",
+  "estado": "Propuesta sin validación de balance ni integración al juego base",
+  "usos_por_habilidad": 1,
+  "activos_solo_mientras_vivo": true,
+  "roles": [
+    {
+      "id": "alexis",
+      "nombre": "Alexis",
+      "rol": "El Cronista del Umbral",
+      "habilidad": "Ordenar las pistas",
+      "texto": "Tras reponer tu mano y antes de acusar, mira hasta 2 cartas superiores del mazo de investigadores y devuélvelas en el orden que elijas. No mires ni muevas el Alba.",
+      "color": "#5b284e",
+      "flavor": "Lo que la casa repite también deja una pista.",
+      "momento": "Inicio de tu turno, después de reponer mano y antes de acusar.",
+      "limites": [
+        "No roba ni concede información de evidencia.",
+        "No mostrar ni nombrar las cartas vistas.",
+        "Si queda una carta antes del Alba, solo mira esa; si no queda ninguna, no se activa."
+      ],
+      "foto": "foto_09_alexis_sin_maquillaje.png",
+      "art": "Alexis is the SAME adult from identity photo1: oval slightly elongated face, straight medium-long nose, dark strong eyebrows, large light thin metal/clear rounded-square glasses, medium dark hair parted near center with subtle red streaks. NO beard, no copied NPC face. Average build. Adapt his red shirt to a burgundy button shirt with understated floral weave and dark waistcoat, no lettering. He sits at an old wooden table comparing two face-down evidence cards and a handwritten deduction notebook with checkmarks, one hand holds a pencil; concentrated welcoming expression. A small oval mirror and candle behind, teal and wine colonial arches. No face paint in this primary version. Identity fidelity to the photograph is more important than making him conventionally handsome. No text in notebook, only abstract marks."
+    },
+    {
+      "id": "robert",
+      "nombre": "Robert",
+      "rol": "El Radioescucha",
+      "habilidad": "Recalibrar",
+      "texto": "Después de que una herramienta específica tuya dé «Nada», repite su dado sin pagar otra cordura. Sustituye el resultado. No sirve con Kit, Improvisar ni Interferencia.",
+      "color": "#204f5c",
+      "flavor": "Entre el ruido siempre queda algo por escuchar.",
+      "momento": "Después de tu tirada fallida de una herramienta específica.",
+      "limites": [
+        "No permite tirar si Interferencia impidió la tirada.",
+        "Si Copal anuló Interferencia y se tiró realmente, puede usarse.",
+        "No se combina con Eco en la misma búsqueda; máximo una repetición por búsqueda."
+      ],
+      "foto": "foto_05_robert_referencia_carta.png",
+      "art": "Robert is the SAME adult in identity photo1: broad rounded face, full cheeks, soft jaw, dense short dark hair swept upward/back with a lifted forelock, broad shoulders and robust torso, no glasses, no prominent beard or moustache. Preserve the user's requested pose from that photo: seated, head slightly tilted back, eyes closed in intense listening, one hand raised in a calm counting/listening gesture with correct five-finger anatomy, other hand holding a rectangular electronic recorder/receiver instead of copying screen branding. Black/dark shirt with restrained ivory piping along shoulders, worn open teal field overshirt. No levitation, no powers inferred from gesture. A small receiver rests on old table, candle, selective marigolds, burgundy arches. Make the face recognizable from the photograph, do not caricature nostrils because of low camera angle."
+    },
+    {
+      "id": "angel",
+      "nombre": "Ángel",
+      "rol": "El Improvisador",
+      "habilidad": "Plan B",
+      "texto": "Al Improvisar, descarta 1 carta en lugar de 2. Pagas 1 de cordura y detectas solo con 5 o 6. Consume tu acción y puede recibir Interferencia.",
+      "color": "#862d35",
+      "flavor": "Si falta una herramienta, todavía queda una idea.",
+      "momento": "Al anunciar tu acción de Improvisar.",
+      "limites": [
+        "Requiere al menos una carta en mano y una cordura.",
+        "Una sola búsqueda; no mejora dado ni permite otra acción.",
+        "No recupera la carta descartada."
+      ],
+      "foto": "foto_06_angel_sudadera_roja.png",
+      "art": "Ángel is the SAME adult from identity photo1: narrow elongated oval face, slim cheeks and slim build, defined chin, straight narrow longer nose, dark eyebrows, black prominent rectangular eyeglass frames, dark straight hair with volume and short fringe falling at forehead. No beard or moustache. Preserve a red zip-front hooded sweatshirt and light drawstrings as identity clothing but REMOVE ALL BRAND TEXT and the temporary blue forehead sticker. He is assembling a modest improvised field kit from a simple compass, wire and notebook on a wooden bench, hands anatomically correct, thoughtful three-quarter pose with face large and clear. Modern clothing within the deck's traditional house setting. No sci-fi goggles, no wizard powers, no generic handsome replacement face. Teal tiled arcade and few amber candles, restrained marigold accents."
+    },
+    {
+      "id": "jhonnatan",
+      "nombre": "Jhonnatan",
+      "rol": "El Vigía",
+      "habilidad": "Mantener el orden",
+      "texto": "Cuando una carta normal del ánima te haga descartar al azar, elige tú qué cartas descartas. No reduce la cantidad. No sirve contra un Espanto ni un descarte de toda la mano.",
+      "color": "#414d67",
+      "flavor": "La casa se mueve; él recuerda dónde dejó cada cosa.",
+      "momento": "Antes de ejecutar un descarte al azar causado por una carta normal del ánima.",
+      "limites": [
+        "Solo cambia la elección de cartas de su propia mano.",
+        "No conserva cartas por encima de la cantidad exigida.",
+        "No se activa por descartes voluntarios, muerte o descarte de toda la mano."
+      ],
+      "foto": "foto_10_jhonnatan_referencia.png",
+      "art": "Jhonnatan is the SAME adult from identity photo1: oval slightly long face, soft rounded chin, thick fairly straight dark brows, almond-shaped eyes, straight medium nose, dark medium-length hair parted near center, full side volume reaching nape, only very faint facial stubble, no full beard and NO glasses. Similar average build to Alexis but taller per user, do not set a numerical height or rank against Robert/Jorge. Dark t-shirt, open slate-blue/gray overshirt, silver-toned chain with simple circular pendant matching photo. Standing watchfully beside a carved doorway, he holds a tidy leather field bag close and a small notebook; a few playing-card backs visible in a pocket without legible symbols. His own face and dark natural hair must remain recognizable, no invented gray hair from specular reflections in source. Burgundy hallway, checkered tiles, one painted warm lantern, no weapons."
+    },
+    {
+      "id": "jorge",
+      "nombre": "Jorge",
+      "rol": "El Custodio",
+      "habilidad": "Calma firme",
+      "texto": "Cuando una carta normal del ánima te haga perder cordura, reduce esa pérdida en 2, hasta un mínimo de 0. No sirve contra cacerías, costes de investigación ni Espantos.",
+      "color": "#4a5843",
+      "flavor": "Que tiemble la casa; la llama todavía sigue encendida.",
+      "momento": "Antes de aplicar una pérdida propia de cordura causada por una carta normal del ánima.",
+      "limites": [
+        "Una única pérdida y solo al propio investigador.",
+        "No cancela otros efectos de la carta ni protege a compañeros.",
+        "No impide seleccionar al investigador y no funciona como Rosario o Ruda."
+      ],
+      "foto": "foto_11_jorge_abrigo.png",
+      "art": "Jorge is the SAME adult from identity photo1: robust broad torso/arms similar build to Robert but a DIFFERENT face, broad rounded face full cheeks rounded chin, short dark hair with modest side/front strands, relatively broad forehead, thin rectangular dark/metal eyeglass frames, no prominent moustache or full beard. Height not specified, do not label him taller/shorter than others. Long open taupe/olive-gray coat from photograph over a dark shirt WITHOUT cartoon/logo print. He carefully shields a small clay copal burner and candle from a draft with both anatomically correct hands, quiet steady smile, NOT fighting or making a muscular superhero stance. The copal is a visual prop and not an automatic exorcism. Slate-teal house arches, warm small orange marigolds and matte printed smoke. Keep genuine facial proportions and glasses distinct from Robert, Ángel and Alexis."
+    }
+  ]
+}

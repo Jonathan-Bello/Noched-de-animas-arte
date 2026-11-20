@@ -1,0 +1,44 @@
+{
+  "proyecto": "Noche de Ánimas",
+  "estado": "Personajes aprobados por Jonathan el 15 nov 2026",
+  "consulta_obligatoria": "Leer antes de generar cualquier personaje, variante espíritu, portada o escena con investigadores. Abrir las imágenes de referencia. Conservar rostros y prendas. No sustituirlos por los arquetipos genéricos del prompt adjunto.",
+  "fuentes": [
+    {
+      "archivo": "Elenco_Aprobado.png",
+      "sha256": "1afa0672b99a44037609d9c1fe81b9ebf425546e2b3dbe3437e8c9637f7ac34b"
+    },
+    {
+      "archivo": "Mateo_Aprobado.png",
+      "sha256": "f45ce4b88ca851c18a680c3f451e37d53a5435d0bc3b2fe4463e0768cb8f3eeb"
+    }
+  ],
+  "personajes": {
+    "ines": {
+      "rol": "Protagonista base",
+      "rasgos_invariantes": "Trenza oscura gruesa, flor naranja, aros, rostro ovalado, blusa marfil bordada guinda, rebozo magenta, falda ciruela; farol y libreta.",
+      "referencia": "Elenco_Aprobado.png"
+    },
+    "rafael": {
+      "rol": "Experto en equipo electrónico",
+      "rasgos_invariantes": "Cabello oscuro ondulado, barba corta y bigote, chaleco verde de bolsillos, camisa beige remangada, pañuelo rojo; equipo electrónico.",
+      "referencia": "Elenco_Aprobado.png"
+    },
+    "tomas": {
+      "rol": "Deductivo",
+      "rasgos_invariantes": "Rostro alargado, bigote sin barba completa, sombrero petróleo, poncho petróleo con motivos crema, camisa clara, morral; bloc y lápiz.",
+      "referencia": "Elenco_Aprobado.png"
+    },
+    "amalia": {
+      "rol": "Experiencia y uso de defensas",
+      "rasgos_invariantes": "Mujer madura, trenza oscura con canas, rostro anguloso, aros, rebozo marfil bordado guinda, falda verde musgo; ruda/copales.",
+      "referencia": "Elenco_Aprobado.png"
+    },
+    "mateo": {
+      "rol": "El padre",
+      "rasgos_invariantes": "Padre de rostro largo y fino, SIN barba ni bigote, cabello menos voluminoso y canas discretas, chaqueta vino, chaleco guinda, camisa marfil, Rosario ámbar. Nunca copiar el rostro barbado de Rafael.",
+      "referencia": "Mateo_Aprobado.png"
+    }
+  },
+  "rechazado": "Mateo v1 barbado por excesivo parecido con Rafael; no usar como referencia de identidad.",
+  "alcance": "Roles narrativos/visuales; sin ventajas mecánicas nuevas."
+}

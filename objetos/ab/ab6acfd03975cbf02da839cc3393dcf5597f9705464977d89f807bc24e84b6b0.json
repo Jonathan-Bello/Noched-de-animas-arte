@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ev_0",
+    "label": "Bajo cero",
+    "svg": "assets/svg/ev_0.svg",
+    "png": "assets/ev_0.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_1",
+    "label": "Huellas de ceniza",
+    "svg": "assets/svg/ev_1.svg",
+    "png": "assets/ev_1.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_2",
+    "label": "Susurros",
+    "svg": "assets/svg/ev_2.svg",
+    "png": "assets/ev_2.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_3",
+    "label": "Objetos movidos",
+    "svg": "assets/svg/ev_3.svg",
+    "png": "assets/ev_3.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_4",
+    "label": "Luces parpadeantes",
+    "svg": "assets/svg/ev_4.svg",
+    "png": "assets/ev_4.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_5",
+    "label": "Marcas en el espejo",
+    "svg": "assets/svg/ev_5.svg",
+    "png": "assets/ev_5.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ev_6",
+    "label": "Olor a azufre",
+    "svg": "assets/svg/ev_6.svg",
+    "png": "assets/ev_6.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "def_ros",
+    "label": "Rosario",
+    "svg": "assets/svg/def_ros.svg",
+    "png": "assets/def_ros.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "def_esc",
+    "label": "Esconderse",
+    "svg": "assets/svg/def_esc.svg",
+    "png": "assets/def_esc.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "def_ultr",
+    "label": "Ultraje espiritual",
+    "svg": "assets/svg/def_ultr.svg",
+    "png": "assets/def_ultr.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "def_copal",
+    "label": "Copal",
+    "svg": "assets/svg/def_copal.svg",
+    "png": "assets/def_copal.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "def_ruda",
+    "label": "Ruda",
+    "svg": "assets/svg/def_ruda.svg",
+    "png": "assets/def_ruda.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "tipo_herramienta",
+    "label": "Herramienta",
+    "svg": "assets/svg/tipo_herramienta.svg",
+    "png": "assets/tipo_herramienta.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "tipo_habilidad",
+    "label": "Habilidad del ánima",
+    "svg": "assets/svg/tipo_habilidad.svg",
+    "png": "assets/tipo_habilidad.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "tipo_caceria",
+    "label": "Cacería",
+    "svg": "assets/svg/tipo_caceria.svg",
+    "png": "assets/tipo_caceria.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_camara",
+    "label": "Cámara",
+    "svg": "assets/svg/ui_camara.svg",
+    "png": "assets/ui_camara.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_cartas",
+    "label": "Mis cartas",
+    "svg": "assets/svg/ui_cartas.svg",
+    "png": "assets/ui_cartas.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_dado",
+    "label": "Dado",
+    "svg": "assets/svg/ui_dado.svg",
+    "png": "assets/ui_dado.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_espiritu",
+    "label": "Espíritu",
+    "svg": "assets/svg/ui_espiritu.svg",
+    "png": "assets/ui_espiritu.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_candado",
+    "label": "Candado",
+    "svg": "assets/svg/ui_candado.svg",
+    "png": "assets/ui_candado.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_lupa",
+    "label": "Lupa",
+    "svg": "assets/svg/ui_lupa.svg",
+    "png": "assets/ui_lupa.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_descargar",
+    "label": "Descargar",
+    "svg": "assets/svg/ui_descargar.svg",
+    "png": "assets/ui_descargar.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  },
+  {
+    "id": "ui_cerrar",
+    "label": "Cerrar",
+    "svg": "assets/svg/ui_cerrar.svg",
+    "png": "assets/ui_cerrar.png",
+    "size": [
+      256,
+      256
+    ],
+    "alpha": true,
+    "kind": "vector-native"
+  }
+]

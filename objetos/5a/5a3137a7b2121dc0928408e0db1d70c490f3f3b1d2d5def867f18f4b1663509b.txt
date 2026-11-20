@@ -1,0 +1,9 @@
+Noche de Ánimas — Roles, propuesta visual v0.3
+
+Abrir Galeria_roles_v03.html. Ocho frentes de carta de 580×880 y versiones de 1160×1760, más ilustraciones sin marco. No se incluyen fotografías personales.
+
+Los nombres personales están únicamente en metadatos de referencia, nunca impresos en cartas. Las funciones y reglas están separadas del arte.
+
+Correspondencias: El Curandero usa role_id curandera; El Sensitivo usa sensitiva; La Devota usa padre. La Devota es una chica ficticia provisional solicitada por el usuario, sin crear un noveno rol. No se modifican las mecánicas.
+
+Estado: propuestas pendientes de aprobación, sin reemplazar la imprenta ni las versiones anteriores. Prompts y fuentes conservados en Prompts_y_fuentes.json.

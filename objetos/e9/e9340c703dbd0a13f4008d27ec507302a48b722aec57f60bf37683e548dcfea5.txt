@@ -1,0 +1,6 @@
+La entrega v04 se guardó en D: porque C: estaba llena.
+Galería: D:/Noche_de_Animas_Roles_v04/Galeria_roles_y_espiritu.html
+Paquete: D:/Noche_de_Animas_Roles_v04/Noche_de_Animas_Roles_y_Espiritu_v04.zip
+Rasgos aprobados: outputs/Expansion_Amigos_Referencias/rasgos_ilustrados_aprobados_v03.json
+Son nuevas escenas pendientes de aprobación; las caras de origen v03 sí están aprobadas.
+Los traslados de archivos temporales de trabajo están documentados en D:/Noche_de_Animas_Roles_v04/registro_traslados.txt.

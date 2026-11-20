@@ -1,0 +1,266 @@
+{
+  "expansion": "Los Testigos de la Casona",
+  "version": "0.2",
+  "estado": "Propuesta basada en reglas aportadas por usuario; sin simulación de partidas completas",
+  "role_types": [
+    {
+      "id": "vigia",
+      "rol": "El Vigía",
+      "habilidad": "Inventario mental",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Si una carta normal o habilidad del ánima te hace descartar al azar, elige qué descartas, sin reducir cantidad. No sirve contra Espantos ni descartes de toda la mano.",
+      "color": "#414d67"
+    },
+    {
+      "id": "improvisador",
+      "rol": "El Improvisador",
+      "habilidad": "Lo que haya a mano",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Cada vez que improvises, descarta 1 carta en lugar de 2. Pagas 1 de cordura y consumes tu acción, pero detectas únicamente con 6.",
+      "color": "#862d35"
+    },
+    {
+      "id": "tecnico",
+      "rol": "El Técnico",
+      "habilidad": "Recalibrar",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Después de que una herramienta específica tuya dé «Nada», repite su dado sin pagar otra cordura. Sustituye el resultado. No sirve con Kit ni al Improvisar.",
+      "color": "#204f5c"
+    },
+    {
+      "id": "detective",
+      "rol": "El Detective",
+      "habilidad": "Una pieza más",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Al confirmar una evidencia nueva, nombra otra: el ánima te responde en secreto «Sí» o «No». Es una pista; no cuenta como evidencia confirmada.",
+      "color": "#65543b"
+    },
+    {
+      "id": "curandera",
+      "rol": "La Curandera",
+      "habilidad": "Remedio compartido",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Al jugar Té de tila en tu turno, cura 3 de cordura a ti o a otro investigador vivo. Gastas tu carta y tu acción. La cordura no puede superar 10.",
+      "color": "#4a5843"
+    },
+    {
+      "id": "padre",
+      "rol": "El Padre",
+      "habilidad": "Rezar por otro",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Puedes gastar un Rosario de tu mano para salvar a otro investigador cazado. No sirve si esa cacería prohíbe el Rosario.",
+      "color": "#5a2c42"
+    },
+    {
+      "id": "sensitiva",
+      "rol": "La Sensitiva",
+      "habilidad": "El último testimonio",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Cuando muera otro investigador, el ánima también te muestra en secreto la evidencia que muestra a su espíritu. Es una pista; no una confirmación.",
+      "color": "#5b284e"
+    },
+    {
+      "id": "guardaespaldas",
+      "rol": "El Guardaespaldas",
+      "habilidad": "Ponte detrás de mí",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Cuando cacen a otro, puedes recibir tú una de sus cacerías y defenderte. Debes tener 4 o menos y poder ser cazado. No sirve contra Espantos.",
+      "color": "#535343"
+    }
+  ],
+  "portraits": [
+    {
+      "id": "jhonnatan_vigia",
+      "nombre": "Jhonnatan",
+      "role_id": "vigia",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_jhonnatan.png",
+      "default": true,
+      "rol": "El Vigía",
+      "frente": "cartas/rol_jhonnatan_vigia.png",
+      "alta": "cartas/rol_jhonnatan_vigia_alta.png",
+      "arte": "artes/arte_jhonnatan_vigia.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "2c83f848d7b16b3c16d5ec8105bfd6368ca485c03372fb022e93645277ed484d"
+    },
+    {
+      "id": "angel_improvisador",
+      "nombre": "Ángel",
+      "role_id": "improvisador",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_angel.png",
+      "default": true,
+      "rol": "El Improvisador",
+      "frente": "cartas/rol_angel_improvisador.png",
+      "alta": "cartas/rol_angel_improvisador_alta.png",
+      "arte": "artes/arte_angel_improvisador.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "44d6d76fbacd350b0d0ac0394706579adeadea54b498d5ef9333b540df9a8303"
+    },
+    {
+      "id": "robert_tecnico",
+      "nombre": "Robert",
+      "role_id": "tecnico",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_robert.png",
+      "default": true,
+      "rol": "El Técnico",
+      "frente": "cartas/rol_robert_tecnico.png",
+      "alta": "cartas/rol_robert_tecnico_alta.png",
+      "arte": "artes/arte_robert_tecnico.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "c5eff1b89b1b35f5f7fd0ceec1dca538ad0e0eae0de68f68cf25367a3b9046a2"
+    },
+    {
+      "id": "fermin_detective",
+      "nombre": "Fermín",
+      "role_id": "detective",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_fermin_detective.png",
+      "default": true,
+      "rol": "El Detective",
+      "frente": "cartas/rol_fermin_detective.png",
+      "alta": "cartas/rol_fermin_detective_alta.png",
+      "arte": "artes/arte_fermin_detective.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "896eb918786c893ef028ae27ef4691eb6d1db488bfd231448665ab3db96f603e"
+    },
+    {
+      "id": "amalia_curandera",
+      "nombre": "Amalia",
+      "role_id": "curandera",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_amalia.png",
+      "default": true,
+      "portrait_alpha": true,
+      "rol": "La Curandera",
+      "frente": "cartas/rol_amalia_curandera.png",
+      "alta": "cartas/rol_amalia_curandera_alta.png",
+      "arte": "artes/arte_amalia_curandera.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "b72bb272f768a666866de3c4bcae0a0798cc97f8a999f3ddfcda1a0cf72c0a92"
+    },
+    {
+      "id": "mateo_padre",
+      "nombre": "Padre Mateo",
+      "role_id": "padre",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_mateo.png",
+      "default": true,
+      "portrait_alpha": true,
+      "rol": "El Padre",
+      "frente": "cartas/rol_mateo_padre.png",
+      "alta": "cartas/rol_mateo_padre_alta.png",
+      "arte": "artes/arte_mateo_padre.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "12dbd55987e67a3038bdda2b64322c0d85addbd56a4e54285767417b2042c639"
+    },
+    {
+      "id": "alexis_sensitivo",
+      "nombre": "Alexis · Catrina",
+      "role_id": "sensitiva",
+      "rol_visible": "El Sensitivo",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_alexis_catrina.png",
+      "default": true,
+      "rol": "El Sensitivo",
+      "frente": "cartas/rol_alexis_sensitivo.png",
+      "alta": "cartas/rol_alexis_sensitivo_alta.png",
+      "arte": "artes/arte_alexis_sensitivo.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "d73a4142ae2a61bdb6a6c02603781a241c85d7ef6f5029c96e380a16737a9b88"
+    },
+    {
+      "id": "jorge_guardaespaldas",
+      "nombre": "Jorge",
+      "role_id": "guardaespaldas",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_jorge_guardaespaldas.png",
+      "default": true,
+      "rol": "El Guardaespaldas",
+      "frente": "cartas/rol_jorge_guardaespaldas.png",
+      "alta": "cartas/rol_jorge_guardaespaldas_alta.png",
+      "arte": "artes/arte_jorge_guardaespaldas.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "bae16d81f5c068a4ab594099c4437e6f18f71401bed01845126f67d328065bee"
+    },
+    {
+      "id": "rafael_tecnico",
+      "nombre": "Rafael",
+      "role_id": "tecnico",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_rafael.png",
+      "default": false,
+      "portrait_alpha": true,
+      "rol": "El Técnico",
+      "frente": "cartas/rol_rafael_tecnico.png",
+      "alta": "cartas/rol_rafael_tecnico_alta.png",
+      "arte": "artes/arte_rafael_tecnico.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "10905b414141b9da018c9afad70755be86fefcf43a6d16b6a5dc859a25c94f6e"
+    },
+    {
+      "id": "tomas_detective",
+      "nombre": "Tomás",
+      "role_id": "detective",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_tomas.png",
+      "default": false,
+      "portrait_alpha": true,
+      "rol": "El Detective",
+      "frente": "cartas/rol_tomas_detective.png",
+      "alta": "cartas/rol_tomas_detective_alta.png",
+      "arte": "artes/arte_tomas_detective.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "9b79aca804beb391f7a12ad246896d582793f970a4a787f3371c2a22a350e33e"
+    },
+    {
+      "id": "ines_sensitiva",
+      "nombre": "Inés",
+      "role_id": "sensitiva",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_ines.png",
+      "default": false,
+      "portrait_alpha": true,
+      "rol": "La Sensitiva",
+      "frente": "cartas/rol_ines_sensitiva.png",
+      "alta": "cartas/rol_ines_sensitiva_alta.png",
+      "arte": "artes/arte_ines_sensitiva.png",
+      "width": 580,
+      "height": 880,
+      "sha256": "4f7ded3ef7d945e290aeb29b47c13290ef1f5133b396356a37d3a8b8da444491"
+    }
+  ],
+  "default_pool": [
+    "jhonnatan_vigia",
+    "angel_improvisador",
+    "robert_tecnico",
+    "fermin_detective",
+    "amalia_curandera",
+    "mateo_padre",
+    "alexis_sensitivo",
+    "jorge_guardaespaldas"
+  ],
+  "default_unique_roles": [
+    "vigia",
+    "improvisador",
+    "tecnico",
+    "detective",
+    "curandera",
+    "padre",
+    "sensitiva",
+    "guardaespaldas"
+  ],
+  "reverso": "cartas/reverso.png",
+  "setup": {
+    "roles_unicos_en_mazo": 8,
+    "eleccion_por_investigador": "Robar 2 roles distintos, conservar 1 público, retirar el otro",
+    "eleccion_de_retrato": "Elegir una ilustración por tipo de rol ANTES de barajar. Las alternativas no son roles adicionales.",
+    "mano_anima": {
+      "1_investigador": 4,
+      "2_investigadores": 5,
+      "3_investigadores": 6,
+      "4_investigadores": 6
+    },
+    "bonificacion_mano_no_acumulable_con_anima_experta": true
+  }
+}

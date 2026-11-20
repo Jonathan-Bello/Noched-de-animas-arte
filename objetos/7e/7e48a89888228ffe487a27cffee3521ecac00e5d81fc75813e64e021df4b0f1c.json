@@ -1,0 +1,420 @@
+{
+  "ok": true,
+  "checked": 48,
+  "checks": [
+    {
+      "id": "inv_rafael",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_ines",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_tomas",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_mateo",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_amalia",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_ines_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_amalia_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_mateo_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_rafael_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "inv_tomas_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "es_anima",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "portada-v",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "compartir",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "portada-h",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "avatar_rafael",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "avatar_amalia",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "avatar_ines",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "avatar_tomas",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "avatar_mateo",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ficha",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "presencia",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "icono",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "logo",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "final_vivos",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "final_anima",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": null
+    },
+    {
+      "id": "ev_0",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_1",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_2",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_3",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_4",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_5",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ev_6",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "def_ros",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "def_esc",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "def_ultr",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "def_copal",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "def_ruda",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "tipo_herramienta",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "tipo_habilidad",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "tipo_caceria",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_camara",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_cartas",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_dado",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_espiritu",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_candado",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_lupa",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_descargar",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ui_cerrar",
+      "dimensions": true,
+      "decodes": true,
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "vigia",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 773217,
+    "pixels_semitransparentes": 798597
+  },
+  {
+    "id": "vigia",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 249,
+    "pixels_transparentes": 614443,
+    "pixels_semitransparentes": 958073
+  },
+  {
+    "id": "improvisador",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 779810,
+    "pixels_semitransparentes": 791733
+  },
+  {
+    "id": "improvisador",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 243,
+    "pixels_transparentes": 600803,
+    "pixels_semitransparentes": 971713
+  },
+  {
+    "id": "tecnico",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 685853,
+    "pixels_semitransparentes": 885985
+  },
+  {
+    "id": "tecnico",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 222,
+    "pixels_transparentes": 508296,
+    "pixels_semitransparentes": 1064220
+  },
+  {
+    "id": "detective",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 819916,
+    "pixels_semitransparentes": 752066
+  },
+  {
+    "id": "detective",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 251,
+    "pixels_transparentes": 604683,
+    "pixels_semitransparentes": 967833
+  },
+  {
+    "id": "curandero",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 690895,
+    "pixels_semitransparentes": 881079
+  },
+  {
+    "id": "curandero",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 242,
+    "pixels_transparentes": 315284,
+    "pixels_semitransparentes": 1257232
+  },
+  {
+    "id": "devota",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 766638,
+    "pixels_semitransparentes": 805267
+  },
+  {
+    "id": "devota",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 236,
+    "pixels_transparentes": 586220,
+    "pixels_semitransparentes": 986296
+  },
+  {
+    "id": "sensitivo",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 772407,
+    "pixels_semitransparentes": 799298
+  },
+  {
+    "id": "sensitivo",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 252,
+    "pixels_transparentes": 676144,
+    "pixels_semitransparentes": 896372
+  },
+  {
+    "id": "guardaespaldas",
+    "estado": "vivo",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "pixels_transparentes": 753343,
+    "pixels_semitransparentes": 818175
+  },
+  {
+    "id": "guardaespaldas",
+    "estado": "muerto",
+    "modo": "RGBA",
+    "fuente_px": [
+      1254,
+      1254
+    ],
+    "alpha_min": 0,
+    "alpha_max": 249,
+    "pixels_transparentes": 456275,
+    "pixels_semitransparentes": 1116241
+  }
+]

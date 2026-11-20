@@ -1,0 +1,168 @@
+{
+  "version": "0.2 de propuesta",
+  "fuente_usuario": "Reglas_roles_fuente_usuario.txt",
+  "estado": "No simulado ni integrado al demo",
+  "role_types": [
+    {
+      "id": "vigia",
+      "rol": "El Vigía",
+      "habilidad": "Inventario mental",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Si una carta normal o habilidad del ánima te hace descartar al azar, elige qué descartas, sin reducir cantidad. No sirve contra Espantos ni descartes de toda la mano.",
+      "color": "#414d67"
+    },
+    {
+      "id": "improvisador",
+      "rol": "El Improvisador",
+      "habilidad": "Lo que haya a mano",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Cada vez que improvises, descarta 1 carta en lugar de 2. Pagas 1 de cordura y consumes tu acción, pero detectas únicamente con 6.",
+      "color": "#862d35"
+    },
+    {
+      "id": "tecnico",
+      "rol": "El Técnico",
+      "habilidad": "Recalibrar",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Después de que una herramienta específica tuya dé «Nada», repite su dado sin pagar otra cordura. Sustituye el resultado. No sirve con Kit ni al Improvisar.",
+      "color": "#204f5c"
+    },
+    {
+      "id": "detective",
+      "rol": "El Detective",
+      "habilidad": "Una pieza más",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Al confirmar una evidencia nueva, nombra otra: el ánima te responde en secreto «Sí» o «No». Es una pista; no cuenta como evidencia confirmada.",
+      "color": "#65543b"
+    },
+    {
+      "id": "curandera",
+      "rol": "La Curandera",
+      "habilidad": "Remedio compartido",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Al jugar Té de tila en tu turno, cura 3 de cordura a ti o a otro investigador vivo. Gastas tu carta y tu acción. La cordura no puede superar 10.",
+      "color": "#4a5843"
+    },
+    {
+      "id": "padre",
+      "rol": "El Padre",
+      "habilidad": "Rezar por otro",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Puedes gastar un Rosario de tu mano para salvar a otro investigador cazado. No sirve si esa cacería prohíbe el Rosario.",
+      "color": "#5a2c42"
+    },
+    {
+      "id": "sensitiva",
+      "rol": "La Sensitiva",
+      "habilidad": "El último testimonio",
+      "frecuencia": "CONTINUA · SOLO VIVO",
+      "texto": "Cuando muera otro investigador, el ánima también te muestra en secreto la evidencia que muestra a su espíritu. Es una pista; no una confirmación.",
+      "color": "#5b284e"
+    },
+    {
+      "id": "guardaespaldas",
+      "rol": "El Guardaespaldas",
+      "habilidad": "Ponte detrás de mí",
+      "frecuencia": "1 VEZ POR PARTIDA · SOLO VIVO",
+      "texto": "Cuando cacen a otro, puedes recibir tú una de sus cacerías y defenderte. Debes tener 4 o menos y poder ser cazado. No sirve contra Espantos.",
+      "color": "#535343"
+    }
+  ],
+  "portraits": [
+    {
+      "id": "jhonnatan_vigia",
+      "nombre": "Jhonnatan",
+      "role_id": "vigia",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_jhonnatan.png",
+      "default": true
+    },
+    {
+      "id": "angel_improvisador",
+      "nombre": "Ángel",
+      "role_id": "improvisador",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_angel.png",
+      "default": true
+    },
+    {
+      "id": "robert_tecnico",
+      "nombre": "Robert",
+      "role_id": "tecnico",
+      "arte_source": "outputs/Expansion_Testigos_v01/artes/arte_robert.png",
+      "default": true
+    },
+    {
+      "id": "fermin_detective",
+      "nombre": "Fermín",
+      "role_id": "detective",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_fermin_detective.png",
+      "default": true
+    },
+    {
+      "id": "amalia_curandera",
+      "nombre": "Amalia",
+      "role_id": "curandera",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_amalia.png",
+      "default": true,
+      "portrait_alpha": true
+    },
+    {
+      "id": "mateo_padre",
+      "nombre": "Padre Mateo",
+      "role_id": "padre",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_mateo.png",
+      "default": true,
+      "portrait_alpha": true
+    },
+    {
+      "id": "alexis_sensitivo",
+      "nombre": "Alexis · Catrina",
+      "role_id": "sensitiva",
+      "rol_visible": "El Sensitivo",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_alexis_catrina.png",
+      "default": true
+    },
+    {
+      "id": "jorge_guardaespaldas",
+      "nombre": "Jorge",
+      "role_id": "guardaespaldas",
+      "arte_source": "outputs/Expansion_Testigos_v02/artes/arte_jorge_guardaespaldas.png",
+      "default": true
+    },
+    {
+      "id": "rafael_tecnico",
+      "nombre": "Rafael",
+      "role_id": "tecnico",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_rafael.png",
+      "default": false,
+      "portrait_alpha": true
+    },
+    {
+      "id": "tomas_detective",
+      "nombre": "Tomás",
+      "role_id": "detective",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_tomas.png",
+      "default": false,
+      "portrait_alpha": true
+    },
+    {
+      "id": "ines_sensitiva",
+      "nombre": "Inés",
+      "role_id": "sensitiva",
+      "arte_source": "outputs/Arte_Demo_Actual/assets/inv_ines.png",
+      "default": false,
+      "portrait_alpha": true
+    }
+  ],
+  "setup": {
+    "roles_unicos_en_mazo": 8,
+    "eleccion_por_investigador": "Robar 2 roles distintos, conservar 1 público, retirar el otro",
+    "eleccion_de_retrato": "Elegir una ilustración por tipo de rol ANTES de barajar. Las alternativas no son roles adicionales.",
+    "mano_anima": {
+      "1_investigador": 4,
+      "2_investigadores": 5,
+      "3_investigadores": 6,
+      "4_investigadores": 6
+    },
+    "bonificacion_mano_no_acumulable_con_anima_experta": true
+  }
+}

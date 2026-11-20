@@ -1,0 +1,9 @@
+NOCHE DE ÁNIMAS — PROPUESTA VISUAL v0.4
+
+Abrir Galeria_roles_y_espiritu.html. Incluye ocho roles, dos cartas de Espíritu (Manifestar / Velar), reverso común de roles, variante gris y reverso común de Espíritu. PNG de 580×880 y alta de 1160×1760; artes sin marco e imágenes WebP.
+
+Los personajes y el acabado facial v03 sí fueron aprobados. Estas nuevas escenas/reversos son propuestas pendientes de aprobación. No se ha modificado el catálogo o la imprenta. No se alteran mecánicas: las descripciones de funciones del listado se trataron como contexto del brief artístico. El gris es recurso gráfico opcional para marcar uso; no define frecuencias ni reglas.
+
+Identidad y rasgos: Rasgos_personajes_aprobados.json. Prompts: prompts_finales.json. Generación con herramienta integrada image_gen; maquetación y exportación con Pillow. Sin fotografías personales en el paquete. La chica de La Devota sigue siendo provisional.
+
+El paquete se guarda en D: por falta de espacio en C:. Un PDF de trabajo anterior fue trasladado sin borrarlo a temporales_previos, excluido de esta entrega.

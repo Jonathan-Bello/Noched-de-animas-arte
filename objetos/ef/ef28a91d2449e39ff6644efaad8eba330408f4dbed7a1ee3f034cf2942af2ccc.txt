@@ -1,0 +1,22 @@
+NOCHE DE ÁNIMAS — ARTE PARA EL DEMO
+
+48 recursos principales: 25 ilustraciones generadas y 23 iconos originales SVG+PNG. Incluye además favicon-32.png y favicon.ico. Los PNG están en assets/ con las medidas pedidas; los 25 artes grandes tienen versión WebP en assets/webp/. Los originales de generación están en masters/.
+
+PERSONAJES CONSERVADOS
+Inés: personaje base. Rafael: equipo electrónico. Tomás: deducción. Amalia: experiencia y defensas. Padre Mateo: rostro aprobado SIN barba ni bigote. No se asignaron ventajas mecánicas nuevas. Las variantes espíritu conservan cara, ropa y utilería. Referencias estables: Referencias_Personajes/personajes_canon.json y sus dos imágenes.
+
+ARCHIVOS
+logo.png 1600x600, icono.png 512x512, portada-h.png 1920x1080, portada-v.png 1080x1920, compartir.png 1200x630, es_anima.png 580x880, presencia.png 512x768, ficha.png 256x256, final_anima.png y final_vivos.png 1600x900.
+Cada personaje: inv_NOMBRE.png y inv_NOMBRE_espiritu.png 512x768; avatar_NOMBRE.png 256x256.
+Evidencias ev_0…ev_6 en orden del manifest; cinco defensas def_ros/def_esc/def_ultr/def_copal/def_ruda; tres tipos tipo_herramienta/tipo_habilidad/tipo_caceria; ocho iconos ui_*.
+
+IMPORTACIÓN
+Usar manifest.json para rutas, tamaños, categorías y correspondencias de personaje. Conservar alpha PNG o WebP al componer retratos; no aplicar un fondo negro a las transparencias. Los iconos se pueden teñir mediante SVG; los PNG vienen en crema sobre transparencia. El color del jugador no sustituye el vestuario aprobado. Fondos sin texto permiten montar el logo por separado. La imagen es_anima contiene solamente arte con bandas oscuras, sin texto de carta ni reglas.
+
+METODO
+image_gen integrada para ilustraciones, identidad preservada mediante referencias aprobadas; SVG editable para iconos. Exportación a las dimensiones solicitadas, manteniendo proporción y usando recorte de encuadre en fondos cuando fue necesario. Los archivos de generación se conservan. Prompts completos: Prompts_y_generaciones.json. Los artes están listos como archivos de importación, pero aún no se han integrado ni probado dentro del demo del otro chat. No se modificó catálogo ni imprenta.
+
+OPCIONALES
+Las caras del dado y texturas se dejaron fuera porque el documento las marca opcionales. No se reutilizaron arquetipos genéricos distintos de los cinco personajes aprobados.
+
+Abrir Galeria_Arte_Demo.html para revisar el conjunto.

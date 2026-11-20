@@ -1,0 +1,65 @@
+{
+  "version": "0.3 visual",
+  "estructura": "Icono y rol arriba; arte; leyenda narrativa abajo",
+  "nombres_de_personas_en_cartas": false,
+  "funcionalidades_en_cartas": false,
+  "modelo_provisional": "La Devota sustituye visualmente al Padre, con la misma mecánica y role_id padre; no hay un noveno rol. Se recasteará cuando usuario proporcione foto.",
+  "cartas": [
+    {
+      "id": "vigia",
+      "role_id": "vigia",
+      "titulo": "El Vigía",
+      "modelo": "Jhonnatan / Jonathan",
+      "leyenda": "La sombra cambió de sitio. Él no apartó la mirada."
+    },
+    {
+      "id": "improvisador",
+      "role_id": "improvisador",
+      "titulo": "El Improvisador",
+      "modelo": "Ángel",
+      "leyenda": "Con lo que quedaba, todavía podía intentarlo."
+    },
+    {
+      "id": "tecnico",
+      "role_id": "tecnico",
+      "titulo": "El Técnico",
+      "modelo": "Robert",
+      "leyenda": "Entre dos chasquidos, alguien dijo mi nombre."
+    },
+    {
+      "id": "detective",
+      "role_id": "detective",
+      "titulo": "El Detective",
+      "modelo": "Fermín",
+      "leyenda": "La pista estaba donde nadie había querido mirar."
+    },
+    {
+      "id": "curandero",
+      "role_id": "curandera",
+      "titulo": "El Curandero",
+      "modelo": "Alexis · natural",
+      "leyenda": "El té calmó el temblor. La casa seguía despierta."
+    },
+    {
+      "id": "devota",
+      "role_id": "padre",
+      "titulo": "La Devota",
+      "modelo": "Chica provisional, sin persona real de referencia",
+      "leyenda": "Apreté las cuentas. Alguien contó conmigo."
+    },
+    {
+      "id": "sensitivo",
+      "role_id": "sensitiva",
+      "titulo": "El Sensitivo",
+      "modelo": "Alexis · catrina",
+      "leyenda": "El último susurro no se fue con quien lo escuchó."
+    },
+    {
+      "id": "guardaespaldas",
+      "role_id": "guardaespaldas",
+      "titulo": "El Guardaespaldas",
+      "modelo": "Jorge",
+      "leyenda": "Dio un paso al frente. La sombra se detuvo."
+    }
+  ]
+}

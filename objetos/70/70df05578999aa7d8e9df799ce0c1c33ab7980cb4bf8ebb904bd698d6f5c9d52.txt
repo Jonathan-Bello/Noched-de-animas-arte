@@ -1,0 +1,5 @@
+Para continuar la generación cuando C: se llenó, se trasladaron estos archivos de trabajo previos (no se borraron):
+C:/Users/jonat/Documents/Codex/2026-11-13/ho/work/web_master_actualizado.pdf -> D:/Noche_de_Animas_Roles_v04/temporales_previos/web_master_actualizado.pdf
+C:/Users/jonat/Documents/Codex/2026-11-13/ho/work/eci_offset_2009.zip -> D:/Noche_de_Animas_Roles_v04/temporales_previos/eci_offset_2009.zip
+C:/Users/jonat/Documents/Codex/2026-11-13/ho/work/cabeceras_prueba.pdf -> D:/Noche_de_Animas_Roles_v04/temporales_previos/cabeceras_prueba.pdf
+Estos temporales no forman parte del ZIP de cartas.

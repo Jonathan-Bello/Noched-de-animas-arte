@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-11-15",
+  "origen": "Correcciones e intención de personajes expresadas por Jonathan",
+  "personajes": {
+    "Inés": {"identidad": "Personaje base / protagonista"},
+    "Rafael": {"identidad": "Experto en equipo electrónico"},
+    "Tomás": {"identidad": "Deductivo"},
+    "Amalia": {"identidad": "Experiencia y uso de defensas"},
+    "Mateo": {
+      "identidad": "El padre",
+      "correccion_solicitada": "Diferenciar su rostro del de Rafael",
+      "propuesta_v2": "Rostro más largo y estrecho, sin barba ni bigote, nariz fina, cabello menos voluminoso con canas discretas en las sienes",
+      "estado_rostro_v2": "Propuesta pendiente de valoración del usuario"
+    }
+  },
+  "alcance": "Identidades narrativas y visuales; no se han asignado habilidades ni modificado reglas"
+}

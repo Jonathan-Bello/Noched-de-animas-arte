@@ -1,0 +1,135 @@
+{
+  "expansion": "Los Testigos de la Casona",
+  "version": "0.1",
+  "status": "Prototipo, no validado en partidas completas",
+  "card_size_mm": [
+    58,
+    88
+  ],
+  "cartas_identidad": 5,
+  "carta_reverso_comun": "cartas/reverso_identidades.png",
+  "investigadores_por_partida": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "componentes_base_sin_cambiar": true,
+  "roles": [
+    {
+      "id": "exp_alexis",
+      "nombre": "Alexis",
+      "rol": "El Cronista del Umbral",
+      "habilidad": "Ordenar las pistas",
+      "texto": "Tras reponer tu mano y antes de acusar, mira hasta 2 cartas superiores del mazo de investigadores y devuélvelas en el orden que elijas. No mires ni muevas el Alba.",
+      "limites": [
+        "No roba ni concede información de evidencia.",
+        "No mostrar ni nombrar las cartas vistas.",
+        "Si queda una carta antes del Alba, solo mira esa; si no queda ninguna, no se activa."
+      ],
+      "momento": "Inicio de tu turno, después de reponer mano y antes de acusar.",
+      "usos_por_partida": 1,
+      "solo_vivo": true,
+      "arte": "artes/arte_alexis.png",
+      "frente": "cartas/identidad_alexis.png",
+      "alta": "cartas/identidad_alexis_alta.png",
+      "reverso": "cartas/reverso_identidades.png",
+      "width": 580,
+      "height": 880,
+      "body_font_px": 21,
+      "sha256": "1c1c831d9a8a910a36f706dbc717eae07a55ee3d0f977ee6860dd8b451fd04d4"
+    },
+    {
+      "id": "exp_robert",
+      "nombre": "Robert",
+      "rol": "El Radioescucha",
+      "habilidad": "Recalibrar",
+      "texto": "Después de que una herramienta específica tuya dé «Nada», repite su dado sin pagar otra cordura. Sustituye el resultado. No sirve con Kit, Improvisar ni Interferencia.",
+      "limites": [
+        "No permite tirar si Interferencia impidió la tirada.",
+        "Si Copal anuló Interferencia y se tiró realmente, puede usarse.",
+        "No se combina con Eco en la misma búsqueda; máximo una repetición por búsqueda."
+      ],
+      "momento": "Después de tu tirada fallida de una herramienta específica.",
+      "usos_por_partida": 1,
+      "solo_vivo": true,
+      "arte": "artes/arte_robert.png",
+      "frente": "cartas/identidad_robert.png",
+      "alta": "cartas/identidad_robert_alta.png",
+      "reverso": "cartas/reverso_identidades.png",
+      "width": 580,
+      "height": 880,
+      "body_font_px": 21,
+      "sha256": "8f163fffd67aba61820b9595778a65e44fe2fe095cdf00bd40099c6f923f5967"
+    },
+    {
+      "id": "exp_angel",
+      "nombre": "Ángel",
+      "rol": "El Improvisador",
+      "habilidad": "Plan B",
+      "texto": "Al Improvisar, descarta 1 carta en lugar de 2. Pagas 1 de cordura y detectas solo con 5 o 6. Consume tu acción y puede recibir Interferencia.",
+      "limites": [
+        "Requiere al menos una carta en mano y una cordura.",
+        "Una sola búsqueda; no mejora dado ni permite otra acción.",
+        "No recupera la carta descartada."
+      ],
+      "momento": "Al anunciar tu acción de Improvisar.",
+      "usos_por_partida": 1,
+      "solo_vivo": true,
+      "arte": "artes/arte_angel.png",
+      "frente": "cartas/identidad_angel.png",
+      "alta": "cartas/identidad_angel_alta.png",
+      "reverso": "cartas/reverso_identidades.png",
+      "width": 580,
+      "height": 880,
+      "body_font_px": 21,
+      "sha256": "fe84a062f0a8da32985853644148b01ce7cedb58ff8b7c8eb04825ce4a887187"
+    },
+    {
+      "id": "exp_jhonnatan",
+      "nombre": "Jhonnatan",
+      "rol": "El Vigía",
+      "habilidad": "Mantener el orden",
+      "texto": "Cuando una carta normal del ánima te haga descartar al azar, elige tú qué cartas descartas. No reduce la cantidad. No sirve contra un Espanto ni un descarte de toda la mano.",
+      "limites": [
+        "Solo cambia la elección de cartas de su propia mano.",
+        "No conserva cartas por encima de la cantidad exigida.",
+        "No se activa por descartes voluntarios, muerte o descarte de toda la mano."
+      ],
+      "momento": "Antes de ejecutar un descarte al azar causado por una carta normal del ánima.",
+      "usos_por_partida": 1,
+      "solo_vivo": true,
+      "arte": "artes/arte_jhonnatan.png",
+      "frente": "cartas/identidad_jhonnatan.png",
+      "alta": "cartas/identidad_jhonnatan_alta.png",
+      "reverso": "cartas/reverso_identidades.png",
+      "width": 580,
+      "height": 880,
+      "body_font_px": 21,
+      "sha256": "8165d08ac07a37176460b7bac6486d46283a73da70505febbed0b5b784b7806f"
+    },
+    {
+      "id": "exp_jorge",
+      "nombre": "Jorge",
+      "rol": "El Custodio",
+      "habilidad": "Calma firme",
+      "texto": "Cuando una carta normal del ánima te haga perder cordura, reduce esa pérdida en 2, hasta un mínimo de 0. No sirve contra cacerías, costes de investigación ni Espantos.",
+      "limites": [
+        "Una única pérdida y solo al propio investigador.",
+        "No cancela otros efectos de la carta ni protege a compañeros.",
+        "No impide seleccionar al investigador y no funciona como Rosario o Ruda."
+      ],
+      "momento": "Antes de aplicar una pérdida propia de cordura causada por una carta normal del ánima.",
+      "usos_por_partida": 1,
+      "solo_vivo": true,
+      "arte": "artes/arte_jorge.png",
+      "frente": "cartas/identidad_jorge.png",
+      "alta": "cartas/identidad_jorge_alta.png",
+      "reverso": "cartas/reverso_identidades.png",
+      "width": 580,
+      "height": 880,
+      "body_font_px": 21,
+      "sha256": "c3e12cd29fab4aaf83735b9e9682a30de2fdeb17117a061cb40fe58050b6f65f"
+    }
+  ]
+}

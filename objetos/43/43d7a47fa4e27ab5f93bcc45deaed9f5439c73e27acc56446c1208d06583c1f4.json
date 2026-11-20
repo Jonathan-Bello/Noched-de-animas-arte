@@ -1,0 +1,1137 @@
+{
+  "proyecto": "Noche de Ánimas",
+  "version_guia": "1.1 · rediseños aprobados integrados · 14 nov 2026",
+  "autoridad": "Criterios visuales derivados del mazo y correcciones explícitas del usuario. Las instrucciones posteriores del usuario prevalecen.",
+  "consulta_obligatoria": "Leer este archivo ANTES de generar o editar cualquier arte del proyecto. Elegir referencias de la misma familia y mantener el concepto aprobado. No usar una propuesta rechazada como referencia estilística.",
+  "corpus": {
+    "fuente": "Noche_de_Animas_Imprenta_v2_B_Sin_Iconos.pdf",
+    "frentes_revisados": 92,
+    "reversos_revisados": 15,
+    "frentes_ilustrados": 87,
+    "frentes_tipograficos": 5,
+    "reversos_ilustrados": 5,
+    "reversos_tipograficos": 10,
+    "excluidos_como_patron": [
+      "e05",
+      "e06",
+      "id20",
+      "o01",
+      "o02",
+      "o03",
+      "o05"
+    ],
+    "metodo": "Revisión visual de las diez láminas completas. Las siete cartas a rediseñar se usan solo como referencia de escena, nunca como patrón de acabado. Las ilustraciones reutilizadas en reglas no cuentan como estilos independientes."
+  },
+  "hallazgos_globales": {
+    "lenguaje": "Ilustración narrativa de juego de mesa, folclor mexicano, formas de papel recortado con volumen ilustrado y apariencia de impresión artesanal. Mantiene riqueza de ornamentos y materiales estilizados.",
+    "complejidad": "Detalle medio y selectivamente abundante. Conservar objetos secundarios, motivos florales, doiles y arquitectura cuando ya están en la escena. Eliminar solo microdetalle material o exceso de contraste que parezca fotografía. No fijar porcentajes de simplificación, número de colores ni número máximo de sombras.",
+    "formas_y_contorno": "Siluetas claras, curvas orgánicas, contornos construidos por diferencias de color. Bordes nítidos con irregularidad artesanal leve. No contorno negro uniforme de caricatura ni geometría de pictograma.",
+    "volumen": "Conservar espesor, planos de luz, tonos intermedios y sombras de forma moderadas: marcos tienen canto, aparatos tienen cuerpo, rostros tienen mejillas y nariz, ropa tiene pliegues. Evitar convertir todo en masas totalmente planas. Evitar relieve fotorrealista, tallado hiperrealista y bisel de render 3D.",
+    "sombras": "Formas amplias y coherentes con la escena, tonos medios texturizados y transiciones ilustradas dentro de las superficies. No reducir todas las sombras a un solo bloque ni añadir oclusión negra y reflejos duros a cada borde.",
+    "textura": "Grano de impresión/papel perceptible y integrado, con pequeñas variaciones de tinta. Debe seguir habiendo textura. Evitar arena gruesa, erosión fotográfica, poros de cristal, veta minúscula y fractura superficial por todas partes. Tampoco limpiar a una superficie vectorial estéril.",
+    "luz": "Respetar veladoras, faroles, pantallas y luz de ambiente de las escenas originales. La luz se representa con color e ilustración. El usuario ha pedido no añadir brillos: sin acabado cromado, destellos blancos especulares, glossy, flare, halo mágico nuevo o iluminación volumétrica. No borrar la profundidad tonal que ya caracteriza al mazo.",
+    "paleta": "Conservar la paleta de cada carta: teal/azul/petróleo y crema, naranja/cempasúchil/ámbar, guinda/magenta/morado. Colores de sombra emparentados con la tinta. No convertir todo en monocromo ni imponer pocos colores.",
+    "ornamento": "Motivos mexicanos legibles en cerámica, bordado, papel picado y marco. Se permiten patrones ricos como en Kit de campo, Tarot y Xtabay. Los patrones deben apoyar la forma, sin competir con la acción principal.",
+    "personajes": "Anatomía ilustrada reconocible, manos articuladas, rostro expresivo, ropa con pliegues suficientes. No muñecos planos, piel fotográfica, arrugas realistas ni simplificación infantil.",
+    "espacio": "Perspectiva ilustrada con planos espaciales coherentes, superposición clara y profundidad por escala/tono. Rejas separadas de personajes; ventanas con vano y exterior comprensible.",
+    "fantasmas": "Ver Escalofrío, El Guardián, Ronda nocturna y El espíritu. Translucidez por capas de tono y transparencia de partes del fondo a través de la figura, preservando anatomía y expresión. Sin aura brillante, recorte blanco opaco ni desenfoque fotográfico."
+  },
+  "familias": {
+    "herramientas_objetos": {
+      "referencias": [
+        "i01",
+        "i03",
+        "i05",
+        "i08",
+        "o06",
+        "p03"
+      ],
+      "criterio": "Objetos grandes y reconocibles, varias piezas y planos de espesor. Superficies mate con sombra ilustrada, botones y símbolos legibles; sin carcasa lisa de icono ni plástico de fotografía."
+    },
+    "evidencias_escenarios": {
+      "referencias": [
+        "e01",
+        "e03",
+        "e04",
+        "h05",
+        "a09"
+      ],
+      "criterio": "Acción o señal paranormal inequívoca, arquitectura y piso con patrón suficiente para perspectiva. Conservar riqueza espacial evitando deterioro minúsculo y luz renderizada."
+    },
+    "espejos": {
+      "referencias": [
+        "i06",
+        "h06",
+        "o08"
+      ],
+      "criterio": "Espejo reconocible con borde y cierta ornamentación, superficie tratada con tonos y reflejo ilustrado. Conservar espesor y decoración; retirar metal cromado, cristal de foto y condensación hiperrealista. La mano o huella debe estar dibujada en el mismo lenguaje del personaje."
+    },
+    "entidades_espantos": {
+      "referencias": [
+        "id03",
+        "id13",
+        "id16",
+        "s13",
+        "p07"
+      ],
+      "criterio": "Identidad reconocible y continuidad entre figura y ataque; expresiones y poses narran. Hay diferencias de densidad y paleta entre cartas; no imponer un promedio plano."
+    },
+    "reversos": {
+      "criterio": "Se revisaron cinco reversos ilustrados y diez tipográficos. La ornamentación simétrica de los reversos es más densa por función; no usar su densidad como patrón obligatorio para un frente narrativo."
+    },
+    "tipografia": {
+      "criterio": "Quince vistas de consulta/reglas revisadas como maquetación, no como referencias de ilustración. No modificar textos, iconos, títulos, marco ni leyendas al rediseñar solamente el arte."
+    }
+  },
+  "perfiles_redisenos": {
+    "e05": {
+      "nombre": "Luces parpadeantes",
+      "referencias": [
+        "e04",
+        "h05",
+        "a09"
+      ],
+      "conservar": "Bombillas colgadas, estados de encendido, cuarto y perspectiva de la escena.",
+      "ajustar": "Paredes menos erosionadas, menos ruido en techo/piso y luz ilustrada como en Apagón. Mantener volumen, textura de tinta y riqueza del cuarto."
+    },
+    "e06": {
+      "nombre": "Marcas en el espejo",
+      "referencias": [
+        "i06",
+        "h06"
+      ],
+      "conservar": "Espejo oval, huella de mano, marco, velas, flores y ambiente cálido.",
+      "ajustar": "Cristal y huella dibujados, con tonos intermedios y espesor del marco. Retirar fotorealismo, gotitas y brillos de metal; conservar ornamentos suficientes."
+    },
+    "id20": {
+      "nombre": "La Mulata de Córdoba",
+      "referencias": [
+        "id16",
+        "s13",
+        "p07",
+        "id03"
+      ],
+      "conservar": "Fantasma afrodescendiente encarcelado lamentándose y dibujando barco con carbón; rejas a la izquierda, ventana detrás, carbón tirado, sin flores.",
+      "ajustar": "Cuerpo, brazos y vestido algo más translúcidos; reducir microtextura en pared y vestido, conservar expresión, anatomía y pliegues. La transparencia se aproxima al Guardián y Ronda nocturna."
+    },
+    "o01": {
+      "nombre": "Radio",
+      "referencias": [
+        "i03",
+        "i05",
+        "p03"
+      ],
+      "conservar": "Mano con radio portátil ante ventana al pueblo y luna.",
+      "ajustar": "Volumen ilustrado de aparato y mano, controles legibles, evitar biseles realistas y vetas/ornamentación microscópicas. No reducir a silueta lisa."
+    },
+    "o02": {
+      "nombre": "Tablilla espiritista",
+      "referencias": [
+        "o06",
+        "p03",
+        "a01"
+      ],
+      "conservar": "Tablilla y puntero triangular, letras, números, sí/no/adiós. Vista cenital sobre mesa redonda con mantel morado y velas alrededor. Una mano humana y una de espíritu tocan juntas el puntero.",
+      "ajustar": "Fondo ilustrado según Tarot, sin madera fotográfica ni marco exterior. Mantel morado con pliegues ilustrados y textura de impresión, sin fibras de terciopelo realistas. Mano humana modelada como Tarot y mano espiritual translúcida como Escalofrío.",
+      "rotulacion": {
+        "fila_superior": "A B C D E F G H I J K L M",
+        "fila_inferior": "N Ñ O P Q R S T U V W X Y Z",
+        "numeros": "1 2 3 4 5 6 7 8 9 0",
+        "otros": [
+          "SÍ",
+          "NO",
+          "ADIÓS"
+        ]
+      },
+      "proceso_composicion": "Primero generar tablero completo y verificar todas las letras; después agregar manos sin modificar ni ocultar rotulación. Puntero en zona libre.",
+      "posicion_puntero": "Sobre SÍ, ambas manos tocan el mismo puntero, alfabeto completo visible."
+    },
+    "o03": {
+      "nombre": "Mano del mono",
+      "referencias": [
+        "i13",
+        "p03",
+        "o06",
+        "a01"
+      ],
+      "conservar": "Pata de mono seca con dedos curvos y uñas, cuerda y borla, cojín y escenario.",
+      "ajustar": "Dedos articulados y mechones de pelo dibujados; retirar pelos/tendones individuales y sombras fotográficas; conservar anatomía, volumen y textil ornamental."
+    },
+    "o05": {
+      "nombre": "Espejo de plata",
+      "referencias": [
+        "i06",
+        "h06",
+        "o08",
+        "o06"
+      ],
+      "conservar": "Espejo oval de pie, reflejo fantasmal de mano con cartas, flores y velas.",
+      "ajustar": "Marco plateado ilustrado con ornamento y espesor, reflejo dibujado con tonos intermedios. Reducir cromado, biseles y detalle de joyería, sin dejar marco plano genérico."
+    }
+  },
+  "proceso_obligatorio": [
+    "Leer este JSON antes de cada generación/edición.",
+    "Consultar el perfil de la carta y abrir sus referencias visuales.",
+    "Separar referencia de concepto (carta a corregir) y referencia de estilo (otras cartas aprobadas).",
+    "Mantener composición, identidad y detalles narrativos salvo cambio explícito del usuario.",
+    "Aplicar ajustes locales de acabado; no traducir simplificar como eliminar volumen, textura u ornamento.",
+    "Comparar la propuesta lado a lado con referencias de su familia y con la escena anterior.",
+    "Si sale plana, infantil o excesivamente realista, corregir antes de presentar.",
+    "Guardar propuestas separadas y prompts; no reemplazar catálogo/imprenta antes de aprobación del usuario."
+  ],
+  "errores_rechazados": [
+    "Simplificación porcentual masiva.",
+    "Límite artificial de colores o sombras.",
+    "Todo plano, todas las superficies lisas, vector mínimo.",
+    "Quitar patrones, tonos medios, pliegues o anatomía para bajar detalle.",
+    "Usar la carta cuestionada o una propuesta rechazada como patrón estilístico.",
+    "Cambiar el concepto cuando solo se pidió ajustar acabado."
+  ],
+  "bloque_estilo_base_en": "Match the supplied APPROVED deck references closely: richly illustrated Mexican folk board-game art, paper-collage shapes, perceptible fine printed texture, articulated forms, moderate illustrated volume and layered midtones. Preserve selective decorative richness and a coherent illustrated setting. Make a local material-treatment adjustment, retaining the deck level of texture and depth. Avoid photographic material rendering, extra glossy highlights and excessive microdetail. Also avoid flattening into a minimal vector poster or pictogram. Maintain the approved scene and subject.",
+  "inventario_revisado": {
+    "fuente": "Noche_de_Animas_Imprenta_v2_B_Sin_Iconos.pdf",
+    "excluidos": [
+      "e05",
+      "e06",
+      "id20",
+      "o01",
+      "o02",
+      "o03",
+      "o05"
+    ],
+    "frentes": [
+      {
+        "id": "i01",
+        "name": "Termómetro",
+        "copy": "1",
+        "front_page": "1",
+        "back_page": "2",
+        "back_id": "back01"
+      },
+      {
+        "id": "i02",
+        "name": "Lámpara UV",
+        "copy": "1",
+        "front_page": "5",
+        "back_page": "6",
+        "back_id": "back01"
+      },
+      {
+        "id": "i03",
+        "name": "Grabadora",
+        "copy": "1",
+        "front_page": "9",
+        "back_page": "10",
+        "back_id": "back01"
+      },
+      {
+        "id": "i04",
+        "name": "Cámara de movimiento",
+        "copy": "1",
+        "front_page": "13",
+        "back_page": "14",
+        "back_id": "back01"
+      },
+      {
+        "id": "i05",
+        "name": "Detector EMF",
+        "copy": "1",
+        "front_page": "17",
+        "back_page": "18",
+        "back_id": "back01"
+      },
+      {
+        "id": "i06",
+        "name": "Espejo de mano",
+        "copy": "1",
+        "front_page": "21",
+        "back_page": "22",
+        "back_id": "back01"
+      },
+      {
+        "id": "i07",
+        "name": "Sensor de gases",
+        "copy": "1",
+        "front_page": "25",
+        "back_page": "26",
+        "back_id": "back01"
+      },
+      {
+        "id": "i08",
+        "name": "Kit de campo",
+        "copy": "1",
+        "front_page": "29",
+        "back_page": "30",
+        "back_id": "back01"
+      },
+      {
+        "id": "i09",
+        "name": "Té de tila",
+        "copy": "1",
+        "front_page": "41",
+        "back_page": "42",
+        "back_id": "back01"
+      },
+      {
+        "id": "i10",
+        "name": "Respirar hondo",
+        "copy": "1",
+        "front_page": "57",
+        "back_page": "58",
+        "back_id": "back01"
+      },
+      {
+        "id": "i11",
+        "name": "Rosario",
+        "copy": "1",
+        "front_page": "65",
+        "back_page": "66",
+        "back_id": "back01"
+      },
+      {
+        "id": "i12",
+        "name": "Esconderse",
+        "copy": "1",
+        "front_page": "79",
+        "back_page": "80",
+        "back_id": "back01"
+      },
+      {
+        "id": "i13",
+        "name": "Ruda",
+        "copy": "1",
+        "front_page": "85",
+        "back_page": "86",
+        "back_id": "back01"
+      },
+      {
+        "id": "i14",
+        "name": "Copal",
+        "copy": "1",
+        "front_page": "89",
+        "back_page": "90",
+        "back_id": "back01"
+      },
+      {
+        "id": "i15",
+        "name": "Ultraje espiritual",
+        "copy": "1",
+        "front_page": "93",
+        "back_page": "94",
+        "back_id": "back01"
+      },
+      {
+        "id": "a01",
+        "name": "Escalofrío",
+        "copy": "1",
+        "front_page": "97",
+        "back_page": "98",
+        "back_id": "back02"
+      },
+      {
+        "id": "a02",
+        "name": "Portazo",
+        "copy": "1",
+        "front_page": "107",
+        "back_page": "108",
+        "back_id": "back02"
+      },
+      {
+        "id": "a03",
+        "name": "Travesura",
+        "copy": "1",
+        "front_page": "113",
+        "back_page": "114",
+        "back_id": "back02"
+      },
+      {
+        "id": "a04",
+        "name": "Manifestación",
+        "copy": "1",
+        "front_page": "115",
+        "back_page": "116",
+        "back_id": "back02"
+      },
+      {
+        "id": "a05",
+        "name": "Posesión demoníaca",
+        "copy": "1",
+        "front_page": "121",
+        "back_page": "122",
+        "back_id": "back02"
+      },
+      {
+        "id": "a06",
+        "name": "Interferencia",
+        "copy": "1",
+        "front_page": "123",
+        "back_page": "124",
+        "back_id": "back02"
+      },
+      {
+        "id": "a07",
+        "name": "Presencia",
+        "copy": "1",
+        "front_page": "129",
+        "back_page": "130",
+        "back_id": "back02"
+      },
+      {
+        "id": "a08",
+        "name": "Cacería",
+        "copy": "1",
+        "front_page": "133",
+        "back_page": "134",
+        "back_id": "back02"
+      },
+      {
+        "id": "a09",
+        "name": "Cacería total",
+        "copy": "1",
+        "front_page": "141",
+        "back_page": "142",
+        "back_id": "back02"
+      },
+      {
+        "id": "e01",
+        "name": "Bajo cero",
+        "copy": "1",
+        "front_page": "145",
+        "back_page": "146",
+        "back_id": "back05"
+      },
+      {
+        "id": "e02",
+        "name": "Huellas de ceniza",
+        "copy": "1",
+        "front_page": "147",
+        "back_page": "148",
+        "back_id": "back05"
+      },
+      {
+        "id": "e03",
+        "name": "Susurros",
+        "copy": "1",
+        "front_page": "149",
+        "back_page": "150",
+        "back_id": "back05"
+      },
+      {
+        "id": "e04",
+        "name": "Objetos movidos",
+        "copy": "1",
+        "front_page": "151",
+        "back_page": "152",
+        "back_id": "back05"
+      },
+      {
+        "id": "h01",
+        "name": "Helada",
+        "copy": "1",
+        "front_page": "153",
+        "back_page": "154",
+        "back_id": "back02"
+      },
+      {
+        "id": "h02",
+        "name": "Acecho",
+        "copy": "1",
+        "front_page": "155",
+        "back_page": "156",
+        "back_id": "back02"
+      },
+      {
+        "id": "h03",
+        "name": "Lamento",
+        "copy": "1",
+        "front_page": "157",
+        "back_page": "158",
+        "back_id": "back02"
+      },
+      {
+        "id": "h04",
+        "name": "Lluvia de objetos",
+        "copy": "1",
+        "front_page": "159",
+        "back_page": "160",
+        "back_id": "back02"
+      },
+      {
+        "id": "e07",
+        "name": "Olor a azufre",
+        "copy": "1",
+        "front_page": "165",
+        "back_page": "166",
+        "back_id": "back05"
+      },
+      {
+        "id": "h05",
+        "name": "Apagón",
+        "copy": "1",
+        "front_page": "167",
+        "back_page": "168",
+        "back_id": "back02"
+      },
+      {
+        "id": "h06",
+        "name": "Arrastrar",
+        "copy": "1",
+        "front_page": "169",
+        "back_page": "170",
+        "back_id": "back02"
+      },
+      {
+        "id": "h07",
+        "name": "Furia",
+        "copy": "1",
+        "front_page": "171",
+        "back_page": "172",
+        "back_id": "back02"
+      },
+      {
+        "id": "id01",
+        "name": "La Llorona",
+        "copy": "1",
+        "front_page": "173",
+        "back_page": "174",
+        "back_id": "back03"
+      },
+      {
+        "id": "id02",
+        "name": "Nahual",
+        "copy": "1",
+        "front_page": "175",
+        "back_page": "176",
+        "back_id": "back03"
+      },
+      {
+        "id": "id03",
+        "name": "Ánima en pena",
+        "copy": "1",
+        "front_page": "177",
+        "back_page": "178",
+        "back_id": "back03"
+      },
+      {
+        "id": "id04",
+        "name": "Demonio",
+        "copy": "1",
+        "front_page": "179",
+        "back_page": "180",
+        "back_id": "back03"
+      },
+      {
+        "id": "s01",
+        "name": "Llanto eterno",
+        "copy": "1",
+        "front_page": "181",
+        "back_page": "182",
+        "back_id": "back04"
+      },
+      {
+        "id": "s02",
+        "name": "La bestia",
+        "copy": "1",
+        "front_page": "183",
+        "back_page": "184",
+        "back_id": "back04"
+      },
+      {
+        "id": "s03",
+        "name": "Cadenas",
+        "copy": "1",
+        "front_page": "185",
+        "back_page": "186",
+        "back_id": "back04"
+      },
+      {
+        "id": "s04",
+        "name": "Infierno",
+        "copy": "1",
+        "front_page": "187",
+        "back_page": "188",
+        "back_id": "back04"
+      },
+      {
+        "id": "id05",
+        "name": "Aparecido",
+        "copy": "1",
+        "front_page": "189",
+        "back_page": "190",
+        "back_id": "back03"
+      },
+      {
+        "id": "id06",
+        "name": "Bruja",
+        "copy": "1",
+        "front_page": "191",
+        "back_page": "192",
+        "back_id": "back03"
+      },
+      {
+        "id": "id07",
+        "name": "Chaneque",
+        "copy": "1",
+        "front_page": "193",
+        "back_page": "194",
+        "back_id": "back03"
+      },
+      {
+        "id": "id08",
+        "name": "Yohualtepuztli",
+        "copy": "1",
+        "front_page": "195",
+        "back_page": "196",
+        "back_id": "back03"
+      },
+      {
+        "id": "s05",
+        "name": "Aparición final",
+        "copy": "1",
+        "front_page": "197",
+        "back_page": "198",
+        "back_id": "back04"
+      },
+      {
+        "id": "s06",
+        "name": "Aquelarre",
+        "copy": "1",
+        "front_page": "199",
+        "back_page": "200",
+        "back_id": "back04"
+      },
+      {
+        "id": "s07",
+        "name": "Juego del monte",
+        "copy": "1",
+        "front_page": "201",
+        "back_page": "202",
+        "back_id": "back04"
+      },
+      {
+        "id": "s08",
+        "name": "Hacha nocturna",
+        "copy": "1",
+        "front_page": "203",
+        "back_page": "204",
+        "back_id": "back04"
+      },
+      {
+        "id": "id09",
+        "name": "Cihuateteo",
+        "copy": "1",
+        "front_page": "205",
+        "back_page": "206",
+        "back_id": "back03"
+      },
+      {
+        "id": "id10",
+        "name": "Tlahuelpuchi",
+        "copy": "1",
+        "front_page": "207",
+        "back_page": "208",
+        "back_id": "back03"
+      },
+      {
+        "id": "id11",
+        "name": "Matlacíhuatl",
+        "copy": "1",
+        "front_page": "209",
+        "back_page": "210",
+        "back_id": "back03"
+      },
+      {
+        "id": "s09",
+        "name": "Encrucijada",
+        "copy": "1",
+        "front_page": "211",
+        "back_page": "212",
+        "back_id": "back04"
+      },
+      {
+        "id": "s10",
+        "name": "Vuelo de sangre",
+        "copy": "1",
+        "front_page": "213",
+        "back_page": "214",
+        "back_id": "back04"
+      },
+      {
+        "id": "s11",
+        "name": "La red",
+        "copy": "1",
+        "front_page": "215",
+        "back_page": "216",
+        "back_id": "back04"
+      },
+      {
+        "id": "id12",
+        "name": "Charro Negro",
+        "copy": "1",
+        "front_page": "217",
+        "back_page": "218",
+        "back_id": "back03"
+      },
+      {
+        "id": "id13",
+        "name": "La Planchada",
+        "copy": "1",
+        "front_page": "219",
+        "back_page": "220",
+        "back_id": "back03"
+      },
+      {
+        "id": "id14",
+        "name": "Xtabay",
+        "copy": "1",
+        "front_page": "221",
+        "back_page": "222",
+        "back_id": "back03"
+      },
+      {
+        "id": "s12",
+        "name": "Trato con el diablo",
+        "copy": "1",
+        "front_page": "223",
+        "back_page": "224",
+        "back_id": "back04"
+      },
+      {
+        "id": "s13",
+        "name": "Ronda nocturna",
+        "copy": "1",
+        "front_page": "225",
+        "back_page": "226",
+        "back_id": "back04"
+      },
+      {
+        "id": "s14",
+        "name": "Canto de la ceiba",
+        "copy": "1",
+        "front_page": "227",
+        "back_page": "228",
+        "back_id": "back04"
+      },
+      {
+        "id": "id15",
+        "name": "El Mal Aire",
+        "copy": "1",
+        "front_page": "229",
+        "back_page": "230",
+        "back_id": "back03"
+      },
+      {
+        "id": "s15",
+        "name": "Soplo del mal viento",
+        "copy": "1",
+        "front_page": "231",
+        "back_page": "232",
+        "back_id": "back04"
+      },
+      {
+        "id": "id16",
+        "name": "El Guardián del Entierro",
+        "copy": "1",
+        "front_page": "233",
+        "back_page": "234",
+        "back_id": "back03"
+      },
+      {
+        "id": "s16",
+        "name": "Maldición del entierro",
+        "copy": "1",
+        "front_page": "235",
+        "back_page": "236",
+        "back_id": "back04"
+      },
+      {
+        "id": "id17",
+        "name": "El Cucuy",
+        "copy": "1",
+        "front_page": "237",
+        "back_page": "238",
+        "back_id": "back03"
+      },
+      {
+        "id": "s17",
+        "name": "Desde la penumbra",
+        "copy": "1",
+        "front_page": "239",
+        "back_page": "240",
+        "back_id": "back04"
+      },
+      {
+        "id": "id18",
+        "name": "El Cadejo Negro",
+        "copy": "1",
+        "front_page": "241",
+        "back_page": "242",
+        "back_id": "back03"
+      },
+      {
+        "id": "s18",
+        "name": "Arrastre de cadenas",
+        "copy": "1",
+        "front_page": "243",
+        "back_page": "244",
+        "back_id": "back04"
+      },
+      {
+        "id": "id19",
+        "name": "Espíritu Chocarrero",
+        "copy": "1",
+        "front_page": "245",
+        "back_page": "246",
+        "back_id": "back03"
+      },
+      {
+        "id": "s19",
+        "name": "Tornado de objetos",
+        "copy": "1",
+        "front_page": "247",
+        "back_page": "248",
+        "back_id": "back04"
+      },
+      {
+        "id": "s20",
+        "name": "El barco en la pared",
+        "copy": "1",
+        "front_page": "251",
+        "back_page": "252",
+        "back_id": "back04"
+      },
+      {
+        "id": "id21",
+        "name": "El Uay Chivo",
+        "copy": "1",
+        "front_page": "253",
+        "back_page": "254",
+        "back_id": "back03"
+      },
+      {
+        "id": "s21",
+        "name": "Mirada de cabra",
+        "copy": "1",
+        "front_page": "255",
+        "back_page": "256",
+        "back_id": "back04"
+      },
+      {
+        "id": "o04",
+        "name": "Limpia con huevo",
+        "copy": "1",
+        "front_page": "265",
+        "back_page": "266",
+        "back_id": "back01"
+      },
+      {
+        "id": "o06",
+        "name": "Tarot",
+        "copy": "1",
+        "front_page": "269",
+        "back_page": "270",
+        "back_id": "back01"
+      },
+      {
+        "id": "o07",
+        "name": "Muñeca de la isla",
+        "copy": "1",
+        "front_page": "271",
+        "back_page": "272",
+        "back_id": "back02"
+      },
+      {
+        "id": "o08",
+        "name": "Espejo de obsidiana",
+        "copy": "1",
+        "front_page": "273",
+        "back_page": "274",
+        "back_id": "back02"
+      },
+      {
+        "id": "p02",
+        "name": "Alba",
+        "copy": "1",
+        "front_page": "275",
+        "back_page": "276",
+        "back_id": "back01"
+      },
+      {
+        "id": "p03",
+        "name": "Reglas 1: Tu turno",
+        "copy": "1",
+        "front_page": "277",
+        "back_page": "278",
+        "back_id": "R01"
+      },
+      {
+        "id": "p04",
+        "name": "Reglas 2: Investigar",
+        "copy": "1",
+        "front_page": "279",
+        "back_page": "280",
+        "back_id": "R02"
+      },
+      {
+        "id": "p05",
+        "name": "Reglas 3: Peligro",
+        "copy": "1",
+        "front_page": "281",
+        "back_page": "282",
+        "back_id": "R03"
+      },
+      {
+        "id": "p06",
+        "name": "Reglas 4: El ánima",
+        "copy": "1",
+        "front_page": "283",
+        "back_page": "284",
+        "back_id": "R04"
+      },
+      {
+        "id": "p07",
+        "name": "El espíritu",
+        "copy": "1",
+        "front_page": "285",
+        "back_page": "286",
+        "back_id": "R05"
+      },
+      {
+        "id": "Q1",
+        "name": "Consulta de íconos 1",
+        "copy": "1",
+        "front_page": "287",
+        "back_page": "288",
+        "back_id": "Q1B"
+      },
+      {
+        "id": "Q2",
+        "name": "Consulta de íconos 2",
+        "copy": "1",
+        "front_page": "289",
+        "back_page": "290",
+        "back_id": "Q2B"
+      },
+      {
+        "id": "Q3",
+        "name": "Consulta de íconos 3",
+        "copy": "1",
+        "front_page": "291",
+        "back_page": "292",
+        "back_id": "Q3B"
+      },
+      {
+        "id": "Q4",
+        "name": "Consulta de íconos 4",
+        "copy": "1",
+        "front_page": "293",
+        "back_page": "294",
+        "back_id": "Q4B"
+      },
+      {
+        "id": "Q5",
+        "name": "Consulta de íconos 5",
+        "copy": "1",
+        "front_page": "295",
+        "back_page": "296",
+        "back_id": "Q5B"
+      }
+    ],
+    "reversos": [
+      {
+        "id": "back01",
+        "name": "Reverso back01",
+        "copy": "1",
+        "front_page": "1",
+        "back_page": "2",
+        "back_id": "back01"
+      },
+      {
+        "id": "back02",
+        "name": "Reverso back02",
+        "copy": "1",
+        "front_page": "97",
+        "back_page": "98",
+        "back_id": "back02"
+      },
+      {
+        "id": "back05",
+        "name": "Reverso back05",
+        "copy": "1",
+        "front_page": "145",
+        "back_page": "146",
+        "back_id": "back05"
+      },
+      {
+        "id": "back03",
+        "name": "Reverso back03",
+        "copy": "1",
+        "front_page": "173",
+        "back_page": "174",
+        "back_id": "back03"
+      },
+      {
+        "id": "back04",
+        "name": "Reverso back04",
+        "copy": "1",
+        "front_page": "181",
+        "back_page": "182",
+        "back_id": "back04"
+      },
+      {
+        "id": "R01",
+        "name": "Reverso R01",
+        "copy": "1",
+        "front_page": "277",
+        "back_page": "278",
+        "back_id": "R01"
+      },
+      {
+        "id": "R02",
+        "name": "Reverso R02",
+        "copy": "1",
+        "front_page": "279",
+        "back_page": "280",
+        "back_id": "R02"
+      },
+      {
+        "id": "R03",
+        "name": "Reverso R03",
+        "copy": "1",
+        "front_page": "281",
+        "back_page": "282",
+        "back_id": "R03"
+      },
+      {
+        "id": "R04",
+        "name": "Reverso R04",
+        "copy": "1",
+        "front_page": "283",
+        "back_page": "284",
+        "back_id": "R04"
+      },
+      {
+        "id": "R05",
+        "name": "Reverso R05",
+        "copy": "1",
+        "front_page": "285",
+        "back_page": "286",
+        "back_id": "R05"
+      },
+      {
+        "id": "Q1B",
+        "name": "Reverso Q1B",
+        "copy": "1",
+        "front_page": "287",
+        "back_page": "288",
+        "back_id": "Q1B"
+      },
+      {
+        "id": "Q2B",
+        "name": "Reverso Q2B",
+        "copy": "1",
+        "front_page": "289",
+        "back_page": "290",
+        "back_id": "Q2B"
+      },
+      {
+        "id": "Q3B",
+        "name": "Reverso Q3B",
+        "copy": "1",
+        "front_page": "291",
+        "back_page": "292",
+        "back_id": "Q3B"
+      },
+      {
+        "id": "Q4B",
+        "name": "Reverso Q4B",
+        "copy": "1",
+        "front_page": "293",
+        "back_page": "294",
+        "back_id": "Q4B"
+      },
+      {
+        "id": "Q5B",
+        "name": "Reverso Q5B",
+        "copy": "1",
+        "front_page": "295",
+        "back_page": "296",
+        "back_id": "Q5B"
+      }
+    ]
+  },
+  "referencias_relativas": {
+    "i01": "referencias/i01.png",
+    "i03": "referencias/i03.png",
+    "i05": "referencias/i05.png",
+    "i06": "referencias/i06.png",
+    "i08": "referencias/i08.png",
+    "i09": "referencias/i09.png",
+    "i11": "referencias/i11.png",
+    "i13": "referencias/i13.png",
+    "i14": "referencias/i14.png",
+    "a01": "referencias/a01.png",
+    "a09": "referencias/a09.png",
+    "e01": "referencias/e01.png",
+    "e03": "referencias/e03.png",
+    "e04": "referencias/e04.png",
+    "h05": "referencias/h05.png",
+    "h06": "referencias/h06.png",
+    "id03": "referencias/id03.png",
+    "id13": "referencias/id13.png",
+    "id16": "referencias/id16.png",
+    "s13": "referencias/s13.png",
+    "o04": "referencias/o04.png",
+    "o06": "referencias/o06.png",
+    "o08": "referencias/o08.png",
+    "p03": "referencias/p03.png",
+    "p07": "referencias/p07.png"
+  },
+  "aprobaciones_recientes": {
+    "redisenos_aprobados": [
+      "e05",
+      "e06",
+      "id20",
+      "o01",
+      "o02",
+      "o03",
+      "o05"
+    ],
+    "estado": "Integrados por petición expresa del usuario; Tablilla con ambas manos en SÍ",
+    "archivos": {
+      "e05": {
+        "archivo": "sources/approved-art/e05.png",
+        "sha256": "52db891b0c7eb14be01950d3c9fc318013c4318d712de9d38bb521a6bc1f9938"
+      },
+      "e06": {
+        "archivo": "sources/approved-art/e06.png",
+        "sha256": "f9def5c1d02f52263ad9b2671695f52cbfdd8ecd858d5609a72403dd13bece80"
+      },
+      "id20": {
+        "archivo": "sources/approved-art/id20.png",
+        "sha256": "930248c5dee82e05873e77c6399340bc5d598191a7b3b69780f69a45cac48ae2"
+      },
+      "o01": {
+        "archivo": "sources/approved-art/o01.png",
+        "sha256": "19760d584a0ba383ace67dcf9f6db3ce033d425ad322d646a626826a0a2ad0fb"
+      },
+      "o02": {
+        "archivo": "sources/approved-art/o02.png",
+        "sha256": "6289ec7a79aa14cbf5b801991011f36908c83c284371821565545ae70a92a5e7"
+      },
+      "o03": {
+        "archivo": "sources/approved-art/o03.png",
+        "sha256": "6c905ae42e199776e6c4e3093b29e011f65770e4e0dc0354504be39493fcabaf"
+      },
+      "o05": {
+        "archivo": "sources/approved-art/o05.png",
+        "sha256": "5b8399db1860ef8fa3e50fba33390d06e65a71027b9a8e898207978b698fc10e"
+      }
+    },
+    "base_relativa_a_esta_guia": "../Noche_de_Animas_Importacion_Web"
+  },
+  "personajes_aprobados": {
+    "archivo": "../Referencias_Personajes_Aprobados/personajes_canon.json",
+    "consulta": "Obligatoria antes de generar personajes, espíritus o portadas; incluye identidades aprobadas y rostro corregido del padre Mateo."
+  }
+}

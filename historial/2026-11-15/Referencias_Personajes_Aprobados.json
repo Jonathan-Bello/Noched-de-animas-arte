@@ -1,0 +1,43 @@
+{
+  "fecha_observada": "2026-11-15",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Referencias_Personajes_Aprobados",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Referencias_Personajes_Aprobados/Elenco_Aprobado.png",
+      "coleccion": "Referencias_Personajes_Aprobados",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T14:14:10.273763-06:00",
+      "ultima_modificacion_observada": "2026-11-15T13:05:12.368090-06:00",
+      "sha256": "1afa0672b99a44037609d9c1fe81b9ebf425546e2b3dbe3437e8c9637f7ac34b",
+      "bytes": 3137999,
+      "objeto": "objetos/1a/1afa0672b99a44037609d9c1fe81b9ebf425546e2b3dbe3437e8c9637f7ac34b.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Referencias_Personajes_Aprobados/Mateo_Aprobado.png",
+      "coleccion": "Referencias_Personajes_Aprobados",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T14:14:10.280256-06:00",
+      "ultima_modificacion_observada": "2026-11-15T13:43:06.546890-06:00",
+      "sha256": "f45ce4b88ca851c18a680c3f451e37d53a5435d0bc3b2fe4463e0768cb8f3eeb",
+      "bytes": 2603805,
+      "objeto": "objetos/f4/f45ce4b88ca851c18a680c3f451e37d53a5435d0bc3b2fe4463e0768cb8f3eeb.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/outputs/Referencias_Personajes_Aprobados/personajes_canon.json",
+      "coleccion": "Referencias_Personajes_Aprobados",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T14:14:10.303812-06:00",
+      "ultima_modificacion_observada": "2026-11-15T14:14:10.313071-06:00",
+      "sha256": "284736c554065f5c32b038ff0e609e69a71707666f82420a65368ddf8ef1da28",
+      "bytes": 2280,
+      "objeto": "objetos/28/284736c554065f5c32b038ff0e609e69a71707666f82420a65368ddf8ef1da28.json",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

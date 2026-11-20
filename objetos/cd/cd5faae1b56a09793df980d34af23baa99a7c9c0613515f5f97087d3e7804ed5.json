@@ -1,0 +1,56 @@
+{
+  "tipo": "Casos de aceptación propuestos; no ejecutados en el demo",
+  "casos": [
+    {
+      "rol": "robert",
+      "evento": "herramienta_especifica_nada_con_dado",
+      "permitido": true
+    },
+    {
+      "rol": "robert",
+      "evento": "kit_nada",
+      "permitido": false
+    },
+    {
+      "rol": "robert",
+      "evento": "interferencia_sin_tirada",
+      "permitido": false
+    },
+    {
+      "rol": "angel",
+      "evento": "improvisar_con_una_carta_y_una_cordura",
+      "permitido": true
+    },
+    {
+      "rol": "angel",
+      "evento": "improvisar_con_cero_cordura",
+      "permitido": false
+    },
+    {
+      "rol": "jhonnatan",
+      "evento": "descarte_azar_portazo",
+      "permitido": true
+    },
+    {
+      "rol": "jhonnatan",
+      "evento": "descarte_inicial_espanto",
+      "permitido": false
+    },
+    {
+      "rol": "jorge",
+      "evento": "perdida_dos_manifestacion",
+      "permitido": true,
+      "perdida_final": 0
+    },
+    {
+      "rol": "jorge",
+      "evento": "caceria",
+      "permitido": false
+    },
+    {
+      "rol": "alexis",
+      "evento": "mirar_alba",
+      "permitido": false
+    }
+  ]
+}

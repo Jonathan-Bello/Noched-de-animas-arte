@@ -1,0 +1,21 @@
+{
+  "version": "0.5 visual",
+  "fecha": "2026-11-15",
+  "estado": "Propuestas separadas pendientes de aprobación; no reemplazan imprenta ni catálogo principal",
+  "cambios": {
+    "vigia": "Conservar v04 y cambiar solamente la camisa a azul medio.",
+    "guardaespaldas": "Restaurar arte y pose aprobados v03, con farol y palma al frente; conservar identidad y robustez de Jorge.",
+    "tecnico": "Robert serio, inclinado reparando, mirada abierta y hacia el aparato; ya no cabeza elevada y ojos cerrados.",
+    "detective": "Fermín de pie, medio de espaldas, expresión desesperada, analizando de noche a luz de velas; fantasma visible en la lupa. Prendas de Tomás, rostro de Fermín.",
+    "curandero": "Conservar acción de servir/ofrecer té y personaje. Reducir microdetalle botánico de ruda, tila y pirul; sombras más amplias.",
+    "improvisador": "Conservar Ángel en cuclillas y detector con cuchara, hilo rojo, radio y vela. Reducir microcomponentes y sombras del radio, cara y vela; quitar retrato minúsculo del envase sin alterar concepto."
+  },
+  "avatares": {
+    "personajes": 8,
+    "estados": ["vivo", "muerto"],
+    "representacion_muerto": "Mismo personaje como espíritu translúcido, sin gore, conservando pelo, cara, lentes, maquillaje y ropa.",
+    "formato": "Bustos cuadrados con fondo transparente, PNG y WebP, tamaños 1024, 512 y 256, atlas y manifiesto para juego web.",
+    "reglas": "Solo estados visuales; no se añaden poderes ni se modifican reglas de muerte."
+  },
+  "acabado": "Rostros caricaturizados, ojos gráficos con pupila simple, piel mate sin poros; sombras tranquilas y amplias. Mantener volumen ilustrado, tonos medios y textura de impresión en escenario y ropa. No convertir a vector plano."
+}

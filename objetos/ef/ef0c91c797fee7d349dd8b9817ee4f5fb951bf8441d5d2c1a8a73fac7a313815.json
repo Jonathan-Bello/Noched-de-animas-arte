@@ -1,0 +1,164 @@
+{
+  "version": "0.4 visual",
+  "dimensiones": [
+    580,
+    880
+  ],
+  "dimensiones_alta": [
+    1160,
+    1760
+  ],
+  "roles": [
+    {
+      "id": "vigia",
+      "role_id": "vigia",
+      "titulo": "El Vigía",
+      "modelo": "Jhonnatan / Jonathan",
+      "leyenda": "La sombra cambió de sitio. Él no apartó la mirada.",
+      "familia": "mano",
+      "frente": "cartas/rol_vigia.png",
+      "frente_alta": "cartas/rol_vigia_alta.png",
+      "arte": "artes/rol_vigia.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "improvisador",
+      "role_id": "improvisador",
+      "titulo": "El Improvisador",
+      "modelo": "Ángel",
+      "leyenda": "Con lo que quedaba, todavía podía intentarlo.",
+      "familia": "mano",
+      "frente": "cartas/rol_improvisador.png",
+      "frente_alta": "cartas/rol_improvisador_alta.png",
+      "arte": "artes/rol_improvisador.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "tecnico",
+      "role_id": "tecnico",
+      "titulo": "El Técnico",
+      "modelo": "Robert",
+      "leyenda": "Un golpe, un chasquido… y volvió a escucharse.",
+      "familia": "ojo",
+      "frente": "cartas/rol_tecnico.png",
+      "frente_alta": "cartas/rol_tecnico_alta.png",
+      "arte": "artes/rol_tecnico.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "detective",
+      "role_id": "detective",
+      "titulo": "El Detective",
+      "modelo": "Fermín",
+      "leyenda": "La pista estaba donde nadie había querido mirar.",
+      "familia": "ojo",
+      "frente": "cartas/rol_detective.png",
+      "frente_alta": "cartas/rol_detective_alta.png",
+      "arte": "artes/rol_detective.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "curandero",
+      "role_id": "curandera",
+      "titulo": "El Curandero",
+      "modelo": "Alexis · natural",
+      "leyenda": "Toma. Aún nos falta llegar al alba.",
+      "familia": "corazon",
+      "frente": "cartas/rol_curandero.png",
+      "frente_alta": "cartas/rol_curandero_alta.png",
+      "arte": "artes/rol_curandero.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "devota",
+      "role_id": "padre",
+      "titulo": "La Devota",
+      "modelo": "Chica provisional, sin persona real de referencia",
+      "leyenda": "Donde llegó el humo, la sombra cedió.",
+      "familia": "escudo",
+      "frente": "cartas/rol_devota.png",
+      "frente_alta": "cartas/rol_devota_alta.png",
+      "arte": "artes/rol_devota.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "sensitivo",
+      "role_id": "sensitiva",
+      "titulo": "El Sensitivo",
+      "modelo": "Alexis · catrina",
+      "leyenda": "Dos ecos. Solo uno dejaba huella.",
+      "familia": "ojo",
+      "frente": "cartas/rol_sensitivo.png",
+      "frente_alta": "cartas/rol_sensitivo_alta.png",
+      "arte": "artes/rol_sensitivo.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "guardaespaldas",
+      "role_id": "guardaespaldas",
+      "titulo": "El Guardaespaldas",
+      "modelo": "Jorge",
+      "leyenda": "La puerta cedió. Él no.",
+      "familia": "escudo",
+      "frente": "cartas/rol_guardaespaldas.png",
+      "frente_alta": "cartas/rol_guardaespaldas_alta.png",
+      "arte": "artes/rol_guardaespaldas.png",
+      "reverso": "reversos/reverso_roles.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    }
+  ],
+  "espiritu": [
+    {
+      "id": "manifestar",
+      "role_id": "espiritu_manifestar",
+      "titulo": "Manifestar",
+      "leyenda": "Aún puedo hacer que me escuchen.",
+      "familia": "mano",
+      "frente": "cartas/rol_manifestar.png",
+      "frente_alta": "cartas/rol_manifestar_alta.png",
+      "arte": "artes/rol_manifestar.png",
+      "reverso": "reversos/reverso_espiritu.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    },
+    {
+      "id": "velar",
+      "role_id": "espiritu_velar",
+      "titulo": "Velar",
+      "leyenda": "No te dejaré solo en esta casa.",
+      "familia": "escudo",
+      "frente": "cartas/rol_velar.png",
+      "frente_alta": "cartas/rol_velar_alta.png",
+      "arte": "artes/rol_velar.png",
+      "reverso": "reversos/reverso_espiritu.png",
+      "estado": "Propuesta nueva pendiente de aprobación"
+    }
+  ],
+  "reversos": [
+    {
+      "id": "reverso_roles",
+      "titulo": "Roles · común",
+      "archivo": "reversos/reverso_roles.png"
+    },
+    {
+      "id": "reverso_roles_gris",
+      "titulo": "Roles · gris",
+      "archivo": "reversos/reverso_roles_gris.png"
+    },
+    {
+      "id": "reverso_espiritu",
+      "titulo": "Espíritu · común",
+      "archivo": "reversos/reverso_espiritu.png"
+    }
+  ],
+  "reglas_modificadas": false,
+  "funcionalidad_impresa": false,
+  "personajes_origen": "Rasgos_personajes_aprobados.json",
+  "reverso_gris": "Variante visual opcional para señalar uso; no establece ni modifica frecuencia mecánica."
+}

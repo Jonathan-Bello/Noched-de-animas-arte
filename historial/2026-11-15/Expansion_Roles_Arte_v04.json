@@ -1,0 +1,19 @@
+{
+  "fecha_observada": "2026-11-15",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Expansion_Roles_Arte_v04",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/outputs/Expansion_Roles_Arte_v04/LEEME_ubicacion.txt",
+      "coleccion": "Expansion_Roles_Arte_v04",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T22:02:11.433706-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:02:11.433706-06:00",
+      "sha256": "e9340c703dbd0a13f4008d27ec507302a48b722aec57f60bf37683e548dcfea5",
+      "bytes": 512,
+      "objeto": "objetos/e9/e9340c703dbd0a13f4008d27ec507302a48b722aec57f60bf37683e548dcfea5.txt",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "cartas": [
+    {
+      "id": "exp_alexis",
+      "dimensions": "PASS",
+      "texto_sin_desbordamiento": "PASS",
+      "body_font_px": 21
+    },
+    {
+      "id": "exp_robert",
+      "dimensions": "PASS",
+      "texto_sin_desbordamiento": "PASS",
+      "body_font_px": 21
+    },
+    {
+      "id": "exp_angel",
+      "dimensions": "PASS",
+      "texto_sin_desbordamiento": "PASS",
+      "body_font_px": 21
+    },
+    {
+      "id": "exp_jhonnatan",
+      "dimensions": "PASS",
+      "texto_sin_desbordamiento": "PASS",
+      "body_font_px": 21
+    },
+    {
+      "id": "exp_jorge",
+      "dimensions": "PASS",
+      "texto_sin_desbordamiento": "PASS",
+      "body_font_px": 21
+    }
+  ],
+  "cantidad_identidades": 5,
+  "usos_cada_una": 1,
+  "balance": "No validado en partidas completas"
+}

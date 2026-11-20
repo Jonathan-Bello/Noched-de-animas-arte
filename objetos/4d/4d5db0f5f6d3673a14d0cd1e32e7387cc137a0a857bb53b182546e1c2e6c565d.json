@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "roles": 8,
+  "espiritu": 2,
+  "reversos": 3,
+  "todasDimensionesCorrectas": true,
+  "sinDesbordeMovil": true,
+  "jsErrors": []
+}

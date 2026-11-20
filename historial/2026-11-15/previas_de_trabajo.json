@@ -1,0 +1,91 @@
+{
+  "fecha_observada": "2026-11-15",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "previas_de_trabajo",
+  "archivos": [
+    {
+      "origen": "2026-11-13/ho/work/escaneo_personajes/frentes_actuales_1.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T03:24:46.152909-06:00",
+      "ultima_modificacion_observada": "2026-11-15T03:24:46.164929-06:00",
+      "sha256": "f33f5413f9250081029430abc5b14d34c643b98cbd0bd52caba6fa4d226b686c",
+      "bytes": 1104185,
+      "objeto": "objetos/f3/f33f5413f9250081029430abc5b14d34c643b98cbd0bd52caba6fa4d226b686c.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/escaneo_personajes/frentes_actuales_2.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T03:24:46.586093-06:00",
+      "ultima_modificacion_observada": "2026-11-15T03:24:46.594780-06:00",
+      "sha256": "e08ccf26ff0dcbfb877553d8e8d696a21af8335e8eb3459c06331d4cfa59f644",
+      "bytes": 1107435,
+      "objeto": "objetos/e0/e08ccf26ff0dcbfb877553d8e8d696a21af8335e8eb3459c06331d4cfa59f644.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/escaneo_personajes/frentes_actuales_3.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T03:24:47.021434-06:00",
+      "ultima_modificacion_observada": "2026-11-15T03:24:47.030459-06:00",
+      "sha256": "18500da30c1eea9de4c53062a3bc7b9bcf4f16e68b78bd6bb2e62069af1337b4",
+      "bytes": 1148318,
+      "objeto": "objetos/18/18500da30c1eea9de4c53062a3bc7b9bcf4f16e68b78bd6bb2e62069af1337b4.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/escaneo_personajes/frentes_actuales_4.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T03:24:47.406986-06:00",
+      "ultima_modificacion_observada": "2026-11-15T03:24:47.415002-06:00",
+      "sha256": "f0c2716df3e598c78558cbc94308710751013627551e54bd27f068995bfc28fb",
+      "bytes": 947840,
+      "objeto": "objetos/f0/f0c2716df3e598c78558cbc94308710751013627551e54bd27f068995bfc28fb.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/qa_iconos_demo.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T14:32:09.423513-06:00",
+      "ultima_modificacion_observada": "2026-11-15T14:32:09.432053-06:00",
+      "sha256": "d2ed799aaf7afb91b7a17ad6b33ecc7743fd9c70501adb09e3c8987894c882ad",
+      "bytes": 120237,
+      "objeto": "objetos/d2/d2ed799aaf7afb91b7a17ad6b33ecc7743fd9c70501adb09e3c8987894c882ad.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/qa_retratos_demo.jpg",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T14:25:50.203103-06:00",
+      "ultima_modificacion_observada": "2026-11-15T14:25:50.213646-06:00",
+      "sha256": "1ea922aa318a168715ba42978ef0c64a4ea759bb344e3729d5dcc86deff5b812",
+      "bytes": 269598,
+      "objeto": "objetos/1e/1ea922aa318a168715ba42978ef0c64a4ea759bb344e3729d5dcc86deff5b812.jpg",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "2026-11-13/ho/work/test_font.png",
+      "coleccion": "previas_de_trabajo",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-15T16:41:03.651714-06:00",
+      "ultima_modificacion_observada": "2026-11-15T16:41:03.651714-06:00",
+      "sha256": "70b8f626386b46d3fe2837b56f88c4d4c65b599a39799804d3222f97efbd41b3",
+      "bytes": 649,
+      "objeto": "objetos/70/70b8f626386b46d3fe2837b56f88c4d4c65b599a39799804d3222f97efbd41b3.png",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

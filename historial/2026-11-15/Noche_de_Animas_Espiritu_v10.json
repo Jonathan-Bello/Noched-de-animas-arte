@@ -1,0 +1,79 @@
+{
+  "fecha_observada": "2026-11-15",
+  "fecha_precision": "modificación observada, no creación garantizada",
+  "coleccion": "Noche_de_Animas_Espiritu_v10",
+  "archivos": [
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/artes/rol_manifestar.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.449745-06:00",
+      "ultima_modificacion_observada": "2026-11-15T21:48:57.482100-06:00",
+      "sha256": "4df79e4a370d69ade1892705f26a5bff0213bd2e7b390b9d065a446390db0d8e",
+      "bytes": 2956304,
+      "objeto": "objetos/4d/4df79e4a370d69ade1892705f26a5bff0213bd2e7b390b9d065a446390db0d8e.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_manifestar.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.454296-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:35:29.957696-06:00",
+      "sha256": "356cc1822e0fd842f9fa773db3f7ab53428f2d8798faf5783c940ff941e9483b",
+      "bytes": 877574,
+      "objeto": "objetos/35/356cc1822e0fd842f9fa773db3f7ab53428f2d8798faf5783c940ff941e9483b.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/cartas/rol_manifestar_alta.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.454296-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:35:29.861480-06:00",
+      "sha256": "67b3febee4309e299ebf48c2bc8360053629d3845aed23c1bc77a7279ddf4f48",
+      "bytes": 3150718,
+      "objeto": "objetos/67/67b3febee4309e299ebf48c2bc8360053629d3845aed23c1bc77a7279ddf4f48.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/reversos/reverso_espiritu.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.454296-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:35:32.221936-06:00",
+      "sha256": "ec8a57c7adc8cf5af02fd66ae62e74adcf1fe5250c15b744f04ddcc54c3013de",
+      "bytes": 1008608,
+      "objeto": "objetos/ec/ec8a57c7adc8cf5af02fd66ae62e74adcf1fe5250c15b744f04ddcc54c3013de.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/reversos/reverso_espiritu_alta.png",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.454296-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:35:32.117369-06:00",
+      "sha256": "63bda822c50d00206bf759a63b0e0b70598a5e218a2cf7fcb16833bca4c81163",
+      "bytes": 3645638,
+      "objeto": "objetos/63/63bda822c50d00206bf759a63b0e0b70598a5e218a2cf7fcb16833bca4c81163.png",
+      "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Noche_de_Animas_Espiritu_v10/webp/rol_manifestar.webp",
+      "coleccion": "Noche_de_Animas_Espiritu_v10",
+      "fecha_observada": "2026-11-15",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-16T20:45:36.454296-06:00",
+      "ultima_modificacion_observada": "2026-11-15T22:35:30.140254-06:00",
+      "sha256": "b92622bd60675553ef1520432e8b6de0e6ae57eaba1a27b9971208cba58ac9b4",
+      "bytes": 211470,
+      "objeto": "objetos/b9/b92622bd60675553ef1520432e8b6de0e6ae57eaba1a27b9971208cba58ac9b4.webp",
+      "estado": "historico_sin_aprobacion_global"
+    }
+  ]
+}

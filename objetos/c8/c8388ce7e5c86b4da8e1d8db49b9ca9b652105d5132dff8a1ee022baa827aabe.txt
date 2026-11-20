@@ -1,0 +1,53 @@
+Actúa como diseñador y analista de juegos de mesa, especialista en deducción asimétrica, y como tester del demo jugable de Noche de Ánimas. Usa el demo y su código para contrastar estos hallazgos. No des por demostrado un balance por los resultados de simulaciones anteriores.
+
+OBJETIVO Y LÍMITES
+La experiencia principal es deducir la identidad; la segunda, administrar recursos. Meta: cada ánima gana entre 45% y 55% contra jugadores de experiencia comparable. Separar Duelo y partidas con 2, 3 o 4 investigadores. El Espanto es una emergencia del ánima; el Alba permite una acusación desesperada de investigadores con una confirmación. Conservar mazos y cantidades, dado, cordura inicial y máxima 10, herramientas 4–6, Kit e Improvisar 5–6 y distribución de evidencias. Solo juego base. Se pueden proponer efectos de habilidades, Espantos y reglas de espíritus. Guardar Rosarios y coordinar Copales sin revelar cartas son estrategias válidas. Morir no debe convertirse en una estrategia ventajosa recurrente. Velar nunca se acumula. No añadir roles de investigador ni objetos de expansión en esta revisión.
+
+PRIMERO AUDITA EL DEMO
+Localiza reglamento, estado, turnos y condiciones de victoria. Compara reglas escritas, comportamiento observado y código. Distingue bug, regla ambigua y propuesta de diseño. Conserva una versión de referencia antes de cambiar mecánicas. Los cambios experimentales deben estar separados y ser reversibles. Si el demo no permite bots o exportar estados, documenta qué pruebas manuales realizaste; no inventes partidas ni porcentajes.
+
+REGLAS QUE DEBEN GUIAR LA REVISIÓN
+1. Un ánima contra 1–4 investigadores; 21 identidades con tres de siete evidencias. Cada evidencia aparece en nueve identidades y cada pareja en tres. Dos Sí solos dejan tres candidatas; los No y otra información fiable pueden reducirlas. Nada no elimina candidatas. No exigir tres confirmaciones para una acusación deducida con dos.
+2. El ánima elige una habilidad verdadera entre sus tres evidencias y una falsa entre las otras cuatro. Todas las identidades pueden elegir cualquier habilidad individual, como verdadera o falsa. Cada identidad dispone de doce parejas legales. No obligar a llevar una habilidad concreta.
+3. El ánima juega después de cada investigador vivo, nunca después de un espíritu. Verifica reposición de manos, Interferencia como reacción y orden de acusación. Si un espíritu consigue el segundo Sí, revisa quién actúa a continuación; no inventes un turno extra del ánima.
+4. Improvisar debe consumir la acción: descartar dos para un único intento como Kit, pagar uno de cordura, detectar con 5–6. No combinarlo con jugar otra carta. Comprueba si reduce la frustración de manos sin acciones útiles y si su coste defensivo resulta significativo.
+5. Con cero cordura no se muere, pero no se pueden pagar herramientas. Copal cancela una carta normal del ánima completa; no cancela el Espanto, aunque salva a un cazado. Rosario, Esconderse y Ultraje son defensas personales. Ruda protege salvo excepción expresa. No revelar manos a bots o jugadores que no deban conocerlas.
+6. Cucuy CORRECTO: cacería a todos con 4 o menos; el de mayor cordura entre los cazables recibe una segunda cacería. El ánima decide empates; necesita dos defensas para sobrevivir a ambas. Fijar víctima antes de resolver. No repetir contra el de menor cordura, contra alguien por encima de cuatro ni contra un protegido por Ruda. Las simulaciones anteriores con otra lectura no son válidas para esta versión.
+7. Espanto: si había uno o dos vivos al comenzar, el ánima debe matar a todos. Si había tres o cuatro, debe dejar como máximo uno. El fracaso del Espanto termina la partida a favor de investigadores; por eso penalizaciones futuras de Esconderse o Ultraje no compensan su defensa en ese final.
+8. Aclara empates, selección de objetivo con Ruda, el vínculo del Cadejo, el Alba durante robos forzados, prioridad del Espanto en la acusación final, si las habilidades canceladas regresan al barajar, y si Eco incluye Kit o Interferencia. Señala decisiones pendientes; no presentes una interpretación inventada como regla confirmada.
+
+HALLAZGOS QUE DEBES INTENTAR REFUTAR O CONFIRMAR
+A. Acecho caza a cualquier cordura con las mismas defensas que Furia, que solo caza hasta seis: su ataque inmediato contiene el de Furia. Eso no demuestra dominancia global de una pareja ni de una identidad; Apagón puede ser mejor contra manos con Rosario. Mide elección, robo, uso, descarte, defensas consumidas y coste informativo de cada habilidad.
+B. Arrastrar daña al de menor cordura y puede desperdiciarse en alguien a cero. Comparar con permitir elegir objetivo conservando daño tres y respetando Ruda.
+C. Tlahuelpuchi reduce cuatro al de menor cordura y luego caza hasta cuatro. Con al menos dos vivos, ese daño no mejora el cierre respecto a una cacería simple hasta cuatro: o el menor ya era cazable o solo añade una víctima, insuficiente para ganar. Verifica bajo las reglas reales y separa efecto en Duelo.
+D. Guardián permite descartar dos o perder tres antes de cazar hasta cuatro. Con cordura baja se conserva defensa pagando cordura; con cinco a siete se descarta y se permanece fuera de cacería. Busca cuándo la elección realmente importa.
+E. Mulata pasa manos y caza hasta cuatro: puede regalar defensas y no aporta intercambio en Duelo. Chaneque, en cambio, puede ser útil al sustituir manos que guardaban Rosarios. No declarar inútiles las cartas solo por su resultado contra manos aleatorias.
+F. Matlacíhuatl anula siete Rosarios y caza hasta cinco. Cadejo puede convertir la muerte de uno en dos, especialmente con dos vivos. Separar fuerza situacional y victoria global.
+G. Sin mitigación, Llorona (-3, caza hasta4) y Cihuateteo (-2, hasta5) alcanzan al mismo grupo; Nahual (hasta6) y Bruja (-2, hasta4) también. Revisar redundancia sin cambiar por cambiar.
+H. Velar literal reduce cada pérdida durante una vuelta y puede anular daño repetido o discutirse si reduce costes. No acumular, no reducir costes. Examina también si la información al morir o Manifestarse sin pagar cordura incentivan rechazar defensas deliberadamente. No certifiques ausencia de incentivos sin probar contrafactuales legales.
+
+VARIANTES PROPUESTAS, NO APROBADAS NI EQUILIBRADAS TODAVÍA
+Prueba cada una por separado contra referencia; no juntes aumentos y reducciones desde el inicio.
+- Arrastrar A: elige a un investigador; pierde tres. Ruda impide elegirlo.
+- Acecho A: elige a un investigador; con cuatro o menos, cázalo; con cinco o más, pierde dos. Ruda impide elegirlo.
+Todos los Espantos siguientes conservan el descarte universal inicial:
+- Tlahuelpuchi A: los dos de mayor cordura pierden dos; después cacería hasta cuatro. Con uno vivo solo él pierde dos. Ánima desempata.
+- Guardián A: todos descartan una carta adicional al azar; cacería hasta cinco. Es un aumento grande, no una solución validada.
+- Mulata A: pasa manos al siguiente vivo, todos pierden uno y cacería hasta cuatro. En Duelo no se pasa la mano.
+- Matlacíhuatl A: umbral cuatro en lugar de cinco; Rosario sigue sin servir. Probar solo si se mantiene el exceso en partidas completas.
+- Espíritus: primero referencia temporal sin Velar, con Responder/Manifestarse/Eco. Después comparar Velar una vez por partida, reduce uno de la próxima pérdida causada por ánima antes del siguiente turno del espíritu, no costes ni cacerías, no acumulación. No añadir evidencia nueva garantizada al morir.
+
+MÉTODO
+Instrumenta partidas completas si el demo lo permite. Usa semillas reproducibles, diferentes políticas de ambos bandos, rotación de identidades y comparaciones pareadas cuando proceda. Los investigadores no conocen la identidad, mano del ánima ni futuras cartas; el ánima no conoce manos investigadoras ocultas. Mantén inferencias válidas de Sí/No y de habilidades observadas; no uses conocimiento secreto al elegir objetivos o acusar. No permitas que un bot malo o repetitivo determine una falsa conclusión de balance.
+Prueba por separado manos aleatorias y estrategias de reservar defensa; uno, dos, tres y cuatro investigadores; espíritus; ataques de cada tipo; últimas cartas y Alba; acusación antes del siguiente turno enemigo; efectos simultáneos, empates y defensas compartidas. Para sacrificios, usa decisiones legales como rechazar una defensa y compara con sobrevivir desde el mismo estado, controlando futuros aleatorios en lo posible.
+Registra versión, semilla, identidad, jugadores, experiencia/política, dos habilidades, turnos, herramientas/Kit/Improvisar, Sí/No/Nada, candidatas restantes, momento de identidad deducida, segundo Sí, cordura, defensas, muertes, Espanto, Alba, duración y causa del final. Separa intentos de Espanto de partidas ganadas con él.
+Los 112000 estados de Espanto y las métricas aisladas del análisis previo no son partidas completas. No reutilices sus cierres como victoria global. Presenta tamaño de muestra e intervalos de confianza. Unos pocos juegos no demuestran 45–55%; muchos bots tampoco certifican experiencia humana. Separa precisión estadística de validez del modelo.
+
+ENTREGA
+1. Resumen de reglas realmente implementadas y diferencias respecto a estas aclaraciones.
+2. Fallos reproducibles con pasos, estado y ubicación de código cuando exista.
+3. Datos de partidas completas por identidad, cantidad de investigadores y pareja; semillas, políticas e incertidumbre. Si no se ejecutaron, dilo.
+4. Evidencia a favor/en contra de cada hallazgo, distinguiendo observado, calculado, simulado e hipótesis.
+5. Lista priorizada de cambios pequeños, textos de cartas propuestos y efectos secundarios previsibles, manteniendo identidad temática.
+6. Resultados A/B y qué dejarías igual, sin presentar prototipos como aprobados.
+7. Registro exportable CSV/JSON y pruebas reproducibles. Nunca afirmes que se alcanzó 45–55% si tus datos no lo sostienen.

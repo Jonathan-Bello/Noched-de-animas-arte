@@ -1,0 +1,64 @@
+{
+  "estado": "Propuestas generadas; pendientes de selección. Sin integración al catálogo, imprenta o demo.",
+  "herramienta": "image_gen integrada",
+  "guia": "outputs/Guia_Artistica_Noche_de_Animas/parametros_artisticos.json",
+  "referencias_estilo": [
+    "p07",
+    "a09"
+  ],
+  "referencias_identidad": [
+    "i06",
+    "i10",
+    "i11",
+    "a01",
+    "a07",
+    "a08",
+    "e01",
+    "o04",
+    "id01",
+    "id12",
+    "id21"
+  ],
+  "archivos": [
+    {
+      "archivo": "Elenco_Ines_Rafael_Tomas_Amalia.png",
+      "titulo": "Elenco principal",
+      "descripcion": "Inés, Rafael, Tomás y Amalia. Nombres y diseños provisionales.",
+      "ancho": 1536,
+      "alto": 1024,
+      "sha256": "1afa0672b99a44037609d9c1fe81b9ebf425546e2b3dbe3437e8c9637f7ac34b"
+    },
+    {
+      "archivo": "Mateo_Alternativa.png",
+      "titulo": "Mateo · alternativa",
+      "descripcion": "Personaje basado en Rosario; cuerpo entero y dos expresiones.",
+      "ancho": 1536,
+      "alto": 1024,
+      "sha256": "f10160bc6ff7d092f4156bf1002ddc8d1a5278f46ac4dad8f98887adf0107e8e"
+    },
+    {
+      "archivo": "Portada_A_Antes_de_decir_su_nombre.png",
+      "titulo": "A · Antes de decir su nombre",
+      "descripcion": "Deducción en torno a una mesa. Propuesta recomendada por el foco del juego.",
+      "ancho": 1254,
+      "alto": 1254,
+      "sha256": "39ee3fbddd656b1199324406a50a4ba518279967ff91406ea5e0751cf7da1570"
+    },
+    {
+      "archivo": "Portada_B_La_casa_escucha.png",
+      "titulo": "B · La casa escucha",
+      "descripcion": "El grupo entra en la casona mientras una presencia lo acecha.",
+      "ancho": 1254,
+      "alto": 1254,
+      "sha256": "67a2b65cae5f375c49f78371c32a5306af0419f1d904cc3519d855707a744094"
+    },
+    {
+      "archivo": "Portada_C_Una_casa_veintiun_nombres.png",
+      "titulo": "C · Una casa, veintiún nombres",
+      "descripcion": "La casona y tres entidades insinuadas en las ventanas.",
+      "ancho": 1254,
+      "alto": 1254,
+      "sha256": "cdc9550678ae8c3dd438d27dd9be8ed18a29eadf4db4ad4e52e7df21cfe0ba58"
+    }
+  ]
+}
