@@ -1,0 +1,40 @@
+:root { color-scheme:dark; background:#120f16; color:#f3e7d0; font:1rem/1.55 system-ui,sans-serif; }
+* { box-sizing:border-box; }
+body { max-width:54rem; margin:auto; padding:1rem clamp(1rem,4vw,2.5rem) 4rem; }
+a { color:#ffce84; }
+nav, .acciones { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; }
+nav a,button,select,summary { min-height:44px; padding:.65rem .75rem; }
+nav { border-bottom:1px solid #665345; }
+h1,h2,h3 { font-family:Georgia,serif; line-height:1.16; }
+h1 { font-size:clamp(2rem,7vw,3.2rem); margin-bottom:.4em; }
+h2 { color:#f3bd74; margin-top:1.6em; }
+button,select { font:inherit; color:inherit; background:#342831; border:1px solid #897361; border-radius:.45rem; cursor:pointer; }
+:focus-visible { outline:3px solid #ffcc75; outline-offset:2px; }
+details, .fila { background:#211a22; border:1px solid #594951; border-radius:.5rem; padding:.65rem .85rem; margin:.5rem 0; }
+summary { cursor:pointer; color:#ffce84; }
+details ol { columns:2 15rem; padding-left:1.75rem; }
+details li { break-inside:avoid; padding:.25rem; }
+.tabla { overflow:auto; max-width:100%; }
+table { width:100%; border-collapse:collapse; }
+th,td { padding:.5rem; text-align:left; border-bottom:1px solid #665345; }
+.fila { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.5rem; }
+.fila small { display:block; color:#d5c6b8; }
+label.fila { justify-content:flex-start; min-height:48px; cursor:pointer; }
+input[type=checkbox] { width:1.25rem; height:1.25rem; accent-color:#efb364; }
+.tachada .nombre { text-decoration:line-through; color:#d5c6b8; }
+.confirmada { border-left:4px solid #86d4ab; }
+#resumen { font-weight:600; }
+#pruebas { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr)); gap:.5rem; }
+.prueba { display:flex; justify-content:space-between; align-items:center; text-align:left; gap:.5rem; }
+.prueba small,.estado-anima { display:block; font-size:.86rem; color:#e2cfbd; }
+.prueba[data-estado="Confirmada"] { border-color:#80c7ac; }
+.prueba[data-estado="Negada"] { border-color:#eb8e85; }
+.prueba[data-estado="Sospecha"] { border-color:#e6bc75; }
+.estado { font-size:.86rem; white-space:nowrap; }
+.cartas-ficha { display:grid; grid-template-columns:1fr 1fr; gap:.65rem; }
+.cartas-ficha figure { margin:0; }
+.cartas-ficha img { display:block; width:100%; max-width:15rem; height:auto; }
+.cartas-ficha figcaption { margin:.4rem 0; }
+.manual { display:flex; align-items:center; gap:.6rem; min-height:44px; }
+.dado { margin:1.25rem 0; }
+#tirada { font-weight:600; color:#ffdba4; }
