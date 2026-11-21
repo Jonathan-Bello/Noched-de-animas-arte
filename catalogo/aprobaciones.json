@@ -40,6 +40,49 @@
       "estado": "requiere_correccion",
       "fecha": "2026-11-20",
       "evidencia": "Usuario pide rehacer el Vigía porque se desvió del modelo original."
+    },
+    {
+      "id": "roles-presentados-2026-11-21",
+      "estado": "aprobado",
+      "fecha": "2026-11-21",
+      "alcance": "Ilustraciones presentadas de los siete roles distintos de El Vigía. La variante morada de El Técnico queda para revisión.",
+      "objetos": [
+        {
+          "id": "improvisador",
+          "sha256": "a0c024a84dd6d1361d9d9f9f88ef6334eeaf581eb4fba6964b45423b44820d5d"
+        },
+        {
+          "id": "tecnico",
+          "sha256": "2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9"
+        },
+        {
+          "id": "detective",
+          "sha256": "9a18a331f45dcf6f7140ca8a1f6e00c0036fce7a430c65bbe7fc54d56de4e4f7"
+        },
+        {
+          "id": "curandero",
+          "sha256": "41987da9e4bb89fc5ef0daf09d527cb43f9df8e20cf8327d8318abdc8dd2c5f3"
+        },
+        {
+          "id": "devota",
+          "sha256": "e5cb579d0e1cc159e1371ca93160c0c4142f87ecdc74ae249eba11e4be744908"
+        },
+        {
+          "id": "sensitivo",
+          "sha256": "d525c208c0e98280861c6a0353524de5539922f6cabe5aa3e6db2ebab3695548"
+        },
+        {
+          "id": "guardaespaldas",
+          "sha256": "f2bde6e011b380bd01aa0fcf26ffb49fcb12bf6cc3c05c0a944e81bf789c92c0"
+        }
+      ],
+      "evidencia": "Confirmación de dirección artística del 21 de noviembre de 2026."
+    },
+    {
+      "id": "cierre-seis-roles-2026-11-21",
+      "fecha": "2026-11-21",
+      "estado": "aprobado",
+      "alcance": "Improvisador, Detective, Curandero, Devota, Sensitivo y Guardaespaldas. El Vigía se rehace desde el modelo original. El Técnico queda en revisión con overol morado oscuro y sin pañuelo."
     }
   ]
 }
