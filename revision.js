@@ -18,7 +18,8 @@ async function iniciar() {
     if (datos.version !== 1 || datos.lote !== lote || !Array.isArray(datos.elecciones)) throw Error("El archivo pertenece a otro lote.");
     const nuevos = new Map();
     for (const {id, opcion, sha256} of datos.elecciones) {
-      if (!["a","b"].includes(opcion) || !porId.has(id) || porId.get(id)[opcion].sha256 !== sha256 || nuevos.has(id))
+      if (["a","b"].includes(opcion) && sha256 && porId.get(id)?.[opcion]?.anterior === sha256) continue;
+      if (!["a","b","original"].includes(opcion) || !porId.has(id) || porId.get(id)[opcion].sha256 !== sha256 || nuevos.has(id))
         throw Error("Una elección no corresponde a estas ilustraciones.");
       nuevos.set(id, opcion);
     }
@@ -36,7 +37,7 @@ async function iniciar() {
     el("progreso").textContent = votos.size + " de " + cartas.length + " elecciones guardadas";
     el("barra").max = cartas.length; el("barra").value = votos.size;
     const imagenes = [];
-    for (const o of ["a","b"]) {
+    for (const o of ["a","b","original"]) {
       el("elegir-"+o).disabled = true;
       el("zoom-"+o).href = c[o].archivo;
       el("img-"+o).src = c[o].archivo;
@@ -44,14 +45,14 @@ async function iniciar() {
       el("img-"+o).alt = c.nombre + " · propuesta " + o.toUpperCase();
       const activa = votos.get(c.id) === o;
       el("elegir-"+o).setAttribute("aria-pressed", String(activa));
-      el("elegir-"+o).textContent = (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
+      el("elegir-"+o).textContent = o === "original" ? (activa ? "Original seleccionado" : "Conservar original") : (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
     }
     Promise.all(imagenes).then(() => {
       if (cartas[posicion].id === c.id) {
-        for (const o of ["a","b"]) el("elegir-"+o).disabled = false;
+        for (const o of ["a","b","original"]) el("elegir-"+o).disabled = false;
       }
     }).catch(() => {
-      if (cartas[posicion].id === c.id) el("aviso").textContent = "No se cargaron las dos propuestas. Recarga la página para volver a intentarlo.";
+      if (cartas[posicion].id === c.id) el("aviso").textContent = "No se cargaron las tres imágenes. Recarga la página para volver a intentarlo.";
     });
     el("anterior").disabled = !posicion;
     el("siguiente").disabled = posicion === cartas.length-1;
@@ -73,7 +74,7 @@ async function iniciar() {
   el("anterior").onclick=()=>{posicion--;mostrar();};
   el("siguiente").onclick=()=>{posicion++;mostrar();};
   el("pendiente").onclick=()=>{pendiente();mostrar();};
-  for (const o of ["a","b"]) el("elegir-"+o).onclick=()=>{
+  for (const o of ["a","b","original"]) el("elegir-"+o).onclick=()=>{
     const nombre=cartas[posicion].nombre;
     votos.set(cartas[posicion].id,o);
     el("aviso").textContent=nombre+" · elegida "+o.toUpperCase()+". "+(votos.size===cartas.length?"Selección completa. Descarga el JSON.":"");

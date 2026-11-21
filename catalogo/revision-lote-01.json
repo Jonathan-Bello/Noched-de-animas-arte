@@ -7,12 +7,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t0-a.webp",
-        "sha256": "c92cababdf45ee0b4e3140fd9eef644ee3764c1eca70eef0735b63c83adc9eb9"
+        "archivo": "web/revision/lote-01/t0-a.webp?v=567c4af807",
+        "sha256": "567c4af80755f4b990dc4d6054dfa47577594a93770493e33d2de4274e7f2609",
+        "anterior": "c92cababdf45ee0b4e3140fd9eef644ee3764c1eca70eef0735b63c83adc9eb9"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t0-b.webp",
-        "sha256": "27a42d2826ea178ef72fd942bdd176f092fc0296522dac23b04b2d721d438c00"
+        "archivo": "web/revision/lote-01/t0-b.webp?v=4aa0173cdb",
+        "sha256": "4aa0173cdb3d9066dc591d2d93d914592f6de1188387277cc6ea0723475ca0e9",
+        "anterior": "27a42d2826ea178ef72fd942bdd176f092fc0296522dac23b04b2d721d438c00"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i01@2x.webp",
+        "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
       }
     },
     {
@@ -21,12 +27,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t1-a.webp",
-        "sha256": "80d8cd234454d0eb8ab45ae91c2318bc73652cd1d930fde4421863f00e0f011a"
+        "archivo": "web/revision/lote-01/t1-a.webp?v=2ae64b053f",
+        "sha256": "2ae64b053fe19154471e1c32eff5aea464f75a32c866ceb014062f3a4a55ab69",
+        "anterior": "80d8cd234454d0eb8ab45ae91c2318bc73652cd1d930fde4421863f00e0f011a"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t1-b.webp",
-        "sha256": "33374eb87176b3270b46ed0c7d0f99fe3f037946708abc0f23b48951902c124b"
+        "archivo": "web/revision/lote-01/t1-b.webp?v=d0e598bd66",
+        "sha256": "d0e598bd667e4fb9f151f12f5ba8f020a74877bfe4f588ff090d5764ef64cb27",
+        "anterior": "33374eb87176b3270b46ed0c7d0f99fe3f037946708abc0f23b48951902c124b"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i02@2x.webp",
+        "sha256": "e9a696c083a2ab69463c26c846090fb92b102319b3c6301a39a16816324bcbe3"
       }
     },
     {
@@ -35,12 +47,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t2-a.webp",
-        "sha256": "0ebaba535972d1a366deabd2ede2ef731a292e56a10224f32cfab457bb76a675"
+        "archivo": "web/revision/lote-01/t2-a.webp?v=f1befb937c",
+        "sha256": "f1befb937c69565bd7a8f1e182d9e45e0c1eabc000d74a21a9f77735c9db6800",
+        "anterior": "0ebaba535972d1a366deabd2ede2ef731a292e56a10224f32cfab457bb76a675"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t2-b.webp",
-        "sha256": "6da44769fef8cf7edf423124b8d7646421978fa26e5939fc62d58abb436b238b"
+        "archivo": "web/revision/lote-01/t2-b.webp?v=1415bcc917",
+        "sha256": "1415bcc9174144d3148ecaf982997f64187d5522ccb3106bc5b2ec023e051fed",
+        "anterior": "6da44769fef8cf7edf423124b8d7646421978fa26e5939fc62d58abb436b238b"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i03@2x.webp",
+        "sha256": "c59c5aaa4f4d98c7590850ac230bff681e6190bc92a2bc99556e058030022317"
       }
     },
     {
@@ -49,12 +67,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t3-a.webp",
-        "sha256": "e82d278023181b355a37227a9c5fd2ae19ea2a627af731c424c8e0d04f8f2a66"
+        "archivo": "web/revision/lote-01/t3-a.webp?v=2f382ea13a",
+        "sha256": "2f382ea13a8d03610de71c39fc0153f630b2e3ed4fe008b2898bf707bc422a00",
+        "anterior": "e82d278023181b355a37227a9c5fd2ae19ea2a627af731c424c8e0d04f8f2a66"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t3-b.webp",
-        "sha256": "7342e489ce796369e9bcc82405933115c136d8620fb73bb58be544d6a0dd2e2d"
+        "archivo": "web/revision/lote-01/t3-b.webp?v=6ad701c6e6",
+        "sha256": "6ad701c6e68bcfe1bf4ac423f6ecaf82830d9d7831c10eb64770f42685497c54",
+        "anterior": "7342e489ce796369e9bcc82405933115c136d8620fb73bb58be544d6a0dd2e2d"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i04@2x.webp",
+        "sha256": "aeb9980b57c01405c351e40341d6cc4743dd04e56420a2e53e6d59b87a9bb71c"
       }
     },
     {
@@ -63,12 +87,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t4-a.webp",
-        "sha256": "272a0b5f0a0cd9843bfd9419296ce3e78029ce3ee2977f86b9709c71c565decf"
+        "archivo": "web/revision/lote-01/t4-a.webp?v=11205f0290",
+        "sha256": "11205f0290a1197ac7be84c83ef8921fbab0434216a67a7bd23e4313633a770d",
+        "anterior": "272a0b5f0a0cd9843bfd9419296ce3e78029ce3ee2977f86b9709c71c565decf"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t4-b.webp",
-        "sha256": "bf28b873187f7abbefa79774800e711b80e9bfa416a0015034f9503758c89dcb"
+        "archivo": "web/revision/lote-01/t4-b.webp?v=770a8d346a",
+        "sha256": "770a8d346a5c4c3fde4ef4dcfe6d978762be71f7e10e2796045b7b20ece61dda",
+        "anterior": "bf28b873187f7abbefa79774800e711b80e9bfa416a0015034f9503758c89dcb"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i05@2x.webp",
+        "sha256": "249cde19138cebc6aa43cf466d0c648d5fc02f0c0ffd3aa49c75f0337784d3a5"
       }
     },
     {
@@ -77,12 +107,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/t6-a.webp",
-        "sha256": "9c5c8796aaa47b736f03ee35f07ca74f0fbba35935fd94f2d76637904585a0d6"
+        "archivo": "web/revision/lote-01/t6-a.webp?v=1dc8de1c34",
+        "sha256": "1dc8de1c34740936193220f9a7cacd82067b628ed6c654e1509d7968bfef8556",
+        "anterior": "9c5c8796aaa47b736f03ee35f07ca74f0fbba35935fd94f2d76637904585a0d6"
       },
       "b": {
-        "archivo": "web/revision/lote-01/t6-b.webp",
-        "sha256": "1ef5f057b2b1a7e60d11c7402d782a812719986772e31c033ca3d31baaba11a6"
+        "archivo": "web/revision/lote-01/t6-b.webp?v=957a2e040c",
+        "sha256": "957a2e040cce1b8e8909edd5ce56be95eeb430f2d0f675eca51c429007c10a14",
+        "anterior": "1ef5f057b2b1a7e60d11c7402d782a812719986772e31c033ca3d31baaba11a6"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i07@2x.webp",
+        "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
       }
     },
     {
@@ -91,12 +127,18 @@
       "familia": "Herramientas",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/kit-a.webp",
-        "sha256": "b223aa84ffd2bcacf60c876f7eded789dc44bc97464aee57a5ac358e39342c26"
+        "archivo": "web/revision/lote-01/kit-a.webp?v=0a6ae7aa29",
+        "sha256": "0a6ae7aa298127ff2fd637bbe15df48927c7da1189e0220b24412c40d3819a3c",
+        "anterior": "b223aa84ffd2bcacf60c876f7eded789dc44bc97464aee57a5ac358e39342c26"
       },
       "b": {
-        "archivo": "web/revision/lote-01/kit-b.webp",
-        "sha256": "92f9e342a1073af4059dff921ec29a11c6e1b9d7dcc91703cc1371174125c0f0"
+        "archivo": "web/revision/lote-01/kit-b.webp?v=b0f9149ad1",
+        "sha256": "b0f9149ad19503ec5261c51b219876cb824b07f8d1293a1f37840448fc392597",
+        "anterior": "92f9e342a1073af4059dff921ec29a11c6e1b9d7dcc91703cc1371174125c0f0"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i08@2x.webp",
+        "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
       }
     },
     {
@@ -111,6 +153,10 @@
       "b": {
         "archivo": "web/revision/lote-01/resp-b.webp",
         "sha256": "c43f34e764ed332e82cd15d7e6f5b39809adc7af34e2de2fb45ec636fb44772c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i10@2x.webp",
+        "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
       }
     },
     {
@@ -125,6 +171,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ruda-b.webp",
         "sha256": "91d215a9eb0e519134f063f8086fa82e028b0fca8faf16c9d60f6709950ce365"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i13@2x.webp",
+        "sha256": "a13bfe1ef4497294f6fcff2469e8391234a744e18177da30d1abfbab765260f6"
       }
     },
     {
@@ -133,12 +183,18 @@
       "familia": "Reacciones",
       "reverso": "back01",
       "a": {
-        "archivo": "web/revision/lote-01/esc-a.webp",
-        "sha256": "8dc5a9d4353dd8053b98d7594589fee86e8b2d2e66f665449595a76a89bd8a62"
+        "archivo": "web/revision/lote-01/esc-a.webp?v=b2cd187d64",
+        "sha256": "b2cd187d64b7a508da990dd388b3c31f63a929b21912a16456441ec9754ae249",
+        "anterior": "8dc5a9d4353dd8053b98d7594589fee86e8b2d2e66f665449595a76a89bd8a62"
       },
       "b": {
-        "archivo": "web/revision/lote-01/esc-b.webp",
-        "sha256": "80e7e0571e6882a12c986b9c723022a4d339197eb6750781627381ca90cf748c"
+        "archivo": "web/revision/lote-01/esc-b.webp?v=b2b6a92040",
+        "sha256": "b2b6a92040cbde75074542f7231a41ee362f7685c2d27b5ddbdf896fe501a335",
+        "anterior": "80e7e0571e6882a12c986b9c723022a4d339197eb6750781627381ca90cf748c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/i12@2x.webp",
+        "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
       }
     },
     {
@@ -153,6 +209,10 @@
       "b": {
         "archivo": "web/revision/lote-01/alba-b.webp",
         "sha256": "098b24566016181c59fa693ff5425e6680f58de63ad24b8de326ecabaf66668e"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p02@2x.webp",
+        "sha256": "88238445aec43df1dcad03d9578d692fa150b62498d841dbed08c3e958c4adc9"
       }
     },
     {
@@ -167,6 +227,10 @@
       "b": {
         "archivo": "web/revision/lote-01/radio-b.webp",
         "sha256": "4515342d056b4ad4f4996c32c147edce848f112c877b58c506d0fa5a71e581db"
+      },
+      "original": {
+        "archivo": "web/miniaturas/o01@2x.webp",
+        "sha256": "8a366eec49ab1e55bd0861c55cd061ecffe92a38f9fc25856d4a236b3eb8b004"
       }
     },
     {
@@ -181,6 +245,10 @@
       "b": {
         "archivo": "web/revision/lote-01/tablilla-b.webp",
         "sha256": "c5012c22e07a08c02af4f9f3c4a3d698263a2bce70aa6d641f089d5e8bf52e23"
+      },
+      "original": {
+        "archivo": "web/miniaturas/o02@2x.webp",
+        "sha256": "12fb8434583f55febfd9b24966f5a5c5c1c7ab64584106e5040f83319aec3dd6"
       }
     },
     {
@@ -195,6 +263,10 @@
       "b": {
         "archivo": "web/revision/lote-01/mano-b.webp",
         "sha256": "8b925fe6825365500f98b8c054d20494e82104f1fe9d6b603f802a590d8ef437"
+      },
+      "original": {
+        "archivo": "web/miniaturas/o03@2x.webp",
+        "sha256": "b7a751ada0abad82df1156dab84b614455887c84924c1ec5fea48739aeb7c521"
       }
     },
     {
@@ -209,6 +281,10 @@
       "b": {
         "archivo": "web/revision/lote-01/espejo_plata-b.webp",
         "sha256": "ae99ad00eca43651de49b2c7294315d196a9a2553baf05b593792612c865d763"
+      },
+      "original": {
+        "archivo": "web/miniaturas/o05@2x.webp",
+        "sha256": "bfc9e47d60ce278108097265af9e7098bda28c8cbdaf57429ff3a83cb6baef95"
       }
     },
     {
@@ -223,6 +299,10 @@
       "b": {
         "archivo": "web/revision/lote-01/tarot-b.webp",
         "sha256": "a32c8e818a2a9c42c74a6197b8e4f541ee72dc6778bbd8885f7d8f7345550e12"
+      },
+      "original": {
+        "archivo": "web/miniaturas/o06@2x.webp",
+        "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
       }
     },
     {
@@ -237,6 +317,10 @@
       "b": {
         "archivo": "web/revision/lote-01/pentagrama-b.webp",
         "sha256": "77b32d2541b7dc9b9aa2b27d7c5eb7bd18e6ace143c05fad55fb5bafb6eb4e31"
+      },
+      "original": {
+        "archivo": "archivo/arte/pentagrama.webp",
+        "sha256": "45b3edda7218c9cd76e1b7c1102e2b099e83394f6edcdbce5104b2635a86134f"
       }
     },
     {
@@ -251,6 +335,10 @@
       "b": {
         "archivo": "web/revision/lote-01/escalofrio-b.webp",
         "sha256": "cc8caf9ea1788082e2e7b9eba0ebb0ae40b864aedb868d429b94c163756b59d3"
+      },
+      "original": {
+        "archivo": "web/miniaturas/a01@2x.webp",
+        "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
       }
     },
     {
@@ -265,6 +353,10 @@
       "b": {
         "archivo": "web/revision/lote-01/portazo-b.webp",
         "sha256": "3acf66d462d994741781245eafad1ec3937952c9cde122d240e2c9b33a0bbe4c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/a02@2x.webp",
+        "sha256": "b69de2b73940b490edc48a1728ddb922ca3cbb0f27e905159425258e8436f363"
       }
     },
     {
@@ -279,6 +371,10 @@
       "b": {
         "archivo": "web/revision/lote-01/interferencia-b.webp",
         "sha256": "3e575ac76c9c4254cd73426a6b2205f004710208942a5d97236781dea9ad58dd"
+      },
+      "original": {
+        "archivo": "web/miniaturas/a06@2x.webp",
+        "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
       }
     },
     {
@@ -293,6 +389,10 @@
       "b": {
         "archivo": "web/revision/lote-01/presencia-b.webp",
         "sha256": "04dc320cd257cf5ee7f55b171753a84b870e75a92421c9d611b798c69a3b7da0"
+      },
+      "original": {
+        "archivo": "web/miniaturas/a07@2x.webp",
+        "sha256": "c1a06443f29a6b71160ede6c14b2587556400e55064ac58399036bce6591336d"
       }
     },
     {
@@ -307,6 +407,10 @@
       "b": {
         "archivo": "web/revision/lote-01/h0-b.webp",
         "sha256": "834fed25e6505a946ef1400a37e93e07a435c432eb8f090faeaa4092fe04c494"
+      },
+      "original": {
+        "archivo": "web/miniaturas/h01@2x.webp",
+        "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b"
       }
     },
     {
@@ -321,6 +425,10 @@
       "b": {
         "archivo": "web/revision/lote-01/h1-b.webp",
         "sha256": "117cdd25a8595c76ec1df9d93832c1f3e9ad55383d9ea86aa20ca3f44b2042c3"
+      },
+      "original": {
+        "archivo": "web/miniaturas/h02@2x.webp",
+        "sha256": "9b49f828424f311da28aa06a5018ed707e0f5f093287b93e4fd56ccd2aec32e3"
       }
     },
     {
@@ -335,6 +443,10 @@
       "b": {
         "archivo": "web/revision/lote-01/h2-b.webp",
         "sha256": "50438e243a7c84dcd6ff6fabc89a262d12e607c66db0e10adf3c4ac19a6be544"
+      },
+      "original": {
+        "archivo": "web/miniaturas/h03@2x.webp",
+        "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b"
       }
     },
     {
@@ -349,6 +461,10 @@
       "b": {
         "archivo": "web/revision/lote-01/h4-b.webp",
         "sha256": "4221bab5458a08930acc4c6c5006dc0af76aaa177e00b2e5a7c6f7970efcf4e9"
+      },
+      "original": {
+        "archivo": "web/miniaturas/h05@2x.webp",
+        "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
       }
     },
     {
@@ -363,6 +479,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_nahual-b.webp",
         "sha256": "6197d30f824c6be79f24e83ddfd7089444a84c11cd024e3fca05acc6f99fc256"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id02@2x.webp",
+        "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0"
       }
     },
     {
@@ -377,6 +497,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_bruja-b.webp",
         "sha256": "74e083f18cf29eb9e0916db32ecfe3dd8fef392380cc6cb1fdcd84e19dccd2ab"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id06@2x.webp",
+        "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
       }
     },
     {
@@ -391,6 +515,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_chaneque-b.webp",
         "sha256": "d81928426289a654311b0b5f777aaf7b18bdcde6a8c5e7ab1690fa2de7fdc1d3"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id07@2x.webp",
+        "sha256": "cef79f1805b7fd2315f5a20a8d16b21cb1b46a4b8cf3c17a018f830d42a95275"
       }
     },
     {
@@ -405,6 +533,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_yohualtepuztli-b.webp",
         "sha256": "1c8afaed55930fd314c34aa7a369207f80e49e74707bc6bf118a8ef17d0dafbb"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id08@2x.webp",
+        "sha256": "ea4ec79a54b91d72de0d14587c236d2fdce19ded6010483be168e8a12ae17ffd"
       }
     },
     {
@@ -419,6 +551,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_cihuateteo-b.webp",
         "sha256": "cb72631208e0eae0c70a590a5b8561667dc8a358fa39543fbbb09535efcef72e"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id09@2x.webp",
+        "sha256": "1c7dba4c53272924949a9454bfba1c441d9d3a47255917ddff11d77dc6dad7d9"
       }
     },
     {
@@ -433,6 +569,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_tlahuelpuchi-b.webp",
         "sha256": "1220854478c42e6c72b83174807120f6827fdfa30e6ee74cc81ab71e30a5008e"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id10@2x.webp",
+        "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d"
       }
     },
     {
@@ -447,6 +587,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_matlacihuatl-b.webp",
         "sha256": "6bcb0b4c17d2d0dfcaf5522b21eba6ce62bb6cc63a07927d1316ed1adca1c7f1"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id11@2x.webp",
+        "sha256": "d50987b715675878ae43fc32f63ebbcacc90274ffa6192892f87d04a6a35b369"
       }
     },
     {
@@ -461,6 +605,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_planchada-b.webp",
         "sha256": "a10357e2268f98d1385c0fd7a2654dad769536ea02d841e912ca691f46dbb3cd"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id13@2x.webp",
+        "sha256": "c32b9a257333cdf907f804448298cb031b34c018d6b0e0e95602f70cf38212bb"
       }
     },
     {
@@ -475,6 +623,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_xtabay-b.webp",
         "sha256": "e1ac6476f04492291208c53cbcb8851a5f140835c1341b0c3faf3b9d8f240e35"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id14@2x.webp",
+        "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f"
       }
     },
     {
@@ -489,6 +641,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_malaire-b.webp",
         "sha256": "43ed5604c823cedb00a8f1d2fcd04786fb38b67213aeaab742af0dd999fcb0ff"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id15@2x.webp",
+        "sha256": "4bc10eba6937585e069393eb4077ce2863da6b43292c85d3dc199fbe8af0b900"
       }
     },
     {
@@ -503,6 +659,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_guardian-b.webp",
         "sha256": "d632aa87abb9d765249198bbbcd630bdd9cfb93805d879238c2bc975542d4770"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id16@2x.webp",
+        "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
       }
     },
     {
@@ -517,6 +677,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_cadejo-b.webp",
         "sha256": "1a042fb44a5fe1075131bee2a89c5c15dfd15cd5908b316e0c4c5ff3e9dcf7e5"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id18@2x.webp",
+        "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84"
       }
     },
     {
@@ -531,6 +695,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_mulata-b.webp",
         "sha256": "4a214a73c2330d854ce3e91de3b645743a836ff3120a57d0f4044149386483e9"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id20@2x.webp",
+        "sha256": "f0ffd04700008e2b0725ca2b212f8bbd1588d289bd576aaeb2214fd4d3199947"
       }
     },
     {
@@ -545,6 +713,10 @@
       "b": {
         "archivo": "web/revision/lote-01/id_uaychivo-b.webp",
         "sha256": "46e5b418c8fb48fbc51ffd94d938772a1d96aeba4a52911405bc689f4f84cea1"
+      },
+      "original": {
+        "archivo": "web/miniaturas/id21@2x.webp",
+        "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a"
       }
     },
     {
@@ -559,6 +731,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_anima-b.webp",
         "sha256": "391f4a14391aed6a5275c99df2b589074b5e9e7a7c50158f4b8924499856430e"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s03@2x.webp",
+        "sha256": "31392a88d2923b1f8d67ee5bc7c64c4f5e43285be0a20adfc715a1cd9fff1bff"
       }
     },
     {
@@ -573,6 +749,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_demonio-b.webp",
         "sha256": "fb2af3a44da12281b20ab65d4a226ba185d354b436516091c3f3e7b88269e00a"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s04@2x.webp",
+        "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5"
       }
     },
     {
@@ -587,6 +767,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_aparecido-b.webp",
         "sha256": "7575ff0c55dcffe6a282f2b2ad8ec3a5b78dcd63bcd8c0a456db6a0ff1e35782"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s05@2x.webp",
+        "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152"
       }
     },
     {
@@ -601,6 +785,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_chaneque-b.webp",
         "sha256": "dffe6cca957be0a53c025dbf36e646303ca5bb4ae66cda35597c836a419bcf7c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s07@2x.webp",
+        "sha256": "315f00551d164f4c3c24d35f8003a686de024edce5d181cc369857a10c20ca1a"
       }
     },
     {
@@ -615,6 +803,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_yohualtepuztli-b.webp",
         "sha256": "ff5572dec9174489e32170e81787b574805ca80e600907992a7534343fa7e7bf"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s08@2x.webp",
+        "sha256": "017bfebde501fa721e741906c0fd125e7cc0847e35feca4baf5b594f7dd23b9f"
       }
     },
     {
@@ -629,6 +821,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_cihuateteo-b.webp",
         "sha256": "2505dfec376f8981d79d459f41bed708463ac69dc7f7c57898df6e4d4b100245"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s09@2x.webp",
+        "sha256": "c94d369dd2799002b0d0abd3b135fbe8c2accd7c540c0b7b05f683ee62ea03a6"
       }
     },
     {
@@ -643,6 +839,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_tlahuelpuchi-b.webp",
         "sha256": "b79528f4963b3f46e01cd38e10f6038c9af9dd8c4049222e143770cb6dd62f6f"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s10@2x.webp",
+        "sha256": "bb99e7c0b6f1ccffb7565dfc86f20676eacddaa33d7afde43f9b378ba00a2399"
       }
     },
     {
@@ -657,6 +857,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_matlacihuatl-b.webp",
         "sha256": "31f56c1bdc95529bec0aca9fdbd073e19ab7536d442797c36e0f185e86eb1035"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s11@2x.webp",
+        "sha256": "e669c08fb9f6b32d75ea083e717aec348cb7d580dfec514c15fcf196b30bcb18"
       }
     },
     {
@@ -671,6 +875,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_guardian-b.webp",
         "sha256": "1d26a6e15e35b86822786508534fefc71d7a59485def0680be823fbcdb58be0c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s16@2x.webp",
+        "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
       }
     },
     {
@@ -685,6 +893,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_cucuy-b.webp",
         "sha256": "2ffe9a2852f3a0523f23d0b18664dc847221d980d8b19c591ace3537acd63c67"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s17@2x.webp",
+        "sha256": "a269994c7100ce85f6f847d10c433c917780bd98a590de6fd0761d94c82df810"
       }
     },
     {
@@ -699,6 +911,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_cadejo-b.webp",
         "sha256": "e9887d2ae1648424a3766085705843789a3d8f99f0f1fea8fd539a075b536f3c"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s18@2x.webp",
+        "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
       }
     },
     {
@@ -713,6 +929,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_chocarrero-b.webp",
         "sha256": "5dbf77a21f61d2d528ca6c5e971c4e7816fe1a05ea53465c8e84d760517ddfe0"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s19@2x.webp",
+        "sha256": "6d62fcda248157bc1fa1327c6b2d9ffdeb6e78085927e8e9bdd54b22b2301fd9"
       }
     },
     {
@@ -727,6 +947,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_mulata-b.webp",
         "sha256": "42545f9e7811e022442b52537448cc8247632571612db9d685dc7bb3a185b128"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s20@2x.webp",
+        "sha256": "3b32a415c8f03881c3eb69c6468c2e237a5d7f12241ff2ff9d3bbcfc06422354"
       }
     },
     {
@@ -741,6 +965,10 @@
       "b": {
         "archivo": "web/revision/lote-01/es_uaychivo-b.webp",
         "sha256": "9fb6abafcf58cfc1b1aeb05722f9ac5a209ae96af5655690fba494961ee1f394"
+      },
+      "original": {
+        "archivo": "web/miniaturas/s21@2x.webp",
+        "sha256": "b80dd76872140eed6f2b0bc73e8a1c205de3c949be15c944d7f8a6067eeea4b1"
       }
     },
     {
@@ -755,6 +983,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev1-b.webp",
         "sha256": "07808d1903cf61449d2e73d7fb929b3fde84fd3d67c71fb7343a16fc3c654080"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e02@2x.webp",
+        "sha256": "789045ec5c51247ef427133f6ae91400e0bf116aa9e650df9723582b51ffdf99"
       }
     },
     {
@@ -769,6 +1001,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev2-b.webp",
         "sha256": "2e7d39cc161d0a49f594a12ec55ebaa9a53d50675a033663eeec86cf02f99611"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e03@2x.webp",
+        "sha256": "e5985325a01375c169fb95e5ce230795041715515280178109d0373d2eb8d9b0"
       }
     },
     {
@@ -783,6 +1019,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev3-b.webp",
         "sha256": "d7daeb651c67806dcbab2c80fffaf4290670156c9fe1876159db2d129e64f21d"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e04@2x.webp",
+        "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
       }
     },
     {
@@ -797,6 +1037,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev4-b.webp",
         "sha256": "38b39f3b2e733cf4915fea417584d1fbb7ff83bed7b18b29ac83b82e25cf5851"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e05@2x.webp",
+        "sha256": "3d2e3dd772affd0257e86ee3eddd2167f8498fca859426c4a6e99b26bd862dd1"
       }
     },
     {
@@ -811,6 +1055,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev5-b.webp",
         "sha256": "c630918cf01b614deedab9ece7d80674129bdc179e460e04162626b453d4df82"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e06@2x.webp",
+        "sha256": "3d8543af990156fa841dd8aae6922ace2a4aa7de8a71c0730173648e11f64c16"
       }
     },
     {
@@ -825,6 +1073,10 @@
       "b": {
         "archivo": "web/revision/lote-01/ev6-b.webp",
         "sha256": "46b8d0b01d1ece5af2bfaf88e9e4c3baff5c8538df446757242a5bf895e2e44f"
+      },
+      "original": {
+        "archivo": "web/miniaturas/e07@2x.webp",
+        "sha256": "7175455bdccfd548857f4e70279ea4394552bdbf9f1c1a0498736669d878610c"
       }
     },
     {
@@ -839,6 +1091,10 @@
       "b": {
         "archivo": "web/revision/lote-01/rol_velar-b.webp",
         "sha256": "3c949a5a25d231d5e60e5954211c9d1af305e6f8130389f178ab3f6ff2832ac0"
+      },
+      "original": {
+        "archivo": "web/revision/lote-01/velar-original.webp",
+        "sha256": "6a187f6d381d9386a3cb0d39bbb05ee3ceec3be879a8e316a2d5f858f8eb09a7"
       }
     },
     {
@@ -853,6 +1109,10 @@
       "b": {
         "archivo": "web/revision/lote-01/rol_manifestar-b.webp",
         "sha256": "9364335ef50d989faccb56538147d43429cff3f96de9e8df57b3a5509beef9c3"
+      },
+      "original": {
+        "archivo": "web/miniaturas/personajes/manifestar_original.webp",
+        "sha256": "d6148de027ff45b826c33ade304be5d3fa74e20055b44ff76283cf063b52f85e"
       }
     },
     {
@@ -867,6 +1127,10 @@
       "b": {
         "archivo": "web/revision/lote-01/R01-b.webp",
         "sha256": "700f26f86f3c22438b4a19c96336efc182b92268ca47eaf659c16dd102c2a2c8"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p03@2x.webp",
+        "sha256": "e8ae43b94b50497f1b02a4305e20822138c850f7dd2e15e09616684e6d72d13a"
       }
     },
     {
@@ -881,6 +1145,10 @@
       "b": {
         "archivo": "web/revision/lote-01/R02-b.webp",
         "sha256": "6248b884ce7afc4a297dfd0789fd1758e4f0fe702c3da26e880d6b5b93893227"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p04@2x.webp",
+        "sha256": "01db09b25bafa08a5864ddf4470f223bba07c41e4adf8a7ee4f1672d74f12fd2"
       }
     },
     {
@@ -895,6 +1163,10 @@
       "b": {
         "archivo": "web/revision/lote-01/R03-b.webp",
         "sha256": "fe68cad473e3b58a659b8104b9b3eca0407b764fb4a9f3ce41a296503d1603a3"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p05@2x.webp",
+        "sha256": "23da1725dc91af19769df6af3c6fded92747900f4efca5ce52596c751bd4453d"
       }
     },
     {
@@ -909,6 +1181,10 @@
       "b": {
         "archivo": "web/revision/lote-01/R04-b.webp",
         "sha256": "70c47230a047f767de812694b54e3ff3d690754bff1915eaf6f01ac8adcea1a6"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p06@2x.webp",
+        "sha256": "b1df6674eaeeb358333de0e6c33b9747931c3112aa8c83cd6753589f79c7e490"
       }
     },
     {
@@ -923,6 +1199,10 @@
       "b": {
         "archivo": "web/revision/lote-01/R05-b.webp",
         "sha256": "5dbc5089139bc3e4207c318de59d77fe7ece917485714b8d6427c84279d30c0a"
+      },
+      "original": {
+        "archivo": "web/miniaturas/p07@2x.webp",
+        "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
       }
     }
   ]
