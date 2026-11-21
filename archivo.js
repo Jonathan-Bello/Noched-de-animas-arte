@@ -91,8 +91,8 @@ async function loadCatalog() {
     const back=backs.get(backMap.get(c.reverso)||c.reverso);
     const extraBack=["rol_reverso","espiritu_reverso"].includes(c.reverso) ? "./web/miniaturas/personajes/"+c.reverso+".webp" : null;
     return {name:c.nombre,category:types[c.tipo]||c.tipo,gameId:c.id,artId:c.id_arte||"Sin asignar",use:c.uso||pending,count:c.cantidad,backId:c.reverso||"No aplica",
-      status:source?"approved":"review",statusText:statusNames[c.estado_arte],date:source?dates.get(source.aprobacion):"Sin aprobación de carta terminada",
-      original:source?.formatos.png?.objeto,thumb:source?preview(source.id):portraitImage,image:source?preview(source.id,true):portraitImage,imageLabel:portrait?(c.id==="rol_manifestar"?"Ilustración aprobada sin marco":"Referencia de identidad ilustrada"):"Cara principal",backImage:back?preview(back.id,true):extraBack};
+      status:(source||c.ilustracion_aprobada)?"approved":"review",statusText:statusNames[c.estado_arte],date:source?dates.get(source.aprobacion):"Sin aprobación de carta terminada",
+      original:source?.formatos.png?.objeto,thumb:c.vista||(source?preview(source.id):portraitImage),image:c.ilustracion_aprobada||(source?preview(source.id,true):portraitImage),imageLabel:c.ilustracion_aprobada?"Ilustración aprobada sin marco":portrait?(c.id==="rol_manifestar"?"Ilustración aprobada sin marco":"Referencia de identidad ilustrada"):"Cara principal",backImage:back?preview(back.id,true):extraBack};
   });
   const reverses=game.reversos.filter(c=>backs.has(c.id_arte)).map(c=>{
     const source=backs.get(c.id_arte);

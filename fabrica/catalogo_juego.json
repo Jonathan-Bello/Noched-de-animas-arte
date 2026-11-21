@@ -5,7 +5,7 @@
     "repositorio": "Jonathan-Bello/NOCHE-DE-ANIMAS",
     "commit": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c"
   },
-  "nota": "Catálogo de lo que existe en el juego. El arte aprobado se decide en catalogo/canon.cartas.json; este archivo solo lo relaciona con el juego.",
+  "nota": "Catálogo de lo que existe en el juego. El arte aprobado se registra en el canon y en el registro de ilustraciones de roles; este archivo solo lo relaciona con el juego.",
   "totales": {
     "caras_distintas": 111,
     "cartas_fisicas": 169
@@ -1393,10 +1393,9 @@
       "reverso": "rol_reverso",
       "uso": "Cuando una carta o habilidad del ánima te haga descartar al azar, eliges tú qué cartas descartas; si te hace cambiar toda la mano, conservas 1.",
       "id_arte": null,
-      "candidato": "objetos/af/af17b8859ce9de8fa14c663e883b7ec00ddd5ddae53c4dfbb08d027d38eba544.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/vigia.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/vigia-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1409,10 +1408,9 @@
       "reverso": "rol_reverso",
       "uso": "Al improvisar con 2 cartas detectas con 4 o más, como una herramienta. También puedes improvisar con 1 sola carta: detectas con 5 o 6.",
       "id_arte": null,
-      "candidato": "objetos/a0/a0c024a84dd6d1361d9d9f9f88ef6334eeaf581eb4fba6964b45423b44820d5d.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/improvisador.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/improvisador-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1425,10 +1423,9 @@
       "reverso": "rol_reverso",
       "uso": "Cuando una herramienta tuya da «Nada», puedes repetir el dado pagando 1 de cordura. Una repetición por herramienta, en cada herramienta que uses. También bajo el vaso.",
       "id_arte": null,
-      "candidato": "objetos/25/2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/tecnico.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/tecnico-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1441,10 +1438,9 @@
       "reverso": "rol_reverso",
       "uso": "Una vez por partida, cuando confirmes una evidencia, pregunta en voz alta por otra y el ánima responde si la tiene. En Sálvese quien pueda, solo responde si sacas 4 o más. Es una pista: no cuenta para acusar.",
       "id_arte": null,
-      "candidato": "objetos/9a/9a18a331f45dcf6f7140ca8a1f6e00c0036fce7a430c65bbe7fc54d56de4e4f7.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/detective.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/detective-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1457,10 +1453,9 @@
       "reverso": "rol_reverso",
       "uso": "Tu Té de tila cura 3 y puedes dárselo a otro investigador.",
       "id_arte": null,
-      "candidato": "objetos/41/41987da9e4bb89fc5ef0daf09d527cb43f9df8e20cf8327d8318abdc8dd2c5f3.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/curandero.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/curandero-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1473,10 +1468,9 @@
       "reverso": "rol_reverso",
       "uso": "Tu Rosario puede salvar a otro investigador cazado, o cancelar como Copal una carta del ánima que no sea un Espanto.",
       "id_arte": null,
-      "candidato": "objetos/e5/e5cb579d0e1cc159e1371ca93160c0c4142f87ecdc74ae249eba11e4be744908.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/devota.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/devota-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1489,10 +1483,9 @@
       "reverso": "rol_reverso",
       "uso": "La primera vez que el ánima revele una habilidad, sabes si es la verdadera o la falsa. Es una pista: no cuenta para acusar.",
       "id_arte": null,
-      "candidato": "objetos/d5/d525c208c0e98280861c6a0353524de5539922f6cabe5aa3e6db2ebab3695548.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/sensitivo.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/sensitivo-vista.webp"
     },
     {
       "expansion": "testigos",
@@ -1505,10 +1498,9 @@
       "reverso": "rol_reverso",
       "uso": "Una vez por partida, cuando cazan a alguien sin defensa, eliges: te pones frente a otro (pierdes 2 de cordura y la cacería se detiene) o, si te cazan a ti, aguantas el golpe y te quedas sin cordura. Necesitas 2 o más.",
       "id_arte": null,
-      "candidato": "objetos/f2/f2bde6e011b380bd01aa0fcf26ffb49fcb12bf6cc3c05c0a944e81bf789c92c0.png",
       "estado_arte": "aprobado_sin_marco",
       "ilustracion_aprobada": "web/miniaturas/roles-aprobados/guardaespaldas.webp",
-      "nota": "Ilustración aprobada; falta componer la carta con marco."
+      "vista": "web/miniaturas/roles-aprobados/guardaespaldas-vista.webp"
     },
     {
       "expansion": "testigos",

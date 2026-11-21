@@ -1,0 +1,8 @@
+<h1>Comparar ilustraciones</h1><p>Revisa las dos propuestas de cada frente. Toca una ilustración para ampliarla y elige A o B para pasar a la siguiente carta. Puedes volver y cambiar tu voto.</p>
+<p>El avance se guarda en este navegador. Al terminar, descarga el JSON y compártelo con el equipo para aplicar la selección a la galería y a las cartas.</p>
+<p id="aviso" role="status">Cargando el lote…</p>
+<section id="visor" hidden><div class="controles"><label>Carta <select id="indice"></select></label><button id="anterior">Anterior</button><button id="siguiente">Siguiente</button><button id="pendiente">Ir a una pendiente</button></div>
+<p id="progreso"></p><progress id="barra" aria-label="Avance de la selección"></progress><p id="familia"></p><h2 id="nombre"></h2><div class="par">
+<article><a id="zoom-a" target="_blank" rel="noopener"><img id="img-a" alt=""></a><button id="elegir-a" aria-pressed="false">Elegir A</button></article>
+<article><a id="zoom-b" target="_blank" rel="noopener"><img id="img-b" alt=""></a><button id="elegir-b" aria-pressed="false">Elegir B</button></article></div>
+<div class="controles"><button id="descargar">Descargar selección JSON</button><label>Recuperar selección JSON <input type="file" id="importar" accept=".json,application/json"></label></div></section>

@@ -16,7 +16,7 @@ Usar sombras amplias, superficies mate y profundidad por superposición, escala 
 - **Acciones y evidencias** — Manifestación, Posesión demoníaca, Cacería, Cacería total, Travesura, Bajo cero, Lluvia de objetos, Furia, Arrastrar.
 - **Identidades** — La Llorona, Charro Negro, El Cucuy, Espíritu Chocarrero, Demonio, Aparecido.
 - **Espantos** — La bestia, Llanto eterno, Aquelarre, Trato con el diablo, Ronda nocturna, Canto de la ceiba, Soplo del mal viento.
-- **Roles señalados · versión de muestra en revisión** — El Curandero, La Devota, El Sensitivo, El Guardaespaldas.
+- **Roles señalados como referencia histórica** — El Curandero, La Devota, El Sensitivo, El Guardaespaldas.
 - **Reversos** — Solo los ilustrados. R01–R05 y las hojas Q de instrucciones se conservan como documentación. Conservar su asignación por tipo.
 - **Ánima sola** — Elegida por nombre. Confirmar su ficha antes de asociar una imagen.
 
@@ -47,7 +47,7 @@ El [sistema de iconos del juego](https://github.com/Jonathan-Bello/NOCHE-DE-ANIM
 
 ## Próximas piezas
 
-**El Vigía.** Recuperar la identidad ilustrada v03 de Jonathan: rostro ovalado algo alargado, mentón suave, pelo oscuro con raya central y mechones hasta la nuca, cejas anchas, camisa azul. Comparar con las fotos privadas para el parecido y con la ilustración v03 para el acabado. Colocar el emblema original [familia_mano.webp](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/iconos/familia_mano.webp). Revisar el encuadre con encabezado y leyenda colocados.
+**El Vigía · encargo histórico completado.** La ilustración aprobada se consulta en [Personajes](../personajes.html#roles). El encargo original pedía recuperar la identidad ilustrada v03 de Jonathan: rostro ovalado algo alargado, mentón suave, pelo oscuro con raya central y mechones hasta la nuca, cejas anchas, camisa azul. Comparar con las fotos privadas para el parecido y con la ilustración v03 para el acabado. Colocar el emblema original [familia_mano.webp](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/iconos/familia_mano.webp). Revisar el encuadre con encabezado y leyenda colocados.
 
 **Pentagrama.** El [juego web](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/main.js) lo clasifica como objeto maldito del ánima. Usar Copal y Espejo de obsidiana para comparar escala, materiales y tratamiento ritual. El efecto sobre el Copal informa el concepto; su pictograma de efecto no determina el emblema del encabezado. Verificar este último contra el frente de objetos malditos aprobado antes de componer. La escena final queda por definir.
 

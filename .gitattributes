@@ -9,3 +9,4 @@ objetos/** -text
 iconos/cartas/sistema-original.html -text
 iconos/cartas/svg/*.svg -text
 iconos/cartas/recursos-juego/*.svg -text
+web/revision/** -filter -diff -merge -text

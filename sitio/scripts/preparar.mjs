@@ -14,6 +14,7 @@ export const HEREDADAS = [
   "iconos/galeria.html", "iconos/cartas/sistema-vigente.html", "iconos/cartas/sistema-original.html",
 ];
 const COPIAR = [
+  "revision.js", "revision.css", "catalogo/revision-lote-01.json",
   "web", "iconos", "archivo.css", "archivo.js", "archivo-publico.json",
   "catalogo/canon.cartas.json", "catalogo/aprobaciones.json", "catalogo/ilustraciones_roles_aprobadas.json",
   "fabrica/catalogo_juego.json", "archivo/arte", ...HEREDADAS,

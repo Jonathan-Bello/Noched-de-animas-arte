@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es-MX"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Consulta las cartas, sus funciones, cantidades, reversos y estados de ilustración.">
+<title>Comparar ilustraciones · Noche de Ánimas</title><link rel="stylesheet" href="./archivo.css"><link rel="stylesheet" href="revision.css"><script type="module" src="revision.js"></script>
+</head><body><a class="salto" href="#contenido">Saltar al contenido</a><header class="mast portal-nav"><a href="index.html">Noche de Ánimas</a><details open><summary>Secciones</summary><nav aria-label="Secciones del archivo"><a href="index.html">Empieza aquí</a><a href="juego.html">El juego</a><a href="personajes.html">Personajes</a><a href="cartas.html">Cartas</a><a href="sistema-de-diseno.html">Sistema de diseño</a><a href="iconos/cartas/sistema-vigente.html">Íconos</a><a href="produccion.html">Producción</a><a href="colaborar.html">Cómo colaborar</a><a href="descargas.html">Descargas</a><a href="galeria.html">Historial</a></nav></details></header><script>const menuArchivo=document.querySelector('.portal-nav details');const anchoArchivo=matchMedia('(min-width:651px)');function ajustarMenu(){menuArchivo.open=anchoArchivo.matches}ajustarMenu();anchoArchivo.addEventListener('change',ajustarMenu);</script><span id="contenido" tabindex="-1"></span>
+
+<main id="contenido" class="revision"><h1>Comparar ilustraciones</h1><p>Revisa las dos propuestas de cada frente. Toca una ilustración para ampliarla y elige A o B para pasar a la siguiente carta. Puedes volver y cambiar tu voto.</p>
+<p>El avance se guarda en este navegador. Al terminar, descarga el JSON y compártelo con el equipo para aplicar la selección a la galería y a las cartas.</p>
+<p id="aviso" role="status">Cargando el lote…</p>
+<section id="visor" hidden><div class="controles"><label>Carta <select id="indice"></select></label><button id="anterior">Anterior</button><button id="siguiente">Siguiente</button><button id="pendiente">Ir a una pendiente</button></div>
+<p id="progreso"></p><progress id="barra" aria-label="Avance de la selección"></progress><p id="familia"></p><h2 id="nombre"></h2><div class="par">
+<article><a id="zoom-a" target="_blank" rel="noopener"><img id="img-a" alt=""></a><button id="elegir-a" aria-pressed="false">Elegir A</button></article>
+<article><a id="zoom-b" target="_blank" rel="noopener"><img id="img-b" alt=""></a><button id="elegir-b" aria-pressed="false">Elegir B</button></article></div>
+<div class="controles"><button id="descargar">Descargar selección JSON</button><label>Recuperar selección JSON <input type="file" id="importar" accept=".json,application/json"></label></div></section></main></body></html>

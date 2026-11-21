@@ -29,18 +29,16 @@ export interface CartaJuego {
   bloqueos?: string[];
   nota?: string;
   ilustracion_aprobada?: string;
+  vista?: string;
 }
 export interface Reverso { id: string; nombre: string; id_arte: string | null; estado_arte: EstadoArte }
 interface Catalogo { generado: string; juego: { commit: string }; totales: { caras_distintas: number; cartas_fisicas: number }; cartas: CartaJuego[]; reversos: Reverso[] }
 
 const catalogo = leer<Catalogo>("fabrica/catalogo_juego.json");
-const rolesAprobados = leer<Record<string, { nombre: string; estado_arte: EstadoArte; ilustracion: string; vista: string }>>("catalogo/ilustraciones_roles_aprobadas.json");
 const leyendas = leyendasJson.por_id_arte as Record<string, string>;
 
 /** Cartas del juego, con el estado de los roles según sus ilustraciones aprobadas. */
-export const cartas: CartaJuego[] = catalogo.cartas.map((c) =>
-  rolesAprobados[c.id] ? { ...c, estado_arte: rolesAprobados[c.id].estado_arte, ilustracion_aprobada: rolesAprobados[c.id].ilustracion } : c,
-);
+export const cartas: CartaJuego[] = catalogo.cartas;
 export const reversos = catalogo.reversos;
 export const totales = {
   ...catalogo.totales,
@@ -60,8 +58,7 @@ export const miniatura = (idArte: string | null | undefined, grande = false) =>
 /** Imagen para mostrar: carta terminada del canon o, si no existe, la ilustración aprobada. */
 export const imagenDe = (c: CartaJuego, grande = false): string | null => {
   if (c.id_arte) return miniatura(c.id_arte, grande);
-  const rol = rolesAprobados[c.id];
-  if (rol) return grande ? rol.ilustracion : rol.vista;
+  if (c.ilustracion_aprobada) return grande ? c.ilustracion_aprobada : (c.vista ?? c.ilustracion_aprobada);
   if (c.id === "rol_manifestar") return "web/miniaturas/personajes/manifestar_original.webp";
   return null;
 };

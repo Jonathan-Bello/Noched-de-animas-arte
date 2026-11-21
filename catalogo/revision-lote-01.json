@@ -1,0 +1,929 @@
+{
+  "lote": "frentes-01",
+  "cartas": [
+    {
+      "id": "t0",
+      "nombre": "Termómetro",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t0-a.webp",
+        "sha256": "c92cababdf45ee0b4e3140fd9eef644ee3764c1eca70eef0735b63c83adc9eb9"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t0-b.webp",
+        "sha256": "27a42d2826ea178ef72fd942bdd176f092fc0296522dac23b04b2d721d438c00"
+      }
+    },
+    {
+      "id": "t1",
+      "nombre": "Lámpara UV",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t1-a.webp",
+        "sha256": "80d8cd234454d0eb8ab45ae91c2318bc73652cd1d930fde4421863f00e0f011a"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t1-b.webp",
+        "sha256": "33374eb87176b3270b46ed0c7d0f99fe3f037946708abc0f23b48951902c124b"
+      }
+    },
+    {
+      "id": "t2",
+      "nombre": "Grabadora",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t2-a.webp",
+        "sha256": "0ebaba535972d1a366deabd2ede2ef731a292e56a10224f32cfab457bb76a675"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t2-b.webp",
+        "sha256": "6da44769fef8cf7edf423124b8d7646421978fa26e5939fc62d58abb436b238b"
+      }
+    },
+    {
+      "id": "t3",
+      "nombre": "Cámara de movimiento",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t3-a.webp",
+        "sha256": "e82d278023181b355a37227a9c5fd2ae19ea2a627af731c424c8e0d04f8f2a66"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t3-b.webp",
+        "sha256": "7342e489ce796369e9bcc82405933115c136d8620fb73bb58be544d6a0dd2e2d"
+      }
+    },
+    {
+      "id": "t4",
+      "nombre": "Detector EMF",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t4-a.webp",
+        "sha256": "272a0b5f0a0cd9843bfd9419296ce3e78029ce3ee2977f86b9709c71c565decf"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t4-b.webp",
+        "sha256": "bf28b873187f7abbefa79774800e711b80e9bfa416a0015034f9503758c89dcb"
+      }
+    },
+    {
+      "id": "t6",
+      "nombre": "Sensor de gases",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/t6-a.webp",
+        "sha256": "9c5c8796aaa47b736f03ee35f07ca74f0fbba35935fd94f2d76637904585a0d6"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/t6-b.webp",
+        "sha256": "1ef5f057b2b1a7e60d11c7402d782a812719986772e31c033ca3d31baaba11a6"
+      }
+    },
+    {
+      "id": "kit",
+      "nombre": "Kit de campo",
+      "familia": "Herramientas",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/kit-a.webp",
+        "sha256": "b223aa84ffd2bcacf60c876f7eded789dc44bc97464aee57a5ac358e39342c26"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/kit-b.webp",
+        "sha256": "92f9e342a1073af4059dff921ec29a11c6e1b9d7dcc91703cc1371174125c0f0"
+      }
+    },
+    {
+      "id": "resp",
+      "nombre": "Respirar hondo",
+      "familia": "Apoyos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/resp-a.webp",
+        "sha256": "ecc9d04332710d03c7844cdfb12b3e0d0da8d06daf9002ba8206fbe2e1bdc039"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/resp-b.webp",
+        "sha256": "c43f34e764ed332e82cd15d7e6f5b39809adc7af34e2de2fb45ec636fb44772c"
+      }
+    },
+    {
+      "id": "ruda",
+      "nombre": "Ruda",
+      "familia": "Apoyos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/ruda-a.webp",
+        "sha256": "770a1aa06b8fa21f45d91c2a16df7e8d8076178e114c4927ecef2af44d8fca21"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ruda-b.webp",
+        "sha256": "91d215a9eb0e519134f063f8086fa82e028b0fca8faf16c9d60f6709950ce365"
+      }
+    },
+    {
+      "id": "esc",
+      "nombre": "Esconderse",
+      "familia": "Reacciones",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/esc-a.webp",
+        "sha256": "8dc5a9d4353dd8053b98d7594589fee86e8b2d2e66f665449595a76a89bd8a62"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/esc-b.webp",
+        "sha256": "80e7e0571e6882a12c986b9c723022a4d339197eb6750781627381ca90cf748c"
+      }
+    },
+    {
+      "id": "alba",
+      "nombre": "Alba",
+      "familia": "Marcadores",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/alba-a.webp",
+        "sha256": "6af873c690f3ece900594760aeac8c3ab204297c88f1ea8639a902b25dde476d"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/alba-b.webp",
+        "sha256": "098b24566016181c59fa693ff5425e6680f58de63ad24b8de326ecabaf66668e"
+      }
+    },
+    {
+      "id": "radio",
+      "nombre": "Radio",
+      "familia": "Objetos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/radio-a.webp",
+        "sha256": "c5c16539cababc420c686bf367c1556c8d64abaa1af5b477e53690fd3877d514"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/radio-b.webp",
+        "sha256": "4515342d056b4ad4f4996c32c147edce848f112c877b58c506d0fa5a71e581db"
+      }
+    },
+    {
+      "id": "tablilla",
+      "nombre": "Tablilla espiritista",
+      "familia": "Objetos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/tablilla-a.webp",
+        "sha256": "ecefb3577c1f37e456ab970ce0efdbe3aeefc2618a6b1789c94b2ee503217c6e"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/tablilla-b.webp",
+        "sha256": "c5012c22e07a08c02af4f9f3c4a3d698263a2bce70aa6d641f089d5e8bf52e23"
+      }
+    },
+    {
+      "id": "mano",
+      "nombre": "Mano del mono",
+      "familia": "Objetos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/mano-a.webp",
+        "sha256": "37245282b8725b493cb3e27f512ce1f9fa0b0c81e809b69b787f727424b72bf7"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/mano-b.webp",
+        "sha256": "8b925fe6825365500f98b8c054d20494e82104f1fe9d6b603f802a590d8ef437"
+      }
+    },
+    {
+      "id": "espejo_plata",
+      "nombre": "Espejo de plata",
+      "familia": "Objetos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/espejo_plata-a.webp",
+        "sha256": "d680140dc86457e8bdad82ce102f2ad0a0d72dfcc7a8f160148e6561851d971c"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/espejo_plata-b.webp",
+        "sha256": "ae99ad00eca43651de49b2c7294315d196a9a2553baf05b593792612c865d763"
+      }
+    },
+    {
+      "id": "tarot",
+      "nombre": "Tarot",
+      "familia": "Objetos",
+      "reverso": "back01",
+      "a": {
+        "archivo": "web/revision/lote-01/tarot-a.webp",
+        "sha256": "74d86ad6021bed2c618f8db35fe04b58e85456e71c9e552273c43e3fc5769bef"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/tarot-b.webp",
+        "sha256": "a32c8e818a2a9c42c74a6197b8e4f541ee72dc6778bbd8885f7d8f7345550e12"
+      }
+    },
+    {
+      "id": "pentagrama",
+      "nombre": "Pentagrama",
+      "familia": "Objetos",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/pentagrama-a.webp",
+        "sha256": "82222a8224fc702d203f55cca27192e0eea76dc781258f20394592a6ec906ac3"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/pentagrama-b.webp",
+        "sha256": "77b32d2541b7dc9b9aa2b27d7c5eb7bd18e6ace143c05fad55fb5bafb6eb4e31"
+      }
+    },
+    {
+      "id": "escalofrio",
+      "nombre": "Escalofrío",
+      "familia": "Acciones del ánima",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/escalofrio-a.webp",
+        "sha256": "42fec0ed0d108788be2056326e957a23b7ae7e7e11474ee433239cd864daf442"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/escalofrio-b.webp",
+        "sha256": "cc8caf9ea1788082e2e7b9eba0ebb0ae40b864aedb868d429b94c163756b59d3"
+      }
+    },
+    {
+      "id": "portazo",
+      "nombre": "Portazo",
+      "familia": "Acciones del ánima",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/portazo-a.webp",
+        "sha256": "cbfa69d949b97d6a37e222517c3e5bcace4f0f7acd70563c19644267ea093675"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/portazo-b.webp",
+        "sha256": "3acf66d462d994741781245eafad1ec3937952c9cde122d240e2c9b33a0bbe4c"
+      }
+    },
+    {
+      "id": "interferencia",
+      "nombre": "Interferencia",
+      "familia": "Acciones del ánima",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/interferencia-a.webp",
+        "sha256": "73bc7c9ece56f52dbf3e206762e1e23c6027790889aea19e0a02ed5a41b46ade"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/interferencia-b.webp",
+        "sha256": "3e575ac76c9c4254cd73426a6b2205f004710208942a5d97236781dea9ad58dd"
+      }
+    },
+    {
+      "id": "presencia",
+      "nombre": "Presencia",
+      "familia": "Acciones del ánima",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/presencia-a.webp",
+        "sha256": "9f5faea14d3def61803f495046f33af1dc7dbe90848015e48b51e3bc102703b6"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/presencia-b.webp",
+        "sha256": "04dc320cd257cf5ee7f55b171753a84b870e75a92421c9d611b798c69a3b7da0"
+      }
+    },
+    {
+      "id": "h0",
+      "nombre": "Helada",
+      "familia": "Habilidades",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/h0-a.webp",
+        "sha256": "dac30e76c2ffb53cc369aa945bd31afab04dc9bda5a0b9f4cdc6ab572ecfe966"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/h0-b.webp",
+        "sha256": "834fed25e6505a946ef1400a37e93e07a435c432eb8f090faeaa4092fe04c494"
+      }
+    },
+    {
+      "id": "h1",
+      "nombre": "Acecho",
+      "familia": "Habilidades",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/h1-a.webp",
+        "sha256": "8f232e6aa2824a9220f88c196fc81e76c68004cf945153020a2bf3108f5548db"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/h1-b.webp",
+        "sha256": "117cdd25a8595c76ec1df9d93832c1f3e9ad55383d9ea86aa20ca3f44b2042c3"
+      }
+    },
+    {
+      "id": "h2",
+      "nombre": "Lamento",
+      "familia": "Habilidades",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/h2-a.webp",
+        "sha256": "84a313ac20cf025c6f3b66590b9c5ad26a58a0a50b06627327737945f6d1ef9e"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/h2-b.webp",
+        "sha256": "50438e243a7c84dcd6ff6fabc89a262d12e607c66db0e10adf3c4ac19a6be544"
+      }
+    },
+    {
+      "id": "h4",
+      "nombre": "Apagón",
+      "familia": "Habilidades",
+      "reverso": "back02",
+      "a": {
+        "archivo": "web/revision/lote-01/h4-a.webp",
+        "sha256": "5ecc70bb9f4736b1f82b9569f0e0206ea32f027dca809c6a374e35ac0dc4b7d6"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/h4-b.webp",
+        "sha256": "4221bab5458a08930acc4c6c5006dc0af76aaa177e00b2e5a7c6f7970efcf4e9"
+      }
+    },
+    {
+      "id": "id_nahual",
+      "nombre": "Nahual",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_nahual-a.webp",
+        "sha256": "f74142ef58eac01e18d84a74afa5951b439626bdf2a5b0a9739c36701967163a"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_nahual-b.webp",
+        "sha256": "6197d30f824c6be79f24e83ddfd7089444a84c11cd024e3fca05acc6f99fc256"
+      }
+    },
+    {
+      "id": "id_bruja",
+      "nombre": "Bruja",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_bruja-a.webp",
+        "sha256": "e153025a55e2a932692ee662ac8a9247f7c6a4b833d154f75b0c706171cda069"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_bruja-b.webp",
+        "sha256": "74e083f18cf29eb9e0916db32ecfe3dd8fef392380cc6cb1fdcd84e19dccd2ab"
+      }
+    },
+    {
+      "id": "id_chaneque",
+      "nombre": "Chaneque",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_chaneque-a.webp",
+        "sha256": "395e22c7b68ae2fc765899335f4e83752144615ea519e48abf23dba0aa52e19c"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_chaneque-b.webp",
+        "sha256": "d81928426289a654311b0b5f777aaf7b18bdcde6a8c5e7ab1690fa2de7fdc1d3"
+      }
+    },
+    {
+      "id": "id_yohualtepuztli",
+      "nombre": "Yohualtepuztli",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_yohualtepuztli-a.webp",
+        "sha256": "32df48a1161c31d5056e02c2ae1d9c571fab2bae104c1720b7577d062faf42af"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_yohualtepuztli-b.webp",
+        "sha256": "1c8afaed55930fd314c34aa7a369207f80e49e74707bc6bf118a8ef17d0dafbb"
+      }
+    },
+    {
+      "id": "id_cihuateteo",
+      "nombre": "Cihuateteo",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_cihuateteo-a.webp",
+        "sha256": "655d00abb029798742790c1f2fa7db63d5eca3c37acc07ee1b615f4f95674e86"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_cihuateteo-b.webp",
+        "sha256": "cb72631208e0eae0c70a590a5b8561667dc8a358fa39543fbbb09535efcef72e"
+      }
+    },
+    {
+      "id": "id_tlahuelpuchi",
+      "nombre": "Tlahuelpuchi",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_tlahuelpuchi-a.webp",
+        "sha256": "c28763b969d0648c846af0547cfdab88cdfa14a6cdbd288622d78ce826846503"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_tlahuelpuchi-b.webp",
+        "sha256": "1220854478c42e6c72b83174807120f6827fdfa30e6ee74cc81ab71e30a5008e"
+      }
+    },
+    {
+      "id": "id_matlacihuatl",
+      "nombre": "Matlacíhuatl",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_matlacihuatl-a.webp",
+        "sha256": "b95b196583198edc019e34890dcb3a9882d561e378c0c057eec3d60b1ced02ef"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_matlacihuatl-b.webp",
+        "sha256": "6bcb0b4c17d2d0dfcaf5522b21eba6ce62bb6cc63a07927d1316ed1adca1c7f1"
+      }
+    },
+    {
+      "id": "id_planchada",
+      "nombre": "La Planchada",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_planchada-a.webp",
+        "sha256": "b3ec8136446b5df62059c4b3319c447bfcc9306c38c58d7ca813cc75cc09a25d"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_planchada-b.webp",
+        "sha256": "a10357e2268f98d1385c0fd7a2654dad769536ea02d841e912ca691f46dbb3cd"
+      }
+    },
+    {
+      "id": "id_xtabay",
+      "nombre": "Xtabay",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_xtabay-a.webp",
+        "sha256": "a2e78ac5f48f41b65e667499ece1be7b256548c507ecfe6003c9f3e9130ff59c"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_xtabay-b.webp",
+        "sha256": "e1ac6476f04492291208c53cbcb8851a5f140835c1341b0c3faf3b9d8f240e35"
+      }
+    },
+    {
+      "id": "id_malaire",
+      "nombre": "El Mal Aire",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_malaire-a.webp",
+        "sha256": "01d207978ab70ba96f08aca7f44f8c342e4dbbc00f9a97ffcd10c1269cfe1745"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_malaire-b.webp",
+        "sha256": "43ed5604c823cedb00a8f1d2fcd04786fb38b67213aeaab742af0dd999fcb0ff"
+      }
+    },
+    {
+      "id": "id_guardian",
+      "nombre": "El Guardián del Entierro",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_guardian-a.webp",
+        "sha256": "ed0eb0e9726d2bffd9b36aeeaf71bec40a63e4812a6e04bb035a1cccd1dec8a8"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_guardian-b.webp",
+        "sha256": "d632aa87abb9d765249198bbbcd630bdd9cfb93805d879238c2bc975542d4770"
+      }
+    },
+    {
+      "id": "id_cadejo",
+      "nombre": "El Cadejo Negro",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_cadejo-a.webp",
+        "sha256": "d67b113c353f5ab984bfcb8da6ea216d05c0e5c4ce4f6ebdf99b6432c03bfbce"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_cadejo-b.webp",
+        "sha256": "1a042fb44a5fe1075131bee2a89c5c15dfd15cd5908b316e0c4c5ff3e9dcf7e5"
+      }
+    },
+    {
+      "id": "id_mulata",
+      "nombre": "La Mulata de Córdoba",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_mulata-a.webp",
+        "sha256": "cab01a59eec5ad31256e0dbfb188cafcdac3bd5b769444c417ca0cf84bb80a54"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_mulata-b.webp",
+        "sha256": "4a214a73c2330d854ce3e91de3b645743a836ff3120a57d0f4044149386483e9"
+      }
+    },
+    {
+      "id": "id_uaychivo",
+      "nombre": "El Uay Chivo",
+      "familia": "Identidades",
+      "reverso": "back03",
+      "a": {
+        "archivo": "web/revision/lote-01/id_uaychivo-a.webp",
+        "sha256": "f3f21440289069f51327c94ad08848dc2edd0cfe6f75b897d493d11d782ed037"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/id_uaychivo-b.webp",
+        "sha256": "46e5b418c8fb48fbc51ffd94d938772a1d96aeba4a52911405bc689f4f84cea1"
+      }
+    },
+    {
+      "id": "es_anima",
+      "nombre": "Penitencia",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_anima-a.webp",
+        "sha256": "4bdfab60b4b9931669918ec6f7f157f856da50709d09d89035f478f5ae156afc"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_anima-b.webp",
+        "sha256": "391f4a14391aed6a5275c99df2b589074b5e9e7a7c50158f4b8924499856430e"
+      }
+    },
+    {
+      "id": "es_demonio",
+      "nombre": "Infierno",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_demonio-a.webp",
+        "sha256": "de78797496bc65cb40b8ed966faa1a5891eadf4d4a2fb708ce53ecd68b71d5cb"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_demonio-b.webp",
+        "sha256": "fb2af3a44da12281b20ab65d4a226ba185d354b436516091c3f3e7b88269e00a"
+      }
+    },
+    {
+      "id": "es_aparecido",
+      "nombre": "Aparición final",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_aparecido-a.webp",
+        "sha256": "ff4a0226b97432e2163fbc60031752a1e057141cb3746be4887723f2bfd6b326"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_aparecido-b.webp",
+        "sha256": "7575ff0c55dcffe6a282f2b2ad8ec3a5b78dcd63bcd8c0a456db6a0ff1e35782"
+      }
+    },
+    {
+      "id": "es_chaneque",
+      "nombre": "Juego del monte",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_chaneque-a.webp",
+        "sha256": "b4dfcaddb40bbb922e3c0b6142bf5abe6e4af325e72840014f230c93aa408619"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_chaneque-b.webp",
+        "sha256": "dffe6cca957be0a53c025dbf36e646303ca5bb4ae66cda35597c836a419bcf7c"
+      }
+    },
+    {
+      "id": "es_yohualtepuztli",
+      "nombre": "Hacha nocturna",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_yohualtepuztli-a.webp",
+        "sha256": "d4877ccbffc70048eaa6c3f5fb3d617754e1ff29495c3bf106456baa107a30d0"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_yohualtepuztli-b.webp",
+        "sha256": "ff5572dec9174489e32170e81787b574805ca80e600907992a7534343fa7e7bf"
+      }
+    },
+    {
+      "id": "es_cihuateteo",
+      "nombre": "Encrucijada",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_cihuateteo-a.webp",
+        "sha256": "49d654ea5058e88f5e8c94f9b309cfc81e9fdf4b4cbc1af20f74ad3eeb1de32a"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_cihuateteo-b.webp",
+        "sha256": "2505dfec376f8981d79d459f41bed708463ac69dc7f7c57898df6e4d4b100245"
+      }
+    },
+    {
+      "id": "es_tlahuelpuchi",
+      "nombre": "Vuelo de sangre",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_tlahuelpuchi-a.webp",
+        "sha256": "33d032450b45c4c91068dc08342751ad14293404610372d96706ade78618a707"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_tlahuelpuchi-b.webp",
+        "sha256": "b79528f4963b3f46e01cd38e10f6038c9af9dd8c4049222e143770cb6dd62f6f"
+      }
+    },
+    {
+      "id": "es_matlacihuatl",
+      "nombre": "La red",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_matlacihuatl-a.webp",
+        "sha256": "921c463c22ce2cdf852c30eb97576decb84a7867c313022a0595c1daa991453e"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_matlacihuatl-b.webp",
+        "sha256": "31f56c1bdc95529bec0aca9fdbd073e19ab7536d442797c36e0f185e86eb1035"
+      }
+    },
+    {
+      "id": "es_guardian",
+      "nombre": "Maldición del entierro",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_guardian-a.webp",
+        "sha256": "a54241a477a658722df9e150dbc586eb3997cdccee894f332b2d408317e7e234"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_guardian-b.webp",
+        "sha256": "1d26a6e15e35b86822786508534fefc71d7a59485def0680be823fbcdb58be0c"
+      }
+    },
+    {
+      "id": "es_cucuy",
+      "nombre": "Desde la penumbra",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_cucuy-a.webp",
+        "sha256": "cd4677919351e294e439bf5dd919c206f8cc495ed76371c6b33b3717e927a8bf"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_cucuy-b.webp",
+        "sha256": "2ffe9a2852f3a0523f23d0b18664dc847221d980d8b19c591ace3537acd63c67"
+      }
+    },
+    {
+      "id": "es_cadejo",
+      "nombre": "Arrastre de cadenas",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_cadejo-a.webp",
+        "sha256": "d3995e762e1ac1bffab770357096708d4ffb6f3f2c1f7692983eb66e5a90ad95"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_cadejo-b.webp",
+        "sha256": "e9887d2ae1648424a3766085705843789a3d8f99f0f1fea8fd539a075b536f3c"
+      }
+    },
+    {
+      "id": "es_chocarrero",
+      "nombre": "Tornado de objetos",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_chocarrero-a.webp",
+        "sha256": "df90aa8a4f806c5eebe81390f404d2d5eab96a7136d2d907715c89b1ea8f00a8"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_chocarrero-b.webp",
+        "sha256": "5dbf77a21f61d2d528ca6c5e971c4e7816fe1a05ea53465c8e84d760517ddfe0"
+      }
+    },
+    {
+      "id": "es_mulata",
+      "nombre": "El barco en la pared",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_mulata-a.webp",
+        "sha256": "0219194b3bd7afc99c49b99fc11da518fce225495d4e5400f4dd86472c00cb92"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_mulata-b.webp",
+        "sha256": "42545f9e7811e022442b52537448cc8247632571612db9d685dc7bb3a185b128"
+      }
+    },
+    {
+      "id": "es_uaychivo",
+      "nombre": "Mirada de cabra",
+      "familia": "Espantos",
+      "reverso": "back04",
+      "a": {
+        "archivo": "web/revision/lote-01/es_uaychivo-a.webp",
+        "sha256": "80d310888aada75941f59b9b12c08753e5be4c21abac8173cc349e30b76db651"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/es_uaychivo-b.webp",
+        "sha256": "9fb6abafcf58cfc1b1aeb05722f9ac5a209ae96af5655690fba494961ee1f394"
+      }
+    },
+    {
+      "id": "ev1",
+      "nombre": "Huellas de ceniza",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev1-a.webp",
+        "sha256": "db41e1488db77730ab07b9db8dfe408ba57499808e649f96b7aeb42d7556dbab"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev1-b.webp",
+        "sha256": "07808d1903cf61449d2e73d7fb929b3fde84fd3d67c71fb7343a16fc3c654080"
+      }
+    },
+    {
+      "id": "ev2",
+      "nombre": "Susurros",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev2-a.webp",
+        "sha256": "7305bfcc1968b2e20d6336e1d0e4770815ff8f68884df195c383eed07a945646"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev2-b.webp",
+        "sha256": "2e7d39cc161d0a49f594a12ec55ebaa9a53d50675a033663eeec86cf02f99611"
+      }
+    },
+    {
+      "id": "ev3",
+      "nombre": "Objetos movidos",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev3-a.webp",
+        "sha256": "afd389a8125cfaabb4be5ad151a63e6b4f8118185ad1009a8d601abd426102a4"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev3-b.webp",
+        "sha256": "d7daeb651c67806dcbab2c80fffaf4290670156c9fe1876159db2d129e64f21d"
+      }
+    },
+    {
+      "id": "ev4",
+      "nombre": "Luces parpadeantes",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev4-a.webp",
+        "sha256": "1c95e5a8cadb6333c3d26fdaff0543dc31d3e7dd1445459116c0812e506f070f"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev4-b.webp",
+        "sha256": "38b39f3b2e733cf4915fea417584d1fbb7ff83bed7b18b29ac83b82e25cf5851"
+      }
+    },
+    {
+      "id": "ev5",
+      "nombre": "Marcas en el espejo",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev5-a.webp",
+        "sha256": "5f8900e8b5521219c9c2360e43491a9637ff178414e73c73e0606549513111db"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev5-b.webp",
+        "sha256": "c630918cf01b614deedab9ece7d80674129bdc179e460e04162626b453d4df82"
+      }
+    },
+    {
+      "id": "ev6",
+      "nombre": "Olor a azufre",
+      "familia": "Evidencias",
+      "reverso": "back05",
+      "a": {
+        "archivo": "web/revision/lote-01/ev6-a.webp",
+        "sha256": "6dd6731b80f5a97530d353483fa0dc440007cba90d892bc14e071c46d30a302d"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/ev6-b.webp",
+        "sha256": "46b8d0b01d1ece5af2bfaf88e9e4c3baff5c8538df446757242a5bf895e2e44f"
+      }
+    },
+    {
+      "id": "rol_velar",
+      "nombre": "Velar",
+      "familia": "Espíritus",
+      "reverso": "espiritu_reverso",
+      "a": {
+        "archivo": "web/revision/lote-01/rol_velar-a.webp",
+        "sha256": "fdf01daf24dfeb8e178769126b2cb11d32d41949d85e4170a329fc5f950527d0"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/rol_velar-b.webp",
+        "sha256": "3c949a5a25d231d5e60e5954211c9d1af305e6f8130389f178ab3f6ff2832ac0"
+      }
+    },
+    {
+      "id": "rol_manifestar",
+      "nombre": "Manifestar",
+      "familia": "Espíritus",
+      "reverso": "espiritu_reverso",
+      "a": {
+        "archivo": "web/revision/lote-01/rol_manifestar-a.webp",
+        "sha256": "6574c0e5550de2e8a90ea2753d7e509714e2ccf74d76b9aeddee66e8edb7c053"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/rol_manifestar-b.webp",
+        "sha256": "9364335ef50d989faccb56538147d43429cff3f96de9e8df57b3a5509beef9c3"
+      }
+    },
+    {
+      "id": "R01",
+      "nombre": "Reglas 1: Tu turno",
+      "familia": "Frentes de reglas",
+      "reverso": "R01B",
+      "a": {
+        "archivo": "web/revision/lote-01/R01-a.webp",
+        "sha256": "6f1cd2c8485c5d5399ee53c56793315b49bedb63a6f349ccff4d472872fc901c"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/R01-b.webp",
+        "sha256": "700f26f86f3c22438b4a19c96336efc182b92268ca47eaf659c16dd102c2a2c8"
+      }
+    },
+    {
+      "id": "R02",
+      "nombre": "Reglas 2: Investigar",
+      "familia": "Frentes de reglas",
+      "reverso": "R02B",
+      "a": {
+        "archivo": "web/revision/lote-01/R02-a.webp",
+        "sha256": "e90f1375683d0d70423f53600c1b4a784b75f417b3d53a1077f2997f19943d90"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/R02-b.webp",
+        "sha256": "6248b884ce7afc4a297dfd0789fd1758e4f0fe702c3da26e880d6b5b93893227"
+      }
+    },
+    {
+      "id": "R03",
+      "nombre": "Reglas 3: Peligro",
+      "familia": "Frentes de reglas",
+      "reverso": "R03B",
+      "a": {
+        "archivo": "web/revision/lote-01/R03-a.webp",
+        "sha256": "55ea347aae0da489e96a1fc62996b8fb580e9671706535fbe68d658d64bc6c4f"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/R03-b.webp",
+        "sha256": "fe68cad473e3b58a659b8104b9b3eca0407b764fb4a9f3ce41a296503d1603a3"
+      }
+    },
+    {
+      "id": "R04",
+      "nombre": "Reglas 4: El ánima",
+      "familia": "Frentes de reglas",
+      "reverso": "R04B",
+      "a": {
+        "archivo": "web/revision/lote-01/R04-a.webp",
+        "sha256": "3954db07d7c56020f9fe66adaa531e188e119e47ca1530fa8b95ee15baf4c03f"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/R04-b.webp",
+        "sha256": "70c47230a047f767de812694b54e3ff3d690754bff1915eaf6f01ac8adcea1a6"
+      }
+    },
+    {
+      "id": "R05",
+      "nombre": "El espíritu",
+      "familia": "Frentes de reglas",
+      "reverso": "R05B",
+      "a": {
+        "archivo": "web/revision/lote-01/R05-a.webp",
+        "sha256": "392e12010d3ca5e5b90ccd74e65c6b2d62ef734bb0fd9072856957ba8c1e06fc"
+      },
+      "b": {
+        "archivo": "web/revision/lote-01/R05-b.webp",
+        "sha256": "5dbc5089139bc3e4207c318de59d77fe7ece917485714b8d6427c84279d30c0a"
+      }
+    }
+  ]
+}

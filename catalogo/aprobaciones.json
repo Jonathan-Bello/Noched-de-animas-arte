@@ -83,6 +83,11 @@
       "fecha": "2026-11-21",
       "estado": "aprobado",
       "alcance": "Improvisador, Detective, Curandero, Devota, Sensitivo y Guardaespaldas. El Vigía se rehace desde el modelo original. El Técnico queda en revisión con overol morado oscuro y sin pañuelo."
+    },
+    {
+      "id": "ocho-ilustraciones-roles-2026-11-21",
+      "fecha": "2026-11-21",
+      "alcance": "Las ocho ilustraciones de rol identificadas en catalogo/ilustraciones_roles_aprobadas.json. El frente compuesto con marco y leyenda se revisa por separado."
     }
   ]
 }

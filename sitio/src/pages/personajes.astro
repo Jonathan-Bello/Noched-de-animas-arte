@@ -24,12 +24,12 @@ const INVESTIGADORES = ["Inés", "Rafael", "Tomás", "Amalia", "Padre Mateo"];
     </ul>
   </section>
 
-  <section class="contenedor">
+  <section id="roles" class="contenedor">
     <h2>Los ocho roles</h2>
     <p class="mt-3 max-w-2xl text-tenue">Cada investigador puede llevar un rol con una habilidad propia. Las cartas de rol no llevan texto de reglas: solo emblema, título, escena y leyenda.</p>
     <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {roles.map((c) => (
-        <li class="tarjeta flex flex-col gap-3">
+        <li id={c.id.replace("rol_", "rol-")} class="tarjeta flex flex-col gap-3">
           <Carta src={imagenDe(c, true)} alt={`Ilustración de ${c.nombre}`} ancho={220} />
           <div class="flex flex-wrap items-center gap-2"><Estado estado={c.estado_arte} /></div>
           <h3>{c.nombre}</h3>

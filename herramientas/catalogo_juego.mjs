@@ -1,9 +1,9 @@
 // Genera fabrica/catalogo_juego.json y fabrica/CARTAS_DEL_JUEGO.md a partir del juego de cartas.
 // Uso: node herramientas/catalogo_juego.mjs RUTA_AL_REPO_DEL_JUEGO
 // Fuente de verdad de reglas: el motor del juego (app/motor/data.js y los textos de app/main.js).
-// Fuente de verdad del arte aprobado: catalogo/canon.cartas.json y catalogo/seleccion_roles.json de este repo.
+// Fuente de verdad del arte aprobado: catalogo/canon.cartas.json y catalogo/ilustraciones_roles_aprobadas.json de este repo.
 import { readFileSync, writeFileSync } from "node:fs";
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 import { join, dirname } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -14,11 +14,10 @@ const D = await import(pathToFileURL(join(JUEGO, "app/motor/data.js")).href);
 const main = readFileSync(join(JUEGO, "app/main.js"), "utf8");
 const objeto = (nombre) => { const i = main.indexOf(`const ${nombre} = {`); const j = main.indexOf("\n};", i); return Function(`return ${main.slice(i + `const ${nombre} = `.length, j + 2)}`)(); };
 const TEXTO = objeto("TEXTO"), ESPANTO_EFECTO = objeto("ESPANTO_EFECTO");
-let commitJuego = "desconocido"; try { commitJuego = execSync(`git -C "${JUEGO}" rev-parse HEAD`).toString().trim(); } catch {}
+let commitJuego = "desconocido"; try { commitJuego = execFileSync("git", ["-C", JUEGO, "rev-parse", "HEAD"]).toString().trim(); } catch {}
 
 const canon = JSON.parse(readFileSync(join(R, "catalogo/canon.cartas.json"), "utf8"));
-const roles = JSON.parse(readFileSync(join(R, "catalogo/seleccion_roles.json"), "utf8")).roles;
-let ilusRoles = {}; try { ilusRoles = JSON.parse(readFileSync(join(R, "catalogo/ilustraciones_roles_aprobadas.json"), "utf8")); } catch {}
+const roles = JSON.parse(readFileSync(join(R, "catalogo/ilustraciones_roles_aprobadas.json"), "utf8"));
 const porNombre = Object.fromEntries(canon.base.cartas.map((c) => [c.nombre, c]));
 const porId = Object.fromEntries([...canon.base.cartas, ...canon.base.reversos].map((c) => [c.id, c]));
 const EV = D.EVIDENCIAS;
@@ -51,11 +50,11 @@ EV.forEach((e, i) => add({ id: `ev${i}`, nombre: e, tipo: "evidencia", mazo: "ev
 // Testigos de la casona: roles y espíritus
 const ARCHIVO_ROL = { curandera: "curandero", sensitiva: "sensitivo", padre: "devota" };
 for (const [k, v] of Object.entries(D.ROLES)) {
-  const cand = roles.find((r) => r.role_id === k);
-  add({ id: `rol_${ARCHIVO_ROL[k] ?? k}`, id_motor: k, nombre: v.nombre, tipo: "rol", mazo: "roles", cantidad: 1, reverso: "rol_reverso", expansion: "testigos", uso: v.texto,
-    id_arte: null, candidato: cand?.candidato_entregado ?? null,
-    ...(ilusRoles[`rol_${ARCHIVO_ROL[k] ?? k}`] ? { estado_arte: "aprobado_sin_marco", ilustracion_aprobada: ilusRoles[`rol_${ARCHIVO_ROL[k] ?? k}`].ilustracion, nota: "Ilustración aprobada; falta componer la carta con marco." }
-      : { estado_arte: cand?.estado === "requiere_rehacer_parecido" ? "requiere_correccion" : "candidato" }) });
+  const id = `rol_${ARCHIVO_ROL[k] ?? k}`;
+  const ilustracion = roles[id];
+  if (!ilustracion) throw new Error(`Falta registrar la ilustración de ${id}`);
+  add({ id, id_motor: k, nombre: v.nombre, tipo: "rol", mazo: "roles", cantidad: 1, reverso: "rol_reverso", expansion: "testigos", uso: v.texto,
+    id_arte: null, estado_arte: ilustracion.estado_arte, ilustracion_aprobada: ilustracion.ilustracion, vista: ilustracion.vista });
 }
 for (const k of ["rol_velar", "rol_manifestar"]) add({ id: k, nombre: k === "rol_velar" ? "Velar" : "Manifestar", tipo: "espiritu", mazo: "espiritus", cantidad: 4, reverso: "espiritu_reverso", expansion: "testigos", uso: TEXTO[k],
   id_arte: null, estado_arte: k === "rol_manifestar" ? "aprobado_sin_marco" : "candidato", nota: k === "rol_manifestar" ? "Arte original aprobado (extras_aprobados.manifestar_original); falta registrar la carta terminada." : "Valorar Velar actual o la alternativa v10 (PENDIENTES.md)." });
@@ -73,7 +72,7 @@ const REVERSOS = [
 
 const total = cartas.reduce((n, c) => n + c.cantidad, 0);
 const out = { schema_version: 1, generado: new Date().toISOString().slice(0, 10), juego: { repositorio: "Jonathan-Bello/NOCHE-DE-ANIMAS", commit: commitJuego },
-  nota: "Catálogo de lo que existe en el juego. El arte aprobado se decide en catalogo/canon.cartas.json; este archivo solo lo relaciona con el juego.",
+  nota: "Catálogo de lo que existe en el juego. El arte aprobado se registra en el canon y en el registro de ilustraciones de roles; este archivo solo lo relaciona con el juego.",
   totales: { caras_distintas: cartas.length, cartas_fisicas: total }, cartas, reversos: REVERSOS };
 writeFileSync(join(R, "fabrica/catalogo_juego.json"), JSON.stringify(out, null, 2) + "\n");
 
@@ -92,3 +91,8 @@ for (const [m, t] of MAZOS) {
 md += "## Reversos\n\n| Id | Para | Id arte | Arte |\n|---|---|---|---|\n" + REVERSOS.map((r) => `| \`${r.id}\` | ${r.nombre} | ${r.id_arte ? "`" + r.id_arte + "`" : "—"} | ${E[r.estado_arte]} |`).join("\n") + "\n";
 writeFileSync(join(R, "fabrica/CARTAS_DEL_JUEGO.md"), md);
 console.log(`${cartas.length} caras, ${total} cartas físicas`, cuenta);
+
+// Mantener las vistas estáticas sincronizadas con la misma edición del catálogo.
+for (const script of ["galeria_roles.py", "tablero_produccion.py"]) {
+  execFileSync("python3", [join(R, "herramientas", script)], { stdio: "inherit" });
+}

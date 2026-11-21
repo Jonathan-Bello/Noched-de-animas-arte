@@ -75,3 +75,7 @@ El estado de cada carta está en `CARTAS_DEL_JUEGO.md`.
 - **Un cambio por pedido.** Si una propuesta tiene tres problemas, se corrigen de uno en uno o se vuelve a la ficha.
 - **Las fotos de personas reales nunca se suben al repositorio.**
 - **Los ids, cantidades y reglas los define el juego**, no este repositorio.
+
+## Registro de las ilustraciones de rol
+
+Las ocho ilustraciones aprobadas se identifican por ID, ruta y SHA-256 en [el registro de roles](../catalogo/ilustraciones_roles_aprobadas.json). El generador de catálogo consulta ese registro y actualiza las fichas de personajes y el tablero de producción en la misma ejecución. La galería de cartas lee el catálogo generado. La aprobación de la composición con marco y leyenda se registra por separado.

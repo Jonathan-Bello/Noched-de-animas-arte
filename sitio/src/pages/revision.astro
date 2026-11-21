@@ -1,0 +1,10 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/url";
+import contenido from "../components/RevisionContenido.inc?raw";
+---
+<Base titulo="Comparar ilustraciones" descripcion="Elige una de dos propuestas por frente y exporta tu selección.">
+  <link rel="stylesheet" href={url("revision.css")} />
+  <div class="revision" set:html={contenido} />
+  <script is:inline type="module" src={url("revision.js")}></script>
+</Base>
