@@ -69,11 +69,11 @@
       "id": "marcas-en-el-espejo",
       "nombre": "Marcas en el espejo",
       "grupo": "Evidencia",
-      "representacion": "Una palma marcada dentro del espejo.",
+      "representacion": "Una huella de mano con dedos separados dentro de un espejo circular.",
       "significado_y_uso": "Alguien escribe desde el otro lado. La busca el Espejo de mano.",
       "svg": "svg/marcas-en-el-espejo.svg",
-      "sha256": "4ffdd24dfc0439d7996034c450c9fcdc953ad03690c0145f53430c2554c11782",
-      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "sha256": "507c944ce6492268ebbb4c20558999cca6cfaaffc6a89fe76b5611398be55850",
+      "procedencia": "Edición del archivo de arte sobre el pictograma del espejo circular.",
       "estado": "documentado_en_juego; no modifica canon de ilustraciones"
     },
     {
