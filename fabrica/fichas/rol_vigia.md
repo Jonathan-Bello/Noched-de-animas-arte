@@ -33,8 +33,8 @@ El Vigía es quien no se deja sorprender: mientras algo se mueve en la penumbra 
 
 ## Adjuntar
 - **Identidad:** ilustración aprobada v03 del Vigía (`guias/identidades_historicas_v03.json`). Jonathan agrega aparte, si quiere, sus fotos de referencia (no se suben al repo).
-- **Estilo de cara:** `p07`, `a08`, `i10`.
-- **Estilo de escena:** `rol_tecnico` y `rol_guardaespaldas` actuales (misma familia de cartas).
+- **Estilo de cara:** Rosario y Cacería.
+- **Estilo de escena:** `rol_curandero` y `rol_guardaespaldas` actuales (misma familia de cartas).
 - **Concepto:** la carta actual `rol_vigia`, solo para la escena.
 
 ## Cómo se revisa

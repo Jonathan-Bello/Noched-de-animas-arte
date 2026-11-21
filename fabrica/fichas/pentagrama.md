@@ -30,7 +30,7 @@ Alguien trazó una estrella con ceniza en el piso de la casona y el humo del cop
 - Luz cálida y baja de las veladoras; el resto en guinda y morado oscuro.
 
 ## Adjuntar
-- **Estilo:** `o06` Tarot, `o08` Espejo de obsidiana, `o07` Muñeca de la isla (misma familia y mazo).
+- **Estilo:** `i14` Copal, `o08` Espejo de obsidiana, `o07` Muñeca de la isla.
 - **Escena:** `a09` Cacería total (piso y luz de la casona).
 
 ## Cómo se revisa

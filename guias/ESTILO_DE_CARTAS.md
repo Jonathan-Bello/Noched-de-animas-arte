@@ -17,7 +17,7 @@ Usar sombras amplias, superficies mate y profundidad por superposición, escala 
 - **Identidades** — La Llorona, Charro Negro, El Cucuy, Espíritu Chocarrero, Demonio, Aparecido.
 - **Espantos** — La bestia, Llanto eterno, Aquelarre, Trato con el diablo, Ronda nocturna, Canto de la ceiba, Soplo del mal viento.
 - **Roles señalados · versión de muestra en revisión** — El Curandero, La Devota, El Sensitivo, El Guardaespaldas.
-- **Reversos** — Todos. Conservar su asignación por tipo.
+- **Reversos** — Solo los ilustrados. R01–R05 y las hojas Q de instrucciones se conservan como documentación. Conservar su asignación por tipo.
 - **Ánima sola** — Elegida por nombre. Confirmar su ficha antes de asociar una imagen.
 
 Para nuevos bocetos, decidir primero dónde se reconoce el acontecimiento: las manos de Rosario, el reflejo del Espejo de obsidiana, la carrera en Cacería o las ventanas de la casa en Cacería total. Revisar la lectura del gesto a tamaño final. Mantener las sombras en planos grandes y reservar el detalle ornamental para enmarcar el foco. Para los roles, comparar rostro, silueta y vestuario con la versión de identidad correspondiente.
@@ -56,3 +56,7 @@ Las dos ilustraciones nuevas de la prueba quedan fuera de las referencias de est
 ## Biblioteca de iconos centralizada
 
 Consultar [el significado y uso de cada pictograma](../iconos/cartas/README.md) y [la guía visual con ejemplos](../iconos/cartas/sistema-original.html). La copia fija el commit de procedencia del juego; los recursos de encabezado originales están en `../iconos/cartas/recursos-juego/`. Los iconos de demo de contorno se conservan como historial y no sustituyen los sólidos de impresión.
+
+## Identidad del sitio público
+
+Todas las páginas del archivo enlazan archivo.css y comparten cabecera y navegación. Usar fondo tinta #171117, panel #231922, texto crema #F7E6C7, acento oro #EAB870 y separadores #554035. Los títulos editoriales usan Georgia y los controles la sans del sistema. Las muestras de tipografía y los colores semánticos de cartas conservan sus valores propios. La guía importada original es una instantánea histórica; el catálogo visible de iconos se consulta en [la edición vigente](../iconos/cartas/sistema-vigente.html).

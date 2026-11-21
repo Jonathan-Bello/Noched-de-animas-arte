@@ -24,7 +24,7 @@ Una sola ilustración de fondo, vertical: el investigador (o una veladora, si so
 - Marco.
 
 ## Adjuntar
-- **Estilo:** `p07` El espíritu, `i09` Té de tila, `a07` Presencia.
+- **Estilo:** `i09` Té de tila y `i11` Rosario.
 - **Identidad:** retrato aprobado de cada investigador, si son 4 distintas.
 
 ## Cómo se revisa

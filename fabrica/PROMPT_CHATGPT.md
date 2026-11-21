@@ -76,14 +76,4 @@ LO QUE NUNCA HACES
 
 ## Referencias de estilo para subir al proyecto
 
-Del canon aprobado (`catalogo/canon.cartas.json`), una o dos por familia:
-
-| Familia | Cartas |
-|---|---|
-| Herramientas y objetos | `i01` Termómetro, `i03` Grabadora, `i05` Detector EMF, `i08` Kit de campo, `o06` Tarot |
-| Señales y escenarios | `e01` Bajo cero, `e03` Susurros, `e04` Objetos movidos, `h05` Apagón, `a09` Cacería total |
-| Espejos | `i06` Espejo de mano, `h06` Arrastrar, `o08` Espejo de obsidiana |
-| Ánimas y Espantos | `id03` Ánima en pena, `id13` La Planchada, `id16` El Guardián del Entierro, `s13` Ronda nocturna, `p07` El espíritu |
-| Personajes (estilo de cara) | `p07` El espíritu, `a08` Cacería, `a07` Presencia, `i10` Respirar hondo |
-
-Para obtenerlas: `python herramientas/exportar.py --destino exportaciones/referencias` y subir las de la lista.
+Consultar la [selección vigente del autor](../guias/ESTILO_DE_CARTAS.md). Elegir de esa selección las referencias de la familia correspondiente y obtener sus imágenes desde el canon.

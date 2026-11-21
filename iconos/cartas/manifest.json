@@ -28,8 +28,8 @@
       "representacion": "Dos pisadas descalzas.",
       "significado_y_uso": "Alguien caminó donde no había nadie. La busca la Lámpara UV.",
       "svg": "svg/huellas-de-ceniza.svg",
-      "sha256": "f8a7886ee1c7138841045fecc8a0c8e654e02142569f03dab70ebd452cc9edab",
-      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "sha256": "f60e5aad37df126dd861a4049908d9ba896a4e30583da0b16257591775a7a8e6",
+      "procedencia": "Contorno vectorizado de la hoja Q1A de consulta impresa.",
       "estado": "documentado_en_juego; no modifica canon de ilustraciones"
     },
     {
@@ -83,8 +83,8 @@
       "representacion": "La voluta de humo del catálogo.",
       "significado_y_uso": "El aire huele a cerillo quemado. La busca el Sensor de gases.",
       "svg": "svg/olor-a-azufre.svg",
-      "sha256": "fbdecebe92ec1a8ba47e7c9513ea9a6bd58f4a5381a65a5c41a6e96308f8c4d1",
-      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "sha256": "8dc85350db4a884c33b765be2db879489de6e84fcc2a28cb9ccc0e770aa963fb",
+      "procedencia": "Contorno vectorizado de la hoja Q1B de consulta impresa.",
       "estado": "documentado_en_juego; no modifica canon de ilustraciones"
     },
     {
@@ -94,8 +94,8 @@
       "representacion": "El zarpazo de tres garras.",
       "significado_y_uso": "El ánima ataca a un investigador con 4 o menos de cordura. Si no se defiende, muere.",
       "svg": "svg/caceria.svg",
-      "sha256": "677d4c425017cde599e8deb2611cf2f8867064b7fa9a0cdae0e153a650fd7972",
-      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "sha256": "3a5f220925f44f83116989f7482402ff465767289857df02c0a9b21f3f2a5979",
+      "procedencia": "Contorno vectorizado de la hoja Q1B de consulta impresa.",
       "estado": "documentado_en_juego; no modifica canon de ilustraciones"
     },
     {
