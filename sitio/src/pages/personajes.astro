@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import Encabezado from "../components/Encabezado.astro";
+import Carta from "../components/Carta.astro";
+import Estado from "../components/Estado.astro";
+import { cartas, imagenDe } from "../lib/datos";
+
+const roles = cartas.filter((c) => c.tipo === "rol");
+const espiritus = cartas.filter((c) => c.tipo === "espiritu");
+const INVESTIGADORES = ["Inés", "Rafael", "Tomás", "Amalia", "Padre Mateo"];
+---
+<Base titulo="Personajes" descripcion="Investigadores y roles de Noche de Ánimas: quiénes son y qué hace cada uno." actual="personajes.html">
+  <Encabezado antetitulo="El elenco de la casona" titulo="Personajes" entrada="Los investigadores del juego base y los ocho roles de la expansión Los testigos de la casona.">
+    <p class="mt-6 max-w-2xl rounded-xl border border-oro/40 bg-oro/10 p-4 text-sm">
+      Los personajes de los roles están basados en personas reales que dieron su permiso. No uses su imagen fuera de Noche de Ánimas, y conserva siempre sus rasgos: cara, pelo, lentes, complexión y ropa.
+    </p>
+  </Encabezado>
+
+  <section class="contenedor seccion">
+    <h2>Investigadores</h2>
+    <p class="mt-3 max-w-2xl text-tenue">El juego base tiene cinco investigadores. Sus retratos y hojas de personaje se publicarán aquí.</p>
+    <ul class="mt-6 flex flex-wrap gap-3">
+      {INVESTIGADORES.map((n) => <li class="tarjeta py-3 font-titulo">{n}</li>)}
+    </ul>
+  </section>
+
+  <section class="contenedor">
+    <h2>Los ocho roles</h2>
+    <p class="mt-3 max-w-2xl text-tenue">Cada investigador puede llevar un rol con una habilidad propia. Las cartas de rol no llevan texto de reglas: solo emblema, título, escena y leyenda.</p>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {roles.map((c) => (
+        <li class="tarjeta flex flex-col gap-3">
+          <Carta src={imagenDe(c, true)} alt={`Ilustración de ${c.nombre}`} ancho={220} />
+          <div class="flex flex-wrap items-center gap-2"><Estado estado={c.estado_arte} /></div>
+          <h3>{c.nombre}</h3>
+          <p class="text-sm text-tenue"><b class="text-crema">En el juego.</b> {c.uso}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="contenedor seccion">
+    <h2>Espíritus</h2>
+    <p class="mt-3 max-w-2xl text-tenue">Lo que puede hacer un investigador que ya murió.</p>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2">
+      {espiritus.map((c) => (
+        <li class="tarjeta flex gap-4">
+          <Carta src={imagenDe(c)} alt={c.nombre} ancho={120} />
+          <div><Estado estado={c.estado_arte} /><h3 class="mt-2">{c.nombre}</h3><p class="mt-1 text-sm text-tenue">{c.uso}</p></div>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

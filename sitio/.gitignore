@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.astro/
+# public/ se genera con scripts/preparar.mjs a partir del repositorio
+public/

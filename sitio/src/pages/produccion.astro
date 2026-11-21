@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+import Encabezado from "../components/Encabezado.astro";
+import Carta from "../components/Carta.astro";
+import Estado from "../components/Estado.astro";
+import { cartas, reversos, imagenDe, ESTADOS, type EstadoArte } from "../lib/datos";
+import { REPOSITORIO, url } from "../lib/url";
+import prod from "../data/produccion.json";
+
+const pendientes = cartas.filter((c) => c.estado_arte !== "aprobado");
+const revPendientes = reversos.filter((r) => r.estado_arte !== "aprobado");
+const conteo = (Object.keys(ESTADOS) as EstadoArte[]).map((e) => ({ e, n: cartas.filter((c) => c.estado_arte === e).length })).filter((x) => x.n);
+const info = (id: string, tipo: string) => (prod.piezas as Record<string, any>)[id] ?? (prod.por_tipo as Record<string, any>)[tipo] ?? {};
+const issue = (id: string, nombre: string) =>
+  `${REPOSITORIO}/issues/new?template=propuesta-de-arte.yml&carta=${encodeURIComponent(id)}&title=${encodeURIComponent(`[Arte] ${nombre}`)}`;
+---
+<Base titulo="Producción" descripcion="Estado del arte de Noche de Ánimas: qué falta ilustrar, componer o revisar." actual="produccion.html">
+  <Encabezado antetitulo="Lista de trabajo" titulo="Producción" entrada="Lo que falta para terminar el juego. Los conteos son de cartas distintas, sin contar copias." />
+
+  <section class="contenedor seccion">
+    <h2>Estado del mazo</h2>
+    <ul class="mt-6 flex flex-wrap gap-3">
+      {conteo.map(({ e, n }) => <li class="tarjeta flex items-center gap-3 py-3"><span class="font-titulo text-2xl">{n}</span><Estado estado={e} /></li>)}
+    </ul>
+  </section>
+
+  <section class="contenedor">
+    <h2>Piezas pendientes</h2>
+    <ul class="mt-6 grid gap-4 md:grid-cols-2">
+      {pendientes.map((c) => { const i = info(c.id, c.tipo); return (
+        <li class="tarjeta flex gap-4">
+          <Carta src={imagenDe(c)} alt={c.nombre} ancho={110} />
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-2"><Estado estado={c.estado_arte} /><code>{c.id}</code></div>
+            <h3 class="mt-2">{c.nombre}</h3>
+            {c.uso && <p class="mt-1 text-sm text-tenue"><b class="text-crema">En el juego.</b> {c.uso}</p>}
+            {i.brief && <p class="mt-2 text-sm text-tenue"><b class="text-crema">Brief.</b> {i.brief}</p>}
+            {i.necesita && <p class="mt-2 text-sm"><b>Se necesita:</b> {i.necesita}</p>}
+            {i.abierta && <a class="boton mt-3 text-sm" href={issue(c.id, c.nombre)}>Tomar esta pieza</a>}
+          </div>
+        </li>
+      ); })}
+    </ul>
+  </section>
+
+  <section class="contenedor seccion">
+    <h2>Reversos pendientes</h2>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-3">
+      {revPendientes.map((r) => (
+        <li class="tarjeta">
+          <div class="flex flex-wrap items-center gap-2"><Estado estado={r.estado_arte} /><code>{r.id}</code></div>
+          <h3 class="mt-2">{r.nombre}</h3>
+          <p class="mt-1 text-sm text-tenue">{prod.reversos.necesita}</p>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-8"><a class="boton" href={url("colaborar.html")}>Cómo entregar una ilustración</a></p>
+  </section>
+</Base>

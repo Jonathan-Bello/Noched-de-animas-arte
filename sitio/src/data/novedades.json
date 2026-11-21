@@ -1,0 +1,9 @@
+{
+  "nota": "Novedades que se muestran en la portada, de la más reciente a la más antigua. Se editan a mano: una línea por cambio que importe a un colaborador.",
+  "lista": [
+    { "fecha": "2026-11-21", "texto": "Aprobadas las ilustraciones de los ocho roles. Falta componer sus cartas con marco.", "enlace": "personajes.html" },
+    { "fecha": "2026-11-21", "texto": "Abre el portal de colaboración: el juego, los personajes, la producción y cómo entregar.", "enlace": "colaborar.html" },
+    { "fecha": "2026-11-21", "texto": "Identificadas las tipografías de las cartas y publicadas las plantillas de encuadre.", "enlace": "descargas.html" },
+    { "fecha": "2026-11-14", "texto": "Aprobado el mazo base: 99 cartas terminadas.", "enlace": "cartas.html" }
+  ]
+}

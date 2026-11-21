@@ -1,0 +1,37 @@
+---
+import Base from "../layouts/Base.astro";
+import Encabezado from "../components/Encabezado.astro";
+import { totales } from "../lib/datos";
+import { REPOSITORIO, url } from "../lib/url";
+---
+<Base titulo="Descargas" descripcion="Plantillas, tipografías y referencias aprobadas de Noche de Ánimas." actual="descargas.html">
+  <Encabezado antetitulo="Para trabajar a escala" titulo="Descargas" entrada="Todo lo necesario para preparar una ilustración y compararla con el mazo." />
+
+  <section class="contenedor seccion grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div class="tarjeta">
+      <h2 class="text-xl">Referencias aprobadas</h2>
+      <p class="mt-2 text-sm text-tenue">Paquete con las cartas aprobadas a 580 × 880 px y su manifiesto (id, nombre, tipo y reverso). Se publica en las Releases del repositorio.</p>
+      <a class="mt-3 inline-block text-sm" href={`${REPOSITORIO}/releases`}>Ver publicaciones</a>
+    </div>
+    <div class="tarjeta">
+      <h2 class="text-xl">Plantillas</h2>
+      <p class="mt-2 text-sm text-tenue">El PNG sirve de guía de encuadre; el SVG separa en capas corte, sangrado, zona segura, título, leyenda e ilustración.</p>
+      <p class="mt-3 flex flex-col gap-1 text-sm">
+        <a href={url("web/plantillas/carta-base.png")}>Plantilla PNG · 756 × 1110 px</a>
+        <a href={url("web/plantillas/carta-base.svg")}>Plantilla SVG con capas</a>
+      </p>
+    </div>
+    <div class="tarjeta">
+      <h2 class="text-xl">Tipografías</h2>
+      <p class="mt-2 text-sm text-tenue">Títulos: <b class="font-titulo text-crema">DejaVu Serif Condensed Bold</b>. Leyendas: <span class="leyenda text-crema">Liberation Serif Italic</span>.</p>
+      <p class="mt-3 flex flex-col gap-1 text-sm">
+        <a href="https://dejavu-fonts.github.io/">DejaVu</a>
+        <a href="https://github.com/liberationfonts/liberation-fonts">Liberation Fonts</a>
+      </p>
+    </div>
+    <div class="tarjeta">
+      <h2 class="text-xl">Imprenta</h2>
+      <p class="mt-2 text-sm text-tenue">El juego completo son {totales.cartas_impresas} cartas de 58 × 88 mm con 3 mm de sangrado. Los archivos de impresión están en preparación.</p>
+    </div>
+  </section>
+</Base>

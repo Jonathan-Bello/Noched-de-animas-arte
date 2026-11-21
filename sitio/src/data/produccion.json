@@ -1,0 +1,13 @@
+{
+  "nota": "Qué necesita cada pieza pendiente, para colaboradores. Sin prompts: los prompts de IA viven en fabrica/ y no se publican aquí.",
+  "piezas": {
+    "pentagrama": { "necesita": "Ilustración nueva.", "brief": "Objeto maldito del ánima que impide usar Copal durante dos turnos. El concepto de la escena lo define Jonathan antes de encargarla.", "abierta": false },
+    "cordura": { "necesita": "Ilustración de fondo; la escala de 10 a 0 la compone la plantilla.", "brief": "Tarjeta que no se baraja: cada investigador marca su cordura con un clip. La zona de 4 o menos debe leerse como peligro.", "abierta": false },
+    "rol_velar": { "necesita": "Elegir entre la escena actual y la alternativa.", "brief": "Carta de espíritu: un investigador muerto protege a uno vivo.", "abierta": false },
+    "rol_manifestar": { "necesita": "Componer la carta con marco, título y leyenda.", "brief": "La ilustración ya está aprobada.", "abierta": false }
+  },
+  "por_tipo": {
+    "rol": { "necesita": "Componer la carta con marco, título y leyenda.", "brief": "La ilustración ya está aprobada." }
+  },
+  "reversos": { "necesita": "Revisar y registrar la versión final del reverso." }
+}

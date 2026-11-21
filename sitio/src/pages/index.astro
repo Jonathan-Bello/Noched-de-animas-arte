@@ -1,0 +1,81 @@
+---
+import Base from "../layouts/Base.astro";
+import Carta from "../components/Carta.astro";
+import { cartas, totales } from "../lib/datos";
+import { url } from "../lib/url";
+import novedades from "../data/novedades.json";
+
+const cuenta = (e: string) => cartas.filter((c) => c.estado_arte === e).length;
+const SECCIONES = [
+  { ruta: "juego.html", titulo: "El juego", texto: "Cómo se juega, los tipos de carta, las evidencias y las 21 ánimas." },
+  { ruta: "personajes.html", titulo: "Personajes", texto: "Los investigadores y los ocho roles, con lo que hace cada uno." },
+  { ruta: "cartas.html", titulo: "Cartas", texto: "Todas las cartas: qué hacen, cuántas copias hay, su reverso y su estado." },
+  { ruta: "sistema-de-diseno.html", titulo: "Sistema de diseño", texto: "Medidas, zonas de la carta, paleta, tipografías y referencias." },
+  { ruta: "iconos/galeria.html", titulo: "Íconos", texto: "Evidencias y pictogramas de acción." },
+  { ruta: "produccion.html", titulo: "Producción", texto: "Lo que falta ilustrar o revisar." },
+  { ruta: "colaborar.html", titulo: "Cómo colaborar", texto: "Qué entregar, cómo se revisa y cómo se aprueba." },
+  { ruta: "descargas.html", titulo: "Descargas", texto: "Plantillas, tipografías y referencias aprobadas." },
+];
+---
+<Base titulo="Inicio" descripcion="Archivo de arte y guía de colaboración de Noche de Ánimas, un juego de cartas de terror folclórico mexicano." actual="index.html">
+  <section class="relative overflow-hidden border-b border-linea bg-[radial-gradient(ellipse_at_70%_30%,#4a2a2e_0%,transparent_60%)]">
+    <div class="contenedor grid items-center gap-10 py-14 sm:py-20 md:grid-cols-[1fr_auto]">
+      <div>
+        <p class="antetitulo">Archivo de arte · Guía de colaboración</p>
+        <h1 class="mt-3 text-5xl sm:text-7xl">Noche de Ánimas</h1>
+        <p class="mt-5 max-w-xl text-lg text-tenue">
+          En una casona, la noche de Día de Muertos, una persona encarna a un ánima del folclor mexicano y de una a cuatro la investigan.
+          Ellos buscan evidencias con sus herramientas para descubrir qué ánima es; el ánima los asusta, les roba la cordura y los caza.
+        </p>
+        <div class="mt-7 flex flex-wrap items-center gap-4">
+          <a class="boton" href={url("cartas.html")}>Ver las cartas</a>
+          <a href={url("sistema-de-diseno.html")}>Leer el sistema de diseño</a>
+          <a href={url("colaborar.html")}>Quiero colaborar</a>
+        </div>
+      </div>
+      <div class="mx-auto rotate-3 md:mx-0">
+        <Carta src="web/miniaturas/id01@2x.webp" alt="Carta de identidad de La Llorona" ancho={230} />
+      </div>
+    </div>
+  </section>
+
+  <section class="contenedor seccion grid gap-10 md:grid-cols-[2fr_1fr]">
+    <div>
+      <h2>El tono del mazo</h2>
+      <div class="prosa mt-4 text-tenue">
+        <p>Terror folclórico mexicano contado con sombras, gestos y objetos familiares. El papel picado, el cempasúchil y las veladoras sitúan la escena; la inquietud nace de lo que se insinúa, sin violencia gráfica.</p>
+        <p>Jonathan dirige el proyecto y aprueba cada pieza de arte.</p>
+      </div>
+    </div>
+    <dl class="grid grid-cols-2 gap-3 self-start">
+      <div class="tarjeta"><dt class="text-xs text-tenue">Cartas distintas</dt><dd class="font-titulo text-3xl">{totales.caras_distintas}</dd></div>
+      <div class="tarjeta"><dt class="text-xs text-tenue">Cartas impresas</dt><dd class="font-titulo text-3xl">{totales.cartas_impresas}</dd></div>
+      <div class="tarjeta"><dt class="text-xs text-tenue">Aprobadas</dt><dd class="font-titulo text-3xl text-aprobado">{cuenta("aprobado")}</dd></div>
+      <div class="tarjeta"><dt class="text-xs text-tenue">Por terminar</dt><dd class="font-titulo text-3xl text-revision">{cartas.length - cuenta("aprobado")}</dd></div>
+    </dl>
+  </section>
+
+  <section class="contenedor">
+    <h2>Explorar el archivo</h2>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {SECCIONES.map((s) => (
+        <li><a href={url(s.ruta)} class="tarjeta group block h-full no-underline hover:border-oro hover:no-underline">
+          <h3 class="text-oro group-hover:underline">{s.titulo}</h3>
+          <p class="mt-2 text-sm text-tenue">{s.texto}</p>
+        </a></li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="contenedor seccion">
+    <h2>Novedades</h2>
+    <ol class="mt-6 space-y-3">
+      {novedades.lista.slice(0, 4).map((n) => (
+        <li class="flex flex-col gap-1 border-l-2 border-oro pl-4 sm:flex-row sm:gap-4">
+          <time datetime={n.fecha} class="shrink-0 text-sm text-tenue tabular-nums">{n.fecha}</time>
+          <span>{n.texto} {n.enlace && <a href={url(n.enlace)}>Ver</a>}</span>
+        </li>
+      ))}
+    </ol>
+  </section>
+</Base>
