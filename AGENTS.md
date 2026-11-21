@@ -8,3 +8,5 @@ El Vigía actual requiere rehacerse para recuperar parecido con modelo original.
 Fotografías personales se conservan únicamente en la carpeta local original y no deben publicarse. Las referencias de identidad se documentan con ilustraciones.
 No cambiar reglas, IDs o cantidades al actualizar arte. El role_id de Devota sigue siendo padre por compatibilidad.
 Nuevas instrucciones del usuario prevalecen sobre metadatos históricos.
+
+Fábrica de arte: leer fabrica/README.md antes de pedir, revisar o aprobar arte. El catálogo del juego (fabrica/catalogo_juego.json) se genera con herramientas/catalogo_juego.mjs desde el repo del juego; no editarlo a mano. Las propuestas nuevas van a fabrica/entrada/ y solo pasan al canon con aprobación explícita de Jonathan.

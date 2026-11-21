@@ -2,6 +2,11 @@
 
 Fuente de recursos gráficos, versiones y evidencia de aprobación para tres proyectos separados: esta biblioteca, el juego de cartas y el juego 3D inspirado en él.
 
+
+## Fábrica de arte
+
+Todo el trabajo nuevo pasa por [`fabrica/`](fabrica/README.md): qué cartas tiene el juego y en qué estado está su arte ([`CARTAS_DEL_JUEGO.md`](fabrica/CARTAS_DEL_JUEGO.md)), cómo se pide arte a ChatGPT ([`PROMPT_CHATGPT.md`](fabrica/PROMPT_CHATGPT.md)), cómo se revisa ([`CONTROL_IA.md`](fabrica/CONTROL_IA.md)) y el plan de trabajo ([`PLAN.md`](fabrica/PLAN.md)).
+
 ## Iconos
 
 [Sistema de cartas: significado y usos](iconos/cartas/README.md) · [Colecciones históricas](iconos/README.md) · [Galería de 37 iconos](iconos/galeria.html) · [Manifiesto](iconos/manifest.json). Evidencias, defensas, tipos, UI, familias de cartas y referencias conceptuales del HUD 3D.
