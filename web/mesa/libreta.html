@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Libreta de investigación · Noche de Ánimas</title><link rel="stylesheet" href="consulta.css">
+<nav aria-label="Consulta"><a href="index.html">Mesa de juego</a><a href="reglamento.html">Reglamento v5</a></nav>
+<main><h1>Libreta de investigación</h1>
+<p>Las marcas de esta partida se guardan en este navegador.</p>
+<noscript>Activa JavaScript para usar la libreta.</noscript>
+<div class="acciones dado"><button id="tirar" type="button">Tirar dado de 6 caras</button><output id="tirada" aria-live="polite">Sin tirada</output></div>
+<h2>Pruebas</h2><p>Toca una prueba para cambiar su estado siguiendo este orden: confirmada, negada, sospecha y en espera. Una sospecha deja abiertas todas las posibilidades.</p><div id="pruebas"></div>
+<h2>Ánimas</h2><p>Las pruebas tachan las ánimas incompatibles. Toca un nombre para consultar sus cartas o usa la casilla de la ficha para hacer un descarte manual.</p>
+<p id="resumen" role="status"></p><div id="animas"></div>
+<button id="reiniciar" type="button">Empezar otra partida</button><p id="aviso" role="status"></p>
+</main><script type="module" src="libreta.js"></script></html>

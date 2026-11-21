@@ -1,0 +1,23 @@
+export const ESPANTO_EFECTO = {
+ "llorona": "Todos pierden 3 de cordura; después, cacería a todos con 4 o menos",
+ "nahual": "Cacería a todos con 6 o menos",
+ "anima": "Cada investigador descarta un Rosario; quien no tenga, pierde 3 de cordura; después, cacería a todos con 4 o menos",
+ "demonio": "Cacería a todos con 5 o menos; el Copal no salva a nadie",
+ "aparecido": "Cacería a todos con 4 o menos; solo sirve el Rosario",
+ "bruja": "El ánima elige a un investigador: pierde 4 de cordura; después, cacería a todos con 5 o menos",
+ "chaneque": "Cada investigador se queda con una sola carta al azar; después, cacería a todos con 4 o menos",
+ "yohualtepuztli": "Cacería a todos con 5 o menos; ni Esconderse ni Ruda sirven. Si alguien lo enfrenta con un Ultraje espiritual, le arranca el corazón y el Espanto se detiene para todos",
+ "cihuateteo": "Dos cacerías seguidas a todos con 3 o menos",
+ "tlahuelpuchi": "Caza al de menos cordura y salta al siguiente más débil, a todos los que tengan 5 o menos; solo lo detienen la Ruda o el Copal",
+ "matlacihuatl": "Cacería a todos con 5 o menos; el Rosario no sirve",
+ "charro": "Todos descartan 1 carta al azar; después, cacería a todos con 4 o menos; el Ultraje no sirve",
+ "planchada": "Cacería a todos con 5 o menos; Esconderse no sirve",
+ "xtabay": "Cada investigador pierde 1 de cordura por cada investigador vivo; después, cacería a todos con 4 o menos",
+ "malaire": "Cacería a todos con 3 o menos; solo salvan el Rosario, la Ruda y el Copal",
+ "guardian": "Cada investigador elige: devuelve el oro (descarta 2 cartas) o se lo queda y será cazado sin importar su cordura; después, cacería a todos con 5 o menos",
+ "cucuy": "Cacería a todos con 3 o menos; el de más cordura entre ellos es cazado dos veces (si hay empate, el ánima elige)",
+ "cadejo": "Encadena al de menos cordura con el de más cordura; cacería a todos con 4 o menos; si uno muere, el otro también. En Duelo: sin cadenas, cacería con 5 o menos",
+ "chocarrero": "Cada investigador pierde 1 de cordura por cada carta en su mano; después, cacería a todos con 5 o menos",
+ "mulata": "Cada investigador pasa su mano a la izquierda; después, cacería a todos con 5 o menos. En Duelo: cambia su mano por los últimos descartes y cacería con 4 o menos",
+ "uaychivo": "El ánima elige a un investigador: solo podrá defenderse con el Rosario (otros pueden salvarlo con Copal); después, cacería a todos con 4 o menos"
+};
