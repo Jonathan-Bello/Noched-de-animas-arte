@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* Fuentes de las cartas (ver src/assets/fuentes/LICENCIAS.md) */
+@font-face {
+  font-family: "Titulo Carta";
+  src: url("../assets/fuentes/DejaVuSerifCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Leyenda Carta";
+  src: url("../assets/fuentes/LiberationSerif-Italic.woff") format("woff");
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Leyenda Carta";
+  src: url("../assets/fuentes/LiberationSerif-Regular.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tokens del sitio. Los colores de interfaz vienen del sitio anterior (archivo.css);
+   la paleta de ilustración, de sistema-de-diseno.html (medida sobre las cartas). */
+@theme {
+  --font-titulo: "Titulo Carta", "DejaVu Serif Condensed", Georgia, serif;
+  --font-leyenda: "Leyenda Carta", "Liberation Serif", Georgia, serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-noche: #171117;
+  --color-noche-profunda: #100a10;
+  --color-superficie: #231922;
+  --color-superficie-alta: #2e202c;
+  --color-linea: #554035;
+  --color-crema: #f7e6c7;
+  --color-tenue: #c3aa93;
+  --color-oro: #eab870;
+  --color-vino: #653529;
+
+  /* Paleta de ilustración del mazo */
+  --color-petroleo: #2a5055;
+  --color-crema-carta: #f1dbac;
+  --color-cempasuchil: #ee7129;
+  --color-ambar: #d8954b;
+  --color-guinda: #712236;
+  --color-magenta: #b12149;
+  --color-morado: #5e3c53;
+
+  /* Estados del arte */
+  --color-aprobado: #7fbf8f;
+  --color-revision: #eab870;
+  --color-rehacer: #e0707a;
+  --color-falta: #9a8a96;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+  body {
+    @apply bg-noche text-crema font-sans antialiased leading-relaxed;
+  }
+  h1, h2, h3 {
+    @apply font-titulo text-crema text-balance;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+  }
+  /* Jerarquía fija: el título de página siempre es el más grande. */
+  h1 { @apply text-4xl sm:text-5xl; }
+  h2 { @apply text-2xl sm:text-3xl; }
+  h3 { @apply text-lg sm:text-xl; }
+  a { @apply text-oro underline-offset-4 hover:underline; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-oro; }
+  code { @apply font-mono text-[0.85em] text-tenue break-all; }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+  .seccion { @apply py-12 sm:py-16; }
+  .antetitulo { @apply text-xs font-semibold uppercase tracking-[0.18em] text-oro; }
+  .tarjeta { @apply rounded-xl border border-linea bg-superficie p-5; }
+  .boton { @apply inline-flex items-center gap-2 rounded-lg bg-oro px-4 py-2.5 font-semibold text-noche no-underline hover:no-underline hover:brightness-110; }
+  .leyenda { @apply font-leyenda italic text-tenue; }
+  .prosa p + p { @apply mt-3; }
+  .prosa ul { @apply mt-2 list-disc space-y-1 pl-5; }
+  .prosa ol { @apply mt-2 list-decimal space-y-1 pl-5; }
+}

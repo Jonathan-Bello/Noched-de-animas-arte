@@ -1,0 +1,106 @@
+---
+import Base from "../layouts/Base.astro";
+import Encabezado from "../components/Encabezado.astro";
+import Carta from "../components/Carta.astro";
+import Evidencia from "../components/Evidencia.astro";
+import { cartas, reversos, imagenDe, miniatura, leyendaDe, TIPOS, EVIDENCIAS } from "../lib/datos";
+
+const por = (id: string) => cartas.find((c) => c.id === id)!;
+const PASOS = [
+  { carta: "id_llorona", titulo: "El ánima elige en secreto", texto: "Al empezar, el ánima toma una identidad y la guarda boca abajo. Cada una de las 21 ánimas deja 3 de las 7 evidencias." },
+  { carta: "alba", titulo: "Empieza la noche", texto: "Cada investigador tiene 10 de cordura (8 si son cuatro). El Alba va debajo del mazo de investigadores: cuando solo queda ella, la noche termina." },
+  { carta: "t0", titulo: "Investigar", texto: "En su turno, un investigador juega una herramienta: paga 1 de cordura y tira el dado. Con 4 o más detecta, y el ánima dice si tiene esa evidencia." },
+  { carta: "ev0", titulo: "Confirmar una evidencia", texto: "Cuando una herramienta confirma una evidencia, el ánima entrega su carta. Las pistas de las habilidades no cuentan: pueden ser falsas." },
+  { carta: "caceria", titulo: "El ánima asusta y caza", texto: "Después de cada investigador, el ánima juega una carta: quita cordura, bloquea o caza. Con 4 de cordura o menos, un investigador puede ser cazado." },
+  { carta: "ros", titulo: "Defenderse", texto: "Rosario, Esconderse y otras reacciones detienen un ataque. Quien muere no sale del juego: sigue como espíritu, sin hablar." },
+  { carta: "es_llorona", titulo: "El Espanto", texto: "Una vez por partida, cuando los investigadores ya pueden acusar, el ánima desata su Espanto: el ataque propio de esa ánima." },
+  { carta: "id_nahual", titulo: "Acusar o llegar al Alba", texto: "Con 2 evidencias confirmadas se puede acusar. Acertar gana; fallar le da la victoria al ánima. Al Alba queda una acusación final con 1 sola evidencia." },
+];
+const MODOS = [
+  { titulo: "En equipo", texto: "Los investigadores comparten todo y ganan o pierden juntos. Con 3 o 4, el dado se tira bajo un vaso: el ánima puede mentir con un «Nada»." },
+  { titulo: "Sálvese quien pueda", texto: "Cada investigador juega para sí y ve solo lo suyo. Al Alba, cada uno apuesta en secreto a un ánima; quien acierta sin pruebas tiene que sobrevivir al Espanto." },
+];
+const ejemploDe = (tipo: string) => cartas.find((c) => c.tipo === tipo && imagenDe(c));
+const reversoDe = (id: string) => reversos.find((r) => r.id === id);
+const identidades = cartas.filter((c) => c.tipo === "identidad");
+const espantoDe = (idIdentidad: string) => por(idIdentidad.replace(/^id_/, "es_"));
+---
+<Base titulo="El juego" descripcion="Cómo se juega Noche de Ánimas: la partida, los modos, los tipos de carta, las evidencias y las 21 ánimas." actual="juego.html">
+  <Encabezado antetitulo="Para ilustrar hay que entender" titulo="El juego" entrada="Un ánima contra uno a cuatro investigadores. Cada carta cumple una función en la partida; esta página explica cuál.">
+    <nav aria-label="En esta página" class="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      <a href="#partida">La partida</a><a href="#modos">Modos</a><a href="#tipos">Tipos de carta</a><a href="#evidencias">Evidencias</a><a href="#animas">Las 21 ánimas</a>
+    </nav>
+  </Encabezado>
+
+  <section id="partida" class="contenedor seccion">
+    <h2>La partida</h2>
+    <ol class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {PASOS.map((p, i) => { const c = por(p.carta); return (
+        <li class="tarjeta flex flex-col gap-3">
+          <h3><span class="text-oro">{i + 1}.</span> {p.titulo}</h3>
+          <Carta src={imagenDe(c)} alt={`Carta: ${c.nombre}`} ancho={120} pie={c.nombre} />
+          <p class="text-sm text-tenue">{p.texto}</p>
+        </li>
+      ); })}
+    </ol>
+  </section>
+
+  <section id="modos" class="contenedor">
+    <h2>Modos de juego</h2>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      {MODOS.map((m) => <div class="tarjeta"><h3>{m.titulo}</h3><p class="mt-2 text-sm text-tenue">{m.texto}</p></div>)}
+    </div>
+  </section>
+
+  <section id="tipos" class="contenedor seccion">
+    <h2>Tipos de carta</h2>
+    <p class="mt-3 max-w-2xl text-tenue">La cara cuenta la acción o el personaje; el reverso dice de qué mazo es. Todas las cartas de un mazo comparten reverso.</p>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {TIPOS.map((t) => { const c = ejemploDe(t.id); const r = c ? reversoDe(c.reverso) : undefined; return (
+        <li class="tarjeta">
+          <h3>{t.nombre}</h3>
+          <p class="mt-1 text-sm text-tenue">{t.que}</p>
+          {c && <div class="mt-4 flex gap-3">
+            <Carta src={imagenDe(c)} alt={`Ejemplo: ${c.nombre}`} ancho={100} pie={c.nombre} />
+            {r && <Carta src={miniatura(r.id_arte) ?? (r.id === "rol_reverso" || r.id === "espiritu_reverso" ? `web/miniaturas/personajes/${r.id}.webp` : null)} alt={`Reverso de ${t.nombre.toLowerCase()}`} ancho={100} pie={`Reverso · ${r.id}`} />}
+          </div>}
+        </li>
+      ); })}
+    </ul>
+  </section>
+
+  <section id="evidencias" class="contenedor">
+    <h2>Las siete evidencias</h2>
+    <p class="mt-3 text-tenue">Cada evidencia tiene una herramienta que la busca y una carta que la confirma.</p>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {EVIDENCIAS.map((e, i) => (
+        <li class="tarjeta">
+          <Evidencia nombre={e} />
+          <div class="mt-3 flex gap-3">
+            <Carta src={imagenDe(por(`ev${i}`))} alt={`Evidencia: ${e}`} ancho={95} pie={e} />
+            <Carta src={imagenDe(por(`t${i}`))} alt={`Herramienta: ${por(`t${i}`).nombre}`} ancho={95} pie={por(`t${i}`).nombre} />
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="animas" class="contenedor seccion">
+    <h2>Las 21 ánimas</h2>
+    <p class="mt-3 max-w-2xl text-tenue">Cada ánima tiene una identidad, sus tres evidencias y un Espanto propio. La frase en cursiva es la leyenda impresa en su carta.</p>
+    <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {identidades.map((c) => { const es = espantoDe(c.id); const ley = leyendaDe(c); return (
+        <li class="tarjeta flex flex-col gap-3">
+          <h3>{c.nombre}</h3>
+          <div class="flex gap-3">
+            <Carta src={imagenDe(c)} alt={`Identidad: ${c.nombre}`} ancho={110} pie="Identidad" />
+            <Carta src={imagenDe(es)} alt={`Espanto: ${es.nombre}`} ancho={110} pie={`Espanto · ${es.nombre}`} />
+          </div>
+          <p class="flex flex-wrap gap-1.5">{c.evidencias?.map((e) => <Evidencia nombre={e} />)}</p>
+          <p class="text-sm"><b>{es.nombre}.</b> <span class="text-tenue">{es.uso}</span></p>
+          {ley && <blockquote class="leyenda border-l-2 border-oro pl-3 text-sm">{ley}</blockquote>}
+        </li>
+      ); })}
+    </ul>
+  </section>
+</Base>

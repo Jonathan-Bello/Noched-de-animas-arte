@@ -1,0 +1,10 @@
+---
+interface Props { antetitulo?: string; titulo: string; entrada?: string }
+const { antetitulo, titulo, entrada } = Astro.props;
+---
+<header class="contenedor pt-12 sm:pt-16">
+  {antetitulo && <p class="antetitulo">{antetitulo}</p>}
+  <h1 class="mt-2">{titulo}</h1>
+  {entrada && <p class="mt-4 max-w-2xl text-lg text-tenue">{entrada}</p>}
+  <slot />
+</header>

@@ -1,0 +1,10 @@
+---
+import { iconoEvidencia } from "../lib/datos";
+import { url } from "../lib/url";
+interface Props { nombre: string }
+const { nombre } = Astro.props;
+---
+<span class="inline-flex items-center gap-1.5 rounded-full bg-crema-carta/10 px-2.5 py-1 text-xs text-crema">
+  <img src={url(iconoEvidencia(nombre))} alt="" aria-hidden="true" width="16" height="16" class="size-4 rounded-sm bg-crema-carta p-px" />
+  {nombre}
+</span>

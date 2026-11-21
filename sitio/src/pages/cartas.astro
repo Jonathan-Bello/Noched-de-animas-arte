@@ -1,0 +1,133 @@
+---
+import Base from "../layouts/Base.astro";
+import Encabezado from "../components/Encabezado.astro";
+import { cartas, reversos, imagenDe, miniatura, leyendaDe, ESTADOS, TIPOS } from "../lib/datos";
+import { url } from "../lib/url";
+
+// Una ficha por carta y por reverso. Todo se genera aquí; el script solo filtra y abre el detalle.
+const fichas = [
+  ...cartas.map((c) => ({
+    id: c.id, nombre: c.nombre, tipo: c.tipo, estado: c.estado_arte,
+    img: imagenDe(c), grande: imagenDe(c, true),
+    datos: [
+      ["Qué hace", c.uso ?? ""],
+      ["Evidencias", c.evidencias?.join(", ") ?? c.evidencia ?? ""],
+      ["Copias", String(c.cantidad)],
+      ["Reverso", c.reverso],
+      ["Mazo", c.mazo],
+      ["Expansión", c.expansion === "base" ? "" : c.expansion],
+      ["Id del juego", c.id],
+      ["Id del arte", c.id_arte ?? ""],
+    ].filter(([, v]) => v),
+    leyenda: leyendaDe(c) ?? "",
+  })),
+  ...reversos.map((r) => ({
+    id: r.id, nombre: `Reverso · ${r.nombre}`, tipo: "reverso", estado: r.estado_arte,
+    img: miniatura(r.id_arte) ?? (r.id === "rol_reverso" || r.id === "espiritu_reverso" ? `web/miniaturas/personajes/${r.id}.webp` : null),
+    grande: miniatura(r.id_arte, true),
+    datos: [["Para", r.nombre], ["Id del arte", r.id_arte ?? ""]].filter(([, v]) => v),
+    leyenda: "",
+  })),
+];
+const FILTROS = [...TIPOS.filter((t) => fichas.some((f) => f.tipo === t.id)).map((t) => ({ id: t.id, nombre: t.nombre })), { id: "reverso", nombre: "Reversos" }];
+---
+<Base titulo="Cartas" descripcion="Todas las cartas de Noche de Ánimas: qué hacen, copias, reverso y estado del arte." actual="cartas.html">
+  <Encabezado antetitulo="El mazo completo" titulo="Cartas" entrada="Abre una carta para ver qué hace, cuántas copias hay, su reverso y su estado." />
+
+  <section class="contenedor seccion">
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-end">
+      <label class="flex flex-1 flex-col gap-1 text-sm text-tenue">Buscar carta
+        <input id="busqueda" type="search" placeholder="Nombre, id o tipo" autocomplete="off"
+          class="rounded-lg border border-linea bg-superficie px-3 py-2 text-crema placeholder:text-tenue/60" />
+      </label>
+      <label class="flex flex-col gap-1 text-sm text-tenue">Estado
+        <select id="estado" class="rounded-lg border border-linea bg-superficie px-3 py-2 text-crema">
+          <option value="">Todos</option>
+          {Object.entries(ESTADOS).map(([k, v]) => <option value={k}>{v.texto}</option>)}
+        </select>
+      </label>
+    </div>
+    <div class="mt-4 flex flex-wrap gap-2" role="group" aria-label="Tipos de carta">
+      <button type="button" data-filtro="" aria-pressed="true" class="filtro">Todas</button>
+      {FILTROS.map((f) => <button type="button" data-filtro={f.id} aria-pressed="false" class="filtro">{f.nombre}</button>)}
+    </div>
+    <p id="resultados" role="status" class="mt-4 text-sm text-tenue">{fichas.length} piezas</p>
+
+    <ul id="rejilla" class="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+      {fichas.map((f) => (
+        <li data-tipo={f.tipo} data-estado={f.estado} data-texto={`${f.nombre} ${f.id} ${f.tipo}`.toLowerCase()}>
+          <button type="button" class="group w-full text-left" data-ficha={f.id}>
+            {f.img
+              ? <img src={url(f.img)} alt="" width="145" height="220" loading="lazy" decoding="async" class="aspect-[58/88] w-full rounded-md object-cover shadow-lg shadow-black/40 transition group-hover:-translate-y-1" />
+              : <div class="grid aspect-[58/88] w-full place-items-center rounded-md border border-dashed border-linea text-xs text-tenue">Sin arte</div>}
+            <span class="mt-2 block font-titulo text-sm text-crema group-hover:text-oro">{f.nombre}</span>
+            <span class="block text-xs text-tenue">{ESTADOS[f.estado].texto}</span>
+          </button>
+          <template data-detalle={f.id}>
+            <div class="grid gap-5 sm:grid-cols-[220px_1fr]">
+              {f.grande || f.img
+                ? <img src={url((f.grande ?? f.img)!)} alt={f.nombre} width="220" height="334" class="aspect-[58/88] w-full max-w-[220px] rounded-md object-cover" />
+                : <div class="grid aspect-[58/88] w-full max-w-[220px] place-items-center rounded-md border border-dashed border-linea text-xs text-tenue">Sin arte todavía</div>}
+              <div class="min-w-0">
+                <p class="antetitulo">{ESTADOS[f.estado].texto}</p>
+                <h2 class="mt-1">{f.nombre}</h2>
+                {f.leyenda && <p class="leyenda mt-2">«{f.leyenda}»</p>}
+                <dl class="mt-4 space-y-2 text-sm">
+                  {f.datos.map(([k, v]) => <div><dt class="text-tenue">{k}</dt><dd class="text-crema">{v}</dd></div>)}
+                </dl>
+              </div>
+            </div>
+          </template>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <dialog id="detalle" aria-label="Detalle de la carta" class="m-auto w-[min(44rem,calc(100vw-2rem))] rounded-2xl border border-linea bg-superficie p-6 text-crema backdrop:bg-black/70">
+    <form method="dialog" class="flex justify-end"><button class="rounded-lg border border-linea px-3 py-1 text-sm hover:border-oro" aria-label="Cerrar">Cerrar</button></form>
+    <div id="detalle-cuerpo" class="mt-2"></div>
+  </dialog>
+</Base>
+
+<style>
+  @reference "../styles/global.css";
+  .filtro { @apply rounded-full border border-linea bg-superficie px-3 py-1.5 text-sm text-crema hover:border-oro; }
+  .filtro[aria-pressed="true"] { @apply border-oro bg-oro text-noche; }
+</style>
+
+<script>
+  const items = [...document.querySelectorAll<HTMLLIElement>("#rejilla > li")];
+  const busqueda = document.querySelector<HTMLInputElement>("#busqueda")!;
+  const estado = document.querySelector<HTMLSelectElement>("#estado")!;
+  const botones = [...document.querySelectorAll<HTMLButtonElement>("[data-filtro]")];
+  const resultados = document.querySelector("#resultados")!;
+  let tipo = "";
+
+  const aplicar = () => {
+    const q = busqueda.value.trim().toLowerCase();
+    let n = 0;
+    for (const li of items) {
+      const ok = (!tipo || li.dataset.tipo === tipo) && (!estado.value || li.dataset.estado === estado.value) && (!q || li.dataset.texto!.includes(q));
+      li.hidden = !ok;
+      if (ok) n++;
+    }
+    resultados.textContent = `${n} ${n === 1 ? "pieza" : "piezas"}`;
+  };
+  botones.forEach((b) => b.addEventListener("click", () => {
+    tipo = b.dataset.filtro ?? "";
+    botones.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    aplicar();
+  }));
+  busqueda.addEventListener("input", aplicar);
+  estado.addEventListener("change", aplicar);
+
+  const dialogo = document.querySelector<HTMLDialogElement>("#detalle")!;
+  const cuerpo = document.querySelector("#detalle-cuerpo")!;
+  document.querySelectorAll<HTMLButtonElement>("[data-ficha]").forEach((b) => b.addEventListener("click", () => {
+    const t = document.querySelector<HTMLTemplateElement>(`template[data-detalle="${CSS.escape(b.dataset.ficha!)}"]`);
+    if (!t) return;
+    cuerpo.replaceChildren(t.content.cloneNode(true));
+    dialogo.showModal();
+  }));
+  dialogo.addEventListener("click", (e) => { if (e.target === dialogo) dialogo.close(); });
+</script>
