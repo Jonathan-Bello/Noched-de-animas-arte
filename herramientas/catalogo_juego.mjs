@@ -18,6 +18,7 @@ let commitJuego = "desconocido"; try { commitJuego = execSync(`git -C "${JUEGO}"
 
 const canon = JSON.parse(readFileSync(join(R, "catalogo/canon.cartas.json"), "utf8"));
 const roles = JSON.parse(readFileSync(join(R, "catalogo/seleccion_roles.json"), "utf8")).roles;
+let ilusRoles = {}; try { ilusRoles = JSON.parse(readFileSync(join(R, "catalogo/ilustraciones_roles_aprobadas.json"), "utf8")); } catch {}
 const porNombre = Object.fromEntries(canon.base.cartas.map((c) => [c.nombre, c]));
 const porId = Object.fromEntries([...canon.base.cartas, ...canon.base.reversos].map((c) => [c.id, c]));
 const EV = D.EVIDENCIAS;
@@ -52,7 +53,9 @@ const ARCHIVO_ROL = { curandera: "curandero", sensitiva: "sensitivo", padre: "de
 for (const [k, v] of Object.entries(D.ROLES)) {
   const cand = roles.find((r) => r.role_id === k);
   add({ id: `rol_${ARCHIVO_ROL[k] ?? k}`, id_motor: k, nombre: v.nombre, tipo: "rol", mazo: "roles", cantidad: 1, reverso: "rol_reverso", expansion: "testigos", uso: v.texto,
-    id_arte: null, estado_arte: cand?.estado === "requiere_rehacer_parecido" ? "requiere_correccion" : "candidato", candidato: cand?.candidato_entregado ?? null });
+    id_arte: null, candidato: cand?.candidato_entregado ?? null,
+    ...(ilusRoles[`rol_${ARCHIVO_ROL[k] ?? k}`] ? { estado_arte: "aprobado_sin_marco", ilustracion_aprobada: ilusRoles[`rol_${ARCHIVO_ROL[k] ?? k}`].ilustracion, nota: "Ilustración aprobada; falta componer la carta con marco." }
+      : { estado_arte: cand?.estado === "requiere_rehacer_parecido" ? "requiere_correccion" : "candidato" }) });
 }
 for (const k of ["rol_velar", "rol_manifestar"]) add({ id: k, nombre: k === "rol_velar" ? "Velar" : "Manifestar", tipo: "espiritu", mazo: "espiritus", cantidad: 4, reverso: "espiritu_reverso", expansion: "testigos", uso: TEXTO[k],
   id_arte: null, estado_arte: k === "rol_manifestar" ? "aprobado_sin_marco" : "candidato", nota: k === "rol_manifestar" ? "Arte original aprobado (extras_aprobados.manifestar_original); falta registrar la carta terminada." : "Valorar Velar actual o la alternativa v10 (PENDIENTES.md)." });

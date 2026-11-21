@@ -8,9 +8,8 @@ Generado con `herramientas/catalogo_juego.mjs` desde el juego (commit `a832d3a`)
 |---|---|
 | ✅ Aprobado | 99 |
 | ⬜ Falta | 2 |
-| 🔴 Rehacer | 1 |
-| 🟡 Candidato | 8 |
-| 🟡 Arte aprobado, falta carta | 1 |
+| 🟡 Arte aprobado, falta carta | 9 |
+| 🟡 Candidato | 1 |
 
 ## Mazo de investigadores
 
@@ -131,14 +130,14 @@ Generado con `herramientas/catalogo_juego.mjs` desde el juego (commit `a832d3a`)
 
 | Id juego | Id arte | Carta | Copias | Reverso | Qué hace | Arte |
 |---|---|---|---|---|---|---|
-| `rol_vigia` | — | El vigía *(testigos)* | 1 | `rol_reverso` | Cuando una carta o habilidad del ánima te haga descartar al azar, eliges tú qué cartas descartas; si te hace cambiar toda la mano, conservas 1. | 🔴 Rehacer |
-| `rol_improvisador` | — | El improvisador *(testigos)* | 1 | `rol_reverso` | Al improvisar con 2 cartas detectas con 4 o más, como una herramienta. También puedes improvisar con 1 sola carta: detectas con 5 o 6. | 🟡 Candidato |
-| `rol_tecnico` | — | El técnico *(testigos)* | 1 | `rol_reverso` | Cuando una herramienta tuya da «Nada», puedes repetir el dado pagando 1 de cordura. Una repetición por herramienta, en cada herramienta que uses. También bajo el vaso. | 🟡 Candidato |
-| `rol_detective` | — | El detective *(testigos)* | 1 | `rol_reverso` | Una vez por partida, cuando confirmes una evidencia, pregunta en voz alta por otra y el ánima responde si la tiene. En Sálvese quien pueda, solo responde si sacas 4 o más. Es una pista: no cuenta para acusar. | 🟡 Candidato |
-| `rol_curandero` | — | El curandero *(testigos)* | 1 | `rol_reverso` | Tu Té de tila cura 3 y puedes dárselo a otro investigador. | 🟡 Candidato |
-| `rol_devota` | — | La devota *(testigos)* | 1 | `rol_reverso` | Tu Rosario puede salvar a otro investigador cazado, o cancelar como Copal una carta del ánima que no sea un Espanto. | 🟡 Candidato |
-| `rol_sensitivo` | — | El sensitivo *(testigos)* | 1 | `rol_reverso` | La primera vez que el ánima revele una habilidad, sabes si es la verdadera o la falsa. Es una pista: no cuenta para acusar. | 🟡 Candidato |
-| `rol_guardaespaldas` | — | El guardaespaldas *(testigos)* | 1 | `rol_reverso` | Una vez por partida, cuando cazan a alguien sin defensa, eliges: te pones frente a otro (pierdes 2 de cordura y la cacería se detiene) o, si te cazan a ti, aguantas el golpe y te quedas sin cordura. Necesitas 2 o más. | 🟡 Candidato |
+| `rol_vigia` | — | El vigía *(testigos)* | 1 | `rol_reverso` | Cuando una carta o habilidad del ánima te haga descartar al azar, eliges tú qué cartas descartas; si te hace cambiar toda la mano, conservas 1. | 🟡 Arte aprobado, falta carta |
+| `rol_improvisador` | — | El improvisador *(testigos)* | 1 | `rol_reverso` | Al improvisar con 2 cartas detectas con 4 o más, como una herramienta. También puedes improvisar con 1 sola carta: detectas con 5 o 6. | 🟡 Arte aprobado, falta carta |
+| `rol_tecnico` | — | El técnico *(testigos)* | 1 | `rol_reverso` | Cuando una herramienta tuya da «Nada», puedes repetir el dado pagando 1 de cordura. Una repetición por herramienta, en cada herramienta que uses. También bajo el vaso. | 🟡 Arte aprobado, falta carta |
+| `rol_detective` | — | El detective *(testigos)* | 1 | `rol_reverso` | Una vez por partida, cuando confirmes una evidencia, pregunta en voz alta por otra y el ánima responde si la tiene. En Sálvese quien pueda, solo responde si sacas 4 o más. Es una pista: no cuenta para acusar. | 🟡 Arte aprobado, falta carta |
+| `rol_curandero` | — | El curandero *(testigos)* | 1 | `rol_reverso` | Tu Té de tila cura 3 y puedes dárselo a otro investigador. | 🟡 Arte aprobado, falta carta |
+| `rol_devota` | — | La devota *(testigos)* | 1 | `rol_reverso` | Tu Rosario puede salvar a otro investigador cazado, o cancelar como Copal una carta del ánima que no sea un Espanto. | 🟡 Arte aprobado, falta carta |
+| `rol_sensitivo` | — | El sensitivo *(testigos)* | 1 | `rol_reverso` | La primera vez que el ánima revele una habilidad, sabes si es la verdadera o la falsa. Es una pista: no cuenta para acusar. | 🟡 Arte aprobado, falta carta |
+| `rol_guardaespaldas` | — | El guardaespaldas *(testigos)* | 1 | `rol_reverso` | Una vez por partida, cuando cazan a alguien sin defensa, eliges: te pones frente a otro (pierdes 2 de cordura y la cacería se detiene) o, si te cazan a ti, aguantas el golpe y te quedas sin cordura. Necesitas 2 o más. | 🟡 Arte aprobado, falta carta |
 
 ## Cartas de espíritu
 
