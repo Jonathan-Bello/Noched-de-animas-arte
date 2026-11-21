@@ -44,3 +44,7 @@ El [sistema de iconos del juego](https://github.com/Jonathan-Bello/NOCHE-DE-ANIM
 **Pentagrama.** El [juego web](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/main.js) lo clasifica como objeto maldito del ánima. Usar Tarot y Espejo de obsidiana para comparar escala, materiales y tratamiento ritual. El efecto sobre el Copal informa el concepto; su pictograma de efecto no determina el emblema del encabezado. Verificar este último contra el frente de objetos malditos aprobado antes de componer. La escena final queda por definir.
 
 Las dos ilustraciones nuevas de la prueba quedan fuera de las referencias de estilo por indicación del autor. Antes de reemplazar una carta, mostrar la propuesta junto a las referencias de su familia, primero como arte y después con el marco a tamaño final. Registrar por separado aprobación de identidad, escena y carta terminada. [Pendientes artísticos](../PENDIENTES.md).
+
+## Biblioteca de iconos centralizada
+
+Consultar [el significado y uso de cada pictograma](../iconos/cartas/README.md) y [la guía visual con ejemplos](../iconos/cartas/sistema-original.html). La copia fija el commit de procedencia del juego; los recursos de encabezado originales están en `../iconos/cartas/recursos-juego/`. Los iconos de demo de contorno se conservan como historial y no sustituyen los sólidos de impresión.

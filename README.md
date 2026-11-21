@@ -4,7 +4,7 @@ Fuente de recursos gráficos, versiones y evidencia de aprobación para tres pro
 
 ## Iconos
 
-[Guía de significado y uso](iconos/README.md) · [Galería de 37 iconos](iconos/galeria.html) · [Manifiesto](iconos/manifest.json). Evidencias, defensas, tipos, UI, familias de cartas y referencias conceptuales del HUD 3D.
+[Sistema de cartas: significado y usos](iconos/cartas/README.md) · [Colecciones históricas](iconos/README.md) · [Galería de 37 iconos](iconos/galeria.html) · [Manifiesto](iconos/manifest.json). Evidencias, defensas, tipos, UI, familias de cartas y referencias conceptuales del HUD 3D.
 
 ## Qué usar
 

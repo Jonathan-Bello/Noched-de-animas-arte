@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Noche de Ánimas — sistema de iconos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3E8D2; --panel:#FFFFFF; --panel2:#EADDC2; --ink:#231A14; --muted:#6B5B49; --line:#C9B48D;
+  --vela:#B8761F; --sangre:#8A1C2B;
+  --evBg:#DCEDE9; --evLn:#8FBDB4; --evIk:#0F4A4A;
+  --peBg:#F3D9DC; --peLn:#C98F98; --peIk:#7A1322;
+  --deBg:#DCE2F3; --deLn:#93A0C9; --deIk:#22305C;
+  --caBg:#F0E4CB; --caLn:#C9AE7E; --caIk:#5E4312;
+  --obBg:#E6DCF2; --obLn:#A892C9; --obIk:#3A2550;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#191320; --panel:#221A2B; --panel2:#2C2235; --ink:#F2E7D4; --muted:#B5A48E; --line:#4A3A52;
+    --vela:#E8B055; --sangre:#C2415A;
+    --evBg:#13302E; --evLn:#2F6B62; --evIk:#9FD8CD;
+    --peBg:#35161C; --peLn:#7A3340; --peIk:#F0A3AE;
+    --deBg:#1A2140; --deLn:#3E4C84; --deIk:#AEBDF0;
+    --caBg:#332715; --caLn:#6E5529; --caIk:#EFCB8C;
+    --obBg:#281C3A; --obLn:#574279; --obIk:#D0B6EE;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#191320; --panel:#221A2B; --panel2:#2C2235; --ink:#F2E7D4; --muted:#B5A48E; --line:#4A3A52;
+  --vela:#E8B055; --sangre:#C2415A;
+  --evBg:#13302E; --evLn:#2F6B62; --evIk:#9FD8CD;
+  --peBg:#35161C; --peLn:#7A3340; --peIk:#F0A3AE;
+  --deBg:#1A2140; --deLn:#3E4C84; --deIk:#AEBDF0;
+  --caBg:#332715; --caLn:#6E5529; --caIk:#EFCB8C;
+  --obBg:#281C3A; --obLn:#574279; --obIk:#D0B6EE;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Alegreya Sans",system-ui,sans-serif;font-size:17px;line-height:1.5}
+.wrap{max-width:1120px;margin:0 auto;padding:18px 16px 90px}
+h1{font-family:"Grenze Gotisch",Georgia,serif;font-size:2.6rem;margin:.2em 0 .1em;line-height:1.04}
+h2{font-family:"Grenze Gotisch",Georgia,serif;font-size:2rem;margin:1.7em 0 .2em;border-bottom:2px solid var(--line);padding-bottom:.12em}
+p{margin:.5em 0}
+.lead{color:var(--muted);max-width:68ch}
+.muted{color:var(--muted)}
+.nota{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--vela);border-radius:11px;padding:12px 15px;margin:14px 0}
+.nota p{margin:.35em 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(252px,1fr));gap:13px;margin:14px 0}
+.ic{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px 14px;display:flex;gap:13px;align-items:flex-start}
+.ic .caja{flex:0 0 auto;width:62px;height:62px;border-radius:12px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:var(--panel2);--halo:var(--panel2)}
+.ic .caja svg{width:44px;height:44px;display:block;color:var(--ink)}
+.ic .txt{min-width:0}
+.ic b{display:block;font-size:1.06rem;line-height:1.15}
+.ic .sig{font-size:.92rem;line-height:1.3;margin-top:3px;display:block}
+.ic .uso{font-size:.84rem;color:var(--muted);line-height:1.28;margin-top:5px;display:block}
+#g-ev .caja{background:var(--evBg);border-color:var(--evLn);--halo:var(--evBg)} #g-ev .caja svg{color:var(--evIk)}
+#g-pel .caja{background:var(--peBg);border-color:var(--peLn);--halo:var(--peBg)} #g-pel .caja svg{color:var(--peIk)}
+#g-def .caja{background:var(--deBg);border-color:var(--deLn);--halo:var(--deBg)} #g-def .caja svg{color:var(--deIk)}
+#g-car .caja{background:var(--caBg);border-color:var(--caLn);--halo:var(--caBg)} #g-car .caja svg{color:var(--caIk)}
+#g-obj .caja{background:var(--obBg);border-color:var(--obLn);--halo:var(--obBg)} #g-obj .caja svg{color:var(--obIk)}
+.escala{display:flex;gap:30px;flex-wrap:wrap;align-items:flex-end;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px 16px;margin:14px 0}
+.escala .m{text-align:center}
+.escala .m .cu{margin:0 auto 8px;color:var(--ink);--halo:var(--panel)}
+.escala .m small{color:var(--muted);font-size:.82rem;display:block}
+.linea{--halo:#231A14;display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:#231A14;color:#F3E6CB;border-radius:9px;padding:10px 12px;font-size:1.06rem;font-weight:700}
+.linea svg{width:27px;height:27px;display:block;color:#F3E6CB;flex:0 0 auto}
+.linea .sep{opacity:.42;font-weight:400}
+.ejemplos{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px;margin:14px 0}
+.ej{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 13px}
+.ej .nm{font-family:"Grenze Gotisch",Georgia,serif;font-size:1.3rem;line-height:1.05;margin-bottom:8px}
+.ej .lee{font-size:.88rem;color:var(--muted);margin-top:8px;line-height:1.3}
+.tablaWrap{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;min-width:600px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:middle;font-size:.94rem}
+th{background:var(--panel2);font-weight:700}
+tr:last-child td{border-bottom:none}
+td{--halo:var(--panel)}
+td svg{width:28px;height:28px;display:block;color:var(--ink)}
+hr{border:none;border-top:1px dashed var(--line);margin:30px 0}
+@media print{body{background:#fff}.wrap{max-width:none;padding:0}h2{page-break-after:avoid}.ic,.ej{page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Sistema de iconos</h1>
+<p class="lead">Un alfabeto visual para todas las cartas de <i>Noche de Ánimas</i>, dibujado en silueta llena, que es lo único que aguanta los 5 mm que mide un icono impreso en la carta. Con estos iconos una carta dice lo que hace sin un renglón de texto.</p>
+
+<div class="nota">
+  <p><b>Cómo se dibujan.</b> Silueta llena, no línea. En papel, a 5 mm, una línea de medio punto se cierra con la tinta o desaparece con el corte; una mancha sólida siempre se ve. Retícula de 24 × 24, sin contornos, y los detalles internos se <b>calan</b>, es decir, se recortan en el relleno para que se vea el color de la carta a través de ellos: los ojos de la calavera, el más y el menos del corazón, las caras del dado. Esquinas suavizadas y un grosor mínimo de 1,8 en cualquier parte del dibujo, hueco o lleno.</p>
+  <p><b>Negar.</b> Una diagonal de abajo-izquierda a arriba-derecha sobre un icono significa «esto no sirve», y lleva un reborde del color de la carta para despegarse de la silueta que tacha. Se tacha <b>el icono concreto</b>, nunca el escudo genérico: el Rosario tachado es «el Rosario no sirve», el copal tachado es «el Copal no sirve».</p>
+  <p><b>Un icono por acción, cinco por carta.</b> Si una idea necesita dos iconos para entenderse, es que falta un icono propio para ella y hay que dibujarlo. Ninguna carta pasa de cinco iconos en su banda; si no caben, la carta hace demasiadas cosas y el problema es de reglas, no de diseño.</p>
+  <p><b>Espaciado.</b> Entre icono y cifra, medio ancho de icono; entre dos iconos de la misma acción, un ancho completo; entre dos acciones, el punto medio con un ancho a cada lado. La banda va centrada y con 2 mm de aire arriba y abajo.</p>
+  <p><b>Las cifras.</b> Van pegadas a la derecha del icono, a la misma altura, nunca dentro del dibujo: <b>1</b> para cantidades, <b>4+</b> para «4 o más» en el dado, <b>4−</b> para «4 o menos» de cordura.</p>
+  <p><b>El orden de lectura.</b> Izquierda a derecha, como una frase: a quién le pasa, qué cuesta, qué se tira, qué resulta. El punto medio separa los momentos.</p>
+</div>
+
+<h2>Evidencias</h2>
+<p class="lead">El vocabulario del misterio, y los únicos con color propio. El mismo símbolo aparece en cuatro lugares: la herramienta que la busca, la carta de evidencia, las identidades del ánima y el bloc de deducción.</p>
+<div class="grid" id="g-ev"></div>
+
+<h2>Peligro</h2>
+<p class="lead">Rojos. Son los únicos que anuncian muerte, así que tienen la silueta más agresiva del juego y no se parecen a nada más.</p>
+<div class="grid" id="g-pel"></div>
+
+<h2>Protección</h2>
+<p class="lead">Azules. Todo lo que salva o estorba al ánima parte del escudo, para que se lean como una familia.</p>
+<div class="grid" id="g-def"></div>
+
+<h2>Cartas y cordura</h2>
+<p class="lead">Dorados. Lo que se gana, se pierde, se roba o se descarta.</p>
+<div class="grid" id="g-car"></div>
+
+<h2>Objetivos y momentos</h2>
+<p class="lead">Morados. A quién le pasa y cuándo pasa.</p>
+<div class="grid" id="g-obj"></div>
+
+<h2>Prueba de tamaño</h2>
+<p class="lead">Los mismos dos iconos a los cuatro tamaños que tendrán impresos. El último equivale a 5 mm en la carta; si se entiende ahí, funciona.</p>
+<div class="escala" id="escala"></div>
+
+<h2>Cartas armadas solo con iconos</h2>
+<p class="lead">Así queda la banda de cada carta sin una línea de texto. Ninguna pasa de cinco iconos. Debajo, en gris, lo que debe entender quien la lee.</p>
+<div class="ejemplos" id="ejemplos"></div>
+
+<h2>Tabla completa</h2>
+<div class="tablaWrap"><table>
+<thead><tr><th>Icono</th><th>Nombre</th><th>Qué dibuja</th><th>Qué significa</th></tr></thead>
+<tbody id="tabla"></tbody>
+</table></div>
+
+<hr>
+<p class="muted">Noche de Ánimas · sistema de iconos · retícula 24 × 24, trazo 1,8, puntas redondeadas</p>
+</div>
+
+<script>
+const S=(d,extra)=>'<svg viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"'+(extra||'')+'>'+d+'</svg>';
+// hueco circular y hueco rectangular, para recortar dentro de una figura llena
+const hc=(x,y,r)=>'M'+(x-r)+' '+y+'a'+r+' '+r+' 0 1 0 '+(2*r)+' 0a'+r+' '+r+' 0 1 0 '+(-2*r)+' 0Z';
+const hr=(x,y,w,h)=>'M'+x+' '+y+'h'+w+'v'+h+'h'+(-w)+'Z';
+
+const tach=(d)=>d+'<rect class="halo" x="1.1" y="9.8" width="21.8" height="4.4" rx="2.2" transform="rotate(-45 12 12)" stroke="var(--halo,#fff)" stroke-width="2.6"/>'
+ +'<rect x="2.4" y="10.8" width="19.2" height="2.4" rx="1.2" transform="rotate(-45 12 12)"/>';
+// zarpazo: ancho arriba, en punta abajo, inclinado como un manotazo de derecha
+const zarpa=(x,y0,y1,w,dx)=>'M'+x+' '+y0+'Q'+(x+dx*.45)+' '+(y0+(y1-y0)*.52)+' '+(x+dx)+' '+y1
+  +'Q'+(x+w+dx*.3)+' '+(y0+(y1-y0)*.46)+' '+(x+w)+' '+y0+'Z';
+
+const EV=[
+ ["Bajo cero","Un termómetro junto a un copo de nieve.","El aire se enfría de golpe. La busca el Termómetro.",
+  '<path d="M4.4 4.2a2.6 2.6 0 015.2 0v8.9a4.4 4.4 0 11-5.2 0z"/>'
+  +'<g transform="rotate(0 17 8.4)"><rect x="16.1" y="2.2" width="1.8" height="12.4" rx=".9"/></g>'
+  +'<g transform="rotate(60 17 8.4)"><rect x="16.1" y="2.2" width="1.8" height="12.4" rx=".9"/></g>'
+  +'<g transform="rotate(120 17 8.4)"><rect x="16.1" y="2.2" width="1.8" height="12.4" rx=".9"/></g>'],
+ ["Huellas de ceniza","Dos pisadas descalzas.","Alguien caminó donde no había nadie. La busca la Lámpara UV.",
+  '<ellipse cx="6.6" cy="7.6" rx="3" ry="4.2"/><ellipse cx="7.2" cy="13.6" rx="2.3" ry="2.6"/>'
+  +'<circle cx="3.4" cy="4" r=".95"/><circle cx="5.6" cy="2.8" r=".95"/><circle cx="8" cy="2.8" r=".95"/><circle cx="10" cy="3.8" r=".9"/>'
+  +'<ellipse cx="16.8" cy="13.4" rx="2.8" ry="3.9"/><ellipse cx="17.4" cy="19" rx="2.1" ry="2.4"/>'
+  +'<circle cx="13.8" cy="10" r=".9"/><circle cx="15.9" cy="8.9" r=".9"/><circle cx="18.1" cy="8.9" r=".9"/><circle cx="20" cy="9.8" r=".85"/>'],
+ ["Susurros","Una boca entreabierta y el sonido saliendo.","Voces que la cinta capta y el oído no. La busca la Grabadora.",
+  '<path d="M2.6 12.3C5 8.9 7.6 7.2 10 7.2s5 1.7 7.4 5.1c-2.4 3.4-5 5.1-7.4 5.1S5 15.7 2.6 12.3z'+hr(6.2,11.4,7.6,1.8)+'"/>'
+  +'<path d="M19.1 7.9a1.1 1.1 0 011.7-1.4 8.9 8.9 0 010 11.6 1.1 1.1 0 11-1.7-1.4 6.7 6.7 0 000-8.8z"/>'],
+ ["Objetos movidos","Una silla que se cae.","Las cosas cambian de lugar solas. La busca la Cámara de movimiento.",
+  '<g transform="rotate(26 13 13)"><rect x="9.4" y="2.6" width="2.4" height="10.6" rx="1.2"/>'
+  +'<rect x="8.6" y="11.4" width="10.2" height="2.5" rx="1.2"/><rect x="9.4" y="13.6" width="2.3" height="7.4" rx="1.1"/><rect x="15.7" y="13.6" width="2.3" height="7.4" rx="1.1"/></g>'
+  +'<rect x="1.4" y="6.4" width="5.2" height="1.9" rx=".95" transform="rotate(-18 4 7.4)"/><rect x="1" y="11" width="4" height="1.9" rx=".95" transform="rotate(-18 3 12)"/>'],
+ ["Luces parpadeantes","Un foco encendido, con sus destellos.","La electricidad responde a algo. La busca el Detector EMF.",
+  '<path d="M12 4.6a6.2 6.2 0 013.6 11.2c-.5.4-.9 1-.9 1.6v.8H9.3v-.8c0-.6-.4-1.2-.9-1.6A6.2 6.2 0 0112 4.6z'+hr(11,7.6,2,3.2)+hr(9.2,10.8,5.6,1.9)+'"/>'
+  +'<rect x="9.1" y="19.4" width="5.8" height="1.9" rx=".95"/><rect x="9.9" y="21.8" width="4.2" height="1.9" rx=".95"/>'
+  +'<rect x="11.1" y="0" width="1.8" height="3.4" rx=".9"/>'
+  +'<rect x="11.1" y="0" width="1.8" height="3.4" rx=".9" transform="rotate(-42 12 10.8)"/>'
+  +'<rect x="11.1" y="0" width="1.8" height="3.4" rx=".9" transform="rotate(42 12 10.8)"/>'
+  +'<rect x="11.1" y="0" width="1.8" height="3.4" rx=".9" transform="rotate(-72 12 10.8)"/>'
+  +'<rect x="11.1" y="0" width="1.8" height="3.4" rx=".9" transform="rotate(72 12 10.8)"/>'],
+ ["Marcas en el espejo","Una palma marcada dentro del espejo.","Alguien escribe desde el otro lado. La busca el Espejo de mano.",
+  '<path d="M12 .8a11.2 11.2 0 100 22.4 11.2 11.2 0 000-22.4z'+hc(12,12,8.6)+'"/>'
+  +'<rect x="9.1" y="5.6" width="1.9" height="7" rx=".95"/><rect x="11.4" y="4.8" width="1.9" height="7.8" rx=".95"/>'
+  +'<rect x="13.7" y="5.6" width="1.9" height="7" rx=".95"/><rect x="15.9" y="7" width="1.9" height="5.8" rx=".95"/>'
+  +'<rect x="6.3" y="8.2" width="1.9" height="5.4" rx=".95" transform="rotate(-26 7.2 10.9)"/>'
+  +'<path d="M8.6 10.6h8.4a1 1 0 011 1v2.6a4.6 4.6 0 01-4.6 4.6h-1.2a4.6 4.6 0 01-4.6-4.6v-2.6a1 1 0 011-1z"/>'],
+ ["Olor a azufre","La voluta de humo del catálogo.","El aire huele a cerillo quemado. La busca el Sensor de gases.",
+  '<path d="M6.6 5.2C8.8 2 13.6 1.4 16.4 3.6c2.4 1.9 2 5-.8 6.6-2.2 1.3-5 1.9-6.6 3-2.4 1.6-2.2 4.2.4 5.3 2.2.9 4.8.3 6.6-1.4" fill="none" stroke="currentColor" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round"/>']
+];
+
+const PEL=[
+ ["Cacería","El zarpazo de tres garras.","El ánima ataca a un investigador con 4 o menos de cordura. Si no se defiende, muere.",
+  '<path d="'+zarpa(1.6,2.6,19.4,3.9,3.2)+'"/>'
+  +'<path d="'+zarpa(8.5,1.2,21.2,4.1,3.4)+'"/>'
+  +'<path d="'+zarpa(15.8,2.6,19.4,3.9,3.2)+'"/>'],
+ ["Cacería colectiva","El zarpazo sobre un grupo.","Ataca a la vez a todos los que estén al alcance; cada uno se defiende por separado.",
+  '<circle cx="7" cy="14.6" r="2.7"/><path d="M2.2 23.4a4.8 4.8 0 019.6 0z"/>'
+  +'<circle cx="17" cy="14.6" r="2.7"/><path d="M12.2 23.4a4.8 4.8 0 019.6 0z"/>'
+  +'<circle cx="12" cy="13" r="3"/><path d="M6.6 22.6a5.4 5.4 0 0110.8 0z"/>'
+  +'<path d="'+zarpa(1.6,.6,12.4,3.5,2.8)+'"/>'
+  +'<path d="'+zarpa(8.8,0,13.6,3.6,2.9)+'"/>'
+  +'<path d="'+zarpa(16,.6,12.4,3.5,2.8)+'"/>'],
+ ["Espanto","La calavera del ánima.","Su ataque final: se usa una sola vez y la revela ante todos.",
+  '<path d="M12 1.6a8.4 8.4 0 00-8.4 8.4c0 2.7 1.3 4.4 2.3 5.5.5.6.9 1.2.9 1.9v1.5h10.4V17.4c0-.7.4-1.3.9-1.9 1-1.1 2.3-2.8 2.3-5.5A8.4 8.4 0 0012 1.6z'
+  +hc(8.6,9.8,2.2)+hc(15.4,9.8,2.2)+'M12 12.6l1.3 2.6h-2.6z"/>'
+  +'<rect x="6.6" y="19.8" width="2.6" height="3.4" rx="1.1"/><rect x="10.7" y="19.8" width="2.6" height="3.4" rx="1.1"/><rect x="14.8" y="19.8" width="2.6" height="3.4" rx="1.1"/>'],
+ ["Muerte","Una lápida.","Ese investigador murió: ahora es un espíritu y ya no puede hablar.",
+  '<path d="M12 1.8c4 0 7.2 3.2 7.2 7.2v10.4H4.8V9c0-4 3.2-7.2 7.2-7.2z'+hr(10.8,6,2.4,8.4)+hr(8.2,8.6,7.6,2.4)+'"/>'
+  +'<rect x="2.2" y="20.4" width="19.6" height="2.4" rx="1.2"/>']
+];
+
+const DEF=[
+ ["Defensa","Un escudo.","Una defensa cualquiera. Se usa cuando la carta no distingue cuál.",
+  '<path d="M12 1.6l8.8 3.5v6.2c0 5.3-3.7 9.9-8.8 11.1-5.1-1.2-8.8-5.8-8.8-11.1V5.1z"/>'],
+ ["Reacción","Un escudo con un rayo.","No se juega en tu turno: se juega en el momento exacto en que el ánima actúa.",
+  '<path d="M12 1.6l8.8 3.5v6.2c0 5.3-3.7 9.9-8.8 11.1-5.1-1.2-8.8-5.8-8.8-11.1V5.1zM13.9 6.4L8.8 12.9h3.3l-2 5.2 5.1-6.8h-3.4z"/>'],
+ ["Rosario","Un círculo de cuentas con su cruz.","La defensa de los rezos. Tachado significa que el Rosario no sirve.",
+  '<circle cx="12.00" cy="2.00" r="1.35"/><circle cx="15.88" cy="3.26" r="1.35"/><circle cx="18.28" cy="6.56" r="1.35"/><circle cx="18.28" cy="10.64" r="1.35"/><circle cx="15.88" cy="13.94" r="1.35"/><circle cx="12.00" cy="15.20" r="1.35"/><circle cx="8.12" cy="13.94" r="1.35"/><circle cx="5.72" cy="10.64" r="1.35"/><circle cx="5.72" cy="6.56" r="1.35"/><circle cx="8.12" cy="3.26" r="1.35"/><rect x="10.9" y="15.8" width="2.2" height="7.4" rx="1.1"/><rect x="8.2" y="17.6" width="7.6" height="2.2" rx="1.1"/>'],
+ ["Esconderse","Una figura detrás de una puerta.","Te salvas escondiéndote, pero el siguiente turno no usas herramientas.",
+  '<circle cx="7.4" cy="7.6" r="3.2"/><path d="M1.4 20.6a6 6 0 0112 0z"/>'
+  +'<path d="M13.6 1.6h7.2a1.6 1.6 0 011.6 1.6v17.6a1.6 1.6 0 01-1.6 1.6h-7.2z'+hc(16,12.4,1.3)+'"/>'],
+ ["Ultraje espiritual","Un grito.","La mentada que espanta al ánima. Cancela la cacería, pero el ánima roba.",
+  '<path d="M12 .8l2.7 4.1 4.6-1.9-1 4.9 4.9.8-3.6 3.4 3.6 3.4-4.9.8 1 4.9-4.6-1.9L12 23.4l-2.7-4.1-4.6 1.9 1-4.9-4.9-.8L4.4 12 .8 8.6l4.9-.8-1-4.9 4.6 1.9z'
+  +hr(10.9,6.6,2.2,7.2)+hc(12,17.4,1.5)+'"/>'],
+ ["Protegido","Un ramo de ruda colgado del dintel.","Hasta tu siguiente turno el ánima no puede elegirte ni cazarte.",
+  '<rect x="2.8" y="2.4" width="18.4" height="2.4" rx="1.2"/><rect x="11" y="4.4" width="2" height="17.4" rx="1"/>'
+  +'<ellipse cx="7.8" cy="8.4" rx="3.6" ry="2.2" transform="rotate(-24 7.8 8.4)"/><ellipse cx="16.2" cy="8.4" rx="3.6" ry="2.2" transform="rotate(24 16.2 8.4)"/>'
+  +'<ellipse cx="7.4" cy="13.6" rx="3.4" ry="2.1" transform="rotate(-24 7.4 13.6)"/><ellipse cx="16.6" cy="13.6" rx="3.4" ry="2.1" transform="rotate(24 16.6 13.6)"/>'
+  +'<ellipse cx="8.4" cy="18.4" rx="3" ry="1.9" transform="rotate(-24 8.4 18.4)"/><ellipse cx="15.6" cy="18.4" rx="3" ry="1.9" transform="rotate(24 15.6 18.4)"/>'],
+ ["Copal","El sahumerio con su humo.","Cualquier investigador lo juega para cancelar una carta del ánima.",
+  '<path d="M5 12.8h14l-1.7 5.2c-.3 1-1.2 1.7-2.3 1.7H9c-1.1 0-2-.7-2.3-1.7z"/>'
+  +'<rect x="3.2" y="10.6" width="17.6" height="2.3" rx="1.15"/>'
+  +'<rect x="10.8" y="19.4" width="2.4" height="2.2" rx=".6"/><rect x="6.8" y="21.2" width="10.4" height="2.3" rx="1.15"/>'
+  +'<path d="M9.4 8.6c2.2-1.9 2.2-3.8.4-5.6M14.6 8.6c2.2-1.9 2.2-3.8.4-5.6" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>'],
+ ["Tachado","La diagonal sobre cualquier icono.","Niega ese icono: aquí, «el Rosario no sirve». Nunca se dibuja sola ni sobre el escudo genérico.",
+  tach('<circle cx="12.00" cy="2.00" r="1.35"/><circle cx="15.88" cy="3.26" r="1.35"/><circle cx="18.28" cy="6.56" r="1.35"/><circle cx="18.28" cy="10.64" r="1.35"/><circle cx="15.88" cy="13.94" r="1.35"/><circle cx="12.00" cy="15.20" r="1.35"/><circle cx="8.12" cy="13.94" r="1.35"/><circle cx="5.72" cy="10.64" r="1.35"/><circle cx="5.72" cy="6.56" r="1.35"/><circle cx="8.12" cy="3.26" r="1.35"/><rect x="10.9" y="15.8" width="2.2" height="7.4" rx="1.1"/><rect x="8.2" y="17.6" width="7.6" height="2.2" rx="1.1"/>')]
+];
+
+const HEART='M12 21.6C12 21.6 2.6 15.6 2.6 9.4A4.9 4.9 0 0112 7.2a4.9 4.9 0 019.4 2.2c0 6.2-9.4 12.2-9.4 12.2z';
+const CARD=(x,y,w,h,r)=>'M'+(x+r)+' '+y+'h'+(w-2*r)+'a'+r+' '+r+' 0 01'+r+' '+r+'v'+(h-2*r)+'a'+r+' '+r+' 0 01'+(-r)+' '+r+'h'+(-(w-2*r))+'a'+r+' '+r+' 0 01'+(-r)+' '+(-r)+'v'+(-(h-2*r))+'a'+r+' '+r+' 0 01'+r+' '+(-r)+'Z';
+
+const CAR=[
+ ["Cordura","Un corazón lleno.","La luz que te queda. Empiezas con 10; con 4 o menos te pueden cazar.",
+  '<path d="'+HEART+'"/>'],
+ ["Ganas cordura","Un corazón con un más calado.","Te calmas: recuperas los puntos que diga la cifra.",
+  '<path d="'+HEART+hr(10.7,8.9,2.6,6.6)+hr(8.7,10.9,6.6,2.6)+'"/>'],
+ ["Pierdes cordura","El mismo corazón con un menos calado.","El susto te quiebra: pierdes los puntos que diga la cifra.",
+  '<path d="'+HEART+hr(8.7,10.9,6.6,2.6)+'"/>'],
+ ["Robas carta","Una carta rectangular que sube del mazo.","Tomas del mazo la cantidad que diga la cifra.",
+  '<path d="'+CARD(2.6,9.4,9.6,12.8,1.6)+'"/>'
+  +'<path d="M16.6 22.2V10.6h-3L18 3.4l4.4 7.2h-3v11.6z"/>'],
+ ["Descarte al azar","Una carta con un signo de pregunta que cae.","No eliges: muestras tu mano por el reverso y el ánima escoge cuál se va.",
+  '<path d="'+CARD(2.6,1.8,9.6,12.8,1.6)+'M7.4 4.2a3 3 0 00-3 3 1.1 1.1 0 002.2 0 .8.8 0 111.6 0c0 .4-.2.6-.6.9-.6.4-1.1 1-1.1 2v.5a1.1 1.1 0 002.2 0c0-.5.2-.7.6-1 .6-.4 1.1-1.1 1.1-2.4a3 3 0 00-3-3zM7.4 13.4a1.2 1.2 0 100-2.4 1.2 1.2 0 000 2.4z"/>'
+  +'<path d="M16.6 1.8v11.6h-3L18 20.6l4.4-7.2h-3V1.8z"/>'],
+ ["Descartas la mano","Tres cartas en abanico cayendo.","Sueltas todo tu equipo al descarte.",
+  '<g transform="translate(0,-1.6)"><path d="'+CARD(2,5.6,7.4,10.4,1.4)+'" transform="rotate(-22 5.7 10.8)"/>'
+  +'<path d="'+CARD(14.6,5.6,7.4,10.4,1.4)+'" transform="rotate(22 18.3 10.8)"/>'
+  +'<path d="'+CARD(8.3,4.4,7.4,10.8,1.4)+'"/></g>'
+  +'<path d="M12 23.2a1 1 0 01-.8-.4l-3.4-4.2a1 1 0 01.8-1.6h6.8a1 1 0 01.8 1.6l-3.4 4.2a1 1 0 01-.8.4z"/>'],
+ ["Mazo","Cartas apiladas.","El mazo de la noche. Cuando se acaba, aparece el Alba.",
+  '<path d="'+CARD(6.6,6.6,12.6,14.4,1.8)+'"/><path d="M5.2 4.4h10.4a1.1 1.1 0 010 2.2H6.6a.4.4 0 00-.4.4v11a1.1 1.1 0 01-2.2 0V5.5a1.1 1.1 0 011.2-1.1z"/>'],
+ ["Pierdes el equipo","Una carta tachada.","Esa carta o ese equipo se va del juego.",
+  '<path d="'+CARD(5.4,3.4,13.2,17.2,1.8)+'"/>'
+  +'<rect class="halo" x="1.1" y="9.8" width="21.8" height="4.4" rx="2.2" transform="rotate(-45 12 12)" stroke="var(--halo,#fff)" stroke-width="2.6"/>'
+  +'<rect x="2.4" y="10.8" width="19.2" height="2.4" rx="1.2" transform="rotate(-45 12 12)"/>']
+];
+
+const PERSON=(cx,cy,s)=>'<circle cx="'+cx+'" cy="'+(cy-4.4*s)+'" r="'+(2.9*s)+'"/>'
+ +'<path d="M'+(cx-5*s)+' '+(cy+6.2*s)+'a'+(5*s)+' '+(5.8*s)+' 0 0 1 '+(10*s)+' 0z"/>';
+const FLECHA_AB='M10.4 6h3.2v7h3.2L12 18.6 7.2 13h3.2Z';
+const FLECHA_AR='M10.4 18.6h3.2v-7h3.2L12 6 7.2 11.6h3.2Z';
+const OBJ=[
+ ["Un investigador","Una figura.","El ánima elige a uno solo.",
+  PERSON(12,11,1.5)],
+ ["Todos","Tres figuras juntas.","Les pasa a todos los investigadores vivos a la vez.",
+  PERSON(4.8,11.6,.95)+PERSON(19.2,11.6,.95)+PERSON(12,10.4,1.25)],
+ ["El de menos cordura","Una figura con el corazón bajando.","Le toca a quien peor está.",
+  PERSON(6.4,11.6,1.1)+'<g transform="translate(10.6,4.2) scale(.56)"><path d="'+HEART+FLECHA_AB+'"/></g>'],
+ ["El de más cordura","Una figura con el corazón subiendo.","Le toca a quien mejor está.",
+  PERSON(6.4,11.6,1.1)+'<g transform="translate(10.6,4.2) scale(.56)"><path d="'+HEART+FLECHA_AR+'"/></g>'],
+ ["Tirada de dado","Un dado de seis caras.","Tiras y comparas con la cifra: 4+ en las herramientas, 5+ en el Kit de campo.",
+  '<path d="M6 2.6h12a3.4 3.4 0 013.4 3.4v12a3.4 3.4 0 01-3.4 3.4H6a3.4 3.4 0 01-3.4-3.4V6A3.4 3.4 0 016 2.6z'
+  +hc(8,8,1.75)+hc(16,8,1.75)+hc(8,16,1.75)+hc(16,16,1.75)+'"/>'],
+ ["Herramienta","Una lupa.","Esta carta investiga: cuesta cordura y pide dado.",
+  '<path d="M10.4 2.4a8 8 0 100 16 8 8 0 000-16z'+hc(10.4,10.4,5.1)+'"/>'
+  +'<rect x="15.2" y="16.6" width="7.4" height="3.2" rx="1.6" transform="rotate(45 18.9 18.2)"/>'],
+ ["Evidencia confirmada","Una casilla palomeada.","El ánima dijo que sí y te entrega la carta de esa evidencia.",
+  '<path d="M6 2.6h12a3.4 3.4 0 013.4 3.4v12a3.4 3.4 0 01-3.4 3.4H6a3.4 3.4 0 01-3.4-3.4V6A3.4 3.4 0 016 2.6zM17 8.3a1.3 1.3 0 00-1.9 0l-4.5 4.9-1.7-1.8a1.3 1.3 0 00-1.9 1.8l2.6 2.8a1.3 1.3 0 001.9 0l5.5-5.9a1.3 1.3 0 000-1.8z"/>'],
+ ["Evidencia a elegir","La misma casilla, con un signo de pregunta.","Tú decides qué evidencia buscar: es el comodín del Kit de campo.",
+  '<path d="M6 2.6h12a3.4 3.4 0 013.4 3.4v12a3.4 3.4 0 01-3.4 3.4H6a3.4 3.4 0 01-3.4-3.4V6A3.4 3.4 0 016 2.6zM12 5.6a4 4 0 00-4 4 1.4 1.4 0 002.8 0 1.2 1.2 0 112.4 0c0 .6-.3.9-.9 1.3-.8.5-1.7 1.3-1.7 2.9v.5a1.4 1.4 0 002.8 0c0-.7.3-1 .9-1.4.8-.6 1.7-1.5 1.7-3.3a4 4 0 00-4-4zM12 19.2a1.6 1.6 0 100-3.2 1.6 1.6 0 000 3.2z"/>'],
+ ["Pista","Un ojo entreabierto.","Sabes que la tiene, pero no cuenta para acusar hasta confirmarla.",
+  '<path d="M12 5.6c4 0 7.8 2.3 10.8 6.6-3 4.3-6.8 6.6-10.8 6.6S4.2 16.5 1.2 12.2C4.2 7.9 8 5.6 12 5.6z'+hc(12,12.2,3.4)+'"/>'],
+ ["Espíritu","Un ánima pequeña.","Habla el muerto: solo puede responder sí, no o tal vez.",
+  '<path d="M12 1.6a6.6 6.6 0 00-6.6 6.6v13.4c0 .7.8 1.1 1.4.7l2-1.6 2 1.6c.4.3 1 .3 1.4 0l2-1.6 2 1.6c.6.4 1.4 0 1.4-.7V8.2A6.6 6.6 0 0012 1.6z'
+  +hc(9.4,8.4,1.6)+hc(14.6,8.4,1.6)+'"/>'],
+ ["Acusación","Un dedo que señala.","Dicen en voz alta qué ánima creen que es. Una sola oportunidad.",
+  '<path d="M9.4 2.4a2 2 0 012 2v6.8a2 2 0 012.9-.4 2 2 0 013 .5 2 2 0 012.9 1.8v3c0 3.4-2.7 6.1-6.1 6.1h-2.5c-1.9 0-3.6-1-4.5-2.6l-2.7-4.6a2 2 0 013.4-1.9l1 1.6V4.4a2 2 0 012-2z"/>'],
+ ["Ronda","Una flecha que vuelve a su sitio.","Dura hasta que vuelva a tocarte el turno.",
+  '<path d="M12 3.2a8.8 8.8 0 018.8 8.8 8.8 8.8 0 01-8.8 8.8 1.4 1.4 0 010-2.8 6 6 0 10-6-6 1.4 1.4 0 01-2.8 0A8.8 8.8 0 0112 3.2z"/>'
+  +'<path d="M10.2 10.6l-5 4.2a.8.8 0 01-1.3-.5l-.7-6.5a.8.8 0 011.2-.8l5.7 2.3a.8.8 0 01.1 1.3z"/>'],
+ ["El Alba","El sol saliendo tras el horizonte.","Se acabó la noche: cacería gratis del ánima y acusación final.",
+  '<path d="M12 7.4a7.2 7.2 0 016.9 5.2H5.1A7.2 7.2 0 0112 7.4z"/>'
+  +'<rect x="11" y="1" width="2" height="4.2" rx="1"/>'
+  +'<rect x="3.2" y="4.2" width="2" height="4.2" rx="1" transform="rotate(-38 4.2 6.3)"/>'
+  +'<rect x="18.8" y="4.2" width="2" height="4.2" rx="1" transform="rotate(38 19.8 6.3)"/>'
+  +'<rect x="1.4" y="14.4" width="21.2" height="2.2" rx="1.1"/>'
+  +'<rect x="3.6" y="18.4" width="7.2" height="2.2" rx="1.1"/><rect x="13.2" y="18.4" width="7.2" height="2.2" rx="1.1"/>']
+];
+
+const GRUPOS={"g-ev":EV,"g-pel":PEL,"g-def":DEF,"g-car":CAR,"g-obj":OBJ};
+const NOMG={"g-ev":"Evidencia","g-pel":"Peligro","g-def":"Protección","g-car":"Cartas y cordura","g-obj":"Objetivos y momentos"};
+for(const k in GRUPOS){
+  document.getElementById(k).innerHTML=GRUPOS[k].map(function(x){
+    return '<div class="ic"><span class="caja">'+S(x[3])+'</span><span class="txt"><b>'+x[0]+'</b><span class="sig">'+x[1]+'</span><small class="uso">'+x[2]+'</small></span></div>';
+  }).join("");
+}
+
+const dim=[[58,"58 px · portada"],[34,"34 px · encabezado"],[26,"26 px · banda de la carta"],[18,"18 px ≈ 5 mm impreso"]];
+document.getElementById("escala").innerHTML=
+ dim.map(function(d){return '<div class="m"><div class="cu" style="width:'+d[0]+'px;height:'+d[0]+'px">'+S(PEL[0][3])+'</div><small>'+d[1]+'</small></div>'}).join("")
+ +dim.map(function(d){return '<div class="m"><div class="cu" style="width:'+d[0]+'px;height:'+d[0]+'px">'+S(EV[5][3])+'</div><small>'+d[1]+'</small></div>'}).join("");
+
+function ico(arr,n){for(var i=0;i<arr.length;i++)if(arr[i][0]===n)return S(arr[i][3]);return""}
+function crudo(arr,n){for(var i=0;i<arr.length;i++)if(arr[i][0]===n)return arr[i][3];return""}
+function tachado(arr,n){return S(tach(crudo(arr,n)))}
+const EJ=[
+ ["Termómetro",[ico(CAR,"Pierdes cordura"),"1","·",ico(OBJ,"Tirada de dado"),"4+","·",ico(EV,"Bajo cero")],
+  "Pagas 1 de cordura, tiras el dado y con 4 o más confirmas Bajo cero."],
+ ["Kit de campo",[ico(OBJ,"Evidencia a elegir"),"·",ico(CAR,"Pierdes cordura"),"1","·",ico(OBJ,"Tirada de dado"),"5+"],
+  "Eliges la evidencia, pagas 1 de cordura y confirmas solo con 5 o 6."],
+ ["Té de tila",[ico(CAR,"Ganas cordura"),"2"],"Recuperas 2 de cordura."],
+ ["Respirar hondo",[ico(CAR,"Ganas cordura"),"1","·",ico(CAR,"Robas carta"),"1"],"Recuperas 1 de cordura y robas 1 carta."],
+ ["Rosario",[ico(DEF,"Reacción"),"·",tachado(PEL,"Cacería")],"Reacción: cancela la cacería que viene hacia ti."],
+ ["Esconderse",[ico(DEF,"Reacción"),"·",tachado(PEL,"Cacería"),"·",tachado(OBJ,"Herramienta"),ico(OBJ,"Ronda")],
+  "Cancela la cacería, pero tu siguiente turno no usas herramientas."],
+ ["Ultraje espiritual",[ico(DEF,"Reacción"),"·",tachado(PEL,"Cacería"),"·",ico(PEL,"Espanto"),ico(CAR,"Robas carta"),"1"],
+  "Cancela la cacería, pero el ánima roba 1 carta."],
+ ["Ruda",[ico(DEF,"Protegido"),"·",ico(OBJ,"Ronda")],"Hasta tu siguiente turno el ánima no puede elegirte ni cazarte."],
+ ["Copal",[ico(DEF,"Reacción"),"·",tachado(CAR,"Mazo")],"Reacción: cancela una carta del ánima."],
+ ["Escalofrío",[ico(OBJ,"Todos"),"·",ico(CAR,"Pierdes cordura"),"1"],"Todos los investigadores pierden 1 de cordura."],
+ ["Manifestación",[ico(OBJ,"Un investigador"),"·",ico(CAR,"Pierdes cordura"),"2"],"Elige a un investigador: pierde 2 de cordura."],
+ ["Portazo",[ico(OBJ,"Todos"),"·",ico(CAR,"Descarte al azar"),"1"],"Cada investigador descarta 1 carta al azar."],
+ ["Posesión demoníaca",[ico(OBJ,"Un investigador"),"·",ico(CAR,"Descartas la mano")],"Elige a un investigador: descarta todo su equipo."],
+ ["Interferencia",[ico(DEF,"Reacción"),"·",tachado(OBJ,"Herramienta"),"·",ico(CAR,"Pierdes cordura"),"1"],
+  "Reacción: la herramienta falla y pierdes la cordura que pagaste."],
+ ["Presencia",[ico(CAR,"Robas carta"),"2"],"El ánima roba 2 cartas."],
+ ["Cacería",[ico(PEL,"Cacería"),"4−"],"Caza a un investigador con 4 o menos de cordura."],
+ ["Cacería total",[ico(PEL,"Cacería colectiva"),"4−"],"Caza a todos los investigadores con 4 o menos."],
+ ["Helada · habilidad",[ico(PEL,"Cacería"),"4−","·",tachado(DEF,"Esconderse"),"·",ico(OBJ,"Pista"),ico(EV,"Bajo cero")],
+  "Caza con 4 o menos, Esconderse no sirve y deja pista de Bajo cero."],
+ ["La red · Espanto",[ico(OBJ,"Todos"),ico(CAR,"Descarte al azar"),"1","·",ico(PEL,"Cacería colectiva"),"5−","·",tachado(DEF,"Rosario")],
+  "Descarte de 1 al azar, cacería a todos con 5 o menos, y el Rosario no sirve."],
+ ["Alba",[ico(OBJ,"El Alba"),"·",ico(PEL,"Cacería"),"·",ico(OBJ,"Evidencia confirmada"),"1",ico(OBJ,"Acusación")],
+  "Cacería gratis del ánima y después la acusación final con 1 confirmada."]
+];
+document.getElementById("ejemplos").innerHTML=EJ.map(function(e){
+  return '<div class="ej"><div class="nm">'+e[0]+'</div><div class="linea">'
+   +e[1].map(function(x){return x==="·"?'<span class="sep">·</span>':x}).join("")
+   +'</div><div class="lee">'+e[2]+'</div></div>';
+}).join("");
+
+var TODOS=[];
+["g-ev","g-pel","g-def","g-car","g-obj"].forEach(function(k){
+  GRUPOS[k].forEach(function(x){TODOS.push([x,NOMG[k]])});
+});
+document.getElementById("tabla").innerHTML=TODOS.map(function(t){
+  return '<tr><td>'+S(t[0][3])+'</td><td><b>'+t[0][0]+'</b><br><small class="muted">'+t[1]+'</small></td><td>'+t[0][1]+'</td><td>'+t[0][2]+'</td></tr>';
+}).join("");
+</script>
+</body>
+</html>

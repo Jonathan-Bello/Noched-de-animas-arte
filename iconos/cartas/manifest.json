@@ -1,0 +1,773 @@
+{
+  "schema_version": 1,
+  "sistema": "Pictogramas de cartas e impresión",
+  "fuente": {
+    "repositorio": "https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS",
+    "commit": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+    "guia": "docs/sistema-de-iconos.html",
+    "guia_git_blob_sha": "d92e4e381c9860f5403f673f982523b24542ba52",
+    "guia_sha256": "51303be965ffc96ab84f3adcd324e1ca47f019e3545374ed73e058a17931b3cd"
+  },
+  "total_pictogramas": 40,
+  "iconos": [
+    {
+      "id": "bajo-cero",
+      "nombre": "Bajo cero",
+      "grupo": "Evidencia",
+      "representacion": "Un termómetro junto a un copo de nieve.",
+      "significado_y_uso": "El aire se enfría de golpe. La busca el Termómetro.",
+      "svg": "svg/bajo-cero.svg",
+      "sha256": "496399c382746c876f7fb24ef710f211615544285aad4cc01d25de305ab50511",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "huellas-de-ceniza",
+      "nombre": "Huellas de ceniza",
+      "grupo": "Evidencia",
+      "representacion": "Dos pisadas descalzas.",
+      "significado_y_uso": "Alguien caminó donde no había nadie. La busca la Lámpara UV.",
+      "svg": "svg/huellas-de-ceniza.svg",
+      "sha256": "f8a7886ee1c7138841045fecc8a0c8e654e02142569f03dab70ebd452cc9edab",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "susurros",
+      "nombre": "Susurros",
+      "grupo": "Evidencia",
+      "representacion": "Una boca entreabierta y el sonido saliendo.",
+      "significado_y_uso": "Voces que la cinta capta y el oído no. La busca la Grabadora.",
+      "svg": "svg/susurros.svg",
+      "sha256": "1524279093204b3596e467bc3f040f95dbff3ec3b6a99b75b2fd9e3901140910",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "objetos-movidos",
+      "nombre": "Objetos movidos",
+      "grupo": "Evidencia",
+      "representacion": "Una silla que se cae.",
+      "significado_y_uso": "Las cosas cambian de lugar solas. La busca la Cámara de movimiento.",
+      "svg": "svg/objetos-movidos.svg",
+      "sha256": "98d72a6d889ef7fad9b68b8a259412fed32cc81bebedd498b2dbc40011968e8f",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "luces-parpadeantes",
+      "nombre": "Luces parpadeantes",
+      "grupo": "Evidencia",
+      "representacion": "Un foco encendido, con sus destellos.",
+      "significado_y_uso": "La electricidad responde a algo. La busca el Detector EMF.",
+      "svg": "svg/luces-parpadeantes.svg",
+      "sha256": "70a7f4a73baf1561b3c2eb48efb269c57222ef2ad116c6ac3389b8f1196a6a68",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "marcas-en-el-espejo",
+      "nombre": "Marcas en el espejo",
+      "grupo": "Evidencia",
+      "representacion": "Una palma marcada dentro del espejo.",
+      "significado_y_uso": "Alguien escribe desde el otro lado. La busca el Espejo de mano.",
+      "svg": "svg/marcas-en-el-espejo.svg",
+      "sha256": "4ffdd24dfc0439d7996034c450c9fcdc953ad03690c0145f53430c2554c11782",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "olor-a-azufre",
+      "nombre": "Olor a azufre",
+      "grupo": "Evidencia",
+      "representacion": "La voluta de humo del catálogo.",
+      "significado_y_uso": "El aire huele a cerillo quemado. La busca el Sensor de gases.",
+      "svg": "svg/olor-a-azufre.svg",
+      "sha256": "fbdecebe92ec1a8ba47e7c9513ea9a6bd58f4a5381a65a5c41a6e96308f8c4d1",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "caceria",
+      "nombre": "Cacería",
+      "grupo": "Peligro",
+      "representacion": "El zarpazo de tres garras.",
+      "significado_y_uso": "El ánima ataca a un investigador con 4 o menos de cordura. Si no se defiende, muere.",
+      "svg": "svg/caceria.svg",
+      "sha256": "677d4c425017cde599e8deb2611cf2f8867064b7fa9a0cdae0e153a650fd7972",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "caceria-colectiva",
+      "nombre": "Cacería colectiva",
+      "grupo": "Peligro",
+      "representacion": "El zarpazo sobre un grupo.",
+      "significado_y_uso": "Ataca a la vez a todos los que estén al alcance; cada uno se defiende por separado.",
+      "svg": "svg/caceria-colectiva.svg",
+      "sha256": "8944a935bf09158a95d13ef65aa74dfc2759c84d02eff6693b078fe7044d55ae",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "espanto",
+      "nombre": "Espanto",
+      "grupo": "Peligro",
+      "representacion": "La calavera del ánima.",
+      "significado_y_uso": "Su ataque final: se usa una sola vez y la revela ante todos.",
+      "svg": "svg/espanto.svg",
+      "sha256": "1189af36a0e4eeb469257df6444a9bca1fd11c76c71679372e96d6860887c9f4",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "muerte",
+      "nombre": "Muerte",
+      "grupo": "Peligro",
+      "representacion": "Una lápida.",
+      "significado_y_uso": "Ese investigador murió: ahora es un espíritu y ya no puede hablar.",
+      "svg": "svg/muerte.svg",
+      "sha256": "dabef743e22ca8bb163560f21955d7812a673f8171dc0795bbdcde6c205c9947",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "defensa",
+      "nombre": "Defensa",
+      "grupo": "Protección",
+      "representacion": "Un escudo.",
+      "significado_y_uso": "Una defensa cualquiera. Se usa cuando la carta no distingue cuál.",
+      "svg": "svg/defensa.svg",
+      "sha256": "a650e4afcc2e70aa378f342bbcb4ad27a2c885a220528e6d836f995c70789991",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "reaccion",
+      "nombre": "Reacción",
+      "grupo": "Protección",
+      "representacion": "Un escudo con un rayo.",
+      "significado_y_uso": "No se juega en tu turno: se juega en el momento exacto en que el ánima actúa.",
+      "svg": "svg/reaccion.svg",
+      "sha256": "baa1b9685f1126be0fb983c79684879c04dcb606ac1dd0a8275c4b2eadfa2355",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "rosario",
+      "nombre": "Rosario",
+      "grupo": "Protección",
+      "representacion": "Un círculo de cuentas con su cruz.",
+      "significado_y_uso": "La defensa de los rezos. Tachado significa que el Rosario no sirve.",
+      "svg": "svg/rosario.svg",
+      "sha256": "ce8a1bc9cc22f8296d2c90406e8e5f889a2248fc59935dc57b98c206f8fcbe7e",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "esconderse",
+      "nombre": "Esconderse",
+      "grupo": "Protección",
+      "representacion": "Una figura detrás de una puerta.",
+      "significado_y_uso": "Te salvas escondiéndote, pero el siguiente turno no usas herramientas.",
+      "svg": "svg/esconderse.svg",
+      "sha256": "fc6a62d22d52c62e6ea49e8f6b734d9ac4e78ee82859bb009471f98bb396344e",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "ultraje-espiritual",
+      "nombre": "Ultraje espiritual",
+      "grupo": "Protección",
+      "representacion": "Un grito.",
+      "significado_y_uso": "La mentada que espanta al ánima. Cancela la cacería, pero el ánima roba.",
+      "svg": "svg/ultraje-espiritual.svg",
+      "sha256": "20bbb49f5535aaa8c2e01f683b2792d99544010b1f73eb05224b30b3a4618fc1",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "protegido",
+      "nombre": "Protegido",
+      "grupo": "Protección",
+      "representacion": "Un ramo de ruda colgado del dintel.",
+      "significado_y_uso": "Hasta tu siguiente turno el ánima no puede elegirte ni cazarte.",
+      "svg": "svg/protegido.svg",
+      "sha256": "8d7828bd837a14eb532ee15d53bc0ae48ec5bcdd046d11258d2c92a0bed2ee14",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "copal",
+      "nombre": "Copal",
+      "grupo": "Protección",
+      "representacion": "El sahumerio con su humo.",
+      "significado_y_uso": "Cualquier investigador lo juega para cancelar una carta del ánima.",
+      "svg": "svg/copal.svg",
+      "sha256": "21958453a071dbfd6aa1383d0a68d1cb71d80c9ea6665c605bae608feabba360",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "tachado",
+      "nombre": "Tachado",
+      "grupo": "Protección",
+      "representacion": "La diagonal sobre cualquier icono.",
+      "significado_y_uso": "Niega ese icono: aquí, «el Rosario no sirve». Nunca se dibuja sola ni sobre el escudo genérico.",
+      "svg": "svg/tachado.svg",
+      "sha256": "79fda2aab7abbeaf781e52a187a8c965a5f10639f93725ad21226e466b8e4765",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "cordura",
+      "nombre": "Cordura",
+      "grupo": "Cartas y cordura",
+      "representacion": "Un corazón lleno.",
+      "significado_y_uso": "La luz que te queda. Empiezas con 10; con 4 o menos te pueden cazar.",
+      "svg": "svg/cordura.svg",
+      "sha256": "c5592d9b2515d80a255766a9b7f80c8a8a198fe908ecfbe5acb7050733cb40d9",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "ganas-cordura",
+      "nombre": "Ganas cordura",
+      "grupo": "Cartas y cordura",
+      "representacion": "Un corazón con un más calado.",
+      "significado_y_uso": "Te calmas: recuperas los puntos que diga la cifra.",
+      "svg": "svg/ganas-cordura.svg",
+      "sha256": "d64f61e2be45caff27d7bedfa9be02b867ca7f246c8b1b86f82e5df44b68c71a",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "pierdes-cordura",
+      "nombre": "Pierdes cordura",
+      "grupo": "Cartas y cordura",
+      "representacion": "El mismo corazón con un menos calado.",
+      "significado_y_uso": "El susto te quiebra: pierdes los puntos que diga la cifra.",
+      "svg": "svg/pierdes-cordura.svg",
+      "sha256": "2f8b709166fd2fb399e0dd5f8985d1a998de15c156f8fee6c6c8b27701e32338",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "robas-carta",
+      "nombre": "Robas carta",
+      "grupo": "Cartas y cordura",
+      "representacion": "Una carta rectangular que sube del mazo.",
+      "significado_y_uso": "Tomas del mazo la cantidad que diga la cifra.",
+      "svg": "svg/robas-carta.svg",
+      "sha256": "c8a3070c97dd95677237bf548943405b5c7a230644212e47601f1a9b90fe9454",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "descarte-al-azar",
+      "nombre": "Descarte al azar",
+      "grupo": "Cartas y cordura",
+      "representacion": "Una carta con un signo de pregunta que cae.",
+      "significado_y_uso": "No eliges: muestras tu mano por el reverso y el ánima escoge cuál se va.",
+      "svg": "svg/descarte-al-azar.svg",
+      "sha256": "863e8148c98bc0c47e480d34b3efefcbbd29ae3b17509fa97fffd15a65846c0b",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "descartas-la-mano",
+      "nombre": "Descartas la mano",
+      "grupo": "Cartas y cordura",
+      "representacion": "Tres cartas en abanico cayendo.",
+      "significado_y_uso": "Sueltas todo tu equipo al descarte.",
+      "svg": "svg/descartas-la-mano.svg",
+      "sha256": "240cd6e57d3b008bd461c9ce9a7e46a30a6ce0b5a2719ec527fd8ae6b63f62a8",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "mazo",
+      "nombre": "Mazo",
+      "grupo": "Cartas y cordura",
+      "representacion": "Cartas apiladas.",
+      "significado_y_uso": "El mazo de la noche. Cuando se acaba, aparece el Alba.",
+      "svg": "svg/mazo.svg",
+      "sha256": "e78824a56906a18c6f0512e36360b8b75db290f9616fee62e9989e504a19f98e",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "pierdes-el-equipo",
+      "nombre": "Pierdes el equipo",
+      "grupo": "Cartas y cordura",
+      "representacion": "Una carta tachada.",
+      "significado_y_uso": "Esa carta o ese equipo se va del juego.",
+      "svg": "svg/pierdes-el-equipo.svg",
+      "sha256": "147d11c667a3cbee06eaf9cd2d60a7c774ccead162bf146f186a83a10e5555a9",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "un-investigador",
+      "nombre": "Un investigador",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una figura.",
+      "significado_y_uso": "El ánima elige a uno solo.",
+      "svg": "svg/un-investigador.svg",
+      "sha256": "8a4fffb4111b9bd088c89d5283da98e6c8685ad0317c5c19492b3910e3aa0b9c",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "todos",
+      "nombre": "Todos",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Tres figuras juntas.",
+      "significado_y_uso": "Les pasa a todos los investigadores vivos a la vez.",
+      "svg": "svg/todos.svg",
+      "sha256": "508c6eb0bab6346a7146a9e0750537335edd4f3227792a6fce30cb9c13c513e5",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "el-de-menos-cordura",
+      "nombre": "El de menos cordura",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una figura con el corazón bajando.",
+      "significado_y_uso": "Le toca a quien peor está.",
+      "svg": "svg/el-de-menos-cordura.svg",
+      "sha256": "01d090362ad3b62e05480ab118e2f2e787861809e1e855f539fccdc6b37db462",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "el-de-mas-cordura",
+      "nombre": "El de más cordura",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una figura con el corazón subiendo.",
+      "significado_y_uso": "Le toca a quien mejor está.",
+      "svg": "svg/el-de-mas-cordura.svg",
+      "sha256": "7d0befb2c2edcfce77d26640c1e40d8c86ad2cc86a1bb4fc1c8c0c375879e20e",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "tirada-de-dado",
+      "nombre": "Tirada de dado",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Un dado de seis caras.",
+      "significado_y_uso": "Tiras y comparas con la cifra: 4+ en las herramientas, 5+ en el Kit de campo.",
+      "svg": "svg/tirada-de-dado.svg",
+      "sha256": "ad23959de8dee53101e6db5e1de27de76c7ea190379cd1c085270ea376c170ab",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "herramienta",
+      "nombre": "Herramienta",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una lupa.",
+      "significado_y_uso": "Esta carta investiga: cuesta cordura y pide dado.",
+      "svg": "svg/herramienta.svg",
+      "sha256": "eee3fb07791eb9007d55b6721468a21709fe710c3fd3a4223c8d1e1b86eb330b",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "evidencia-confirmada",
+      "nombre": "Evidencia confirmada",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una casilla palomeada.",
+      "significado_y_uso": "El ánima dijo que sí y te entrega la carta de esa evidencia.",
+      "svg": "svg/evidencia-confirmada.svg",
+      "sha256": "4fbe07c0a02fc28678c695097bd259956fda6761fa2f36d1b274d81e7b4c3d3b",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "evidencia-a-elegir",
+      "nombre": "Evidencia a elegir",
+      "grupo": "Objetivos y momentos",
+      "representacion": "La misma casilla, con un signo de pregunta.",
+      "significado_y_uso": "Tú decides qué evidencia buscar: es el comodín del Kit de campo.",
+      "svg": "svg/evidencia-a-elegir.svg",
+      "sha256": "b5c2ccb925cd284dd6141fd96feb5c941f65915d39423547906454eeee030da3",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "pista",
+      "nombre": "Pista",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Un ojo entreabierto.",
+      "significado_y_uso": "Sabes que la tiene, pero no cuenta para acusar hasta confirmarla.",
+      "svg": "svg/pista.svg",
+      "sha256": "eceaed0ad1a4203a4dd4d1be7daf6b771e26fdbc5ad736179da70d71a29965dd",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "espiritu",
+      "nombre": "Espíritu",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Un ánima pequeña.",
+      "significado_y_uso": "Habla el muerto: solo puede responder sí, no o tal vez.",
+      "svg": "svg/espiritu.svg",
+      "sha256": "d2e7dcb9af2c5a02e7954bf153b015580ae0951a3ad1b20041841d392ff1cbc7",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "acusacion",
+      "nombre": "Acusación",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Un dedo que señala.",
+      "significado_y_uso": "Dicen en voz alta qué ánima creen que es. Una sola oportunidad.",
+      "svg": "svg/acusacion.svg",
+      "sha256": "06b51d47e326700439505637483ee7075211c46d86b2d9279d612baf86ffffc2",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "ronda",
+      "nombre": "Ronda",
+      "grupo": "Objetivos y momentos",
+      "representacion": "Una flecha que vuelve a su sitio.",
+      "significado_y_uso": "Dura hasta que vuelva a tocarte el turno.",
+      "svg": "svg/ronda.svg",
+      "sha256": "0bdbc6ccf4be3dcb3afb7258415fb813eb9b066b45ba4dca4f954c3a70649e4e",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    },
+    {
+      "id": "el-alba",
+      "nombre": "El Alba",
+      "grupo": "Objetivos y momentos",
+      "representacion": "El sol saliendo tras el horizonte.",
+      "significado_y_uso": "Se acabó la noche: cacería gratis del ánima y acusación final.",
+      "svg": "svg/el-alba.svg",
+      "sha256": "5f9136e21df29157e12e7b19e2fc5aed268e253800946b232c8c56f617830f3c",
+      "procedencia": "Extracción literal de SVG de la guía; no redibujado.",
+      "estado": "documentado_en_juego; no modifica canon de ilustraciones"
+    }
+  ],
+  "ejemplos": [
+    {
+      "carta": "Termómetro",
+      "lectura": "Pagas 1 de cordura, tiras el dado y con 4 o más confirmas Bajo cero."
+    },
+    {
+      "carta": "Kit de campo",
+      "lectura": "Eliges la evidencia, pagas 1 de cordura y confirmas solo con 5 o 6."
+    },
+    {
+      "carta": "Té de tila",
+      "lectura": "Recuperas 2 de cordura."
+    },
+    {
+      "carta": "Respirar hondo",
+      "lectura": "Recuperas 1 de cordura y robas 1 carta."
+    },
+    {
+      "carta": "Rosario",
+      "lectura": "Reacción: cancela la cacería que viene hacia ti."
+    },
+    {
+      "carta": "Esconderse",
+      "lectura": "Cancela la cacería, pero tu siguiente turno no usas herramientas."
+    },
+    {
+      "carta": "Ultraje espiritual",
+      "lectura": "Cancela la cacería, pero el ánima roba 1 carta."
+    },
+    {
+      "carta": "Ruda",
+      "lectura": "Hasta tu siguiente turno el ánima no puede elegirte ni cazarte."
+    },
+    {
+      "carta": "Copal",
+      "lectura": "Reacción: cancela una carta del ánima."
+    },
+    {
+      "carta": "Escalofrío",
+      "lectura": "Todos los investigadores pierden 1 de cordura."
+    },
+    {
+      "carta": "Manifestación",
+      "lectura": "Elige a un investigador: pierde 2 de cordura."
+    },
+    {
+      "carta": "Portazo",
+      "lectura": "Cada investigador descarta 1 carta al azar."
+    },
+    {
+      "carta": "Posesión demoníaca",
+      "lectura": "Elige a un investigador: descarta todo su equipo."
+    },
+    {
+      "carta": "Interferencia",
+      "lectura": "Reacción: la herramienta falla y pierdes la cordura que pagaste."
+    },
+    {
+      "carta": "Presencia",
+      "lectura": "El ánima roba 2 cartas."
+    },
+    {
+      "carta": "Cacería",
+      "lectura": "Caza a un investigador con 4 o menos de cordura."
+    },
+    {
+      "carta": "Cacería total",
+      "lectura": "Caza a todos los investigadores con 4 o menos."
+    },
+    {
+      "carta": "Helada · habilidad",
+      "lectura": "Caza con 4 o menos, Esconderse no sirve y deja pista de Bajo cero."
+    },
+    {
+      "carta": "La red · Espanto",
+      "lectura": "Descarte de 1 al azar, cacería a todos con 5 o menos, y el Rosario no sirve."
+    },
+    {
+      "carta": "Alba",
+      "lectura": "Cacería gratis del ánima y después la acusación final con 1 confirmada."
+    }
+  ],
+  "familias_roles": {
+    "mano": [
+      "El Vigía",
+      "El Improvisador"
+    ],
+    "ojo": [
+      "El Técnico",
+      "El Detective",
+      "El Sensitivo (id sensitiva)"
+    ],
+    "corazon": [
+      "El Curandero (id curandera)"
+    ],
+    "escudo": [
+      "La Devota (id padre)",
+      "El Guardaespaldas"
+    ]
+  },
+  "recursos_juego": [
+    {
+      "archivo": "recursos-juego/def_copal.svg",
+      "origen": "app/iconos/def_copal.svg",
+      "sha256": "b7e74f3190e466111d1f2f4f5a5e8768828b77e60f8ec2ee267cff81b8b32fad",
+      "git_blob_sha": "ef7e6e91c6ec269cc9eea4840fb92a8b16a762ad",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/def_esc.svg",
+      "origen": "app/iconos/def_esc.svg",
+      "sha256": "bdee1da6d9b5dadc5694249bc7a45884f93c829426d865c7f26b6364f45adf9c",
+      "git_blob_sha": "402f5eee8b9930ceb57a9d99d97e90650bdf57a4",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/def_ros.svg",
+      "origen": "app/iconos/def_ros.svg",
+      "sha256": "fba426785f8e1eed1a0defd6587aab246464b3334cbad5ed5a8006d20b85463b",
+      "git_blob_sha": "6f703f50b6a5482327508d416416bc9504f73ac2",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/def_ruda.svg",
+      "origen": "app/iconos/def_ruda.svg",
+      "sha256": "e48463105f7b42dcc85cad3ad21b95724bbced636825d060e96a9a492818a843",
+      "git_blob_sha": "81ebf1a9e981ad400b6068b4536760a7c517ea15",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/def_ultr.svg",
+      "origen": "app/iconos/def_ultr.svg",
+      "sha256": "b531dd4ec7d3deff868c0244d3d5c126b372ab2b471bf0f40fe6064adbc903f9",
+      "git_blob_sha": "09cba1b28688ba5337095bc3de4e57db455e8fbb",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_0.svg",
+      "origen": "app/iconos/ev_0.svg",
+      "sha256": "2319c9fa03eec4002655b1ccfcd114d2af875c65f4eee5be461e9b446ca35b56",
+      "git_blob_sha": "f7972af4cc641536c529d8f51d66febb49232e88",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_1.svg",
+      "origen": "app/iconos/ev_1.svg",
+      "sha256": "b44f3f7b00da11d3443df5a8daf4e96132e68e755a2f8cb90a3ef9727b4754ab",
+      "git_blob_sha": "ece7bfad1b8759699efea0535ff848e4d0cd5427",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_2.svg",
+      "origen": "app/iconos/ev_2.svg",
+      "sha256": "e3df60c2e44275ab7d7d8655cdea275f808bd62a7b5dfe9b3640732bd99f5530",
+      "git_blob_sha": "42445e2d229683947eaaad1df1026eb213d8bd61",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_3.svg",
+      "origen": "app/iconos/ev_3.svg",
+      "sha256": "2591d2fe6ab20f6132ba50c70caaff3d5f51e3c348ba59b253dbc7f6443992c4",
+      "git_blob_sha": "b8a40a085d1a052898ab7a8828c74753854ddc44",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_4.svg",
+      "origen": "app/iconos/ev_4.svg",
+      "sha256": "d11a8af799125835f30ffaf087f2cc10f617dc7808e984eb91063b1ae1d574b0",
+      "git_blob_sha": "ec7195c752d938ead33b835baf5c4ed64e3de742",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_5.svg",
+      "origen": "app/iconos/ev_5.svg",
+      "sha256": "ec48a7ce07c486b467bfa05e7493bde8babbe74ae8351451c64b9cf2cce692c6",
+      "git_blob_sha": "b9b8fe693d9a695edcdc10d01bbba44601a628be",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ev_6.svg",
+      "origen": "app/iconos/ev_6.svg",
+      "sha256": "c4e2f477f6fd566e43fe025d514e85ab263c123acc1edebfdb4bfaea48251140",
+      "git_blob_sha": "0b404549ec005b509d7769f46e2d6c98567ff708",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/familia_corazon.webp",
+      "origen": "app/iconos/familia_corazon.webp",
+      "sha256": "1a42d41e8d8e73ee0a42cac1de8a1b7e93780edeba1ed7a98141cecbbed5bfee",
+      "git_blob_sha": "47b5baa0ef5f64a671c7d21539297ec61589cb8c",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Emblema de encabezado de rol."
+    },
+    {
+      "archivo": "recursos-juego/familia_escudo.webp",
+      "origen": "app/iconos/familia_escudo.webp",
+      "sha256": "d9425eef5273489792f8d408114113a692ae729a3f44c6565320584176fe1d31",
+      "git_blob_sha": "cd5948b8979cbcc13dc6644073358185361266da",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Emblema de encabezado de rol."
+    },
+    {
+      "archivo": "recursos-juego/familia_mano.webp",
+      "origen": "app/iconos/familia_mano.webp",
+      "sha256": "4cfbda37f33fafbbe969b75b548e8e8680ff742dae611881a1a932e2ae71c22c",
+      "git_blob_sha": "a01c2597ffbbf4a4ab59078e0e0c19d29931de35",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Emblema de encabezado de rol."
+    },
+    {
+      "archivo": "recursos-juego/familia_ojo.webp",
+      "origen": "app/iconos/familia_ojo.webp",
+      "sha256": "dd70325a95b9647dba1cbe456180f2c728456c3758b5d8d4f4e49082b37fae01",
+      "git_blob_sha": "ae8423565e9524ef3bde8df8332cece76edfc8fd",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Emblema de encabezado de rol."
+    },
+    {
+      "archivo": "recursos-juego/tipo_caceria.svg",
+      "origen": "app/iconos/tipo_caceria.svg",
+      "sha256": "7685a08e6c1657dc63abce6302bcfda126c032266c37fbd44bc0260d4f59d0b0",
+      "git_blob_sha": "f3a44fff7bfd7310b32546dfe46eac19f5528c46",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/tipo_habilidad.svg",
+      "origen": "app/iconos/tipo_habilidad.svg",
+      "sha256": "9ad4eb952c5e84a42be50717ab012c40b430163bdd1252484336e7241b634298",
+      "git_blob_sha": "3268c1d0b4aea563fbbb401b1660517cda499f83",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/tipo_herramienta.svg",
+      "origen": "app/iconos/tipo_herramienta.svg",
+      "sha256": "b8e08eca6ff84d00057ce6841762b62a787a9eb42bf825f2b6296e895ec0d388",
+      "git_blob_sha": "e2e2b69eed9ba79430e39e55d5ee6330c07bf939",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_camara.svg",
+      "origen": "app/iconos/ui_camara.svg",
+      "sha256": "11a8b4bcbc8148370b4b090af46c64ccb1573c237234aa0c86214d49cc410ea7",
+      "git_blob_sha": "d16ad3b90b095d749a1be675ec736015d16b48c0",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_candado.svg",
+      "origen": "app/iconos/ui_candado.svg",
+      "sha256": "f5da136cf484fc046509f30cee03e467618acee76b043f154b2f4485448432b9",
+      "git_blob_sha": "51dd2682f4d12a0fbf516e02959cf062c3371e83",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_cartas.svg",
+      "origen": "app/iconos/ui_cartas.svg",
+      "sha256": "c5683cefc37ccc2d3261be4eb89d69e2d9e3dcae1aaef42c2a4649753255a802",
+      "git_blob_sha": "7e4102c6c6aecfa1e66a1ba6f36e43129725eb42",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_cerrar.svg",
+      "origen": "app/iconos/ui_cerrar.svg",
+      "sha256": "85f46bebc4caac1971dae3f7b7ccd75ad88348eef8c2898e90905923fd6007cd",
+      "git_blob_sha": "ee5de6c3ddd06be35989156e46fb732d48a7f98e",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_dado.svg",
+      "origen": "app/iconos/ui_dado.svg",
+      "sha256": "ff558111c837c478da6f42587c25bc3cd6cd8c583bc4cea988964e96e72e5d78",
+      "git_blob_sha": "37d68b0e16ea4ebfdbc2aa282089bc2237cf2953",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_descargar.svg",
+      "origen": "app/iconos/ui_descargar.svg",
+      "sha256": "44d8360ddce934751d7a94b19438caf65944ea653341d65a1a67b0e0694571af",
+      "git_blob_sha": "307df00ab77ddeec2b90c14bcfe9c7320a14acf5",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_espiritu.svg",
+      "origen": "app/iconos/ui_espiritu.svg",
+      "sha256": "a5950f5c78a27c34e7ab2e09c35cb08c859234ceeb3ed7e093e20b361efecbc6",
+      "git_blob_sha": "b07586a86a104b0b5f8e813ff7a151c79372c52c",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    },
+    {
+      "archivo": "recursos-juego/ui_lupa.svg",
+      "origen": "app/iconos/ui_lupa.svg",
+      "sha256": "16b2e6fde30b936a728433dbb2fa6314df18473b8d7bb95d7a36c992167e80c6",
+      "git_blob_sha": "34977d3dd489de5ab174e5a2c9e630f55511e6fe",
+      "ref": "a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c",
+      "uso": "Recurso de la interfaz existente; distinto del pictograma sólido de impresión."
+    }
+  ],
+  "advertencia": "Los significados y ejemplos corresponden a la guía del commit fijado, no a una nueva especificación de reglas. La coincidencia visual o de nombre no vuelve intercambiables dos sistemas. Consultar reglas vigentes en el repositorio del juego."
+}

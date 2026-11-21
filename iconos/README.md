@@ -1,5 +1,13 @@
 # Sistema de iconos de Noche de Ánimas
 
+## Referencia principal para las cartas
+
+El sistema de pictogramas sólidos del juego y de impresión está documentado en **[cartas/README.md](cartas/README.md)**. Incluye 40 pictogramas con su significado, ejemplos de lectura, normas de tamaño y emblemas de roles. [Abrir la guía visual](cartas/sistema-original.html).
+
+La colección siguiente conserva los iconos de demo y conceptos 3D como historial y recursos secundarios; no sustituye el sistema sólido de impresión.
+
+## Colecciones históricas
+
 Los iconos sí existían. Esta guía reúne su significado, uso y archivos recuperados, sin regenerar sus dibujos.
 
 **23 iconos de demo + 4 familias + 10 conceptos HUD 3D.** Los recursos estaban archivados; la aprobación final de cada símbolo no se da por supuesta. Los iconos 3D se incluyen como referencia separada de arte, no como código ni reglas del juego.
