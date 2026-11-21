@@ -1,5 +1,5 @@
 {
-  "nota": "Selección de revisión, no un canon aprobado. No elegir la versión más reciente automáticamente.",
+  "nota": "Selección de roles presentados. La aprobación de las ilustraciones y su inclusión en una exportación son decisiones distintas.",
   "roles": [
     {
       "id": "vigia",
@@ -17,7 +17,7 @@
       "titulo": "El Improvisador",
       "candidato_entregado": "objetos/a0/a0c024a84dd6d1361d9d9f9f88ef6334eeaf581eb4fba6964b45423b44820d5d.png",
       "sha256": "a0c024a84dd6d1361d9d9f9f88ef6334eeaf581eb4fba6964b45423b44820d5d",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -27,7 +27,7 @@
       "titulo": "El Técnico",
       "candidato_entregado": "objetos/25/2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9.png",
       "sha256": "2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "aprobado_con_ajuste_de_panuelo_pendiente",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -37,7 +37,7 @@
       "titulo": "El Detective",
       "candidato_entregado": "objetos/9a/9a18a331f45dcf6f7140ca8a1f6e00c0036fce7a430c65bbe7fc54d56de4e4f7.png",
       "sha256": "9a18a331f45dcf6f7140ca8a1f6e00c0036fce7a430c65bbe7fc54d56de4e4f7",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -47,7 +47,7 @@
       "titulo": "El Curandero",
       "candidato_entregado": "objetos/41/41987da9e4bb89fc5ef0daf09d527cb43f9df8e20cf8327d8318abdc8dd2c5f3.png",
       "sha256": "41987da9e4bb89fc5ef0daf09d527cb43f9df8e20cf8327d8318abdc8dd2c5f3",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -57,7 +57,7 @@
       "titulo": "La Devota",
       "candidato_entregado": "objetos/e5/e5cb579d0e1cc159e1371ca93160c0c4142f87ecdc74ae249eba11e4be744908.png",
       "sha256": "e5cb579d0e1cc159e1371ca93160c0c4142f87ecdc74ae249eba11e4be744908",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -67,7 +67,7 @@
       "titulo": "El Sensitivo",
       "candidato_entregado": "objetos/d5/d525c208c0e98280861c6a0353524de5539922f6cabe5aa3e6db2ebab3695548.png",
       "sha256": "d525c208c0e98280861c6a0353524de5539922f6cabe5aa3e6db2ebab3695548",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -77,7 +77,7 @@
       "titulo": "El Guardaespaldas",
       "candidato_entregado": "objetos/f2/f2bde6e011b380bd01aa0fcf26ffb49fcb12bf6cc3c05c0a944e81bf789c92c0.png",
       "sha256": "f2bde6e011b380bd01aa0fcf26ffb49fcb12bf6cc3c05c0a944e81bf789c92c0",
-      "estado": "pendiente_confirmacion_de_escena_y_variantes",
+      "estado": "ilustracion_presentada_aprobada",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     }

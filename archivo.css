@@ -10,3 +10,6 @@
 .portal-nav nav a[aria-current=page]{color:#eab870;text-decoration:underline;text-underline-offset:.3em}
 .portal-actions{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
 @media(max-width:650px){.portal-nav summary{display:list-item;font-weight:700;cursor:pointer;padding:.45rem 0}.portal-nav nav{display:grid;grid-template-columns:1fr 1fr}.portal-nav{padding-block:.6rem}.hero img{max-width:100%}}
+
+.printing article{min-width:0;overflow-wrap:anywhere}
+.printing article h2{font-size:clamp(1.35rem,1.25rem + .6vw,1.85rem);line-height:1.15;letter-spacing:-.02em;margin:0 0 .65em}
