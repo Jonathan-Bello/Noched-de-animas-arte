@@ -1,0 +1,11 @@
+{
+  "pruebas": [
+    {"id":"vigia-imprenta","name":"El Vigía","category":"Roles","image":"./archivo/arte/vigia.webp","status":"proof"},
+    {"id":"pentagrama-imprenta","name":"Pentagrama","category":"Objetos malditos","image":"./archivo/arte/pentagrama.webp","status":"proof"},
+    {"id":"peligros-imprenta","name":"Peligros","category":"Consulta","image":"./archivo/arte/peligros.webp","status":"proof"}
+  ],
+  "descargas": [
+    {"name":"Tabloide de preprensa","description":"20 páginas, 10 hojas a doble cara. Imprime al 100 % con volteo por el borde largo.","file":"Noche_de_Animas_Tabloide_Preprensa.pdf"},
+    {"name":"Maestro de preprensa","description":"300 caras individuales, con frente y reverso consecutivos, para imposición en imprenta.","file":"Noche_de_Animas_Maestro_Preprensa.pdf"}
+  ]
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Galería de cartas, reversos y archivos de impresión de Noche de Ánimas.">
+<title>Noche de Ánimas · Archivo de arte</title><link rel="stylesheet" href="./archivo.css"><script src="./archivo.js" defer></script>
+</head><body>
+<header class="mast"><a href="#inicio">Noche de Ánimas</a><nav aria-label="Secciones"><a href="#galeria">Galería</a><a href="#imprenta">Imprenta</a><a href="./galeria.html">Historial ↗</a></nav></header>
+<main id="inicio">
+<section class="hero"><div><p class="kicker">Archivo de arte</p><h1>Noche de<br>Ánimas</h1><p>Explora las cartas y sus reversos, revisa las ilustraciones en prueba y encuentra los archivos para imprimir.</p><a class="button" href="#galeria">Explorar galería</a></div><img id="portada" alt="Carta de identidad de La Llorona" width="290" height="440" fetchpriority="high"></section>
+<section id="galeria" class="section"><p class="kicker">El mazo y sus variantes</p><h2>Galería</h2>
+<div class="controls"><label for="busqueda">Buscar carta<input type="search" id="busqueda" placeholder="Nombre, código o categoría"></label><label for="edicion">Selección<select id="edicion"><option value="all">Todas las propuestas y aprobadas</option><option value="approved">Arte aprobado</option><option value="proof">Prueba de imprenta</option><option value="review">Candidatos de rol</option></select></label></div>
+<div id="categorias" class="filters" aria-label="Categorías"></div><p id="resultados" role="status">Cargando catálogo…</p><div id="cartas" class="grid"></div>
+</section>
+<section id="imprenta" class="section"><p class="kicker">Preprensa · Edición de 150 cartas</p><h2>Archivos de impresión</h2>
+<p class="intro">Corte de 58 × 88 mm, 3 mm de sangrado por lado y CMYK FOGRA39 como perfil de prueba.</p><div id="descargas" class="printing"></div></section>
+</main>
+<footer><span>Noche de Ánimas</span><a href="./aprobados.html">Archivo de aprobaciones ↗</a><a href="https://github.com/Jonathan-Bello/Noched-de-animas-arte">Repositorio ↗</a></footer>
+<dialog id="detalle" aria-labelledby="detalle-titulo"><div class="dialog-head"><div><p id="detalle-cat" class="kicker"></p><h2 id="detalle-titulo"></h2></div><form method="dialog"><button type="submit" aria-label="Cerrar vista de carta">×</button></form></div><div id="detalle-img" class="faces"></div><p id="detalle-estado"></p></dialog>
+</body></html>
