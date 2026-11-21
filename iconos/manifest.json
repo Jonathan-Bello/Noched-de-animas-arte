@@ -1,0 +1,1028 @@
+{
+  "schema_version": 1,
+  "version": "iconos-documentados-2026-11-20",
+  "total": 37,
+  "estado": "Documentación de recursos existentes; no aprueba artes ni añade reglas.",
+  "sistemas": {
+    "demo_2d": 23,
+    "familias_roles": 4,
+    "hud_3d_conceptual": 10
+  },
+  "reglas": {
+    "evidencias": "Conservar IDs ev_0 a ev_6 y su orden.",
+    "semantica": "No inferir costes, bonificadores, tiradas, daño ni compatibilidades de un dibujo.",
+    "colisiones": "tipo_herramienta y ui_lupa tienen el mismo trazado con IDs y etiquetas distintos. Mano de familia no equivale a tipo_habilidad. Espíritu de UI no equivale a una habilidad concreta.",
+    "tinte_svg": "SVG tiene grupo con color inline #f3e6cf. Cambiar solo color en el grupo o usar máscara CSS; un img externo no hereda currentColor del padre. Conservar geometría.",
+    "png": "Conservar canal alfa y proporción. No rellenar fondo ni deformar. PNG de demo 256x256, símbolos de familia y concepto con tamaño real en cada entrada.",
+    "accesibilidad": "Mantener etiqueta visible o accesible; tooltip para iconos aislados. No comunicar estado solo por color.",
+    "estados": "Bloqueo, selección o deshabilitado corresponden a la UI; no modificar el significado base del ID."
+  },
+  "iconos": [
+    {
+      "clave": "demo.ev_0",
+      "id": "ev_0",
+      "nombre": "Bajo cero",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Señal de temperatura bajo cero; dibujo de copo y termómetro.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/99/99385150850ed268b9509ca4585d031d4c818b8874e5d4eda9c0785787b70277.svg",
+          "sha256": "99385150850ed268b9509ca4585d031d4c818b8874e5d4eda9c0785787b70277",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_0.svg"
+        },
+        "png": {
+          "objeto": "objetos/08/08b52acbae8fe101ff786119b891df6f0359dbd4b6fc955a02d5db8fe5be0807.png",
+          "sha256": "08b52acbae8fe101ff786119b891df6f0359dbd4b6fc955a02d5db8fe5be0807",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_0.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_1",
+      "id": "ev_1",
+      "nombre": "Huellas de ceniza",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Rastro representado mediante huellas.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/94/94c498872b01a06a7e5db062fc5cf40ced027ab76686da476a7a115fbaf17dcd.svg",
+          "sha256": "94c498872b01a06a7e5db062fc5cf40ced027ab76686da476a7a115fbaf17dcd",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_1.svg"
+        },
+        "png": {
+          "objeto": "objetos/2f/2f88529e0023cb1a60da836a50901de3cb34db3008d69f82c05a2f0b4782a1a2.png",
+          "sha256": "2f88529e0023cb1a60da836a50901de3cb34db3008d69f82c05a2f0b4782a1a2",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_1.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_2",
+      "id": "ev_2",
+      "nombre": "Susurros",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Señal auditiva; oreja y ondas.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/f9/f979977ddc188f36fd52e4d4c2941ca717e4359afe02bdc847a4cda986a9ebde.svg",
+          "sha256": "f979977ddc188f36fd52e4d4c2941ca717e4359afe02bdc847a4cda986a9ebde",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_2.svg"
+        },
+        "png": {
+          "objeto": "objetos/75/75a9efd2b2d80864c2c2391f75be64b6e44ec892961035338b3188dc103f3f71.png",
+          "sha256": "75a9efd2b2d80864c2c2391f75be64b6e44ec892961035338b3188dc103f3f71",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_2.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_3",
+      "id": "ev_3",
+      "nombre": "Objetos movidos",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Desplazamiento de objetos; silla y marcas de movimiento.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/5b/5b4546192b0023b908cd3140f392630792afc439f6fe674349180c68e282a2e8.svg",
+          "sha256": "5b4546192b0023b908cd3140f392630792afc439f6fe674349180c68e282a2e8",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_3.svg"
+        },
+        "png": {
+          "objeto": "objetos/73/737b8b141e0ed56fa00f1adea13d72eb4d99ae86a8f1f57a2b247d693bdd1f88.png",
+          "sha256": "737b8b141e0ed56fa00f1adea13d72eb4d99ae86a8f1f57a2b247d693bdd1f88",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_3.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_4",
+      "id": "ev_4",
+      "nombre": "Luces parpadeantes",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Cambios de iluminación; bombilla.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/60/6088e8ba22a5861d4db829b5fdf5eb2d3e5332a99103071766477247eead1ab1.svg",
+          "sha256": "6088e8ba22a5861d4db829b5fdf5eb2d3e5332a99103071766477247eead1ab1",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_4.svg"
+        },
+        "png": {
+          "objeto": "objetos/a7/a764491d0c5272aac066232cd4681531399f75bf1df3a9916e81ea31dd5bc8d3.png",
+          "sha256": "a764491d0c5272aac066232cd4681531399f75bf1df3a9916e81ea31dd5bc8d3",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_4.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_5",
+      "id": "ev_5",
+      "nombre": "Marcas en el espejo",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Marcas o huella en un espejo de mano.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/45/458c8a5a5d0404a3c1560ff31d35a9a79e640887c343e83f146d56cd06776fb1.svg",
+          "sha256": "458c8a5a5d0404a3c1560ff31d35a9a79e640887c343e83f146d56cd06776fb1",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_5.svg"
+        },
+        "png": {
+          "objeto": "objetos/7a/7a95630c88f781c455779f8b92b386d00270adcc386c9b68bac9d3855d44b0fe.png",
+          "sha256": "7a95630c88f781c455779f8b92b386d00270adcc386c9b68bac9d3855d44b0fe",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_5.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ev_6",
+      "id": "ev_6",
+      "nombre": "Olor a azufre",
+      "sistema": "demo_2d",
+      "grupo": "evidencia",
+      "significado": "Señal olfativa representada con trazos de humo.",
+      "uso": "Identificar esta evidencia en listados, fichas o leyendas de la demo.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/9e/9e8d93f4467f8fab94d7a90a80f94ea2d148638e1d53a8b8d7b0774beea31739.svg",
+          "sha256": "9e8d93f4467f8fab94d7a90a80f94ea2d148638e1d53a8b8d7b0774beea31739",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ev_6.svg"
+        },
+        "png": {
+          "objeto": "objetos/e4/e4f01b0065287c722339bd618119bf11a9908ea595a725d32af73305ae82259e.png",
+          "sha256": "e4f01b0065287c722339bd618119bf11a9908ea595a725d32af73305ae82259e",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ev_6.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.def_ros",
+      "id": "def_ros",
+      "nombre": "Rosario",
+      "sistema": "demo_2d",
+      "grupo": "defensa",
+      "significado": "Rosario con cuentas y cruz.",
+      "uso": "Identificar esta defensa en cartas, listados o fichas de referencia.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/dc/dcf40ac23f98181d700013b6c14daef676e4b393ff1002af1b60e20134e115b4.svg",
+          "sha256": "dcf40ac23f98181d700013b6c14daef676e4b393ff1002af1b60e20134e115b4",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/def_ros.svg"
+        },
+        "png": {
+          "objeto": "objetos/9a/9a1661b21e286f81c24caef2a9163b9b977509bb6ce415b11d9039ecc537dedd.png",
+          "sha256": "9a1661b21e286f81c24caef2a9163b9b977509bb6ce415b11d9039ecc537dedd",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/def_ros.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.def_esc",
+      "id": "def_esc",
+      "nombre": "Esconderse",
+      "sistema": "demo_2d",
+      "grupo": "defensa",
+      "significado": "Ocultamiento; armario con ojo.",
+      "uso": "Identificar esta defensa en cartas, listados o fichas de referencia.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/85/85bcf05e6eebf701a42fb7fdbac1fe89aa33326f8c2fb7cf151b9f74ad9ec4c7.svg",
+          "sha256": "85bcf05e6eebf701a42fb7fdbac1fe89aa33326f8c2fb7cf151b9f74ad9ec4c7",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/def_esc.svg"
+        },
+        "png": {
+          "objeto": "objetos/f8/f89580ef76b78b8d492eaa212010c15e8c7209b8e469ece3238a33e4450ffd06.png",
+          "sha256": "f89580ef76b78b8d492eaa212010c15e8c7209b8e469ece3238a33e4450ffd06",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/def_esc.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.def_ultr",
+      "id": "def_ultr",
+      "nombre": "Ultraje espiritual",
+      "sistema": "demo_2d",
+      "grupo": "defensa",
+      "significado": "Gesto de confrontación; puño levantado.",
+      "uso": "Identificar esta defensa en cartas, listados o fichas de referencia.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/fd/fddfc0bad8dd870d52ac1b95ef43345cbb91c5af11af742a02e96cd2762542e6.svg",
+          "sha256": "fddfc0bad8dd870d52ac1b95ef43345cbb91c5af11af742a02e96cd2762542e6",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/def_ultr.svg"
+        },
+        "png": {
+          "objeto": "objetos/11/11a7fdf496f268e6d8b26bd928fbb9f58be0ca93132c8219664f1711982bb729.png",
+          "sha256": "11a7fdf496f268e6d8b26bd928fbb9f58be0ca93132c8219664f1711982bb729",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/def_ultr.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.def_copal",
+      "id": "def_copal",
+      "nombre": "Copal",
+      "sistema": "demo_2d",
+      "grupo": "defensa",
+      "significado": "Recipiente de copal con humo.",
+      "uso": "Identificar esta defensa en cartas, listados o fichas de referencia.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/e1/e10a24d2952b9f4258985e2c4973556201a8ecd77a52d93c7f42971f5e0885a4.svg",
+          "sha256": "e10a24d2952b9f4258985e2c4973556201a8ecd77a52d93c7f42971f5e0885a4",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/def_copal.svg"
+        },
+        "png": {
+          "objeto": "objetos/f8/f8bd6d019b7f4dcaee03fa25b38e269190db4a0025ef6b6e30d749194060ae28.png",
+          "sha256": "f8bd6d019b7f4dcaee03fa25b38e269190db4a0025ef6b6e30d749194060ae28",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/def_copal.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.def_ruda",
+      "id": "def_ruda",
+      "nombre": "Ruda",
+      "sistema": "demo_2d",
+      "grupo": "defensa",
+      "significado": "Rama de ruda.",
+      "uso": "Identificar esta defensa en cartas, listados o fichas de referencia.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/cb/cb9e5a687abc7d1ddbf3e6d5ade7c7c20300b3989da5bf1f9599a942c1924807.svg",
+          "sha256": "cb9e5a687abc7d1ddbf3e6d5ade7c7c20300b3989da5bf1f9599a942c1924807",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/def_ruda.svg"
+        },
+        "png": {
+          "objeto": "objetos/6c/6cabe85112e2f3d75fbbe24f8c0a689fd445a79f61430c2fe276eeeedf2d2537.png",
+          "sha256": "6cabe85112e2f3d75fbbe24f8c0a689fd445a79f61430c2fe276eeeedf2d2537",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/def_ruda.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.tipo_herramienta",
+      "id": "tipo_herramienta",
+      "nombre": "Herramienta",
+      "sistema": "demo_2d",
+      "grupo": "tipo",
+      "significado": "Categoría Herramienta; usa una lupa. No representa por sí sola todos los efectos de herramienta.",
+      "uso": "Identificar el tipo de carta en encabezados, listados o filtros.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/62/628ce9149dba068cc428712bd46f8a5bb2bfd6910d7511f1a2b2e19e8bbcdb37.svg",
+          "sha256": "628ce9149dba068cc428712bd46f8a5bb2bfd6910d7511f1a2b2e19e8bbcdb37",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/tipo_herramienta.svg"
+        },
+        "png": {
+          "objeto": "objetos/51/51008630af069400e43f9f7aeb39735c7475bddbc195971773732d99bc467cdd.png",
+          "sha256": "51008630af069400e43f9f7aeb39735c7475bddbc195971773732d99bc467cdd",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/tipo_herramienta.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.tipo_habilidad",
+      "id": "tipo_habilidad",
+      "nombre": "Habilidad del ánima",
+      "sistema": "demo_2d",
+      "grupo": "tipo",
+      "significado": "Categoría de habilidad del ánima; mano espectral.",
+      "uso": "Identificar el tipo de carta en encabezados, listados o filtros.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/bd/bd7a7c393327952cb08894efd075bd096c3714d70c1d5a96a3971879d67cc35d.svg",
+          "sha256": "bd7a7c393327952cb08894efd075bd096c3714d70c1d5a96a3971879d67cc35d",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/tipo_habilidad.svg"
+        },
+        "png": {
+          "objeto": "objetos/54/54b0be9929d94aa4cdd60941bb37301e0dbc934c079eb7830184fbe48252fad9.png",
+          "sha256": "54b0be9929d94aa4cdd60941bb37301e0dbc934c079eb7830184fbe48252fad9",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/tipo_habilidad.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.tipo_caceria",
+      "id": "tipo_caceria",
+      "nombre": "Cacería",
+      "sistema": "demo_2d",
+      "grupo": "tipo",
+      "significado": "Categoría Cacería; calavera con trazos cruzados.",
+      "uso": "Identificar el tipo de carta en encabezados, listados o filtros.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/ce/ce9e5ca13a50839c4f05478013814f2cd677068c22b6ee90275ef0e1f9711fec.svg",
+          "sha256": "ce9e5ca13a50839c4f05478013814f2cd677068c22b6ee90275ef0e1f9711fec",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/tipo_caceria.svg"
+        },
+        "png": {
+          "objeto": "objetos/ff/ff0fe81058de8725a572228589088dde42512f369f0aad75f201778fc0d272ef.png",
+          "sha256": "ff0fe81058de8725a572228589088dde42512f369f0aad75f201778fc0d272ef",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/tipo_caceria.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_camara",
+      "id": "ui_camara",
+      "nombre": "Cámara",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Control relacionado con cámara o captura. La acción exacta no está documentada; debe definirla el juego.",
+      "uso": "Control relacionado con cámara o captura. La acción exacta no está documentada; debe definirla el juego.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/66/661385541fb0c1f5d315d0e7cfcea5628cea5f8d825283c31ff64c9c07029f71.svg",
+          "sha256": "661385541fb0c1f5d315d0e7cfcea5628cea5f8d825283c31ff64c9c07029f71",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_camara.svg"
+        },
+        "png": {
+          "objeto": "objetos/8c/8caac9c3f78b894f2efbf91e634d47ef859c129571025d6f41bc93701e4f0a82.png",
+          "sha256": "8caac9c3f78b894f2efbf91e634d47ef859c129571025d6f41bc93701e4f0a82",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_camara.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_cartas",
+      "id": "ui_cartas",
+      "nombre": "Mis cartas",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Abrir o identificar la mano/panel de cartas del jugador.",
+      "uso": "Abrir o identificar la mano/panel de cartas del jugador.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/dd/dde7734b379cbf8300d8ea7ecaf57307c2e9176e946d8b62a8c81f342928ebf1.svg",
+          "sha256": "dde7734b379cbf8300d8ea7ecaf57307c2e9176e946d8b62a8c81f342928ebf1",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_cartas.svg"
+        },
+        "png": {
+          "objeto": "objetos/bc/bcbc95511d4ea374c4a355c84a51a454d25cdf51c39bda1e229fb244e5915ec2.png",
+          "sha256": "bcbc95511d4ea374c4a355c84a51a454d25cdf51c39bda1e229fb244e5915ec2",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_cartas.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_dado",
+      "id": "ui_dado",
+      "nombre": "Dado",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Identificar el dado o un control de tirada; el icono no define número de dados, resultado ni probabilidades.",
+      "uso": "Identificar el dado o un control de tirada; el icono no define número de dados, resultado ni probabilidades.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/3d/3dfabf94568c7e3597f55a525199f78761045b461d8259a1b68d430efffb4b6a.svg",
+          "sha256": "3dfabf94568c7e3597f55a525199f78761045b461d8259a1b68d430efffb4b6a",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_dado.svg"
+        },
+        "png": {
+          "objeto": "objetos/cb/cb6b350de323c657f163ae4a61e81efdf5bf4e9fa8bffd4ea0ec6b36e2147bea.png",
+          "sha256": "cb6b350de323c657f163ae4a61e81efdf5bf4e9fa8bffd4ea0ec6b36e2147bea",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_dado.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_espiritu",
+      "id": "ui_espiritu",
+      "nombre": "Espíritu",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Identificar el estado o panel de espíritu. No equivale a perder acceso a toda acción.",
+      "uso": "Identificar el estado o panel de espíritu. No equivale a perder acceso a toda acción.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/00/009708669656c00f72ff6c76d54483570a8cf00c1eb5b724b69ce1490952509d.svg",
+          "sha256": "009708669656c00f72ff6c76d54483570a8cf00c1eb5b724b69ce1490952509d",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_espiritu.svg"
+        },
+        "png": {
+          "objeto": "objetos/f6/f63ba2e9b716c9bf43121efb629a72f5ae1c85885a3050b5232d529b1c2776f3.png",
+          "sha256": "f63ba2e9b716c9bf43121efb629a72f5ae1c85885a3050b5232d529b1c2776f3",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_espiritu.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_candado",
+      "id": "ui_candado",
+      "nombre": "Candado",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Identificar un elemento bloqueado o privado; explicar el motivo con texto.",
+      "uso": "Identificar un elemento bloqueado o privado; explicar el motivo con texto.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/14/1485e6324ccacf77c06221e7a0b30820d2cc39aee0e6907c573ae55d47b4379f.svg",
+          "sha256": "1485e6324ccacf77c06221e7a0b30820d2cc39aee0e6907c573ae55d47b4379f",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_candado.svg"
+        },
+        "png": {
+          "objeto": "objetos/94/949014a3adf00e39c553ff0c963d05c43fe8cbfbab27bc19630473661afe6762.png",
+          "sha256": "949014a3adf00e39c553ff0c963d05c43fe8cbfbab27bc19630473661afe6762",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_candado.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_lupa",
+      "id": "ui_lupa",
+      "nombre": "Lupa",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Control de inspección o ampliación; no confundir con la categoría Herramienta.",
+      "uso": "Control de inspección o ampliación; no confundir con la categoría Herramienta.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/43/4329845726be83190d3383145f6f2ab986dfa6b24007f8a6011ebfe363e450c9.svg",
+          "sha256": "4329845726be83190d3383145f6f2ab986dfa6b24007f8a6011ebfe363e450c9",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_lupa.svg"
+        },
+        "png": {
+          "objeto": "objetos/51/51008630af069400e43f9f7aeb39735c7475bddbc195971773732d99bc467cdd.png",
+          "sha256": "51008630af069400e43f9f7aeb39735c7475bddbc195971773732d99bc467cdd",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_lupa.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_descargar",
+      "id": "ui_descargar",
+      "nombre": "Descargar",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Descargar o exportar un recurso; indicar qué archivo se obtiene.",
+      "uso": "Descargar o exportar un recurso; indicar qué archivo se obtiene.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/75/75042d084c5239e31b7089dcbc3c2e9817587421279447ee8b06455a8ae23d90.svg",
+          "sha256": "75042d084c5239e31b7089dcbc3c2e9817587421279447ee8b06455a8ae23d90",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_descargar.svg"
+        },
+        "png": {
+          "objeto": "objetos/96/96c367e15e10905ec13764ff5e9dab43aa56512131e1d73716c79fee5fa30688.png",
+          "sha256": "96c367e15e10905ec13764ff5e9dab43aa56512131e1d73716c79fee5fa30688",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_descargar.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "demo.ui_cerrar",
+      "id": "ui_cerrar",
+      "nombre": "Cerrar",
+      "sistema": "demo_2d",
+      "grupo": "interfaz",
+      "significado": "Cerrar un panel o diálogo; no usar para borrar datos sin una indicación distinta.",
+      "uso": "Cerrar un panel o diálogo; no usar para borrar datos sin una indicación distinta.",
+      "base_uso": "Etiqueta y categoría confirmadas en manifiesto original; ubicaciones concretas son recomendación editorial, no integración comprobada.",
+      "estado": "recurso_existente_demo; aprobación visual final no acreditada por separado",
+      "formatos": {
+        "svg": {
+          "objeto": "objetos/ad/ad7f9977bae1aa0e9b95c82ae09823a6173698e07f0940a69e08f348ff1131b6.svg",
+          "sha256": "ad7f9977bae1aa0e9b95c82ae09823a6173698e07f0940a69e08f348ff1131b6",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/svg/ui_cerrar.svg"
+        },
+        "png": {
+          "objeto": "objetos/98/98810f91cca81d7bce51f7608a2e78fee080ac134bad73cd250428ba921647fe.png",
+          "sha256": "98810f91cca81d7bce51f7608a2e78fee080ac134bad73cd250428ba921647fe",
+          "origen": "2026-11-13/ho/outputs/Arte_Demo_Actual/assets/ui_cerrar.png"
+        }
+      },
+      "dimensiones_png": [
+        256,
+        256
+      ],
+      "fuente_semantica": "2026-11-13/ho/outputs/Arte_Demo_Actual/iconos_manifest.json"
+    },
+    {
+      "clave": "familia.mano",
+      "id": "mano",
+      "nombre": "Mano",
+      "sistema": "familias_roles",
+      "grupo": "familia",
+      "significado": "Familia gráfica asociada a acción/interacción.",
+      "uso": "Símbolo de familia en el encabezado de las cartas: El Vigía, El Improvisador, Manifestar.",
+      "base_uso": "Asignaciones comprobadas en manifest v09 y montar_entrega.py v04. La interpretación temática no establece poderes.",
+      "asignaciones": [
+        "El Vigía",
+        "El Improvisador",
+        "Manifestar"
+      ],
+      "estado": "recurso_existente_en_cartas; sin aprobación global adicional",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/49/49a60b0a76467cd023d431f0eeaf7934f750e0ced187d9b8f0c9fedb04b521a7.png",
+          "sha256": "49a60b0a76467cd023d431f0eeaf7934f750e0ced187d9b8f0c9fedb04b521a7",
+          "origen": "Noche_de_Animas_Roles_v09/iconos/mano.png"
+        }
+      },
+      "dimensiones_png": [
+        192,
+        192
+      ],
+      "fuente_semantica": "Noche_de_Animas_Roles_v09/manifest.json"
+    },
+    {
+      "clave": "familia.ojo",
+      "id": "ojo",
+      "nombre": "Ojo",
+      "sistema": "familias_roles",
+      "grupo": "familia",
+      "significado": "Familia gráfica asociada a observación/percepción.",
+      "uso": "Símbolo de familia en el encabezado de las cartas: El Técnico, El Detective, El Sensitivo.",
+      "base_uso": "Asignaciones comprobadas en manifest v09 y montar_entrega.py v04. La interpretación temática no establece poderes.",
+      "asignaciones": [
+        "El Técnico",
+        "El Detective",
+        "El Sensitivo"
+      ],
+      "estado": "recurso_existente_en_cartas; sin aprobación global adicional",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/53/531dd5040bbf7f2168234534f3f30e75e67789d3844056b601e6b1c2d91297d9.png",
+          "sha256": "531dd5040bbf7f2168234534f3f30e75e67789d3844056b601e6b1c2d91297d9",
+          "origen": "Noche_de_Animas_Roles_v09/iconos/ojo.png"
+        }
+      },
+      "dimensiones_png": [
+        192,
+        192
+      ],
+      "fuente_semantica": "Noche_de_Animas_Roles_v09/manifest.json"
+    },
+    {
+      "clave": "familia.corazon",
+      "id": "corazon",
+      "nombre": "Corazón",
+      "sistema": "familias_roles",
+      "grupo": "familia",
+      "significado": "Familia gráfica asociada a cuidado/apoyo.",
+      "uso": "Símbolo de familia en el encabezado de las cartas: El Curandero.",
+      "base_uso": "Asignaciones comprobadas en manifest v09 y montar_entrega.py v04. La interpretación temática no establece poderes.",
+      "asignaciones": [
+        "El Curandero"
+      ],
+      "estado": "recurso_existente_en_cartas; sin aprobación global adicional",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/48/483f6527a1c4cd6fe9cd2d181f0a59c7402c5754ef45ca03020a1cf198f9aa6f.png",
+          "sha256": "483f6527a1c4cd6fe9cd2d181f0a59c7402c5754ef45ca03020a1cf198f9aa6f",
+          "origen": "Noche_de_Animas_Roles_v09/iconos/corazon.png"
+        }
+      },
+      "dimensiones_png": [
+        192,
+        192
+      ],
+      "fuente_semantica": "Noche_de_Animas_Roles_v09/manifest.json"
+    },
+    {
+      "clave": "familia.escudo",
+      "id": "escudo",
+      "nombre": "Escudo",
+      "sistema": "familias_roles",
+      "grupo": "familia",
+      "significado": "Familia gráfica asociada a protección.",
+      "uso": "Símbolo de familia en el encabezado de las cartas: La Devota, El Guardaespaldas, Velar.",
+      "base_uso": "Asignaciones comprobadas en manifest v09 y montar_entrega.py v04. La interpretación temática no establece poderes.",
+      "asignaciones": [
+        "La Devota",
+        "El Guardaespaldas",
+        "Velar"
+      ],
+      "estado": "recurso_existente_en_cartas; sin aprobación global adicional",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/62/623b90a9c181fdfc3522d51c1152d0870961c49d531819b75d7f6456e58f0ce4.png",
+          "sha256": "623b90a9c181fdfc3522d51c1152d0870961c49d531819b75d7f6456e58f0ce4",
+          "origen": "Noche_de_Animas_Roles_v09/iconos/escudo.png"
+        }
+      },
+      "dimensiones_png": [
+        192,
+        192
+      ],
+      "fuente_semantica": "Noche_de_Animas_Roles_v09/manifest.json"
+    },
+    {
+      "clave": "concepto3d.icono_apagar",
+      "id": "icono_apagar",
+      "nombre": "Apagar",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Control conceptual de apagar; debe concretarse el objetivo interactuable.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/f4/f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7.png",
+          "sha256": "f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_apagar.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_apagon",
+      "id": "icono_apagon",
+      "nombre": "Apagón",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual de apagón.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/f4/f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7.png",
+          "sha256": "f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_apagon.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_cazar",
+      "id": "icono_cazar",
+      "nombre": "Cazar",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Control conceptual de iniciar o representar una cacería.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/df/df88178c2cee5e1b42d02f10123e0236f2ad45776193b6b9128042aba389124a.png",
+          "sha256": "df88178c2cee5e1b42d02f10123e0236f2ad45776193b6b9128042aba389124a",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_cazar.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_escalofrio",
+      "id": "icono_escalofrio",
+      "nombre": "Escalofrío",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual de escalofrío.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/16/1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c.png",
+          "sha256": "1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_escalofrio.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_guarida",
+      "id": "icono_guarida",
+      "nombre": "Guarida",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Marcador conceptual de guarida.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/92/9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1.png",
+          "sha256": "9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_guarida.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_interferencia",
+      "id": "icono_interferencia",
+      "nombre": "Interferencia",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual de interferencia.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/e5/e55842ad3aff4a361adde1242cc2450db1af0d4b144b53ceb156d998e03b30e2.png",
+          "sha256": "e55842ad3aff4a361adde1242cc2450db1af0d4b144b53ceb156d998e03b30e2",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_interferencia.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_mover",
+      "id": "icono_mover",
+      "nombre": "Mover",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Control conceptual de movimiento; objetivo o selección por definir.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/6d/6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a.png",
+          "sha256": "6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_mover.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_mudanza",
+      "id": "icono_mudanza",
+      "nombre": "Mudanza",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual Mudanza; no confundir con Mover.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/6d/6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a.png",
+          "sha256": "6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_mudanza.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_portazo",
+      "id": "icono_portazo",
+      "nombre": "Portazo",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual de portazo.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/92/9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1.png",
+          "sha256": "9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_portazo.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    },
+    {
+      "clave": "concepto3d.icono_susurro",
+      "id": "icono_susurro",
+      "nombre": "Susurro",
+      "sistema": "hud_3d_conceptual",
+      "grupo": "concepto_3d",
+      "significado": "Evento o habilidad conceptual de susurro; distinto del ID de evidencia ev_2.",
+      "uso": "Referencia visual para el HUD del ánima del proyecto 3D. No sustituye automáticamente iconos ni reglas del juego de cartas.",
+      "base_uso": "Nombre de archivo, ubicación 06_interfaz y LEEME_Claude.md; efectos, costes y controles pendientes de GDD.",
+      "estado": "propuesta_3d_pendiente_revision",
+      "formatos": {
+        "png": {
+          "objeto": "objetos/16/1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c.png",
+          "sha256": "1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c",
+          "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_susurro.png"
+        }
+      },
+      "dimensiones_png": [
+        512,
+        512
+      ],
+      "fuente_semantica": "Arte_Produccion_3D_v02/LEEME_Claude.md"
+    }
+  ],
+  "dibujos_compartidos": [
+    [
+      "demo.tipo_herramienta",
+      "demo.ui_lupa"
+    ],
+    [
+      "concepto3d.icono_apagar",
+      "concepto3d.icono_apagon"
+    ],
+    [
+      "concepto3d.icono_escalofrio",
+      "concepto3d.icono_susurro"
+    ],
+    [
+      "concepto3d.icono_guarida",
+      "concepto3d.icono_portazo"
+    ],
+    [
+      "concepto3d.icono_mover",
+      "concepto3d.icono_mudanza"
+    ]
+  ]
+}

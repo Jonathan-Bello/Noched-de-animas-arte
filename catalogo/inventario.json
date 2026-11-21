@@ -16764,6 +16764,126 @@
       "bytes": 211994,
       "objeto": "objetos/51/513729633ab83968d9941afc045f03a110c778e4c0c2afc636478c7a70a8931a.webp",
       "estado": "historico_sin_aprobacion_global"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_apagar.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.443210-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.450978-06:00",
+      "sha256": "f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7",
+      "bytes": 4690,
+      "objeto": "objetos/f4/f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_apagon.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.500629-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.519471-06:00",
+      "sha256": "f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7",
+      "bytes": 4690,
+      "objeto": "objetos/f4/f4993a521f5fb41d81154dd9006a06b652fa00930b1c41f76542d41a3a3ebeb7.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_cazar.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.492624-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.500629-06:00",
+      "sha256": "df88178c2cee5e1b42d02f10123e0236f2ad45776193b6b9128042aba389124a",
+      "bytes": 4354,
+      "objeto": "objetos/df/df88178c2cee5e1b42d02f10123e0236f2ad45776193b6b9128042aba389124a.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_escalofrio.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.430927-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.433653-06:00",
+      "sha256": "1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c",
+      "bytes": 5121,
+      "objeto": "objetos/16/1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_guarida.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.500629-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.500629-06:00",
+      "sha256": "9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1",
+      "bytes": 3176,
+      "objeto": "objetos/92/9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_interferencia.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.484066-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.490617-06:00",
+      "sha256": "e55842ad3aff4a361adde1242cc2450db1af0d4b144b53ceb156d998e03b30e2",
+      "bytes": 4725,
+      "objeto": "objetos/e5/e55842ad3aff4a361adde1242cc2450db1af0d4b144b53ceb156d998e03b30e2.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_mover.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.450978-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.468597-06:00",
+      "sha256": "6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a",
+      "bytes": 3246,
+      "objeto": "objetos/6d/6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_mudanza.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.519471-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.527513-06:00",
+      "sha256": "6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a",
+      "bytes": 3246,
+      "objeto": "objetos/6d/6d741919eb14042cec2a9154b27e76f8dbe6ee9124d3cbd2dcbca399c513fb4a.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_portazo.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.450978-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.450978-06:00",
+      "sha256": "9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1",
+      "bytes": 3176,
+      "objeto": "objetos/92/9298f5f3525fca64aca0849f999ff9156a713bad042e32005c31ba80fc09b7b1.png",
+      "estado": "concepto_3d_pendiente_revision"
+    },
+    {
+      "origen": "Arte_Produccion_3D_v02/06_interfaz/icono_susurro.png",
+      "coleccion": "Iconos_HUD_3D_v02",
+      "fecha_observada": "2026-11-17",
+      "fecha_fuente": "mtime_archivo; no garantiza creación original",
+      "windows_creacion_observada": "2026-11-17T23:57:24.472213-06:00",
+      "ultima_modificacion_observada": "2026-11-17T23:57:24.480872-06:00",
+      "sha256": "1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c",
+      "bytes": 5121,
+      "objeto": "objetos/16/1663590008cf9ff463436f24aac4aaf85e14a4c93cc751d567572dbbe4432a7c.png",
+      "estado": "concepto_3d_pendiente_revision"
     }
   ],
   "archivos_vacios_no_recuperables": [
@@ -16771,6 +16891,6 @@
     "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos.pdf",
     "Noche_de_Animas_v3_Prueba_81_Frentes_y_Reversos_v3.pdf"
   ],
-  "objetos_unicos": 1136,
+  "objetos_unicos": 1142,
   "originales_no_modificados": true
 }

@@ -1,0 +1,252 @@
+{
+  "total": 37,
+  "hashes_y_formatos_verificados": true,
+  "dibujos_modificados": false,
+  "iconos": [
+    {
+      "clave": "demo.ev_0",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_1",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_2",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_3",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_4",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_5",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ev_6",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.def_ros",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.def_esc",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.def_ultr",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.def_copal",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.def_ruda",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.tipo_herramienta",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.tipo_habilidad",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.tipo_caceria",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_camara",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_cartas",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_dado",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_espiritu",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_candado",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_lupa",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_descargar",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "demo.ui_cerrar",
+      "formatos_verificados": [
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "clave": "familia.mano",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "familia.ojo",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "familia.corazon",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "familia.escudo",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_apagar",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_apagon",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_cazar",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_escalofrio",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_guarida",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_interferencia",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_mover",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_mudanza",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_portazo",
+      "formatos_verificados": [
+        "png"
+      ]
+    },
+    {
+      "clave": "concepto3d.icono_susurro",
+      "formatos_verificados": [
+        "png"
+      ]
+    }
+  ]
+}

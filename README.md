@@ -2,6 +2,10 @@
 
 Fuente de recursos gráficos, versiones y evidencia de aprobación para tres proyectos separados: esta biblioteca, el juego de cartas y el juego 3D inspirado en él.
 
+## Iconos
+
+[Guía de significado y uso](iconos/README.md) · [Galería de 37 iconos](iconos/galeria.html) · [Manifiesto](iconos/manifest.json). Evidencias, defensas, tipos, UI, familias de cartas y referencias conceptuales del HUD 3D.
+
 ## Qué usar
 
 - `catalogo/canon.cartas.json`: selección final de cartas con aprobación documentada, rutas inmutables y SHA-256.
