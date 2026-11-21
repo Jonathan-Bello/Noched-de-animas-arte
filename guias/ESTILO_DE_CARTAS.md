@@ -8,13 +8,21 @@ La referencia es una ilustración narrativa de folclor mexicano con formas de pa
 
 Usar sombras amplias, superficies mate y profundidad por superposición, escala y tono. Conservar la paleta de la escena: azul petróleo y crema, naranja de cempasúchil y ámbar, guinda, magenta y morado. Bordados, papel picado, cerámica y arquitectura pueden llevar detalle abundante donde apoye la acción. La guía descarta el acabado fotográfico, el bisel 3D, el brillo cromado, los halos añadidos y la simplificación en pictogramas. Las apariciones dejan entrever el fondo mediante capas de tono.
 
-| Para dibujar | Referencias del mazo | Qué comparar |
-|---|---|---|
-| Herramientas y objetos rituales | i01, i03, i05, i08, o06 (Tarot), p03 | Silueta del objeto, espesor de piezas, sombra y ornamento |
-| Señales y espacios | e01, e03, e04, h05, a09 | Lectura de la acción, perspectiva y luz de ambiente |
-| Espejos | i06, h06, o08 (Espejo de obsidiana) | Marco con canto y reflejo ilustrado |
-| Entidades y espantos | id03, id13, id16, s13, p07 | Identidad, gesto y continuidad entre aparición y ataque |
-| Roles | [Identidades v03](identidades_historicas_v03.json) | Parecido, silueta, vestuario y expresión; ojos crema con pupila simple, cejas por formas y piel mate |
+## Referencias elegidas por el autor
+
+[Estudio visual carta por carta y reversos](../sistema-de-diseno.html#seleccion). Esta selección prevalece sobre los ejemplos de acabado de la guía histórica.
+
+- **Objetos y rituales** — Espejo de mano, Rosario, Té de tila, Ultraje espiritual, Copal, Limpia con huevo, Muñeca de la isla, Espejo de obsidiana.
+- **Acciones y evidencias** — Manifestación, Posesión demoníaca, Cacería, Cacería total, Travesura, Bajo cero, Lluvia de objetos, Furia, Arrastrar.
+- **Identidades** — La Llorona, Charro Negro, El Cucuy, Espíritu Chocarrero, Demonio, Aparecido.
+- **Espantos** — La bestia, Llanto eterno, Aquelarre, Trato con el diablo, Ronda nocturna, Canto de la ceiba, Soplo del mal viento.
+- **Roles señalados · versión de muestra en revisión** — El Curandero, La Devota, El Sensitivo, El Guardaespaldas.
+- **Reversos** — Todos. Conservar su asignación por tipo.
+- **Ánima sola** — Elegida por nombre. Confirmar su ficha antes de asociar una imagen.
+
+Para nuevos bocetos, decidir primero dónde se reconoce el acontecimiento: las manos de Rosario, el reflejo del Espejo de obsidiana, la carrera en Cacería o las ventanas de la casa en Cacería total. Revisar la lectura del gesto a tamaño final. Mantener las sombras en planos grandes y reservar el detalle ornamental para enmarcar el foco. Para los roles, comparar rostro, silueta y vestuario con la versión de identidad correspondiente.
+
+**Artes que el autor quiere modificar** — Termómetro, Objetos movidos, El Guardián del Entierro, Tarot y El espíritu. Su registro de entrega se conserva como histórico. El Espejo de obsidiana sí continúa como referencia.
 
 Las rutas actuales de cada referencia están en el canon o en el [inventario de originales](../catalogo/inventario.json). La [galería de aprobaciones y candidatos](../aprobados.html) permite contrastar versiones. Los manifiestos de la guía del [14 de noviembre](../historial/2026-11-14/Guia_Artistica_Noche_de_Animas.json) y del [16 de noviembre](../historial/2026-11-16/Guia_Artistica_Noche_de_Animas.json) conservan la procedencia de las referencias.
 
@@ -41,7 +49,7 @@ El [sistema de iconos del juego](https://github.com/Jonathan-Bello/NOCHE-DE-ANIM
 
 **El Vigía.** Recuperar la identidad ilustrada v03 de Jonathan: rostro ovalado algo alargado, mentón suave, pelo oscuro con raya central y mechones hasta la nuca, cejas anchas, camisa azul. Comparar con las fotos privadas para el parecido y con la ilustración v03 para el acabado. Colocar el emblema original [familia_mano.webp](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/iconos/familia_mano.webp). Revisar el encuadre con encabezado y leyenda colocados.
 
-**Pentagrama.** El [juego web](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/main.js) lo clasifica como objeto maldito del ánima. Usar Tarot y Espejo de obsidiana para comparar escala, materiales y tratamiento ritual. El efecto sobre el Copal informa el concepto; su pictograma de efecto no determina el emblema del encabezado. Verificar este último contra el frente de objetos malditos aprobado antes de componer. La escena final queda por definir.
+**Pentagrama.** El [juego web](https://github.com/Jonathan-Bello/NOCHE-DE-ANIMAS/blob/a832d3ab1ede2c6559e41ab601fd10bb13b8cd8c/app/main.js) lo clasifica como objeto maldito del ánima. Usar Copal y Espejo de obsidiana para comparar escala, materiales y tratamiento ritual. El efecto sobre el Copal informa el concepto; su pictograma de efecto no determina el emblema del encabezado. Verificar este último contra el frente de objetos malditos aprobado antes de componer. La escena final queda por definir.
 
 Las dos ilustraciones nuevas de la prueba quedan fuera de las referencias de estilo por indicación del autor. Antes de reemplazar una carta, mostrar la propuesta junto a las referencias de su familia, primero como arte y después con el marco a tamaño final. Registrar por separado aprobación de identidad, escena y carta terminada. [Pendientes artísticos](../PENDIENTES.md).
 
