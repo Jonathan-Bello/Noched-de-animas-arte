@@ -1,5 +1,7 @@
 # Ficha · rol_vigia · El Vigía
 
+> **Obsoleta (21-nov-2026):** Jonathan aprobó la ilustración del Vigía (`catalogo/ilustraciones_roles_aprobadas.json`). Queda solo como registro.
+
 > Pega esta ficha completa en un chat nuevo del proyecto de ChatGPT, con las imágenes que pide «Adjuntar».
 
 **Tipo:** rol (Los testigos de la casona) · emblema de familia: mano
