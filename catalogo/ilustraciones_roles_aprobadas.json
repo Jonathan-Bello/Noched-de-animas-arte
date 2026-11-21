@@ -1,0 +1,66 @@
+{
+  "rol_vigia": {
+    "nombre": "El Vigía",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/vigia.webp",
+    "vista": "web/miniaturas/roles-aprobados/vigia-vista.webp",
+    "sha256": "6537e66070e25d7e06c9b40eaedc7b57e1a3cf9c18ef1cceaed60f34d89c2bf2",
+    "original_png_sha256": "c438d44c54fc817ace2b07cff9a86f7a29eda04fd06d9d8d49e7ee9426854c1d"
+  },
+  "rol_improvisador": {
+    "nombre": "El Improvisador",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/improvisador.webp",
+    "vista": "web/miniaturas/roles-aprobados/improvisador-vista.webp",
+    "sha256": "42ce9a6097108d834a0beca194ec6dd483b2da1b3a6774d77f64789c8edbbf04",
+    "original_png_sha256": "474c2984de818ce2ca6913fd6ae888771acea262acf1e73d4f8ef66be21c4fdb"
+  },
+  "rol_tecnico": {
+    "nombre": "El Técnico",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/tecnico.webp",
+    "vista": "web/miniaturas/roles-aprobados/tecnico-vista.webp",
+    "sha256": "ffabb0483b05a7a738d8ae768b46569d33cd3758061719f2482eee758ea28642",
+    "original_png_sha256": "33b282f327b3e78866d59704d76bdb25fbcd8a6bedfa4691cd1341223955cb6b"
+  },
+  "rol_detective": {
+    "nombre": "El Detective",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/detective.webp",
+    "vista": "web/miniaturas/roles-aprobados/detective-vista.webp",
+    "sha256": "32952d82d1cd356bd932f74bba8ccdec09a3dc0904632ff68248136a68c4b40b",
+    "original_png_sha256": "5f44a46810fcfed34752aee04426c475cd8281661980f8b52424d9b2c554ca41"
+  },
+  "rol_curandero": {
+    "nombre": "El Curandero",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/curandero.webp",
+    "vista": "web/miniaturas/roles-aprobados/curandero-vista.webp",
+    "sha256": "059c488044ee278f83f5e6be92e979885a0cd9b08e25219905443d1d0c0a0afa",
+    "original_png_sha256": "384403c74417276915ec99028e40bbcce6a68423ec26ba5eba6113a08434a136"
+  },
+  "rol_devota": {
+    "nombre": "La Devota",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/devota.webp",
+    "vista": "web/miniaturas/roles-aprobados/devota-vista.webp",
+    "sha256": "851d41687613014acf5b5d0189008068a224ee701b5ee63d1dd7ed8e4130c414",
+    "original_png_sha256": "0d51bca50b9bce9e5d67d99d31bb4fd4b54ae4e5aacafe6122536b1892fac970"
+  },
+  "rol_sensitivo": {
+    "nombre": "El Sensitivo",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/sensitivo.webp",
+    "vista": "web/miniaturas/roles-aprobados/sensitivo-vista.webp",
+    "sha256": "1bed9ea9bf752d5fe94d457acdccb4c119c6c9b02edb4fe84bcb9317af20dde0",
+    "original_png_sha256": "8df03e36e78caeb8d390b9d0c19c90ebccb6b4b09b3819e150681a7a5f5b3f1d"
+  },
+  "rol_guardaespaldas": {
+    "nombre": "El Guardaespaldas",
+    "estado_arte": "aprobado_sin_marco",
+    "ilustracion": "web/miniaturas/roles-aprobados/guardaespaldas.webp",
+    "vista": "web/miniaturas/roles-aprobados/guardaespaldas-vista.webp",
+    "sha256": "e3af89ca29af9dfece43cb0da9da07cede97795687b879905cd929d00b007cac",
+    "original_png_sha256": "a90c3ba1b6381060688f786e2660b789c20eaf96742b627a2cc16efa13c55f69"
+  }
+}

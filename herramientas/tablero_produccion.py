@@ -36,9 +36,11 @@ def preview(piece):
             f'<figcaption>{label}</figcaption></figure>')
 
 def board(catalog):
+    roles = json.loads((ROOT / "catalogo/ilustraciones_roles_aprobadas.json").read_text(encoding="utf-8"))
     parts = []
     for title, key in [("Cartas y componentes", "cartas"), ("Reversos", "reversos")]:
-        pieces = catalog[key]
+        pieces = [dict(p, estado_arte=roles[p["id"]]["estado_arte"])
+                  if p["id"] in roles else p for p in catalog[key]]
         counts = Counter(p["estado_arte"] for p in pieces)
         parts.append(f'<section><h2>{title}</h2><p>{len(pieces)} diseños en el catálogo.</p><ul>')
         for status, label in STATUS.items():
@@ -56,6 +58,8 @@ def board(catalog):
             else:
                 purpose = escape(p.get("uso") or "PENDIENTE: texto de Jonathan")
                 need = NEXT.get(code, "Revisar el parecido y la escena y registrar la decisión sobre la carta.")
+            if code in roles:
+                need = f'Componer el marco y la leyenda. <a href="personajes.html#rol-{code[4:]}">Ver ilustración aprobada</a>.'
             parts.append(f'<article><small>{STATUS[status]} · <code>{code}</code></small>'
                          f'<h3>{name}</h3>{preview(p)}<p>{purpose}</p><p><b>Trabajo pendiente.</b> {need}</p></article>')
         parts.append('</div></section>')
