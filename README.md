@@ -42,3 +42,16 @@ Para los otros proyectos: fijar este repositorio a un commit/tag concreto; ejecu
 Los commits se crean en la fecha real de esta migración; sus mensajes identifican la fecha de los archivos importados. No se falsifican fechas de Git. La cronología usa primero fechas explícitas de las guías/entregas y después la última modificación observada, siempre identificada como aproximación; las fechas de creación de Windows pueden reflejar copias.
 
 Los originales permanecen en la carpeta local. No se incluyen ZIP redundantes, fotos personales, dependencias, herramientas de navegador ni código de los otros juegos. Los trabajos 3D se registran en el mapa de separación, sin mezclarlos con las cartas aprobadas. Los PDF históricos son evidencia de exportación, no una aprobación automática.
+
+## Recursos públicos para el equipo de arte
+
+Las vistas web se construyen a partir de los WebP del canon. En un checkout que tenga los originales de Git LFS, instalar Pillow (versión utilizada: 13.0.0) y ejecutar:
+
+```sh
+python herramientas/miniaturas.py
+python herramientas/paquete_referencias.py ../Noche_de_Animas_Referencias.zip
+```
+
+El primer comando verifica el SHA-256 del original y guarda las dimensiones web en `web/miniaturas/`. El manifiesto contiene las huellas del original y de cada vista. El segundo comando valida las vistas medias y genera fuera del repositorio un ZIP con ellas y el índice de cartas. Los valores nulos del índice identifican campos sin correspondencia documentada.
+
+Después de aprobar una versión, en **GitHub → Releases → Draft a new release** elige un tag de la revisión aprobada, adjunta `Noche_de_Animas_Referencias.zip` en los archivos de la Release y publica la Release. Copia el enlace público del adjunto en Descargas. El ZIP se distribuye como adjunto de Release.

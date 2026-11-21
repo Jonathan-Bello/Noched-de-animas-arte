@@ -1,0 +1,94 @@
+{
+  "ilustracion": {
+    "Petróleo": {
+      "hex": "#2A5055",
+      "id": "id01"
+    },
+    "Crema": {
+      "hex": "#F1DBAC",
+      "id": "i14"
+    },
+    "Cempasúchil": {
+      "hex": "#EE7129",
+      "id": "i14"
+    },
+    "Ámbar": {
+      "hex": "#D8954B",
+      "id": "i09"
+    },
+    "Guinda": {
+      "hex": "#712236",
+      "id": "s13"
+    },
+    "Magenta": {
+      "hex": "#B12149",
+      "id": "i06"
+    },
+    "Morado": {
+      "hex": "#5E3C53",
+      "id": "a09"
+    }
+  },
+  "franjas": {
+    "herramienta": {
+      "hex": "#031A32",
+      "id": "i01",
+      "nombre": "Termómetro"
+    },
+    "apoyo": {
+      "hex": "#0B3D30",
+      "id": "i09",
+      "nombre": "Té de tila"
+    },
+    "reaccion": {
+      "hex": "#1A396A",
+      "id": "i11",
+      "nombre": "Rosario"
+    },
+    "marcador": {
+      "hex": "#653808",
+      "id": "p02",
+      "nombre": "Alba"
+    },
+    "objeto": {
+      "hex": "#5E4915",
+      "id": "o01",
+      "nombre": "Radio"
+    },
+    "anima": {
+      "hex": "#0C0521",
+      "id": "a01",
+      "nombre": "Escalofrío"
+    },
+    "habilidad": {
+      "hex": "#0E062B",
+      "id": "h01",
+      "nombre": "Helada"
+    },
+    "identidad": {
+      "hex": "#382605",
+      "id": "id01",
+      "nombre": "La Llorona"
+    },
+    "espanto": {
+      "hex": "#580017",
+      "id": "s01",
+      "nombre": "Llanto eterno"
+    },
+    "evidencia": {
+      "hex": "#024746",
+      "id": "e01",
+      "nombre": "Bajo cero"
+    },
+    "consulta": {
+      "hex": "#653808",
+      "id": "Q1",
+      "nombre": "Consulta de íconos 1"
+    },
+    "reglas": {
+      "hex": "#653808",
+      "id": "p03",
+      "nombre": "Reglas 1: Tu turno"
+    }
+  }
+}
