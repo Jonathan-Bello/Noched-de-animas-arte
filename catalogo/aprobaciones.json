@@ -77,6 +77,12 @@
         }
       ],
       "evidencia": "Confirmación de dirección artística del 21 de noviembre de 2026."
+    },
+    {
+      "id": "cierre-seis-roles-2026-11-21",
+      "fecha": "2026-11-21",
+      "estado": "aprobado",
+      "alcance": "Improvisador, Detective, Curandero, Devota, Sensitivo y Guardaespaldas. El Vigía se rehace desde el modelo original. El Técnico queda en revisión con overol morado oscuro y sin pañuelo."
     }
   ]
 }

@@ -7,7 +7,7 @@
       "titulo": "El Vigía",
       "candidato_entregado": "objetos/af/af17b8859ce9de8fa14c663e883b7ec00ddd5ddae53c4dfbb08d027d38eba544.png",
       "sha256": "af17b8859ce9de8fa14c663e883b7ec00ddd5ddae53c4dfbb08d027d38eba544",
-      "estado": "requiere_rehacer_parecido",
+      "estado": "rehacer_desde_modelo_original",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
@@ -27,7 +27,7 @@
       "titulo": "El Técnico",
       "candidato_entregado": "objetos/25/2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9.png",
       "sha256": "2505be571f68241a3654d035d1a0fe51d0591b0e1843b502a6c39042c19fbdd9",
-      "estado": "aprobado_con_ajuste_de_panuelo_pendiente",
+      "estado": "en_revision_overol_morado_oscuro_sin_panuelo",
       "identidad_v03": "referencia_historica; Devota sustituida por modelo real, Técnico actualizado",
       "incluido_exportacion_aprobada": false
     },
