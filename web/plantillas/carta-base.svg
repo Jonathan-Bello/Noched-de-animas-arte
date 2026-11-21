@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="64mm" height="94mm" viewBox="0 0 64 94" role="img" aria-labelledby="title desc">
+<title id="title">Plantilla de carta de Noche de Ánimas</title>
+<desc id="desc">Sangrado de tres milímetros, corte de 58 por 88 y seguridad de tres milímetros. Bandas medidas en Espejo de obsidiana.</desc>
+<g id="sangrado" inkscape:groupmode="layer" inkscape:label="Sangrado"><rect width="64" height="94" fill="#812c50"/></g>
+<g id="corte" inkscape:groupmode="layer" inkscape:label="Corte"><rect x="3" y="3" width="58" height="88" fill="#171117" stroke="#fff" stroke-width=".25"/></g>
+<g id="titulo" inkscape:groupmode="layer" inkscape:label="Franja de título"><rect x="3.2" y="3.2" width="57.6" height="8.5" fill="#5d4914"/><text x="32" y="9" fill="#fff" font-size="3.2" text-anchor="middle">Título · 8.7 mm</text></g>
+<g id="ilustracion" inkscape:groupmode="layer" inkscape:label="Zona de ilustración"><rect x="3.2" y="11.7" width="57.6" height="70.6" fill="#183e42"/><text x="32" y="47" fill="#fff" text-anchor="middle" font-size="3.5">Ilustración · 70.6 mm</text><text x="32" y="54" fill="#fff" text-anchor="middle" font-size="2.7">Corte · 58 × 88 mm</text></g>
+<g id="leyenda" inkscape:groupmode="layer" inkscape:label="Panel de leyenda"><rect x="3.2" y="82.3" width="57.6" height="8.5" fill="#ebdaa7"/><text x="32" y="87.5" fill="#271723" text-anchor="middle" font-size="3">Leyenda · 8.7 mm</text></g>
+<g id="seguridad" inkscape:groupmode="layer" inkscape:label="Zona segura"><rect x="6" y="6" width="52" height="82" fill="none" stroke="#ffda78" stroke-width=".32" stroke-dasharray="1.1 1"/></g>
+</svg>

@@ -1,0 +1,50 @@
+name: Propuesta de arte
+description: Entregar una ilustración nueva o una corrección para revisión.
+title: "[Arte] "
+body:
+  - type: input
+    id: carta
+    attributes:
+      label: ID de la carta en el juego
+      description: Consulta el identificador en Cartas o en Producción.
+      placeholder: "Ejemplo: pentagrama"
+    validations:
+      required: true
+  - type: dropdown
+    id: entrega
+    attributes:
+      label: Tipo de entrega
+      options:
+        - Ilustración nueva
+        - Corrección
+    validations:
+      required: true
+  - type: textarea
+    id: archivo
+    attributes:
+      label: Archivo de ilustración
+      description: Arrastra el PNG o pega un enlace al archivo. Usa el nombre <id-del-juego>__v<n>.png. Publica únicamente la ilustración.
+    validations:
+      required: true
+  - type: textarea
+    id: herramientas
+    attributes:
+      label: Herramientas utilizadas
+      description: Indica las herramientas. Si usaste IA, incluye el modelo y el prompt exacto empleado.
+    validations:
+      required: true
+  - type: checkboxes
+    id: revision
+    attributes:
+      label: Revisión antes de entregar
+      options:
+        - label: PNG vertical 2:3 con al menos 1024 × 1536 px.
+          required: true
+        - label: Ilustración sin texto ni marco, con espacio para el encabezado y la leyenda.
+          required: true
+        - label: Revisé manos, anatomía e identidad de los personajes cuando aparecen.
+          required: true
+        - label: Comparé la paleta y el acabado con las referencias aprobadas de la familia.
+          required: true
+        - label: Declaré las herramientas y, cuando corresponde, el uso de IA y su prompt. El archivo público contiene solo ilustración.
+          required: true

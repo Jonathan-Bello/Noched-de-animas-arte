@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es-MX"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Consulta las cartas, sus funciones, cantidades, reversos y estados de ilustración.">
+<title>Cartas · Noche de Ánimas</title><link rel="stylesheet" href="./archivo.css"><script src="./archivo.js" defer></script>
+</head><body><a class="salto" href="#contenido">Saltar al contenido</a><header class="mast portal-nav"><a href="index.html">Noche de Ánimas</a><details open><summary>Secciones</summary><nav aria-label="Secciones del archivo"><a href="index.html">Empieza aquí</a><a href="juego.html">El juego</a><a href="personajes.html">Personajes</a><a href="cartas.html" aria-current="page">Cartas</a><a href="sistema-de-diseno.html">Sistema de diseño</a><a href="iconos/cartas/sistema-vigente.html">Íconos</a><a href="produccion.html">Producción</a><a href="colaborar.html">Cómo colaborar</a><a href="descargas.html">Descargas</a><a href="galeria.html">Historial</a></nav></details></header><script>const menuArchivo=document.querySelector('.portal-nav details');const anchoArchivo=matchMedia('(min-width:651px)');function ajustarMenu(){menuArchivo.open=anchoArchivo.matches}ajustarMenu();anchoArchivo.addEventListener('change',ajustarMenu);</script><span id="contenido" tabindex="-1"></span>
+
+<main id="inicio">
+
+<section id="galeria" class="section"><p class="kicker">El mazo y sus variantes</p><h1>Cartas</h1><p>Abre una ficha para consultar el efecto, las copias y la procedencia del arte.</p>
+<div class="controls"><label for="busqueda">Buscar carta<input type="search" id="busqueda" placeholder="Nombre, código o categoría"></label><label for="edicion">Selección<select id="edicion"><option value="all">Todas las ediciones</option><option value="approved">Arte aprobado</option><option value="proof">Prueba de imprenta</option><option value="review">Arte en revisión</option></select></label></div>
+<div id="categorias" class="filters" aria-label="Categorías"></div><p id="resultados" role="status">Cargando catálogo…</p><div id="cartas" class="grid"></div>
+</section>
+
+</main>
+<footer><span>Noche de Ánimas</span><a href="./aprobados.html">Archivo de aprobaciones ↗</a><a href="https://github.com/Jonathan-Bello/Noched-de-animas-arte">Repositorio ↗</a></footer>
+<dialog id="detalle" aria-labelledby="detalle-titulo"><div class="dialog-head"><div><p id="detalle-cat" class="kicker"></p><h2 id="detalle-titulo"></h2></div><form method="dialog"><button type="submit" aria-label="Cerrar vista de carta">×</button></form></div><div id="detalle-img" class="faces"></div><p id="detalle-estado"></p><dl id="detalle-datos"></dl><div id="detalle-original"></div></dialog>
+</body></html>

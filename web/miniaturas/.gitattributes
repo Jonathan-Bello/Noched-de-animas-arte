@@ -1,0 +1,4 @@
+* -filter -diff -merge -text
+*.json text diff merge
+*.svg text diff merge
+.gitattributes text diff merge
