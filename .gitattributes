@@ -3,3 +3,7 @@
 *.webp filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+objetos/** -text
+iconos/cartas/sistema-original.html -text
+iconos/cartas/svg/*.svg -text
+iconos/cartas/recursos-juego/*.svg -text
