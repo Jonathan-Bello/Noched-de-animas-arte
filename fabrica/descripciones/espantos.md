@@ -26,12 +26,12 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 
 ## Penitencia · `es_anima`
 
-**Estado:** 🔁 Rehacer · **Copias:** 1 · **Reverso:** `back04` · **Arte:** `s03`
+**Estado:** ✅ Conservar · **Copias:** 1 · **Reverso:** `back04` · **Arte:** `s03`
 
 - **Qué representa:** Penitencia: cada uno descarta un Rosario; quien no tenga pierde 3; luego cacería con 4 o menos.
-- **Arte actual:** La carta actual se titula «Cadenas»: pies de investigadores encadenados sobre mosaicos rotos. No corresponde al Espanto vigente y se confunde con el Cadejo Negro, cuya ánima son las cadenas.
-- **Debe leerse a tamaño de mesa:** Perder el rosario.
-- **Segunda tirada:** Rehacer (confirmado por Jonathan): sin cadenas, para no confundirla con el Cadejo. Título «Penitencia». Un rosario se deshace sobre las manos de quien reza; las cuentas caen hacia una banda oscura al pie. La mujer del rebozo guinda observa desde la sombra.
+- **Arte actual:** Pies de investigadores encadenados sobre mosaicos rotos; el primer eslabón sale entre dos mosaicos. La franja dice «Cadenas».
+- **Debe leerse a tamaño de mesa:** Las cadenas que atan a los investigadores.
+- **Segunda tirada:** Se conserva la ilustración con cadenas (decisión de Jonathan, 24-nov). Solo cambia el título de la franja: «Cadenas» pasa a «Penitencia».
 - **Alternativa:** La mujer del rebozo extiende la mano y los rosarios de los investigadores se deslizan hacia ella por la mesa.
 
 ## Infierno · `es_demonio`

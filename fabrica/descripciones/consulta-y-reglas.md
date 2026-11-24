@@ -103,10 +103,12 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 
 ## Tarjeta de cordura · `cordura`
 
-**Estado:** ❔ Por decidir · **Copias:** 4 · **Reverso:** `Q1B`
+**Estado:** ⬜ Falta · **Copias:** 4 · **Reverso:** `Q1B`
 
-- **Qué representa:** Componente: cada investigador marca su cordura de 10 a 0 con un clip.
-- **Arte actual:** No existe.
+**Personaje:** Los 5 investigadores
+
+- **Qué representa:** Componente: alternativa con clip a las fichas de cordura impresas en 3D. Cada investigador marca su cordura de 10 a 0.
+- **Arte actual:** Plantilla lista (web/plantillas/tarjeta-cordura.svg) con vistas previas usando los retratos del juego (web/plantillas/cordura/). Falta la ilustración final.
 - **Debe leerse a tamaño de mesa:** Que la zona de 4 o menos se lea como peligro.
-- **Segunda tirada:** Por decidir si se queda en el juego. Si se queda: una tarjeta por investigador con su retrato; la luz baja de cálida (10) a fría (0) y la franja de 4 o menos se ve más oscura. La escala la compone la plantilla.
+- **Segunda tirada:** Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona).
 - **Alternativa:** Una veladora que se consume de arriba abajo a lo largo de la escala.
