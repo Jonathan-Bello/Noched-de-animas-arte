@@ -179,10 +179,13 @@ def registrar(p):
         if not c or c[e["opcion"]]["sha256"] != e["sha256"]:
             print(f"! {e['id']}: el voto corresponde a una imagen que ya cambió; se omite (vuelve a votar)")
             continue
-        nuevo = {"id": e["id"], "nombre": c["nombre"], "lote": sel["lote"], "voto": e["opcion"],
-                 "alcance": alcances.get(e["id"], "preferencia_visual"), "archivo": limpio(c[e["opcion"]]["archivo"]),
-                 "sha256": e["sha256"], "registrado": date.today().isoformat()}
         previo = actuales.get(e["id"])
+        mismo = previo and all(previo.get(k) == v for k, v in (("lote", sel["lote"]), ("voto", e["opcion"]), ("sha256", e["sha256"])))
+        # Un voto que no cambió conserva su alcance (p. ej. «concepto_…»), salvo que se indique otro.
+        alcance = alcances.get(e["id"]) or (previo["alcance"] if mismo else "preferencia_visual")
+        nuevo = {"id": e["id"], "nombre": c["nombre"], "lote": sel["lote"], "voto": e["opcion"],
+                 "alcance": alcance, "archivo": limpio(c[e["opcion"]]["archivo"]),
+                 "sha256": e["sha256"], "registrado": date.today().isoformat()}
         if previo and all(previo.get(k) == nuevo[k] for k in ("lote", "voto", "sha256", "alcance")):
             continue
         if previo:

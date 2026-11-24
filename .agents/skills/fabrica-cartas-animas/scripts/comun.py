@@ -192,6 +192,12 @@ class Fabrica:
             add(miniatura(d["id_arte"]), "modelo del aparato", nota)
         # 4. Votos del autor
         v = self.votos.get(cid)
+        vigente = v and (R / v["archivo"]).is_file() and sha256(v["archivo"]) == v["sha256"]
+        if v and not vigente:
+            # La imagen votada se sustituyó después del voto: no es la que eligió el autor.
+            add(v["archivo"], f"voto {v['voto']} desactualizado",
+                f"El archivo ya no coincide con el hash votado en {v['lote']}; votar de nuevo en el selector.", usar=False)
+            v = None
         if v:
             if d["nombre"] in self.modificar:
                 add(v["archivo"], f"voto {v['voto']} anterior · superado",
