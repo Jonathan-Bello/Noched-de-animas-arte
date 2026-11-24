@@ -1,0 +1,2009 @@
+{
+ "lote": "comparativa-01",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "ilustrador": "ChatGPT",
+ "guiones": "https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/comparativa-01/descripciones.md",
+ "cartas": [
+  {
+   "id": "t0",
+   "nombre": "Termómetro",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t0-a.webp?v=b9f3eb5f51",
+    "sha256": "b9f3eb5f519b1eca61e84eb12949f8fb1138af355274ede1c29a20c1d1ad9b8e",
+    "descripcion": "Primer plano vertical. Tomás sostiene el termómetro de campo junto al borde de la ofrenda; la pantalla marca bajo cero y una sola esquina del mantel y de un cempasúchil está escarchada. Su aliento hace vaho. Azul petróleo y crema, con un único punto cálido de veladora."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t0-b.webp?v=8317036e4c",
+    "sha256": "8317036e4c97d7e5db082b429f5f4671e13c39dc5d337cd0b9dc0a68d6a34c0e",
+    "descripcion": "Vista cenital de la ofrenda. El termómetro sobre el mantel y el borde de escarcha concentran el detalle. Un retrato secundario sitúa la escena; dejar espacio de mantel en sombra alrededor del aparato."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t0-c.webp?v=92048b06b8",
+    "sha256": "92048b06b891d945c1a15b8aa21cb6b67ab43dfca9d4f0c8c9c93d4d0cf89b40",
+    "descripcion": "El termómetro de campo apoyado en el umbral de una despensa muestra la lectura bajo cero; en el azulejo inmediato la escarcha dibuja una hoja de helecho, mientras la siguiente baldosa está seca."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t0-d.webp?v=87e1b0c32d",
+    "sha256": "87e1b0c32d576855c11ae0a50d8322bb0538cda77df640fc77843dd6946c9d23",
+    "descripcion": "De perfil, Tomás acerca el termómetro a una ventana cerrada; una sola huella de hielo aparece del lado interior y una voluta de vaho sale de su boca."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i01@2x.webp",
+    "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
+   },
+   "miniaturas": "web/revision/comparativa-01/t0-mini.webp?v=eea45a05dd"
+  },
+  {
+   "id": "t1",
+   "nombre": "Lámpara UV",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t1-a.webp?v=2aeffb874c",
+    "sha256": "2aeffb874c1da8517050c964a55497ea08c37de498b16edbb84371e03e25db0a",
+    "descripcion": "La mano de Inés (manga crema con bordado guinda) barre el zócalo con la linterna; el cono corta el piso en diagonal y dentro aparecen dos pisadas de ceniza que fuera del haz no se ven."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t1-b.webp?v=0060edba7b",
+    "sha256": "0060edba7bf1049f5896d131fd54e8a5fc579439a4d8a3ad9a6107a65c70ca9c",
+    "descripcion": "La linterna quedó encendida en el suelo de un pasillo de la casona. El haz rasante revela una hilera de pisadas de ceniza en las baldosas, solo dentro del cono violeta. El pasillo se pierde en la oscuridad."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t1-c.webp?v=5978df7bef",
+    "sha256": "5978df7bef40cdf64e7b4d49b3cbadce2a5b156b25de1728d8be8a1155afd290",
+    "descripcion": "Desde la boca de un corredor lateral, la linterna UV descansando en un banco bajo revela una pisada que dobla la esquina; en el umbral, media huella queda partida por el límite del haz."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t1-d.webp?v=a65506a9c2",
+    "sha256": "a65506a9c231117da51a40df8d3d39dbf78a3f497233d7521359de06cec8131a",
+    "descripcion": "Al ras del suelo del pasillo, la linterna UV junto a una puerta entreabierta alumbra dos pisadas de ceniza delante de un petate; el corredor continúa oscuro."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i02@2x.webp",
+    "sha256": "e9a696c083a2ab69463c26c846090fb92b102319b3c6301a39a16816324bcbe3"
+   },
+   "miniaturas": "web/revision/comparativa-01/t1-mini.webp?v=f8c1bb71c8"
+  },
+  {
+   "id": "t2",
+   "nombre": "Grabadora",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t2-a.webp?v=85bd89ff42",
+    "sha256": "85bd89ff4284b9bd39f841e0cd852ec32fd3c4d1f9ca8792bf67d1647f022ae5",
+    "descripcion": "Padre Mateo se inclina a escuchar con el oído junto al aparato. En primer término, la grabadora con la cinta girando; su rostro de perfil, en segundo plano, concentrado."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t2-b.webp?v=2fde9b9cc6",
+    "sha256": "2fde9b9cc68457fdcbb58c9a8b6f646eccfa53a82284caea4aa6628c0c98e735",
+    "descripcion": "La grabadora sola sobre una banca de capilla; la cinta avanza y de la rejilla sale una cinta de voz pálida que se curva hacia el confesionario vacío."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t2-c.webp?v=2108ae4146",
+    "sha256": "2108ae41468cf6b8fd2e13ea32da56def8d5d6a60fd57aa1e1a5a26cf8ff9e6f",
+    "descripcion": "La casetera con su tecla roja hundida ocupa la esquina de una mesa; junto a la rejilla un hilillo de voz hace temblar una tira de papel suspendida, y el carrete se distingue por la ventanilla."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t2-d.webp?v=1d3ea7ddc3",
+    "sha256": "1d3ea7ddc34b72c7acf7247e3f0a4af5177d98d35e940dbad27e8b02d17874ef",
+    "descripcion": "Mateo aproxima su oído a la casetera en una repisa; el espejo oscuro detrás devuelve el aparato y el reflejo de dos carretes, mientras una traza de susurro se desvanece."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i03@2x.webp",
+    "sha256": "c59c5aaa4f4d98c7590850ac230bff681e6190bc92a2bc99556e058030022317"
+   },
+   "miniaturas": "web/revision/comparativa-01/t2-mini.webp?v=0046554434"
+  },
+  {
+   "id": "t3",
+   "nombre": "Cámara de movimiento",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t3-a.webp?v=f1a7fb716c",
+    "sha256": "f1a7fb716c2db2f3b58d14d0cccf04cfd58fe454ee9aa71b02b251bb55c46d25",
+    "descripcion": "La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t3-b.webp?v=f50bff0986",
+    "sha256": "f50bff09863b9f093a9d2775245db5cd24a45b34afff50ca583c1e69bdec29b3",
+    "descripcion": "Desde detrás de la cámara: su pequeña pantalla muestra la mecedora quieta, pero en la habitación real la mecedora está a medio balanceo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t3-c.webp?v=8536546032",
+    "sha256": "8536546032be641e7771df4ac1d2ef56e113e921ec2fa93f1da3d0f7e03877f1",
+    "descripcion": "La cámara sobre trípode, vista desde un lateral bajo, vigila una silla de cuatro patas que empieza a perder apoyo en el piso de un comedor; su sombra lateral confirma las dos patas levantadas."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t3-d.webp?v=b4dd858fba",
+    "sha256": "b4dd858fbaa156033269e1b68612708aea4945a1a2f906ed10a842cb3d4b927c",
+    "descripcion": "Vista desde una puerta lateral: el cuerpo de la cámara en trípode apunta por el vano a la silla a medio caer; una cortina corrida deja una silueta limpia de sus patas contra el piso claro."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i04@2x.webp",
+    "sha256": "aeb9980b57c01405c351e40341d6cc4743dd04e56420a2e53e6d59b87a9bb71c"
+   },
+   "miniaturas": "web/revision/comparativa-01/t3-mini.webp?v=abc3d61ed7"
+  },
+  {
+   "id": "t4",
+   "nombre": "Detector EMF",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t4-a.webp?v=f0bb3491e7",
+    "sha256": "f0bb3491e7feb0a5ff83fc9979096ccb8a1b41f171c9329c941911b634a05795",
+    "descripcion": "Concepto del voto B del autor: Rafael sostiene el EMF con las cinco luces encendidas y, al mismo tiempo, los focos de las habitaciones contiguas parpadean. Recuperar el modelo de aparato y la riqueza de planos del original."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t4-b.webp?v=4fb8dd5511",
+    "sha256": "4fb8dd5511abacfe726c6d550e60b04b27a5c97d789430600a7dce165a29c565",
+    "descripcion": "El EMF sobre una repisa, con la luz roja encendida; un hilo de focos de papel picado electrificado se apaga uno a uno en dirección al aparato."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t4-c.webp?v=bfcb1ae028",
+    "sha256": "bfcb1ae028c938b58996fe0e570bbc10299362f44e360c53dc1f811400610603",
+    "descripcion": "En la mesita del zaguán, el detector EMF se enciende de verde a rojo ante dos cuartos comunicados. Una lámpara aún dibuja un óvalo de luz; la otra apenas alumbra su cadena."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t4-d.webp?v=470633a8d8",
+    "sha256": "470633a8d8faa5412748443e721d821153d03b407529718732694f43deeb4d44",
+    "descripcion": "Rafael, en tres cuartos, sostiene con un agarre lateral el EMF a la altura del chaleco. Por los cristales de dos puertas se ven un foco ámbar y otro que apenas enciende; la escala de cinco luces apunta hacia quien mira."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i05@2x.webp",
+    "sha256": "249cde19138cebc6aa43cf466d0c648d5fc02f0c0ffd3aa49c75f0337784d3a5"
+   },
+   "miniaturas": "web/revision/comparativa-01/t4-mini.webp?v=a6ba6e7862"
+  },
+  {
+   "id": "t6",
+   "nombre": "Sensor de gases",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/t6-a.webp?v=98e74cd5cb",
+    "sha256": "98e74cd5cbe4c2bbd0f5ce7b60ec6fcb71ec7c5bdf160154c098ad844a9d6419",
+    "descripcion": "La sonda del sensor se curva hacia una rendija entre baldosas; una lengua plana de humo azufre va de la grieta a la punta y la aguja salta a rojo."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/t6-b.webp?v=cbf26cbeb1",
+    "sha256": "cbf26cbeb1f8bae4b7a2fa4a0b4f5a8e46d58a5ee15f3000ba51b957829a9efc",
+    "descripcion": "Amalia sostiene el sensor junto a la puerta de la cocina; la aguja en rojo y, bajo la puerta, un hilo amarillo que serpentea hasta sus pies."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/t6-c.webp?v=bed3681fc9",
+    "sha256": "bed3681fc9674a08e9c43764fa93c0582c8781c8c0a64cf0aa4264b3ba277366",
+    "descripcion": "A la altura del zócalo de la alacena, el sensor muestra la aguja en rojo; de una rejilla vieja sale una cinta de humo amarillo que toca la entrada de la sonda."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/t6-d.webp?v=5eaefba289",
+    "sha256": "5eaefba289ecae73a08d2c60f6134ff590a1b72bb391f9e3618f75877ff6b70e",
+    "descripcion": "El sensor está sobre la piedra del brocal. La manguera cruza el borde y recibe una sola voluta amarilla que sube del pozo; al fondo, sombra fresca de patio."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i07@2x.webp",
+    "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
+   },
+   "miniaturas": "web/revision/comparativa-01/t6-mini.webp?v=912c527677"
+  },
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/kit-a.webp?v=7bfa882ec7",
+    "sha256": "7bfa882ec744a095f7e3dc10ca7c6bf6da451990491a141b5031341e4811ab12",
+    "descripcion": "Vista desde arriba del estuche abierto: instrumentos, frascos y libreta en tres grupos claros. La mano de Amalia (pulsera, manga de rebozo) toma una sola pieza."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/kit-b.webp?v=e9a5cd5987",
+    "sha256": "e9a5cd59870a21bdfb673455fdef9b498b45b91f6264fc1d0aca4042fc03eeee",
+    "descripcion": "La maleta en el piso del corredor, abierta a medias; de ella sobresale una herramienta distinta a cada lado, iluminada por un farol que alguien acaba de dejar."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/kit-c.webp?v=93728e1270",
+    "sha256": "93728e1270271a17262d3b3c950480467ef36fa30d8802e2dafdf54cfd127ee9",
+    "descripcion": "Sobre una banca bajo un arco, la maleta abierta muestra tres compartimentos en profundidad: instrumentos, frascos y libreta. La luz de la puerta perfila el asa y el grosor del cuero."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/kit-d.webp?v=2679afa34a",
+    "sha256": "2679afa34a9b1054949539b59d4e7e709cca31bd1bca5ec149d5d68589e931da",
+    "descripcion": "Al pie de un nicho, la tapa del kit abierta hacia la pared proyecta su sombra; se ven el catalejo, un frasco y la libreta con lacre, separados por sus correas."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i08@2x.webp",
+    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+   },
+   "miniaturas": "web/revision/comparativa-01/kit-mini.webp?v=f099d14e57"
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/resp-a.webp?v=36879489d5",
+    "sha256": "36879489d5d378ec80e77bc848918ec69961b15d0a7e056b2cd096bdeb308a47",
+    "descripcion": "Rafael apoya los antebrazos en el brocal del patio; los hombros bajan al soltar el aire y una cortina quieta detrás acentúa la pausa. Conservar su vestuario exacto."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/resp-b.webp?v=5d0f7f8fcf",
+    "sha256": "5d0f7f8fcf4869466e1c5337fcbb7d10ecad242f66e14d5c538811f4497aa8b7",
+    "descripcion": "Rafael sentado en un escalón, cuenta con los dedos hasta cuatro; a su lado, el farol con la llama ya estable."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/resp-c.webp?v=adef88b112",
+    "sha256": "adef88b11228978a59c01a11f1a1adcc19e96da114e77a8db691dc53f965950c",
+    "descripcion": "Rafael de perfil junto a la ventana del zaguán, con la palma sobre el chaleco; baja los hombros mientras una hebra de aire mueve apenas el paliacate."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/resp-d.webp?v=10721f0707",
+    "sha256": "10721f07073b499873b3a7bf915e184e944f8335cbbdd58e26bf3a09f0ad91d1",
+    "descripcion": "Visto desde el costado del patio, Rafael se apoya en una columna mientras la mano libre descansa sobre el pecho; cierra los ojos y el nudo del paliacate cae con el suspiro."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i10@2x.webp",
+    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+   },
+   "miniaturas": "web/revision/comparativa-01/resp-mini.webp?v=f728864262"
+  },
+  {
+   "id": "esc",
+   "nombre": "Esconderse",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/esc-a.webp?v=375f328533",
+    "sha256": "375f3285330484db96e504930087f93bd44f142d0cafc18b01a0e4e5c8c7f0a1",
+    "descripcion": "Redibujar como Tomás (sombrero de ala, bigote, sarape petróleo con greca crema, morral) pegado al muro bajo la escalera; la sombra incorpórea del ánima se desliza por los peldaños. Su nariz y el ala del sombrero quedan justo detrás de la arista."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/esc-b.webp?v=de7aec7c57",
+    "sha256": "de7aec7c574890641ee78f60ea22225d187ea5787b852f19a021977f297eff0a",
+    "descripcion": "Tomás dentro del ropero calado, conteniendo la respiración; por las rendijas del tallado se ven franjas de la sombra que pasa."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/esc-c.webp?v=c91b877882",
+    "sha256": "c91b877882f40e07facde36d8e0eafdac49fcf309aaf8e8ec2138c6f6a7733fb",
+    "descripcion": "Tomás se resguarda detrás de un biombo de madera plegado; el sombrero queda en sombra mientras una sombra larga cruza el piso delante del biombo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/esc-d.webp?v=eb3317166a",
+    "sha256": "eb3317166a6f4e05accfcab964e1ba978bcc05766efe2c9f6bd29fdbceada2d9",
+    "descripcion": "Tomás aguarda tras una hoja abierta de la puerta, sujetando su sombrero contra el pecho; por el hueco entre puerta y pared se ve pasar la sombra del ánima."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i12@2x.webp",
+    "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
+   },
+   "miniaturas": "web/revision/comparativa-01/esc-mini.webp?v=965ac0884c"
+  },
+  {
+   "id": "ruda",
+   "nombre": "Ruda",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ruda-a.webp?v=458fa4cb9c",
+    "sha256": "458fa4cb9c114e94c0579a4d5e6a5429cdf9b85988ea0189adbb15a873886482",
+    "descripcion": "Dos dedos anudan un racimo de ruda con hilo rojo al dintel de la puerta. Un solo racimo, reconocible por sus hojas redondeadas; el verde recorta sobre madera guinda."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ruda-b.webp?v=a46614f7e9",
+    "sha256": "a46614f7e9e9b0b05584097e1042d6ed15153fab218446cb0b2276a83f3a13d5",
+    "descripcion": "La ruda ya colgada en la puerta; la sombra del ánima se detiene en el umbral sin poder cruzar."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ruda-c.webp?v=0ad6806c18",
+    "sha256": "0ad6806c182effa2b2e6d66f32b6813ca85c8be0770f955f9d6eb7059c76d23c",
+    "descripcion": "Un ramo de ruda con amarre rojo cuelga del travesaño interior de la puerta. La sombra oscura del pasillo se corta justo debajo de sus hojas redondeadas."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ruda-d.webp?v=dcbf8cd3cb",
+    "sha256": "dcbf8cd3cbd53e6982288335e73254c5b88cb13ef5f3ec90fb207dbe0b53d43c",
+    "descripcion": "La puerta entreabierta muestra de perfil el haz de ruda recién atado; un soplo inclina las hojas al interior y la sombra que avanza queda fuera del umbral."
+   },
+   "original": {
+    "archivo": "web/miniaturas/i13@2x.webp",
+    "sha256": "a13bfe1ef4497294f6fcff2469e8391234a744e18177da30d1abfbab765260f6"
+   },
+   "miniaturas": "web/revision/comparativa-01/ruda-mini.webp?v=bab7d281a7"
+  },
+  {
+   "id": "alba",
+   "nombre": "Alba",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/alba-a.webp?v=d8775d4f6b",
+    "sha256": "d8775d4f6b466c7a9efe1b3b8ece1ca70c78e2c40219328fd0645edc5eaddf33",
+    "descripcion": "La primera franja clara entra bajo el portón y cruza el último naipe tirado en el piso. Composición horizontal de luz dentro del frente vertical."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/alba-b.webp?v=5768f6a658",
+    "sha256": "5768f6a6588c4200a2231054e0f806e94917ddcebb6a7f43604da1be4d82b605",
+    "descripcion": "Una veladora consumida sobre la ofrenda; detrás, la ventana deja entrar el primer sol y la sombra del ánima se adelgaza en la pared."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/alba-c.webp?v=3f89dec006",
+    "sha256": "3f89dec006109a2e1cc5d3fad25827b1a8095363a46842893b8c3b8637ed67a9",
+    "descripcion": "Un haz raso del primer sol cae sobre el brocal del patio; el extremo de la cuerda de la campana deja una sombra larga mientras el cielo pasa de petróleo a crema."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/alba-d.webp?v=c3b1170e1b",
+    "sha256": "c3b1170e1b028ee412f5f4bcfd2ee92675f4646cf29c4cbbd772623227e5ed2a",
+    "descripcion": "La primera franja ámbar cruza la pared de una habitación y toca una carta sobre la repisa. En el alféizar, la mecha de la última veladora se acaba de apagar."
+   },
+   "original": {
+    "archivo": "web/miniaturas/p02@2x.webp",
+    "sha256": "88238445aec43df1dcad03d9578d692fa150b62498d841dbed08c3e958c4adc9"
+   },
+   "miniaturas": "web/revision/comparativa-01/alba-mini.webp?v=19243fe998"
+  },
+  {
+   "id": "radio",
+   "nombre": "Radio",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/radio-a.webp?v=170de52920",
+    "sha256": "170de529201d7782961d81e9a2f176461ed05f840f1b3ad31c61f235fd5eb2b4",
+    "descripcion": "Dos radios en habitaciones distintas, unidas por el mismo alféizar. Una mano entrega una carta en un extremo y otra la recibe en el otro."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/radio-b.webp?v=8911993cbe",
+    "sha256": "8911993cbe0ce33a9211f92a91d15fbe1d452c43bde6a85c2082a428c8bec741",
+    "descripcion": "Dos ventanas enfrentadas a través del patio; en cada una, un investigador con su radio, y entre ellas una carta que viaja de mano en mano por la cornisa."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/radio-c.webp?v=691848ce89",
+    "sha256": "691848ce8983eb396bbb6931a6cd55e28000902083c2541f4f8dcdca71b402ce",
+    "descripcion": "A través de un vano aparecen las radios de mesa en dos habitaciones contiguas; Inés comunica por una mientras Rafael levanta la carta acordada junto a la otra."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/radio-d.webp?v=4c729d5b08",
+    "sha256": "4c729d5b08caa8c1fa5c9ff508b43ea5f235e529996699b35107b89816f134f3",
+    "descripcion": "Dos radios antiguas a ambos lados de un postigo partido. Una carta sin texto pasa por debajo del postigo y dos luces de recepción hacen visible el vínculo."
+   },
+   "original": {
+    "archivo": "web/miniaturas/o01@2x.webp",
+    "sha256": "8a366eec49ab1e55bd0861c55cd061ecffe92a38f9fc25856d4a236b3eb8b004"
+   },
+   "miniaturas": "web/revision/comparativa-01/radio-mini.webp?v=009b3ffecc"
+  },
+  {
+   "id": "tablilla",
+   "nombre": "Tablilla espiritista",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/tablilla-a.webp?v=5475b6896a",
+    "sha256": "5475b6896a829743f41f2667a53f8056b20785721855bd7c4227ea091858c6cb",
+    "descripcion": "Tablilla en vista cenital. Un dedo vivo y uno traslúcido coinciden en la pieza móvil. Letras sin texto legible: solo formas de letra decorativas, para no depender de la IA."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/tablilla-b.webp?v=4c8f2e0d12",
+    "sha256": "4c8f2e0d122855721d52767dbf9a57e3b01d59d7611e388c9e6e54b36a9ef211",
+    "descripcion": "La pieza móvil se desliza sola hacia el borde mientras tres veladoras se inclinan en la misma dirección."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/tablilla-c.webp?v=a0a0bd2dcc",
+    "sha256": "a0a0bd2dcc848219964f22183dfc55791a463c7b38ef93c984c159fc8f6aaed6",
+    "descripcion": "En primer plano dos puntas de dedo, una cálida y otra traslúcida, guían la pieza móvil sobre la tablilla; el calado revela debajo una pequeña marca de luna."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/tablilla-d.webp?v=d55329fd65",
+    "sha256": "d55329fd65d57442c45950cdd5da2e70a09e6b59865da30e2acb1842fed7f283",
+    "descripcion": "La tablilla reposa en un atril bajo; una mano viva y su contrapartida espectral se tocan en la pieza triangular al borde de una fila de signos abstractos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/o02@2x.webp",
+    "sha256": "12fb8434583f55febfd9b24966f5a5c5c1c7ab64584106e5040f83319aec3dd6"
+   },
+   "miniaturas": "web/revision/comparativa-01/tablilla-mini.webp?v=052a8ee8cd"
+  },
+  {
+   "id": "mano",
+   "nombre": "Mano del mono",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/mano-a.webp?v=f2798eedb3",
+    "sha256": "f2798eedb30251e1fca8cc8932c0e51f4b5b54d00a2dce0c92fe934ceff9a2dd",
+    "descripcion": "Una mano humana duda antes de tomar la garra sobre el cojín; detrás asoma la manga vacía de un compañero caído. Dos siluetas enfrentadas."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/mano-b.webp?v=b0eea42150",
+    "sha256": "b0eea421501cec02d2648201acfd3068fb94141670a521e8f41d560f977193c1",
+    "descripcion": "La garra con un dedo ya cerrado; junto a ella, el retrato de un compañero sobre la ofrenda."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/mano-c.webp?v=c850ab28c9",
+    "sha256": "c850ab28c98dff9681f4e366f35e1c80705f9bc931743e43f057ddf713f379ea",
+    "descripcion": "En un nicho en penumbra, la garra del mono se destaca sobre el cojín de terciopelo; una mano se detiene a un dedo de distancia y el retrato del compañero permanece al fondo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/mano-d.webp?v=52d887aa58",
+    "sha256": "52d887aa58aed83743661716b92370b73981017339d1ba5a7e39681515c745e2",
+    "descripcion": "Vista cenital del cojín con la garra parcialmente cerrada; junto al cojín, un pequeño retrato y una mano abierta proyectan una sombra que casi alcanza sus dedos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/o03@2x.webp",
+    "sha256": "b7a751ada0abad82df1156dab84b614455887c84924c1ec5fea48739aeb7c521"
+   },
+   "miniaturas": "web/revision/comparativa-01/mano-mini.webp?v=76667440be"
+  },
+  {
+   "id": "espejo_plata",
+   "nombre": "Espejo de plata",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/espejo_plata-a.webp?v=8215bc1820",
+    "sha256": "8215bc1820b85abee2ceda07b13f334383ce8e3467f66cb6ac3458972c5942e5",
+    "descripcion": "El espejo inclinado en una mano viva; en su superficie aparece el abanico de cartas que sostiene el ánima fuera de cuadro."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/espejo_plata-b.webp?v=6bd7842752",
+    "sha256": "6bd7842752f62c2842faca250b349f349b4765a6882f7bcedcab1063dc63cf50",
+    "descripcion": "Inés mira el espejo sobre su hombro; en el reflejo, detrás de ella, la mano del ánima con sus cartas."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/espejo_plata-c.webp?v=64eb9922aa",
+    "sha256": "64eb9922aaa6ab1d3b266715ed3b0e6f00e25b6298bc94f728257c3bc0a2c579",
+    "descripcion": "Un espejo de plata apoyado contra una repisa refleja tres cartas en abanico y dedos espectrales; delante, la mano de Inés gira ligeramente la base para verlas."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/espejo_plata-d.webp?v=ad4b1214d4",
+    "sha256": "ad4b1214d4706d746920b1facdcf86e0607d310253c7e1cb64f2e5780dee1b0c",
+    "descripcion": "Desde el marco de una puerta, Inés orienta el espejo de plata hacia el cuarto contiguo. En el reflejo aparecen los dorsos del mazo del ánima; el resto cae en sombra."
+   },
+   "original": {
+    "archivo": "web/miniaturas/o05@2x.webp",
+    "sha256": "bfc9e47d60ce278108097265af9e7098bda28c8cbdaf57429ff3a83cb6baef95"
+   },
+   "miniaturas": "web/revision/comparativa-01/espejo_plata-mini.webp?v=410bedbcd6"
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/comparativa-01/tarot-a.webp?v=1701cbf4e0",
+    "sha256": "1701cbf4e0899cfe62f883187b078c140d1f5b7557bd46e90151b18a2afe92bc",
+    "descripcion": "Tres arcanos sobre un paño. Amalia levanta el del centro por una esquina; un dado quedó detenido contra su borde. Arte que el autor quiere modificar."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/tarot-b.webp?v=3faa38010c",
+    "sha256": "3faa38010c62a469bfc1195417fb388bbe9f86baa5933db224c6ab9e6dd196a2",
+    "descripcion": "Una sola carta invertida en el centro de la mesa; las veladoras la iluminan desde abajo y su sombra apunta a una evidencia tachada en la libreta."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/tarot-c.webp?v=911c46af00",
+    "sha256": "911c46af00a016ac6d568f594e6f924f6d87599aebb916daf3e664cb3ecb6050",
+    "descripcion": "Vista desde el hombro de Amalia. Sobre sus rodillas queda una sola carta de tarot boca arriba, con la figura de cabeza. El dado ha caído en un pliegue del rebozo y muestra cinco puntos."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/tarot-d.webp?v=a400f05bc6",
+    "sha256": "a400f05bc605f60c4e1c103f84b366d4667925968e94fba8ee8ddab3fa616c4d",
+    "descripcion": "Desde el borde de una mesa baja, el dado con seis puntos ocupa el primer plano. Detrás, Amalia apoya un arcano invertido contra una escudilla de barro y coteja la figura con su cuaderno abierto."
+   },
+   "original": {
+    "archivo": "web/miniaturas/o06@2x.webp",
+    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+   },
+   "miniaturas": "web/revision/comparativa-01/tarot-mini.webp?v=846a3de2f0"
+  },
+  {
+   "id": "escalofrio",
+   "nombre": "Escalofrío",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/escalofrio-a.webp?v=fc1eadb9e0",
+    "sha256": "fc1eadb9e0052cf3d195dc1453a2d1cb9df257aaa0546e5a8ce2c85fd2e24133",
+    "descripcion": "Plano cercano desde atrás: un hombro se contrae y la mano se aprieta contra la nuca. El cuello de la camisa dibuja la tensión."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/escalofrio-b.webp?v=7c741ad650",
+    "sha256": "7c741ad650d44c6c77d8e7a683b5f5d9ea7347366448c222f70b7b31a0269848",
+    "descripcion": "Toda la mesa de investigadores, vista desde lejos, se estremece a la vez; las llamas de las veladoras se inclinan hacia el mismo lado."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/escalofrio-c.webp?v=0a7b521b5d",
+    "sha256": "0a7b521b5d5fde2d95210ad267406da1fe72ce90e7f9803cdbdf89123f5d0193",
+    "descripcion": "Inés se inclina sobre la jofaina de talavera. Una mano de vaho se acerca a la nuca descubierta bajo la trenza; la flor y su reflejo tiemblan cuando ella se encoge."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/escalofrio-d.webp?v=8b7ea57c27",
+    "sha256": "8b7ea57c271fcc3e3067776c06ab82a46257e0913fc3edf7f5ea1f14447d326a",
+    "descripcion": "Desde el patio, por dos ventanas contiguas se ve a Rafael y a Amalia llevarse a la nuca la mano al mismo tiempo. Entre los dos cuartos pasa una corriente fría que dobla una cortina."
+   },
+   "original": {
+    "archivo": "web/miniaturas/a01@2x.webp",
+    "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
+   },
+   "miniaturas": "web/revision/comparativa-01/escalofrio-mini.webp?v=aff71faf10"
+  },
+  {
+   "id": "portazo",
+   "nombre": "Portazo",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/portazo-a.webp?v=f1f5dea239",
+    "sha256": "f1f5dea239c72ea7e9b91bcf2e5a545b402ca5e947c9dbbe6c609bdf8853477b",
+    "descripcion": "El canto de una puerta se cierra entre dos planos de color; la corriente levanta una sola carta del piso. El golpe ocurre en el borde de la imagen."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/portazo-b.webp?v=ddd530b722",
+    "sha256": "ddd530b722bb79b1d7f6dfc817ecfd20fc686aa9d75c69376da668ebe889ccab",
+    "descripcion": "Una hilera de puertas que se cierran en cadena por el corredor; las cartas vuelan detrás de la última."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/portazo-c.webp?v=301705e484",
+    "sha256": "301705e4846211f0afc41b39febe71d774d733d1535c84c4f738822e14a527eb",
+    "descripcion": "A la altura del picaporte, una carta queda prensada por la mitad entre hoja y jamba. El llamador de hierro aún está levantado por el golpe y cae polvo del dintel."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/portazo-d.webp?v=b1ef06ed27",
+    "sha256": "b1ef06ed27221a16fc92d31959bada8372649475a2cde7fa3789916b89602308",
+    "descripcion": "Desde el suelo de la despensa, el golpe de la puerta levanta el borde de un petate. Un naipe suelto sale de debajo y se desliza hacia la oscuridad de un armario."
+   },
+   "original": {
+    "archivo": "web/miniaturas/a02@2x.webp",
+    "sha256": "b69de2b73940b490edc48a1728ddb922ca3cbb0f27e905159425258e8436f363"
+   },
+   "miniaturas": "web/revision/comparativa-01/portazo-mini.webp?v=146e9b3f23"
+  },
+  {
+   "id": "interferencia",
+   "nombre": "Interferencia",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/interferencia-a.webp?v=e69b59d89d",
+    "sha256": "e69b59d89d32988f09580ba9dcdc96438595d1e7d0519335255a4bb79aa00c67",
+    "descripcion": "Un medidor que acaba de fallar: la aguja está clavada al extremo mientras Rafael ajusta el mando. Una línea quebrada en la pantalla basta."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/interferencia-b.webp?v=8fb8e7c85d",
+    "sha256": "8fb8e7c85d7400cba925d1008e7456e552f847fc241f0043e243bfc522a2ba88",
+    "descripcion": "La grabadora se traga la cinta en espiral; una mano traslúcida tira del otro extremo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/interferencia-c.webp?v=f57d303050",
+    "sha256": "f57d30305033cc1b410a67538506870fb6506bc148894a8105919be0da78fb1b",
+    "descripcion": "Rafael saca el casete atascado con un dedo en el mecanismo de expulsión. Entre el cartucho y el rodillo queda atrapada una cinta arrugada; la luz roja del aparato sigue encendida."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/interferencia-d.webp?v=9b849fd2b3",
+    "sha256": "9b849fd2b3e1969d70e2773b56f71f45e67d0374086d7499218fca3239a0754d",
+    "descripcion": "Rafael, agachado junto a una repisa, comprueba el enchufe de un medidor de aguja. El enchufe cuelga libre en su mano, pero dentro del dial la aguja sigue golpeando el tope."
+   },
+   "original": {
+    "archivo": "web/miniaturas/a06@2x.webp",
+    "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
+   },
+   "miniaturas": "web/revision/comparativa-01/interferencia-mini.webp?v=dbcd3f638c"
+  },
+  {
+   "id": "presencia",
+   "nombre": "Presencia",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/presencia-a.webp?v=26c93177a7",
+    "sha256": "26c93177a770fe78c8956748eff6d2575b6b5dd4b4daed59ec0710c33c8daeae",
+    "descripcion": "Dos cartas se deslizan del mazo hacia un asiento vacío. Solo se ven la mesa y la depresión reciente en el cojín."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/presencia-b.webp?v=b8ce3ba4fd",
+    "sha256": "b8ce3ba4fdf6a14de8fadf5278e7bfe7c2e25b283b7c7278d85dbd2d78b08081",
+    "descripcion": "Inés escribe en su libreta; en el espejo de la pared, detrás de ella, hay una silla más ocupada por una sombra."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/presencia-c.webp?v=353baf0c39",
+    "sha256": "353baf0c392e793d4b04d3e7a2e981bda223fff62c38d9bb663bebb5f6949785",
+    "descripcion": "Desde abajo de la mesa se ven dos cartas cayendo de canto al regazo de una silla que se mece sola. El farol de Inés, apoyado en el piso, ilumina la hendidura de su asiento vacío."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/presencia-d.webp?v=44c4cfe164",
+    "sha256": "44c4cfe164ae10fbfd2034b1d59edad04f09262af3ec7c96dd0b19f3339e7664",
+    "descripcion": "Inés deja un mazo sobre el alféizar empañado. Delante de ella, dos cartas se pegan al vaho en el vidrio, justo dentro de la huella de una palma demasiado alta para ser la suya."
+   },
+   "original": {
+    "archivo": "web/miniaturas/a07@2x.webp",
+    "sha256": "c1a06443f29a6b71160ede6c14b2587556400e55064ac58399036bce6591336d"
+   },
+   "miniaturas": "web/revision/comparativa-01/presencia-mini.webp?v=8a54a4fa0a"
+  },
+  {
+   "id": "h0",
+   "nombre": "Helada",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/h0-a.webp?v=ffd4f954b8",
+    "sha256": "ffd4f954b8a368977b286ef88f44678cb4633ebe194dcf126ab347de532a60a0",
+    "descripcion": "Vista a ras del piso: el hielo cruza la junta inferior de una puerta cerrada y alcanza la punta del zapato de Tomás, escondido detrás."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/h0-b.webp?v=67560f9fcd",
+    "sha256": "67560f9fcd0bac3c3f160d6c072af77eb486e52c2d13d2b51dc9238fdebd2a6d",
+    "descripcion": "La mano de Tomás pegada al picaporte cubierto de escarcha; su aliento, una nube blanca contra la puerta."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/h0-c.webp?v=e19ae47927",
+    "sha256": "e19ae47927899a3575360b1e66a11e440ea240e9f2cb4eb08e50a704c37095ab",
+    "descripcion": "En el interior de un ropero, Tomás aprieta el sarape contra la boca para ocultar el vaho. Una lengua de hielo pasa por debajo de la puerta y endurece el fleco de su poncho."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/h0-d.webp?v=23081d6e10",
+    "sha256": "23081d6e1083b81ec905043b807dee0d145c6fce264054a40b7be450b91ae65e",
+    "descripcion": "Bajo el mantel de una mesa, Tomás recoge los pies y se cubre con su sombrero. En la tela se ha congelado la silueta de su mano apoyada desde dentro, delatando el escondite."
+   },
+   "original": {
+    "archivo": "web/miniaturas/h01@2x.webp",
+    "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b"
+   },
+   "miniaturas": "web/revision/comparativa-01/h0-mini.webp?v=f063c49966"
+  },
+  {
+   "id": "h1",
+   "nombre": "Acecho",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/h1-a.webp?v=ab8f88a3b8",
+    "sha256": "ab8f88a3b861741622578e0665fdd4458f1ed6c1939b1125a35e252aae9b0548",
+    "descripcion": "Inés se detiene en un descanso de la escalera; en el tramo recién recorrido aparecen pisadas de ceniza cada vez más cerca de su talón."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/h1-b.webp?v=7153e73636",
+    "sha256": "7153e73636c0d13533a76109bf90a327fe5b34a9a53b9757f15e023247c7d8c7",
+    "descripcion": "Vista cenital del corredor: las pisadas de Inés y, superpuestas exactamente encima, otras más grandes de ceniza."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/h1-c.webp?v=73016c23cb",
+    "sha256": "73016c23cb41a4a8e5d06fc42a8368b6259573232184e85fd4a0e2d22c4864e0",
+    "descripcion": "Inés atraviesa el patio mojado y mira hacia el lavadero. A su espalda, una pisada de ceniza acaba de imprimirse en la piedra seca que ella usa de apoyo; la ceniza se derrama hacia su talón."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/h1-d.webp?v=8761f33463",
+    "sha256": "8761f33463b37f0b9c32a718ebda80318be23df8ce7c80472c90f455ed101e92",
+    "descripcion": "Inés ha pasado una reja y la cierra tras de sí. Su farol alumbra la primera huella de pie descalzo que aparece de este lado del hierro, al lado de su zapato."
+   },
+   "original": {
+    "archivo": "web/miniaturas/h02@2x.webp",
+    "sha256": "9b49f828424f311da28aa06a5018ed707e0f5f093287b93e4fd56ccd2aec32e3"
+   },
+   "miniaturas": "web/revision/comparativa-01/h1-mini.webp?v=3c3892ecc2"
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/h2-a.webp?v=a1efdf9047",
+    "sha256": "a1efdf90471822f8aaf8324e1b0646a884ead31eb7ad28d78428183ad5a36401",
+    "descripcion": "Amalia se tapa un oído; por la celosía pasan tres cintas de voz que convergen en el otro. Su mano y la celosía ocupan casi toda la escena."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/h2-b.webp?v=9bb409eb6e",
+    "sha256": "9bb409eb6ed07097fe3068830268b353eec76e4163721c9046323d15c288595a",
+    "descripcion": "La cinta del casete se desenrolla sola por el pasillo y forma en el aire la silueta de una boca."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/h2-c.webp?v=709cebcecb",
+    "sha256": "709cebcecbfba9f68b0c4e05571df78df8d0389b53f5c088df3218871448b2e3",
+    "descripcion": "El casete descansa fuera de la grabadora. Amalia acerca el aparato vacío a su oído y retrocede al ver salir de la rejilla una boca de aire, abierta en pleno sollozo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/h2-d.webp?v=958d32a876",
+    "sha256": "958d32a8769ed91ff6241982c5df8519eaf8971fcd16ef1c04f7cb794e8f23aa",
+    "descripcion": "El cuenco de barro de Amalia vibra al borde del banco. En el agua, las ondas se cierran alrededor del reflejo de una boca que llora; detrás del cuenco, Amalia se cubre los oídos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/h03@2x.webp",
+    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b"
+   },
+   "miniaturas": "web/revision/comparativa-01/h2-mini.webp?v=1610753de0"
+  },
+  {
+   "id": "h4",
+   "nombre": "Apagón",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/h4-a.webp?v=d2f4bd0782",
+    "sha256": "d2f4bd0782ff5945316e3d4026463834eb30f7beee2b408bcc00e733c7e704b9",
+    "descripcion": "Una lámpara de techo acaba de apagarse. Contra la última ventana azul se recorta el cordón del interruptor todavía oscilando; en el rosario de alguien, la cruz ya no brilla."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/h4-b.webp?v=d3b43a086f",
+    "sha256": "d3b43a086f871c7efa738cd4bae8c221b28408fbaec38ce36a81dee996f7fb45",
+    "descripcion": "El foco estalla y la chispa dibuja una mano que cubre el rosario de quien está debajo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/h4-c.webp?v=eaa183edd7",
+    "sha256": "eaa183edd768dcd3c363eabfd92589e8b42e79d920b5252e13f5e43f6e285194",
+    "descripcion": "Desde el rellano, tres lámparas a lo largo de la escalera desaparecen en la oscuridad; solo queda rojo el filamento de la más cercana. En la baranda, la mano de Mateo aprieta un rosario sin luz."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/h4-d.webp?v=d9f8732d1e",
+    "sha256": "d9f8732d1ec3d634c462568a2d0f4df7ebb8459e4b855ac5fafc9caf6e469100",
+    "descripcion": "El vidrio de un foco recién fundido refleja un último punto de brasa. En esa misma curva apenas se distingue a Mateo con la cruz del rosario levantada en una habitación ya oscura."
+   },
+   "original": {
+    "archivo": "web/miniaturas/h05@2x.webp",
+    "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+   },
+   "miniaturas": "web/revision/comparativa-01/h4-mini.webp?v=5a3ab58e01"
+  },
+  {
+   "id": "pentagrama",
+   "nombre": "Pentagrama",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/comparativa-01/pentagrama-a.webp?v=af2d524852",
+    "sha256": "af2d524852105f5907af722c9352480b2b101ac3ed9d3f7395ebae284733b8ae",
+    "descripcion": "Un pentagrama de ceniza en el piso con cinco veladoras; el humo del copal se aplana y se aparta al tocar su borde. El concepto lo decide Jonathan."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/pentagrama-b.webp?v=2f7faad09b",
+    "sha256": "2f7faad09b7773d6288a8f28c055357e0d777afaffb030f54ddd82a848745e92",
+    "descripcion": "Un pentagrama oscuro colgado sobre el sahumerio; la hebra de humo se corta al tocar su punta inferior."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/pentagrama-c.webp?v=7fc2891904",
+    "sha256": "7fc2891904220ad9d6e3f8e272c0f2ea7249c5dec745c21ed64a664486cd4e75",
+    "descripcion": "Vista de frente a un nicho cerrado por una celosía de barro con forma de estrella de cinco puntas. El sahumerio humea en el alféizar; al llegar a la estrella, el humo se divide y resbala por ambos lados."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/pentagrama-d.webp?v=082766e8a6",
+    "sha256": "082766e8a6dd9318bd328dfe4a57f920770c04474ed706019fcbe9ee9658de09",
+    "descripcion": "Un azulejo roto yace inclinado sobre dos baldosas del patio. Lleva un pentagrama de cinco puntas trazado con ceniza. El humo del sahumerio, bajo el canto levantado, queda prisionero en una capa plana."
+   },
+   "miniaturas": "web/revision/comparativa-01/pentagrama-mini.webp?v=29edd488aa"
+  },
+  {
+   "id": "id_nahual",
+   "nombre": "Nahual",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_nahual-a.webp?v=53802c9155",
+    "sha256": "53802c9155bce650fac6d2efcb8fd9ee0f6b928254f5f82e8d5c06b9b2f53b85",
+    "descripcion": "Mantener su identidad (sombrero de palma, sarape a rayas, faja roja). A la orilla del monte, agachado; su sombra sobre la tierra ya tiene hocico y lomo animal."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_nahual-b.webp?v=3d937b3d08",
+    "sha256": "3d937b3d085f5dc9ba7304aa12fdba263f826d11c1c8f755def55f27ee5a4c15",
+    "descripcion": "El Nahual se quita el sombrero frente a una fogata y la sombra que proyecta en la casona es de coyote."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_nahual-c.webp?v=8c64126acc",
+    "sha256": "8c64126acc8b3aad871326e0916b612142ac53dbcb31792b4daf52160c4a9aaa",
+    "descripcion": "El Nahual cruza de perfil una acequia por un tablón. Al llegar a la pared de adobe de la otra orilla, su sombra continúa el salto con hocico, orejas y patas de coyote."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_nahual-d.webp?v=c13b5786e3",
+    "sha256": "c13b5786e31217d23e1d3e1a6adf4b3cad069c3c8041a134267923af5da9a330",
+    "descripcion": "El Nahual, de pie y de espaldas, se anuda la faja roja bajo el sarape. En la gran cortina de manta delante de él se estira su sombra de coyote, con el hocico alzado."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id02@2x.webp",
+    "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_nahual-mini.webp?v=9e61fe5c2e"
+  },
+  {
+   "id": "es_demonio",
+   "nombre": "Infierno",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_demonio-a.webp?v=006c0a5473",
+    "sha256": "006c0a5473df3357213a89704db4eec812ea84d495db4c3b89ef0a84132f03e6",
+    "descripcion": "Un arco al rojo vivo devuelve el humo del copal hacia el brasero; en el centro de la abertura se distinguen los ojos del Demonio."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_demonio-b.webp?v=cad75453ea",
+    "sha256": "cad75453ead3f5ec4dd5f86453c504f7ed430e69e84c12bad14deeaa6db8749a",
+    "descripcion": "El fuego sube los escalones de dos en dos; en lo alto, los ojos; abajo, el sahumerio volcado."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_demonio-c.webp?v=b1f94273a0",
+    "sha256": "b1f94273a0757545b033181774cd27a380ee892be8e6ffd9675ceaaa6e6355c5",
+    "descripcion": "Un sahumerio arde frente a un pozo. El humo que debía proteger el brocal cae hacia dentro y vuelve convertido en llamas. Dos ojos rojos permanecen fijos en la negrura de la boca."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_demonio-d.webp?v=48880af80c",
+    "sha256": "48880af80c4e1ed74bce5c92b8778ae602e07710018ac317b58bb6124af920da",
+    "descripcion": "En la capilla, el humo de un incensario suspendido se pega al techo. Por debajo corre el fuego hacia el banco más cercano; entre los dos planos oscuros asoman los ojos rojos del Demonio."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s04@2x.webp",
+    "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_demonio-mini.webp?v=82e7cb3c03"
+  },
+  {
+   "id": "es_aparecido",
+   "nombre": "Aparición final",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_aparecido-a.webp?v=77db7764ac",
+    "sha256": "77db7764ac07b3254917d2384a9cc033329b6960438cc5e7258afa79fef86b0d",
+    "descripcion": "La figura del Aparecido llena un umbral; una mano levanta un rosario y la cruz abre un hueco de luz en su silueta."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_aparecido-b.webp?v=1341343a24",
+    "sha256": "1341343a24e7f123927331c380460e249442a915ec2886508dc6d81fd1dbb37a",
+    "descripcion": "El ala del sombrero roza la frente de un investigador que aprieta el rosario con los ojos cerrados."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_aparecido-c.webp?v=5851a3535e",
+    "sha256": "5851a3535e753f99e9275c0ea9d5e1249c2d8beaa7cc6f001748179bec900718",
+    "descripcion": "Vista baja del corredor. El Aparecido ya ha puesto un huarache en el umbral, pero al otro lado Mateo tensa el rosario entre las manos. La sombra del anciano se detiene justo al pie de la cruz."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_aparecido-d.webp?v=ad9cb7e05b",
+    "sha256": "ad9cb7e05b799d9b0347b86a7877688aae47d4e3ea13a9e2b56359fe0f48ecb0",
+    "descripcion": "Mateo se cubre con el rosario detrás del respaldo calado de un confesionario. Entre dos huecos se reconocen el bigote blanco y el sombrero tejido del Aparecido; un hueco de luz rodea la cruz levantada."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s05@2x.webp",
+    "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_aparecido-mini.webp?v=c34d373a3a"
+  },
+  {
+   "id": "id_bruja",
+   "nombre": "Bruja",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_bruja-a.webp?v=7d047e654f",
+    "sha256": "7d047e654f078062d335f04c2b013f0f6aeae71b6d0fe563d622f8b61d36a19a",
+    "descripcion": "Mantener su identidad (cabello blanco, rebozo guinda, ojo de venado). Levanta la tapa de la olla; su perfil asoma entre el antebrazo y el vapor."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_bruja-b.webp?v=bd71783246",
+    "sha256": "bd71783246d090f69c337d6ad06b23d9dc169bf36e85a60c65de461cf3b3579f",
+    "descripcion": "La Bruja frente a un espejo cubierto con tela; el ojo de venado gira solo en su cordón."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_bruja-c.webp?v=5ca6013b8d",
+    "sha256": "5ca6013b8d738d9d8cf0b32ab93467cd711f83423294fae2a876e659bb67cf59",
+    "descripcion": "La Bruja se agacha junto al caldero para retirar un tizón del fogón. El ojo de venado de su cuello se balancea cerca de la brasa y arroja una sombra ovalada en la olla."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_bruja-d.webp?v=8077c61f0a",
+    "sha256": "8077c61f0ae90e2042eea417b7c69cd3df548ba9e3377a4d8c1c06d0e9402767",
+    "descripcion": "Vista desde arriba del hombro de la Bruja. Con un paño aparta la espuma oscura del caldero; en la superficie se distingue el reflejo de su rostro de cabello blanco y del ojo de venado que pende de su pecho."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id06@2x.webp",
+    "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_bruja-mini.webp?v=0289e806cc"
+  },
+  {
+   "id": "id_chaneque",
+   "nombre": "Chaneque",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_chaneque-a.webp?v=c7e9e77387",
+    "sha256": "c7e9e773873a934837fae12f2c5772020a0f0dbc1b94567d228e8b2a81cc9443",
+    "descripcion": "Mantener su identidad (orejas puntiagudas, ropa de hojas). Debajo de un banco bajo, en cuclillas y mirando hacia arriba; una llave colgada fuera de su alcance fija su escala."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_chaneque-b.webp?v=eb787679e9",
+    "sha256": "eb787679e9bd57bb5494dbf1a4e0fa1642209482be6e00aacc6ba5c679d79b6f",
+    "descripcion": "El Chaneque sentado en el estante más alto, con el sombrero de un investigador en la cabeza."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_chaneque-c.webp?v=1e08c9b0ca",
+    "sha256": "1e08c9b0caff2732fb3135ff77f7a07a3a6fc1d9256ff67d75856bf6cd105919",
+    "descripcion": "El Chaneque tira de un dedal de costura a modo de cubo en el borde de una tinaja. Lleva ropa de hojas, deja pequeñas huellas en la ceniza y mira hacia atrás con una sonrisa."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_chaneque-d.webp?v=7a941245ee",
+    "sha256": "7a941245ee1c10e8994c542cff0081853f1de7d8a83f722ae7670beca405c49b",
+    "descripcion": "El Chaneque asoma por el cajón entreabierto de una cómoda y tira hacia dentro de una cuchara de madera más larga que él. Sus dedos se aferran al mango y las orejas sobresalen sobre el borde."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id07@2x.webp",
+    "sha256": "cef79f1805b7fd2315f5a20a8d16b21cb1b46a4b8cf3c17a018f830d42a95275"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_chaneque-mini.webp?v=c58a0a9ad0"
+  },
+  {
+   "id": "es_chaneque",
+   "nombre": "Juego del monte",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_chaneque-a.webp?v=218a893812",
+    "sha256": "218a893812ec144e97be2c354f34574acc7ba473980a5ab9321c787d6a1b4c3e",
+    "descripcion": "Desde arriba: una mano pequeña sale entre las raíces y revuelve las cartas de un investigador; una sola queda bajo su palma."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_chaneque-b.webp?v=5fec8fb10d",
+    "sha256": "5fec8fb10d2ec2aa289c16a5a2908d15931683ade376eb346077c36d7477e1fd",
+    "descripcion": "Los faroles de los investigadores alejándose en el monte, cada uno llevado por un chaneque."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_chaneque-c.webp?v=c857902d01",
+    "sha256": "c857902d0188c4a273b49a60cfdd8feb7b2b86c237bccc96f608a568b703e5f7",
+    "descripcion": "Al asomarse a una raíz hueca, Inés ve a un chaneque de orejas puntiagudas meterle el abanico de cartas por una rendija. Ella pinza la última por una esquina mientras las otras caen al hueco; él se ríe desde el otro lado."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_chaneque-d.webp?v=8c924e1641",
+    "sha256": "8c924e1641bab38db5b0887589e800916805311e901d8474d81bf9244cf5e10a",
+    "descripcion": "Sobre un tronco caído, tres chaneques de faldillas de hojas se pasan a escondidas las cartas de Rafael. El último las guarda entre las raíces. En la mano abierta de Rafael solo queda una, vuelta del revés."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s07@2x.webp",
+    "sha256": "315f00551d164f4c3c24d35f8003a686de024edce5d181cc369857a10c20ca1a"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_chaneque-mini.webp?v=5bc3c827a4"
+  },
+  {
+   "id": "id_yohualtepuztli",
+   "nombre": "Yohualtepuztli",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_yohualtepuztli-a.webp?v=0503a030e0",
+    "sha256": "0503a030e0f22932e0e985873d2b55bc0ec087258df7fc68ec8747ec979c8316",
+    "descripcion": "Mantener su rasgo corporal (sin cabeza, pecho abierto, capa clara). Entre dos troncos; una abertura en su silueta deja ver el fondo. Reservar el hachazo para su Espanto."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_yohualtepuztli-b.webp?v=e0ad24c853",
+    "sha256": "e0ad24c853982363daf8d9613ca83f0675a99aa5b127cf3bb87221ca2922449d",
+    "descripcion": "Solo su sombra sin cabeza, proyectada sobre la tapia del camino."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_yohualtepuztli-c.webp?v=49e92cecd4",
+    "sha256": "49e92cecd4ab8519716e7c304710171270f81b18dd3d0f35d169fb25cf567229",
+    "descripcion": "El broche de su capa clara queda a la altura de una hornacina. Sobre el cuello vacío asoma la llama azul del nicho; más abajo, la abertura roja de su pecho deja pasar una raya de luz. Se apoya de costado en la tapia."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_yohualtepuztli-d.webp?v=c6537b801a",
+    "sha256": "c6537b801a9ddabaa0a57e3f61beaf5083a391278c57567b854939ca7d0af768",
+    "descripcion": "Desde el fondo de una cisterna seca se ve al hombre sin cabeza inclinarse sobre el brocal. Los extremos de su capa con grecas cuelgan hacia el espectador; una media luna de cielo bordea el hueco rojo de su pecho."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id08@2x.webp",
+    "sha256": "ea4ec79a54b91d72de0d14587c236d2fdce19ded6010483be168e8a12ae17ffd"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_yohualtepuztli-mini.webp?v=fff1d02cb9"
+  },
+  {
+   "id": "es_yohualtepuztli",
+   "nombre": "Hacha nocturna",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_yohualtepuztli-a.webp?v=cacce9c49f",
+    "sha256": "cacce9c49f799165cb54a3acca53d9bb86791b50cf272c411d364e1f7b73ac2c",
+    "descripcion": "Un hachazo abre una brecha oblicua en la tranca de la puerta; a través de ella se ve el pecho abierto del Yohualtepuztli. Acción detenida en el instante del impacto."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_yohualtepuztli-b.webp?v=1b455ad614",
+    "sha256": "1b455ad6147975748bf466ba177a08831f3ff10ea74ff8640843cafe63782f20",
+    "descripcion": "Un investigador con el Ultraje en los labios mete la mano en el pecho abierto (sin gore: luz roja, no sangre)."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_yohualtepuztli-c.webp?v=a7ad215d3a",
+    "sha256": "a7ad215d3aedd3dce8233634af03b82ff28e983d8c6f24aef08dc2929028bb94",
+    "descripcion": "A ras del suelo, los pétalos de un ramo de ruda saltan del umbral cuando el hachazo parte el banco que atranca la puerta. En la abertura ya aparece la capa de grecas del hombre sin cabeza y el resplandor rojo de su pecho."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_yohualtepuztli-d.webp?v=600b42af0a",
+    "sha256": "600b42af0af990dd10a93b88a812023cc3c5fa5a2cf221241fa6ab75695dec82",
+    "descripcion": "Desde el escondite de Tomás, el filo del hacha atraviesa el postigo y queda clavado junto al ala de su sombrero. Por el hueco recién abierto asoma el torso sin cabeza, las dos hojas de su pecho encendidas como brasas."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s08@2x.webp",
+    "sha256": "017bfebde501fa721e741906c0fd125e7cc0847e35feca4baf5b594f7dd23b9f"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_yohualtepuztli-mini.webp?v=baa3733d46"
+  },
+  {
+   "id": "id_cihuateteo",
+   "nombre": "Cihuateteo",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_cihuateteo-a.webp?v=e64787396f",
+    "sha256": "e64787396f3236c74885a8b21dc31ed957977eb8d7379cc2f89ed2a0e6ff4089",
+    "descripcion": "Mantener sus atributos (rostro de calavera, flores en el cabello, vestido blanco). Quieta donde se bifurca la vereda; su silueta clara une las dos ramas oscuras del camino."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_cihuateteo-b.webp?v=162da03476",
+    "sha256": "162da03476addcfec2722d071bb49e0da8035211282f7a2cfabacf3fd70bc03b",
+    "descripcion": "Las cinco Cihuateteo esperando en las cinco puntas de un cruce visto desde arriba."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_cihuateteo-c.webp?v=d9159fd449",
+    "sha256": "d9159fd44998abffd8545fb282f262708a575f8665a8575cc27fbb75fc0daafb",
+    "descripcion": "Vista desde el lecho seco de un vado: los dos senderos bajan a encontrarse ante la Cihuateteo. Ella alza con una mano la basta calada del vestido blanco; la luna ilumina su rostro de calavera entre flores."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_cihuateteo-d.webp?v=6fa74ba1f7",
+    "sha256": "6fa74ba1f7d8d442c497059af865821068b5f9ffa88a3b3f86944c4e015b6653",
+    "descripcion": "El cruce se ve a través de un arco derruido. En el vértice de la vereda, la mujer de rostro de calavera se inclina a reponer una flor en su cabello. Un pie huesudo sobresale bajo la falda blanca; detrás se abren ambos caminos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id09@2x.webp",
+    "sha256": "1c7dba4c53272924949a9454bfba1c441d9d3a47255917ddff11d77dc6dad7d9"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_cihuateteo-mini.webp?v=f1faa46f2a"
+  },
+  {
+   "id": "es_cihuateteo",
+   "nombre": "Encrucijada",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_cihuateteo-a.webp?v=233a7a5304",
+    "sha256": "233a7a53040b3476367750526c946ddcc60e4d7188736f77282822eca0baa6d3",
+    "descripcion": "Vista cenital de una bifurcación: dos sombras de Cihuateteo interceptan a la misma figura en dos vueltas sucesivas del sendero."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_cihuateteo-b.webp?v=a524f659a8",
+    "sha256": "a524f659a8362dc6f4af78c60f096f464291a689df30c060dd049fe9883484c5",
+    "descripcion": "Un investigador corre de una Cihuateteo y al doblar el camino lo espera otra idéntica."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_cihuateteo-c.webp?v=96492ae67b",
+    "sha256": "96492ae67b4ff993e801bdc19ff775eecb246ecb7d4a11ada2bad53b6597e9f5",
+    "descripcion": "Inés acaba de saltar una zanja para esquivar a la primera Cihuateteo. Al posar el pie en la otra orilla encuentra, a solo un brazo de distancia, el mismo rostro de calavera con flores. La primera sigue visible detrás de ella."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_cihuateteo-d.webp?v=970ff5dafa",
+    "sha256": "970ff5dafaa3013c02fbbbc9078b0023226544ae7e047bf1e53a65eb6aa89521",
+    "descripcion": "Visto desde los escalones de una encrucijada, Tomás baja huyendo de una Cihuateteo en lo alto. Una segunda, de idéntico vestido blanco calado, asciende por el tramo inferior y le cierra el paso."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s09@2x.webp",
+    "sha256": "c94d369dd2799002b0d0abd3b135fbe8c2accd7c540c0b7b05f683ee62ea03a6"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_cihuateteo-mini.webp?v=c9081a7762"
+  },
+  {
+   "id": "id_tlahuelpuchi",
+   "nombre": "Tlahuelpuchi",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_tlahuelpuchi-a.webp?v=8194776023",
+    "sha256": "8194776023617b89cacfe0c40dfce420b19aec580eee1e481ec18835db35f7cd",
+    "descripcion": "Mantener el guajolote de ojos rojos y las piernas abandonadas. Junto a una cornisa, su sombra alada se dobla sobre el tejado; el cambio de forma se lee en dos grandes perfiles."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_tlahuelpuchi-b.webp?v=d138e192db",
+    "sha256": "d138e192db631f286d555b0bfc03224c16e26518fc0ac78399a5d2f62df48671",
+    "descripcion": "El fogón y las piernas, y en la ventana la sombra de un ave enorme que despega."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_tlahuelpuchi-c.webp?v=bcd08c44d6",
+    "sha256": "bcd08c44d6edca1865c5427947e4e446ec6bcf09f78c9169ae0f79716b7d2d7b",
+    "descripcion": "Desde debajo de una mesa de cocina, se ven las dos piernas humanas desocupadas, lisas y sin herida, apoyadas junto al fogón. Por encima del travesaño, un guajolote oscuro de ojos rojos levanta una pata para franquear el umbral."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_tlahuelpuchi-d.webp?v=8ea7c29a46",
+    "sha256": "8ea7c29a46a0733c6fd95dc83092ee7897384caefa0102e5af3f1a6feb2ddcad",
+    "descripcion": "En el patio de lavado, un barreño de agua devuelve el reflejo del guajolote de ojos rojos posado sobre la puerta. A través de la puerta se ven sus dos piernas humanas, intactas y juntas en el suelo junto al fogón."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id10@2x.webp",
+    "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_tlahuelpuchi-mini.webp?v=8b01f5130f"
+  },
+  {
+   "id": "es_tlahuelpuchi",
+   "nombre": "Vuelo de sangre",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_tlahuelpuchi-a.webp?v=b74d606b90",
+    "sha256": "b74d606b9074336f968108958a363fdc047cdd1c23da49955cd0e1c4cf2815a4",
+    "descripcion": "La sombra alada salta de un tejado al siguiente; en dos ventanas encendidas, dos siluetas dan escala al vuelo."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_tlahuelpuchi-b.webp?v=341fe0403d",
+    "sha256": "341fe0403d56fe848bf8cef46346542eb27cde8a34b71c900111db2787281e51",
+    "descripcion": "Un hilo rojo une tres ventanas de la casona y el ave en vuelo sigue su trazo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_tlahuelpuchi-c.webp?v=9ffe4ec550",
+    "sha256": "9ffe4ec550dc3edf536702f2c2390672564207099d06c29d45440c654eaec098",
+    "descripcion": "Desde una azotea, Inés se agacha al pasarle rozando el guajolote de ojos rojos; una pluma queda en su trenza. Más abajo, Rafael alza un brazo cuando la misma ave enfila el descanso donde está él."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_tlahuelpuchi-d.webp?v=7b57272035",
+    "sha256": "7b57272035509ae1414e2c8d00cd0de858425a0f0f06b1cc0031ccdfaa39646f",
+    "descripcion": "Dos patios separados por una tapia baja: la sombra del ave aún cubre a Tomás arrodillado en el primero, pero el guajolote ya cruza con las alas plegadas hacia Inés, visible al otro lado con su farol."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s10@2x.webp",
+    "sha256": "bb99e7c0b6f1ccffb7565dfc86f20676eacddaa33d7afde43f9b378ba00a2399"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_tlahuelpuchi-mini.webp?v=e24cb6a515"
+  },
+  {
+   "id": "id_matlacihuatl",
+   "nombre": "Matlacíhuatl",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_matlacihuatl-a.webp?v=c4eec70351",
+    "sha256": "c4eec7035106428633146f2df9b3bb0887fce8e561413379150b8d0f3ba5ccb1",
+    "descripcion": "Mantener su identidad (cabello como red, vestido crema calado, flor). Recoge la malla en un embarcadero; su cara y los rombos tensos se reflejan juntos en una franja de agua."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_matlacihuatl-b.webp?v=d41039ad8b",
+    "sha256": "d41039ad8bf240294bfb710a4c700882341506cbaa384ad27707f5b31e33f370",
+    "descripcion": "La red de su cabello cubre la entrada de la casona como una telaraña."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_matlacihuatl-c.webp?v=5c896a4fd1",
+    "sha256": "5c896a4fd1327b28c854733132985c873610496a8f5d06f5c3a7ced28cd7aa32",
+    "descripcion": "Desde la boca de un canal, la Matlacíhuatl separa con dos dedos un junco prendido en la malla de su propio cabello. La trenza baja entera desde la flor de su sien y se abre en rombos sobre el remanso."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_matlacihuatl-d.webp?v=22c2adba3d",
+    "sha256": "22c2adba3df23f83e95c112a759b5fafeaf9541caac0d82afc3443d25104a090",
+    "descripcion": "En el agua quieta se ve primero el entramado del cabello, tendido entre dos piedras. Más arriba, ella se incorpora y la red se alza con su nuca, dejando gotear los nudos sobre la manga de su vestido crema calado."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id11@2x.webp",
+    "sha256": "d50987b715675878ae43fc32f63ebbcacc90274ffa6192892f87d04a6a35b369"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_matlacihuatl-mini.webp?v=abc4ddfa87"
+  },
+  {
+   "id": "es_matlacihuatl",
+   "nombre": "La red",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_matlacihuatl-a.webp?v=cf2647d984",
+    "sha256": "cf2647d9844821fef84e6cc08bce349cea31fbb274f3771ffbbb3a4aee3dfe1e",
+    "descripcion": "Una red se tensa sobre un brazo; el rosario queda atrapado en un rombo. Una esquina de la malla lleva hasta la mano de Matlacíhuatl."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_matlacihuatl-b.webp?v=838f4798f2",
+    "sha256": "838f4798f20d2ed492c2fee2af36bc906b6e96fc49b26ab9608a6b3654366500",
+    "descripcion": "Los investigadores dentro de la red como peces; ella sostiene el extremo desde la orilla."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_matlacihuatl-c.webp?v=6ce22f6865",
+    "sha256": "6ce22f6865e6ffeb31bd0ce02fb4b398ef96e92e31af537145accaa40efb8a29",
+    "descripcion": "Mateo intenta sacar la cruz de su rosario a través de la puerta de una barca volcada. El mismo lazo de cabello que retiene la cruz aprieta su manga. Por la boca de la barca, Matlacíhuatl tira de los nudos desde la orilla."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_matlacihuatl-d.webp?v=4ce51c295c",
+    "sha256": "4ce51c295ca1e025b3626d1367ed0cb3169971ea2d83b72efcf19a56006a2284",
+    "descripcion": "Vista desde el agua: el padre Mateo alza su rosario para proteger a Inés, pero la malla de cabello pasa sobre ambos y las cuentas ámbar se enganchan en lo alto. En la ribera, la flor de Matlacíhuatl delata a quien recoge la red."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s11@2x.webp",
+    "sha256": "e669c08fb9f6b32d75ea083e717aec348cb7d580dfec514c15fcf196b30bcb18"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_matlacihuatl-mini.webp?v=d4588ce6c1"
+  },
+  {
+   "id": "id_planchada",
+   "nombre": "La Planchada",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_planchada-a.webp?v=9addd8fc7a",
+    "sha256": "9addd8fc7a92a1a6d0a2429ecd77f904b212cfdc4dc08b040d11fe9543eff692",
+    "descripcion": "Mantener su identidad (uniforme blanco almidonado, cofia, cabello recogido). Alisa una sábana en el borde de una cama; el doblez blanco guía la mirada hasta ella. Una sola cama y una sola figura."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_planchada-b.webp?v=fa0f44f4c6",
+    "sha256": "fa0f44f4c6dbc06124a294969124198796ec46406b7b159bb72cfa6713f1c8dd",
+    "descripcion": "La Planchada empuja un carrito de medicinas por el corredor vacío; las camas se arreglan solas a su paso."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_planchada-c.webp?v=ff857e8476",
+    "sha256": "ff857e8476f8b7c092df4ed429894cad52a4d47187d69447e26bb813e81ac059",
+    "descripcion": "La enfermera se detiene bajo el vano de una sala vacía para abrocharse un puño. De perfil, la cofia blanca y el cabello recogido se recortan contra un biombo ciruela; el cuello, los puños y el delantal conservan pliegues nítidos."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_planchada-d.webp?v=4e8d221f68",
+    "sha256": "4e8d221f6899674e47bcd8dbef5a66f72349c2242c55a26e02cd9b5e86d039c8",
+    "descripcion": "Desde los pies de una cama antigua, una campanilla de latón se inclina sola sobre la mesita. La Planchada acaba de apartar la cortina para entrar; lleva una pila de sábanas con las aristas tan rectas como las de su uniforme."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id13@2x.webp",
+    "sha256": "c32b9a257333cdf907f804448298cb031b34c018d6b0e0e95602f70cf38212bb"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_planchada-mini.webp?v=21429594bc"
+  },
+  {
+   "id": "id_xtabay",
+   "nombre": "Xtabay",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_xtabay-a.webp?v=705480ff11",
+    "sha256": "705480ff1149ce0bea40bc6d9dcb2d34651dbadcec67fe62c04267880cc61d77",
+    "descripcion": "Mantener su identidad (cabello negro muy largo con flores, peine, ceiba). Se peina de perfil junto al tronco; un hueco visible separa el mechón oscuro de la raíz clara."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_xtabay-b.webp?v=cae98e9c9a",
+    "sha256": "cae98e9c9a348b0dc751e9d02694465dde6e61a619e4c963703615e806da0a1c",
+    "descripcion": "Solo su canto: las hojas de la ceiba forman su rostro y un investigador camina hacia el tronco."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_xtabay-c.webp?v=22dacd9c4b",
+    "sha256": "22dacd9c4b0004016006408511ac157fdb2c97ced28425e29a970b4f0e671e51",
+    "descripcion": "Dos raíces claras de ceiba enmarcan un pozo de agua. En el agua se refleja el peine que Xtabay levanta de su larga cabellera; encima del reflejo se ve su mano real sostener una flor en el mechón recién desenredado."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_xtabay-d.webp?v=95f5732428",
+    "sha256": "95f5732428da24cc499a848b3b0c59a77a8288ffc0242f71e6289c27d58d6705",
+    "descripcion": "Desde una rama baja de la ceiba se ve a Xtabay sentada en la horqueta de las raíces. El cabello negro con flores cae casi hasta el suelo; ella recoge la punta sobre la rodilla para pasarle un peine de dientes anchos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id14@2x.webp",
+    "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_xtabay-mini.webp?v=2c9cf8ef03"
+  },
+  {
+   "id": "id_malaire",
+   "nombre": "El Mal Aire",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_malaire-a.webp?v=da4622b55c",
+    "sha256": "da4622b55c5ed343d65e83125f1be06d50aa4d33d9ebad4ac4667c32c22013d4",
+    "descripcion": "Mantener el viento verde como su cuerpo. Toma forma de rostro en un remolino que dobla los carrizos; el fondo abierto deja leer la dirección del viento."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_malaire-b.webp?v=b7e9b1fd5c",
+    "sha256": "b7e9b1fd5cde5eacd07f698a7b439ea7179b39f3cd5c9eff4bb2fcd993015ce6",
+    "descripcion": "El viento verde pasa por el pasillo y apaga una a una las veladoras."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_malaire-c.webp?v=af917e8236",
+    "sha256": "af917e82363a3f099cc8ce802fac5f185112914af35c9c707c5ec812f9410866",
+    "descripcion": "En el patio, la corriente verde se curva en forma de mejilla y labios al pasar sobre un tendedero de flores. Las primeras guirnaldas están vivas y naranjas; las que ya tocó cuelgan oscuras y encogidas."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_malaire-d.webp?v=04f9b3ac27",
+    "sha256": "04f9b3ac2726a6691ac09a95b70074eb4bf4d56e6b5a084f330fb4e3c8ee0a47",
+    "descripcion": "El Mal Aire sale por el cuello de un cántaro volcado. Su perfil verde barre una sola rama de albahaca en una maceta: las hojas que toca se doblan y unas pocas hojas erguidas esperan más adelante."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id15@2x.webp",
+    "sha256": "4bc10eba6937585e069393eb4077ce2863da6b43292c85d3dc199fbe8af0b900"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_malaire-mini.webp?v=9afb469cac"
+  },
+  {
+   "id": "id_guardian",
+   "nombre": "El Guardián del Entierro",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_guardian-a.webp?v=06fdcbb92f",
+    "sha256": "06fdcbb92f99c3ca7c0fae0d1103e7fec0833f1d05e4cc3a0ce0da546cd175db",
+    "descripcion": "Arte que el autor quiere modificar. Acurrucado sobre una vasija enterrada; una mano espectral cubre la boca del recipiente y una moneda asoma entre los dedos. Conservar el rostro de anciano de bigote y el tono azulado."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_guardian-b.webp?v=94d6c3ef2f",
+    "sha256": "94d6c3ef2fdd33d9ba4dca9f8d4b6aa14f1fc0ff0c7251cfedde46e17b5654d0",
+    "descripcion": "Una flama azul flota sobre la losa del patio donde está el entierro."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_guardian-c.webp?v=0f9959ad3b",
+    "sha256": "0f9959ad3b70d7c413b18025388c8d6ef94f76df85dcc9b170cbd8bf1a935d67",
+    "descripcion": "Un ladrillo del zaguán acaba de ceder. Desde el hueco, el anciano azulado de bigote se vuelve para escuchar y cubre con el hombro transparente la hilera de monedas que lleva a su escondite."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_guardian-d.webp?v=c9276c3057",
+    "sha256": "c9276c3057724b88ad75e72f3ea3701f9b1684b474b63051fc95d4523b276c33",
+    "descripcion": "Visto desde el interior de una tinaja enterrada, el Guardián acomoda con el pulgar la última moneda sobre una pila de oro. Por la mano traslúcida se distinguen los cantos del metal y, más arriba, su rostro de anciano bigotudo."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id16@2x.webp",
+    "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_guardian-mini.webp?v=d60f50b3e2"
+  },
+  {
+   "id": "es_guardian",
+   "nombre": "Maldición del entierro",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_guardian-a.webp?v=2b966665e4",
+    "sha256": "2b966665e429de48c033afac027d700d0bf350d6ad652f18a66e138dd1e81ac2",
+    "descripcion": "Una moneda suspendida sobre una vasija abierta; una mano vacila entre devolverla y cerrar el puño. Dentro de la vasija la espera la mano del Guardián."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_guardian-b.webp?v=d1d86085c4",
+    "sha256": "d1d86085c4a3557f9fb451f9d0385f895cdcbc83135e0723758c0e0655902c4d",
+    "descripcion": "Los investigadores vacían sus bolsillos sobre la losa; las monedas se hunden en la piedra."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_guardian-c.webp?v=aac123fd0b",
+    "sha256": "aac123fd0b8269fbae4ea3f81364c0ba5a3c0efa9b0400d8bb724a7623c4469c",
+    "descripcion": "Rafael ha devuelto una moneda y deja caer una segunda por la grieta de una losa. El anciano azul esperaba en el hueco: al recibirla afloja los dedos espectrales que sujetaban el puño de la camisa de Rafael."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_guardian-d.webp?v=a037be1a12",
+    "sha256": "a037be1a1263e899600a763c736774a73203c60878e453b94bfb74ca32bd1105",
+    "descripcion": "Junto a una alacena abierta, Tomás aprieta dos monedas en el puño contra el pecho. En la salida, el anciano traslúcido de bigote le corta el paso con la palma extendida; una tinaja vacía aguarda entre ambos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s16@2x.webp",
+    "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_guardian-mini.webp?v=765656b8fc"
+  },
+  {
+   "id": "es_cucuy",
+   "nombre": "Desde la penumbra",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_cucuy-a.webp?v=46a85ed18f",
+    "sha256": "46a85ed18fd664740ae60f5d01d97e2e306d7c279151af35b92810cf79840447",
+    "descripcion": "Desde el interior oscuro del ropero, dos rendijas dejan ver al mismo investigador; los dedos del Cucuy entran en cuadro desde la sombra."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_cucuy-b.webp?v=e88b0c6bfd",
+    "sha256": "e88b0c6bfd3481ccd0f23934e8291e461cc978abb56b3b14ebbc6b6b3ad105fa",
+    "descripcion": "Todas las puertas de los roperos del corredor abiertas a la vez."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_cucuy-c.webp?v=a41f59d22a",
+    "sha256": "a41f59d22abe930d736248253eaed8c43c0a8e9461dfcdc64a6c85dee906cac1",
+    "descripcion": "Inés consigue cerrarle al Cucuy una hoja del ropero y retira el brazo de sus dedos grises. Al dar un paso atrás, una segunda mano larguísima sale por la otra hoja y alcanza el rebozo de la misma investigadora."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_cucuy-d.webp?v=6a9c5712d5",
+    "sha256": "6a9c5712d5884f12c76b6919388977958e8a6e89836e3634935a805e640e29c6",
+    "descripcion": "En el espejo oval de la cómoda, Rafael acaba de eludir los dedos del Cucuy que salen del ropero. En primer plano, otra mano de jirones grises reaparece bajo el espejo y se alarga hacia el mismo paliacate rojo."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s17@2x.webp",
+    "sha256": "a269994c7100ce85f6f847d10c433c917780bd98a590de6fd0761d94c82df810"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_cucuy-mini.webp?v=78b8cb30af"
+  },
+  {
+   "id": "id_cadejo",
+   "nombre": "El Cadejo Negro",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_cadejo-a.webp?v=5d30ca3614",
+    "sha256": "5d30ca3614b408c0112745325df2ca52e873bb77218a4243930bd7a8f563916c",
+    "descripcion": "Mantener su identidad (perro negro, pelaje erizado, ojos rojos, cadenas). Ocupa un recodo del camino como una sola masa oscura; dos ojos y un tramo de cadena fijan la mirada."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_cadejo-b.webp?v=e19afeca96",
+    "sha256": "e19afeca968e92e179a3f27be4227534c6b0c5dabce049d8c5883a475855d39a",
+    "descripcion": "Solo sus huellas de pezuña y el arrastre de la cadena en el polvo del camino."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_cadejo-c.webp?v=b20ec81dba",
+    "sha256": "b20ec81dba3c861134087c8bb360374ceec09262cce958425681885b5896767a",
+    "descripcion": "A ras del puente de piedra, el Cadejo de perfil apoya una pata enorme sobre el pretil. El cuello erizado empuja un eslabón hacia fuera y la cadena cae suspendida sobre el río. Los ojos rojos miran corriente abajo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_cadejo-d.webp?v=b961e09d4a",
+    "sha256": "b961e09d4a68965f49fcdd72bd60eea4354ab030416d6ecc2871f16656a50ad4",
+    "descripcion": "Desde el interior de un zaguán, el Cadejo apoya el hocico bajo la hoja entreabierta. En la rendija se distinguen los ojos rojos, el lomo de pelo negro levantado y un trozo de cadena que queda prendido en el umbral."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id18@2x.webp",
+    "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_cadejo-mini.webp?v=dd41bfba4f"
+  },
+  {
+   "id": "es_cadejo",
+   "nombre": "Arrastre de cadenas",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_cadejo-a.webp?v=70b0985e0d",
+    "sha256": "70b0985e0d7b63a60c3ab49aded59ac9703ba1876ef210307012f3b050b3bc1d",
+    "descripcion": "La cadena del Cadejo tensa una diagonal entre los tobillos de dos investigadores separados por un escalón; solo se ven los bajos de la ropa y las patas del animal."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_cadejo-b.webp?v=c0658d80a0",
+    "sha256": "c0658d80a05b47baec1ab6474ba3c2508659017a4147577179fea7d602cbe390",
+    "descripcion": "El Cadejo sostiene la cadena en el hocico y de ella cuelgan dos faroles."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_cadejo-c.webp?v=dff0926347",
+    "sha256": "dff0926347d9fbdc18561f6326b81949593be32dacc097d05e087c3a560b56d0",
+    "descripcion": "Desde arriba se ven a Inés y Rafael a cada lado de un brocal. Cada uno tira hacia su lado, pero los dos tobillos están unidos por una cadena que roza la piedra. El Cadejo pisa el eslabón central."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_cadejo-d.webp?v=1440bcffbb",
+    "sha256": "1440bcffbbf391e6b12bd41d58601700fbfdedcc531000df9c406bafc17e3bf3",
+    "descripcion": "Tomás tropieza en un rellano y Rafael, ya un escalón más arriba, pierde el equilibrio en ese mismo instante. Una sola cadena, ceñida al tobillo de ambos, se acaba de tensar. Desde la sombra, los ojos rojos del Cadejo siguen el tirón."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s18@2x.webp",
+    "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_cadejo-mini.webp?v=3919edcf15"
+  },
+  {
+   "id": "es_chocarrero",
+   "nombre": "Tornado de objetos",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_chocarrero-a.webp?v=1672b09361",
+    "sha256": "1672b09361137e1fb9eac94e4b9c8084304d50f62dce1a53b25a28858a0250f0",
+    "descripcion": "Vista cenital: la mesa vacía en el centro; una silla, un candelero y varias cartas giran en espiral alrededor del Espíritu Chocarrero."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_chocarrero-b.webp?v=06fbc67da7",
+    "sha256": "06fbc67da7f1c372070618ccedeb569f797df02d34a20ea2e989a14e2cd569e1",
+    "descripcion": "Los investigadores sujetan sus cartas contra el pecho mientras el remolino les arranca el resto."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_chocarrero-c.webp?v=60473bbf06",
+    "sha256": "60473bbf062225a80a8886f5efa0c4c4b8926dece5e51160f8a26b2230e920f2",
+    "descripcion": "Desde debajo del mantel levantado, se ve la mano de Inés cerrarse sobre la última carta. Las demás ya vuelan entre un plato y una jarrita. Al otro lado, el Espíritu Chocarrero de vestido blanco florido conduce el giro con un dedo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_chocarrero-d.webp?v=36509d29d0",
+    "sha256": "36509d29d08fb968dd317ee6fb5efd525476cd2dac593be4c024e9a127dc32cd",
+    "descripcion": "En la alacena abierta, el Espíritu Chocarrero sonríe y hace girar una bandeja. La estela de la bandeja levanta tres naipes de la mano de Tomás, que sigue con los ojos el primero, ya rozando una pila de loza."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s19@2x.webp",
+    "sha256": "6d62fcda248157bc1fa1327c6b2d9ffdeb6e78085927e8e9bdd54b22b2301fd9"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_chocarrero-mini.webp?v=539720a9de"
+  },
+  {
+   "id": "id_mulata",
+   "nombre": "La Mulata de Córdoba",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_mulata-a.webp?v=8a6cb89da2",
+    "sha256": "8a6cb89da25b85178109dcb3a5723e3015d2450d6966cc5e8021b1c920f79410",
+    "descripcion": "Mantener su identidad (pañuelo rojo, aretes, blusa blanca). Traza la proa del barco en la cal de su celda; su perfil y la mano que dibuja son el foco."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_mulata-b.webp?v=c3d61729ee",
+    "sha256": "c3d61729eef78243265338f009cb9e91978130656717992326e274c4babd4c0c",
+    "descripcion": "La celda vacía y el barco dibujado en la pared con una mancha de agua debajo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_mulata-c.webp?v=c21189dace",
+    "sha256": "c21189dace32fd561b226f2479ac27d7760a8bed73f90fb4c9f082e6340b6e86",
+    "descripcion": "A la altura del suelo de la celda, se ve a la Mulata sentada de costado. Con carbón traza las olas bajo la quilla de su barco en la cal. Su pañuelo rojo, aro y blusa blanca resaltan contra la pared desnuda."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_mulata-d.webp?v=a094226f48",
+    "sha256": "a094226f48b33bf59d94a354c153ad8900ab983363b8744ab97d542ca5b7c3f4",
+    "descripcion": "Vista desde el ventanuco enrejado. La Mulata alza la mano para unir el cabo de un mástil a la popa trazada en la pared. La sombra de un barrote atraviesa el casco; una mancha de carbón le oscurece los dedos."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id20@2x.webp",
+    "sha256": "f0ffd04700008e2b0725ca2b212f8bbd1588d289bd576aaeb2214fd4d3199947"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_mulata-mini.webp?v=c49fa00ad3"
+  },
+  {
+   "id": "es_mulata",
+   "nombre": "El barco en la pared",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_mulata-a.webp?v=56af9b066b",
+    "sha256": "56af9b066b8c1997b20d38f84ae07ff9b76978c4fe4a383208e3422ab2216b5d",
+    "descripcion": "El barco de carbón despega de la pared dejando hueca su proa dibujada; en la base, las cartas cambian de mano hacia la izquierda. Una sola vela triangular marca el rumbo."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_mulata-b.webp?v=ad8d86c3f0",
+    "sha256": "ad8d86c3f0b4226567f54708feb45f866b4fa190585c114a6150a664e508bf17",
+    "descripcion": "El agua salada brota de la piedra y arrastra las cartas de un investigador a otro."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_mulata-c.webp?v=0bf4091be0",
+    "sha256": "0bf4091be0470bf3d31cedf490ae5aaec847584854a781da8513115d6daa42d2",
+    "descripcion": "El barco de carbón de la Mulata atraviesa de canto una mesa pegada al muro. Su estela en el agua empuja un abanico de cartas hacia la palma abierta de Inés, a la izquierda de Rafael; al fondo queda la vela dibujada en la cal."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_mulata-d.webp?v=dffb82065f",
+    "sha256": "dffb82065f3fc7a6a24f5d6deacb6b48ce418abc8ea4af695e4861d1763fec43",
+    "descripcion": "Vista desde la izquierda de una banca. La Mulata apoya el carbón en el extremo del barco pintado y la proa se levanta en relieve. Debajo, Tomás entrega su mano completa de naipes a Mateo, sentado inmediatamente a su izquierda."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s20@2x.webp",
+    "sha256": "3b32a415c8f03881c3eb69c6468c2e237a5d7f12241ff2ff9d3bbcfc06422354"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_mulata-mini.webp?v=d83a6b3d41"
+  },
+  {
+   "id": "id_uaychivo",
+   "nombre": "El Uay Chivo",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/comparativa-01/id_uaychivo-a.webp?v=08c6ce70f4",
+    "sha256": "08c6ce70f444b5e61b5b6444a22b9b108cb731deacb9e457e4cf38091fbdd4e0",
+    "descripcion": "Mantener su identidad (cuernos curvos, pelaje oscuro, arco maya). Vuelve la cabeza desde un muro bajo; los cuernos recortan la luna y el cuerpo queda en penumbra. Guardar el primer plano del ojo para su Espanto."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/id_uaychivo-b.webp?v=4507296297",
+    "sha256": "450729629702864dc9fad0d3289ccd712ba8f73936ee7cfec990333822efab08",
+    "descripcion": "Solo las pezuñas y la sombra con cuernos en el piso del claustro."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/id_uaychivo-c.webp?v=73bf0859fb",
+    "sha256": "73bf0859fb1dede0134bb7d63cb06ed8aa6b71a158d77b3d5860dd6baf3dba8d",
+    "descripcion": "En el arranque de una escalinata maya, el Uay Chivo se incorpora detrás de un contrafuerte. De tres cuartos se ve su cuerpo bípedo de pelo oscuro; la punta de un cuerno curvo acaba de apartar una hoja que aún roza el otro."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/id_uaychivo-d.webp?v=b8d36566be",
+    "sha256": "b8d36566be17cb75f830b93331c79a74b9604c0a0c5c4fc352807a3b8796da36",
+    "descripcion": "Vista desde una cisterna quieta: el reflejo recoge la pareja de cuernos curvos, la barba oscura y dos diminutos ojos rojos del Uay Chivo asomado al brocal. Por encima del agua se ven sus pezuñas y un fragmento de arco maya."
+   },
+   "original": {
+    "archivo": "web/miniaturas/id21@2x.webp",
+    "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a"
+   },
+   "miniaturas": "web/revision/comparativa-01/id_uaychivo-mini.webp?v=b7026a3c74"
+  },
+  {
+   "id": "es_uaychivo",
+   "nombre": "Mirada de cabra",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/comparativa-01/es_uaychivo-a.webp?v=53f191fc7e",
+    "sha256": "53f191fc7e06724614dcd56343de35c45a381fd740320055abede44750b03020",
+    "descripcion": "Primerísimo plano del ojo del Uay Chivo; en la pupila se refleja una sola persona apretando el rosario."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/es_uaychivo-b.webp?v=5fac189429",
+    "sha256": "5fac18942973d6c215e84f0a212c5057b0dfe2227312ecc50b333ed67f9434ad",
+    "descripcion": "Un investigador iluminado por dos puntos rojos, con el rosario en el puño; los demás quedan en sombra."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/es_uaychivo-c.webp?v=da3e10aee2",
+    "sha256": "da3e10aee22b27d85fa61d513ee449423034c3304f5d0c33ad9b750be1573886",
+    "descripcion": "Mateo mira hacia el patio por una tronera. En la abertura cabe un solo ojo rojo de pupila horizontal, inmóvil y a la altura de su cara. Mateo levanta su cruz de ámbar entre ambos; las cuentas tensas explican el gesto."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/es_uaychivo-d.webp?v=d47d3114fd",
+    "sha256": "d47d3114fd62e8bbbf75b5f66931108d9f0ecd5d1338bc8b3f5d17fddadaac2e",
+    "descripcion": "Desde la espalda del Uay Chivo, un cuerno y el perfil del ojo rojo apuntan hacia un hueco de la arcada. Dentro del hueco, solo Amalia le devuelve la mirada y aprieta el rosario contra su pecho; la luz toca las cuentas."
+   },
+   "original": {
+    "archivo": "web/miniaturas/s21@2x.webp",
+    "sha256": "b80dd76872140eed6f2b0bc73e8a1c205de3c949be15c944d7f8a6067eeea4b1"
+   },
+   "miniaturas": "web/revision/comparativa-01/es_uaychivo-mini.webp?v=e7edb7eefb"
+  },
+  {
+   "id": "ev1",
+   "nombre": "Huellas de ceniza",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev1-a.webp?v=4328a7b8e0",
+    "sha256": "4328a7b8e057be1de37e2191c1848c1189ec7b7993bd6667ecd9a32418553d8e",
+    "descripcion": "Tres pisadas de ceniza interrumpen una franja de piso recién barrido; la última termina antes del umbral. La evidencia ocupa la carta."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev1-b.webp?v=5512d6768e",
+    "sha256": "5512d6768e3d2a3c822629fb28a543a5512f1d393a2e25812482a1be80f937ad",
+    "descripcion": "Una escoba recargada en la pared y, delante, el polvo barrido que forma de nuevo una pisada."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev1-c.webp?v=e3c4c42af7",
+    "sha256": "e3c4c42af7498e00de3a34fb227384b7706e97678a8d6422a815087e428538cc",
+    "descripcion": "En el umbral de la cocina, dos pisadas descalzas de ceniza quedan a caballo sobre un desnivel. El talón gris en el escalón alto y los dedos impresos abajo se separan visualmente de la piedra limpia con luz rasante."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev1-d.webp?v=526f2b45c2",
+    "sha256": "526f2b45c296cbca743373e3d01087ff9ec3e806d19c578bb9d048a8a823caf7",
+    "descripcion": "Desde la galería alta se ve el patio recién lavado. Una sola pisada de ceniza, con talón y cinco dedos definidos, ha quedado en el centro de una baldosa húmeda; el agua arrastra unos granos grises hacia la junta."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e02@2x.webp",
+    "sha256": "789045ec5c51247ef427133f6ae91400e0bf116aa9e650df9723582b51ffdf99"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev1-mini.webp?v=7354288728"
+  },
+  {
+   "id": "ev2",
+   "nombre": "Susurros",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev2-a.webp?v=8ed2f9dae4",
+    "sha256": "8ed2f9dae49b2430112e77b91cb11f1f6f119aee9bc51638277da335f2510a2e",
+    "descripcion": "Un vaso invertido contra la pared; del otro lado de la junta se insinúa una cinta de voz, y el oído de Tomás entra apenas por el borde."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev2-b.webp?v=59d2c1cf2c",
+    "sha256": "59d2c1cf2cc5bcafa4c6748b140cf780847d47d5913a381b28bfb41c2f640093",
+    "descripcion": "La libreta de Tomás abierta: alguien escribió su nombre con una letra que no es la suya, mientras la grabadora sigue encendida."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev2-c.webp?v=c460d660c9",
+    "sha256": "c460d660c95c276c2bac1cff7c83ac2bddcc3c5f9574c736412193cd490ca4ac",
+    "descripcion": "Tomás detiene el lápiz junto al oído al percibir una hebra de voz en el hueco de una cerradura antigua. La hebra alcanza su oreja en el único punto iluminado del corredor; el otro lado de la puerta está vacío."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev2-d.webp?v=71cf306e14",
+    "sha256": "71cf306e1467798f46939eb8d5c4d09f47bd77290fbd17acd08f03c07adb4732",
+    "descripcion": "Junto al pozo, Tomás agacha la cabeza de perfil. Del brocal sube una sola cinta fina de voz pálida que le roza la oreja bajo el ala del sombrero. Su libreta cerrada cuelga de la otra mano."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e03@2x.webp",
+    "sha256": "e5985325a01375c169fb95e5ce230795041715515280178109d0373d2eb8d9b0"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev2-mini.webp?v=63e737f16b"
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev3-a.webp?v=15904994c7",
+    "sha256": "15904994c7d13672bc3597d1dd17f82c3bf1c081275ab7b55922c5a67981a13c",
+    "descripcion": "Arte que el autor quiere modificar. Una silla desplazada deja cuatro marcas limpias en el polvo; el desplazamiento se lee por la distancia entre cada pata y su marca."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev3-b.webp?v=4003aaf857",
+    "sha256": "4003aaf85756dd1909bfff6dfaad5c7e04742eaaf1102f843420fb9c049086b6",
+    "descripcion": "La mesa puesta para la cena: un solo plato quedó al revés y su cubierto, al otro extremo."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev3-c.webp?v=a96856f5be",
+    "sha256": "a96856f5be70eb43f64603e21ea1d01d08d42009cd549d8c6f429d4c87e24cd9",
+    "descripcion": "Desde el canto de una repisa polvorienta, un jarrito azul aparece a dos palmos del círculo limpio que dejó su base. La ventana da luz rasante al anillo y a la cerámica; entre ambos sigue intacta la capa de polvo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev3-d.webp?v=168674c055",
+    "sha256": "168674c055a01403c690906480278c06d619b6e7a6f76f9f187f620ee25b5ab5",
+    "descripcion": "Vista casi cenital de una cómoda. Un cofre rectangular se ha desplazado al extremo opuesto de su huella limpia en el polvo; el agujero de una pequeña tabla del mueble sigue viéndose dentro del rectángulo vacío."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e04@2x.webp",
+    "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev3-mini.webp?v=85f5efe90f"
+  },
+  {
+   "id": "ev4",
+   "nombre": "Luces parpadeantes",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev4-a.webp?v=b9c5887f18",
+    "sha256": "b9c5887f188d1a93f603eff70f58608c3b27c2693b1c4a49a94983bdb791e7c9",
+    "descripcion": "Tres focos del mismo corredor en distintos momentos de luz; sus charcos luminosos interrumpidos dibujan un ritmo sobre el piso."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev4-b.webp?v=ebbb138f78",
+    "sha256": "ebbb138f78504a3f45b593e147b73f8cc7fdc50806eaee25578cc47633d9d1e1",
+    "descripcion": "Un solo foco parpadea tres veces sobre la ofrenda; la foto del difunto queda iluminada y a oscuras."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev4-c.webp?v=3ec9aafd16",
+    "sha256": "3ec9aafd162dc4fab3237760a5f06162fa6c53b048922c831ef0206239432c68",
+    "descripcion": "Vista desde el aljibe del patio. Bajo la arcada, un farol acaba de apagarse y el siguiente arde. En el agua que aún ondula, el reflejo del primero parece vivo mientras el del segundo apenas empieza a encenderse."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev4-d.webp?v=a81d74c21c",
+    "sha256": "a81d74c21cd386bc811f3db84d831ff6ec720d4f7447f873bcec21709fc9818e",
+    "descripcion": "Un aplique de dos focos ilumina una escalera. Uno revive con un pequeño destello ámbar y el otro queda negro. Sobre la pared encalada se cortan en seco las dos sombras desfasadas de la misma barandilla."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e05@2x.webp",
+    "sha256": "3d2e3dd772affd0257e86ee3eddd2167f8498fca859426c4a6e99b26bd862dd1"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev4-mini.webp?v=f9a610a71b"
+  },
+  {
+   "id": "ev5",
+   "nombre": "Marcas en el espejo",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev5-a.webp?v=29f040ab37",
+    "sha256": "29f040ab370cda8860e5f6dfbe0d6b5f274566b2c3dc10a1963d3601f23dd8b8",
+    "descripcion": "Una huella de dedos estrechos en el vaho de un espejo; fuera de la huella se refleja una ventana y dentro se ve la plata limpia."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev5-b.webp?v=e48683ebb2",
+    "sha256": "e48683ebb2224463aa1e214b6ff153f4e685742fecb37a74e6eff5b641e89bbe",
+    "descripcion": "Letras sin sentido trazadas en el vaho desde el otro lado del vidrio (sin texto legible)."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev5-c.webp?v=3df467d4d1",
+    "sha256": "3df467d4d1088d476f144138d1733bad80eebec8e54939edcb76c371413935c5",
+    "descripcion": "En el espejo cuadrado de una cómoda aparece el roce de una palma seguida de cuatro surcos estrechos en el vaho. Dentro de los surcos se refleja el nudo ámbar de una cortina; alrededor, la plata permanece mate."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev5-d.webp?v=e4eeff0cf8",
+    "sha256": "e4eeff0cf835664ae13c08563f166e8f44eceaba8156670ec9a634e53f41104f",
+    "descripcion": "Vista oblicua de un espejo apoyado en el piso contra la pared. Una pequeña mano dejó cinco puntas y la palma marcadas en la condensación a media altura; una gota baja desde el talón de la huella hasta el azogue."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e06@2x.webp",
+    "sha256": "3d8543af990156fa841dd8aae6922ace2a4aa7de8a71c0730173648e11f64c16"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev5-mini.webp?v=50443acd78"
+  },
+  {
+   "id": "ev6",
+   "nombre": "Olor a azufre",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/comparativa-01/ev6-a.webp?v=f46ed3d014",
+    "sha256": "f46ed3d01425314fdde52c176892bf33b24bc24175e13f8ea9ea045191445b38",
+    "descripcion": "La rejilla de un patio deja escapar un hilo amarillo; Amalia levanta el rebozo hasta la nariz al reconocer el olor."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/ev6-b.webp?v=9326b8d53e",
+    "sha256": "9326b8d53eda7df7e9b624ef4fe110b08f8c313f0542f6077e30e3ad797d010a",
+    "descripcion": "Un cerillo recién apagado sobre la ofrenda, con el humo amarillo que no se disipa."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/ev6-c.webp?v=e58279665c",
+    "sha256": "e58279665c0608489b0aa4f1a6e83dd85f84a4515a8d53023e738047c383f086",
+    "descripcion": "Desde el suelo de la despensa, un hilo amarillo de azufre sube por la junta de dos baldosas. Amalia acaba de dejar su ramo en una silla; gira la cara y se cubre la nariz con la punta del rebozo."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/ev6-d.webp?v=ab40c0f48d",
+    "sha256": "ab40c0f48d931cd68c54676f1d5a5889640d1e786f9730b5c1302d0b93fbdec4",
+    "descripcion": "Amalia entreabre una alacena de barro. Un remolino amarillo atrapado tras un cántaro sale por la rendija a la altura de su nariz. Ella retira el rostro y sujeta las hierbas lejos de ese olor."
+   },
+   "original": {
+    "archivo": "web/miniaturas/e07@2x.webp",
+    "sha256": "7175455bdccfd548857f4e70279ea4394552bdbf9f1c1a0498736669d878610c"
+   },
+   "miniaturas": "web/revision/comparativa-01/ev6-mini.webp?v=4c311d62ae"
+  },
+  {
+   "id": "rol_velar",
+   "nombre": "Velar",
+   "familia": "Cartas de espíritu",
+   "reverso": "espiritu_reverso",
+   "a": {
+    "archivo": "web/revision/comparativa-01/rol_velar-a.webp?v=6ca106ace6",
+    "sha256": "6ca106ace6d7bb641b70cdf9643426b897c3b3aa3804af85220702377112eec6",
+    "descripcion": "Sustituir al espíritu por uno de los cinco investigadores (los roles solo aparecen en su carta). Un espíritu aliado posa una mano traslúcida sobre el hombro de un investigador vivo; el abrigo y el fondo se ven a través de sus dedos."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/rol_velar-b.webp?v=3e4f432441",
+    "sha256": "3e4f43244124384aa00b9c62c3bd00858b91d5441afa6c6c992227b1eec54c18",
+    "descripcion": "El espíritu de Rafael, traslúcido, sostiene el farol de Inés para que no se apague."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/rol_velar-c.webp?v=6fbdb0810f",
+    "sha256": "6fbdb0810fa8a85547477cd80edc7334b863028ce53872066c9af5c70e6a6484",
+    "descripcion": "A través de la celosía del zaguán se ve a Inés viva acurrucada bajo un arco. El espíritu de Amalia extiende su rebozo por encima de sus hombros. El bordado guinda de Inés atraviesa visualmente los dedos azules de Amalia."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/rol_velar-d.webp?v=c5bc838c01",
+    "sha256": "c5bc838c01febbdfbbe6c32255ca76044ec506480c9bdd85a9c9756ad5f76d3a",
+    "descripcion": "Rafael vivo se detiene junto a una puerta que vibra. El espíritu de Tomás se interpone de perfil y apoya una mano abierta sobre la muñeca de Rafael para calmarlo; bajo la palma celeste sigue viéndose el puño crema."
+   },
+   "original": {
+    "archivo": "web/revision/lote-01/velar-original.webp",
+    "sha256": "6a187f6d381d9386a3cb0d39bbb05ee3ceec3be879a8e316a2d5f858f8eb09a7"
+   },
+   "miniaturas": "web/revision/comparativa-01/rol_velar-mini.webp?v=b1d0e0f02c"
+  },
+  {
+   "id": "rol_manifestar",
+   "nombre": "Manifestar",
+   "familia": "Cartas de espíritu",
+   "reverso": "espiritu_reverso",
+   "a": {
+    "archivo": "web/revision/comparativa-01/rol_manifestar-a.webp?v=60bffbb67a",
+    "sha256": "60bffbb67ae6569e49e881f8a9319d7ae5883fbca75df9e6cff304d1303a52e6",
+    "descripcion": "Sustituir a los roles por investigadores. Un compañero espectral levanta una carta del mazo para señalar una herramienta que los vivos habían pasado por alto. Enfocar la mano y la carta."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/rol_manifestar-b.webp?v=309bfc87ca",
+    "sha256": "309bfc87ca4638fb292526bbe3942fdf743a616f8ea45bd0f8f1402817dea6dc",
+    "descripcion": "El espíritu de Tomás, traslúcido, gira la perilla de la grabadora mientras Padre Mateo escucha."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/rol_manifestar-c.webp?v=ba8198e1a7",
+    "sha256": "ba8198e1a716515c7b8e69892b57e36ec54f5d1d67dad768fd539f69fc952f00",
+    "descripcion": "Junto al mazo, el espíritu de Rafael gira un naipe donde se distingue la silueta muda del detector. Con la otra mano oprime un botón del detector EMF real y la primera luz prende. Inés sigue el gesto desde el borde de la mesa."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/rol_manifestar-d.webp?v=b092ea57a5",
+    "sha256": "b092ea57a50d4856fb89e3dbb16a69d19fdb560d9a4adb4dc92a949145461f7b",
+    "descripcion": "Desde casi el suelo, una carta recién extraída queda junto a una linterna UV de botones. La mano azul de Inés enciende la linterna y orienta el haz sobre una pisada de ceniza. Detrás, Amalia viva se inclina a verla."
+   },
+   "original": {
+    "archivo": "web/miniaturas/personajes/manifestar_original.webp",
+    "sha256": "d6148de027ff45b826c33ade304be5d3fa74e20055b44ff76283cf063b52f85e"
+   },
+   "miniaturas": "web/revision/comparativa-01/rol_manifestar-mini.webp?v=f922a64220"
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Inés",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-ines",
+   "a": {
+    "archivo": "web/revision/comparativa-01/cordura-ines-a.webp?v=8d11ff569d",
+    "sha256": "8d11ff569d12799eab6deeddd1b1273f82486c060a51e660603769d6e154f721",
+    "descripcion": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/cordura-ines-b.webp?v=8abc8fe088",
+    "sha256": "8abc8fe088e7dc077cb2b9467e4296c5bfce03a4c58bbd5f70dffdb0a6624894",
+    "descripcion": "Una veladora que se consume de arriba abajo a lo largo de la escala."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/cordura-ines-c.webp?v=95d893492f",
+    "sha256": "95d893492fe3380db2a0841c77da46b509866e0bb8aec2f1107d1105033c79af",
+    "descripcion": "El investigador se detiene con su objeto en el descanso de una escalera de piedra. La luz del rellano alcanza los primeros peldaños; los de abajo se pierden en sombra guinda junto al tramo de cacería."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/cordura-ines-d.webp?v=b92fad22c4",
+    "sha256": "b92fad22c424cd0691cc36112768c50c3f0bf9ce5856f5f7197c63ae1928a20b",
+    "descripcion": "El investigador sostiene su objeto frente a una ventana de la casona. Su perfil reaparece en azul petróleo sobre el vidrio; abajo, una grieta se abre a la altura de la zona de peligro."
+   },
+   "miniaturas": "web/revision/comparativa-01/cordura-ines-mini.webp?v=c8b47d8f60"
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Rafael",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-rafael",
+   "a": {
+    "archivo": "web/revision/comparativa-01/cordura-rafael-a.webp?v=514a7d528b",
+    "sha256": "514a7d528bc527377617682e361c00f9eb2847babae59591867b00ac9fef0d89",
+    "descripcion": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/cordura-rafael-b.webp?v=4f63a0294d",
+    "sha256": "4f63a0294d665436fb6d06955edf4987f92c7edff3fb3fca8c8cfe5ca4cc2b72",
+    "descripcion": "Una veladora que se consume de arriba abajo a lo largo de la escala."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/cordura-rafael-c.webp?v=bc05ed71f0",
+    "sha256": "bc05ed71f038c6a4e54d400da2b40d24bf7f046eac7b5c23e3fa3aac18d3fd24",
+    "descripcion": "El investigador se detiene con su objeto en el descanso de una escalera de piedra. La luz del rellano alcanza los primeros peldaños; los de abajo se pierden en sombra guinda junto al tramo de cacería."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/cordura-rafael-d.webp?v=bd61f20a02",
+    "sha256": "bd61f20a020ba994b7ffa48d6e0926fe8b98223fb0fac52f52f0677f692b229e",
+    "descripcion": "El investigador sostiene su objeto frente a una ventana de la casona. Su perfil reaparece en azul petróleo sobre el vidrio; abajo, una grieta se abre a la altura de la zona de peligro."
+   },
+   "miniaturas": "web/revision/comparativa-01/cordura-rafael-mini.webp?v=14fa54ae79"
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Tomás",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-tomas",
+   "a": {
+    "archivo": "web/revision/comparativa-01/cordura-tomas-a.webp?v=67c0085132",
+    "sha256": "67c008513279abf8dc7ede1685a98e860e93d9ddd29e52c29bed6fd40ccb66a6",
+    "descripcion": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/cordura-tomas-b.webp?v=e348f414f0",
+    "sha256": "e348f414f024f83d972af5572d6cd39f0fa142cb74d4ec737da2efae0a2d70bf",
+    "descripcion": "Una veladora que se consume de arriba abajo a lo largo de la escala."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/cordura-tomas-c.webp?v=704e1d29fe",
+    "sha256": "704e1d29febae1d92be75b45758b3b7a2e6bb2e2b638b7c9937c75955f20401f",
+    "descripcion": "El investigador se detiene con su objeto en el descanso de una escalera de piedra. La luz del rellano alcanza los primeros peldaños; los de abajo se pierden en sombra guinda junto al tramo de cacería."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/cordura-tomas-d.webp?v=3f12bb3e50",
+    "sha256": "3f12bb3e50c3b2d9cf99109cb1b5772fb4cdc41f0482431ec161e11d3e215484",
+    "descripcion": "El investigador sostiene su objeto frente a una ventana de la casona. Su perfil reaparece en azul petróleo sobre el vidrio; abajo, una grieta se abre a la altura de la zona de peligro."
+   },
+   "miniaturas": "web/revision/comparativa-01/cordura-tomas-mini.webp?v=c3ebbdfc10"
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Amalia",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-amalia",
+   "a": {
+    "archivo": "web/revision/comparativa-01/cordura-amalia-a.webp?v=d431c2bf9e",
+    "sha256": "d431c2bf9e41eb414018d603d7912cd201cee9796396c36d74259366b3ccecc1",
+    "descripcion": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/cordura-amalia-b.webp?v=89b29b6db4",
+    "sha256": "89b29b6db425731a4da49d2774af0ea483a2177f081f13d1c512774d7f7f79ca",
+    "descripcion": "Una veladora que se consume de arriba abajo a lo largo de la escala."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/cordura-amalia-c.webp?v=59a198042a",
+    "sha256": "59a198042a5e58a2d2cc4118fb442fbb2a8001f8f92555b979d877e371d5c5a9",
+    "descripcion": "El investigador se detiene con su objeto en el descanso de una escalera de piedra. La luz del rellano alcanza los primeros peldaños; los de abajo se pierden en sombra guinda junto al tramo de cacería."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/cordura-amalia-d.webp?v=1c9ea3369d",
+    "sha256": "1c9ea3369d6cb002bc362570ebd85aa685a89e446d5a28d6efd8829b67e0d3fc",
+    "descripcion": "El investigador sostiene su objeto frente a una ventana de la casona. Su perfil reaparece en azul petróleo sobre el vidrio; abajo, una grieta se abre a la altura de la zona de peligro."
+   },
+   "miniaturas": "web/revision/comparativa-01/cordura-amalia-mini.webp?v=8cc03db30c"
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Padre Mateo",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-mateo",
+   "a": {
+    "archivo": "web/revision/comparativa-01/cordura-mateo-a.webp?v=93e6e70e6e",
+    "sha256": "93e6e70e6e5f07d887d17bcb87ac05fcbe980806e82ebadacbf4f10ebe656c54",
+    "descripcion": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona)."
+   },
+   "b": {
+    "archivo": "web/revision/comparativa-01/cordura-mateo-b.webp?v=d8d16df8f6",
+    "sha256": "d8d16df8f680743f9c6056ca57179bcec9e04873ec85032fab2953f3c10d3afd",
+    "descripcion": "Una veladora que se consume de arriba abajo a lo largo de la escala."
+   },
+   "c": {
+    "archivo": "web/revision/comparativa-01/cordura-mateo-c.webp?v=7b5c43133f",
+    "sha256": "7b5c43133f45c5df0f21441799b6680e6e5a927958f194ffee57e484e4edfd58",
+    "descripcion": "El investigador se detiene con su objeto en el descanso de una escalera de piedra. La luz del rellano alcanza los primeros peldaños; los de abajo se pierden en sombra guinda junto al tramo de cacería."
+   },
+   "d": {
+    "archivo": "web/revision/comparativa-01/cordura-mateo-d.webp?v=bb0431d69d",
+    "sha256": "bb0431d69d17e520f52fb01c79becc6abaa5fc344cbad1323da07b22bce379f3",
+    "descripcion": "El investigador sostiene su objeto frente a una ventana de la casona. Su perfil reaparece en azul petróleo sobre el vidrio; abajo, una grieta se abre a la altura de la zona de peligro."
+   },
+   "miniaturas": "web/revision/comparativa-01/cordura-mateo-mini.webp?v=36d022ea9f"
+  }
+ ]
+}

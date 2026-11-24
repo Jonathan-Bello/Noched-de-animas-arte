@@ -3,6 +3,11 @@
  "uso": "Índice que lee el selector (revision.html). El primer lote se abre por omisión. Lo actualiza .agents/skills/fabrica-cartas-animas/scripts/lote.py.",
  "lotes": [
   {
+   "lote": "comparativa-01",
+   "titulo": "Comparativa Claude y ChatGPT · 65 frentes",
+   "ruta": "web/revision/comparativa-01/lote.json"
+  },
+  {
    "lote": "herramientas-02",
    "titulo": "Herramientas · 6 cartas",
    "ruta": "web/revision/herramientas-02/lote.json"

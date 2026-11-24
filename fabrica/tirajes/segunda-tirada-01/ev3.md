@@ -29,7 +29,7 @@ La mesa puesta para la cena: un solo plato quedó al revés y su cubierto, al ot
 - Texto, letras, números, firmas, marco, franjas o íconos: los pone la plantilla.
 - Celulares, aparatos inalámbricos o pantallas modernas (equipo atemporal: casete, botones físicos, pantallas sencillas, cámara compacta sobre trípode).
 - Personas que no sean los cinco investigadores; los roles con nombre solo aparecen en su carta de rol.
-- La escena de «Cámara de movimiento» (`t3`), que es otra carta: La cámara sobre su trípode, en primer plano, apunta a una silla que ya cayó y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
+- La escena de «Cámara de movimiento» (`t3`), que es otra carta: La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
 - La escena de «Lluvia de objetos» (`h3`), que es otra carta: (se conserva) Remolino de objetos (cámara, microscopio, brújula, lupa, frascos, silla) sobre dos investigadores y sus morrales.
 - Silla volcada y cuadros torcidos: es la escena del arte actual `e04` y pasa a la herramienta `t3`.
 - Cámaras, trípodes o cualquier aparato: la evidencia no muestra la herramienta que la detecta.

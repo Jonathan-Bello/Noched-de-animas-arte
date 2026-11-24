@@ -8,13 +8,13 @@ C["t0"] = dict(e="rehacer", p="Tomás",
   a="Termómetro digital de mano color petróleo con «-4 °C» en pantalla, apoyado sobre la ofrenda: veladoras, cempasúchil con escarcha, papel picado y un retrato antiguo enmarcado.",
   l="El termómetro con su lectura bajo cero y la escarcha.",
   pr="Primer plano vertical. Tomás sostiene el termómetro de campo junto al borde de la ofrenda; la pantalla marca bajo cero y una sola esquina del mantel y de un cempasúchil está escarchada. Su aliento hace vaho. Azul petróleo y crema, con un único punto cálido de veladora.",
-  alt="Vista cenital de la ofrenda: un círculo de escarcha crece desde el retrato y el termómetro, apoyado en el centro, marca bajo cero. Sin personas.")
+  alt="Vista cenital de la ofrenda. El termómetro sobre el mantel y el borde de escarcha concentran el detalle. Un retrato secundario sitúa la escena; dejar espacio de mantel en sombra alrededor del aparato.")
 C["t1"] = dict(e="rehacer", p="Inés (solo mano y manga)",
   r="Herramienta que busca Huellas de ceniza: la luz que revela lo que no se ve.",
   a="Linterna UV morada apuntando al piso de talavera; el haz revela dos pisadas de pie descalzo hechas de ceniza.",
   l="El cono violeta y las pisadas que solo existen dentro de él.",
   pr="La mano de Inés (manga crema con bordado guinda) barre el zócalo con la linterna; el cono corta el piso en diagonal y dentro aparecen dos pisadas de ceniza que fuera del haz no se ven.",
-  alt="La linterna quedó encendida en el suelo; su haz alcanza el pie de una escalera y revela una hilera de pisadas que sube. Arriba, oscuridad.")
+  alt="La linterna quedó encendida en el suelo de un pasillo de la casona. El haz rasante revela una hilera de pisadas de ceniza en las baldosas, solo dentro del cono violeta. El pasillo se pierde en la oscuridad.")
 C["t2"] = dict(e="rehacer", p="Padre Mateo",
   r="Herramienta que busca Susurros: grabar lo que el oído no alcanza.",
   a="Grabadora de casete petróleo con luz roja encendida sobre una mesa tallada, entre libros, talavera con cempasúchil y veladoras; ondas de sonido salen del altavoz.",
@@ -25,7 +25,7 @@ C["t3"] = dict(e="rehacer",
   r="Herramienta que busca Objetos movidos: el aparato que vigila mientras nadie mira.",
   a="Cámara compacta sobre trípode con luz roja apuntando a una mecedora tallada que se balancea sola, en un corredor de arcos con farol.",
   l="La cámara física, en el plano, apuntando al mueble que se mueve.",
-  pr="La cámara sobre su trípode, en primer plano, apunta a una silla que ya cayó y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).",
+  pr="La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).",
   alt="Desde detrás de la cámara: su pequeña pantalla muestra la mecedora quieta, pero en la habitación real la mecedora está a medio balanceo.")
 C["t4"] = dict(e="rehacer", p="Rafael",
   r="Herramienta que busca Luces parpadeantes: el medidor que reacciona a la presencia.",

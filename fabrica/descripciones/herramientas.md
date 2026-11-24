@@ -14,7 +14,7 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 - **Arte actual:** Termómetro digital de mano color petróleo con «-4 °C» en pantalla, apoyado sobre la ofrenda: veladoras, cempasúchil con escarcha, papel picado y un retrato antiguo enmarcado.
 - **Debe leerse a tamaño de mesa:** El termómetro con su lectura bajo cero y la escarcha.
 - **Segunda tirada:** Primer plano vertical. Tomás sostiene el termómetro de campo junto al borde de la ofrenda; la pantalla marca bajo cero y una sola esquina del mantel y de un cempasúchil está escarchada. Su aliento hace vaho. Azul petróleo y crema, con un único punto cálido de veladora.
-- **Alternativa:** Vista cenital de la ofrenda: un círculo de escarcha crece desde el retrato y el termómetro, apoyado en el centro, marca bajo cero. Sin personas.
+- **Alternativa:** Vista cenital de la ofrenda. El termómetro sobre el mantel y el borde de escarcha concentran el detalle. Un retrato secundario sitúa la escena; dejar espacio de mantel en sombra alrededor del aparato.
 
 ## Lámpara UV · `t1`
 
@@ -26,7 +26,7 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 - **Arte actual:** Linterna UV morada apuntando al piso de talavera; el haz revela dos pisadas de pie descalzo hechas de ceniza.
 - **Debe leerse a tamaño de mesa:** El cono violeta y las pisadas que solo existen dentro de él.
 - **Segunda tirada:** La mano de Inés (manga crema con bordado guinda) barre el zócalo con la linterna; el cono corta el piso en diagonal y dentro aparecen dos pisadas de ceniza que fuera del haz no se ven.
-- **Alternativa:** La linterna quedó encendida en el suelo; su haz alcanza el pie de una escalera y revela una hilera de pisadas que sube. Arriba, oscuridad.
+- **Alternativa:** La linterna quedó encendida en el suelo de un pasillo de la casona. El haz rasante revela una hilera de pisadas de ceniza en las baldosas, solo dentro del cono violeta. El pasillo se pierde en la oscuridad.
 
 ## Grabadora · `t2`
 
@@ -47,7 +47,7 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 - **Qué representa:** Herramienta que busca Objetos movidos: el aparato que vigila mientras nadie mira.
 - **Arte actual:** Cámara compacta sobre trípode con luz roja apuntando a una mecedora tallada que se balancea sola, en un corredor de arcos con farol.
 - **Debe leerse a tamaño de mesa:** La cámara física, en el plano, apuntando al mueble que se mueve.
-- **Segunda tirada:** La cámara sobre su trípode, en primer plano, apunta a una silla que ya cayó y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
+- **Segunda tirada:** La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
 - **Alternativa:** Desde detrás de la cámara: su pequeña pantalla muestra la mecedora quieta, pero en la habitación real la mecedora está a medio balanceo.
 
 ## Detector EMF · `t4`
