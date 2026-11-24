@@ -18,8 +18,8 @@ Leer por separado A y B. Preparar para cada variante una frase de acción, el el
 
 ## Al recibir los píxeles
 
-1. Mirar la ilustración ampliada. Para un agarre, seguir manga, antebrazo, muñeca, palma, pulgar y dedos visibles hasta la zona de contacto. Verificar oposición y apoyo con la pose de referencia. Una mano tapada por el aparato deja el agarre sin verificar. Para un mueble, seguir respaldo, asiento, patas y puntos de contacto con el suelo. Comprobar perspectiva y oclusiones.
-2. Abrir la hoja de revisión con el título tapado. Señalar el instrumento, la acción y la evidencia. Comparar el plano del objeto iluminado y el tratamiento de un material secundario con referencias seleccionadas. La textura de papel por sí sola no acredita parecido.
+1. Empezar en la fila de mesa con las bandas tapadas. Describir el primer foco y la acción antes de leer el encargo. Para herramientas, señalar aparato e indicio. Para cartas de acción, buscar el gesto; para identidades, la silueta; para reglas y consulta, el orden de lectura. Comparar con la base al mismo tamaño. Una escala en pantalla simula la ocupación; verificar tamaño físico, contraste de tinta y comodidad con una impresión al 100 %.
+2. Ampliar para seguir manga, antebrazo, muñeca, palma, pulgar y puntos de contacto. Para muebles, seguir respaldo, asiento, patas y sombras de apoyo. Comparar un material principal y uno secundario con la base. Comprobar después del corte los extremos del trípode, pelo, manos y elementos que identifican al personaje.
 3. Registrar por variante qué se vio, en qué zona y qué corregir. Un defecto visible de anatomía, construcción o identidad devuelve esa variante a ilustración. Conservar las observaciones aunque una hermana del par pase. El autor decide la preferencia entre candidatas revisadas.
 
 ## Casos para volver a probar la fábrica
@@ -29,3 +29,22 @@ Leer por separado A y B. Preparar para cada variante una frase de acción, el el
 - EMF A. Comprobar por separado el agarre de Rafael, la escala de mano del detector, las cinco luces y los dos estados de iluminación. Un detector que parece prolongación del antebrazo devuelve la variante a ilustración.
 
 Para comparar versiones de la skill, usar la misma ficha y las mismas referencias en sesiones independientes, anotar el resultado de cada observación y mostrar al autor ambas lecturas. Diferenciar revisión técnica, preferencia y aprobación. Métodos de referencia: [evaluaciones de Agent Skills](https://agentskills.io/skill-creation/evaluating-skills) y [prácticas de Anthropic](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices).
+
+
+## Calibrar un cambio de dirección
+
+Registrar por separado reproducción guiada y composición nueva. Una réplica casi idéntica demuestra que el modelo siguió una referencia; la transferencia exige resolver el gesto con otro encuadre. Para ahorrar llamadas, agrupar estudios pequeños independientes; repetir de forma aislada los casos donde fallan construcción o lectura. Revisar el panel individual después del corte para descubrir pérdidas que oculta el mosaico.
+
+Puntuar cada eje de 0 a 2: (1) lectura a mesa, (2) construcción, (3) acabado, (4) identidad o modelo y (5) composición y efecto. Cero = ausente o incorrecto; uno = reconocible con pérdida; dos = coincide en la característica observable. Usar 9/10 como objetivo interno por caso. Un defecto grave de anatomía, una acción incorrecta o la pérdida de un rasgo imprescindible bajo la banda devuelve el caso a ilustración incluso con una suma alta. Guardar notas por ronda y distinguir una puntuación visual de la probabilidad de gustar al autor.
+
+En la prueba de transferencia, identificar explícitamente qué insumo gobierna el aparato, cuál gobierna la identidad y qué objetos del retrato quedan fuera. Velar requiere ver el bordado a través de la mano espectral. Para EMF usar el aparato original aunque el retrato lleve otro medidor. Cuando el grano y el calado se vuelvan más intensos que en la base, reducir contraste local en el fondo y comprobar de nuevo a tamaño de mesa.
+
+Para piel y manos, comparar el número y la forma de las sombras con la referencia. En Tu turno, los dedos se explican con silueta crema y sombra ocre en el contacto. Uñas modeladas, arrugas y biseles pueden verse anatómicamente plausibles y aun así apartarse del dibujo del mazo. En consulta y componentes, renderizar textos, iconos, numeración y escala con plantilla y comprobar alineación y área útil del retrato.
+
+## Evitar el doble recorte en estudios de reproducción
+
+Usar el frente completo como referencia de encuadre, incluso cuando el encargo al ilustrador sea entregar solo arte. Un recorte de textura, aparato o anatomía puede acompañarlo con su función indicada. Recortar el interior de una carta, ajustarlo a 2:3 y después colocar las bandas vuelve a comer parte de la composición. En el PDF de prueba verificar el contorno entero del espejo, la cabellera del personaje y el hocico y las garras del Nahual. Partir de un plano más abierto si alguno invade el corte. En espíritus comprobar que la trama del vestuario siga visible bajo el contacto traslúcido.
+
+En una segunda lectura, ocultar título y ficha y pedir a otro lector una descripción espontánea. Un revisor informado puede contar las cinco luces del EMF y aun así sobreestimar la lectura del parpadeo. Si el lector reconoce el objeto pero omite el fenómeno, ajustar mirada, escala y contraste de los elementos que deben relacionarse. Una referencia de identidad sin indicaciones de gesto puede arrastrar la pose y la utilería al nuevo dibujo.
+
+En EMF el índice de colores puede mejorar mientras empeora la anatomía. Identificar el hombro del que nace la manga y comprobar qué mano corresponde a ese brazo antes de puntuar. Si ya se resolvió la pose, modificar solo la iluminación de fondo para cambiar el primer foco. Volver a comprobar la mano después de cada edición localizada.

@@ -35,7 +35,7 @@ def hex_rgb(h):
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
 
-def en_carta(img, franja, escala=PPMM * 4):
+def en_carta(img, franja, escala=PPMM * 4, reducir=True):
     """Monta la ilustración en 64 x 94 mm (con sangrado), tapa título y leyenda y recorta a 58 x 88."""
     W, H = round(64 * escala), round(94 * escala)
     im = img.convert("RGB")
@@ -49,7 +49,44 @@ def en_carta(img, franja, escala=PPMM * 4):
     d.rectangle([mm(3.2), mm(82.3), mm(60.8), mm(90.8)], fill=CREMA)        # panel de leyenda
     d.rectangle([mm(3.6), mm(3.6), mm(60.4), mm(90.4)], outline=(226, 164, 71), width=max(1, mm(.9)))
     im = im.crop((mm(3), mm(3), mm(61), mm(91)))
+    if not reducir:
+        return im
     return im.resize((round(58 * PPMM), round(88 * PPMM)), Image.LANCZOS)
+
+
+def con_franjas(im, frente):
+    """Superponer título, leyenda y cantos del frente vigente en la prueba de corte."""
+    base = frente.convert("RGB").resize(im.size, Image.LANCZOS)
+    w, h = im.size
+    caja = (round(w*.018), round(h*8.7/88), round(w*.982), round(h*79.3/88))
+    base.paste(im.crop(caja), caja)
+    return base
+
+
+def prueba_pdf(salida, variantes, franja, referencia, frente):
+    """Hoja Carta a escala física con imágenes independientes del zoom de pantalla."""
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.units import mm
+    from reportlab.lib.utils import ImageReader
+    from reportlab.pdfgen import canvas
+
+    pdf = canvas.Canvas(str(salida), pagesize=letter)
+    pdf.drawString(12*mm, 255*mm, "Imprimir al 100 %. Verificar la regla de 50 mm.")
+    pdf.line(12*mm, 243*mm, 62*mm, 243*mm)
+    elementos = [(k, en_carta(im, franja, escala=12, reducir=False)) for k, im in variantes.items()]
+    if frente:
+        with Image.open(frente) as impreso:
+            elementos = [(nombre, con_franjas(im, impreso)) for nombre, im in elementos]
+    if referencia:
+        with Image.open(referencia) as original:
+            elementos.append(("Carta base", original.convert("RGB")))
+    for i, (nombre, im) in enumerate(elementos):
+        x = (12 + i*65)*mm
+        pdf.drawImage(ImageReader(im), x, 125*mm, width=58*mm, height=88*mm)
+        pdf.drawString(x, 118*mm, nombre)
+    pdf.drawString(12*mm, 99*mm, "Primero: objeto, acción y primer foco. Después: contacto, material y anatomía.")
+    pdf.showPage()
+    pdf.save()
 
 
 def main():
@@ -58,6 +95,8 @@ def main():
     a.add_argument("--a", required=True)
     a.add_argument("--b", required=True)
     a.add_argument("--salida")
+    a.add_argument("--pdf", help="Prueba de corte 58 × 88 mm; requiere reportlab")
+    a.add_argument("--base", help="Frente de referencia completo para comparar en la prueba PDF")
     p = a.parse_args()
     f = Fabrica().ficha(p.id)
     paleta = json.loads((R / "web/plantillas/paleta.json").read_text(encoding="utf-8"))
@@ -74,14 +113,15 @@ def main():
     hoja = Image.new("RGB", (ancho, alto), TINTA)
     d = ImageDraw.Draw(hoja)
     t, ts = fuente(22), fuente(14)
-    d.text((m, 8), f"{f['id']} · {f['nombre']} · ampliadas", fill=CREMA, font=t)
+    inicio_amp = cab + ch + 2 * m + cab
+    d.text((m, inicio_amp + 8), f"{f['id']} · {f['nombre']} · ampliadas", fill=CREMA, font=t)
     x = m
     for k, im in amp.items():
-        hoja.paste(im, (x, cab))
-        d.text((x + 8, cab + 8), k, fill=CREMA, font=t, stroke_width=2, stroke_fill=TINTA)
+        hoja.paste(im, (x, inicio_amp + cab))
+        d.text((x + 8, inicio_amp + cab + 8), k, fill=CREMA, font=t, stroke_width=2, stroke_fill=TINTA)
         x += im.width + m
-    y = cab + AMPLIADA + m
-    d.text((m, y + 8), "En la carta a 58 × 88 mm (tamaño real a 96 ppp), título y leyenda tapados · referencias al mismo tamaño", fill=CREMA, font=ts)
+    y = 0
+    d.text((m, y + 8), "Leer primero en pequeño · simulación de corte 58 × 88 mm · referencias a la derecha", fill=CREMA, font=ts)
     y += cab
     x = m
     for k, im in mesa.items():
@@ -97,6 +137,9 @@ def main():
     d.text((m, alto - 40), f"Al tapar el título debe leerse: {f['lectura_clave']}", fill=CREMA, font=ts)
     salida = Path(p.salida or f"revision-{f['id']}.png")
     hoja.save(salida)
+    if p.pdf:
+        frente = (R / f"web/miniaturas/{f['id_arte']}@2x.webp" if f["id_arte"] else None)
+        prueba_pdf(p.pdf, variantes, franja, p.base or frente, frente)
     print(f"Hoja de revisión: {salida}")
 
 

@@ -102,6 +102,8 @@ Aplica [PERSONAJES.md](../../../fabrica/PERSONAJES.md) y [CONTINUIDAD.md](../../
 python3 .agents/skills/fabrica-cartas-animas/scripts/revisar.py <id> --a <imagen A> --b <imagen B> --salida <hoja.png>
 ```
 
+Leer primero la fila de mesa sin revelar el título ni consultar el prompt. Anotar qué objeto o personaje se reconoce y qué acción se entiende. Después ampliar para anatomía y construcción. Para comparar en papel, añadir `--pdf prueba.pdf` (requiere ReportLab); `--base frente.webp` elige la carta completa de comparación. Imprimir al 100 % en papel Carta y medir la línea de 50 mm. Las bandas del frente vigente sirven como prueba de ocupación. Documentar por separado la inspección digital y el resultado en papel.
+
 La hoja muestra las dos variantes ampliadas y montadas en la carta a 58 × 88 mm, con la franja del título y la leyenda tapadas, junto a las referencias al mismo tamaño. Con el título tapado comprueba que se entienden la herramienta, la acción y la evidencia que pide la ficha, y su «Criterio de aceptación».
 
 Compara materiales, planos y nivel de detalle con las referencias de acabado y pasa `fabrica/CONTROL_IA.md`. Si una variante falla, devuélvela con **una sola** corrección concreta y la zona donde aplicarla.
@@ -149,6 +151,8 @@ Continúa desde la primera columna incompleta.
 ## Uso desde cada asistente
 
 Claude Code, Codex y un chat con acceso a GitHub: ver [referencias/entradas.md](referencias/entradas.md).
+
+Las pruebas internas por tipo y sus hallazgos están en el [registro de calibración](../../../fabrica/calibracion/2026-11-24.md).
 
 ## Mantener la skill
 

@@ -36,7 +36,7 @@ EVITA SIEMPRE
 Fotorrealismo, piel con poros, metal cromado, reflejos blancos especulares, brillo glossy, halos mágicos nuevos, profundidad de cámara o desenfoque, render 3D o bisel, póster vectorial plano, pictogramas, estilo infantil, anime, neón, texto, marcos, letras deformadas.
 
 Prompt base para cada imagen (en inglés, agrégalo siempre):
-"Match the supplied APPROVED deck references closely: richly illustrated Mexican folk board-game art, paper-collage shapes, perceptible fine printed texture, articulated forms, moderate illustrated volume and layered midtones, matte surfaces, palette of petrol blue and cream, marigold orange and amber, garnet, magenta and purple. Selective decorative richness and a coherent illustrated setting. No text, no letters, no frame, no border. Avoid photographic rendering, glossy highlights, chrome, excessive microdetail, depth of field, and flat minimal vector style. Vertical 2:3, full bleed, keep the top 12% and bottom 12% free of the main subject."
+"Match the supplied APPROVED deck references closely: Mexican folk board-game art designed to read at 58 × 88 mm. First establish the dominant silhouette and its action. For tools, connect the instrument to its visible clue. Build volume with matte planes of colored ink and restrained paper grain. Spend detail on one contact, material or effect that explains the scene. Group the environment into quieter light and shadow masses. Match the color relationships of the chosen card. No text, no letters, no frame, no border. Avoid photographic rendering, glossy highlights, chrome, excessive microdetail, depth of field, and flat minimal vector style. Vertical 2:3, full bleed, keep the top 12% and bottom 12% free of the main subject."
 
 CÓMO TRABAJAS CADA PIEZA
 1. Lee la ficha completa. Si falta una referencia que pide, pídela antes de generar.
@@ -44,7 +44,7 @@ CÓMO TRABAJAS CADA PIEZA
    Usa como referencia de ESTILO solo las cartas aprobadas que indica la ficha. Nunca uses tu imagen anterior como referencia de estilo.
 3. Si la ficha trae referencias de IDENTIDAD (una persona o un personaje), conserva rostro, pelo, lentes, complexión y ropa exactamente.
 4. Aplica la revisión visual de la fábrica (.agents/skills/fabrica-cartas-animas/referencias/revision-visual.md) al construir la escena y al inspeccionar los píxeles. Genera 1 imagen. Sigue el alcance de cada aparición: por ejemplo, en UV A aparecen únicamente la mano y la manga de Inés.
-5. Revisa tu imagen contra esta lista y dime qué cumple y qué no:
+5. Mira primero la miniatura con título y leyenda tapados, junto a la carta base al mismo tamaño. Anota sin leer la ficha qué viste primero y qué acción entendiste. Después amplía para verificar contactos, perspectiva y anatomía. Revisa tu imagen contra esta lista y dime qué cumple y qué no:
    - Vertical 2:3, sin texto ni marco.
    - Zonas de arriba y abajo libres.
    - Manos y anatomía correctas.
