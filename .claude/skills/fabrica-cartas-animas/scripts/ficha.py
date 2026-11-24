@@ -12,20 +12,14 @@ Nunca sobrescribe una ficha existente (ya puede tener partes completadas a mano)
 """
 import argparse
 import json
+import re
 import subprocess
 import sys
 from datetime import date
 
-from comun import INVESTIGADORES, R, Fabrica
+from comun import R, Fabrica
 
 ZONA = "Vertical 2:3 a sangre completa. Sujeto principal fuera del 12 % superior (título) y del 12 % inferior (leyenda); nada importante a menos del 5 % de los bordes laterales."
-NO_DEBE = [
-    "Texto, letras, números, firmas, marco, franjas o íconos: los pone la plantilla.",
-    "Celulares, aparatos inalámbricos o pantallas modernas (equipo atemporal: casete, botones físicos, pantallas sencillas, cámara compacta sobre trípode).",
-    "Personas que no sean los cinco investigadores; los roles con nombre solo aparecen en su carta de rol.",
-]
-
-
 def commit():
     try:
         return subprocess.check_output(["git", "-C", str(R), "rev-parse", "--short", "HEAD"], text=True, stderr=subprocess.DEVNULL).strip()
@@ -37,7 +31,7 @@ def markdown(f, lote=None):
     L = [f"# Ficha · {f['id']} · {f['nombre']}", ""]
     if lote:
         L += [f"> Lote `{lote}` · preparada con la skill `fabrica-cartas-animas` (commit {commit()}). "
-              "Pega la ficha en un chat nuevo del proyecto de ChatGPT y adjunta las imágenes de «Adjuntar».", ""]
+              "Selecciona la variante del documento editorial y revisa las referencias que le correspondan.", ""]
     L += [f"**Tipo:** {f['tipo']} · **Familia:** {f['familia']} · **Copias:** {f['copias']} · **Reverso:** `{f['reverso']}`"
           + (f" · **Arte actual:** `{f['id_arte']}`" if f["id_arte"] else ""),
           f"**Qué hace en el juego:** {f['uso'] or '—'}",
@@ -45,11 +39,11 @@ def markdown(f, lote=None):
     if f["accion"] != "generar":
         L += ["> Esta carta no entra al tiraje de arte. La ficha queda solo como consulta.", ""]
     if f["personaje"]:
-        L += [f"**Personaje:** {f['personaje']}", ""]
+        L += [f"**Reparto citado en el catálogo de la carta (comprobar en la variante):** {f['personaje']}", ""]
     L += ["## Qué debe contar la imagen", f["representa"], "",
           "## Variante A · escena principal", f["escena_a"], "",
-          "## Variante B · alternativa", f["escena_b"] if f["escena_b"] != "—" else "(completar: la ficha no trae alternativa; proponer otra escena y registrarla en datos_*.py)", "",
-          "**Igual en A y B:** el aparato o el indicio, el personaje y el acabado de la familia. **Cambia:** el lugar del observador o el instante (CONTINUIDAD).", ""]
+          "## Variante B · alternativa", f["escena_b"] if f["escena_b"] != "—" else "(sin descripción editorial para esta variante)", "",
+          "El guion de cada variante determina su reparto, elementos y acción.", ""]
     if f["nota_continuidad"]:
         L += ["## Indicación del autor", f["nota_continuidad"], ""]
     if f["voto"]:
@@ -59,20 +53,14 @@ def markdown(f, lote=None):
     for r in f["referencias"]:
         if "modelo del aparato" in r["funciones"]:
             L.append(f"- Modelo del aparato: {r['aporta'][r['funciones'].index('modelo del aparato')]}")
-    for p in f["personas"]:
-        r = next((x for x in f["referencias"] if x["ruta"].startswith(f"web/mesa/arte/inv_{INVESTIGADORES[p]}")), None)
-        if r:
-            L.append(f"- {r['aporta'][0]}")
-    L += ["- (completar: elementos propios de esta escena)", "", "## No debe verse", *[f"- {x}" for x in NO_DEBE]]
-    for rel in f["relacionadas"]:
-        L.append(f"- La escena de «{rel['nombre']}» (`{rel['id']}`), que es otra carta: {rel['escena_a']}")
+    L += ["- (completar desde la descripción de la variante)", "", "## No debe verse"]
     L += ["- (completar)", "", "## Composición", f"- {ZONA}", "- Puesta en escena propia por variante: (completar desde la acción: gesto, mirada o apoyo; contacto y punto de vista).",
           "- Para cada referencia, identificar el rasgo transferido y distinguirlo de la pose o distribución de la carta base.",
           "- Plano, punto de vista y luz: (completar)", "",
-          "## Adjuntar", "Abrir cada imagen y entregar al generador **la imagen misma**, no el enlace.", "",
+          "## Adjuntar", "Son referencias candidatas de la carta. Anotar para qué variante y rasgo se necesita cada una antes de adjuntarla.", "",
           "| Imagen | Función | Qué aporta | ¿Adjuntar? |", "|---|---|---|---|"]
     for r in f["referencias"]:
-        estado = "sí" if r["usar"] else "no: solo consulta"
+        estado = "asignar a la variante" if r["usar"] else "no: solo consulta"
         if not r["existe"]:
             estado = "⚠ no existe"
         L.append(f"| `{r['ruta']}` | {' · '.join(r['funciones'])} | {' '.join(dict.fromkeys(r['aporta']))} | {estado} |")
@@ -85,10 +73,39 @@ def markdown(f, lote=None):
     return "\n".join(L)
 
 
+def escena_editorial(fab, cid, variante, carpeta):
+    if cid not in fab.desc:
+        raise ValueError(f"ID desconocido: {cid}")
+    listado = carpeta / "descripciones.json" if carpeta else None
+    if listado and listado.is_file():
+        datos = json.loads(listado.read_text(encoding="utf-8"))
+        carta = next((c for c in datos["cartas"] if c["id"] == cid), {})
+        escena = carta.get("variantes", {}).get(variante)
+        autor = datos["guionistas"].get(variante)
+        fuente = str(listado.relative_to(R))
+    elif variante in "ab":
+        ficha = carpeta / f"{cid}.md" if carpeta else None
+        if ficha and ficha.is_file():
+            md = ficha.read_text(encoding="utf-8")
+            bloque = re.search(rf"^## Variante {variante.upper()}[^\n]*\n(.*?)(?=^## |^\*\*|\Z)", md, re.M | re.S)
+            escena = bloque.group(1).strip() if bloque else None
+            fuente = str(ficha.relative_to(R))
+        else:
+            escena = fab.desc[cid]["propuesta" if variante == "a" else "alternativa"]
+            fuente = "fabrica/descripciones/descripciones.json"
+        autor = None
+    else:
+        escena = None
+    if not escena or escena == "—":
+        raise ValueError(f"{cid} {variante.upper()}: no hay descripción en la fuente editorial.")
+    return {"id": cid, "variante": variante, "autor": autor, "fuente": fuente, "descripcion": escena}
+
+
 def main():
     a = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     a.add_argument("ids", nargs="*")
     a.add_argument("--lote")
+    a.add_argument("--variante", type=str.lower, choices=list("abcd"), help="Leer únicamente el guion editorial solicitado")
     a.add_argument("--escribir", action="store_true")
     a.add_argument("--forzar", action="store_true")
     a.add_argument("--json", action="store_true")
@@ -102,6 +119,19 @@ def main():
     ids = p.ids or (encargo["ids"] if encargo else [])
     if not ids:
         a.error("Indica IDs o un --lote con encargo.json")
+    if p.variante:
+        if p.escribir or p.forzar or p.comprobar:
+            a.error("--variante solo consulta el guion y admite --json")
+        try:
+            escenas = [escena_editorial(fab, i, p.variante, carpeta) for i in ids]
+        except ValueError as error:
+            a.error(str(error))
+        if p.json:
+            print(json.dumps(escenas, ensure_ascii=False, indent=2))
+        else:
+            for escena in escenas:
+                print(f"{escena['id']} · {p.variante.upper()} · {escena['fuente']}\n{escena['descripcion']}")
+        return
     fichas = [fab.ficha(i) for i in ids]
 
     if p.comprobar:

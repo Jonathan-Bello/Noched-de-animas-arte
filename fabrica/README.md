@@ -90,4 +90,4 @@ Las ocho ilustraciones aprobadas se identifican por ID, ruta y SHA-256 en [el re
 
 ## Skill de producción
 
-Los tirajes se hacen con la skill [`fabrica-cartas-animas`](../.agents/skills/fabrica-cartas-animas/SKILL.md). Cubre fichas por ID con sus referencias, variantes A y B, revisión a 58 × 88 mm, publicación en el selector, registro de la elección del autor y montaje bajo pedido. La misma skill sirve a Claude Code (`.claude/skills/`, copia generada), a Codex (`.agents/skills/`) y a un chat que lea GitHub.
+La [fábrica de ilustración](../.agents/skills/fabrica-cartas-animas/SKILL.md) recibe una descripción editorial y produce y revisa su dibujo. Claude y Codex aplican la misma dirección gráfica. El [selector](SELECTOR.md) administra por separado los tirajes y las elecciones.

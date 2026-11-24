@@ -9,6 +9,7 @@ La skill enlaza estas fuentes y no las copia. Para corregir algo, se edita la fu
 | Rasgos de los 5 investigadores, los 8 roles y las 21 ánimas | [`fabrica/PERSONAJES.md`](../../../../fabrica/PERSONAJES.md) | `scripts/comun.py` lee sus tablas |
 | Modelos de aparato, indicaciones del autor por carta y riqueza de la ilustración | [`fabrica/CONTINUIDAD.md`](../../../../fabrica/CONTINUIDAD.md) | `scripts/comun.py` lee la tabla de modelos y las viñetas «- Nombre: …» |
 | Cartas de referencia elegidas y artes que el autor quiere modificar | [`guias/ESTILO_DE_CARTAS.md`](../../../../guias/ESTILO_DE_CARTAS.md) | `scripts/comun.py` lee la línea «Artes que el autor quiere modificar» |
+| Guiones por variante y autor de un lote comparativo | `fabrica/tirajes/<lote>/descripciones.json` | `scripts/ficha.py --lote <lote> ID --variante d` devuelve el texto exacto |
 | Votos del autor en el selector | [`fabrica/seleccion-visual.json`](../../../../fabrica/seleccion-visual.json) | Lo actualiza `scripts/lote.py registrar` |
 | Lotes de revisión | `web/revision/lotes.json` y `web/revision/<lote>/lote.json` | Los actualiza `scripts/lote.py agregar` |
 | Fichas de un tiraje | `fabrica/tirajes/<lote>/<id>.md` y `encargo.json` | `scripts/ficha.py --escribir` crea el borrador; después se completan a mano |

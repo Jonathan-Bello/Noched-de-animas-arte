@@ -1,116 +1,184 @@
 const el = id => document.getElementById(id);
-// Los lotes se listan en web/revision/lotes.json (lo actualiza la skill fabrica-cartas-animas, scripts/lote.py).
-// ?lote=<nombre> abre uno; sin parámetro se abre el primero del índice.
-const LOTES_FIJOS = [
-  {lote: "herramientas-02", titulo: "Herramientas · 6 cartas", ruta: "web/revision/herramientas-02/lote.json"},
-  {lote: "frentes-01", titulo: "Lote anterior · 66 frentes", ruta: "catalogo/revision-lote-01.json"}];
-async function lotes() {
-  try { const r = await fetch("web/revision/lotes.json", {cache: "no-cache"}); if (r.ok) return (await r.json()).lotes; }
-  catch {}
-  return LOTES_FIJOS;
+const letras = ["a", "b", "c", "d"];
+const claveCarta = carta => carta.pieza || carta.id;
+const disponibles = carta => [...letras, "original"].filter(letra => carta[letra]?.archivo);
+function huella(carta, opcion) {
+  if (opcion === "ninguna") {
+    return letras.filter(k => carta[k]).map(k => k + "=" + carta[k].sha256).join(",");
+  }
+  return carta[opcion]?.sha256;
 }
+
 async function iniciar() {
-  const indice = await lotes();
+  let indice;
+  try {
+    const respuesta = await fetch("web/revision/lotes.json", {cache: "no-cache"});
+    if (!respuesta.ok) throw Error("Índice no disponible");
+    indice = (await respuesta.json()).lotes;
+  } catch {
+    indice = [
+      {lote: "herramientas-02", titulo: "Herramientas · 6 cartas", ruta: "web/revision/herramientas-02/lote.json"},
+      {lote: "frentes-01", titulo: "Lote anterior · 66 frentes", ruta: "catalogo/revision-lote-01.json"}
+    ];
+  }
   const pedido = new URLSearchParams(location.search).get("lote");
   const elegido = indice.find(l => l.lote === pedido) || indice[0];
+  if (!elegido) throw Error("El selector aún no tiene lotes.");
   const nav = document.querySelector('nav[aria-label="Lotes de revisión"]');
-  if (nav) nav.replaceChildren(...indice.map(l => {
-    const a = document.createElement("a"); a.href = "?lote=" + encodeURIComponent(l.lote); a.textContent = l.titulo;
-    if (l.lote === elegido.lote) a.setAttribute("aria-current", "page");
+  nav.replaceChildren(...indice.map(l => {
+    const a = document.createElement("a");
+    a.href = "?lote=" + encodeURIComponent(l.lote);
+    a.textContent = l.titulo;
+    if (l === elegido) a.setAttribute("aria-current", "page");
     return a;
   }));
-  const avisoLote = pedido && elegido.lote !== pedido ? "No existe el lote «" + pedido + "». Se abrió " + elegido.lote + "." : "";
   const response = await fetch(elegido.ruta, {cache: "no-cache"});
-  if (!response.ok) throw new Error("No se pudo abrir el lote.");
-  const {lote, cartas} = await response.json();
+  if (!response.ok) throw Error("No se pudo abrir el lote.");
+  const {lote, cartas, guionistas, ilustrador} = await response.json();
+  if (!cartas?.length) throw Error("Este lote todavía no tiene ilustraciones.");
   const clave = "noche-de-animas/revision/" + lote;
-  const porId = new Map(cartas.map(c => [c.id, c]));
+  const porId = new Map(cartas.map(c => [claveCarta(c), c]));
   let votos = new Map();
   let posicion = 0;
+  let render = 0;
+
   function resultados() {
     return {version: 1, lote, total: cartas.length, completo: votos.size === cartas.length,
-      elecciones: cartas.filter(c => votos.has(c.id)).map(c => {
-        const opcion = votos.get(c.id);
-        return {id: c.id, opcion, sha256: c[opcion].sha256};
+      elecciones: cartas.filter(c => votos.has(claveCarta(c))).map(c => {
+        const opcion = votos.get(claveCarta(c));
+        return {id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), opcion, sha256: huella(c, opcion)};
       })};
   }
   function leer(datos) {
     if (datos.version !== 1 || datos.lote !== lote || !Array.isArray(datos.elecciones)) throw Error("El archivo pertenece a otro lote.");
     const nuevos = new Map();
-    for (const {id, opcion, sha256} of datos.elecciones) {
-      // Voto de una imagen sustituida: queda pendiente para revisar la nueva.
-      const previa = porId.get(id)?.[opcion];
-      if (sha256 && previa && (previa.anterior === sha256 || (previa.anteriores || []).includes(sha256))) continue;
-      if (!["a","b","original"].includes(opcion) || !porId.has(id) || porId.get(id)[opcion].sha256 !== sha256 || nuevos.has(id))
-        throw Error("Una elección no corresponde a estas ilustraciones.");
+    for (const voto of datos.elecciones) {
+      const id = voto.pieza || voto.id;
+      const c = porId.get(id);
+      const {opcion, sha256} = voto;
+      if (!c || c.id !== voto.id || nuevos.has(id) ||
+          !(disponibles(c).includes(opcion) || (guionistas && opcion === "ninguna"))) {
+        throw Error("Una elección no corresponde a este lote.");
+      }
+      if (huella(c, opcion) !== sha256) continue;
       nuevos.set(id, opcion);
     }
     return nuevos;
   }
   function guardar() {
     try {localStorage.setItem(clave, JSON.stringify(resultados()));}
-    catch {el("aviso").textContent = "Este navegador no permite guardar el avance. Descarga el JSON antes de salir.";}
-  }
-  function mostrar() {
-    const c = cartas[posicion];
-    el("indice").value = String(posicion);
-    el("nombre").textContent = c.nombre;
-    el("familia").textContent = c.familia;
-    el("progreso").textContent = votos.size + " de " + cartas.length + " elecciones guardadas";
-    el("barra").max = cartas.length; el("barra").value = votos.size;
-    const imagenes = [];
-    for (const o of ["a","b","original"]) {
-      el("elegir-"+o).disabled = true;
-      el("zoom-"+o).href = c[o].archivo;
-      el("img-"+o).src = c[o].archivo;
-      imagenes.push(el("img-"+o).decode());
-      el("img-"+o).alt = c.nombre + " · propuesta " + o.toUpperCase();
-      const activa = votos.get(c.id) === o;
-      el("elegir-"+o).setAttribute("aria-pressed", String(activa));
-      el("elegir-"+o).textContent = o === "original" ? (activa ? "Original seleccionado" : "Conservar original") : (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
-    }
-    Promise.all(imagenes).then(() => {
-      if (cartas[posicion].id === c.id) {
-        for (const o of ["a","b","original"]) el("elegir-"+o).disabled = false;
-      }
-    }).catch(() => {
-      if (cartas[posicion].id === c.id) el("aviso").textContent = "No se cargaron las tres imágenes. Recarga la página para volver a intentarlo.";
-    });
-    el("anterior").disabled = !posicion;
-    el("siguiente").disabled = posicion === cartas.length-1;
-    el("pendiente").disabled = votos.size === cartas.length;
-    el("descargar").disabled = !votos.size;
+    catch {el("aviso").textContent = "Este navegador no puede guardar el avance. Descarga el JSON antes de salir.";}
   }
   function pendiente() {
     for (let i=1; i<=cartas.length; i++) {
-      const n=(posicion+i)%cartas.length;
-      if (!votos.has(cartas[n].id)) { posicion=n; break; }
+      const n = (posicion + i) % cartas.length;
+      if (!votos.has(claveCarta(cartas[n]))) { posicion = n; break; }
     }
   }
-  el("aviso").textContent = avisoLote;
-  try { const prev=localStorage.getItem(clave); if(prev) votos=leer(JSON.parse(prev)); }
-  catch {el("aviso").textContent="No se pudo recuperar el avance local. Puedes importar una copia JSON.";}
-  cartas.forEach((c,n)=>el("indice").add(new Option(c.nombre,String(n))));
-  posicion=Math.max(0,cartas.findIndex(c=>!votos.has(c.id)));
-  el("indice").onchange=e=>{posicion=Number(e.target.value);mostrar();};
-  el("anterior").onclick=()=>{posicion--;mostrar();};
-  el("siguiente").onclick=()=>{posicion++;mostrar();};
-  el("pendiente").onclick=()=>{pendiente();mostrar();};
-  for (const o of ["a","b","original"]) el("elegir-"+o).onclick=()=>{
-    const nombre=cartas[posicion].nombre;
-    votos.set(cartas[posicion].id,o);
-    el("aviso").textContent=nombre+" · elegida "+o.toUpperCase()+". "+(votos.size===cartas.length?"Selección completa. Descarga el JSON.":"");
-    guardar();pendiente();mostrar();
+  function votar(carta, opcion) {
+    votos.set(claveCarta(carta), opcion);
+    el("aviso").textContent = carta.nombre + " · " + (opcion === "ninguna" ? "ronda descartada." : "elegida " + opcion.toUpperCase() + ".");
+    guardar();
+    pendiente();
+    mostrar();
+  }
+  function mostrar() {
+    const c = cartas[posicion];
+    const actual = ++render;
+    el("indice").value = String(posicion);
+    el("nombre").textContent = c.nombre;
+    el("familia").textContent = c.familia;
+    el("credito").textContent = ilustrador ? "Ilustraciones de " + ilustrador + ". La autoría indicada en cada opción corresponde a su descripción." : "";
+    el("credito").hidden = !ilustrador;
+    el("progreso").textContent = votos.size + " de " + cartas.length + " elecciones guardadas";
+    el("barra").max = cartas.length;
+    el("barra").value = votos.size;
+    const opciones = disponibles(c);
+    const botones = [];
+    const cargas = [];
+    const galeria = el("opciones");
+    galeria.replaceChildren();
+    galeria.classList.toggle("comparativa", Boolean(guionistas));
+    for (const o of opciones) {
+      const art = document.createElement("article");
+      const nombre = o === "original" ? "Original" : o.toUpperCase() + (guionistas?.[o] ? " · " + guionistas[o] : "");
+      const rotulo = document.createElement("h3");
+      rotulo.textContent = nombre;
+      const zoom = document.createElement("a");
+      zoom.href = c[o].archivo;
+      zoom.target = "_blank";
+      zoom.rel = "noopener";
+      const img = document.createElement("img");
+      img.alt = c.nombre + " · " + nombre;
+      img.src = c[o].archivo;
+      zoom.append(img);
+      const boton = document.createElement("button");
+      boton.id = "elegir-" + o;
+      boton.disabled = true;
+      const activa = votos.get(claveCarta(c)) === o;
+      boton.setAttribute("aria-pressed", String(activa));
+      boton.textContent = o === "original" ? (activa ? "Original seleccionado" : "Conservar original") : (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
+      boton.onclick = () => votar(c, o);
+      art.append(rotulo, zoom, boton);
+      if (c[o].descripcion) {
+        const ficha = document.createElement("details");
+        const titulo = document.createElement("summary");
+        titulo.textContent = "Leer descripción";
+        const texto = document.createElement("p");
+        texto.textContent = c[o].descripcion;
+        ficha.append(titulo, texto);
+        art.append(ficha);
+      }
+      galeria.append(art);
+      botones.push(boton);
+      cargas.push(img.decode());
+    }
+    const descartar = el("descartar");
+    descartar.hidden = !guionistas;
+    descartar.disabled = true;
+    descartar.setAttribute("aria-pressed", String(votos.get(claveCarta(c)) === "ninguna"));
+    descartar.onclick = () => votar(c, "ninguna");
+    Promise.all(cargas).then(() => {
+      if (actual !== render) return;
+      for (const boton of botones) boton.disabled = false;
+      descartar.disabled = false;
+    }).catch(() => {
+      if (actual === render) el("aviso").textContent = "Falta cargar una imagen de esta carta. Recarga la página para revisar todas las opciones.";
+    });
+    el("anterior").disabled = !posicion;
+    el("siguiente").disabled = posicion === cartas.length - 1;
+    el("pendiente").disabled = votos.size === cartas.length;
+    el("descargar").disabled = !votos.size;
+  }
+  el("aviso").textContent = pedido && elegido.lote !== pedido ? "Se abrió " + elegido.lote + " porque el lote solicitado no existe." : "";
+  try {const prev = localStorage.getItem(clave); if (prev) votos = leer(JSON.parse(prev));}
+  catch {el("aviso").textContent = "No se pudo recuperar el avance local. Puedes importar una copia JSON.";}
+  cartas.forEach((c,n) => el("indice").add(new Option(c.nombre,String(n))));
+  posicion = Math.max(0, cartas.findIndex(c => !votos.has(claveCarta(c))));
+  el("indice").onchange = e => {posicion = Number(e.target.value); mostrar();};
+  el("anterior").onclick = () => {posicion--; mostrar();};
+  el("siguiente").onclick = () => {posicion++; mostrar();};
+  el("pendiente").onclick = () => {pendiente(); mostrar();};
+  el("descargar").onclick = () => {
+    const url = URL.createObjectURL(new Blob([JSON.stringify(resultados(), null, 2)], {type:"application/json"}));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "seleccion-" + lote + ".json";
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 3000);
   };
-  el("descargar").onclick=()=>{
-    const url=URL.createObjectURL(new Blob([JSON.stringify(resultados(),null,2)],{type:"application/json"}));
-    const link=document.createElement("a");link.href=url;link.download="seleccion-"+lote+".json";link.click();setTimeout(()=>URL.revokeObjectURL(url),3000);
+  el("importar").onchange = async e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      const nuevos = leer(JSON.parse(await file.text()));
+      for (const [k,v] of nuevos) votos.set(k,v);
+      el("aviso").textContent = "Selección recuperada.";
+      guardar(); pendiente(); mostrar();
+    } catch(error) {el("aviso").textContent = error.message;}
+    e.target.value = "";
   };
-  el("importar").onchange=async e=>{
-    const file=e.target.files[0];if(!file)return;
-    try {const nuevos=leer(JSON.parse(await file.text()));for(const [k,v] of nuevos)votos.set(k,v);el("aviso").textContent="Selección recuperada.";guardar();pendiente();mostrar();}
-    catch(error){el("aviso").textContent=error.message;}e.target.value="";
-  };
-  el("visor").hidden=false;mostrar();
+  el("visor").hidden = false;
+  mostrar();
 }
-iniciar().catch(e=>{el("aviso").textContent=e.message;});
+iniciar().catch(e => {el("aviso").textContent = e.message;});

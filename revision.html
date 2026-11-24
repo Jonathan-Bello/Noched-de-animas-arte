@@ -5,11 +5,24 @@
 <title>Comparar ilustraciones · Noche de Ánimas</title><link rel="stylesheet" href="./archivo.css"><link rel="stylesheet" href="revision.css"><script type="module" src="revision.js"></script>
 </head><body><a class="salto" href="#contenido">Saltar al contenido</a><header class="mast portal-nav"><a href="index.html">Noche de Ánimas</a><details open><summary>Secciones</summary><nav aria-label="Secciones del archivo"><a href="index.html">Empieza aquí</a><a href="juego.html">El juego</a><a href="personajes.html">Personajes</a><a href="cartas.html">Cartas</a><a href="sistema-de-diseno.html">Sistema de diseño</a><a href="iconos/cartas/sistema-vigente.html">Íconos</a><a href="produccion.html">Producción</a><a href="colaborar.html">Cómo colaborar</a><a href="descargas.html">Descargas</a><a href="galeria.html">Historial</a></nav></details></header><script>const menuArchivo=document.querySelector('.portal-nav details');const anchoArchivo=matchMedia('(min-width:651px)');function ajustarMenu(){menuArchivo.open=anchoArchivo.matches}ajustarMenu();anchoArchivo.addEventListener('change',ajustarMenu);</script><span id="contenido" tabindex="-1"></span>
 
-<main id="contenido" class="revision"><h1>Comparar ilustraciones</h1><nav class="controles" aria-label="Lotes de revisión"><a href="?lote=herramientas-02">Herramientas · 6 cartas</a><a href="?lote=frentes-01">Lote anterior · 66 frentes</a></nav><p>Revisa las dos propuestas de cada frente. Toca una ilustración para ampliarla y elige A, B o Conservar original para pasar a la siguiente carta. Puedes volver y cambiar tu voto.</p>
-<p>Los votos de versiones sustituidas quedan pendientes para que puedas revisar las imágenes nuevas. El avance se guarda en este navegador. Al terminar, descarga el JSON y compártelo con el equipo para aplicar la selección a la galería y a las cartas.</p>
+<main class="revision"><h1>Comparar ilustraciones</h1>
+<nav class="controles" aria-label="Lotes de revisión"></nav>
+<p>Abre una ilustración para verla en grande. Elige la propuesta que conservarías o descarta la ronda. El avance se guarda en este navegador.</p>
 <p id="aviso" role="status">Cargando el lote…</p>
-<section id="visor" hidden><div class="controles"><label>Carta <select id="indice"></select></label><button id="anterior">Anterior</button><button id="siguiente">Siguiente</button><button id="pendiente">Ir a una pendiente</button></div>
-<p id="progreso"></p><progress id="barra" aria-label="Avance de la selección"></progress><p id="familia"></p><h2 id="nombre"></h2><div class="par">
-<article><a id="zoom-a" target="_blank" rel="noopener"><img id="img-a" alt=""></a><button id="elegir-a" aria-pressed="false">Elegir A</button></article>
-<article><a id="zoom-b" target="_blank" rel="noopener"><img id="img-b" alt=""></a><button id="elegir-b" aria-pressed="false">Elegir B</button></article><article><a id="zoom-original" target="_blank" rel="noopener"><img id="img-original" alt=""></a><button id="elegir-original" aria-pressed="false">Conservar original</button></article></div>
-<div class="controles"><button id="descargar">Descargar selección JSON</button><label>Recuperar selección JSON <input type="file" id="importar" accept=".json,application/json"></label></div></section></main></body></html>
+<section id="visor" hidden>
+  <div class="controles">
+    <label>Carta <select id="indice"></select></label>
+    <button id="anterior">Anterior</button><button id="siguiente">Siguiente</button>
+    <button id="pendiente">Ir a una pendiente</button>
+  </div>
+  <p id="progreso"></p><progress id="barra" aria-label="Avance de la selección"></progress>
+  <p id="familia"></p><h2 id="nombre"></h2>
+  <p id="credito"></p>
+  <div class="par" id="opciones"></div>
+  <div class="controles">
+    <button id="descartar" hidden>Descartar todas las propuestas</button>
+    <button id="descargar">Descargar selección JSON</button>
+    <label>Recuperar selección JSON <input type="file" id="importar" accept=".json,application/json"></label>
+  </div>
+</section>
+</main></body></html>

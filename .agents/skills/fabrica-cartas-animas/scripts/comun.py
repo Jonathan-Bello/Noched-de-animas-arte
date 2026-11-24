@@ -37,8 +37,8 @@ FAMILIAS = [
 
 # Qué se hace con cada estado del catálogo de descripciones.
 ACCION = {
-    "rehacer": ("generar", "Generar variantes A y B (solo ilustración)."),
-    "falta": ("generar", "Generar variantes A y B (solo ilustración)."),
+    "rehacer": ("generar", "Ilustrar únicamente las variantes encargadas."),
+    "falta": ("generar", "Ilustrar únicamente las variantes encargadas."),
     "conservar": ("referencia", "No se genera: es referencia de acabado de su familia."),
     "rol aprobado": ("montaje", "No se genera arte: la ilustración ya está aprobada; solo requiere montaje cuando el autor lo pida."),
     "en espera": ("pendiente", "Pendiente de reglas: no se genera hasta que el autor cierre las reglas."),
@@ -76,7 +76,7 @@ class Fabrica:
         self.desc = {c["id"]: c for c in leer("fabrica/descripciones/descripciones.json")["cartas"]}
         self.cat_json = leer("fabrica/catalogo_juego.json")
         self.cat = {c["id"]: c for c in self.cat_json["cartas"]}
-        self.votos = {c["id"]: c for c in leer("fabrica/seleccion-visual.json")["cartas"]}
+        self.votos = {c["id"]: c for c in leer("fabrica/seleccion-visual.json")["cartas"] if not c.get("pieza")}
         self.personajes = self._personajes()
         self.modelos = self._modelos()
         self.notas = self._notas()
@@ -192,6 +192,8 @@ class Fabrica:
             add(miniatura(d["id_arte"]), "modelo del aparato", nota)
         # 4. Votos del autor
         v = self.votos.get(cid)
+        if v and v["voto"] == "ninguna":
+            v = None
         vigente = v and (R / v["archivo"]).is_file() and sha256(v["archivo"]) == v["sha256"]
         if v and not vigente:
             # La imagen votada se sustituyó después del voto: no es la que eligió el autor.
