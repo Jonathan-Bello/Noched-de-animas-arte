@@ -26,6 +26,8 @@ Distinguir la antigüedad de la casona, las pertenencias de sus habitantes y el 
 
 ## Reutilizar los dummies del mazo
 
+> **Decisión del 24-nov-2026:** las personas de las cartas son los 5 investigadores con nombre (Inés, Rafael, Tomás, Amalia y Padre Mateo), y los roles solo aparecen en su carta. Respirar hondo es Rafael, Espejo de mano es Inés y Esconderse pasa a ser Tomás. Ver [PERSONAJES.md](PERSONAJES.md). Lo que sigue queda como registro.
+
 Tratar cada aparición seleccionada como referencia de identidad. Mantener el vínculo con la carta de origen en lugar de asignar nombres o parentescos. Estas tres apariciones sirven como anclas iniciales; que dos figuras compartan pelo oscuro no demuestra que sean la misma persona.
 
 | Aparición elegida | Rasgos que deben sobrevivir a un encuadre nuevo |
