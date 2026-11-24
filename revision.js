@@ -34,8 +34,16 @@ async function iniciar() {
   }));
   const response = await fetch(elegido.ruta, {cache: "no-cache"});
   if (!response.ok) throw Error("No se pudo abrir el lote.");
-  const {lote, cartas, guionistas, ilustrador} = await response.json();
+  const {lote, cartas, guionistas, ilustrador, guiones} = await response.json();
   if (!cartas?.length) throw Error("Este lote todavía no tiene ilustraciones.");
+  if (guiones) {
+    const enlace = document.createElement("a");
+    enlace.href = guiones;
+    enlace.target = "_blank";
+    enlace.rel = "noopener";
+    enlace.textContent = "Ver todos los guiones del catálogo";
+    nav.after(enlace);
+  }
   const clave = "noche-de-animas/revision/" + lote;
   const porId = new Map(cartas.map(c => [claveCarta(c), c]));
   let votos = new Map();
@@ -110,7 +118,13 @@ async function iniciar() {
       zoom.rel = "noopener";
       const img = document.createElement("img");
       img.alt = c.nombre + " · " + nombre;
-      img.src = c[o].archivo;
+      img.decoding = "async";
+      img.src = c.miniaturas || c[o].archivo;
+      if (c.miniaturas) {
+        zoom.className = "recorte-miniatura";
+        img.style.width = (opciones.length * 100) + "%";
+        img.style.left = (-opciones.indexOf(o) * 100) + "%";
+      }
       zoom.append(img);
       const boton = document.createElement("button");
       boton.id = "elegir-" + o;

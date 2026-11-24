@@ -3,6 +3,8 @@
 @media(min-width:700px){.par{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:699px){.par article:last-child{grid-column:1/-1;max-width:calc(50% - .25rem);width:100%;justify-self:center}}
 
 .par h3 { margin: .25rem 0 .5rem; font-size: 1rem; }
+.par .recorte-miniatura { display: block; position: relative; aspect-ratio: 2 / 3; overflow: hidden; border-radius: .5rem; }
+.par .recorte-miniatura img { position: absolute; inset-block-start: 0; height: 100%; max-width: none; object-fit: fill; aspect-ratio: auto; border-radius: 0; }
 .par details { margin-top: .65rem; }
 .par summary { cursor: pointer; }
 .par details p { margin: .4rem 0; font-size: .95rem; }
