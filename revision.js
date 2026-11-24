@@ -1,7 +1,26 @@
 const el = id => document.getElementById(id);
+// Los lotes se listan en web/revision/lotes.json (lo actualiza la skill fabrica-cartas-animas, scripts/lote.py).
+// ?lote=<nombre> abre uno; sin parámetro se abre el primero del índice.
+const LOTES_FIJOS = [
+  {lote: "herramientas-02", titulo: "Herramientas · 6 cartas", ruta: "web/revision/herramientas-02/lote.json"},
+  {lote: "frentes-01", titulo: "Lote anterior · 66 frentes", ruta: "catalogo/revision-lote-01.json"}];
+async function lotes() {
+  try { const r = await fetch("web/revision/lotes.json", {cache: "no-cache"}); if (r.ok) return (await r.json()).lotes; }
+  catch {}
+  return LOTES_FIJOS;
+}
 async function iniciar() {
-  const anterior = new URLSearchParams(location.search).get("lote") === "frentes-01";
-  const response = await fetch(anterior ? "catalogo/revision-lote-01.json" : "web/revision/herramientas-02/lote.json");
+  const indice = await lotes();
+  const pedido = new URLSearchParams(location.search).get("lote");
+  const elegido = indice.find(l => l.lote === pedido) || indice[0];
+  const nav = document.querySelector('nav[aria-label="Lotes de revisión"]');
+  if (nav) nav.replaceChildren(...indice.map(l => {
+    const a = document.createElement("a"); a.href = "?lote=" + encodeURIComponent(l.lote); a.textContent = l.titulo;
+    if (l.lote === elegido.lote) a.setAttribute("aria-current", "page");
+    return a;
+  }));
+  const avisoLote = pedido && elegido.lote !== pedido ? "No existe el lote «" + pedido + "». Se abrió " + elegido.lote + "." : "";
+  const response = await fetch(elegido.ruta, {cache: "no-cache"});
   if (!response.ok) throw new Error("No se pudo abrir el lote.");
   const {lote, cartas} = await response.json();
   const clave = "noche-de-animas/revision/" + lote;
@@ -19,7 +38,9 @@ async function iniciar() {
     if (datos.version !== 1 || datos.lote !== lote || !Array.isArray(datos.elecciones)) throw Error("El archivo pertenece a otro lote.");
     const nuevos = new Map();
     for (const {id, opcion, sha256} of datos.elecciones) {
-      if (["a","b"].includes(opcion) && sha256 && porId.get(id)?.[opcion]?.anterior === sha256) continue;
+      // Voto de una imagen sustituida: queda pendiente para revisar la nueva.
+      const previa = porId.get(id)?.[opcion];
+      if (sha256 && previa && (previa.anterior === sha256 || (previa.anteriores || []).includes(sha256))) continue;
       if (!["a","b","original"].includes(opcion) || !porId.has(id) || porId.get(id)[opcion].sha256 !== sha256 || nuevos.has(id))
         throw Error("Una elección no corresponde a estas ilustraciones.");
       nuevos.set(id, opcion);
@@ -66,7 +87,7 @@ async function iniciar() {
       if (!votos.has(cartas[n].id)) { posicion=n; break; }
     }
   }
-  el("aviso").textContent = "";
+  el("aviso").textContent = avisoLote;
   try { const prev=localStorage.getItem(clave); if(prev) votos=leer(JSON.parse(prev)); }
   catch {el("aviso").textContent="No se pudo recuperar el avance local. Puedes importar una copia JSON.";}
   cartas.forEach((c,n)=>el("indice").add(new Option(c.nombre,String(n))));

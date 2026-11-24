@@ -9,6 +9,6 @@ Fotografías personales se conservan únicamente en la carpeta local original y 
 No cambiar reglas, IDs o cantidades al actualizar arte. El role_id de Devota sigue siendo padre por compatibilidad.
 Nuevas instrucciones del usuario prevalecen sobre metadatos históricos.
 
-Fábrica de arte: leer fabrica/README.md antes de pedir, revisar o aprobar arte. El catálogo del juego (fabrica/catalogo_juego.json) se genera con herramientas/catalogo_juego.mjs desde el repo del juego; no editarlo a mano. Las propuestas nuevas van a fabrica/entrada/ y solo pasan al canon con aprobación explícita de Jonathan.
+Fábrica de arte: leer fabrica/README.md antes de pedir, revisar o aprobar arte. Para tirajes, usar la skill .agents/skills/fabrica-cartas-animas/SKILL.md; se edita solo ahí y se copia a .claude/skills con herramientas/sincronizar_skill.py. El catálogo del juego (fabrica/catalogo_juego.json) se genera con herramientas/catalogo_juego.mjs desde el repo del juego; no editarlo a mano. Las propuestas nuevas van a fabrica/entrada/ y solo pasan al canon con aprobación explícita de Jonathan.
 
 Sitio web: el sitio público es el proyecto Astro + Tailwind de sitio/ (ver sitio/README.md). Las páginas nuevas o migradas se escriben ahí, nunca como HTML suelto en la raíz. Los datos de las cartas se leen del catálogo, no se copian a mano. El sitio solo usa archivos fuera de Git LFS (web/, íconos SVG, JSON).
