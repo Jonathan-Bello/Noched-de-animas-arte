@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "uso": "Índice que lee el selector (revision.html). El primer lote se abre por omisión. Lo actualiza .agents/skills/fabrica-cartas-animas/scripts/lote.py.",
+ "lotes": [
+  {
+   "lote": "herramientas-02",
+   "titulo": "Herramientas · 6 cartas",
+   "ruta": "web/revision/herramientas-02/lote.json"
+  },
+  {
+   "lote": "frentes-01",
+   "titulo": "Lote anterior · 66 frentes",
+   "ruta": "catalogo/revision-lote-01.json"
+  }
+ ]
+}

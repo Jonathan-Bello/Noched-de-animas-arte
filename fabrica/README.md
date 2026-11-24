@@ -68,6 +68,7 @@ El estado de cada carta está en `CARTAS_DEL_JUEGO.md`.
 | `CONTROL_IA.md` | Problemas típicos de la IA y cómo se evitan |
 | `fichas/` | Una ficha por pieza a crear o rehacer |
 | `entrada/` | Propuestas recibidas, con su prompt, aprobadas o no |
+| `tirajes/` | Un lote de producción por carpeta: encargo y fichas completas. Lo crea la skill |
 
 ## Reglas que no se rompen
 
@@ -86,3 +87,7 @@ Las ocho ilustraciones aprobadas se identifican por ID, ruta y SHA-256 en [el re
 
 - [PERSONAJES.md](PERSONAJES.md): los 5 investigadores, los 8 roles y las 21 ánimas, con sus rasgos fijos.
 - [descripciones/](descripciones/README.md): una descripción por carta (qué representa, arte actual, escena para la segunda tirada y una alternativa).
+
+## Skill de producción
+
+Los tirajes se hacen con la skill [`fabrica-cartas-animas`](../.agents/skills/fabrica-cartas-animas/SKILL.md). Cubre fichas por ID con sus referencias, variantes A y B, revisión a 58 × 88 mm, publicación en el selector, registro de la elección del autor y montaje bajo pedido. La misma skill sirve a Claude Code (`.claude/skills/`, copia generada), a Codex (`.agents/skills/`) y a un chat que lea GitHub.

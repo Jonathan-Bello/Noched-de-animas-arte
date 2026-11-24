@@ -1,0 +1,31 @@
+# Comprueba que la skill fabrica-cartas-animas es la misma para Claude Code y Codex,
+# que los lotes del selector son válidos y que las fichas de prueba encuentran sus referencias.
+name: Skill
+
+on:
+  pull_request:
+    paths: [".agents/**", ".claude/**", "herramientas/sincronizar_skill.py", "fabrica/**", "web/revision/**", "web/miniaturas/**", "web/mesa/arte/**", "guias/ESTILO_DE_CARTAS.md", ".github/workflows/skill.yml"]
+  push:
+    branches: [main]
+    paths: [".agents/**", ".claude/**", "herramientas/sincronizar_skill.py", "fabrica/**", "web/revision/**", ".github/workflows/skill.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 herramientas/sincronizar_skill.py --comprobar
+      - run: python3 .agents/skills/fabrica-cartas-animas/scripts/lote.py comprobar
+      - name: Fichas de prueba desde las dos entradas
+        run: |
+          python3 .agents/skills/fabrica-cartas-animas/scripts/ficha.py t3 t4 ev3 --comprobar
+          python3 .claude/skills/fabrica-cartas-animas/scripts/ficha.py t3 t4 ev3 --comprobar
