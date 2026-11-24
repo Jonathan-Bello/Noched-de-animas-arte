@@ -66,7 +66,9 @@ def markdown(f, lote=None):
     L += ["- (completar: elementos propios de esta escena)", "", "## No debe verse", *[f"- {x}" for x in NO_DEBE]]
     for rel in f["relacionadas"]:
         L.append(f"- La escena de «{rel['nombre']}» (`{rel['id']}`), que es otra carta: {rel['escena_a']}")
-    L += ["- (completar)", "", "## Composición", f"- {ZONA}", "- Plano, punto de vista y luz: (completar)", "",
+    L += ["- (completar)", "", "## Composición", f"- {ZONA}", "- Puesta en escena propia por variante: (completar desde la acción: gesto, mirada o apoyo; contacto y punto de vista).",
+          "- Para cada referencia, identificar el rasgo transferido y distinguirlo de la pose o distribución de la carta base.",
+          "- Plano, punto de vista y luz: (completar)", "",
           "## Adjuntar", "Abrir cada imagen y entregar al generador **la imagen misma**, no el enlace.", "",
           "| Imagen | Función | Qué aporta | ¿Adjuntar? |", "|---|---|---|---|"]
     for r in f["referencias"]:

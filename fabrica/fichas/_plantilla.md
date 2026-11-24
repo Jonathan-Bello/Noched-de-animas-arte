@@ -21,6 +21,8 @@
 - <lo que ya está bien en la versión anterior>
 
 ## Composición
+- Puesta en escena propia por variante: <acción, gesto o apoyo y punto de vista que exige esta ficha>.
+- Alcance de las referencias: <rasgo que se toma de cada base y decisión de composición que corresponde al encargo actual>.
 - Plano: <general / medio / cercano> · Punto de vista: <frontal / 3/4 / cenital>
 - Sujeto principal centrado entre el 12 % superior y el 12 % inferior.
 - Luz: <veladora / farol / luna / pantalla>, desde <lado>.
