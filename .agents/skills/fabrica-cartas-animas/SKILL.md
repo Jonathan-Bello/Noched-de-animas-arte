@@ -19,6 +19,10 @@ En Claude Code la misma skill está en `.claude/skills/fabrica-cartas-animas/`, 
 
 **Modo `montaje`:** se usa solo cuando el autor aprueba el lote y pide la carta terminada (paso g).
 
+## Alcance del encargo
+
+Una revisión de estilo, un comentario sobre una variante o una petición de pulir esta skill se atienden leyendo las fuentes, examinando los dibujos existentes y actualizando los criterios o fichas correspondientes. Para crear imágenes o publicarlas, comprobar que el encargo vigente pida esa operación. Registrar una preferencia por la composición con ese alcance.
+
 ## Antes de empezar
 
 1. Lee `AGENTS.md` de la raíz y [referencias/fuentes.md](referencias/fuentes.md). Ese archivo dice dónde vive cada decisión artística. La skill no copia decisiones: si cambian, se corrigen en su fuente.

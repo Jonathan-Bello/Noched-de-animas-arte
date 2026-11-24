@@ -48,3 +48,8 @@ Comparar el resultado con las referencias. Identificar en la imagen dónde se ve
 
 - Cámara de movimiento: conservar la idea de la silla a medio caer sobre dos patas y los cuadros desplazados. Un encuadre de vigilancia o un monitor solo dejan sin identificar la herramienta. Incluir la cámara físicamente en el plano, con dirección de toma comprensible.
 - Detector EMF: el voto B se limita al concepto según la aclaración del autor. Usar como idea la reacción simultánea del detector y las luces de habitaciones contiguas. Recuperar del original el modelo de aparato y la riqueza de planos. La ilustración B queda fuera de las referencias de acabado.
+
+## Calibración con el autor · herramientas
+
+- Lámpara UV: preferencia por la idea B, con la linterna encendida en el piso y las pisadas de ceniza a lo largo de un pasillo de baldosas. Registrar la decisión como composición. Las imágenes generadas en la ronda quedan fuera de las referencias visuales.
+- Termómetro: preferencia por la composición A con Tomás. En B, concentrar detalle en el instrumento y la escarcha, separar el retrato en segundo plano y dejar descansar el fondo. La saturación observada corresponde a esa composición; conservar el trabajo de materiales del mazo.
