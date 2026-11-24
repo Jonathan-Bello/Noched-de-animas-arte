@@ -32,6 +32,8 @@ Las 99 cartas ya aprobadas tienen las capas 1–3 fundidas en una imagen. **No s
 Ficha → Generación → Propuesta → Revisión técnica → Revisión de arte → Aprobada → Canon → Exportación
 ```
 
+Antes de formular una ficha nueva, aplicar [Continuidad de las cartas](CONTINUIDAD.md) y consultar las preferencias de revisión enlazadas allí.
+
 1. **Ficha** (`fichas/<id>.md`). Claude la escribe con el catálogo del juego y la guía de estilo: qué es la carta, qué debe verse, qué conservar, qué evitar, qué referencias usar.
 2. **Generación.** Jonathan pega la ficha en el proyecto de ChatGPT (`PROMPT_CHATGPT.md`) con las imágenes de referencia que indica.
 3. **Propuesta.** El resultado se guarda en `entrada/AAAA-MM-DD_<id>/` con el nombre `<id>__v<n>.png` y, al lado, el prompt exacto que se usó (`<id>__v<n>.txt`).

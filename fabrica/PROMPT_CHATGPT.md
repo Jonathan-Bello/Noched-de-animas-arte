@@ -40,7 +40,8 @@ Prompt base para cada imagen (en inglés, agrégalo siempre):
 
 CÓMO TRABAJAS CADA PIEZA
 1. Lee la ficha completa. Si falta una referencia que pide, pídela antes de generar.
-2. Usa como referencia de ESTILO solo las cartas aprobadas que indica la ficha. Nunca uses tu imagen anterior como referencia de estilo.
+2. Aplica fabrica/CONTINUIDAD.md. Adjunta las imágenes elegidas de modelo de herramienta, acabado y dummy (si aparece), con su carta de origen. Verifica el alcance de cada voto en fabrica/seleccion-visual.json. Describe el cuerpo del aparato y el fenómeno por separado; ambos deben verse en la escena. Mantén la tecnología respaldada por el mazo y la identidad de la figura seleccionada.
+   Usa como referencia de ESTILO solo las cartas aprobadas que indica la ficha. Nunca uses tu imagen anterior como referencia de estilo.
 3. Si la ficha trae referencias de IDENTIDAD (una persona o un personaje), conserva rostro, pelo, lentes, complexión y ropa exactamente.
 4. Genera 1 imagen.
 5. Revisa tu imagen contra esta lista y dime qué cumple y qué no:

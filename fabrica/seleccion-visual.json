@@ -1,0 +1,608 @@
+{
+  "uso": "Preferencias de revisión. Consultar alcance, indicaciones posteriores del autor y canon antes de usar una imagen como referencia.",
+  "cartas": [
+    {
+      "id": "t0",
+      "nombre": "Termómetro",
+      "lote": "herramientas-02",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i01@2x.webp",
+      "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
+    },
+    {
+      "id": "t1",
+      "nombre": "Lámpara UV",
+      "lote": "herramientas-02",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i02@2x.webp",
+      "sha256": "e9a696c083a2ab69463c26c846090fb92b102319b3c6301a39a16816324bcbe3"
+    },
+    {
+      "id": "t2",
+      "nombre": "Grabadora",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i03@2x.webp",
+      "sha256": "c59c5aaa4f4d98c7590850ac230bff681e6190bc92a2bc99556e058030022317"
+    },
+    {
+      "id": "t3",
+      "nombre": "Cámara de movimiento",
+      "lote": "herramientas-02",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i04@2x.webp",
+      "sha256": "aeb9980b57c01405c351e40341d6cc4743dd04e56420a2e53e6d59b87a9bb71c"
+    },
+    {
+      "id": "t4",
+      "nombre": "Detector EMF",
+      "lote": "herramientas-02",
+      "voto": "b",
+      "alcance": "concepto_emf_sin_aprobacion_del_dibujo",
+      "archivo": "web/revision/herramientas-02/t4-b.webp",
+      "sha256": "75971b872017d215b7edc374292b60aa4843d6ffc5f2e1ec1af9efc2ced986bc"
+    },
+    {
+      "id": "t6",
+      "nombre": "Sensor de gases",
+      "lote": "herramientas-02",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i07@2x.webp",
+      "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
+    },
+    {
+      "id": "kit",
+      "nombre": "Kit de campo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i08@2x.webp",
+      "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+    },
+    {
+      "id": "resp",
+      "nombre": "Respirar hondo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i10@2x.webp",
+      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+    },
+    {
+      "id": "ruda",
+      "nombre": "Ruda",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i13@2x.webp",
+      "sha256": "a13bfe1ef4497294f6fcff2469e8391234a744e18177da30d1abfbab765260f6"
+    },
+    {
+      "id": "esc",
+      "nombre": "Esconderse",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i12@2x.webp",
+      "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
+    },
+    {
+      "id": "alba",
+      "nombre": "Alba",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/p02@2x.webp",
+      "sha256": "88238445aec43df1dcad03d9578d692fa150b62498d841dbed08c3e958c4adc9"
+    },
+    {
+      "id": "radio",
+      "nombre": "Radio",
+      "lote": "frentes-01",
+      "voto": "a",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/radio-a.webp",
+      "sha256": "c5c16539cababc420c686bf367c1556c8d64abaa1af5b477e53690fd3877d514"
+    },
+    {
+      "id": "tablilla",
+      "nombre": "Tablilla espiritista",
+      "lote": "frentes-01",
+      "voto": "b",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/tablilla-b.webp",
+      "sha256": "c5012c22e07a08c02af4f9f3c4a3d698263a2bce70aa6d641f089d5e8bf52e23"
+    },
+    {
+      "id": "mano",
+      "nombre": "Mano del mono",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/o03@2x.webp",
+      "sha256": "b7a751ada0abad82df1156dab84b614455887c84924c1ec5fea48739aeb7c521"
+    },
+    {
+      "id": "espejo_plata",
+      "nombre": "Espejo de plata",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/o05@2x.webp",
+      "sha256": "bfc9e47d60ce278108097265af9e7098bda28c8cbdaf57429ff3a83cb6baef95"
+    },
+    {
+      "id": "tarot",
+      "nombre": "Tarot",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/o06@2x.webp",
+      "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+    },
+    {
+      "id": "pentagrama",
+      "nombre": "Pentagrama",
+      "lote": "frentes-01",
+      "voto": "b",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/pentagrama-b.webp",
+      "sha256": "77b32d2541b7dc9b9aa2b27d7c5eb7bd18e6ace143c05fad55fb5bafb6eb4e31"
+    },
+    {
+      "id": "escalofrio",
+      "nombre": "Escalofrío",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/a01@2x.webp",
+      "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
+    },
+    {
+      "id": "portazo",
+      "nombre": "Portazo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/a02@2x.webp",
+      "sha256": "b69de2b73940b490edc48a1728ddb922ca3cbb0f27e905159425258e8436f363"
+    },
+    {
+      "id": "interferencia",
+      "nombre": "Interferencia",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/a06@2x.webp",
+      "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
+    },
+    {
+      "id": "presencia",
+      "nombre": "Presencia",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/a07@2x.webp",
+      "sha256": "c1a06443f29a6b71160ede6c14b2587556400e55064ac58399036bce6591336d"
+    },
+    {
+      "id": "h0",
+      "nombre": "Helada",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/h01@2x.webp",
+      "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b"
+    },
+    {
+      "id": "h1",
+      "nombre": "Acecho",
+      "lote": "frentes-01",
+      "voto": "b",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/h1-b.webp",
+      "sha256": "117cdd25a8595c76ec1df9d93832c1f3e9ad55383d9ea86aa20ca3f44b2042c3"
+    },
+    {
+      "id": "h2",
+      "nombre": "Lamento",
+      "lote": "frentes-01",
+      "voto": "a",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/h2-a.webp",
+      "sha256": "84a313ac20cf025c6f3b66590b9c5ad26a58a0a50b06627327737945f6d1ef9e"
+    },
+    {
+      "id": "h4",
+      "nombre": "Apagón",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/h05@2x.webp",
+      "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+    },
+    {
+      "id": "id_nahual",
+      "nombre": "Nahual",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id02@2x.webp",
+      "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0"
+    },
+    {
+      "id": "id_bruja",
+      "nombre": "Bruja",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id06@2x.webp",
+      "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
+    },
+    {
+      "id": "id_chaneque",
+      "nombre": "Chaneque",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id07@2x.webp",
+      "sha256": "cef79f1805b7fd2315f5a20a8d16b21cb1b46a4b8cf3c17a018f830d42a95275"
+    },
+    {
+      "id": "id_yohualtepuztli",
+      "nombre": "Yohualtepuztli",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id08@2x.webp",
+      "sha256": "ea4ec79a54b91d72de0d14587c236d2fdce19ded6010483be168e8a12ae17ffd"
+    },
+    {
+      "id": "id_cihuateteo",
+      "nombre": "Cihuateteo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id09@2x.webp",
+      "sha256": "1c7dba4c53272924949a9454bfba1c441d9d3a47255917ddff11d77dc6dad7d9"
+    },
+    {
+      "id": "id_tlahuelpuchi",
+      "nombre": "Tlahuelpuchi",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id10@2x.webp",
+      "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d"
+    },
+    {
+      "id": "id_matlacihuatl",
+      "nombre": "Matlacíhuatl",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id11@2x.webp",
+      "sha256": "d50987b715675878ae43fc32f63ebbcacc90274ffa6192892f87d04a6a35b369"
+    },
+    {
+      "id": "id_planchada",
+      "nombre": "La Planchada",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id13@2x.webp",
+      "sha256": "c32b9a257333cdf907f804448298cb031b34c018d6b0e0e95602f70cf38212bb"
+    },
+    {
+      "id": "id_xtabay",
+      "nombre": "Xtabay",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id14@2x.webp",
+      "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f"
+    },
+    {
+      "id": "id_malaire",
+      "nombre": "El Mal Aire",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id15@2x.webp",
+      "sha256": "4bc10eba6937585e069393eb4077ce2863da6b43292c85d3dc199fbe8af0b900"
+    },
+    {
+      "id": "id_guardian",
+      "nombre": "El Guardián del Entierro",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id16@2x.webp",
+      "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
+    },
+    {
+      "id": "id_cadejo",
+      "nombre": "El Cadejo Negro",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id18@2x.webp",
+      "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84"
+    },
+    {
+      "id": "id_mulata",
+      "nombre": "La Mulata de Córdoba",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id20@2x.webp",
+      "sha256": "f0ffd04700008e2b0725ca2b212f8bbd1588d289bd576aaeb2214fd4d3199947"
+    },
+    {
+      "id": "id_uaychivo",
+      "nombre": "El Uay Chivo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/id21@2x.webp",
+      "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a"
+    },
+    {
+      "id": "es_anima",
+      "nombre": "Penitencia",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s03@2x.webp",
+      "sha256": "31392a88d2923b1f8d67ee5bc7c64c4f5e43285be0a20adfc715a1cd9fff1bff"
+    },
+    {
+      "id": "es_demonio",
+      "nombre": "Infierno",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s04@2x.webp",
+      "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5"
+    },
+    {
+      "id": "es_aparecido",
+      "nombre": "Aparición final",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s05@2x.webp",
+      "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152"
+    },
+    {
+      "id": "es_chaneque",
+      "nombre": "Juego del monte",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s07@2x.webp",
+      "sha256": "315f00551d164f4c3c24d35f8003a686de024edce5d181cc369857a10c20ca1a"
+    },
+    {
+      "id": "es_yohualtepuztli",
+      "nombre": "Hacha nocturna",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s08@2x.webp",
+      "sha256": "017bfebde501fa721e741906c0fd125e7cc0847e35feca4baf5b594f7dd23b9f"
+    },
+    {
+      "id": "es_cihuateteo",
+      "nombre": "Encrucijada",
+      "lote": "frentes-01",
+      "voto": "b",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/es_cihuateteo-b.webp",
+      "sha256": "2505dfec376f8981d79d459f41bed708463ac69dc7f7c57898df6e4d4b100245"
+    },
+    {
+      "id": "es_tlahuelpuchi",
+      "nombre": "Vuelo de sangre",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s10@2x.webp",
+      "sha256": "bb99e7c0b6f1ccffb7565dfc86f20676eacddaa33d7afde43f9b378ba00a2399"
+    },
+    {
+      "id": "es_matlacihuatl",
+      "nombre": "La red",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s11@2x.webp",
+      "sha256": "e669c08fb9f6b32d75ea083e717aec348cb7d580dfec514c15fcf196b30bcb18"
+    },
+    {
+      "id": "es_guardian",
+      "nombre": "Maldición del entierro",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s16@2x.webp",
+      "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
+    },
+    {
+      "id": "es_cucuy",
+      "nombre": "Desde la penumbra",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s17@2x.webp",
+      "sha256": "a269994c7100ce85f6f847d10c433c917780bd98a590de6fd0761d94c82df810"
+    },
+    {
+      "id": "es_cadejo",
+      "nombre": "Arrastre de cadenas",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s18@2x.webp",
+      "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+    },
+    {
+      "id": "es_chocarrero",
+      "nombre": "Tornado de objetos",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s19@2x.webp",
+      "sha256": "6d62fcda248157bc1fa1327c6b2d9ffdeb6e78085927e8e9bdd54b22b2301fd9"
+    },
+    {
+      "id": "es_mulata",
+      "nombre": "El barco en la pared",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s20@2x.webp",
+      "sha256": "3b32a415c8f03881c3eb69c6468c2e237a5d7f12241ff2ff9d3bbcfc06422354"
+    },
+    {
+      "id": "es_uaychivo",
+      "nombre": "Mirada de cabra",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/s21@2x.webp",
+      "sha256": "b80dd76872140eed6f2b0bc73e8a1c205de3c949be15c944d7f8a6067eeea4b1"
+    },
+    {
+      "id": "ev1",
+      "nombre": "Huellas de ceniza",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e02@2x.webp",
+      "sha256": "789045ec5c51247ef427133f6ae91400e0bf116aa9e650df9723582b51ffdf99"
+    },
+    {
+      "id": "ev2",
+      "nombre": "Susurros",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e03@2x.webp",
+      "sha256": "e5985325a01375c169fb95e5ce230795041715515280178109d0373d2eb8d9b0"
+    },
+    {
+      "id": "ev3",
+      "nombre": "Objetos movidos",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e04@2x.webp",
+      "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+    },
+    {
+      "id": "ev4",
+      "nombre": "Luces parpadeantes",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e05@2x.webp",
+      "sha256": "3d2e3dd772affd0257e86ee3eddd2167f8498fca859426c4a6e99b26bd862dd1"
+    },
+    {
+      "id": "ev5",
+      "nombre": "Marcas en el espejo",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e06@2x.webp",
+      "sha256": "3d8543af990156fa841dd8aae6922ace2a4aa7de8a71c0730173648e11f64c16"
+    },
+    {
+      "id": "ev6",
+      "nombre": "Olor a azufre",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/e07@2x.webp",
+      "sha256": "7175455bdccfd548857f4e70279ea4394552bdbf9f1c1a0498736669d878610c"
+    },
+    {
+      "id": "rol_velar",
+      "nombre": "Velar",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/velar-original.webp",
+      "sha256": "6a187f6d381d9386a3cb0d39bbb05ee3ceec3be879a8e316a2d5f858f8eb09a7"
+    },
+    {
+      "id": "rol_manifestar",
+      "nombre": "Manifestar",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/personajes/manifestar_original.webp",
+      "sha256": "d6148de027ff45b826c33ade304be5d3fa74e20055b44ff76283cf063b52f85e"
+    },
+    {
+      "id": "R01",
+      "nombre": "Reglas 1: Tu turno",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/p03@2x.webp",
+      "sha256": "e8ae43b94b50497f1b02a4305e20822138c850f7dd2e15e09616684e6d72d13a"
+    },
+    {
+      "id": "R02",
+      "nombre": "Reglas 2: Investigar",
+      "lote": "frentes-01",
+      "voto": "b",
+      "alcance": "preferencia_visual",
+      "archivo": "web/revision/lote-01/R02-b.webp",
+      "sha256": "6248b884ce7afc4a297dfd0789fd1758e4f0fe702c3da26e880d6b5b93893227"
+    },
+    {
+      "id": "R03",
+      "nombre": "Reglas 3: Peligro",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/p05@2x.webp",
+      "sha256": "23da1725dc91af19769df6af3c6fded92747900f4efca5ce52596c751bd4453d"
+    },
+    {
+      "id": "R04",
+      "nombre": "Reglas 4: El ánima",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/p06@2x.webp",
+      "sha256": "b1df6674eaeeb358333de0e6c33b9747931c3112aa8c83cd6753589f79c7e490"
+    },
+    {
+      "id": "R05",
+      "nombre": "El espíritu",
+      "lote": "frentes-01",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/p07@2x.webp",
+      "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+    },
+    {
+      "id": "t5",
+      "nombre": "Espejo de mano",
+      "lote": "herramientas-02",
+      "voto": "original",
+      "alcance": "preferencia_visual",
+      "archivo": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f"
+    }
+  ]
+}

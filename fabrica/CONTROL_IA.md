@@ -35,6 +35,11 @@ Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota 
 - [ ] Solo los elementos que pide la ficha
 - [ ] Prompt guardado junto a la imagen
 
+- [ ] En herramientas, equipo físico y fenómeno identificables al tapar el título
+- [ ] Modelo tecnológico contrastado con su carta fuente y dummy contrastado con su aparición seleccionada, si aparece
+- [ ] Materiales, planos y detalle comparados a tamaño de mesa según [Continuidad de las cartas](CONTINUIDAD.md)
+- [ ] Aprobación de concepto distinguida de aprobación del dibujo
+
 ## Revisión de arte (Jonathan)
 
 Se muestra en este orden:
