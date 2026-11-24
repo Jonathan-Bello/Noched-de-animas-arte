@@ -33,7 +33,8 @@ FAMILIAS = [
     ("consulta-y-reglas", "Consulta, reglas y componentes", ["consulta", "reglas", "componente"], "Franja café. Cartas que explican el juego; las de reglas llevan ilustración al frente."),
 ]
 ESTADO = {"conservar": "✅ Conservar", "rehacer": "🔁 Rehacer", "rol aprobado": "🟡 Ilustración aprobada · falta carta",
-          "falta": "⬜ Falta", "documentación": "📄 Documentación"}
+          "falta": "⬜ Falta", "documentación": "📄 Documentación",
+          "en espera": "⏸ En espera de reglas", "por decidir": "❔ Por decidir"}
 
 salida, faltan = [], []
 for c in cat["cartas"]:
@@ -86,11 +87,11 @@ readme = ["# Descripciones del catálogo · segunda tirada", "",
           "**Total:** " + ", ".join(f"{ESTADO[k]} {v}" for k, v in total.items()), "",
           "| Familia | Cartas | Estado |", "|---|---|---|", *indice, "",
           "## Correcciones detectadas al revisar el arte",
-          "- **Penitencia** (`es_anima`): la carta actual se titula «Cadenas» y muestra pies encadenados; no corresponde al Espanto vigente.",
-          "- **Reglas 2, 3 y 4** repiten las ilustraciones del Termómetro, Cacería y Presencia. Necesitan ilustración propia.",
-          "- **Velar y Manifestar** muestran a los roles (Curandero y Detective); se cambian por investigadores.",
+          "- **Penitencia** (`es_anima`): la carta actual se titula «Cadenas» y se confunde con el Cadejo Negro. Se rehace sin cadenas (confirmado).",
+          "- **Velar y Manifestar** muestran a los roles (Curandero y Detective); se rehacen con investigadores (confirmado).",
           "- **Esconderse** muestra a un joven que no coincide con ningún investigador; pasa a ser Tomás.",
-          "- **Consulta Q2** habla de «la franja» y del descarte previo a los Espantos, que ya no existen.",
-          "- **El Detective y Tomás** comparten sombrero y poncho petróleo: conviene diferenciarlos.", ""]
+          "- **El Detective (Fermín)** cambia su vestuario a naranja para no confundirse con Tomás (confirmado). Su ilustración aprobada se recolorea.",
+          "- **Cartas de reglas (R01–R05) y de consulta (Q1–Q5):** en espera. Se rehacen después de cerrar las reglas; las ideas quedan guardadas.",
+          "- **Tarjeta de cordura:** por decidir si se queda en el juego.", ""]
 (D / "README.md").write_text("\n".join(readme), encoding="utf-8")
 print(len(salida), "cartas ·", total)

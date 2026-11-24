@@ -36,13 +36,13 @@ Basados en personas reales que dieron permiso. Solo aparecen en su carta de rol.
 | **El Vigía** | Jhonnatan | Mano | Joven; cara ovalada algo alargada, mentón suave; cabello oscuro ondulado con raya al centro hasta la nuca; cejas anchas | Camisa azul, morral cruzado, farol y cartas en abanico |
 | **El Improvisador** | Ángel | Mano | Joven; cabello rizado abundante; lentes | Sudadera guinda con bordado crema, pantalón oscuro, tenis; inventos con cuchara, hilo y bobinas |
 | **El Técnico** | Robert | Ojo | Joven corpulento; cabello ondulado | Overol morado con herramientas, camisa crema remangada; cautín y aparatos de válvulas |
-| **El Detective** | Fermín | Ojo | Hombre de bigote | Sombrero de ala, poncho petróleo con greca; lupa, fotografías y tablero con hilo rojo |
+| **El Detective** | Fermín | Ojo | Hombre de bigote | Sombrero de ala; **poncho naranja cempasúchil** con greca crema (cambio del 24-nov; su ilustración aprobada se recolorea); lupa, fotografías y tablero con hilo rojo |
 | **El Curandero** | Alex | Corazón | Joven; lentes; cabello rizado con mechones rojizos | Camisa guinda bordada, rebozo petróleo; jarro y taza de barro, hierbas |
 | **El Sensitivo** | Alex | Ojo | El mismo rostro del Curandero, con maquillaje de catrina rojo y blanco | Camisa guinda bordada; cartas sobre la mesa y dos espíritus a su espalda |
 | **La Devota** | Jenny | Escudo | Mujer; cabello corto rizado; aretes | Blusa crema bordada, rebozo petróleo, falda guinda; rosario ámbar y sahumerio |
 | **El Guardaespaldas** | Jorge | Escudo | Hombre; lentes; cabello corto | Gabardina café; farol, en postura de protección |
 
-**Riesgo de confusión:** el Detective (Fermín) y Tomás comparten sombrero de ala y poncho petróleo. Para separarlos, Fermín siempre lleva lupa o tablero y Tomás, libreta y morral. Si en la segunda tirada se ilustra de nuevo a alguno, conviene cambiar el color del poncho de uno de los dos.
+**Fermín y Tomás:** los dos usan sombrero de ala. Para separarlos, el poncho de Fermín es **naranja** y el sarape de Tomás, **petróleo**. Además, Fermín lleva lupa o tablero y Tomás, libreta y morral.
 
 ## Las 21 ánimas
 

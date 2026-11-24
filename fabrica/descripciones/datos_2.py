@@ -95,9 +95,9 @@ C["id_anima"] = dict(e="conservar",
   alt="La misma mujer arrodillada frente a la ofrenda, encendiendo velas que se apagan al tocarlas.")
 C["es_anima"] = dict(e="rehacer",
   r="Penitencia: cada uno descarta un Rosario; quien no tenga pierde 3; luego cacería con 4 o menos.",
-  a="La carta actual se titula «Cadenas»: pies de investigadores encadenados sobre mosaicos rotos. No corresponde al Espanto vigente.",
+  a="La carta actual se titula «Cadenas»: pies de investigadores encadenados sobre mosaicos rotos. No corresponde al Espanto vigente y se confunde con el Cadejo Negro, cuya ánima son las cadenas.",
   l="Perder el rosario.",
-  pr="Corregir el título a «Penitencia». Un rosario se deshace sobre las manos de quien reza; las cuentas caen hacia una banda oscura al pie. La mujer del rebozo guinda observa desde la sombra.",
+  pr="Rehacer (confirmado por Jonathan): sin cadenas, para no confundirla con el Cadejo. Título «Penitencia». Un rosario se deshace sobre las manos de quien reza; las cuentas caen hacia una banda oscura al pie. La mujer del rebozo guinda observa desde la sombra.",
   alt="La mujer del rebozo extiende la mano y los rosarios de los investigadores se deslizan hacia ella por la mesa.")
 C["id_demonio"] = dict(e="conservar",
   r="Ánima 4. Deja Susurros, Luces parpadeantes y Olor a azufre.",

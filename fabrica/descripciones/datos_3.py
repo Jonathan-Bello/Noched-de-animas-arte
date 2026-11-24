@@ -67,8 +67,8 @@ C["rol_detective"] = dict(e="rol aprobado", p="El Detective · Fermín",
   r="Rol de la familia ojo: pregunta por una segunda evidencia.",
   a="Hombre de bigote y sombrero de ala con poncho petróleo de greca crema; examina con lupa una fotografía frente a un tablero de pistas unido con hilo rojo.",
   l="La lupa y el tablero de pistas.",
-  pr=ROL + " Cuidado: comparte sombrero y poncho con Tomás. Para distinguirlos, Fermín usa lupa y tablero; Tomás, libreta y morral.",
-  alt="El Detective une dos fotografías con hilo rojo y una tercera cae sola del tablero.")
+  pr="Ilustración aprobada, con un cambio pedido por Jonathan (24-nov): su vestuario pasa a naranja (poncho naranja cempasúchil con greca crema) para no confundirlo con Tomás, que conserva el petróleo. Recolorear solo la ropa; rostro, pose y escena se mantienen. Después, componer la carta con marco, emblema, título y leyenda.",
+  alt="El Detective, con su poncho naranja, une dos fotografías con hilo rojo y una tercera cae sola del tablero.")
 C["rol_curandero"] = dict(e="rol aprobado", p="El Curandero · Alex",
   r="Rol de la familia corazón: su Té cura más y puede darlo a otro.",
   a="Joven de lentes, cabello rizado con mechones rojizos, camisa guinda bordada y rebozo petróleo; sirve té de un jarro de barro a una taza. Hierbas colgadas al fondo.",
@@ -95,13 +95,13 @@ C["rol_guardaespaldas"] = dict(e="rol aprobado", p="El Guardaespaldas · Jorge",
   alt="El Guardaespaldas recibe el golpe de espaldas a la aparición, con la gabardina abierta como escudo.")
 
 C["rol_velar"] = dict(e="rehacer",
-  r="Carta de espíritu: ese vivo pierde 1 menos de cordura hasta el siguiente turno del espíritu.",
+  r="Carta de espíritu: ese vivo pierde 1 menos de cordura hasta el siguiente turno del espíritu. Rehacer (confirmado por Jonathan).",
   a="Un espíritu traslúcido verde con lentes se interpone entre un joven caído y una sombra guinda. El espíritu tiene la cara del Curandero (rol).",
   l="La mano traslúcida que protege.",
   pr="Sustituir al espíritu por uno de los cinco investigadores (los roles solo aparecen en su carta). Un espíritu aliado posa una mano traslúcida sobre el hombro de un investigador vivo; el abrigo y el fondo se ven a través de sus dedos.",
   alt="El espíritu de Rafael, traslúcido, sostiene el farol de Inés para que no se apague.")
 C["rol_manifestar"] = dict(e="rehacer",
-  r="Carta de espíritu: roba 1 carta y, si es herramienta, la usa (5 o 6).",
+  r="Carta de espíritu: roba 1 carta y, si es herramienta, la usa (5 o 6). Rehacer (confirmado por Jonathan).",
   a="El Curandero (rol) mira asustado a un espíritu traslúcido con sombrero y poncho (el Detective, rol) que enciende un aparato de radio. La ilustración original de Manifestar está aprobada como arte sin marco.",
   l="El espíritu que usa una herramienta.",
   pr="Sustituir a los roles por investigadores. Un compañero espectral levanta una carta del mazo para señalar una herramienta que los vivos habían pasado por alto. Enfocar la mano y la carta.",
@@ -109,47 +109,47 @@ C["rol_manifestar"] = dict(e="rehacer",
 
 DOC = "Carta de documentación: texto e íconos sobre fondo crema con marco ornamental. Sin ilustración."
 for i, t in [(1, "Evidencias I"), (2, "Peligros"), (3, "Protecciones II"), (4, "Cartas y objetivos"), (5, "Investigación")]:
-    C[f"Q{i}"] = dict(e="documentación",
+    C[f"Q{i}"] = dict(e="en espera",
       r=f"Carta de consulta «{t}»: explica los íconos.",
       a=DOC + " Pendiente: Q2 habla de «la franja» y del descarte previo a los Espantos, que ya no existen.",
       l="Los íconos alineados con su explicación.",
-      pr="Se conserva el diseño. Actualizar los textos cuando se cierre el sistema de íconos.",
+      pr="En espera: se rehace cuando se cierren las reglas.",
       alt="—")
 
-C["R01"] = dict(e="rehacer",
+C["R01"] = dict(e="en espera",
   r="Frente de la carta de reglas «Tu turno».",
   a="Manos que roban del mazo junto a un farol y cempasúchil, sobre mesa de madera.",
   l="Robar, jugar, descartar.",
-  pr="Una mano toma la primera carta del mazo; las restantes y una herramienta forman tres grupos legibles sobre la mesa.",
+  pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Una mano toma la primera carta del mazo; las restantes y una herramienta forman tres grupos legibles sobre la mesa.",
   alt="Vista cenital de la mesa de juego: cuatro manos de investigadores y el mazo al centro.")
-C["R02"] = dict(e="rehacer",
+C["R02"] = dict(e="en espera",
   r="Frente de la carta de reglas «Investigar».",
   a="Repite la ilustración del Termómetro.",
   l="Instrumento y pista.",
-  pr="Ilustración propia (hoy está duplicada). Un investigador contrasta la lectura de un instrumento con una pista visible; la línea entre la sonda y la pista organiza la imagen.",
+  pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Ilustración propia (hoy está duplicada). Un investigador contrasta la lectura de un instrumento con una pista visible; la línea entre la sonda y la pista organiza la imagen.",
   alt="La libreta abierta con tres casillas de evidencia y el dado junto a ella.")
-C["R03"] = dict(e="rehacer",
+C["R03"] = dict(e="en espera",
   r="Frente de la carta de reglas «Peligro».",
   a="Repite la ilustración de Cacería.",
   l="El instante antes del peligro.",
-  pr="Ilustración propia (hoy está duplicada). La luz del farol descubre una sombra cruzando el umbral; las manos de dos investigadores se detienen en seco.",
+  pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Ilustración propia (hoy está duplicada). La luz del farol descubre una sombra cruzando el umbral; las manos de dos investigadores se detienen en seco.",
   alt="La tarjeta de cordura con el clip bajando hacia el 4, y una sombra sobre ella.")
-C["R04"] = dict(e="rehacer",
+C["R04"] = dict(e="en espera",
   r="Frente de la carta de reglas «El ánima».",
   a="Repite la ilustración de Presencia.",
   l="El punto de vista del ánima.",
-  pr="Ilustración propia (hoy está duplicada). Vista desde el lado del ánima: sus manos traslúcidas separan una carta detrás de un biombo; las luces de los investigadores asoman al otro lado.",
+  pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Ilustración propia (hoy está duplicada). Vista desde el lado del ánima: sus manos traslúcidas separan una carta detrás de un biombo; las luces de los investigadores asoman al otro lado.",
   alt="La identidad boca abajo bajo una mano traslúcida, con el Espanto esperando a un lado.")
-C["R05"] = dict(e="rehacer", p="Inés, Rafael, Tomás y un espíritu",
+C["R05"] = dict(e="en espera", p="Inés, Rafael, Tomás y un espíritu",
   r="Frente de la carta de reglas «El espíritu».",
   a="Inés, Rafael y Tomás alrededor de una tablilla; un espíritu traslúcido con barba señala la pieza.",
   l="El asiento del muerto que todavía participa.",
-  pr="Arte que el autor quiere modificar. Un asiento vacío junto a los vivos; sobre la mesa, una mano traslúcida inclina una carta hacia ellos. El reflejo de la ventana atraviesa el brazo.",
+  pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Arte que el autor quiere modificar. Un asiento vacío junto a los vivos; sobre la mesa, una mano traslúcida inclina una carta hacia ellos. El reflejo de la ventana atraviesa el brazo.",
   alt="Los cinco investigadores en la mesa; uno de ellos ya traslúcido, señalando la libreta sin hablar.")
 
-C["cordura"] = dict(e="falta",
+C["cordura"] = dict(e="por decidir",
   r="Componente: cada investigador marca su cordura de 10 a 0 con un clip.",
   a="No existe.",
   l="Que la zona de 4 o menos se lea como peligro.",
-  pr="Una tarjeta por investigador con su retrato (Inés, Rafael, Tomás, Amalia, Padre Mateo). La luz baja de cálida (10) a fría (0); la franja de 4 o menos más oscura. La escala la compone la plantilla.",
+  pr="Por decidir si se queda en el juego. Si se queda: una tarjeta por investigador con su retrato; la luz baja de cálida (10) a fría (0) y la franja de 4 o menos se ve más oscura. La escala la compone la plantilla.",
   alt="Una veladora que se consume de arriba abajo a lo largo de la escala.")

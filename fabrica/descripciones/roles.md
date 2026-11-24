@@ -49,8 +49,8 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 - **Qué representa:** Rol de la familia ojo: pregunta por una segunda evidencia.
 - **Arte actual:** Hombre de bigote y sombrero de ala con poncho petróleo de greca crema; examina con lupa una fotografía frente a un tablero de pistas unido con hilo rojo.
 - **Debe leerse a tamaño de mesa:** La lupa y el tablero de pistas.
-- **Segunda tirada:** Ilustración aprobada (21-nov). Falta componer la carta con marco, emblema, título y leyenda. Solo aparece en su carta de rol. Cuidado: comparte sombrero y poncho con Tomás. Para distinguirlos, Fermín usa lupa y tablero; Tomás, libreta y morral.
-- **Alternativa:** El Detective une dos fotografías con hilo rojo y una tercera cae sola del tablero.
+- **Segunda tirada:** Ilustración aprobada, con un cambio pedido por Jonathan (24-nov): su vestuario pasa a naranja (poncho naranja cempasúchil con greca crema) para no confundirlo con Tomás, que conserva el petróleo. Recolorear solo la ropa; rostro, pose y escena se mantienen. Después, componer la carta con marco, emblema, título y leyenda.
+- **Alternativa:** El Detective, con su poncho naranja, une dos fotografías con hilo rojo y una tercera cae sola del tablero.
 
 ## El curandero · `rol_curandero`
 

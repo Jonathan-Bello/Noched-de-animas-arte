@@ -11,7 +11,7 @@ Una descripción por carta para mantener el mazo homogéneo. Generado con `herra
 - Equipo atemporal: casete, botones físicos, pantallas sencillas; sin celulares.
 - Las cartas *Conservar* no se regeneran: son la referencia de acabado.
 
-**Total:** 🔁 Rehacer 65, ✅ Conservar 31, ⬜ Falta 2, 🟡 Ilustración aprobada · falta carta 8, 📄 Documentación 5
+**Total:** 🔁 Rehacer 60, ✅ Conservar 31, ⬜ Falta 1, 🟡 Ilustración aprobada · falta carta 8, ⏸ En espera de reglas 10, ❔ Por decidir 1
 
 | Familia | Cartas | Estado |
 |---|---|---|
@@ -25,12 +25,12 @@ Una descripción por carta para mantener el mazo homogéneo. Generado con `herra
 | [Evidencias](evidencias.md) | 7 | ✅ Conservar 1, 🔁 Rehacer 6 |
 | [Roles (Los testigos de la casona)](roles.md) | 8 | 🟡 Ilustración aprobada · falta carta 8 |
 | [Cartas de espíritu](espiritus.md) | 2 | 🔁 Rehacer 2 |
-| [Consulta, reglas y componentes](consulta-y-reglas.md) | 11 | 📄 Documentación 5, 🔁 Rehacer 5, ⬜ Falta 1 |
+| [Consulta, reglas y componentes](consulta-y-reglas.md) | 11 | ⏸ En espera de reglas 10, ❔ Por decidir 1 |
 
 ## Correcciones detectadas al revisar el arte
-- **Penitencia** (`es_anima`): la carta actual se titula «Cadenas» y muestra pies encadenados; no corresponde al Espanto vigente.
-- **Reglas 2, 3 y 4** repiten las ilustraciones del Termómetro, Cacería y Presencia. Necesitan ilustración propia.
-- **Velar y Manifestar** muestran a los roles (Curandero y Detective); se cambian por investigadores.
+- **Penitencia** (`es_anima`): la carta actual se titula «Cadenas» y se confunde con el Cadejo Negro. Se rehace sin cadenas (confirmado).
+- **Velar y Manifestar** muestran a los roles (Curandero y Detective); se rehacen con investigadores (confirmado).
 - **Esconderse** muestra a un joven que no coincide con ningún investigador; pasa a ser Tomás.
-- **Consulta Q2** habla de «la franja» y del descarte previo a los Espantos, que ya no existen.
-- **El Detective y Tomás** comparten sombrero y poncho petróleo: conviene diferenciarlos.
+- **El Detective (Fermín)** cambia su vestuario a naranja para no confundirse con Tomás (confirmado). Su ilustración aprobada se recolorea.
+- **Cartas de reglas (R01–R05) y de consulta (Q1–Q5):** en espera. Se rehacen después de cerrar las reglas; las ideas quedan guardadas.
+- **Tarjeta de cordura:** por decidir si se queda en el juego.
