@@ -76,6 +76,7 @@ def markdown(f, lote=None):
         L.append(f"| `{r['ruta']}` | {' · '.join(r['funciones'])} | {' '.join(dict.fromkeys(r['aporta']))} | {estado} |")
     L += ["", "## Cómo se revisa",
           "- Ver cada variante ampliada y a 58 × 88 mm (`scripts/revisar.py`), con el título tapado.",
+          "- Aplicar referencias/revision-visual.md de la skill. Anotar la zona observada, contacto o apoyo y decisión por variante.",
           f"- Al tapar el título debe leerse: {f['lectura_clave']}",
           "- Comparar materiales, planos y nivel de detalle con las referencias de acabado; pasar `fabrica/CONTROL_IA.md`.",
           "- **Criterio de aceptación:** (completar con algo que se pueda señalar en la imagen)", ""]

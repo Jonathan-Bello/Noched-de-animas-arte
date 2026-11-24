@@ -25,7 +25,7 @@ C["t3"] = dict(e="rehacer",
   r="Herramienta que busca Objetos movidos: el aparato que vigila mientras nadie mira.",
   a="Cámara compacta sobre trípode con luz roja apuntando a una mecedora tallada que se balancea sola, en un corredor de arcos con farol.",
   l="La cámara física, en el plano, apuntando al mueble que se mueve.",
-  pr="La cámara sobre su trípode, en primer plano, apunta a una silla que ya cayó y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).",
+  pr="La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).",
   alt="Desde detrás de la cámara: su pequeña pantalla muestra la mecedora quieta, pero en la habitación real la mecedora está a medio balanceo.")
 C["t4"] = dict(e="rehacer", p="Rafael",
   r="Herramienta que busca Luces parpadeantes: el medidor que reacciona a la presencia.",

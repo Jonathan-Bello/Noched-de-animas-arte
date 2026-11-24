@@ -47,7 +47,7 @@ Lee antes [PERSONAJES.md](../PERSONAJES.md) y [la guía de estilo](../../guias/E
 - **Qué representa:** Herramienta que busca Objetos movidos: el aparato que vigila mientras nadie mira.
 - **Arte actual:** Cámara compacta sobre trípode con luz roja apuntando a una mecedora tallada que se balancea sola, en un corredor de arcos con farol.
 - **Debe leerse a tamaño de mesa:** La cámara física, en el plano, apuntando al mueble que se mueve.
-- **Segunda tirada:** La cámara sobre su trípode, en primer plano, apunta a una silla que ya cayó y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
+- **Segunda tirada:** La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. Debe leerse cámara y suceso aunque se tape el título (indicación del autor del 24-nov).
 - **Alternativa:** Desde detrás de la cámara: su pequeña pantalla muestra la mecedora quieta, pero en la habitación real la mecedora está a medio balanceo.
 
 ## Detector EMF · `t4`

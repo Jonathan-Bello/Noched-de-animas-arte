@@ -84,6 +84,7 @@ Aplica [PERSONAJES.md](../../../fabrica/PERSONAJES.md) y [CONTINUIDAD.md](../../
 
 ### d) Variantes A y B
 
+- Preparar el encargo y revisar el resultado con [la dirección y revisión visual](referencias/revision-visual.md). Tras un tiraje rechazado, adjuntar exclusivamente las fuentes indicadas por el autor.
 - **A** es la escena principal de la ficha y **B**, la alternativa.
 - Anota en la ficha qué debe reconocerse en las dos (aparato o indicio, personaje, acabado) y qué cambia entre ellas: el lugar del observador o el instante.
 - Si el autor aprobó solo un concepto, como el voto B de t4, la idea se usa para la acción y se describe con palabras. El acabado se toma de las cartas elegidas, nunca del dibujo votado.

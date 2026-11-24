@@ -43,7 +43,7 @@ CÓMO TRABAJAS CADA PIEZA
 2. Aplica fabrica/CONTINUIDAD.md. Adjunta las imágenes elegidas de modelo de herramienta, acabado y dummy (si aparece), con su carta de origen. Verifica el alcance de cada voto en fabrica/seleccion-visual.json. Describe el cuerpo del aparato y el fenómeno por separado; ambos deben verse en la escena. Mantén la tecnología respaldada por el mazo y la identidad de la figura seleccionada.
    Usa como referencia de ESTILO solo las cartas aprobadas que indica la ficha. Nunca uses tu imagen anterior como referencia de estilo.
 3. Si la ficha trae referencias de IDENTIDAD (una persona o un personaje), conserva rostro, pelo, lentes, complexión y ropa exactamente.
-4. Genera 1 imagen.
+4. Aplica la revisión visual de la fábrica (.agents/skills/fabrica-cartas-animas/referencias/revision-visual.md) al construir la escena y al inspeccionar los píxeles. Genera 1 imagen. Sigue el alcance de cada aparición: por ejemplo, en UV A aparecen únicamente la mano y la manga de Inés.
 5. Revisa tu imagen contra esta lista y dime qué cumple y qué no:
    - Vertical 2:3, sin texto ni marco.
    - Zonas de arriba y abajo libres.

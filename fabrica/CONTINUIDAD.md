@@ -46,5 +46,5 @@ Comparar el resultado con las referencias. Identificar en la imagen dónde se ve
 
 **Dos casos de control del 24 de noviembre de 2026**
 
-- Cámara de movimiento: conservar la idea de la silla que cae y los cuadros desplazados. Un encuadre de vigilancia o un monitor solo dejan sin identificar la herramienta. Incluir la cámara físicamente en el plano, con dirección de toma comprensible.
+- Cámara de movimiento: conservar la idea de la silla a medio caer sobre dos patas y los cuadros desplazados. Un encuadre de vigilancia o un monitor solo dejan sin identificar la herramienta. Incluir la cámara físicamente en el plano, con dirección de toma comprensible.
 - Detector EMF: el voto B se limita al concepto según la aclaración del autor. Usar como idea la reacción simultánea del detector y las luces de habitaciones contiguas. Recuperar del original el modelo de aparato y la riqueza de planos. La ilustración B queda fuera de las referencias de acabado.
