@@ -147,9 +147,9 @@ C["R05"] = dict(e="en espera", p="Inés, Rafael, Tomás y un espíritu",
   pr="En espera: se rehace después de cerrar las reglas. Idea guardada: Arte que el autor quiere modificar. Un asiento vacío junto a los vivos; sobre la mesa, una mano traslúcida inclina una carta hacia ellos. El reflejo de la ventana atraviesa el brazo.",
   alt="Los cinco investigadores en la mesa; uno de ellos ya traslúcido, señalando la libreta sin hablar.")
 
-C["cordura"] = dict(e="por decidir",
-  r="Componente: cada investigador marca su cordura de 10 a 0 con un clip.",
-  a="No existe.",
+C["cordura"] = dict(e="falta", p="Los 5 investigadores",
+  r="Componente: alternativa con clip a las fichas de cordura impresas en 3D. Cada investigador marca su cordura de 10 a 0.",
+  a="Plantilla lista (web/plantillas/tarjeta-cordura.svg) con vistas previas usando los retratos del juego (web/plantillas/cordura/). Falta la ilustración final.",
   l="Que la zona de 4 o menos se lea como peligro.",
-  pr="Por decidir si se queda en el juego. Si se queda: una tarjeta por investigador con su retrato; la luz baja de cálida (10) a fría (0) y la franja de 4 o menos se ve más oscura. La escala la compone la plantilla.",
+  pr="Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona).",
   alt="Una veladora que se consume de arriba abajo a lo largo de la escala.")

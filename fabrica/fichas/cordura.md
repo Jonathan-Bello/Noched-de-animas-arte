@@ -1,31 +1,27 @@
-# Ficha · cordura · Tarjeta de cordura (×4)
+# Ficha · cordura · Tarjeta de cordura (una por investigador)
 
-> Esta pieza es sobre todo diseño gráfico: la ilustración la hace ChatGPT, y la escala y los números los compone Claude con plantilla.
+> Alternativa con clip a las fichas de cordura impresas en 3D (decisión de Jonathan, 24-nov-2026).
 
-**Tipo:** componente (no se baraja)
-**Reverso:** el de las cartas de consulta (por confirmar)
-**Qué hace en el juego:** cada investigador marca su cordura de 10 a 0 con un clip. Con 4 o menos puede ser cazado.
-**Estado:** ⬜ falta · **Versión que se pide:** v1
+**Tipo:** componente (no se baraja) · **Reverso:** el de las cartas de consulta
+**Qué hace en el juego:** cada investigador marca su cordura de 10 a 0 con un clip en el borde derecho. Con 4 o menos lo pueden cazar.
 
-> **Decidir antes de generar (Jonathan):**
-> 1. ¿Una tarjeta por investigador con su retrato (Inés, Rafael, Tomás, Amalia), o 4 iguales?
-> 2. ¿Escala vertical a un lado (clip en la orilla) o en la parte de abajo?
+## Ya está hecho (no lo hace la IA)
 
-## Qué debe contar la imagen
-Una sola ilustración de fondo, vertical: el investigador (o una veladora, si son iguales) que se va apagando de arriba abajo. Arriba la llama alta y la luz cálida; abajo, la penumbra fría y una sombra que se acerca.
+La plantilla se genera con `herramientas/tarjeta_cordura.py`:
+- franja «Cordura · nombre»;
+- escala del 10 al 0 pegada al borde derecho, con muescas para el clip; «inicio» en 10 y «inicio con 4» en 8;
+- del 4 al 0 en guinda con el ícono de cacería;
+- leyenda «Con 4 o menos, te pueden cazar.»
 
-## Debe verse
-- Degradado narrativo de luz: cálido arriba, frío abajo.
-- Espacio libre a lo largo de la orilla derecha (15 % del ancho) para la escala de 10 a 0, que pone la plantilla.
-- La franja de 4 o menos más oscura y amenazante, para que se lea el peligro.
+Vistas previas con los retratos actuales en `web/plantillas/cordura/`.
 
-## No debe verse
-- Números ni texto (los pone la plantilla).
-- Marco.
+## Lo que pide a ChatGPT: el retrato
 
-## Adjuntar
-- **Estilo:** `i09` Té de tila y `i11` Rosario.
-- **Identidad:** retrato aprobado de cada investigador, si son 4 distintas.
+Un retrato de medio cuerpo por investigador (Inés, Rafael, Tomás, Amalia, Padre Mateo), vertical, que ocupe la zona izquierda (40 × 70 mm, proporción 4:7):
+- **Identidad exacta** según [PERSONAJES.md](../PERSONAJES.md), con su objeto propio en la mano.
+- **Fondo:** penumbra de la casona, muy oscuro abajo (donde la escala es guinda) y con la luz cálida de su farol o veladora arriba.
+- Sin texto, sin marco, sin números.
 
-## Cómo se revisa
-Además de `CONTROL_IA.md`: con la escala puesta, el 4 se distingue de un vistazo.
+**Adjuntar:** su retrato de `web/mesa/arte/inv_<nombre>.webp` y, de estilo, `i10` Respirar hondo y `e01` Bajo cero.
+
+**Cómo se revisa:** con la escala puesta, el 4 se distingue de un vistazo y la cara queda arriba del 5.

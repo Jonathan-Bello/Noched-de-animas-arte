@@ -699,12 +699,12 @@
    "tipo": "espanto",
    "copias": 1,
    "reverso": "back04",
-   "estado": "rehacer",
+   "estado": "conservar",
    "personaje": null,
    "representa": "Penitencia: cada uno descarta un Rosario; quien no tenga pierde 3; luego cacería con 4 o menos.",
-   "arte_actual": "La carta actual se titula «Cadenas»: pies de investigadores encadenados sobre mosaicos rotos. No corresponde al Espanto vigente y se confunde con el Cadejo Negro, cuya ánima son las cadenas.",
-   "lectura_clave": "Perder el rosario.",
-   "propuesta": "Rehacer (confirmado por Jonathan): sin cadenas, para no confundirla con el Cadejo. Título «Penitencia». Un rosario se deshace sobre las manos de quien reza; las cuentas caen hacia una banda oscura al pie. La mujer del rebozo guinda observa desde la sombra.",
+   "arte_actual": "Pies de investigadores encadenados sobre mosaicos rotos; el primer eslabón sale entre dos mosaicos. La franja dice «Cadenas».",
+   "lectura_clave": "Las cadenas que atan a los investigadores.",
+   "propuesta": "Se conserva la ilustración con cadenas (decisión de Jonathan, 24-nov). Solo cambia el título de la franja: «Cadenas» pasa a «Penitencia».",
    "alternativa": "La mujer del rebozo extiende la mano y los rosarios de los investigadores se deslizan hacia ella por la mesa."
   },
   {
@@ -1659,12 +1659,12 @@
    "tipo": "componente",
    "copias": 4,
    "reverso": "Q1B",
-   "estado": "por decidir",
-   "personaje": null,
-   "representa": "Componente: cada investigador marca su cordura de 10 a 0 con un clip.",
-   "arte_actual": "No existe.",
+   "estado": "falta",
+   "personaje": "Los 5 investigadores",
+   "representa": "Componente: alternativa con clip a las fichas de cordura impresas en 3D. Cada investigador marca su cordura de 10 a 0.",
+   "arte_actual": "Plantilla lista (web/plantillas/tarjeta-cordura.svg) con vistas previas usando los retratos del juego (web/plantillas/cordura/). Falta la ilustración final.",
    "lectura_clave": "Que la zona de 4 o menos se lea como peligro.",
-   "propuesta": "Por decidir si se queda en el juego. Si se queda: una tarjeta por investigador con su retrato; la luz baja de cálida (10) a fría (0) y la franja de 4 o menos se ve más oscura. La escala la compone la plantilla.",
+   "propuesta": "Una tarjeta por investigador (5). Franja de título «Cordura · nombre»; retrato del investigador a la izquierda; escala del 10 al 0 pegada al borde derecho, donde entra el clip, con muescas; del 4 al 0 en guinda con el ícono de cacería; leyenda «Con 4 o menos, te pueden cazar.» Se genera con herramientas/tarjeta_cordura.py; ChatGPT solo hace el retrato de medio cuerpo (vertical, fondo oscuro de la casona).",
    "alternativa": "Una veladora que se consume de arriba abajo a lo largo de la escala."
   }
  ]

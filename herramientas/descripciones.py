@@ -87,11 +87,11 @@ readme = ["# Descripciones del catálogo · segunda tirada", "",
           "**Total:** " + ", ".join(f"{ESTADO[k]} {v}" for k, v in total.items()), "",
           "| Familia | Cartas | Estado |", "|---|---|---|", *indice, "",
           "## Correcciones detectadas al revisar el arte",
-          "- **Penitencia** (`es_anima`): la carta actual se titula «Cadenas» y se confunde con el Cadejo Negro. Se rehace sin cadenas (confirmado).",
+          "- **Penitencia** (`es_anima`): se conserva la ilustración con cadenas; solo cambia el título «Cadenas» por «Penitencia» (confirmado).",
           "- **Velar y Manifestar** muestran a los roles (Curandero y Detective); se rehacen con investigadores (confirmado).",
           "- **Esconderse** muestra a un joven que no coincide con ningún investigador; pasa a ser Tomás.",
           "- **El Detective (Fermín)** cambia su vestuario a naranja para no confundirse con Tomás (confirmado). Su ilustración aprobada se recolorea.",
           "- **Cartas de reglas (R01–R05) y de consulta (Q1–Q5):** en espera. Se rehacen después de cerrar las reglas; las ideas quedan guardadas.",
-          "- **Tarjeta de cordura:** por decidir si se queda en el juego.", ""]
+          "- **Tarjeta de cordura:** se hace como alternativa con clip a las fichas 3D. Plantilla en `web/plantillas/tarjeta-cordura.svg`.", ""]
 (D / "README.md").write_text("\n".join(readme), encoding="utf-8")
 print(len(salida), "cartas ·", total)
