@@ -1,6 +1,7 @@
 const el = id => document.getElementById(id);
 async function iniciar() {
-  const response = await fetch("catalogo/revision-lote-01.json");
+  const anterior = new URLSearchParams(location.search).get("lote") === "frentes-01";
+  const response = await fetch(anterior ? "catalogo/revision-lote-01.json" : "web/revision/herramientas-02/lote.json");
   if (!response.ok) throw new Error("No se pudo abrir el lote.");
   const {lote, cartas} = await response.json();
   const clave = "noche-de-animas/revision/" + lote;
