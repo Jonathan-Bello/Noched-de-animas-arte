@@ -1,0 +1,247 @@
+{
+ "lote": "familias-01",
+ "etapa": "guion",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "guiones": "https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/familias-01/README.md",
+ "cartas": [
+  {
+   "id": "t6",
+   "nombre": "Sensor de gases",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "El sensor de gases de aguja cuelga de su correa en el asa de un baúl viejo cerrado con candado. Por el ojo de la cerradura sale una hebra amarilla de azufre que se enrosca hasta la toma del aparato. La aguja está pegada al extremo rojo. Solo el aparato y el baúl; el cuarto cae en sombra.",
+    "sha256": "dd40d9a858647af665c8039765d30496ef7447b1ddc49984135aa31dd1cecdc6"
+   },
+   "b": {
+    "descripcion": "Vista desde arriba de un lavadero de piedra en el patio. El sensor está sobre el borde y su sonda entra en el desagüe; de ahí sube una lengua amarilla y la piedra alrededor amarillea. La sonda la sostiene una mano con el borde del rebozo crema de flores guinda (Amalia); no se ve más de ella.",
+    "sha256": "f1523f04d4cda822534d33e51892f4c44a29345c1709af3c2187a6faa2c8e36d"
+   },
+   "c": {
+    "descripcion": "En el sótano, el sensor de gases de aguja descansa sobre una repisa de cantera junto a varios frascos de conservas; la aguja está clavada en el extremo rojo de la escala. Al fondo, las etiquetas de los frascos se desprenden y ennegrecen mientras una fina capa de azufre cubre el vidrio.",
+    "sha256": "15501e130fa76e9448e53be81aea42962af09fb8847476d0311419e94d513154"
+   },
+   "d": {
+    "descripcion": "En la antigua despensa, el sensor permanece sujeto a una tubería de cobre que atraviesa el techo. La aguja oscila violentamente y pequeñas burbujas amarillas brotan de las uniones, mientras las manchas de corrosión avanzan por la pared.",
+    "sha256": "6d6aefac719e11a3ced539bb2083abaf882027d389e7e9b77cf7097b74a19596"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i07@2x.webp",
+    "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
+   }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "Primer plano de las manos de Rafael rodeando un jarro de barro humeante sobre el pretil de una ventana. Mangas crema remangadas. El vapor sube recto y quieto; afuera, la noche y una sola veladora. La calma se lee en el vapor sin agitación.",
+    "sha256": "0ce7ff13f7f5f672318222e93829381640bc144276864a2064ceef6db4c20375"
+   },
+   "b": {
+    "descripcion": "Rafael de espaldas en la azotea de la casona, con las manos abiertas sobre el pretil, mira un cielo despejado de estrellas. Los hombros bajan al soltar el aire. Abajo, el patio de la casa sigue en penumbra; arriba, todo está quieto.",
+    "sha256": "9a8bc3e331bc309455073fc4be3ef5764578e48687e6c3247b41a4c21c49fda8"
+   },
+   "c": {
+    "descripcion": "En la biblioteca, Rafael está sentado junto a un escritorio abierto, con los ojos cerrados y una mano sobre el abdomen mientras recupera el aliento. A su lado, una vela ilumina un pequeño montón de documentos olvidados que parecen recuperar sus colores bajo la luz tranquila.",
+    "sha256": "bdd4b78ed35a0953e4faf8f49f19cf12cebd42c05c64e49434fca219a885fd3e"
+   },
+   "d": {
+    "descripcion": "En el corredor de los retratos, Rafael se inclina sobre una pila de cojines bordados y respira pausadamente, con los hombros por fin relajados. Una corriente suave mueve las cortinas y deja al descubierto un pequeño relicario y una fotografía antigua sobre el alféizar.",
+    "sha256": "387b8e450db56c6479bfc1c160ef87902f0ad6625908e18d7fc1305a70321641"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i10@2x.webp",
+    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+   }
+  },
+  {
+   "id": "alba",
+   "nombre": "Alba",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "El portón de la casona entreabierto. La primera franja de luz rosa y dorada entra rasante por el piso de barro y alcanza una veladora consumida hasta su último centímetro; su humo sube recto. Todo lo demás sigue en azul noche.",
+    "sha256": "21626a728a6cdae96e3babd2b60e8c602c2a10b8a6e3d01fda3c66a5b3692155"
+   },
+   "b": {
+    "descripcion": "Desde lo alto del patio, la línea del sol cruza la fuente por la mitad: el agua de arriba ya es dorada y la de abajo sigue azul noche. Un gallo en el pretil, de perfil, con el pico abierto. Pétalos de cempasúchil en el agua.",
+    "sha256": "4f00cb61b9e5585adc9f4ba854037de2e0d515c81472ad50bf37d6b157ad1bcc"
+   },
+   "c": {
+    "descripcion": "En la capilla de la casona, la primera luz del día atraviesa un rosetón polvoriento y proyecta una corona dorada sobre el altar vacío. Las últimas sombras retroceden hasta desaparecer entre las grietas del retablo.",
+    "sha256": "41767c9ca472ac3020fece6b08e536f09b192cd6d2fac9425b09b6ca9cc0c056"
+   },
+   "d": {
+    "descripcion": "En el comedor, un reloj de péndulo marca la hora del amanecer mientras un rayo dorado ilumina la mesa cubierta de polvo. Las sombras de las sillas se acortan hasta quedar debajo de ellas y el reloj vuelve a ponerse en marcha.",
+    "sha256": "2270e72a0c5ab48f6c6c76c89d94f0c759938683bcf2f1984aad85110da3dcac"
+   },
+   "original": {
+    "archivo": "web/miniaturas/p02@2x.webp",
+    "sha256": "88238445aec43df1dcad03d9578d692fa150b62498d841dbed08c3e958c4adc9"
+   }
+  },
+  {
+   "id": "radio",
+   "nombre": "Radio",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "Dos radios de pilas idénticos en dos cuartos separados por un muro grueso, vistos en corte como dos nichos contiguos. El de la izquierda tiene la luz roja de transmisión encendida; el de la derecha, la luz verde de recepción. Una onda dibujada sale de una antena, atraviesa la cal del muro y entra en la otra.",
+    "sha256": "cc52f2a0807128969ee2d60a824c10702fc5b7e98952967d1558e39b62ab1028"
+   },
+   "b": {
+    "descripcion": "Por el hueco de una escalera, una mano con manga de sarape petróleo (Tomás) baja el radio de pilas hacia otra mano con el borde del rebozo crema de flores guinda (Amalia) que lo recibe. Las dos manos y el radio en el centro; el resto, oscuridad del cubo de la escalera.",
+    "sha256": "1e2a71c70a9046bfb5233750ff97169ca27dfa5456194828ed4f60607771f422"
+   },
+   "c": {
+    "descripcion": "Sobre una mesa del archivo, un radio de pilas transmite con la luz roja encendida mientras, a varios metros, otro aparato idéntico responde desde una repisa entre libros. Entre ambos, las ondas de la señal parecen enlazar dos pequeñas lámparas encendidas.",
+    "sha256": "b5ab1ebcb310becf19eb7760a4bb46cedf79ef1f52124c1e5c9c5bf4d47804bb"
+   },
+   "d": {
+    "descripcion": "Un radio de pilas reposa sobre el borde de una escalera de servicio, con el altavoz vibrando y la luz de recepción encendida. En el piso, una libreta abierta y un llavero descansan junto al aparato, como si un mensaje hubiera permitido localizar lo que se buscaba.",
+    "sha256": "0cf1a28fe3c8615c77b9d7a572b853fa7eb0658aec7a4d1e0427ebd393f3beb8"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o01@2x.webp",
+    "sha256": "8a366eec49ab1e55bd0861c55cd061ecffe92a38f9fc25856d4a236b3eb8b004"
+   }
+  },
+  {
+   "id": "portazo",
+   "nombre": "Portazo",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "Un pasillo con tres puertas a la izquierda. Las tres se cierran en el mismo instante y la corriente arrastra por el piso de baldosa las hojas sueltas de una libreta, dos fotografías y una pluma. El golpe se lee por el polvo que cae de los dinteles.",
+    "sha256": "6b757c4e9af19216fcace1204ee810cb52fe800c95c3b2b68ce2899b0a6780be"
+   },
+   "b": {
+    "descripcion": "Primer plano de un morral de investigador colgado de un picaporte. El portazo lo sacude: de su boca caen una linterna, un frasco de hierbas y una libreta, suspendidos en el aire antes de tocar el piso. La puerta, cerrada de golpe, ocupa el fondo.",
+    "sha256": "5530dc25067738df906ff83e5193c23fa5bee0772aabf3e1e345fe5100166f71"
+   },
+   "c": {
+    "descripcion": "En la galería de los espejos, una puerta estrecha se estrella contra su marco y hace temblar todos los cristales al mismo tiempo. De las molduras caen pequeños objetos, fotografías y papeles que se dispersan por el suelo en una ráfaga violenta.",
+    "sha256": "18b206504193b7b694e29cb4081876827b2c8cf862b48ed570e1c260ec19e764"
+   },
+   "d": {
+    "descripcion": "En el antiguo comedor, una puerta de servicio se cierra con tal fuerza que las vitrinas se abren de golpe y sus cajones se vacían sobre las baldosas. Los retratos de la pared quedan ladeados y una nube de polvo rojo oscuro llena el aire.",
+    "sha256": "600addd9af6cce4aeb814f6de613e4ea2ab1a21fb1fdd91982aa435c4c2c1f22"
+   },
+   "original": {
+    "archivo": "web/miniaturas/a02@2x.webp",
+    "sha256": "b69de2b73940b490edc48a1728ddb922ca3cbb0f27e905159425258e8436f363"
+   }
+  },
+  {
+   "id": "h0",
+   "nombre": "Helada",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "Un ropero de madera tallada con las puertas entreabiertas, el escondite obvio. La escarcha avanza desde la cerradura en helechos de hielo y está sellando la rendija; por esa rendija sale una voluta de vaho. No se ve a nadie.",
+    "sha256": "8ddd44b39e6a3dfe784c520ed5dba111da7bb345e9718728a06cc7ed2c59c6aa"
+   },
+   "b": {
+    "descripcion": "El hueco bajo la escalera, otro escondite. La escarcha cubre los peldaños desde arriba como un manto de helechos que avanza hacia una vela en el piso; la mitad de la llama ya es de hielo. Azul petróleo y crema.",
+    "sha256": "c5d76016f8722294040722a80a6bfa6e301fdf892549e68f54dac181e9f2e07d"
+   },
+   "c": {
+    "descripcion": "En el interior de un antiguo arcón de ropa blanca, la escarcha cubre mantas y sábanas hasta convertirlas en bloques rígidos de hielo. Una costra helada sella por completo la tapa y se extiende por las junturas de la madera, haciendo imposible abrirlo.",
+    "sha256": "86f079da3dde8de5013e1174e9c23ca638b6a4dc594bb7de76ed8036bb833a9d"
+   },
+   "d": {
+    "descripcion": "En el hueco de un antiguo horno de pan, la escarcha invade la cámara de ladrillo y forma gruesas agujas de hielo que cierran su abertura. La puerta metálica queda soldada por una capa blanca y el interior desaparece detrás de una cortina de hielo.",
+    "sha256": "276261fc9f746574fce69c03dbd38f146fc242092a8f54204f4eda3e9601b12d"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h01@2x.webp",
+    "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b"
+   }
+  },
+  {
+   "id": "id_cadejo",
+   "nombre": "El Cadejo Negro",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "descripcion": "El Cadejo de pie sobre la barda de adobe de la casona, recortado contra una luna grande. La cadena le cuelga del cuello y cae hasta el camino vacío. Ojos rojos mirando hacia abajo, al camino. Pelaje erizado en masa negra.",
+    "sha256": "acb3f563641fc53d308424602dc28493c9a35d98116a9a89357e4e9fae9cf9fe"
+   },
+   "b": {
+    "descripcion": "El Cadejo cruza bajo un arco de la casona, de cuerpo completo en tres cuartos. Cada pisada deja ceniza en las baldosas; el farol del arco parpadea y una hebra amarilla de azufre sale de su hocico. Solo él en la escena.",
+    "sha256": "fde5b164f2e5c249c14b61ac6716384bfbdaa74a7c897a4763698e224100848f"
+   },
+   "c": {
+    "descripcion": "El Cadejo Negro aparece en el antiguo puente de piedra del jardín, con las cadenas arrastrándose entre los arcos y los ojos rojos encendidos en la oscuridad. Bajo su cuerpo, las piedras se cubren de ceniza y las lámparas del puente se apagan una tras otra.",
+    "sha256": "12db30ab3ab7ee2944f72b8b3b6589355f89df1bb138c0f702c713acf10bbd6c"
+   },
+   "d": {
+    "descripcion": "El enorme Cadejo Negro permanece erguido en el centro del comedor, con el lomo erizado y las cadenas extendidas alrededor de sus patas. Sus ojos rojos iluminan una mesa ennegrecida por el azufre, mientras las copas de cristal vibran y se agrietan a su alrededor.",
+    "sha256": "59f64b57eb40ef1219812219ac7342a3a5fd99a28ce8b5b3f00fefc40f91aaf0"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id18@2x.webp",
+    "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84"
+   }
+  },
+  {
+   "id": "es_mulata",
+   "nombre": "El barco en la pared",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "descripcion": "La Mulata de Córdoba de pie en su celda termina el último trazo de carbón. El barco dibujado ya se hincha en relieve y su vela se infla. Del muro brota agua salada que gira en remolino hacia la izquierda a sus pies. Solo ella.",
+    "sha256": "f6c2b81f1fb711e0aa205ddb8affe2748fb652d1e515b8a95a2bfdd8fd7b24a5"
+   },
+   "b": {
+    "descripcion": "Primer plano: la Mulata, de perfil, de pie en la proa del barco que sale del muro, sujeta el palo mayor. Detrás de ella queda en la cal el contorno vacío de carbón. La estela barre hacia la izquierda los objetos de la mesa de la celda: farol, libreta y linterna. Nadie más.",
+    "sha256": "32e6a4aaae26c0dc9c5719be5e8f4f5bed1344022498092765157c28b4051fc1"
+   },
+   "c": {
+    "descripcion": "La Mulata de Córdoba permanece arrodillada frente al muro de su celda, con el pañuelo rojo cayéndole sobre un hombro y los aros brillando tenuemente. Un río de agua carmesí atraviesa las baldosas de derecha a izquierda y arrastra los grilletes, las vasijas y el polvo hacia una grieta que se abre bajo la pared.",
+    "sha256": "411935217dce4c4db0c9921622b5a0bfa2a383346f8ed2949b682da227b0503a"
+   },
+   "d": {
+    "descripcion": "En el techo abovedado de la celda, la Mulata contempla un barco de carbón que se despliega sobre la piedra como una embarcación suspendida. El agua roja sube por las columnas y cambia de dirección alrededor de la bóveda, mientras los candiles y las cadenas se inclinan hacia la izquierda como si una corriente invisible los arrastrara.",
+    "sha256": "aafda8f5134325ea17db432e36dbb223cf9a46e28df204a3a49e58f37ae80a7d"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s20@2x.webp",
+    "sha256": "3b32a415c8f03881c3eb69c6468c2e237a5d7f12241ff2ff9d3bbcfc06422354"
+   }
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "descripcion": "La ofrenda de la sala: todas las fotografías de los difuntos aparecen vueltas hacia la pared, de espaldas. Las velas, el pan y el cempasúchil siguen en su sitio. Luz ámbar de veladora.",
+    "sha256": "d6b0068186e948bdeab66871b9572bc584dbd2beda941307e12d0f065ce9818e"
+   },
+   "b": {
+    "descripcion": "Los platos del trastero de talavera apilados en una torre perfecta en el centro del piso de la cocina, frente a la repisa vacía. La torre es más alta que la mesa y no se cae.",
+    "sha256": "095fbe6b8451813a28d66c65b1bd2679ba03307963187416816db449b0fbb69a"
+   },
+   "c": {
+    "descripcion": "En el cuarto de costura, todas las bobinas de hilo aparecen ordenadas por tamaño en una espiral perfecta sobre la mesa, con las tijeras colocadas exactamente en el centro. La máquina de coser está abierta y sus carretes, agujas y dedales forman una fila impecable sobre el suelo.",
+    "sha256": "93bbc208b57f5a2ad1905ffd4a888ca385dbeb3bd05eaff0826a2102d1511656"
+   },
+   "d": {
+    "descripcion": "En la bodega de vinos, varias botellas han abandonado sus estantes y aparecen acomodadas en una espiral perfectamente simétrica alrededor de una lámpara apagada. En el suelo, los corchos forman un círculo concéntrico y las etiquetas de las botellas están alineadas cuidadosamente hacia arriba.",
+    "sha256": "0da7db5de67ae3a7f65ef5f96dd95226b6ccb2a4c415dae7da27405c68c3600a"
+   },
+   "original": {
+    "archivo": "web/miniaturas/e04@2x.webp",
+    "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+   }
+  }
+ ]
+}

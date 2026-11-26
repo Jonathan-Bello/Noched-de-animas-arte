@@ -16,3 +16,7 @@
 @media (max-width: 699px) {
   .par.comparativa article:last-child:nth-child(even) { grid-column: auto; max-width: none; }
 }
+
+.par blockquote.guion { margin: 0; padding: .9rem; min-height: 12rem; background: var(--surface); border: 1px solid var(--line); border-radius: .5rem; line-height: 1.5; font-size: .97rem; }
+.revision .nota { display: grid; gap: .4rem; margin-top: 1.2rem; }
+.revision .nota textarea { background: var(--surface); color: var(--cream); border: 1px solid var(--line); border-radius: .4rem; padding: .65rem; font: inherit; resize: vertical; }

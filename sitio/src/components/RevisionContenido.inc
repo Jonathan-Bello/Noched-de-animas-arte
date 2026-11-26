@@ -1,6 +1,6 @@
 <h1>Comparar ilustraciones</h1>
 <nav class="controles" aria-label="Lotes de revisión"></nav>
-<p>Abre una ilustración para verla en grande. Elige la propuesta que conservarías o descarta la ronda. El avance se guarda en este navegador.</p>
+<p>Abre una ilustración para verla en grande. Elige la propuesta que conservarías o descarta la ronda, y escribe por qué. El avance se guarda en este navegador.</p>
 <p id="aviso" role="status">Cargando el lote…</p>
 <section id="visor" hidden>
   <div class="controles">
@@ -12,6 +12,9 @@
   <p id="familia"></p><h2 id="nombre"></h2>
   <p id="credito"></p>
   <div class="par" id="opciones"></div>
+  <label class="nota">¿Qué te gustó y qué no? Puedes nombrar la opción (A, B, C, D u original). Se guarda con tu selección.
+    <textarea id="nota" rows="3" placeholder="Ej.: B me gustó por la luz; C no, porque sale gente."></textarea>
+  </label>
   <div class="controles">
     <button id="descartar" hidden>Descartar todas las propuestas</button>
     <button id="descargar">Descargar selección JSON</button>
