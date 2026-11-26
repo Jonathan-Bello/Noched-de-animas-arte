@@ -22,6 +22,8 @@ Entregar únicamente las variantes pedidas. La publicación se gestiona con el [
 
 Jonathan usa ChatGPT en su propia aplicación, con su cuenta y su proyecto. Claude no abre chatgpt.com ni le escribe por el navegador. Cuando un tiraje necesita escenas o imágenes de ChatGPT, Claude deja en cada ficha el bloque «Encargo» listo para pegar, y Jonathan devuelve el resultado (texto para `descripciones.json` o imágenes para `fabrica/entrada/`).
 
+Para una tanda nueva, Claude escribe A y B y deja la carpeta del lote; Jonathan pega en ChatGPT el [prompt de tanda](../../../../fabrica/PROMPT_TANDA_CHATGPT.md), que escribe C y D, publica la tanda en el comparador e ilustra lo elegido.
+
 ## Comparador web
 
 Todo lo que el autor tiene que decidir se publica en el comparador (`revision.html?lote=<lote>`), en dos etapas:

@@ -49,6 +49,7 @@ async function iniciar() {
   const porId = new Map(cartas.map(c => [claveCarta(c), c]));
   let votos = new Map();
   let notas = new Map();
+  let porques = new Map();
   let posicion = 0;
   let render = 0;
 
@@ -57,7 +58,9 @@ async function iniciar() {
       elecciones: cartas.filter(c => votos.has(claveCarta(c))).map(c => {
         const opcion = votos.get(claveCarta(c));
         const nota = notas.get(claveCarta(c));
-        return {id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), opcion, sha256: huella(c, opcion), ...(nota ? {nota} : {})};
+        const porque = opcion === "original" ? porques.get(claveCarta(c)) : "";
+        return {id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), opcion, sha256: huella(c, opcion),
+          ...(porque ? {porque} : {}), ...(nota ? {nota} : {})};
       }),
       notas: cartas.filter(c => notas.get(claveCarta(c)) && !votos.has(claveCarta(c)))
         .map(c => ({id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), nota: notas.get(claveCarta(c))}))};
@@ -67,6 +70,7 @@ async function iniciar() {
     const nuevos = new Map();
     for (const n of [...(datos.notas || []), ...datos.elecciones]) {
       if (n.nota && porId.has(n.pieza || n.id)) notas.set(n.pieza || n.id, String(n.nota));
+      if (n.porque && porId.has(n.pieza || n.id)) porques.set(n.pieza || n.id, String(n.porque));
     }
     for (const voto of datos.elecciones) {
       const id = voto.pieza || voto.id;
@@ -96,7 +100,7 @@ async function iniciar() {
     el("aviso").textContent = carta.nombre + " · " + (opcion === "ninguna" ? "ronda descartada." : "elegida " + opcion.toUpperCase() + ".") + " Escribe por qué y pasa a la siguiente.";
     guardar();
     mostrar();
-    el("nota").focus?.();
+    (opcion === "original" ? el("porque-original") : el("nota"))?.focus?.();
   }
   function mostrar() {
     const c = cartas[posicion];
@@ -158,6 +162,22 @@ async function iniciar() {
       boton.textContent = o === "original" ? (activa ? "Original seleccionado" : "Conservar original") : (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
       boton.onclick = () => votar(c, o);
       art.append(rotulo, zoom, boton);
+      if (o === "original" && activa) {
+        const caja = document.createElement("label");
+        caja.className = "porque";
+        caja.textContent = "¿Por qué conservas el original? (opcional)";
+        const area = document.createElement("textarea");
+        area.id = "porque-original";
+        area.rows = 3;
+        area.placeholder = "Ej.: la silueta del perro se lee mejor que en las propuestas.";
+        area.value = porques.get(claveCarta(c)) || "";
+        area.oninput = () => {
+          if (area.value.trim()) porques.set(claveCarta(c), area.value); else porques.delete(claveCarta(c));
+          guardar();
+        };
+        caja.append(area);
+        art.append(caja);
+      }
       if (c[o].descripcion) {
         const ficha = document.createElement("details");
         const titulo = document.createElement("summary");

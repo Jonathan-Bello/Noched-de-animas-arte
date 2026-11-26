@@ -261,9 +261,11 @@ def registrar(p):
             nuevo["etapa"] = datos["etapa"]
             if e["opcion"] in ("a", "b", "c", "d") and c.get(e["opcion"], {}).get("descripcion"):
                 nuevo["guion"] = c[e["opcion"]]["descripcion"]
+        if e.get("porque") and e["opcion"] == "original":
+            nuevo["porque"] = e["porque"]
         if e.get("nota"):
             nuevo["nota"] = e["nota"]
-        if previo and all(previo.get(k) == nuevo.get(k) for k in ("lote", "voto", "sha256", "alcance", "nota")):
+        if previo and all(previo.get(k) == nuevo.get(k) for k in ("lote", "voto", "sha256", "alcance", "nota", "porque")):
             continue
         if previo:
             historial = previo.pop("historial", [])
