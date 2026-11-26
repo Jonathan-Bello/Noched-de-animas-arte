@@ -33,7 +33,7 @@ De 65 elecciones, Jonathan conservó el original en 47 y eligió una propuesta e
 - Al pedir la ilustración, escribirlo explícitamente: «toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz; sin azul, verde ni petróleo».
 - Comprobar con `scripts/paleta_familia.py` antes de publicar en el selector.
 
-Algunos Espantos aprobados todavía muestran a una persona (los pies de *Cadenas*, las víctimas de *Canto de la ceiba*). Se conservan, pero no son modelo para escenas nuevas.
+*Cadenas* (los pies de una persona) y *Canto de la ceiba* (sus víctimas) se quedan como están por decisión de Jonathan (25-nov-2026): no se rehacen ni se proponen variantes para ellos. La regla de «solo el ánima» aplica a las escenas nuevas.
 
 ## Herramientas, objetos, apoyos y evidencias
 
