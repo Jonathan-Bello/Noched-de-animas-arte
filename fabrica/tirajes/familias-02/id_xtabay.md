@@ -18,10 +18,10 @@ Xtabay de espaldas entre las raíces de la ceiba, mirando por encima del hombro.
 Xtabay de pie en un claro, cantando con los ojos cerrados. Las flores de su cabello se desprenden y flotan hacia el tronco de la ceiba, que se abre en una grieta de luz dorada. Nadie más.
 
 ## Variante C · ChatGPT
-(pendiente)
+Xtabay cruza de perfil una vereda bajo la ceiba, con el pelo negro florido casi hasta el suelo y el peine prendido a la cintura de su vestido bordado. La luz dorada sigue el canto en su boca y perfila las hojas, mientras el fondo queda en morado nocturno.
 
 ## Variante D · ChatGPT
-(pendiente)
+En una hondonada del monte, Xtabay se acuclilla para recuperar el peine que quedó atrapado entre las espinas de una ceiba joven. Su cabello negro con flores le cae hasta el suelo, y el bordado del vestido recoge el dorado del tronco contra el fondo morado.
 
 ## Adjuntar
 - `id14` — identidad de Xtabay: rostro, cabello con flores, peine, ceiba (no su pose). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/id14@2x.webp

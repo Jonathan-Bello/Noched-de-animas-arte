@@ -16,8 +16,8 @@
    "variantes": {
     "a": "El kit de campo desplegado como un rollo de cuero sobre un peldaño de piedra. Cada bolsillo guarda un instrumento distinto: frasco de ceniza, lupa, vela, termómetro pequeño. Un bolsillo está vacío, recién usado. Solo el kit; la escalera se pierde en sombra.",
     "b": "La mano de Tomás, con el borde del sarape petróleo, sostiene por una correa un manojo de instrumentos colgados: frasco, lupa y brújula oscilan, y uno de ellos queda al frente, iluminado. Detrás, la puerta del sótano en sombra.",
-    "c": "",
-    "d": ""
+    "c": "En el zaguán, el maletín de cuero del kit está cerrado sobre un banco y sirve de apoyo a una bandeja extraíble con una brújula, una lupa y una linterna cilíndrica, cada uno encajado en su hueco. La mano de Tomás, visible por el borde del sarape petróleo, levanta solo la lupa y deja al descubierto la marca circular de su alojamiento.",
+    "d": "En el taller de la casona, el maletín de cuero está de canto sobre una mesa de carpintero y un cajetín lateral asoma por debajo de las hebillas. La linterna UV cilíndrica, con su lente frontal y el botón visible, está adelantada en su ranura, lista para salir, mientras la brújula y la lupa siguen sujetas en el cajetín."
    }
   },
   {
@@ -29,8 +29,8 @@
    "variantes": {
     "a": "Un solo arcano boca arriba, apoyado contra una calavera de azúcar e iluminado por una veladora. Delante, un dado de hueso detenido en el seis. La sombra del arcano se alarga sobre el mantel bordado.",
     "b": "Vista cenital de un paño bordado: un círculo de arcanos boca abajo y, fuera del círculo, el dado de hueso que rodó hasta quedar en el cinco. Uno solo de los arcanos se ha volteado boca arriba.",
-    "c": "",
-    "d": ""
+    "c": "Sobre el mostrador de la despensa, un dado de hueso detenido en cinco queda junto a un arcano con filigrana de escarcha. En mitad de la filigrana queda un hueco seco con la silueta nítida de un copo de hielo, como si ese indicio hubiera desaparecido de la imagen.",
+    "d": "En el hueco de una ventana, un arcano atrapado entre dos barrotes deja pasar la luz por el perfil calado de una pisada. El contorno vacío se proyecta sobre el alféizar, junto a un dado de hueso detenido en seis."
    }
   },
   {
@@ -42,8 +42,8 @@
    "variantes": {
     "a": "La lámpara UV encendida sobre una repisa. Su haz violeta se dobla en el aire hacia el techo como si lo jalaran y se apaga en espiral; la tapa del compartimento salta y la pila cae.",
     "b": "La cámara de movimiento sobre su trípode ha girado sola hacia la pared. La luz roja de grabación parpadea y el lente está empañado con la huella de un dedo demasiado largo.",
-    "c": "",
-    "d": ""
+    "c": "En la cocina, el termómetro de empuñadura ancha queda sobre la mesa, con sus botones enteros y la pantalla partida por dentro. Los segmentos del visor se apagan a ambos lados de la grieta, mientras la luz del fogón deja ver que la carcasa sigue intacta.",
+    "d": "En el cuarto de costura, el detector EMF descansa boca arriba sobre un costurero cerrado. Sus cinco luces, del verde al rojo, se desprenden juntas de la carcasa como cuentas arrancadas de un hilo, y en el aparato solo queda la hilera de cinco huecos oscuros."
    }
   },
   {
@@ -55,8 +55,8 @@
    "variantes": {
     "a": "El pozo del patio de noche. El lamento sube desde el fondo: el agua tiembla en anillos, el cubo de madera colgado de la cuerda vibra y las flores de cempasúchil del brocal se doblan hacia afuera.",
     "b": "La espadaña de la capilla con sus dos campanas quietas. De la boca de las campanas caen polvo y cintas pálidas de sonido que bajan en espiral hacia el patio vacío.",
-    "c": "",
-    "d": ""
+    "c": "En el corredor de servicio, un lamento se cuela por las rendijas de una puerta cerrada como dos bandas de aire que se abren hacia los cuartos vecinos. Las llamas de las veladoras a ambos lados se inclinan hacia afuera al mismo tiempo, siguiendo el paso de la voz.",
+    "d": "En la escalera del zaguán, una nota larga brota del hueco bajo los peldaños y hace vibrar los barrotes del pasamanos. Después del golpe quedan dos hilos finos de voz en el descanso, con el polvo todavía suspendido alrededor del primer barrote."
    }
   },
   {
@@ -68,8 +68,8 @@
    "variantes": {
     "a": "Xtabay de espaldas entre las raíces de la ceiba, mirando por encima del hombro. Su cabello negro con flores cae hasta el suelo y se confunde con las raíces. Dorado de hojas y morado de noche. Solo ella.",
     "b": "Xtabay de pie en un claro, cantando con los ojos cerrados. Las flores de su cabello se desprenden y flotan hacia el tronco de la ceiba, que se abre en una grieta de luz dorada. Nadie más.",
-    "c": "",
-    "d": ""
+    "c": "Xtabay cruza de perfil una vereda bajo la ceiba, con el pelo negro florido casi hasta el suelo y el peine prendido a la cintura de su vestido bordado. La luz dorada sigue el canto en su boca y perfila las hojas, mientras el fondo queda en morado nocturno.",
+    "d": "En una hondonada del monte, Xtabay se acuclilla para recuperar el peine que quedó atrapado entre las espinas de una ceiba joven. Su cabello negro con flores le cae hasta el suelo, y el bordado del vestido recoge el dorado del tronco contra el fondo morado."
    }
   },
   {
@@ -81,8 +81,8 @@
    "variantes": {
     "a": "El Guardián del Entierro emerge de una losa rota hasta la cintura, con las palmas abiertas hacia arriba reclamando el oro. A su alrededor, las monedas regresan solas rodando hacia el hueco. Solo él.",
     "b": "Primer plano del rostro del anciano espectral sobre una vasija de barro rebosante de monedas. Una mano tapa la boca de la vasija y la otra señala fuera del cuadro, exigiendo. Nadie más.",
-    "c": "",
-    "d": ""
+    "c": "El Guardián, anciano traslúcido de bigote, cruza de frente el arco estrecho de una bodega y golpea la jamba con la palma. Un reguero de llamas persigue la única moneda que rueda hacia la salida, mientras las devueltas quedan apagadas en un hueco del muro. Toda la escena en carmín, guinda y negro, con oro solo como luz en la moneda y las llamas.",
+    "d": "El Guardián del Entierro baja de costado por la escalera, con el bigote recortado en luz y un brazo extendido hacia una moneda olvidada bajo el último peldaño. Su golpe enciende la madera que la cubre y cierra la salida con fuego. Toda la escena en carmín, guinda y negro, con crema y oro solo como luz."
    }
   },
   {
@@ -94,8 +94,8 @@
    "variantes": {
     "a": "El Cadejo agazapado de frente. De su collar sale una sola cadena que se parte en dos y se clava en dos argollas del piso, una a cada lado del cuadro, tensas como si sujetaran algo fuera de vista. Solo él.",
     "b": "Vista a ras del suelo: las patas delanteras del Cadejo sobre las baldosas. La cadena que le cuelga se enrolla en dos morrales caídos y los ata juntos; los arrastra en el mismo tirón. Nadie más.",
-    "c": "",
-    "d": ""
+    "c": "El Cadejo Negro embiste de costado en el comedor, con el pelo erizado y los ojos rojos. Su cadena pasa por los tiradores de dos cajones de un aparador y los arranca juntos, dejando dos huecos del mismo tamaño en la madera. Toda la escena en carmín, guinda y negro, con crema solo como luz en los eslabones.",
+    "d": "El Cadejo Negro trepa hacia el rellano, de perfil, con el cuello bajo y una cadena intacta tirante desde el collar. En el arranque de la escalera, la cadena enlaza dos sillas enfrentadas y las vuelca juntas en el mismo tirón. Toda la escena en carmín, guinda y negro, con oro solo como luz en el hierro."
    }
   },
   {
@@ -107,8 +107,8 @@
    "variantes": {
     "a": "Un espejo de cuerpo entero en el pasillo, cubierto de vaho. Una hilera de pisadas descalzas sube por el vidrio desde el marco inferior hasta perderse arriba. Luz ámbar de veladora.",
     "b": "El espejo del tocador con un dibujo de cempasúchil y una cruz trazados en el vaho desde el otro lado del vidrio: los trazos están invertidos respecto al cuarto. Sin letras.",
-    "c": "",
-    "d": ""
+    "c": "En el cubículo del lavamanos, un espejo rectangular fijo tiene tres surcos paralelos en la cara interna, visibles por la franja de vidrio que quedó limpia. Las gotas ya asentadas bordean los surcos y la luz lateral permite ver que el cristal exterior sigue entero.",
+    "d": "En la antesala, un espejo mural biselado conserva dos arcos concéntricos en el vaho. Los arcos continúan bajo un desprendimiento del azogue, con los bordes secos y pequeñas gotas acumuladas en el canto inferior."
    }
   }
  ]

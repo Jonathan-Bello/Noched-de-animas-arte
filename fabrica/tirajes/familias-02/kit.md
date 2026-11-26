@@ -18,10 +18,10 @@ El kit de campo desplegado como un rollo de cuero sobre un peldaño de piedra. C
 La mano de Tomás, con el borde del sarape petróleo, sostiene por una correa un manojo de instrumentos colgados: frasco, lupa y brújula oscilan, y uno de ellos queda al frente, iluminado. Detrás, la puerta del sótano en sombra.
 
 ## Variante C · ChatGPT
-(pendiente)
+En el zaguán, el maletín de cuero del kit está cerrado sobre un banco y sirve de apoyo a una bandeja extraíble con una brújula, una lupa y una linterna cilíndrica, cada uno encajado en su hueco. La mano de Tomás, visible por el borde del sarape petróleo, levanta solo la lupa y deja al descubierto la marca circular de su alojamiento.
 
 ## Variante D · ChatGPT
-(pendiente)
+En el taller de la casona, el maletín de cuero está de canto sobre una mesa de carpintero y un cajetín lateral asoma por debajo de las hebillas. La linterna UV cilíndrica, con su lente frontal y el botón visible, está adelantada en su ranura, lista para salir, mientras la brújula y la lupa siguen sujetas en el cajetín.
 
 ## Adjuntar
 - `i08` — modelo del kit: cuero, correas e instrumentos (no la maleta abierta). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/i08@2x.webp

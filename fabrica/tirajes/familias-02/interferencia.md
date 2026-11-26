@@ -18,10 +18,10 @@ La lámpara UV encendida sobre una repisa. Su haz violeta se dobla en el aire ha
 La cámara de movimiento sobre su trípode ha girado sola hacia la pared. La luz roja de grabación parpadea y el lente está empañado con la huella de un dedo demasiado largo.
 
 ## Variante C · ChatGPT
-(pendiente)
+En la cocina, el termómetro de empuñadura ancha queda sobre la mesa, con sus botones enteros y la pantalla partida por dentro. Los segmentos del visor se apagan a ambos lados de la grieta, mientras la luz del fogón deja ver que la carcasa sigue intacta.
 
 ## Variante D · ChatGPT
-(pendiente)
+En el cuarto de costura, el detector EMF descansa boca arriba sobre un costurero cerrado. Sus cinco luces, del verde al rojo, se desprenden juntas de la carcasa como cuentas arrancadas de un hilo, y en el aparato solo queda la hilera de cinco huecos oscuros.
 
 ## Adjuntar
 - `a06` — acabado de familia (no los tres aparatos juntos). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/a06@2x.webp

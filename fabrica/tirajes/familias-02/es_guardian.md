@@ -18,10 +18,10 @@ El Guardián del Entierro emerge de una losa rota hasta la cintura, con las palm
 Primer plano del rostro del anciano espectral sobre una vasija de barro rebosante de monedas. Una mano tapa la boca de la vasija y la otra señala fuera del cuadro, exigiendo. Nadie más.
 
 ## Variante C · ChatGPT
-(pendiente)
+El Guardián, anciano traslúcido de bigote, cruza de frente el arco estrecho de una bodega y golpea la jamba con la palma. Un reguero de llamas persigue la única moneda que rueda hacia la salida, mientras las devueltas quedan apagadas en un hueco del muro. Toda la escena en carmín, guinda y negro, con oro solo como luz en la moneda y las llamas.
 
 ## Variante D · ChatGPT
-(pendiente)
+El Guardián del Entierro baja de costado por la escalera, con el bigote recortado en luz y un brazo extendido hacia una moneda olvidada bajo el último peldaño. Su golpe enciende la madera que la cubre y cierra la salida con fuego. Toda la escena en carmín, guinda y negro, con crema y oro solo como luz.
 
 ## Adjuntar
 - `id16` — identidad del Guardián: anciano de bigote, traslúcido (no su color azul). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/id16@2x.webp

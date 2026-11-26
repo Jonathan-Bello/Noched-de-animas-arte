@@ -18,10 +18,10 @@ Un espejo de cuerpo entero en el pasillo, cubierto de vaho. Una hilera de pisada
 El espejo del tocador con un dibujo de cempasúchil y una cruz trazados en el vaho desde el otro lado del vidrio: los trazos están invertidos respecto al cuarto. Sin letras.
 
 ## Variante C · ChatGPT
-(pendiente)
+En el cubículo del lavamanos, un espejo rectangular fijo tiene tres surcos paralelos en la cara interna, visibles por la franja de vidrio que quedó limpia. Las gotas ya asentadas bordean los surcos y la luz lateral permite ver que el cristal exterior sigue entero.
 
 ## Variante D · ChatGPT
-(pendiente)
+En la antesala, un espejo mural biselado conserva dos arcos concéntricos en el vaho. Los arcos continúan bajo un desprendimiento del azogue, con los bordes secos y pequeñas gotas acumuladas en el canto inferior.
 
 ## Adjuntar
 - `e06` — acabado de familia y vaho (no la mano). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/e06@2x.webp

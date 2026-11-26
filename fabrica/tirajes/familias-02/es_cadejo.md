@@ -18,10 +18,10 @@ El Cadejo agazapado de frente. De su collar sale una sola cadena que se parte en
 Vista a ras del suelo: las patas delanteras del Cadejo sobre las baldosas. La cadena que le cuelga se enrolla en dos morrales caídos y los ata juntos; los arrastra en el mismo tirón. Nadie más.
 
 ## Variante C · ChatGPT
-(pendiente)
+El Cadejo Negro embiste de costado en el comedor, con el pelo erizado y los ojos rojos. Su cadena pasa por los tiradores de dos cajones de un aparador y los arranca juntos, dejando dos huecos del mismo tamaño en la madera. Toda la escena en carmín, guinda y negro, con crema solo como luz en los eslabones.
 
 ## Variante D · ChatGPT
-(pendiente)
+El Cadejo Negro trepa hacia el rellano, de perfil, con el cuello bajo y una cadena intacta tirante desde el collar. En el arranque de la escalera, la cadena enlaza dos sillas enfrentadas y las vuelca juntas en el mismo tirón. Toda la escena en carmín, guinda y negro, con oro solo como luz en el hierro.
 
 ## Adjuntar
 - `id18` — identidad del Cadejo: masa negra, ojos rojos, cadena. https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/id18@2x.webp

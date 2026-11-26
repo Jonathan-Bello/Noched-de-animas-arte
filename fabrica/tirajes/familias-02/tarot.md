@@ -18,10 +18,10 @@ Un solo arcano boca arriba, apoyado contra una calavera de azúcar e iluminado p
 Vista cenital de un paño bordado: un círculo de arcanos boca abajo y, fuera del círculo, el dado de hueso que rodó hasta quedar en el cinco. Uno solo de los arcanos se ha volteado boca arriba.
 
 ## Variante C · ChatGPT
-(pendiente)
+Sobre el mostrador de la despensa, un dado de hueso detenido en cinco queda junto a un arcano con filigrana de escarcha. En mitad de la filigrana queda un hueco seco con la silueta nítida de un copo de hielo, como si ese indicio hubiera desaparecido de la imagen.
 
 ## Variante D · ChatGPT
-(pendiente)
+En el hueco de una ventana, un arcano atrapado entre dos barrotes deja pasar la luz por el perfil calado de una pisada. El contorno vacío se proyecta sobre el alféizar, junto a un dado de hueso detenido en seis.
 
 ## Adjuntar
 - `o06` — acabado de familia y estilo del arcano (no la mano que lo sostiene). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/o06@2x.webp
