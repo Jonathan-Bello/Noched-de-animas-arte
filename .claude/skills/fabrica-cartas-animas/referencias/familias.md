@@ -45,6 +45,15 @@ De 65 elecciones, Jonathan conservó el original en 47 y eligió una propuesta e
 
 Las cartas aprobadas sí muestran a un investigador sufriendo el efecto (Escalofrío, Acecho, Presencia). En este tiraje Jonathan conservó casi todos los originales: antes de rehacer una, confirmar con él qué no le gusta de la actual.
 
+## Lo que el filtro no ve
+
+En `familias-01`, ChatGPT siguió las reglas de reparto, naipes y paleta, pero cayó en otros errores que solo encuentra la lectura a ojo. Revisar en cada guion:
+
+- **Modelo del aparato:** coincide con `fabrica/CONTINUIDAD.md` (el sensor de gases es de aguja, sin pantalla).
+- **Cartas que se cruzan:** una evidencia no incluye la herramienta que la busca, ni una herramienta su evidencia.
+- **Evidencia como indicio:** muestra lo que ya ocurrió (objetos ya acomodados), no algo moviéndose en ese instante.
+- **Efecto legible:** el dibujo cuenta lo que hace la carta (Helada: el hielo alcanza un escondite; El barco en la pared: todo va hacia la izquierda).
+
 ## Comprobación
 
 ```sh
