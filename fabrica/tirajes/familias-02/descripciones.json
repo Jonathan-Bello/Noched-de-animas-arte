@@ -1,0 +1,115 @@
+{
+ "lote": "familias-02",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "cartas": [
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "tipo": "herramienta",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El kit de campo desplegado como un rollo de cuero sobre un peldaño de piedra. Cada bolsillo guarda un instrumento distinto: frasco de ceniza, lupa, vela, termómetro pequeño. Un bolsillo está vacío, recién usado. Solo el kit; la escalera se pierde en sombra.",
+    "b": "La mano de Tomás, con el borde del sarape petróleo, sostiene por una correa un manojo de instrumentos colgados: frasco, lupa y brújula oscilan, y uno de ellos queda al frente, iluminado. Detrás, la puerta del sótano en sombra.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "tipo": "objeto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un solo arcano boca arriba, apoyado contra una calavera de azúcar e iluminado por una veladora. Delante, un dado de hueso detenido en el seis. La sombra del arcano se alarga sobre el mantel bordado.",
+    "b": "Vista cenital de un paño bordado: un círculo de arcanos boca abajo y, fuera del círculo, el dado de hueso que rodó hasta quedar en el cinco. Uno solo de los arcanos se ha volteado boca arriba.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "interferencia",
+   "nombre": "Interferencia",
+   "tipo": "anima",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La lámpara UV encendida sobre una repisa. Su haz violeta se dobla en el aire hacia el techo como si lo jalaran y se apaga en espiral; la tapa del compartimento salta y la pila cae.",
+    "b": "La cámara de movimiento sobre su trípode ha girado sola hacia la pared. La luz roja de grabación parpadea y el lente está empañado con la huella de un dedo demasiado largo.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "tipo": "habilidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El pozo del patio de noche. El lamento sube desde el fondo: el agua tiembla en anillos, el cubo de madera colgado de la cuerda vibra y las flores de cempasúchil del brocal se doblan hacia afuera.",
+    "b": "La espadaña de la capilla con sus dos campanas quietas. De la boca de las campanas caen polvo y cintas pálidas de sonido que bajan en espiral hacia el patio vacío.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "id_xtabay",
+   "nombre": "Xtabay",
+   "tipo": "identidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Xtabay de espaldas entre las raíces de la ceiba, mirando por encima del hombro. Su cabello negro con flores cae hasta el suelo y se confunde con las raíces. Dorado de hojas y morado de noche. Solo ella.",
+    "b": "Xtabay de pie en un claro, cantando con los ojos cerrados. Las flores de su cabello se desprenden y flotan hacia el tronco de la ceiba, que se abre en una grieta de luz dorada. Nadie más.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "es_guardian",
+   "nombre": "Maldición del entierro",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Guardián del Entierro emerge de una losa rota hasta la cintura, con las palmas abiertas hacia arriba reclamando el oro. A su alrededor, las monedas regresan solas rodando hacia el hueco. Solo él.",
+    "b": "Primer plano del rostro del anciano espectral sobre una vasija de barro rebosante de monedas. Una mano tapa la boca de la vasija y la otra señala fuera del cuadro, exigiendo. Nadie más.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "es_cadejo",
+   "nombre": "Arrastre de cadenas",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Cadejo agazapado de frente. De su collar sale una sola cadena que se parte en dos y se clava en dos argollas del piso, una a cada lado del cuadro, tensas como si sujetaran algo fuera de vista. Solo él.",
+    "b": "Vista a ras del suelo: las patas delanteras del Cadejo sobre las baldosas. La cadena que le cuelga se enrolla en dos morrales caídos y los ata juntos; los arrastra en el mismo tirón. Nadie más.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "ev5",
+   "nombre": "Marcas en el espejo",
+   "tipo": "evidencia",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un espejo de cuerpo entero en el pasillo, cubierto de vaho. Una hilera de pisadas descalzas sube por el vidrio desde el marco inferior hasta perderse arriba. Luz ámbar de veladora.",
+    "b": "El espejo del tocador con un dibujo de cempasúchil y una cruz trazados en el vaho desde el otro lado del vidrio: los trazos están invertidos respecto al cuarto. Sin letras.",
+    "c": "",
+    "d": ""
+   }
+  }
+ ]
+}

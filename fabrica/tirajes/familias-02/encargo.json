@@ -1,0 +1,17 @@
+{
+ "lote": "familias-02",
+ "modo": "arte",
+ "descripciones": "descripciones.json",
+ "titulo": "Segunda tanda por familia · Claude y ChatGPT",
+ "ilustrador": "ChatGPT",
+ "ids": [
+  "kit",
+  "tarot",
+  "interferencia",
+  "h2",
+  "id_xtabay",
+  "es_guardian",
+  "es_cadejo",
+  "ev5"
+ ]
+}
