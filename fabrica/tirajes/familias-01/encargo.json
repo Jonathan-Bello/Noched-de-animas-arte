@@ -1,0 +1,18 @@
+{
+ "lote": "familias-01",
+ "modo": "arte",
+ "descripciones": "descripciones.json",
+ "titulo": "Prueba de la skill: una carta por familia",
+ "ilustrador": "ChatGPT",
+ "ids": [
+  "t6",
+  "resp",
+  "alba",
+  "radio",
+  "portazo",
+  "h0",
+  "id_cadejo",
+  "es_mulata",
+  "ev3"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "lote": "familias-01",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude"
+ },
+ "cartas": [
+  {
+   "id": "t6",
+   "nombre": "Sensor de gases",
+   "tipo": "herramienta",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El sensor de gases de aguja cuelga de su correa en el asa de un baúl viejo cerrado con candado. Por el ojo de la cerradura sale una hebra amarilla de azufre que se enrosca hasta la toma del aparato. La aguja está pegada al extremo rojo. Solo el aparato y el baúl; el cuarto cae en sombra.",
+    "b": "Vista desde arriba de un lavadero de piedra en el patio. El sensor está sobre el borde y su sonda entra en el desagüe; de ahí sube una lengua amarilla y la piedra alrededor amarillea. La sonda la sostiene una mano con el borde del rebozo crema de flores guinda (Amalia); no se ve más de ella."
+   }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "tipo": "apoyo",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Primer plano de las manos de Rafael rodeando un jarro de barro humeante sobre el pretil de una ventana. Mangas crema remangadas. El vapor sube recto y quieto; afuera, la noche y una sola veladora. La calma se lee en el vapor sin agitación.",
+    "b": "Rafael de espaldas en la azotea de la casona, con las manos abiertas sobre el pretil, mira un cielo despejado de estrellas. Los hombros bajan al soltar el aire. Abajo, el patio de la casa sigue en penumbra; arriba, todo está quieto."
+   }
+  },
+  {
+   "id": "alba",
+   "nombre": "Alba",
+   "tipo": "marcador",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El portón de la casona entreabierto. La primera franja de luz rosa y dorada entra rasante por el piso de barro y alcanza una veladora consumida hasta su último centímetro; su humo sube recto. Todo lo demás sigue en azul noche.",
+    "b": "Desde lo alto del patio, la línea del sol cruza la fuente por la mitad: el agua de arriba ya es dorada y la de abajo sigue azul noche. Un gallo en el pretil, de perfil, con el pico abierto. Pétalos de cempasúchil en el agua."
+   }
+  },
+  {
+   "id": "radio",
+   "nombre": "Radio",
+   "tipo": "objeto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Dos radios de pilas idénticos en dos cuartos separados por un muro grueso, vistos en corte como dos nichos contiguos. El de la izquierda tiene la luz roja de transmisión encendida; el de la derecha, la luz verde de recepción. Una onda dibujada sale de una antena, atraviesa la cal del muro y entra en la otra.",
+    "b": "Por el hueco de una escalera, una mano con manga de sarape petróleo (Tomás) baja el radio de pilas hacia otra mano con el borde del rebozo crema de flores guinda (Amalia) que lo recibe. Las dos manos y el radio en el centro; el resto, oscuridad del cubo de la escalera."
+   }
+  },
+  {
+   "id": "portazo",
+   "nombre": "Portazo",
+   "tipo": "anima",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un pasillo con tres puertas a la izquierda. Las tres se cierran en el mismo instante y la corriente arrastra por el piso de baldosa las hojas sueltas de una libreta, dos fotografías y una pluma. El golpe se lee por el polvo que cae de los dinteles.",
+    "b": "Primer plano de un morral de investigador colgado de un picaporte. El portazo lo sacude: de su boca caen una linterna, un frasco de hierbas y una libreta, suspendidos en el aire antes de tocar el piso. La puerta, cerrada de golpe, ocupa el fondo."
+   }
+  },
+  {
+   "id": "h0",
+   "nombre": "Helada",
+   "tipo": "habilidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un ropero de madera tallada con las puertas entreabiertas, el escondite obvio. La escarcha avanza desde la cerradura en helechos de hielo y está sellando la rendija; por esa rendija sale una voluta de vaho. No se ve a nadie.",
+    "b": "El hueco bajo la escalera, otro escondite. La escarcha cubre los peldaños desde arriba como un manto de helechos que avanza hacia una vela en el piso; la mitad de la llama ya es de hielo. Azul petróleo y crema."
+   }
+  },
+  {
+   "id": "id_cadejo",
+   "nombre": "El Cadejo Negro",
+   "tipo": "identidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Cadejo de pie sobre la barda de adobe de la casona, recortado contra una luna grande. La cadena le cuelga del cuello y cae hasta el camino vacío. Ojos rojos mirando hacia abajo, al camino. Pelaje erizado en masa negra.",
+    "b": "El Cadejo cruza bajo un arco de la casona, de cuerpo completo en tres cuartos. Cada pisada deja ceniza en las baldosas; el farol del arco parpadea y una hebra amarilla de azufre sale de su hocico. Solo él en la escena."
+   }
+  },
+  {
+   "id": "es_mulata",
+   "nombre": "El barco en la pared",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La Mulata de Córdoba de pie en su celda termina el último trazo de carbón. El barco dibujado ya se hincha en relieve y su vela se infla. Del muro brota agua salada que gira en remolino hacia la izquierda a sus pies. Solo ella.",
+    "b": "Primer plano: la Mulata, de perfil, de pie en la proa del barco que sale del muro, sujeta el palo mayor. Detrás de ella queda en la cal el contorno vacío de carbón. La estela barre hacia la izquierda los objetos de la mesa de la celda: farol, libreta y linterna. Nadie más."
+   }
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "tipo": "evidencia",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La ofrenda de la sala: todas las fotografías de los difuntos aparecen vueltas hacia la pared, de espaldas. Las velas, el pan y el cempasúchil siguen en su sitio. Luz ámbar de veladora.",
+    "b": "Los platos del trastero de talavera apilados en una torre perfecta en el centro del piso de la cocina, frente a la repisa vacía. La torre es más alta que la mesa y no se cae."
+   }
+  }
+ ]
+}
