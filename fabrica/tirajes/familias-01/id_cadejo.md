@@ -11,11 +11,17 @@ Identidad del Cadejo Negro: el perro que sigue a los caminantes de noche. Deja H
 ## Regla de la familia
 Solo el ánima. Nadie más, ni manos ajenas.
 
-## Variante A
+## Variante A · Claude
 El Cadejo de pie sobre la barda de adobe de la casona, recortado contra una luna grande. La cadena le cuelga del cuello y cae hasta el camino vacío. Ojos rojos mirando hacia abajo, al camino. Pelaje erizado en masa negra.
 
-## Variante B
+## Variante B · Claude
 El Cadejo cruza bajo un arco de la casona, de cuerpo completo en tres cuartos. Cada pisada deja ceniza en las baldosas; el farol del arco parpadea y una hebra amarilla de azufre sale de su hocico. Solo él en la escena.
+
+## Variante C · ChatGPT
+El Cadejo Negro aparece en el antiguo puente de piedra del jardín, con las cadenas arrastrándose entre los arcos y los ojos rojos encendidos en la oscuridad. Bajo su cuerpo, las piedras se cubren de ceniza y las lámparas del puente se apagan una tras otra.
+
+## Variante D · ChatGPT
+El enorme Cadejo Negro permanece erguido en el centro del comedor, con el lomo erizado y las cadenas extendidas alrededor de sus patas. Sus ojos rojos iluminan una mesa ennegrecida por el azufre, mientras las copas de cristal vibran y se agrietan a su alrededor.
 
 ## Adjuntar
 - `s18` — identidad del Cadejo: masa negra, ojos rojos y cadena (no su paleta roja). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/s18@2x.webp
@@ -31,7 +37,7 @@ El Cadejo cruza bajo un arco de la casona, de cuerpo completo en tres cuartos. C
 >
 > Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, contornos por cambio de tinta, tonos medios, superficies mate y grano fino de papel, en el estilo de folclor mexicano con formas de papel recortado de las cartas adjuntas.
 >
-> Variante: [pega aquí el texto de A o de B]
+> Variante: [pega aquí el texto de A, B, C o D]
 
 ## Debe verse / no debe verse
 - Debe leerse a tamaño de carta, con título y leyenda tapados: el Cadejo: perro negro, ojos rojos, cadena.

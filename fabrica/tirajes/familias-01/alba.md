@@ -11,11 +11,17 @@ Marcador del fin de la noche: llega la luz y la casa se calma.
 ## Regla de la familia
 Sin personas. La luz del amanecer es el sujeto.
 
-## Variante A
+## Variante A · Claude
 El portón de la casona entreabierto. La primera franja de luz rosa y dorada entra rasante por el piso de barro y alcanza una veladora consumida hasta su último centímetro; su humo sube recto. Todo lo demás sigue en azul noche.
 
-## Variante B
+## Variante B · Claude
 Desde lo alto del patio, la línea del sol cruza la fuente por la mitad: el agua de arriba ya es dorada y la de abajo sigue azul noche. Un gallo en el pretil, de perfil, con el pico abierto. Pétalos de cempasúchil en el agua.
+
+## Variante C · ChatGPT
+En la capilla de la casona, la primera luz del día atraviesa un rosetón polvoriento y proyecta una corona dorada sobre el altar vacío. Las últimas sombras retroceden hasta desaparecer entre las grietas del retablo.
+
+## Variante D · ChatGPT
+En el comedor, un reloj de péndulo marca la hora del amanecer mientras un rayo dorado ilumina la mesa cubierta de polvo. Las sombras de las sillas se acortan hasta quedar debajo de ellas y el reloj vuelve a ponerse en marcha.
 
 ## Adjuntar
 - `p02` — acabado y paleta del amanecer (no su ventana). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/p02@2x.webp
@@ -31,7 +37,7 @@ Desde lo alto del patio, la línea del sol cruza la fuente por la mitad: el agua
 >
 > Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, contornos por cambio de tinta, tonos medios, superficies mate y grano fino de papel, en el estilo de folclor mexicano con formas de papel recortado de las cartas adjuntas.
 >
-> Variante: [pega aquí el texto de A o de B]
+> Variante: [pega aquí el texto de A, B, C o D]
 
 ## Debe verse / no debe verse
 - Debe leerse a tamaño de carta, con título y leyenda tapados: la luz del amanecer entrando en la casa a oscuras.

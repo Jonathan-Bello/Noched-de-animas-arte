@@ -11,11 +11,17 @@ Espanto de la Mulata de Córdoba: el barco sale de la pared y las manos pasan a 
 ## Regla de la familia
 Solo el ánima atacando. La consecuencia se cuenta con el entorno. Monocromo carmín: rojos, guinda y negro; crema y oro solo como luz; sin azul, verde ni petróleo.
 
-## Variante A
+## Variante A · Claude
 La Mulata de Córdoba de pie en su celda termina el último trazo de carbón. El barco dibujado ya se hincha en relieve y su vela se infla. Del muro brota agua salada que gira en remolino hacia la izquierda a sus pies. Solo ella.
 
-## Variante B
+## Variante B · Claude
 Primer plano: la Mulata, de perfil, de pie en la proa del barco que sale del muro, sujeta el palo mayor. Detrás de ella queda en la cal el contorno vacío de carbón. La estela barre hacia la izquierda los objetos de la mesa de la celda: farol, libreta y linterna. Nadie más.
+
+## Variante C · ChatGPT
+La Mulata de Córdoba permanece arrodillada frente al muro de su celda, con el pañuelo rojo cayéndole sobre un hombro y los aros brillando tenuemente. Un río de agua carmesí atraviesa las baldosas de derecha a izquierda y arrastra los grilletes, las vasijas y el polvo hacia una grieta que se abre bajo la pared.
+
+## Variante D · ChatGPT
+En el techo abovedado de la celda, la Mulata contempla un barco de carbón que se despliega sobre la piedra como una embarcación suspendida. El agua roja sube por las columnas y cambia de dirección alrededor de la bóveda, mientras los candiles y las cadenas se inclinan hacia la izquierda como si una corriente invisible los arrastrara.
 
 ## Adjuntar
 - `id20` — identidad de la Mulata: pañuelo rojo, aros, blusa blanca, carbón. https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/id20@2x.webp
@@ -32,7 +38,7 @@ Primer plano: la Mulata, de perfil, de pie en la proa del barco que sale del mur
 >
 > Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, contornos por cambio de tinta, tonos medios, superficies mate y grano fino de papel, en el estilo de folclor mexicano con formas de papel recortado de las cartas adjuntas.
 >
-> Variante: [pega aquí el texto de A o de B]
+> Variante: [pega aquí el texto de A, B, C o D]
 
 ## Debe verse / no debe verse
 - Debe leerse a tamaño de carta, con título y leyenda tapados: la Mulata y su barco saliendo de la pared, en rojo.

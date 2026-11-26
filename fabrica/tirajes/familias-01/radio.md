@@ -11,11 +11,17 @@ Objeto que pasa una carta a otro investigador: algo cruza de un cuarto a otro.
 ## Regla de la familia
 El protagonista es el objeto. Investigadores solo como manos.
 
-## Variante A
+## Variante A · Claude
 Dos radios de pilas idénticos en dos cuartos separados por un muro grueso, vistos en corte como dos nichos contiguos. El de la izquierda tiene la luz roja de transmisión encendida; el de la derecha, la luz verde de recepción. Una onda dibujada sale de una antena, atraviesa la cal del muro y entra en la otra.
 
-## Variante B
+## Variante B · Claude
 Por el hueco de una escalera, una mano con manga de sarape petróleo (Tomás) baja el radio de pilas hacia otra mano con el borde del rebozo crema de flores guinda (Amalia) que lo recibe. Las dos manos y el radio en el centro; el resto, oscuridad del cubo de la escalera.
+
+## Variante C · ChatGPT
+Sobre una mesa del archivo, un radio de pilas transmite con la luz roja encendida mientras, a varios metros, otro aparato idéntico responde desde una repisa entre libros. Entre ambos, las ondas de la señal parecen enlazar dos pequeñas lámparas encendidas.
+
+## Variante D · ChatGPT
+Un radio de pilas reposa sobre el borde de una escalera de servicio, con el altavoz vibrando y la luz de recepción encendida. En el piso, una libreta abierta y un llavero descansan junto al aparato, como si un mensaje hubiera permitido localizar lo que se buscaba.
 
 ## Adjuntar
 - `o01` — modelo del radio de pilas (no su composición). https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/o01@2x.webp
@@ -31,7 +37,7 @@ Por el hueco de una escalera, una mano con manga de sarape petróleo (Tomás) ba
 >
 > Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, contornos por cambio de tinta, tonos medios, superficies mate y grano fino de papel, en el estilo de folclor mexicano con formas de papel recortado de las cartas adjuntas.
 >
-> Variante: [pega aquí el texto de A o de B]
+> Variante: [pega aquí el texto de A, B, C o D]
 
 ## Debe verse / no debe verse
 - Debe leerse a tamaño de carta, con título y leyenda tapados: algo que pasa de un lado a otro gracias al radio.
