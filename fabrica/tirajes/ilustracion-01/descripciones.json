@@ -1,0 +1,50 @@
+{
+ "lote": "ilustracion-01",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "cartas": [
+  {
+   "id": "copal",
+   "nombre": "Copal",
+   "tipo": "reaccion",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un sahumador de barro descansa sobre el pasamanos de piedra de una escalera de la casona. El humo blanco del copal baja por los peldaños como una cortina. Justo donde el humo toca la pared, la sombra de unas garras que subía por la cal se deshace en ceniza.",
+    "b": "Un terrón de copal arde en una concha de barro sobre el alféizar de una ventana abierta de noche. Su humo se extiende como una lámina que cierra el vano. En los cristales de la hoja abierta, la escarcha que avanzaba desde afuera se detiene en una línea recta justo en el borde del humo.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "ev1",
+   "nombre": "Huellas de ceniza",
+   "tipo": "evidencia",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Vista cenital de un petate tendido en el piso de barro de una recámara. Cuatro pisadas descalzas de ceniza lo cruzan en diagonal; el polvo gris se metió entre las fibras del tejido. La última huella pisa el borde del petate y queda partida: media sobre el tejido y media sobre el barro.",
+    "b": "En la capilla de la casona, vista baja desde el pie del altar: una pisada descalza de ceniza en cada peldaño de cantera, subiendo hasta detenerse frente a la puertecita cerrada del sagrario. Las velas del altar están apagadas.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "es_llorona",
+   "nombre": "Llanto eterno",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La Llorona, de tres cuartos, en el centro del patio de la ofrenda, con el velo de encaje empapado y el cabello negro mojado pegado al rostro. Su llanto apaga de golpe todas las veladoras a su alrededor: las mechas humean y la cera derretida corre como lágrimas por los escalones de la ofrenda.",
+    "b": "La Llorona, de espaldas, en el corredor de arcos de la casona, con la cabeza echada atrás en pleno grito. El velo de encaje cuelga mojado hasta el piso. A su paso, las guirnaldas de cempasúchil de los arcos se marchitan y sueltan una lluvia de pétalos oscuros.",
+    "c": "",
+    "d": ""
+   }
+  }
+ ]
+}
