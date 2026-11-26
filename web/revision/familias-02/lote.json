@@ -1,0 +1,221 @@
+{
+ "lote": "familias-02",
+ "etapa": "guion",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "guiones": "https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/familias-02/README.md",
+ "cartas": [
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "El kit de campo desplegado como un rollo de cuero sobre un peldaño de piedra. Cada bolsillo guarda un instrumento distinto: frasco de ceniza, lupa, vela, termómetro pequeño. Un bolsillo está vacío, recién usado. Solo el kit; la escalera se pierde en sombra.",
+    "sha256": "7e234a57019b9a8d9c6547d8f6090cadf6daeb622ff81dbdc05aefa759706380"
+   },
+   "b": {
+    "descripcion": "La mano de Tomás, con el borde del sarape petróleo, sostiene por una correa un manojo de instrumentos colgados: frasco, lupa y brújula oscilan, y uno de ellos queda al frente, iluminado. Detrás, la puerta del sótano en sombra.",
+    "sha256": "9631fce1bcb508b7c8881e17cf1b53e99082c01f6a709d915b2a2b88aeab21f3"
+   },
+   "c": {
+    "descripcion": "En el zaguán, el maletín de cuero del kit está cerrado sobre un banco y sirve de apoyo a una bandeja extraíble con una brújula, una lupa y una linterna cilíndrica, cada uno encajado en su hueco. La mano de Tomás, visible por el borde del sarape petróleo, levanta solo la lupa y deja al descubierto la marca circular de su alojamiento.",
+    "sha256": "e36216ab1ec59f53d4aa9c8452f2806ba6f425bc29b22404e6f302e07441f023"
+   },
+   "d": {
+    "descripcion": "En el taller de la casona, el maletín de cuero está de canto sobre una mesa de carpintero y un cajetín lateral asoma por debajo de las hebillas. La linterna UV cilíndrica, con su lente frontal y el botón visible, está adelantada en su ranura, lista para salir, mientras la brújula y la lupa siguen sujetas en el cajetín.",
+    "sha256": "ae4e89017d14619265294135f73dedbd510d65c8459408271e12fcf454104578"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i08@2x.webp",
+    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+   }
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "Un solo arcano boca arriba, apoyado contra una calavera de azúcar e iluminado por una veladora. Delante, un dado de hueso detenido en el seis. La sombra del arcano se alarga sobre el mantel bordado.",
+    "sha256": "111b740157d73e6b6f8cbd0f56eaae3f78f7161ab081a7a684a17054c6fc4bcd"
+   },
+   "b": {
+    "descripcion": "Vista cenital de un paño bordado: un círculo de arcanos boca abajo y, fuera del círculo, el dado de hueso que rodó hasta quedar en el cinco. Uno solo de los arcanos se ha volteado boca arriba.",
+    "sha256": "b4d18e117cd5b8cc2c68022c8bdfc019ced514c4355b14af02f3f9f48e3e4347"
+   },
+   "c": {
+    "descripcion": "Sobre el mostrador de la despensa, un dado de hueso detenido en cinco queda junto a un arcano con filigrana de escarcha. En mitad de la filigrana queda un hueco seco con la silueta nítida de un copo de hielo, como si ese indicio hubiera desaparecido de la imagen.",
+    "sha256": "1a48aea469234a7e01853b8184bdbf405d0a654c080caad2d0106b0ed4ee8e20"
+   },
+   "d": {
+    "descripcion": "En el hueco de una ventana, un arcano atrapado entre dos barrotes deja pasar la luz por el perfil calado de una pisada. El contorno vacío se proyecta sobre el alféizar, junto a un dado de hueso detenido en seis.",
+    "sha256": "1906b4e645424be4e77e77ed01c894598738972b19ed1e6def5196a5aee6c809"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o06@2x.webp",
+    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+   }
+  },
+  {
+   "id": "interferencia",
+   "nombre": "Interferencia",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "La lámpara UV encendida sobre una repisa. Su haz violeta se dobla en el aire hacia el techo como si lo jalaran y se apaga en espiral; la tapa del compartimento salta y la pila cae.",
+    "sha256": "5bfaa991e2984afda2493097336cdf3639979a21adeb73ef51f27f96d611c956"
+   },
+   "b": {
+    "descripcion": "La cámara de movimiento sobre su trípode ha girado sola hacia la pared. La luz roja de grabación parpadea y el lente está empañado con la huella de un dedo demasiado largo.",
+    "sha256": "8c334f4a356a6cc3e32d87db8514c0a247022b507d95bf2969dc26d4ec89940c"
+   },
+   "c": {
+    "descripcion": "En la cocina, el termómetro de empuñadura ancha queda sobre la mesa, con sus botones enteros y la pantalla partida por dentro. Los segmentos del visor se apagan a ambos lados de la grieta, mientras la luz del fogón deja ver que la carcasa sigue intacta.",
+    "sha256": "da928b19416ac6c4272ded335859aa50f003551dfb5ba2547d54a8eefd156e2a"
+   },
+   "d": {
+    "descripcion": "En el cuarto de costura, el detector EMF descansa boca arriba sobre un costurero cerrado. Sus cinco luces, del verde al rojo, se desprenden juntas de la carcasa como cuentas arrancadas de un hilo, y en el aparato solo queda la hilera de cinco huecos oscuros.",
+    "sha256": "9174a561281c4aea0554ed70da0d44af7f000aacb2d2444d4dc21d7fd5d4600f"
+   },
+   "original": {
+    "archivo": "web/miniaturas/a06@2x.webp",
+    "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
+   }
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "El pozo del patio de noche. El lamento sube desde el fondo: el agua tiembla en anillos, el cubo de madera colgado de la cuerda vibra y las flores de cempasúchil del brocal se doblan hacia afuera.",
+    "sha256": "059aa22475f3d43b8e2562ba3ee29e11cda603e8960833f9a6ab3cd5d6fb1796"
+   },
+   "b": {
+    "descripcion": "La espadaña de la capilla con sus dos campanas quietas. De la boca de las campanas caen polvo y cintas pálidas de sonido que bajan en espiral hacia el patio vacío.",
+    "sha256": "0c3693c803693d7621d86197b3b2343f9c985988686eb521aed6930992bcf5b8"
+   },
+   "c": {
+    "descripcion": "En el corredor de servicio, un lamento se cuela por las rendijas de una puerta cerrada como dos bandas de aire que se abren hacia los cuartos vecinos. Las llamas de las veladoras a ambos lados se inclinan hacia afuera al mismo tiempo, siguiendo el paso de la voz.",
+    "sha256": "4054b4c1c4e5d56e8440b173e26e4e75b42f81ad5d0a70b456a61232f114d248"
+   },
+   "d": {
+    "descripcion": "En la escalera del zaguán, una nota larga brota del hueco bajo los peldaños y hace vibrar los barrotes del pasamanos. Después del golpe quedan dos hilos finos de voz en el descanso, con el polvo todavía suspendido alrededor del primer barrote.",
+    "sha256": "67e5e39474192157a48da674e0ef64484dcb53545f0b0799a9d0de1d7d59cf05"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h03@2x.webp",
+    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b"
+   }
+  },
+  {
+   "id": "id_xtabay",
+   "nombre": "Xtabay",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "descripcion": "Xtabay de espaldas entre las raíces de la ceiba, mirando por encima del hombro. Su cabello negro con flores cae hasta el suelo y se confunde con las raíces. Dorado de hojas y morado de noche. Solo ella.",
+    "sha256": "4957c468dd0ea2399516eeeac237f02646fdd8369200d9356cbd9fce56c08e58"
+   },
+   "b": {
+    "descripcion": "Xtabay de pie en un claro, cantando con los ojos cerrados. Las flores de su cabello se desprenden y flotan hacia el tronco de la ceiba, que se abre en una grieta de luz dorada. Nadie más.",
+    "sha256": "0a5c9d9d3a7e91fec64b59d3e82894c8da3c990a63f7bcdb7c1baea0deb07cce"
+   },
+   "c": {
+    "descripcion": "Xtabay cruza de perfil una vereda bajo la ceiba, con el pelo negro florido casi hasta el suelo y el peine prendido a la cintura de su vestido bordado. La luz dorada sigue el canto en su boca y perfila las hojas, mientras el fondo queda en morado nocturno.",
+    "sha256": "18e05e14e49f1ae8ad663452d56c5aa6fdf37625dc32518758c568cb5ef097fd"
+   },
+   "d": {
+    "descripcion": "En una hondonada del monte, Xtabay se acuclilla para recuperar el peine que quedó atrapado entre las espinas de una ceiba joven. Su cabello negro con flores le cae hasta el suelo, y el bordado del vestido recoge el dorado del tronco contra el fondo morado.",
+    "sha256": "33926507db70c2df78625d7be2dca610c72228de83a3c249b2e41a908bfdac78"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id14@2x.webp",
+    "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f"
+   }
+  },
+  {
+   "id": "es_guardian",
+   "nombre": "Maldición del entierro",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "descripcion": "El Guardián del Entierro emerge de una losa rota hasta la cintura, con las palmas abiertas hacia arriba reclamando el oro. A su alrededor, las monedas regresan solas rodando hacia el hueco. Solo él.",
+    "sha256": "cbff3dd3bf2a84ead0358eb8a3cc220769b9da7546c224ba6ba58d8664d990da"
+   },
+   "b": {
+    "descripcion": "Primer plano del rostro del anciano espectral sobre una vasija de barro rebosante de monedas. Una mano tapa la boca de la vasija y la otra señala fuera del cuadro, exigiendo. Nadie más.",
+    "sha256": "05acfad43b80f648d229f7a9408dfe7e0e90314ba4c97e908c15fd50557b6a97"
+   },
+   "c": {
+    "descripcion": "El Guardián, anciano traslúcido de bigote, cruza de frente el arco estrecho de una bodega y golpea la jamba con la palma. Un reguero de llamas persigue la única moneda que rueda hacia la salida, mientras las devueltas quedan apagadas en un hueco del muro. Toda la escena en carmín, guinda y negro, con oro solo como luz en la moneda y las llamas.",
+    "sha256": "4c6ec6aab8a8538c34c7b50231b024b0075f16ca439bd3b166f4c87f7c4b04a0"
+   },
+   "d": {
+    "descripcion": "El Guardián del Entierro baja de costado por la escalera, con el bigote recortado en luz y un brazo extendido hacia una moneda olvidada bajo el último peldaño. Su golpe enciende la madera que la cubre y cierra la salida con fuego. Toda la escena en carmín, guinda y negro, con crema y oro solo como luz.",
+    "sha256": "dacceb8a58a822a3d517db4911abd176967f02c5154a00e227351924909dcf17"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s16@2x.webp",
+    "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
+   }
+  },
+  {
+   "id": "es_cadejo",
+   "nombre": "Arrastre de cadenas",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "descripcion": "El Cadejo agazapado de frente. De su collar sale una sola cadena que se parte en dos y se clava en dos argollas del piso, una a cada lado del cuadro, tensas como si sujetaran algo fuera de vista. Solo él.",
+    "sha256": "9d20e4112d5b55dd3c3b4c7fedd59645b5d4b6c63bda136340778f2f2c058679"
+   },
+   "b": {
+    "descripcion": "Vista a ras del suelo: las patas delanteras del Cadejo sobre las baldosas. La cadena que le cuelga se enrolla en dos morrales caídos y los ata juntos; los arrastra en el mismo tirón. Nadie más.",
+    "sha256": "205354c74ffac4804ac756b030ffe0cfc058d4718711fbd851ff315d71bad901"
+   },
+   "c": {
+    "descripcion": "El Cadejo Negro embiste de costado en el comedor, con el pelo erizado y los ojos rojos. Su cadena pasa por los tiradores de dos cajones de un aparador y los arranca juntos, dejando dos huecos del mismo tamaño en la madera. Toda la escena en carmín, guinda y negro, con crema solo como luz en los eslabones.",
+    "sha256": "c1a8e8edefb18741d70a2180e033b43cf4455f72e15cc34c88582a98f9b7b5da"
+   },
+   "d": {
+    "descripcion": "El Cadejo Negro trepa hacia el rellano, de perfil, con el cuello bajo y una cadena intacta tirante desde el collar. En el arranque de la escalera, la cadena enlaza dos sillas enfrentadas y las vuelca juntas en el mismo tirón. Toda la escena en carmín, guinda y negro, con oro solo como luz en el hierro.",
+    "sha256": "a8ad11695acb3874fbda9f464e9e29b5d2078a888e9f1fa9c01983b3f8b2d6bc"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s18@2x.webp",
+    "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+   }
+  },
+  {
+   "id": "ev5",
+   "nombre": "Marcas en el espejo",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "descripcion": "Un espejo de cuerpo entero en el pasillo, cubierto de vaho. Una hilera de pisadas descalzas sube por el vidrio desde el marco inferior hasta perderse arriba. Luz ámbar de veladora.",
+    "sha256": "a70c407c605bff41bc3942d08743a9f8d533edf192403f9440287798be5228da"
+   },
+   "b": {
+    "descripcion": "El espejo del tocador con un dibujo de cempasúchil y una cruz trazados en el vaho desde el otro lado del vidrio: los trazos están invertidos respecto al cuarto. Sin letras.",
+    "sha256": "ab819f859eabba630046423c6bfec7f1f2b332080d1d517f53b6970df5d74ae5"
+   },
+   "c": {
+    "descripcion": "En el cubículo del lavamanos, un espejo rectangular fijo tiene tres surcos paralelos en la cara interna, visibles por la franja de vidrio que quedó limpia. Las gotas ya asentadas bordean los surcos y la luz lateral permite ver que el cristal exterior sigue entero.",
+    "sha256": "49ffed42be98fbe5765cc35116446b45f836125fa59b531c11151dc9625a14a9"
+   },
+   "d": {
+    "descripcion": "En la antesala, un espejo mural biselado conserva dos arcos concéntricos en el vaho. Los arcos continúan bajo un desprendimiento del azogue, con los bordes secos y pequeñas gotas acumuladas en el canto inferior.",
+    "sha256": "b4e2ed807141ba02bf38ddf25d791d253c4554e521c6e9b18093b5a58bc776f1"
+   },
+   "original": {
+    "archivo": "web/miniaturas/e06@2x.webp",
+    "sha256": "3d8543af990156fa841dd8aae6922ace2a4aa7de8a71c0730173648e11f64c16"
+   }
+  }
+ ]
+}

@@ -8,6 +8,11 @@
    "ruta": "web/revision/familias-01/lote.json"
   },
   {
+   "lote": "familias-02",
+   "titulo": "familias-02 · guiones · 8 cartas",
+   "ruta": "web/revision/familias-02/lote.json"
+  },
+  {
    "lote": "comparativa-01",
    "titulo": "Comparativa Claude y ChatGPT · 65 frentes",
    "ruta": "web/revision/comparativa-01/lote.json"
