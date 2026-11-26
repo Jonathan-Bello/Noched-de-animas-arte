@@ -12,6 +12,14 @@ Un **lote** es una ronda de revisión con nombre, por ejemplo `herramientas-02` 
 
 El autor elige **A**, **B** o **Conservar original** en cada carta. El selector guarda el avance en su navegador y al final descarga `seleccion-<lote>.json`.
 
+## Etapas y comentarios
+
+- **Etapa de guion.** `lote.py guiones <lote>` publica las escenas A–D de `fabrica/tirajes/<lote>/descripciones.json` en texto, junto al arte actual. El lote lleva `"etapa": "guion"` y cada opción tiene `descripcion` y el `sha256` del texto, sin imagen.
+- **Etapa de arte.** Las ilustraciones reemplazan al texto con `publicar_comparativa.py` o `lote.py agregar`.
+- **Comentarios.** Bajo las opciones está la casilla «¿Qué te gustó y qué no?». El texto viaja en el JSON como `nota` de la elección, o en `notas` si la carta no tiene voto. `lote.py registrar` guarda ambos en `fabrica/seleccion-visual.json`; la skill los lee antes de proponer.
+- **Motivo para conservar el original.** Al elegir «Conservar original» aparece al lado una casilla opcional «¿Por qué conservas el original?». Viaja como `porque` en la elección y se registra igual.
+- Elegir una opción ya no salta a la siguiente carta, para que se pueda escribir el comentario. Se avanza con «Siguiente» o «Ir a una pendiente».
+
 ## Archivos
 
 ```

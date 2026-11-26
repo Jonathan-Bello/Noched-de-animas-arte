@@ -8,7 +8,7 @@ Usar *Rosario* para estudiar manos y sombras, *Espejo de mano* para ver cómo un
 
 ## Cómo decidir la composición
 
-Dibujar primero la frase de la ficha en dos o tres valores. En herramientas el instrumento debe reconocerse por su silueta. En evidencias el protagonista es el indicio. En identidades manda el rasgo propio del ánima. En espantos manda la consecuencia que experimenta el jugador. Comparar los bocetos de toda la familia juntos: si dos siluetas y cámaras cuentan lo mismo, replantear una antes del acabado. Inés, Rafael, Tomás, Amalia y Padre Mateo entran cuando la escena necesita investigador; los objetos y los espacios pueden sostener una carta por sí solos.
+Dibujar primero la frase de la ficha en dos o tres valores. En herramientas el instrumento debe reconocerse por su silueta. En evidencias el protagonista es el indicio. En identidades manda el rasgo propio del ánima, y solo aparece ella. En espantos aparece solo el ánima atacando, en monocromo carmín; la consecuencia se cuenta con el entorno, nunca con investigadores. No dibujar naipes salvo en los espejos y el Tarot. Ver las [reglas por familia](../.agents/skills/fabrica-cartas-animas/referencias/familias.md) (25-nov-2026), que prevalecen sobre las fichas de abajo. Comparar los bocetos de toda la familia juntos: si dos siluetas y cámaras cuentan lo mismo, replantear una antes del acabado. Inés, Rafael, Tomás, Amalia y Padre Mateo entran cuando la escena necesita investigador, y nunca en Identidades ni Espantos; los objetos y los espacios pueden sostener una carta por sí solos.
 
 
 ## Herramientas

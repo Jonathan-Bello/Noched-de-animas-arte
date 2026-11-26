@@ -16,6 +16,7 @@ La skill enlaza estas fuentes y no las copia. Para corregir algo, se edita la fu
 | Propuestas recibidas | `fabrica/entrada/AAAA-MM-DD_<id>/` | Convención de `fabrica/entrada/README.md` |
 | Arte aprobado (fuente final, con hashes) | `catalogo/canon.cartas.json` y `catalogo/aprobaciones.json` | Solo con aprobación explícita de Jonathan |
 | Ilustraciones de rol aprobadas | `catalogo/ilustraciones_roles_aprobadas.json` | Rutas en `web/miniaturas/roles-aprobados/` |
+| Reparto, paleta y utilería permitidos por familia (solo el ánima en Identidades y Espantos, Espantos en carmín, sin naipes) | [`referencias/familias.md`](familias.md) | `scripts/revisar_guiones.py` y `scripts/paleta_familia.py` lo comprueban |
 | Formato y prompt para ChatGPT | `fabrica/PROMPT_CHATGPT.md`, `fabrica/CONTROL_IA.md` | — |
 | Plantilla de carta, paleta de franjas e íconos | `web/plantillas/carta-base.svg`, `web/plantillas/paleta.json`, `iconos/cartas/` | Ver `montaje.md` |
 

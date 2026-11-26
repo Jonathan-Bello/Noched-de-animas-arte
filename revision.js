@@ -1,7 +1,7 @@
 const el = id => document.getElementById(id);
 const letras = ["a", "b", "c", "d"];
 const claveCarta = carta => carta.pieza || carta.id;
-const disponibles = carta => [...letras, "original"].filter(letra => carta[letra]?.archivo);
+const disponibles = carta => [...letras, "original"].filter(letra => carta[letra]?.archivo || (letra !== "original" && carta[letra]?.descripcion));
 function huella(carta, opcion) {
   if (opcion === "ninguna") {
     return letras.filter(k => carta[k]).map(k => k + "=" + carta[k].sha256).join(",");
@@ -34,8 +34,9 @@ async function iniciar() {
   }));
   const response = await fetch(elegido.ruta, {cache: "no-cache"});
   if (!response.ok) throw Error("No se pudo abrir el lote.");
-  const {lote, cartas, guionistas, ilustrador, guiones} = await response.json();
-  if (!cartas?.length) throw Error("Este lote todavía no tiene ilustraciones.");
+  const {lote, cartas, guionistas, ilustrador, guiones, etapa} = await response.json();
+  const soloGuion = etapa === "guion";
+  if (!cartas?.length) throw Error("Este lote todavía no tiene propuestas.");
   if (guiones) {
     const enlace = document.createElement("a");
     enlace.href = guiones;
@@ -47,19 +48,30 @@ async function iniciar() {
   const clave = "noche-de-animas/revision/" + lote;
   const porId = new Map(cartas.map(c => [claveCarta(c), c]));
   let votos = new Map();
+  let notas = new Map();
+  let porques = new Map();
   let posicion = 0;
   let render = 0;
 
   function resultados() {
-    return {version: 1, lote, total: cartas.length, completo: votos.size === cartas.length,
+    return {version: 1, lote, ...(etapa ? {etapa} : {}), total: cartas.length, completo: votos.size === cartas.length,
       elecciones: cartas.filter(c => votos.has(claveCarta(c))).map(c => {
         const opcion = votos.get(claveCarta(c));
-        return {id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), opcion, sha256: huella(c, opcion)};
-      })};
+        const nota = notas.get(claveCarta(c));
+        const porque = opcion === "original" ? porques.get(claveCarta(c)) : "";
+        return {id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), opcion, sha256: huella(c, opcion),
+          ...(porque ? {porque} : {}), ...(nota ? {nota} : {})};
+      }),
+      notas: cartas.filter(c => notas.get(claveCarta(c)) && !votos.has(claveCarta(c)))
+        .map(c => ({id: c.id, ...(c.pieza ? {pieza: c.pieza} : {}), nota: notas.get(claveCarta(c))}))};
   }
   function leer(datos) {
     if (datos.version !== 1 || datos.lote !== lote || !Array.isArray(datos.elecciones)) throw Error("El archivo pertenece a otro lote.");
     const nuevos = new Map();
+    for (const n of [...(datos.notas || []), ...datos.elecciones]) {
+      if (n.nota && porId.has(n.pieza || n.id)) notas.set(n.pieza || n.id, String(n.nota));
+      if (n.porque && porId.has(n.pieza || n.id)) porques.set(n.pieza || n.id, String(n.porque));
+    }
     for (const voto of datos.elecciones) {
       const id = voto.pieza || voto.id;
       const c = porId.get(id);
@@ -85,10 +97,10 @@ async function iniciar() {
   }
   function votar(carta, opcion) {
     votos.set(claveCarta(carta), opcion);
-    el("aviso").textContent = carta.nombre + " · " + (opcion === "ninguna" ? "ronda descartada." : "elegida " + opcion.toUpperCase() + ".");
+    el("aviso").textContent = carta.nombre + " · " + (opcion === "ninguna" ? "ronda descartada." : "elegida " + opcion.toUpperCase() + ".") + " Escribe por qué y pasa a la siguiente.";
     guardar();
-    pendiente();
     mostrar();
+    (opcion === "original" ? el("porque-original") : el("nota"))?.focus?.();
   }
   function mostrar() {
     const c = cartas[posicion];
@@ -96,8 +108,10 @@ async function iniciar() {
     el("indice").value = String(posicion);
     el("nombre").textContent = c.nombre;
     el("familia").textContent = c.familia;
-    el("credito").textContent = ilustrador ? "Ilustraciones de " + ilustrador + ". La autoría indicada en cada opción corresponde a su descripción." : "";
-    el("credito").hidden = !ilustrador;
+    el("credito").textContent = soloGuion
+      ? "Propuestas en texto, antes de ilustrar. Elige la escena que mandarías a dibujar; la imagen es el arte actual."
+      : (ilustrador ? "Ilustraciones de " + ilustrador + ". La autoría indicada en cada opción corresponde a su descripción." : "");
+    el("credito").hidden = !soloGuion && !ilustrador;
     el("progreso").textContent = votos.size + " de " + cartas.length + " elecciones guardadas";
     el("barra").max = cartas.length;
     el("barra").value = votos.size;
@@ -112,6 +126,20 @@ async function iniciar() {
       const nombre = o === "original" ? "Original" : o.toUpperCase() + (guionistas?.[o] ? " · " + guionistas[o] : "");
       const rotulo = document.createElement("h3");
       rotulo.textContent = nombre;
+      if (!c[o].archivo) {
+        const texto = document.createElement("blockquote");
+        texto.className = "guion";
+        texto.textContent = c[o].descripcion;
+        const boton = document.createElement("button");
+        boton.id = "elegir-" + o;
+        const activa = votos.get(claveCarta(c)) === o;
+        boton.setAttribute("aria-pressed", String(activa));
+        boton.textContent = (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
+        boton.onclick = () => votar(c, o);
+        art.append(rotulo, texto, boton);
+        galeria.append(art);
+        continue;
+      }
       const zoom = document.createElement("a");
       zoom.href = c[o].archivo;
       zoom.target = "_blank";
@@ -134,6 +162,22 @@ async function iniciar() {
       boton.textContent = o === "original" ? (activa ? "Original seleccionado" : "Conservar original") : (activa ? "Seleccionada " : "Elegir ") + o.toUpperCase();
       boton.onclick = () => votar(c, o);
       art.append(rotulo, zoom, boton);
+      if (o === "original" && activa) {
+        const caja = document.createElement("label");
+        caja.className = "porque";
+        caja.textContent = "¿Por qué conservas el original? (opcional)";
+        const area = document.createElement("textarea");
+        area.id = "porque-original";
+        area.rows = 3;
+        area.placeholder = "Ej.: la silueta del perro se lee mejor que en las propuestas.";
+        area.value = porques.get(claveCarta(c)) || "";
+        area.oninput = () => {
+          if (area.value.trim()) porques.set(claveCarta(c), area.value); else porques.delete(claveCarta(c));
+          guardar();
+        };
+        caja.append(area);
+        art.append(caja);
+      }
       if (c[o].descripcion) {
         const ficha = document.createElement("details");
         const titulo = document.createElement("summary");
@@ -147,6 +191,14 @@ async function iniciar() {
       botones.push(boton);
       cargas.push(img.decode());
     }
+    const nota = el("nota");
+    nota.value = notas.get(claveCarta(c)) || "";
+    nota.oninput = () => {
+      const v = nota.value.trim();
+      if (v) notas.set(claveCarta(c), nota.value); else notas.delete(claveCarta(c));
+      guardar();
+      el("descargar").disabled = !votos.size && !notas.size;
+    };
     const descartar = el("descartar");
     descartar.hidden = !guionistas;
     descartar.disabled = true;
@@ -162,7 +214,7 @@ async function iniciar() {
     el("anterior").disabled = !posicion;
     el("siguiente").disabled = posicion === cartas.length - 1;
     el("pendiente").disabled = votos.size === cartas.length;
-    el("descargar").disabled = !votos.size;
+    el("descargar").disabled = !votos.size && !notas.size;
   }
   el("aviso").textContent = pedido && elegido.lote !== pedido ? "Se abrió " + elegido.lote + " porque el lote solicitado no existe." : "";
   try {const prev = localStorage.getItem(clave); if (prev) votos = leer(JSON.parse(prev));}

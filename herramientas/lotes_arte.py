@@ -6,7 +6,10 @@ versión vigente («original»), y el autor elige una de las tres.
   estado <lote>                         Qué falta en el lote: fichas, propuestas, publicación y votos.
   agregar <lote> <id> --a IMG --b IMG   Publica las dos propuestas de una carta en el selector.
   comprobar                             Valida todos los lotes (IDs únicos, archivos y hashes).
-  registrar <seleccion.json>            Pasa el JSON que descarga el selector a fabrica/seleccion-visual.json.
+  guiones <lote>                        Publica en el selector las propuestas en texto (A–D) de un tiraje,
+                                        antes de ilustrarlas, junto al arte actual.
+  registrar <seleccion.json>            Pasa el JSON que descarga el selector a fabrica/seleccion-visual.json,
+                                        con los comentarios del autor («nota»).
 
 Archivos:
   web/revision/lotes.json           Índice de lotes que lee el selector (el primero se abre por omisión).
@@ -128,6 +131,50 @@ def agregar(p):
     print(f"{'+' if nueva else '~'} {p.id} en {p.lote}: {', '.join(cambios) or 'registrada'} · {len(datos['cartas'])} cartas en el lote")
 
 
+def huella_texto(texto):
+    return hashlib.sha256(texto.encode("utf-8")).hexdigest()
+
+
+def guiones(p):
+    """Publica un tiraje en etapa de guion: cuatro escenas en texto y el arte actual."""
+    if not NOMBRE.match(p.lote):
+        sys.exit(f"Nombre de lote no válido: {p.lote}")
+    fab = Fabrica()
+    carpeta = R / "fabrica/tirajes" / p.lote
+    editor = cargar(carpeta / "descripciones.json")
+    if not editor:
+        sys.exit(f"Falta fabrica/tirajes/{p.lote}/descripciones.json")
+    archivo = R / "web/revision" / p.lote / "lote.json"
+    previo = cargar(archivo, {})
+    if previo and previo.get("etapa") != "guion":
+        sys.exit(f"{p.lote} ya tiene ilustraciones publicadas; no se reemplazan por texto.")
+    cartas = []
+    for c in editor["cartas"]:
+        if not c.get("en_selector", True):
+            continue
+        f = fab.ficha(c["id"])
+        carta = {"id": c["id"], "nombre": c["nombre"], "familia": familia(c["tipo"])[0], "reverso": f["reverso"]}
+        for op, texto in c["variantes"].items():
+            if texto:
+                carta[op] = {"descripcion": texto, "sha256": huella_texto(texto)}
+        if f.get("id_arte"):
+            orig = miniatura(f["id_arte"])
+            if (R / orig).exists():
+                carta["original"] = {"archivo": orig, "sha256": sha256(orig)}
+        cartas.append(carta)
+    datos = {"lote": p.lote, "etapa": "guion", "guionistas": editor.get("guionistas", {}),
+             "guiones": f"https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/{p.lote}/README.md",
+             "cartas": cartas}
+    guardar(archivo, datos)
+    indexar(p.lote, archivo.relative_to(R).as_posix(), len(cartas))
+    idx = cargar(INDICE)
+    for e in idx["lotes"]:
+        if e["lote"] == p.lote:
+            e["titulo"] = f"{p.lote} · guiones · {len(cartas)} cartas"
+    guardar(INDICE, idx)
+    print(f"Publicado {p.lote} en etapa de guion: {len(cartas)} cartas → revision.html?lote={p.lote}")
+
+
 def clave_carta(carta):
     return carta.get("pieza") or carta["id"]
 
@@ -167,6 +214,9 @@ def comprobar(_p=None):
                 x = c.get(op)
                 if not x:
                     errores.append(f"{e['lote']}/{c['id']}: falta {op}")
+                elif not x.get("archivo"):
+                    if huella_texto(x.get("descripcion", "")) != x["sha256"]:
+                        errores.append(f"{e['lote']}/{c['id']}: el hash del guion {op} no coincide")
                 elif not (R / limpio(x["archivo"])).is_file():
                     errores.append(f"{e['lote']}/{c['id']}: no existe {limpio(x['archivo'])}")
                 elif sha256(limpio(x["archivo"])) != x["sha256"]:
@@ -205,9 +255,17 @@ def registrar(p):
         alcance = alcances.get(e["id"]) or (previo["alcance"] if mismo else "preferencia_visual")
         nuevo = {"id": e["id"], **({"pieza": c["pieza"]} if c.get("pieza") else {}),
                  "nombre": c["nombre"], "lote": sel["lote"], "voto": e["opcion"],
-                 "alcance": alcance, "archivo": limpio(c[e["opcion"]]["archivo"]) if e["opcion"] != "ninguna" else None,
+                 "alcance": alcance, "archivo": limpio(c[e["opcion"]]["archivo"]) if c.get(e["opcion"], {}).get("archivo") else None,
                  "sha256": e["sha256"], "registrado": date.today().isoformat()}
-        if previo and all(previo.get(k) == nuevo[k] for k in ("lote", "voto", "sha256", "alcance")):
+        if datos.get("etapa"):
+            nuevo["etapa"] = datos["etapa"]
+            if e["opcion"] in ("a", "b", "c", "d") and c.get(e["opcion"], {}).get("descripcion"):
+                nuevo["guion"] = c[e["opcion"]]["descripcion"]
+        if e.get("porque") and e["opcion"] == "original":
+            nuevo["porque"] = e["porque"]
+        if e.get("nota"):
+            nuevo["nota"] = e["nota"]
+        if previo and all(previo.get(k) == nuevo.get(k) for k in ("lote", "voto", "sha256", "alcance", "nota", "porque")):
             continue
         if previo:
             historial = previo.pop("historial", [])
@@ -218,6 +276,15 @@ def registrar(p):
         actuales[clave] = nuevo
         hechos += 1
         print(f"~ {e['id']}: {nuevo['voto']} ({nuevo['alcance']})")
+    for n in sel.get("notas", []):
+        c = por_id.get(clave_carta(n))
+        if not c or not n.get("nota"):
+            continue
+        reg.setdefault("notas", [])
+        entrada = {"id": n["id"], **({"pieza": n["pieza"]} if n.get("pieza") else {}), "lote": sel["lote"],
+                   "nota": n["nota"], "registrado": date.today().isoformat()}
+        reg["notas"] = [x for x in reg["notas"] if not (x["lote"] == sel["lote"] and clave_carta(x) == clave_carta(n))] + [entrada]
+        print(f"~ {n['id']}: comentario sin voto")
     guardar(SELECCION, reg)
     print(f"Registradas {hechos} elecciones del lote {sel['lote']} en fabrica/seleccion-visual.json"
           + ("" if sel.get("completo") else " · la selección exportada no estaba completa"))
@@ -257,6 +324,7 @@ def main():
     x = s.add_parser("agregar"); x.add_argument("lote"); x.add_argument("id"); x.add_argument("--a", required=True)
     x.add_argument("--b", required=True); x.add_argument("--forzar", action="store_true"); x.set_defaults(fn=agregar)
     x = s.add_parser("comprobar"); x.set_defaults(fn=comprobar)
+    x = s.add_parser("guiones"); x.add_argument("lote"); x.set_defaults(fn=guiones)
     x = s.add_parser("registrar"); x.add_argument("archivo")
     x.add_argument("--alcance", action="append", default=[], metavar="ID=ALCANCE",
                    help="p. ej. t4=concepto_sin_aprobacion_del_dibujo cuando el autor elige solo la idea")

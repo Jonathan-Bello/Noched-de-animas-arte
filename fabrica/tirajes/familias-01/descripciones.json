@@ -1,0 +1,128 @@
+{
+ "lote": "familias-01",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "cartas": [
+  {
+   "id": "t6",
+   "nombre": "Sensor de gases",
+   "tipo": "herramienta",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El sensor de gases de aguja cuelga de su correa en el asa de un baúl viejo cerrado con candado. Por el ojo de la cerradura sale una hebra amarilla de azufre que se enrosca hasta la toma del aparato. La aguja está pegada al extremo rojo. Solo el aparato y el baúl; el cuarto cae en sombra.",
+    "b": "Vista desde arriba de un lavadero de piedra en el patio. El sensor está sobre el borde y su sonda entra en el desagüe; de ahí sube una lengua amarilla y la piedra alrededor amarillea. La sonda la sostiene una mano con el borde del rebozo crema de flores guinda (Amalia); no se ve más de ella.",
+    "c": "En el sótano, el sensor de gases de aguja descansa sobre una repisa de cantera junto a varios frascos de conservas; la aguja está clavada en el extremo rojo de la escala. Al fondo, las etiquetas de los frascos se desprenden y ennegrecen mientras una fina capa de azufre cubre el vidrio.",
+    "d": "En la antigua despensa, el sensor permanece sujeto a una tubería de cobre que atraviesa el techo. La aguja oscila violentamente y pequeñas burbujas amarillas brotan de las uniones, mientras las manchas de corrosión avanzan por la pared."
+   }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "tipo": "apoyo",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Primer plano de las manos de Rafael rodeando un jarro de barro humeante sobre el pretil de una ventana. Mangas crema remangadas. El vapor sube recto y quieto; afuera, la noche y una sola veladora. La calma se lee en el vapor sin agitación.",
+    "b": "Rafael de espaldas en la azotea de la casona, con las manos abiertas sobre el pretil, mira un cielo despejado de estrellas. Los hombros bajan al soltar el aire. Abajo, el patio de la casa sigue en penumbra; arriba, todo está quieto.",
+    "c": "En la biblioteca, Rafael está sentado junto a un escritorio abierto, con los ojos cerrados y una mano sobre el abdomen mientras recupera el aliento. A su lado, una vela ilumina un pequeño montón de documentos olvidados que parecen recuperar sus colores bajo la luz tranquila.",
+    "d": "En el corredor de los retratos, Rafael se inclina sobre una pila de cojines bordados y respira pausadamente, con los hombros por fin relajados. Una corriente suave mueve las cortinas y deja al descubierto un pequeño relicario y una fotografía antigua sobre el alféizar."
+   }
+  },
+  {
+   "id": "alba",
+   "nombre": "Alba",
+   "tipo": "marcador",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El portón de la casona entreabierto. La primera franja de luz rosa y dorada entra rasante por el piso de barro y alcanza una veladora consumida hasta su último centímetro; su humo sube recto. Todo lo demás sigue en azul noche.",
+    "b": "Desde lo alto del patio, la línea del sol cruza la fuente por la mitad: el agua de arriba ya es dorada y la de abajo sigue azul noche. Un gallo en el pretil, de perfil, con el pico abierto. Pétalos de cempasúchil en el agua.",
+    "c": "En la capilla de la casona, la primera luz del día atraviesa un rosetón polvoriento y proyecta una corona dorada sobre el altar vacío. Las últimas sombras retroceden hasta desaparecer entre las grietas del retablo.",
+    "d": "En el comedor, un reloj de péndulo marca la hora del amanecer mientras un rayo dorado ilumina la mesa cubierta de polvo. Las sombras de las sillas se acortan hasta quedar debajo de ellas y el reloj vuelve a ponerse en marcha."
+   }
+  },
+  {
+   "id": "radio",
+   "nombre": "Radio",
+   "tipo": "objeto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Dos radios de pilas idénticos en dos cuartos separados por un muro grueso, vistos en corte como dos nichos contiguos. El de la izquierda tiene la luz roja de transmisión encendida; el de la derecha, la luz verde de recepción. Una onda dibujada sale de una antena, atraviesa la cal del muro y entra en la otra.",
+    "b": "Por el hueco de una escalera, una mano con manga de sarape petróleo (Tomás) baja el radio de pilas hacia otra mano con el borde del rebozo crema de flores guinda (Amalia) que lo recibe. Las dos manos y el radio en el centro; el resto, oscuridad del cubo de la escalera.",
+    "c": "Sobre una mesa del archivo, un radio de pilas transmite con la luz roja encendida mientras, a varios metros, otro aparato idéntico responde desde una repisa entre libros. Entre ambos, las ondas de la señal parecen enlazar dos pequeñas lámparas encendidas.",
+    "d": "Un radio de pilas reposa sobre el borde de una escalera de servicio, con el altavoz vibrando y la luz de recepción encendida. En el piso, una libreta abierta y un llavero descansan junto al aparato, como si un mensaje hubiera permitido localizar lo que se buscaba."
+   }
+  },
+  {
+   "id": "portazo",
+   "nombre": "Portazo",
+   "tipo": "anima",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un pasillo con tres puertas a la izquierda. Las tres se cierran en el mismo instante y la corriente arrastra por el piso de baldosa las hojas sueltas de una libreta, dos fotografías y una pluma. El golpe se lee por el polvo que cae de los dinteles.",
+    "b": "Primer plano de un morral de investigador colgado de un picaporte. El portazo lo sacude: de su boca caen una linterna, un frasco de hierbas y una libreta, suspendidos en el aire antes de tocar el piso. La puerta, cerrada de golpe, ocupa el fondo.",
+    "c": "En la galería de los espejos, una puerta estrecha se estrella contra su marco y hace temblar todos los cristales al mismo tiempo. De las molduras caen pequeños objetos, fotografías y papeles que se dispersan por el suelo en una ráfaga violenta.",
+    "d": "En el antiguo comedor, una puerta de servicio se cierra con tal fuerza que las vitrinas se abren de golpe y sus cajones se vacían sobre las baldosas. Los retratos de la pared quedan ladeados y una nube de polvo rojo oscuro llena el aire."
+   }
+  },
+  {
+   "id": "h0",
+   "nombre": "Helada",
+   "tipo": "habilidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Un ropero de madera tallada con las puertas entreabiertas, el escondite obvio. La escarcha avanza desde la cerradura en helechos de hielo y está sellando la rendija; por esa rendija sale una voluta de vaho. No se ve a nadie.",
+    "b": "El hueco bajo la escalera, otro escondite. La escarcha cubre los peldaños desde arriba como un manto de helechos que avanza hacia una vela en el piso; la mitad de la llama ya es de hielo. Azul petróleo y crema.",
+    "c": "En el interior de un antiguo arcón de ropa blanca, la escarcha cubre mantas y sábanas hasta convertirlas en bloques rígidos de hielo. Una costra helada sella por completo la tapa y se extiende por las junturas de la madera, haciendo imposible abrirlo.",
+    "d": "En el hueco de un antiguo horno de pan, la escarcha invade la cámara de ladrillo y forma gruesas agujas de hielo que cierran su abertura. La puerta metálica queda soldada por una capa blanca y el interior desaparece detrás de una cortina de hielo."
+   }
+  },
+  {
+   "id": "id_cadejo",
+   "nombre": "El Cadejo Negro",
+   "tipo": "identidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Cadejo de pie sobre la barda de adobe de la casona, recortado contra una luna grande. La cadena le cuelga del cuello y cae hasta el camino vacío. Ojos rojos mirando hacia abajo, al camino. Pelaje erizado en masa negra.",
+    "b": "El Cadejo cruza bajo un arco de la casona, de cuerpo completo en tres cuartos. Cada pisada deja ceniza en las baldosas; el farol del arco parpadea y una hebra amarilla de azufre sale de su hocico. Solo él en la escena.",
+    "c": "El Cadejo Negro aparece en el antiguo puente de piedra del jardín, con las cadenas arrastrándose entre los arcos y los ojos rojos encendidos en la oscuridad. Bajo su cuerpo, las piedras se cubren de ceniza y las lámparas del puente se apagan una tras otra.",
+    "d": "El enorme Cadejo Negro permanece erguido en el centro del comedor, con el lomo erizado y las cadenas extendidas alrededor de sus patas. Sus ojos rojos iluminan una mesa ennegrecida por el azufre, mientras las copas de cristal vibran y se agrietan a su alrededor."
+   }
+  },
+  {
+   "id": "es_mulata",
+   "nombre": "El barco en la pared",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La Mulata de Córdoba de pie en su celda termina el último trazo de carbón. El barco dibujado ya se hincha en relieve y su vela se infla. Del muro brota agua salada que gira en remolino hacia la izquierda a sus pies. Solo ella.",
+    "b": "Primer plano: la Mulata, de perfil, de pie en la proa del barco que sale del muro, sujeta el palo mayor. Detrás de ella queda en la cal el contorno vacío de carbón. La estela barre hacia la izquierda los objetos de la mesa de la celda: farol, libreta y linterna. Nadie más.",
+    "c": "La Mulata de Córdoba permanece arrodillada frente al muro de su celda, con el pañuelo rojo cayéndole sobre un hombro y los aros brillando tenuemente. Un río de agua carmesí atraviesa las baldosas de derecha a izquierda y arrastra los grilletes, las vasijas y el polvo hacia una grieta que se abre bajo la pared.",
+    "d": "En el techo abovedado de la celda, la Mulata contempla un barco de carbón que se despliega sobre la piedra como una embarcación suspendida. El agua roja sube por las columnas y cambia de dirección alrededor de la bóveda, mientras los candiles y las cadenas se inclinan hacia la izquierda como si una corriente invisible los arrastrara."
+   }
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "tipo": "evidencia",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La ofrenda de la sala: todas las fotografías de los difuntos aparecen vueltas hacia la pared, de espaldas. Las velas, el pan y el cempasúchil siguen en su sitio. Luz ámbar de veladora.",
+    "b": "Los platos del trastero de talavera apilados en una torre perfecta en el centro del piso de la cocina, frente a la repisa vacía. La torre es más alta que la mesa y no se cae.",
+    "c": "En el cuarto de costura, todas las bobinas de hilo aparecen ordenadas por tamaño en una espiral perfecta sobre la mesa, con las tijeras colocadas exactamente en el centro. La máquina de coser está abierta y sus carretes, agujas y dedales forman una fila impecable sobre el suelo.",
+    "d": "En la bodega de vinos, varias botellas han abandonado sus estantes y aparecen acomodadas en una espiral perfectamente simétrica alrededor de una lámpara apagada. En el suelo, los corchos forman un círculo concéntrico y las etiquetas de las botellas están alineadas cuidadosamente hacia arriba."
+   }
+  }
+ ]
+}

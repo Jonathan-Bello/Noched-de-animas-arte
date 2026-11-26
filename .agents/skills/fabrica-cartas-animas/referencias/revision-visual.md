@@ -4,6 +4,8 @@
 
 Extraer de la descripción activa una observación que pueda comprobar un lector. Una herramienta puede pedir aparato e indicio; un espíritu puede pedir una acción de protección. Cuando una variante cambia el reparto o el contexto, preparar sus adjuntos por separado. Si una imagen cumple varias funciones, identificar cada rasgo y recortar la zona pertinente cuando lo demás pueda condicionar la pose. Conservar el frente entero como término de comparación del acabado.
 
+Antes de la lectura, comprobar las [reglas por familia](familias.md): reparto, naipes y, en un Espanto, la paleta con `scripts/paleta_familia.py`. Una propuesta que las incumple no pasa al selector aunque se lea bien.
+
 ## Lectura en mesa
 
 Montar con las bandas reales y hacer una primera lectura con título y leyenda ocultos, idealmente con otro lector que desconozca la ficha. Registrar literalmente qué reconoció primero y qué acción o relación entendió. Una lámpara y un medidor reconocibles por separado todavía pueden dejar ambiguo el vínculo pedido entre ambos. Si la observación falta, ajustar el tamaño relativo, la mirada o el contraste dentro del mismo guion.
