@@ -5,3 +5,4 @@ __pycache__/
 exportaciones/
 privado/
 *.zip
+fabrica/tirajes/*/montaje/

@@ -20,7 +20,7 @@ Hasta entonces, las cartas Conservar y las ilustraciones de rol aprobadas siguen
 ## Procedimiento
 
 1. Verifica el emblema y el color contra una carta aprobada de la misma familia antes de componer. Un adorno recortado del reverso no sustituye al emblema.
-2. Compón en SVG por código, nunca con IA. El ejemplo que ya funciona es `herramientas/tarjeta_cordura.py`: arma el SVG y lo renderiza con Playwright. La primera vez que se pida el montaje de un lote, crea `herramientas/montar_carta.py` siguiendo ese modelo y enlázalo aquí.
+2. Compón en SVG por código, nunca con IA. El ejemplo que ya funciona es `herramientas/tarjeta_cordura.py`: arma el SVG y lo renderiza con Playwright. Para un lote de montaje usa [`herramientas/montar_carta.py`](../herramientas/montar_carta.py) (`python3 herramientas/montar_carta.py <lote>`): monta las piezas, deja los SVG con sangrado en `fabrica/tirajes/<lote>/montaje/` y publica las vistas en el selector.
 3. Revisa a 58 × 88 mm:
    - la cabeza o el objeto principal no quedan bajo la franja;
    - la leyenda tiene aire a los lados;

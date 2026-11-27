@@ -3,6 +3,11 @@
  "uso": "Índice que lee el selector (revision.html). El primer lote se abre por omisión. Lo actualiza .agents/skills/fabrica-cartas-animas/scripts/lote.py.",
  "lotes": [
   {
+   "lote": "montaje-01",
+   "titulo": "montaje-01 · cartas terminadas · 16 piezas",
+   "ruta": "web/revision/montaje-01/lote.json"
+  },
+  {
    "lote": "familias-01",
    "titulo": "familias-01 · guiones · 9 cartas",
    "ruta": "web/revision/familias-01/lote.json"

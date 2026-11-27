@@ -1,0 +1,332 @@
+{
+ "lote": "montaje-01",
+ "etapa": "montaje",
+ "nota": "Cartas terminadas: arte ya votado o aprobado con marco, título, emblema y leyenda. Original = arte actual sin marco.",
+ "cartas": [
+  {
+   "id": "rol_vigia",
+   "nombre": "El Vigía",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_vigia-a.webp?v=ac51bb40a1",
+    "sha256": "ac51bb40a18386651560c93c87c904a8109ff480c53bc82b2a9b893b6a1a5bab",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema mano; leyenda «La sombra cambió de sitio. Él no apartó la mirada.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_vigia-b.webp?v=a0dc8115cb",
+    "sha256": "a0dc8115cb68a9d827fd7a496311d98ae754877b79848195a9e8dcc85b8ae1f7",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema mano; leyenda «La sombra cambió de sitio. Él no apartó la mirada.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/vigia-vista.webp?v=7a6087f316",
+    "sha256": "7a6087f316b257053c09bda12225a8ec3259abb9faf659caf09f093b1c96e8c5"
+   }
+  },
+  {
+   "id": "rol_improvisador",
+   "nombre": "El Improvisador",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_improvisador-a.webp?v=7de0e8b842",
+    "sha256": "7de0e8b842a587558a9d4500adc3ebef19769effddfdd73e0b0d5a037228747d",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema mano; leyenda «Con lo que quedaba, todavía podía intentarlo.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_improvisador-b.webp?v=dae492536d",
+    "sha256": "dae492536de5be373fad2fb2ccadfa9ace5a44d2397df56b4d7458d7ab54c5c9",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema mano; leyenda «Con lo que quedaba, todavía podía intentarlo.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/improvisador-vista.webp?v=98f1256eb8",
+    "sha256": "98f1256eb8c1026d4fd4ef63ebadae71811b64895609ac55362971cbb5d0f2fc"
+   }
+  },
+  {
+   "id": "rol_tecnico",
+   "nombre": "El Técnico",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_tecnico-a.webp?v=6d9c388aa7",
+    "sha256": "6d9c388aa7f3dc23ecc6b7f72ec5a3c0d49955a72b4818b0642a881ee8880652",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema ojo; leyenda «Un golpe, un chasquido… y volvió a escucharse.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_tecnico-b.webp?v=9db1c406ee",
+    "sha256": "9db1c406eef73fb49f45ea039fa7499ea35616d93bb105296dadd422c1d249b6",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema ojo; leyenda «Un golpe, un chasquido… y volvió a escucharse.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/tecnico-vista.webp?v=4314ce0ed8",
+    "sha256": "4314ce0ed8b534952b19ccaf81a8d0571f5816f7633996f1865f4d79ecfe1a9b"
+   }
+  },
+  {
+   "id": "rol_detective",
+   "nombre": "El Detective",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_detective-a.webp?v=c44eac3331",
+    "sha256": "c44eac3331cb17d9073e099c121d2db1e4c9caf2fc28acbeb39008b5fa3d1670",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema ojo; leyenda «La pista estaba donde nadie había querido mirar.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_detective-b.webp?v=8aa9f1048a",
+    "sha256": "8aa9f1048ae12659787aac08e732230147d0dc9656ceab17d4f9f5b74cf07a96",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema ojo; leyenda «La pista estaba donde nadie había querido mirar.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/detective-vista.webp?v=93d6b95ba5",
+    "sha256": "93d6b95ba519036b6ba92463d549503eb725adcd2cb0aa658c257eaabc51996d"
+   }
+  },
+  {
+   "id": "rol_curandero",
+   "nombre": "El Curandero",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_curandero-a.webp?v=a4570ef4b2",
+    "sha256": "a4570ef4b248b1f0dc3fbf400b3a6c2bdb351ba14928ab029f2152b617c166b0",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema corazon; leyenda «Toma. Aún nos falta llegar al alba.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_curandero-b.webp?v=c8b2be2166",
+    "sha256": "c8b2be2166e8b55010052199cc947bd40303e7570f74ba13dd980f108adafea4",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema corazon; leyenda «Toma. Aún nos falta llegar al alba.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/curandero-vista.webp?v=04948307a3",
+    "sha256": "04948307a350c1b3b3e23b5d8e2d035b448bf697ac298f9140fb23450eb7e219"
+   }
+  },
+  {
+   "id": "rol_devota",
+   "nombre": "La Devota",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_devota-a.webp?v=615d26a8c5",
+    "sha256": "615d26a8c5af87449c4b9c68e75b989bc4b4b37f1dabf1c6d786de86cb2f6ced",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema escudo; leyenda «Donde llegó el humo, la sombra cedió.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_devota-b.webp?v=ff7de5158c",
+    "sha256": "ff7de5158c24953a4a04967a461540638b8f5df6587f88415c5d37404a5007fe",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema escudo; leyenda «Donde llegó el humo, la sombra cedió.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/devota-vista.webp?v=3c8d682211",
+    "sha256": "3c8d682211faf33e83d95e413f2631b16e9c7c16e284ee1707a5de31f8c598d6"
+   }
+  },
+  {
+   "id": "rol_sensitivo",
+   "nombre": "El Sensitivo",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_sensitivo-a.webp?v=d13cd79ebc",
+    "sha256": "d13cd79ebc597757167285959bdb02bea7b6ae6b49cf8cb34c3a798bac509052",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema ojo; leyenda «Dos ecos. Solo uno dejaba huella.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_sensitivo-b.webp?v=0bd2ed134a",
+    "sha256": "0bd2ed134a59cd13d56964423931b66186b4cf1f08281c437dfe715753113a41",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema ojo; leyenda «Dos ecos. Solo uno dejaba huella.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/sensitivo-vista.webp?v=32b003e1ab",
+    "sha256": "32b003e1ab5f4d0dcc3d962c46499e1380737eb065ba0e8e9d8ad24f077b31c3"
+   }
+  },
+  {
+   "id": "rol_guardaespaldas",
+   "nombre": "El Guardaespaldas",
+   "familia": "Roles",
+   "reverso": "rol_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_guardaespaldas-a.webp?v=26823feedb",
+    "sha256": "26823feedb4bfa985e7d064e0a3ffb496216a30b6f430ff0783de84e0b127404",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema escudo; leyenda «La puerta cedió. Él no.» (roles v09)."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_guardaespaldas-b.webp?v=554013d56d",
+    "sha256": "554013d56d800da96fd00dca5605529a7b3bd0b4f5033ec5ea7cebe7d12b5230",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema escudo; leyenda «La puerta cedió. Él no.» (roles v09)."
+   },
+   "original": {
+    "archivo": "web/miniaturas/roles-aprobados/guardaespaldas-vista.webp?v=447a1c7a5b",
+    "sha256": "447a1c7a5b10947a0f2c3aa0ce0a040381fbc15822775104636cbc92d3236807"
+   }
+  },
+  {
+   "id": "rol_manifestar",
+   "nombre": "Manifestar",
+   "familia": "Espíritu",
+   "reverso": "espiritu_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_manifestar-a.webp?v=dc4e70ae10",
+    "sha256": "dc4e70ae10446221fcc9fed4fef2c0d0959794146cc0ba4fa3ab9e8073de55df",
+    "descripcion": "Franja oscura, como el Velar aprobado. Emblema mano; leyenda «Aún puedo hacer que me escuchen.»."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_manifestar-b.webp?v=044236da6a",
+    "sha256": "044236da6acd40386aec31a3a0f2de23e36e16cddf43dba3d691b62c1cc4b614",
+    "descripcion": "Franja guinda, del color del reverso de roles. Emblema mano; leyenda «Aún puedo hacer que me escuchen.»."
+   },
+   "original": {
+    "archivo": "web/miniaturas/personajes/manifestar_original.webp?v=d6148de027",
+    "sha256": "d6148de027ff45b826c33ade304be5d3fa74e20055b44ff76283cf063b52f85e"
+   }
+  },
+  {
+   "id": "rol_velar",
+   "nombre": "Velar",
+   "familia": "Espíritu",
+   "reverso": "espiritu_reverso",
+   "a": {
+    "archivo": "web/revision/montaje-01/rol_velar-a.webp?v=5b698bf6f1",
+    "sha256": "5b698bf6f1ac06a3e0312ed57cd99a74c49518f08d848c4d1f03ec1d580861d5",
+    "descripcion": "Franja oscura, como el Velar aprobado. Mismo arte del Velar que conservaste, con el marco común de los roles."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/rol_velar-b.webp?v=634635b8bb",
+    "sha256": "634635b8bbafd02910b8a00f9fb171078c12ca0acc7cf8c2efec1e332f8c6e9f",
+    "descripcion": "Franja guinda, del color del reverso de roles. Mismo arte del Velar que conservaste, con el marco común de los roles."
+   },
+   "original": {
+    "archivo": "web/revision/lote-01/velar-original.webp?v=6a187f6d38",
+    "sha256": "6a187f6d381d9386a3cb0d39bbb05ee3ceec3be879a8e316a2d5f858f8eb09a7"
+   }
+  },
+  {
+   "id": "pentagrama",
+   "nombre": "Pentagrama",
+   "familia": "Objetos malditos",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/montaje-01/pentagrama-a.webp?v=57df41638b",
+    "sha256": "57df41638bf35c7731f99401934787650b70f55fa70270c5ce8b0de17212db4a",
+    "descripcion": "Arte que votaste (comparativa-01 A). Franja de objeto maldito; leyenda «Cinco velas encendidas, y el copal no quiso prender.»."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/pentagrama-b.webp?v=186348898c",
+    "sha256": "186348898ce8defafd021c740c9857d25137c2c073be4bdc5aa648f26eb7b1e2",
+    "descripcion": "Arte que votaste (comparativa-01 A). Franja de objeto maldito; leyenda «Dentro de la estrella, ni el humo se atrevió a entrar.»."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/pentagrama-a.webp?v=af2d524852",
+    "sha256": "af2d524852105f5907af722c9352480b2b101ac3ed9d3f7395ebae284733b8ae"
+   }
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Inés",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-ines",
+   "a": {
+    "archivo": "web/revision/montaje-01/cordura-ines-a.webp?v=3033957bc4",
+    "sha256": "3033957bc4a7e6607c26ff7d3de6b7948c41abbc73c15c02d1ab922a41522167",
+    "descripcion": "Retrato que votaste en comparativa-01, montado con herramientas/tarjeta_cordura.py: franja café de consulta, escala 10 a 0 al borde derecho para el clip."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/cordura-ines-b.webp?v=34ed47d1f0",
+    "sha256": "34ed47d1f0b3fc950619fdcadab961d3269d8a0e0990b47241064c47daa72a5d",
+    "descripcion": "Igual que A, con la franja oscura de los roles para que la tarjeta haga juego con la carta de rol."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/cordura-ines-a.webp?v=8d11ff569d",
+    "sha256": "8d11ff569d12799eab6deeddd1b1273f82486c060a51e660603769d6e154f721"
+   }
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Rafael",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-rafael",
+   "a": {
+    "archivo": "web/revision/montaje-01/cordura-rafael-a.webp?v=b25cbdbefa",
+    "sha256": "b25cbdbefa8d61e2101e4e86b9e9da06c6aaccc573ccc0a491e4ec38daf3498d",
+    "descripcion": "Retrato que votaste en comparativa-01, montado con herramientas/tarjeta_cordura.py: franja café de consulta, escala 10 a 0 al borde derecho para el clip."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/cordura-rafael-b.webp?v=d7bf8ab89e",
+    "sha256": "d7bf8ab89e891c7adeb8bdb2917370383223a79a58c68b86d250767193ba5572",
+    "descripcion": "Igual que A, con la franja oscura de los roles para que la tarjeta haga juego con la carta de rol."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/cordura-rafael-a.webp?v=514a7d528b",
+    "sha256": "514a7d528bc527377617682e361c00f9eb2847babae59591867b00ac9fef0d89"
+   }
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Tomás",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-tomas",
+   "a": {
+    "archivo": "web/revision/montaje-01/cordura-tomas-a.webp?v=97644bc9c6",
+    "sha256": "97644bc9c622035be5b85f8c8b674662f2c4250741dfdf94fc9571f57bcbaa88",
+    "descripcion": "Retrato que votaste en comparativa-01, montado con herramientas/tarjeta_cordura.py: franja café de consulta, escala 10 a 0 al borde derecho para el clip."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/cordura-tomas-b.webp?v=514e5eb612",
+    "sha256": "514e5eb6125da788832e98c85962a6081e090891ca84e8c0c9de271d359a5a3e",
+    "descripcion": "Igual que A, con la franja oscura de los roles para que la tarjeta haga juego con la carta de rol."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/cordura-tomas-a.webp?v=67c0085132",
+    "sha256": "67c008513279abf8dc7ede1685a98e860e93d9ddd29e52c29bed6fd40ccb66a6"
+   }
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Amalia",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-amalia",
+   "a": {
+    "archivo": "web/revision/montaje-01/cordura-amalia-a.webp?v=e623b928ca",
+    "sha256": "e623b928ca99a61df1ddfbcbcbef05d0bb3ecdd4055906275a3de4d6b49d786a",
+    "descripcion": "Retrato que votaste en comparativa-01, montado con herramientas/tarjeta_cordura.py: franja café de consulta, escala 10 a 0 al borde derecho para el clip."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/cordura-amalia-b.webp?v=72834b55a2",
+    "sha256": "72834b55a2b39da4a2b71da9af380b15aafbb3a7e91a81a9471e3c5044cc024a",
+    "descripcion": "Igual que A, con la franja oscura de los roles para que la tarjeta haga juego con la carta de rol."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/cordura-amalia-a.webp?v=d431c2bf9e",
+    "sha256": "d431c2bf9e41eb414018d603d7912cd201cee9796396c36d74259366b3ccecc1"
+   }
+  },
+  {
+   "id": "cordura",
+   "nombre": "Cordura · Padre Mateo",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "Q1B",
+   "pieza": "cordura-mateo",
+   "a": {
+    "archivo": "web/revision/montaje-01/cordura-mateo-a.webp?v=6eeb07b07c",
+    "sha256": "6eeb07b07cce52c310f2999502ac289c499169d900a0867c1f397bc9b330b39c",
+    "descripcion": "Retrato que votaste en comparativa-01, montado con herramientas/tarjeta_cordura.py: franja café de consulta, escala 10 a 0 al borde derecho para el clip."
+   },
+   "b": {
+    "archivo": "web/revision/montaje-01/cordura-mateo-b.webp?v=b504800ff8",
+    "sha256": "b504800ff8e89863966603ddcccd37e69cfc5cf8f0b75250464548d330a7b255",
+    "descripcion": "Igual que A, con la franja oscura de los roles para que la tarjeta haga juego con la carta de rol."
+   },
+   "original": {
+    "archivo": "web/revision/comparativa-01/cordura-mateo-a.webp?v=93e6e70e6e",
+    "sha256": "93e6e70e6e5f07d887d17bcb87ac05fcbe980806e82ebadacbf4f10ebe656c54"
+   }
+  }
+ ]
+}
