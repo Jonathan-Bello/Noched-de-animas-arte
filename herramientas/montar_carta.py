@@ -56,10 +56,9 @@ def imagen_datos(origen: Path, recorte=None) -> str:
 
 def emblema(familia: str) -> str:
     if familia == "objeto":
-        svg = (R / "iconos/cartas/recursos-juego/ui_cartas.svg").read_text(encoding="utf-8")
-        d = re.search(r'd="([^"]+)"', svg).group(1)
-        return (f'<g transform="translate(5.2 4.3) scale(.098)"><path d="{d}" fill="none" stroke="{CREMA}" '
-                'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>')
+        # Emblema de objetos tal como está en los frentes aprobados (Radio, o01): dos fichas crema superpuestas.
+        return (f'<rect x="5.4" y="4.9" width="4.4" height="4.6" rx=".6" fill="{CREMA}" opacity=".85"/>'
+                f'<rect x="6.3" y="5.7" width="4.6" height="4.9" rx=".6" fill="{CREMA}" stroke="{FRANJA_OBJETO}" stroke-width=".35"/>')
     datos = b64(R / f"iconos/cartas/recursos-juego/familia_{familia}.webp")
     return f'<image href="data:image/webp;base64,{datos}" x="5.1" y="4.4" width="6.2" height="6.2"/>'
 

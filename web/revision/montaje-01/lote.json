@@ -209,13 +209,13 @@
    "familia": "Objetos malditos",
    "reverso": "back02",
    "a": {
-    "archivo": "web/revision/montaje-01/pentagrama-a.webp?v=57df41638b",
-    "sha256": "57df41638bf35c7731f99401934787650b70f55fa70270c5ce8b0de17212db4a",
+    "archivo": "web/revision/montaje-01/pentagrama-a.webp?v=a5c9ab1b37",
+    "sha256": "a5c9ab1b37ea8fd7aaa8f52772c2d1874c64924b9243af049cd7903d48b1168b",
     "descripcion": "Arte que votaste (comparativa-01 A). Franja de objeto maldito; leyenda «Cinco velas encendidas, y el copal no quiso prender.»."
    },
    "b": {
-    "archivo": "web/revision/montaje-01/pentagrama-b.webp?v=186348898c",
-    "sha256": "186348898ce8defafd021c740c9857d25137c2c073be4bdc5aa648f26eb7b1e2",
+    "archivo": "web/revision/montaje-01/pentagrama-b.webp?v=67b4c275dc",
+    "sha256": "67b4c275dc704a038015096f6c5aa1deab5582da211af342d95fbac5871733a6",
     "descripcion": "Arte que votaste (comparativa-01 A). Franja de objeto maldito; leyenda «Dentro de la estrella, ni el humo se atrevió a entrar.»."
    },
    "original": {
