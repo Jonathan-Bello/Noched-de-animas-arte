@@ -82,3 +82,13 @@ python3 .agents/skills/fabrica-cartas-animas/scripts/paleta_familia.py es_cadejo
 ```
 
 `revisar_guiones.py` habría marcado 61 de las variantes del tiraje y ninguna de las que Jonathan eligió. `paleta_familia.py` deja pasar los 20 Espantos aprobados y detiene 30 de las 48 propuestas de Espanto rechazadas; las demás cayeron por el reparto. Ambos son filtros previos: no aprueban nada.
+
+## Lo que enseñó familias-03 (27-nov-2026)
+
+El autor conservó los 10 originales (kit, resp, ult, tarot, escalofrio, h2, id_guardian, es_cadejo, ev3, R05). Sus notas:
+
+- **Acabado fuera del mazo** en Kit de campo, Tarot, El Guardián y El Cadejo: «estilo gráfico demasiado simple, se ve generado por IA», «no sigue la tendencia de las cartas». Causa: referencias comunes para todo el lote y un párrafo de estilo genérico en vez de las cartas aprobadas de cada familia.
+- **Lectura perdida** en Lamento (h2) y Objetos movidos (ev3): «no da a entender lamentos», «la original sí da sensación de un poltergeist moviendo cosas». La lectura ciega a 58 × 88 mm lo habría detectado.
+- **Personajes simplificados** en Ultraje espiritual: conservar la manera en que el original simplifica a los personajes.
+- A y B se ilustraron usando C y D como referencia: los defectos se propagaron. De aquí salen los controles obligatorios de la skill (`scripts/control.py`).
+

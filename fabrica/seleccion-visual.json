@@ -142,12 +142,13 @@
   {
    "id": "kit",
    "nombre": "Kit de campo",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/i08@2x.webp",
    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Usaste un estilo grafico demasiado simple, se ve muy generado por IA",
    "historial": [
     {
      "id": "kit",
@@ -157,18 +158,28 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i08@2x.webp",
      "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+    },
+    {
+     "id": "kit",
+     "nombre": "Kit de campo",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/i08@2x.webp",
+     "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78",
+     "registrado": "2026-11-25"
     }
    ]
   },
   {
    "id": "resp",
    "nombre": "Respirar hondo",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/i10@2x.webp",
    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
    "historial": [
     {
      "id": "resp",
@@ -178,6 +189,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i10@2x.webp",
      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+    },
+    {
+     "id": "resp",
+     "nombre": "Respirar hondo",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/i10@2x.webp",
+     "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -355,12 +376,13 @@
   {
    "id": "tarot",
    "nombre": "Tarot",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/o06@2x.webp",
    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "El estilo grafico erroneo, no sigue la tendencia de las cartas",
    "historial": [
     {
      "id": "tarot",
@@ -370,6 +392,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/o06@2x.webp",
      "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+    },
+    {
+     "id": "tarot",
+     "nombre": "Tarot",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/o06@2x.webp",
+     "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -397,12 +429,13 @@
   {
    "id": "escalofrio",
    "nombre": "Escalofrío",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/a01@2x.webp",
    "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Original es mejor",
    "historial": [
     {
      "id": "escalofrio",
@@ -412,6 +445,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/a01@2x.webp",
      "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
+    },
+    {
+     "id": "escalofrio",
+     "nombre": "Escalofrío",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/a01@2x.webp",
+     "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -535,12 +578,13 @@
   {
    "id": "h2",
    "nombre": "Lamento",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/h03@2x.webp",
    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "No da a tender lamentos las demas",
    "historial": [
     {
      "id": "h2",
@@ -550,6 +594,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/revision/lote-01/h2-a.webp",
      "sha256": "84a313ac20cf025c6f3b66590b9c5ad26a58a0a50b06627327737945f6d1ef9e"
+    },
+    {
+     "id": "h2",
+     "nombre": "Lamento",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/h03@2x.webp",
+     "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -824,12 +878,13 @@
   {
    "id": "id_guardian",
    "nombre": "El Guardián del Entierro",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/id16@2x.webp",
    "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Estilo grafico que no concuerda",
    "historial": [
     {
      "id": "id_guardian",
@@ -839,6 +894,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/id16@2x.webp",
      "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
+    },
+    {
+     "id": "id_guardian",
+     "nombre": "El Guardián del Entierro",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/id16@2x.webp",
+     "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1118,12 +1183,13 @@
   {
    "id": "es_cadejo",
    "nombre": "Arrastre de cadenas",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/s18@2x.webp",
    "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Ilsutracion no concuenteda el estilo y se ve mal",
    "historial": [
     {
      "id": "es_cadejo",
@@ -1133,6 +1199,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/s18@2x.webp",
      "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+    },
+    {
+     "id": "es_cadejo",
+     "nombre": "Arrastre de cadenas",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/s18@2x.webp",
+     "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1244,12 +1320,13 @@
   {
    "id": "ev3",
    "nombre": "Objetos movidos",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/e04@2x.webp",
    "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "La original si da sensaion de un poltergaist moviendo cosas",
    "historial": [
     {
      "id": "ev3",
@@ -1259,6 +1336,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/e04@2x.webp",
      "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+    },
+    {
+     "id": "ev3",
+     "nombre": "Objetos movidos",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/e04@2x.webp",
+     "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1432,11 +1519,24 @@
   {
    "id": "R05",
    "nombre": "El espíritu",
-   "lote": "frentes-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/p07@2x.webp",
-   "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+   "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129",
+   "registrado": "2026-11-28",
+   "nota": "La orignal si usa unbuen estilo",
+   "historial": [
+    {
+     "id": "R05",
+     "nombre": "El espíritu",
+     "lote": "frentes-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/p07@2x.webp",
+     "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+    }
+   ]
   },
   {
    "id": "t5",
@@ -1501,6 +1601,17 @@
    "archivo": "web/revision/comparativa-01/cordura-mateo-a.webp",
    "sha256": "93e6e70e6e5f07d887d17bcb87ac05fcbe980806e82ebadacbf4f10ebe656c54",
    "registrado": "2026-11-25"
+  },
+  {
+   "id": "ult",
+   "nombre": "Ultraje espiritual",
+   "lote": "familias-03",
+   "voto": "original",
+   "alcance": "preferencia_visual",
+   "archivo": "web/miniaturas/i15@2x.webp",
+   "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf",
+   "registrado": "2026-11-28",
+   "nota": "Debes usar el estilo simplificado de los personajes como en la carta original"
   }
  ]
 }
