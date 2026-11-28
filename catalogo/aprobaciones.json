@@ -88,6 +88,13 @@
       "id": "ocho-ilustraciones-roles-2026-11-21",
       "fecha": "2026-11-21",
       "alcance": "Las ocho ilustraciones de rol identificadas en catalogo/ilustraciones_roles_aprobadas.json. El frente compuesto con marco y leyenda se revisa por separado."
+    },
+    {
+      "id": "ruda-ilustracion-estilo-01",
+      "fecha": "2026-11-27",
+      "estado": "aprobado",
+      "alcance": "escena (ilustración sin marco) de Ruda: web/revision/comparativa-01/ruda-a.webp, sha256 458fa4cb9c114e94c0579a4d5e6a5429cdf9b85988ea0189adbb15a873886482. La carta terminada se arma después con disenar-carta-animas.",
+      "evidencia": "Jonathan eligió «Aprobar la votada» para Ruda en el selector estilo-01 y envió la selección en el hilo del proyecto (fabrica/tirajes/estilo-01/seleccion-estilo-01.json, aprobar_votada)."
     }
   ]
 }

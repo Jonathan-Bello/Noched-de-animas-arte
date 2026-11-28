@@ -1,0 +1,232 @@
+{
+ "lote": "estilo-01",
+ "etapa": "guion",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "Claude"
+ },
+ "guiones": "https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/estilo-01/README.md",
+ "cartas": [
+  {
+   "id": "t0",
+   "nombre": "Termómetro",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "En la alacena de la cocina, el termómetro de empuñadura ancha cuelga solo de su correa en un clavo, entre jarros de barro. Su pantalla encendida con la lectura bajo cero es el punto más claro de la escena, y la llama de la veladora vecina se inclina hacia el aparato como si le diera frío. El aparato ocupa la mitad inferior.",
+    "sha256": "65ce669e8940f144589b4bf66e352bba2c05331e3e66c4e3a7063646a7544688"
+   },
+   "b": {
+    "descripcion": "La mano de Tomás, con el puño del sarape petróleo y su greca crema, alza el termómetro hacia el arco de una puerta del corredor, como quien busca señal. La pantalla con la lectura bajo cero brilla; detrás, los arcos se pierden en penumbra violeta en dos planos sencillos.",
+    "sha256": "622e2abbcc3fffa6891081b2befa9d4f75fc48451671ed8af14dc5f00314e6ee"
+   },
+   "c": {
+    "descripcion": "El termómetro descansa en el alféizar de una ventana de la recámara, con la pantalla vuelta hacia la cama vacía de colcha bordada. Su lectura bajo cero es la única luz fría de la escena, entre el ámbar de dos veladoras.",
+    "sha256": "5d0a86c5be271cc8cae905ba5a18904f4ed9c0b5e1f905aad45fc91250a479d7"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i01@2x.webp",
+    "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
+   }
+  },
+  {
+   "id": "ruda",
+   "nombre": "Ruda",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "Amalia, con su trenza gris y el rebozo crema de flores guinda, dormita tranquila en un sillón de mimbre con una ramita de ruda prendida al rebozo. Sobre el respaldo se asoma la sombra del ánima y se deshace en humo al rozar las hojas redondeadas. Gesto sereno, casi una sonrisa.",
+    "sha256": "8013841b931275ccc50c8fa700ad17c786742711fce4eec3af009b417b0d213f"
+   },
+   "b": {
+    "descripcion": "Sobre la mesita de noche, un vaso de agua con una rama de ruda junto a una veladora. La sombra alargada del ánima entra por la ventana, rodea el vaso sin tocarlo y sigue de largo. Sin personas.",
+    "sha256": "98a31e72f158022612f4263ef7590a5e7edf5007d7fa4f91ea7b1c6d4380ca4c"
+   },
+   "c": {
+    "descripcion": "La mano de Inés, con la manga crema bordada en guinda, acomoda una ramita de ruda detrás de su oreja, junto a su flor de cempasúchil. En la pared del pasillo, la sombra de una mano larga se retira hacia la oscuridad.",
+    "sha256": "e85f9f956393840d1b8afc700a1e6db824d0a14640de2f0513c400e02a5d49d1"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i13@2x.webp",
+    "sha256": "a13bfe1ef4497294f6fcff2469e8391234a744e18177da30d1abfbab765260f6"
+   }
+  },
+  {
+   "id": "esc",
+   "nombre": "Esconderse",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "Tomás se esconde bajo la mesa larga del comedor, tapado por el mantel bordado que llega al piso; solo asoman el ala de su sombrero y sus ojos muy abiertos. Su morral con los aparatos quedó encima de la mesa, fuera de su alcance. Junto al mantel pasan los pies descalzos y traslúcidos del ánima.",
+    "sha256": "fcd1b9374bf762d5b8cf70e95f009f521a4732cf682ae60998c29682155c2b83"
+   },
+   "b": {
+    "descripcion": "Tomás, hecho bolita dentro de un gran cesto de ropa de mimbre en el lavadero, sostiene la tapa con dos dedos y espía por la rendija. Afuera, una luz pálida del ánima barre el patio de un lado a otro.",
+    "sha256": "7b6b9c305bdcac9284338ede6390d49ed56467edd37112bfe8a7c35a9952dca1"
+   },
+   "c": {
+    "descripcion": "Tomás se metió en el horno de pan de adobe del patio, ya frío; abraza las rodillas y se tapa la boca. Su morral con los aparatos quedó afuera, junto a la boca del horno. Sobre el adobe se proyecta la sombra larga del ánima que pasa.",
+    "sha256": "f77ce46196109b051428b5b98e4afb6b302b39909ae30246773d99ed3d16afbc"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i12@2x.webp",
+    "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
+   }
+  },
+  {
+   "id": "tablilla",
+   "nombre": "Tablilla espiritista",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "descripcion": "La pieza triangular de la tablilla se levantó y flota a un palmo sobre el tablero; de su ventanita sale una voluta clara que se curva hacia arriba como un globo de diálogo vacío. La tablilla, con letras decorativas sin texto legible, reposa sobre un tapete de ganchillo en la mesa de la sala. Sin personas.",
+    "sha256": "5eb9647cb6834f49204bc99aeeb48c5f8295dcfdb6df82d8450e8804f6a73028"
+   },
+   "b": {
+    "descripcion": "Amalia sostiene la tablilla de canto contra el pecho, como un libro querido, y sonríe hacia su hombro, donde el espíritu traslúcido de Rafael, con chaleco y paliacate en azul pálido, se inclina para hablarle al oído.",
+    "sha256": "5f512019d16285c52b4c132334178597de404f8d37a38f9a4df570ee0d15d1ab"
+   },
+   "c": {
+    "descripcion": "La tablilla dentro de su caja de madera abierta, forrada de terciopelo guinda, en el baúl del desván. La pieza triangular brilla como recién despierta y el polvo alrededor de la caja forma un círculo limpio.",
+    "sha256": "976de06cc500624e87ed7fc173a2f5fb4981acf2b895c4e0a0cc93a7acf36dd8"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o02@2x.webp",
+    "sha256": "12fb8434583f55febfd9b24966f5a5c5c1c7ab64584106e5040f83319aec3dd6"
+   }
+  },
+  {
+   "id": "interferencia",
+   "nombre": "Interferencia",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "Rafael, de chaleco verde y paliacate rojo, da golpecitos con dos dedos a su detector EMF apagado. Desde la rejilla del aparato lo miran dos ojitos brillantes del ánima. Su cara es de sorpresa más divertida que asustada.",
+    "sha256": "ddc82829f4a200127bbd560a9e31a337a340c1c8c45e3126d34faacdfa3fdc1a"
+   },
+   "b": {
+    "descripcion": "Las pilas salen solas de la grabadora del Padre Mateo y ruedan escaleras abajo una tras otra, mientras él, con su abrigo guinda, estira la mano demasiado tarde desde el descanso.",
+    "sha256": "7b952c3bc484fcf24a57848421a782a68e0da98fcb025bca1dcab86df15b5712"
+   },
+   "c": {
+    "descripcion": "Vista cenital de la mesa de trabajo: termómetro, grabadora, lámpara UV y detector EMF en fila, listos. Solo la cámara de movimiento está cubierta por un velo fino, como mortaja, y de él sale vaho frío. Sin personas.",
+    "sha256": "3fd9c100c4b3a50299727208a9ec9d7c0a9e458a0fac948ed89c92ddae3b6e08"
+   },
+   "original": {
+    "archivo": "web/miniaturas/a06@2x.webp",
+    "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
+   }
+  },
+  {
+   "id": "h4",
+   "nombre": "Apagón",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "En el patio, la guirnalda de focos que cruza de balcón a balcón se apaga de un extremo al otro; el último foco encendido queda justo sobre Inés, que alza su farol también apagado y mira hacia arriba.",
+    "sha256": "a5a10f42774cb3045815d378664fc4bbddaed1dbd8fed4f0dc5aa1bf36230b30"
+   },
+   "b": {
+    "descripcion": "La araña de cristal del salón se acaba de apagar; sus prismas guardan un último destello ámbar. Debajo, sobre la mesa, quedó el rosario del Padre Mateo con la cruz sin brillo, y una sombra de dedos largos se acerca desde el borde de la mesa.",
+    "sha256": "faac8e4a15b7a4f21aec6491bc1c7f03e91425ee54aa1e9d678fa57d2d2f568e"
+   },
+   "c": {
+    "descripcion": "En la cocina, Rafael sostiene un cerillo encendido, la única luz. Las veladoras del altar doméstico se apagan solas en fila y la llama de su cerillo se inclina hacia la oscuridad, como jalada.",
+    "sha256": "a74c5175f95e0dfba89e15f9ccab825496ca1b6938ea96d619693758506fa266"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h05@2x.webp",
+    "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+   }
+  },
+  {
+   "id": "id_bruja",
+   "nombre": "Bruja",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "descripcion": "En el patio, bajo la luna, la Bruja de cabello blanco abre su rebozo guinda como alas y sus pies descalzos se despegan del suelo. A su lado la olla humea sobre tres piedras y el ojo de venado le cuelga del cuello. Sonrisa pícara, no grotesca.",
+    "sha256": "af2dbd097faef2092564591989e7f667e4a787c9060fee2faac35c3b7f13a93b"
+   },
+   "b": {
+    "descripcion": "Sentada en su petate, la Bruja ensarta ojos de venado y semillas rojas en un cordón, rodeada de manojos de hierbas que cuelgan del techo de su jacal. La brasa del fogón le ilumina la cara arrugada.",
+    "sha256": "207fd1246b47ce738d5a06fb2cf556f4f4d9291448f31c2c4778c7ddbf5f22e3"
+   },
+   "c": {
+    "descripcion": "Asomada a la puerta de su jacal entre cempasúchil seco, la Bruja sostiene en la palma una pequeña bola de fuego, como una vela sin vela; sus ojos reflejan la llama y el ojo de venado brilla en su pecho.",
+    "sha256": "94b81d5625bb4d766e169f81cb120d6c862371365858c0c80b3c1fcf99d1ab85"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id06@2x.webp",
+    "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
+   }
+  },
+  {
+   "id": "es_guardian",
+   "nombre": "Maldición del entierro",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "descripcion": "El Guardián del Entierro, anciano de bigote hecho de humo rojo, sale por la boca de un pozo de piedra. De sus manos abiertas cuelgan hilos de monedas que regresan a él, como imantadas, desde las grietas del patio. Encuadre desde abajo: él domina la escena. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
+    "sha256": "aaef37f3faf5262fa00b045dc6f5390dad0ce37d74bc55b6798662e0f9c58d19"
+   },
+   "b": {
+    "descripcion": "Primer plano de las manos enormes y traslúcidas del Guardián, juntas como cuenco; en ellas arde una sola moneda de oro como una llama. Detrás, su rostro de bigote con los ojos encendidos y un muro de piedra con nichos vacíos. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
+    "sha256": "1216920e5f9ab93c7e45361412c816e1fd77977b49854badd22ca70a82bc411b"
+   },
+   "c": {
+    "descripcion": "El Guardián, de cuerpo entero, se yergue sobre un montón de monedas que se derrite en brasa roja. Golpea el suelo con su bastón y las losas del cuarto se levantan como una reja alrededor del tesoro. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
+    "sha256": "5e82693805d264e4eeb2a9dfe6f71e64c27be566ad2f9206a122c61dad318212"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s16@2x.webp",
+    "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
+   }
+  },
+  {
+   "id": "ev4",
+   "nombre": "Luces parpadeantes",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "descripcion": "La fachada de la casona vista desde la calle empedrada, de noche: tres ventanas en fila; la del centro arde en ámbar con un foco desnudo a medio brillo y las de los lados están a oscuras. Sin personas.",
+    "sha256": "be6fa6a9143bd0d42992a92047f27ec11e46898ac96ff32e6a56c40db385b3cb"
+   },
+   "b": {
+    "descripcion": "Una lámpara de buró con pantalla de tela bordada sobre la cómoda; la mitad de la pantalla está iluminada y la otra a oscuras, y en la pared se dibujan tres sombras de la lámpara, desfasadas como un eco. Sin personas.",
+    "sha256": "f96162a4ad7d85f539810663bc073ee8ab31e71e0fb9cefc19fe76fe6ea77dce"
+   },
+   "c": {
+    "descripcion": "En el zaguán, la serie de foquitos de colores que rodea el nicho de la Virgen quedó encendida a saltos, uno sí y uno no. Al pie del nicho, polillas quietas sobre el piso. Sin personas.",
+    "sha256": "9d07347bbddc513e618ea5bed9ac07a953be7463e60dbaf917e740e18511ed22"
+   },
+   "original": {
+    "archivo": "web/miniaturas/e05@2x.webp",
+    "sha256": "3d2e3dd772affd0257e86ee3eddd2167f8498fca859426c4a6e99b26bd862dd1"
+   }
+  },
+  {
+   "id": "R02",
+   "nombre": "Reglas 2: Investigar",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "R02B",
+   "a": {
+    "descripcion": "Inés y Rafael, inclinados juntos sobre la libreta de Tomás en la mesa del comedor: Rafael señala con el lápiz una casilla e Inés acerca el farol. Ambiente cálido de equipo.",
+    "sha256": "c954df1d1ef6baa80eefa0e94368a135d08dbbd9cd69668bd145845568721c2c"
+   },
+   "b": {
+    "descripcion": "Vista cenital de la mesa de investigación: la libreta abierta sin texto legible al centro, los aparatos alrededor como las horas de un reloj y el dado junto a la libreta.",
+    "sha256": "f42bc59b3f5ae6f67d9ac9e3c7bd4c5c7c1bb557a1205a4623bb7a1e004162f3"
+   },
+   "c": {
+    "descripcion": "Tomás, de rodillas en el corredor, acerca la grabadora a una grieta de la pared mientras anota en la libreta apoyada en la rodilla; el dado asoma de su morral.",
+    "sha256": "fe9daeba84cf93c3067a36a0bb36c720476bb51f78dcdae7c8354d9dab1ee511"
+   },
+   "original": {
+    "archivo": "web/miniaturas/p04@2x.webp",
+    "sha256": "01db09b25bafa08a5864ddf4470f223bba07c41e4adf8a7ee4f1672d74f12fd2"
+   }
+  }
+ ]
+}

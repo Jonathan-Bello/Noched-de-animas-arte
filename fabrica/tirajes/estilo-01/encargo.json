@@ -1,0 +1,9 @@
+{
+ "lote": "estilo-01",
+ "modo": "guion",
+ "descripciones": "descripciones.json",
+ "estilo": "estilo.json",
+ "titulo": "Estilo general, arte por tipo y escenas nuevas",
+ "ilustrador": "ChatGPT",
+ "ids": ["t0", "ruda", "esc", "tablilla", "interferencia", "h4", "id_bruja", "es_guardian", "ev4", "R02"]
+}

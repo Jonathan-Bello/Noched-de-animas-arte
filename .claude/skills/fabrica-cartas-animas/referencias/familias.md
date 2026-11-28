@@ -13,6 +13,24 @@ De 65 elecciones, Jonathan conservó el original en 47 y eligió una propuesta e
 | Espanto con petróleo, azul o verde en la paleta | 30 de 48 (medido) | 0 |
 | Objeto o ánima sola como protagonista, sin investigador o con solo una mano | — | 12 de las 13 escenas elegidas |
 
+## Lo que eligió estilo-01 (27-nov-2026)
+
+Jonathan votó el estilo general y la composición de cada tipo de carta en el lote `estilo-01`. Estas elecciones mandan sobre las secciones de familia de abajo cuando chocan.
+
+**Estilo general: A, Papel recortado cálido** (C, Cuento ilustrado de noche, quedó segundo). Capas de papel recortado con contorno por cambio de tinta en café oscuro y grano fino. Paleta acotada a seis tintas (petróleo, crema, cempasúchil, ámbar, guinda y morado) con una sola luz cálida por escena. Fondo de arcos en dos planos sencillos para que el sujeto respire. Rostros de rasgos suaves y expresión serena. Nada realista: Jonathan rechazó la propuesta votada del Apagón por verse «muy realista».
+
+| Familia | Composición elegida | Lo que dijo Jonathan |
+|---|---|---|
+| Herramientas | **El aparato en su sitio**, solo, como bodegón, sin manos | Con el aparato solo se entiende qué aparato es, y el entorno da a entender qué mide. |
+| Reacciones | **El investigador y su gesto**, emoción reconocible y amable | Le encanta. |
+| Apoyos | Como herramientas: el remedio protagoniza | Son casi herramientas; siguen el estándar de las herramientas. |
+| Objetos | **Retrato del objeto**, centrado | Predomina el elemento central; en uso solo si el concepto lo pide. |
+| Acciones del ánima y habilidades | **El investigador vive el efecto** | En los efectos se ve lo que le pasa al investigador. |
+| Identidades | **Cuerpo entero en su lugar** | Prefiere el retrato de cuerpo entero. |
+| Espantos | **El ánima domina**, encuadre cerrado (el plano medio con la casa también vale) | A se usa más; ambas sirven. |
+| Evidencias | **El indicio de cerca** | Lo importante es que se vea el indicio. |
+| Reglas | **La mesa de trabajo** (el equipo junto también vale) | Ambas son perfectas. |
+
 ## Reglas para todas las familias
 
 1. **Propuesta nueva, no réplica.** Cuando una carta se rehace, cada variante es una escena nueva de la misma idea: otro lugar de la casona, otro momento u otro encuadre. No copiar la composición de la carta actual, que ya está en el selector como «Conservar original». Las réplicas fallan porque pierden lo que el original ya tenía y no aportan nada nuevo. «Mantener su identidad» significa conservar los rasgos del ánima en `fabrica/PERSONAJES.md`, no su pose ni su encuadre. Una réplica solo se hace si Jonathan la pide expresamente para corregir un detalle.
@@ -64,3 +82,13 @@ python3 .agents/skills/fabrica-cartas-animas/scripts/paleta_familia.py es_cadejo
 ```
 
 `revisar_guiones.py` habría marcado 61 de las variantes del tiraje y ninguna de las que Jonathan eligió. `paleta_familia.py` deja pasar los 20 Espantos aprobados y detiene 30 de las 48 propuestas de Espanto rechazadas; las demás cayeron por el reparto. Ambos son filtros previos: no aprueban nada.
+
+## Lo que enseñó familias-03 (27-nov-2026)
+
+El autor conservó los 10 originales (kit, resp, ult, tarot, escalofrio, h2, id_guardian, es_cadejo, ev3, R05). Sus notas:
+
+- **Acabado fuera del mazo** en Kit de campo, Tarot, El Guardián y El Cadejo: «estilo gráfico demasiado simple, se ve generado por IA», «no sigue la tendencia de las cartas». Causa: referencias comunes para todo el lote y un párrafo de estilo genérico en vez de las cartas aprobadas de cada familia.
+- **Lectura perdida** en Lamento (h2) y Objetos movidos (ev3): «no da a entender lamentos», «la original sí da sensación de un poltergeist moviendo cosas». La lectura ciega a 58 × 88 mm lo habría detectado.
+- **Personajes simplificados** en Ultraje espiritual: conservar la manera en que el original simplifica a los personajes.
+- A y B se ilustraron usando C y D como referencia: los defectos se propagaron. De aquí salen los controles obligatorios de la skill (`scripts/control.py`).
+

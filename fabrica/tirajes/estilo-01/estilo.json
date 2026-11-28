@@ -1,0 +1,35 @@
+{
+ "lote": "estilo-01",
+ "constantes": "Ilustración vertical 2:3 a sangre, sin texto, marco, título ni íconos; 12 % superior e inferior libres para el montaje. Folclor mexicano de la casona en Noche de Ánimas. Amigable y agradable: el miedo sale de la atmósfera, no de heridas, sangre ni rostros deformes. Un solo acontecimiento que se lee a 58 × 88 mm.",
+ "general": [
+  {"op": "a", "nombre": "Papel recortado cálido", "texto": "La línea actual, ordenada. Capas de papel recortado con contorno por cambio de tinta en café oscuro y grano fino. Paleta acotada a seis tintas (petróleo, crema, cempasúchil, ámbar, guinda y morado) con una sola luz cálida por escena. El fondo de arcos baja a dos planos sencillos para que el sujeto respire. Rostros de rasgos suaves y expresión serena.", "anclas": ["te", "ros", "copal", "t5"]},
+  {"op": "b", "nombre": "Estampa de lotería", "texto": "Un sujeto grande, centrado y casi frontal sobre un fondo de un solo color con un arco o papel picado sencillo. Contorno de tinta uniforme y algo más grueso, colores planos con una sombra por forma. Se lee al primer vistazo y todas las cartas parecen de la misma baraja.", "anclas": ["mano", "espejo_plata", "tablilla", "es_uaychivo"]},
+  {"op": "c", "nombre": "Cuento ilustrado de noche", "texto": "Gouache suave con bordes redondeados y menos línea. Luz de luna azul violeta que envuelve todo, con un foco cálido. Personajes de proporciones amables (cabeza un poco mayor, gestos expresivos) y ánimas más melancólicas que grotescas, como un cuento para leer en voz alta.", "anclas": ["alba", "caceria_total", "muneca", "id_llorona"]}
+ ],
+ "familias": [
+  {"id": "herramientas", "nombre": "Herramientas", "cartas": ["t0"], "opciones": [
+   {"op": "a", "nombre": "El aparato en la mano", "texto": "Una mano del investigador, reconocible por su manga, sostiene el aparato en diagonal. El aparato ocupa casi la mitad de la imagen y su lectura es el punto más claro.", "anclas": ["t4", "t1"]},
+   {"op": "b", "nombre": "El aparato en su sitio", "texto": "El aparato solo, apoyado en un mueble de la casona como un bodegón, sin manos. Fondo en dos planos.", "anclas": ["t2", "t6", "kit"]}]},
+  {"id": "apoyos", "nombre": "Apoyos y reacciones", "cartas": ["ruda", "esc"], "opciones": [
+   {"op": "a", "nombre": "El investigador y su gesto", "texto": "Se ve al investigador de medio cuerpo o completo; su emoción se reconoce y es amable: alivio, calma, contener la risa al esconderse.", "anclas": ["resp", "ros", "esc"]},
+   {"op": "b", "nombre": "El remedio y su efecto", "texto": "El objeto protector protagoniza, con una mano como mucho; su efecto (humo, luz, sombra que se detiene) envuelve la escena.", "anclas": ["copal", "ruda", "te"]}]},
+  {"id": "objetos", "nombre": "Objetos", "cartas": ["tablilla"], "opciones": [
+   {"op": "a", "nombre": "Retrato del objeto", "texto": "El objeto centrado sobre tela o madera, como pieza de museo, con un detalle sobrenatural pequeño.", "anclas": ["mano", "espejo_plata", "muneca"]},
+   {"op": "b", "nombre": "El objeto en uso", "texto": "El objeto en el momento de usarse, con una mano o un personaje cerca.", "anclas": ["tarot", "radio", "espejo_obsidiana"]}]},
+  {"id": "acciones", "nombre": "Acciones del ánima y habilidades", "cartas": ["interferencia", "h4"], "opciones": [
+   {"op": "a", "nombre": "El investigador vive el efecto", "texto": "Un investigador reacciona al efecto; se lee en su cara y su postura, sin violencia.", "anclas": ["escalofrio", "presencia", "h1"]},
+   {"op": "b", "nombre": "La casa vive el efecto", "texto": "Sin personas: la casona, sus objetos y la luz cuentan lo que hizo el ánima.", "anclas": ["portazo", "h2", "h6"]}]},
+  {"id": "identidades", "nombre": "Identidades", "cartas": ["id_bruja"], "opciones": [
+   {"op": "a", "nombre": "Cuerpo entero en su lugar", "texto": "El ánima completa en el sitio de su leyenda, con aire alrededor. Solo ella.", "anclas": ["id_llorona", "id_charro", "id_xtabay"]},
+   {"op": "b", "nombre": "Retrato cercano", "texto": "El ánima de medio cuerpo, con el rostro y su rasgo propio en primer plano. Solo ella.", "anclas": ["id_nahual", "id_bruja", "id_anima"]}]},
+  {"id": "espantos", "nombre": "Espantos", "cartas": ["es_guardian"], "opciones": [
+   {"op": "a", "nombre": "El ánima domina", "texto": "Encuadre cerrado y frontal; el ánima llena la carta. Monocromo carmín.", "anclas": ["es_llorona", "es_uaychivo", "es_aparecido"]},
+   {"op": "b", "nombre": "El ánima y la casa", "texto": "Plano medio: el ánima ataca y el entorno cuenta la consecuencia (fuego, objetos, muros). Monocromo carmín.", "anclas": ["es_demonio", "es_chocarrero", "es_mulata"]}]},
+  {"id": "evidencias", "nombre": "Evidencias", "cartas": ["ev4"], "opciones": [
+   {"op": "a", "nombre": "El indicio de cerca", "texto": "El indicio en primer plano, ya ocurrido, en un rincón vacío.", "anclas": ["ev1", "ev5", "ev6"]},
+   {"op": "b", "nombre": "El cuarto que guarda el indicio", "texto": "Plano general del cuarto o del pasillo; el indicio se encuentra dentro de él.", "anclas": ["ev3", "ev4"]}]},
+  {"id": "consultas", "nombre": "Cartas de reglas", "cartas": ["R02"], "opciones": [
+   {"op": "a", "nombre": "La mesa de trabajo", "texto": "Manos, libreta, aparatos y dado sobre la mesa: se explica el paso del turno.", "anclas": ["R01", "R02"]},
+   {"op": "b", "nombre": "El equipo junto", "texto": "Los investigadores en grupo, haciendo lo que explica la carta.", "anclas": ["R03", "R05"]}]}
+ ]
+}
