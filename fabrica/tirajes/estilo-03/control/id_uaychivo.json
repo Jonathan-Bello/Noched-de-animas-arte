@@ -1,0 +1,108 @@
+{
+  "id": "id_uaychivo",
+  "nombre": "El Uay Chivo",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "Los cuernos y el pelaje.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id21@2x.webp",
+      "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_uaychivo-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "El Uay Chivo mantiene la silueta EXACTA de criatura sobrenatural BÍPEDA de la quinta referencia: dos piernas de pelaje largo, exactamente dos pezuñas sobre un muro bajo, y dos BRAZOS de pelo oscuro caen libremente a ambos lados, ninguno toca el suelo. Mantén su anatomía erguida humanoide y la cabeza de chivo con dos cuernos largos curvos. Una única figura, de cuerpo entero, vista en tres cuartos desde atrás mientras gira la cabeza para que los cuernos se recorten contra la luna crema, justo por encima de su hombro. No cuadrúpedo. Arco maya escalonado visible a izquierda y dos planos de arcos de casona; pelaje negro en capas con borde tenue, toda la arquitectura y fondo en índigo y azul petróleo nocturno; velas y cempasúchil como acentos. Cuernos al 26 %, pezuñas al 76 %, nada esencial en 12 % arriba y abajo. Composición propia lateral, lejos del ojo.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id21@2x.webp"
+      ],
+      "imagen_sha256": "49b5715d64df1f96c8675366d8c8d294e0d93b12e7f95f7b8672b4b77bc557dd",
+      "lectura_ciega": "El ánima bípeda y peluda sobre un muro bajo vuelve la cabeza. Sus cuernos curvos se recortan contra la luna junto al arco maya.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se repitió A para mantener la silueta bípeda del original. La luna detrás de los cuernos conserva legibilidad y el ojo queda en plano general.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Contrapicado a ras del piso dentro del claustro de la casona. En la esquina media izquierda, tras el pilar del arco maya de falsa bóveda, asoman solo DOS pezuñas oscuras partidas en sus patas cortas de pelaje azulado, recortadas por la arquitectura, sin cabeza o cuerpo visibles. La luz lunar desde una ventana proyecta diagonalmente sobre el PISO una sombra larga y única de chivo, cuya cabeza con dos cuernos curvos es inequívoca, plana y unida a las pezuñas. El piso es mate para distinguir sombra de reflejo; la curva de los cuernos y pezuñas se leen dentro del 25 al 83 %. Ambiente de papel recortado en azul petróleo e índigo, arcos detrás, borde oscuro, papel picado índigo, un nicho con velas cálidas pequeñas y cempasúchil, decoración calada en el zócalo. Ninguna otra criatura.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id21@2x.webp"
+      ],
+      "imagen_sha256": "d3c35f6ca7db1122748e2cfdb7137bd61b9f9dda19e5424c1bcdc0b56e0b244a",
+      "lectura_ciega": "Dos pezuñas asoman detrás del pilar y proyectan una sombra de chivo con cuernos sobre el piso.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Las pezuñas y la sombra pertenecen a la única ánima de la escena. La Llorona se usó como referencia aprobada de acabado.",
+      "qa": true
+    }
+  }
+}

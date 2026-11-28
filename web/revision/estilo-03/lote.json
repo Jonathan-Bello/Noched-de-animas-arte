@@ -644,6 +644,42 @@
     "archivo": "web/miniaturas/id18@2x.webp",
     "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84"
    }
+  },
+  {
+   "id": "id_mulata",
+   "nombre": "La Mulata de Córdoba",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_mulata-a.webp?v=9fbaa25a86",
+    "sha256": "9fbaa25a86d6b4123347bd58401206d38b355ff8241a88eec15f6471d3cb1c0a"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_mulata-b.webp?v=3f498bddaa",
+    "sha256": "3f498bddaa39ad2bed5a8769ea855cef7cc1eeca5c5eb2d7f178cefe78d24738"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id20@2x.webp",
+    "sha256": "f0ffd04700008e2b0725ca2b212f8bbd1588d289bd576aaeb2214fd4d3199947"
+   }
+  },
+  {
+   "id": "id_uaychivo",
+   "nombre": "El Uay Chivo",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_uaychivo-a.webp?v=ec27b977c7",
+    "sha256": "ec27b977c70d875df374d3bbf4a220f408773b11867b631fe03bb31fc61c1eef"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_uaychivo-b.webp?v=78eea78489",
+    "sha256": "78eea784892919c2bf7d39e777b277da2021f41669a2562ec041c0772700505a"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id21@2x.webp",
+    "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a"
+   }
   }
  ]
 }
