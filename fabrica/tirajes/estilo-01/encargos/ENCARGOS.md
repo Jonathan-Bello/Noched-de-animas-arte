@@ -113,3 +113,17 @@ Adjuntar: [i09](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-anima
 > Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, tonos medios, superficies mate, y que el acontecimiento se lea a 58 × 88 mm.
 >
 > Escena: Inés y Rafael, inclinados juntos sobre la libreta de Tomás en la mesa del comedor: Rafael señala con el lápiz una casilla e Inés acerca el farol. Ambiente cálido de equipo.
+
+## Apagón (`h4`) · escena B (lote estilo-02)
+
+Adjuntar: [i09](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/i09@2x.webp), [i11](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/i11@2x.webp), [i14](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/i14@2x.webp), [i06](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/i06@2x.webp), [a09](https://raw.githubusercontent.com/Jonathan-Bello/Noched-de-animas-arte/main/web/miniaturas/a09@2x.webp)
+
+> Ilustra la escena suministrada de la carta «Apagón» (Habilidades) del juego Noche de Ánimas. La descripción decide quién aparece, qué ocurre y dónde. Composición: el investigador vive el efecto; se ve lo que le pasa, sin violencia. Que se lea que los focos revientan y la casa entera queda a oscuras. No dibujes naipes, mazos ni cartas de juego.
+>
+> Estilo: papel recortado cálido, como las cartas de estilo adjuntas. Capas de papel recortado con contorno por cambio de tinta en café oscuro y grano fino de papel. Paleta acotada a seis tintas: petróleo, crema, cempasúchil, ámbar, guinda y morado, con una sola luz cálida en la escena. El fondo de arcos de la casona baja a dos planos sencillos para que el sujeto respire. Rostros de rasgos suaves y expresión serena. Amigable y agradable: el miedo sale de la atmósfera, nunca de heridas, sangre ni rostros deformes. Nada fotográfico ni realista.
+>
+> De cada imagen adjunta toma solo el rasgo indicado en su rótulo; no copies su composición ni su pose. Las cartas adjuntas llevan marco y título: ignóralos.
+>
+> Ilustración vertical 2:3 a sangre. Reserva el 12 % superior y el inferior para fondo de escena y el 5 % lateral para el corte. Sin texto, letras, números, marcos ni íconos. Siluetas claras, tonos medios, superficies mate, y que el acontecimiento se lea a 58 × 88 mm.
+>
+> Escena: Vista desde el patio: la casona entera se apaga de golpe, ventana por ventana, hasta quedar como una silueta negra contra el cielo morado. En la única ventana que aún brilla, el Padre Mateo alza su rosario mientras el foco que tiene encima estalla en chispas; la cruz no da luz.

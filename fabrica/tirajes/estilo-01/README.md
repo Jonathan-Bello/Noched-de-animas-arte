@@ -42,4 +42,5 @@ Selección en [`seleccion-estilo-01.json`](seleccion-estilo-01.json), registrada
 - **Arte por tipo:** herramientas B (aparato solo); el resto A. Los apoyos siguen el estándar de las herramientas. Anotado con sus comentarios en `referencias/familias.md`.
 - **Ruda:** aprobada la ilustración votada en comparativa-01 (`catalogo/aprobaciones.json`). Sigue el montaje con `disenar-carta-animas`.
 - **Apagón:** pidió escenas nuevas (focos que revientan y la casa a oscuras, sin acabado realista): lote [`estilo-02`](../estilo-02/descripciones.json), selector https://claude.ai/artifact/JAN7u7FAKZorH9x5GSAXwv
+- **Apagón (estilo-02):** eligió la escena B (la casona se apaga; el foco estalla sobre el Padre Mateo). Encargo en [`encargos/h4.md`](encargos/h4.md).
 - **Escenas elegidas para ilustrar:** Termómetro C, Esconderse A, Tablilla C, Interferencia C, Bruja A, Maldición del entierro C, Luces parpadeantes A, Investigar A. Encargos para ChatGPT en [`encargos/`](encargos/ENCARGOS.md).

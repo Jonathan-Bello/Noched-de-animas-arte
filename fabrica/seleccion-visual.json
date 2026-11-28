@@ -556,15 +556,14 @@
   {
    "id": "h4",
    "nombre": "Apagón",
-   "lote": "estilo-01",
+   "lote": "estilo-02",
    "voto": "b",
    "alcance": "preferencia_visual",
    "archivo": null,
-   "sha256": "faac8e4a15b7a4f21aec6491bc1c7f03e91425ee54aa1e9d678fa57d2d2f568e",
+   "sha256": "c27aa2946e5d35ba5c4e390195019fa2c4a62950300ada25a0ba7bc4b82f7e20",
    "registrado": "2026-11-28",
    "etapa": "guion",
-   "guion": "La araña de cristal del salón se acaba de apagar; sus prismas guardan un último destello ámbar. Debajo, sobre la mesa, quedó el rosario del Padre Mateo con la cruz sin brillo, y una sombra de dedos largos se acerca desde el borde de la mesa.",
-   "nota": "Me gusta la aprobada actual, necesito que se vea mejor una escena donde se note como los focos se rompen y toda la casa queda a oscuras. Necesito que me elabores nuevas propuestas, la votada esta bien pero su estilo se ve muy reallista.",
+   "guion": "Vista desde el patio: la casona entera se apaga de golpe, ventana por ventana, hasta quedar como una silueta negra contra el cielo morado. En la única ventana que aún brilla, el Padre Mateo alza su rosario mientras el foco que tiene encima estalla en chispas; la cruz no da luz.",
    "historial": [
     {
      "id": "h4",
@@ -584,6 +583,19 @@
      "archivo": "web/revision/comparativa-01/h4-c.webp",
      "sha256": "eaa183edd768dcd3c363eabfd92589e8b42e79d920b5252e13f5e43f6e285194",
      "registrado": "2026-11-25"
+    },
+    {
+     "id": "h4",
+     "nombre": "Apagón",
+     "lote": "estilo-01",
+     "voto": "b",
+     "alcance": "preferencia_visual",
+     "archivo": null,
+     "sha256": "faac8e4a15b7a4f21aec6491bc1c7f03e91425ee54aa1e9d678fa57d2d2f568e",
+     "registrado": "2026-11-28",
+     "etapa": "guion",
+     "guion": "La araña de cristal del salón se acaba de apagar; sus prismas guardan un último destello ámbar. Debajo, sobre la mesa, quedó el rosario del Padre Mateo con la cruz sin brillo, y una sombra de dedos largos se acerca desde el borde de la mesa.",
+     "nota": "Me gusta la aprobada actual, necesito que se vea mejor una escena donde se note como los focos se rompen y toda la casa queda a oscuras. Necesito que me elabores nuevas propuestas, la votada esta bien pero su estilo se ve muy reallista."
     }
    ]
   },
