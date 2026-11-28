@@ -1,0 +1,201 @@
+{
+ "lote": "familias-03",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "ChatGPT",
+  "d": "ChatGPT"
+ },
+ "cartas": [
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "tipo": "herramienta",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El maletín de cuero del kit, abierto sobre la mesa de la cocina junto a un molcajete, con sus compartimentos en fila: termómetro, lámpara UV, grabadora y detector EMF, cada uno en su hueco de terciopelo. Un hueco del centro está vacío, la pieza que se eligió. Sin manos.",
+    "b": "El kit colgado de un perchero de la entrada, como un morral de cuero con bolsillos; de cada bolsillo asoma la punta de un aparato distinto, reconocible por su silueta. A sus pies, un farol encendido es la única luz cálida.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Herramienta = el aparato solo, como bodegón (estilo-01). El hueco vacío cuenta «eliges la evidencia» sin texto.",
+    "b": "Aparato en su sitio y sin manos; la variedad de aparatos se lee por silueta.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "tipo": "apoyo",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Sobre el buró, una vela en candelero de barro: su llama, que se doblaba, vuelve a estar quieta y derecha, y el humo sube en una sola línea. Junto a ella, el paliacate rojo de Rafael doblado con calma. Sin personas.",
+    "b": "En primer plano, la mano de Rafael abierta sobre su chaleco verde, a la altura del pecho. Detrás, en dos planos, una ventana abierta con la cortina que se mece suave y la luna. Del cuello del chaleco sale una voluta de aliento tibio en ámbar.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Apoyo como herramienta (pidió que los apoyos sigan ese estándar): el remedio protagoniza. La calma se cuenta con la llama.",
+    "b": "Una mano como mucho; el gesto de respirar es el remedio.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "ult",
+   "nombre": "Ultraje espiritual",
+   "tipo": "reaccion",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Padre Mateo, con su abrigo guinda, da una palmada en la mesa y regaña de frente a la sombra del ánima, que se encoge hasta caber detrás de una jarra; al escabullirse se lleva una hoja de la libreta. Gesto firme, casi cómico.",
+    "b": "Tomás, con el sombrero en la mano, se planta en el umbral y le grita a la sombra, que retrocede por el pasillo como humo soplado; en su retirada arrastra el pañuelo que asomaba del bolsillo de Tomás.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Reacción = el investigador y su gesto, amable (estilo-01). «El ánima roba 1 carta» se traduce a la hoja que se lleva, sin naipes.",
+    "b": "Mismo gesto en otro lugar y otro investigador; el robo se cuenta con el pañuelo.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "tipo": "objeto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La caja de madera del tarot abierta como un pequeño retablo de tres hojas. En el centro, un solo arcano se ilumina por dentro como vitral y los demás quedan en sombra. Sobre la tapa descansa el dado de hueso con el cinco arriba.",
+    "b": "Un arcano flota de canto sobre un cuenco de agua en la mesa de la sala; su reflejo en el agua muestra otra figura, como si contestara. Junto al cuenco, el dado de hueso en seis.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Objeto = retrato centrado (estilo-01). Tarot es excepción a la regla de naipes; el dado conserva la mecánica.",
+    "b": "Objeto centrado con un detalle sobrenatural pequeño.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "manifestacion",
+   "nombre": "Manifestación",
+   "tipo": "anima",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Inés, sentada en la cama de la recámara, ve cómo el ánima se forma frente a ella desde el vapor de una taza: primero un rostro y luego unos hombros. Inés aprieta su farol con las dos manos; se asusta, pero nada la hiere.",
+    "b": "Amalia lee en su sillón; la cortina de atrás toma la forma de una figura alta que se inclina sobre su hombro. Amalia la mira de reojo y se le cae el ramo de hierbas; dos flores se marchitan al tocar el piso.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Acciones del ánima = el investigador vive el efecto (estilo-01). Miedo por atmósfera, sin violencia.",
+    "b": "La pérdida de cordura se cuenta con las flores que se marchitan.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "tipo": "habilidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Los investigadores, juntos en la sala, se tapan los oídos cada uno a su manera, mientras el lamento entra por la chimenea como una cinta de humo pálido con forma de boca abierta.",
+    "b": "Tomás, en su cama, se tapa la cabeza con la almohada; por la rejilla de la pared entra una voz en espiral que llena el cuarto y mece las cortinas.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Habilidad = el investigador vive el efecto; «todos pierden 2» se cuenta con todos a la vez. Sin la grabadora, que es la herramienta de Susurros.",
+    "b": "Un solo investigador y el efecto en su cuarto; la voz se dibuja como espiral.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "id_guardian",
+   "nombre": "El Guardián del Entierro",
+   "tipo": "identidad",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Guardián del Entierro, anciano traslúcido de bigote, de cuerpo entero en la bodega: sentado en un banquito junto a una tinaja enterrada hasta el borde, cuenta monedas de oro una por una sobre su rodilla, sereno y celoso. Solo él.",
+    "b": "De pie en el patio bajo la luna, el Guardián sostiene un farol azul y vigila una losa marcada con una cruz; su cuerpo no proyecta sombra y alrededor de sus pies brillan monedas a medio enterrar. Solo él.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Identidad = cuerpo entero en el lugar de su leyenda; solo el ánima (estilo-01). Conserva su tono azulado de PERSONAJES.md.",
+    "b": "Cuerpo entero, otro lugar de su leyenda (el entierro en el patio).",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "es_cadejo",
+   "nombre": "Arrastre de cadenas",
+   "tipo": "espanto",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "El Cadejo Negro sentado en lo alto de la escalera como guardián, con la cadena bajando los peldaños en una sola línea que abajo se abre en dos argollas vacías que aún se balancean. Encuadre desde abajo: él domina la escena. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
+    "b": "Primer plano del hocico del Cadejo sosteniendo entre los dientes el eslabón donde la cadena se une; de ahí salen dos ramales que se pierden fuera del cuadro hacia dos puertas distintas. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Espanto = el ánima domina; solo él; monocromo carmín. Las dos argollas cuentan que encadena a dos sin dibujar personas.",
+    "b": "Encuadre cerrado; el doble ramal cuenta el efecto con el entorno.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "tipo": "evidencia",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "Primer plano de una repisa de la cocina: los jarritos de barro que colgaban de sus clavos están ahora todos de cabeza, alineados del más grande al más chico, y los clavos de la pared quedaron vacíos. Sin personas.",
+    "b": "Los zapatos que los investigadores dejaron en la entrada aparecen formados subiendo la escalera, un par en cada peldaño, todos con la punta hacia arriba. Sin personas.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Evidencia = el indicio de cerca y ya ocurrido (estilo-01). Sin la cámara, que es la herramienta que la busca.",
+    "b": "Indicio ya ocurrido y fácil de leer: alguien acomodó lo que no se mueve solo.",
+    "c": "",
+    "d": ""
+   }
+  },
+  {
+   "id": "R05",
+   "nombre": "El espíritu",
+   "tipo": "reglas",
+   "estado": "rehacer",
+   "en_selector": true,
+   "variantes": {
+    "a": "La mesa de trabajo de cerca: la libreta abierta, el dado y un lápiz que escribe solo, sostenido por una mano traslúcida azul pálido con el puño del chaleco de Rafael; junto a la libreta, su paliacate rojo doblado.",
+    "b": "Inés anota en la libreta mientras, detrás de ella, el espíritu de Tomás, con sombrero y sarape en azul pálido traslúcido, se asoma por su hombro y le señala dónde escribir; los dos sonríen.",
+    "c": "",
+    "d": ""
+   },
+   "como": {
+    "a": "Reglas = la mesa de trabajo (estilo-01). El espíritu sigue ayudando: se reconoce a Rafael por su chaleco y su paliacate.",
+    "b": "Variante del equipo junto (también le gustó); el espíritu como compañero, no como amenaza.",
+    "c": "",
+    "d": ""
+   }
+  }
+ ]
+}
