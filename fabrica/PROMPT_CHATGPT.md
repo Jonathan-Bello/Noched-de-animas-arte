@@ -1,6 +1,6 @@
 # Encargo de ilustración para Noche de Ánimas
 
-Copiar este bloque junto con la descripción íntegra de la variante, su ID y autor. Adjuntar físicamente las cartas aprobadas de la ficha en cada llamada. Añadir tal cual el párrafo de [estilo simple](../.agents/skills/fabrica-cartas-animas/referencias/estilo-simple.md). Usar un contexto independiente por carta. Si se generan alternativas en una hoja de revisión, asignar cada escena a su celda y revisar cada recorte por separado.
+Copiar este bloque junto con la descripción íntegra de la variante, su ID y autor. Adjuntar físicamente las cartas aprobadas de la ficha en cada llamada. Adjuntar también las cartas de `guias/punto-de-estilo.json` y añadir tal cual el párrafo de [punto de estilo](../.agents/skills/fabrica-cartas-animas/referencias/estilo-simple.md). Usar un contexto independiente por carta. Si se generan alternativas en una hoja de revisión, asignar cada escena a su celda y revisar cada recorte por separado.
 
 > Ilustra la variante suministrada. La descripción determina quién aparece, qué ocurre, dónde y qué debe poder reconocer el jugador. Mantén esas decisiones y las correcciones expresas del director. Conserva de cada referencia únicamente los rasgos etiquetados de identidad, modelo del aparato o acabado. Si el sujeto es un objeto, establece su apoyo; si hay un gesto, resuelve el contacto y el eje del brazo antes del vestuario. El encuadre nace de la acción. Una referencia de textura, una pose histórica o un aparato sostenido en un retrato no aportan elementos narrativos adicionales.
 >
