@@ -1,0 +1,108 @@
+{
+  "id": "id_bruja",
+  "nombre": "Bruja",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "El caldero y el ojo de venado.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id06@2x.webp",
+      "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985",
+      "funciones": [
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_bruja-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "En el patio, bajo la luna, la Bruja de cabello blanco abre su rebozo guinda como alas y sus pies descalzos se despegan del suelo. A su lado la olla humea sobre tres piedras y el ojo de venado le cuelga del cuello. Sonrisa pícara, no grotesca. Figura única de cuerpo entero muy legible. Cabello blanco y rostro de anciana, rebozo guinda con calados florales, falda oscura. Ambas manos sostienen los extremos del rebozo como dos alas de papel; no son alas físicas nuevas. Un amuleto ojo de venado es una sola semilla ovalada oscura con parche miel, anudada a un cordón sobre el pecho, no un ojo de animal anatómico. Oscura sombra de contacto separada de ambos pies para leer la levitación. Olla de barro de boca negra junto a ella sobre tres piedras visibles, vapor crema suave. Patio de arcos, paleta magenta, guinda y crema con velas discretas. Sin otros personajes, manos ajenas, naipes, letras ni cifras.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id06@2x.webp"
+      ],
+      "imagen_sha256": "f67b7288ce905cfb8c9a451c7ebf108e6690a719e4967bf2f6fb14f3bef9ffe7",
+      "lectura_ciega": "La Bruja se eleva descalza y abre el rebozo. Lleva un amuleto y la olla humea a su lado bajo la luna.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se conserva la opción A de estilo-01, con levitación y tres piedras bajo la olla. El amuleto y la sonrisa se distinguen en pequeño.",
+      "qa": true
+    },
+    "b": {
+      "guion": "La Bruja de cabello blanco y rebozo guinda de calados florales está de cuerpo entero, de pie en un descanso del interior de la casona, junto a un espejo arropado por una tela oscura. Postura recogida y pies apoyados, una mano levanta apenas la orilla de la cubierta sin revelar el reflejo y la otra sostiene la ropa. El amuleto ojo de venado es una sola semilla ovalada negra y miel suspendida del cordón al cuello. Se separa unos centímetros del pecho: una sencilla línea curva doble junto al amuleto sugiere que gira solo. La bruja mira el amuleto con sonrisa pícara y calma. Una olla baja de barro sin humeo se ve secundaria en un nicho oscuro detrás. Dominante magenta/guinda, crema y ámbar de una veladora, arcos en dos planos y mínimo cempasúchil. No mostrar cuerpos ajenos, caras en el espejo, cartas, cifras, texto, naipes, luna visible o levitación.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id06@2x.webp"
+      ],
+      "imagen_sha256": "d33c589d8dee8580c2df810b3ee112a04f4fd949d7544a68399f8e1463c26970",
+      "lectura_ciega": "La Bruja levanta un borde de la cubierta de un espejo mientras su amuleto comienza a girar.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "La Bruja aparece sola con los pies apoyados. El amuleto se mueve frente al espejo cubierto y la olla queda al fondo.",
+      "qa": true
+    }
+  }
+}

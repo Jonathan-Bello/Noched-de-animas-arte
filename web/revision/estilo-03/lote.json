@@ -446,6 +446,60 @@
     "archivo": "web/miniaturas/id02@2x.webp",
     "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0"
    }
+  },
+  {
+   "id": "id_bruja",
+   "nombre": "Bruja",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_bruja-a.webp?v=c21745c605",
+    "sha256": "c21745c605836b7710d093921af047db0b449ff79925580066729b0dd33bd442"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_bruja-b.webp?v=74eb867b9e",
+    "sha256": "74eb867b9ea361e89c2de4d97c2b8428e85b8f3269c6a10e1d76fa22dea6caeb"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id06@2x.webp",
+    "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
+   }
+  },
+  {
+   "id": "id_chaneque",
+   "nombre": "Chaneque",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_chaneque-a.webp?v=588bce37c6",
+    "sha256": "588bce37c6d877b6cf0acf08beae1f321fe1165b8ac91306a839ced2d5072ac8"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_chaneque-b.webp?v=09a2ecf054",
+    "sha256": "09a2ecf054db1a424254315d0280c409d9ada464f5f773e5710250d19a4d7c37"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id07@2x.webp",
+    "sha256": "cef79f1805b7fd2315f5a20a8d16b21cb1b46a4b8cf3c17a018f830d42a95275"
+   }
+  },
+  {
+   "id": "id_yohualtepuztli",
+   "nombre": "Yohualtepuztli",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_yohualtepuztli-a.webp?v=de435a7f56",
+    "sha256": "de435a7f56145a25db0c6241cce558175c754503cf6cb933cf21101006bb1686"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_yohualtepuztli-b.webp?v=8b14a5fb4f",
+    "sha256": "8b14a5fb4f545d11582f57cabff70f5a37f21dbada94f462f2024a776671c818"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id08@2x.webp",
+    "sha256": "ea4ec79a54b91d72de0d14587c236d2fdce19ded6010483be168e8a12ae17ffd"
+   }
   }
  ]
 }
