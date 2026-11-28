@@ -2,6 +2,10 @@
 
 Guía de trabajo para ilustración, encabezados y pruebas físicas. La [guía artística original](parametros_artisticos.json) documenta la revisión de 92 frentes y 15 reversos. Para elegir una imagen, consultar el [canon de cartas](../catalogo/canon.cartas.json) y el [alcance de su aprobación](../catalogo/aprobaciones.json). Una aprobación de rostro permite reutilizar la identidad; una escena nueva requiere su propia revisión.
 
+## Estilo general elegido (estilo-01, 27-nov-2026)
+
+Jonathan eligió **Papel recortado cálido** como estilo común de todas las ilustraciones nuevas: la línea actual, ordenada. Capas de papel recortado, contorno por cambio de tinta en café oscuro, grano fino, seis tintas (petróleo, crema, cempasúchil, ámbar, guinda y morado), una sola luz cálida por escena, fondo de arcos en dos planos sencillos y rostros de rasgos suaves. Amigable y agradable: el miedo sale de la atmósfera, no de heridas ni rostros deformes. Referencias: Té de tila, Rosario, Copal y Espejo de mano. La composición elegida para cada tipo de carta está en [las reglas por familia](../.agents/skills/fabrica-cartas-animas/referencias/familias.md).
+
 ## Cómo debe verse una carta
 
 La referencia es una ilustración narrativa de folclor mexicano con formas de papel recortado e impresión artesanal. El sujeto debe reconocerse al tamaño de una carta. Un farol se lee por su silueta, el canto de su estructura y sus planos de luz ámbar. Una camisa conserva pliegues y tonos medios. Los cambios de tinta construyen el contorno, con una irregularidad leve y grano fino de papel.

@@ -1,0 +1,33 @@
+{
+ "version": 1,
+ "lote": "estilo-01",
+ "etapa": "guion",
+ "total": 19,
+ "completo": true,
+ "estilo": {"opcion": "a", "nota": "EL tipo A es mi favorito. El tipo C queda en segundo lugar."},
+ "familias": [
+  {"id": "herramientas", "opcion": "b", "nota": "Me gustan mas las cartas con el aparato solo, porque se entiende mas que tipo de aparato es, y al rededor se da a entender que mide.\n"},
+  {"id": "apoyos", "opcion": "a", "nota": "Creo que son dos tipos de cartas, que son bastante parecido. El tipo A me encanta, pero tipo B, como son mas que nada herramientas, deberian seguir el estandar actual que usan, que se asemeja mucho a lo del estilo de las herramientas."},
+  {"id": "objetos", "opcion": "a", "nota": "Ambas opciones son buenas. Depnde del concepto, si es un aparato o herrameinta esta bien en uso, pero es mejor predominar el elemento central en la carta, al final del dia, son tambien tipos de herrameintas o objetos a usar.\n"},
+  {"id": "acciones", "opcion": "a", "nota": "Cuando son efectos es mejor que se vea lo que refleja hacia el investigador"},
+  {"id": "identidades", "opcion": "a", "nota": "Prefiero  el retrato de cuerpo entero.\n"},
+  {"id": "espantos", "opcion": "a", "nota": "Ambos rasgos dependen. El tipo A se usa mas, pero ambas son perfectas opciones."},
+  {"id": "evidencias", "opcion": "a", "nota": "Lo importante es que se pueda reflejar el indicio."},
+  {"id": "consultas", "opcion": "a", "nota": "Ambos son perfectos."}
+ ],
+ "elecciones": [
+  {"id": "t0", "opcion": "c", "sha256": "5d0a86c5be271cc8cae905ba5a18904f4ed9c0b5e1f905aad45fc91250a479d7"},
+  {"id": "esc", "opcion": "a", "sha256": "fcd1b9374bf762d5b8cf70e95f009f521a4732cf682ae60998c29682155c2b83"},
+  {"id": "tablilla", "opcion": "c", "sha256": "976de06cc500624e87ed7fc173a2f5fb4981acf2b895c4e0a0cc93a7acf36dd8"},
+  {"id": "interferencia", "opcion": "c", "sha256": "3fd9c100c4b3a50299727208a9ec9d7c0a9e458a0fac948ed89c92ddae3b6e08"},
+  {"id": "h4", "opcion": "b", "sha256": "faac8e4a15b7a4f21aec6491bc1c7f03e91425ee54aa1e9d678fa57d2d2f568e", "nota": "Me gusta la aprobada actual, necesito que se vea mejor una escena donde se note como los focos se rompen y toda la casa queda a oscuras. Necesito que me elabores nuevas propuestas, la votada esta bien pero su estilo se ve muy reallista."},
+  {"id": "id_bruja", "opcion": "a", "sha256": "af2dbd097faef2092564591989e7f667e4a787c9060fee2faac35c3b7f13a93b"},
+  {"id": "es_guardian", "opcion": "c", "sha256": "5e82693805d264e4eeb2a9dfe6f71e64c27be566ad2f9206a122c61dad318212"},
+  {"id": "ev4", "opcion": "a", "sha256": "be6fa6a9143bd0d42992a92047f27ec11e46898ac96ff32e6a56c40db385b3cb"},
+  {"id": "R02", "opcion": "a", "sha256": "c954df1d1ef6baa80eefa0e94368a135d08dbbd9cd69668bd145845568721c2c"}
+ ],
+ "aprobar_votada": [
+  {"id": "ruda", "archivo": "web/revision/comparativa-01/ruda-a.webp", "sha256": "458fa4cb9c114e94c0579a4d5e6a5429cdf9b85988ea0189adbb15a873886482"}
+ ],
+ "notas": []
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "lote": "familias-03",
+  "etapa": "ilustracion",
+  "total": 10,
+  "completo": true,
+  "elecciones": [
+    {
+      "id": "kit",
+      "opcion": "original",
+      "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78",
+      "nota": "Usaste un estilo grafico demasiado simple, se ve muy generado por IA"
+    },
+    {
+      "id": "resp",
+      "opcion": "original",
+      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+    },
+    {
+      "id": "ult",
+      "opcion": "original",
+      "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf",
+      "nota": "Debes usar el estilo simplificado de los personajes como en la carta original"
+    },
+    {
+      "id": "tarot",
+      "opcion": "original",
+      "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f",
+      "nota": "El estilo grafico erroneo, no sigue la tendencia de las cartas"
+    },
+    {
+      "id": "escalofrio",
+      "opcion": "original",
+      "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
+      "nota": "Original es mejor"
+    },
+    {
+      "id": "h2",
+      "opcion": "original",
+      "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
+      "nota": "No da a tender lamentos las demas"
+    },
+    {
+      "id": "id_guardian",
+      "opcion": "original",
+      "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3",
+      "nota": "Estilo grafico que no concuerda"
+    },
+    {
+      "id": "es_cadejo",
+      "opcion": "original",
+      "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e",
+      "nota": "Ilsutracion no concuenteda el estilo y se ve mal"
+    },
+    {
+      "id": "ev3",
+      "opcion": "original",
+      "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79",
+      "nota": "La original si da sensaion de un poltergaist moviendo cosas"
+    },
+    {
+      "id": "R05",
+      "opcion": "original",
+      "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129",
+      "nota": "La orignal si usa unbuen estilo"
+    }
+  ],
+  "notas": []
+}

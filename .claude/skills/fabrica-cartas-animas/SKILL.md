@@ -15,6 +15,17 @@ Antes de todo, leer las [reglas por familia](referencias/familias.md). Son indic
 - **Propuestas nuevas, no réplicas** de la carta actual: el original ya compite en el selector.
 - En herramientas, objetos, apoyos y evidencias, el protagonista es el objeto o el indicio; un investigador entra como mano.
 
+**Controles obligatorios (no tienen excepción).** En familias-03 el autor descartó las 40 propuestas y se quedó con los 10 originales porque se saltaron estos tres pasos. `scripts/control.py` los comprueba y `lote.py agregar` y `publicar_comparativa.py` se niegan a publicar sin ellos; `--forzar` no los salta.
+
+- **Referencias por carta, no por lote.** Cada encargo lleva solo las referencias que la ficha de *esa* carta marca como adjuntables (`scripts/ficha.py <id>`), con al menos una de acabado de su familia. Nunca un bloque de referencias común para todo el lote ni un párrafo de estilo genérico: el acabado se toma de la familia.
+- **Una propuesta nunca es referencia.** Nada de `fabrica/entrada/`, `fabrica/tirajes/` ni `web/revision/` (salvo el original votado que la ficha permita). No usar una variante para igualar la mano de otra: propaga sus defectos y el lote acaba pareciéndose a sí mismo y no al mazo.
+- **Revisión a tamaño de juego contra la familia, carta por carta.** Hoja de `scripts/revisar.py` a 58 × 88 mm junto a las referencias, lectura ciega escrita con el título tapado y el acabado marcado «encaja» antes de publicar. Mirar el lote como miniaturas no cuenta.
+- **Estilo simple con límites escritos.** El mazo es papel recortado en capas planas: sin degradados, sin texturas de material, objetos como ícono, fondo en dos planos y pocos objetos. Cada prompt lleva el párrafo de [estilo simple](referencias/estilo-simple.md) tal cual, y la revisión marca sus siete límites. Nunca pedir «no simplifiques»: en prueba-01 eso produjo imágenes demasiado realistas.
+- **Primero una carta.** Antes de un lote, probar el proceso con una sola carta hasta que el autor la apruebe; solo entonces repetir con más.
+- **Claude no dibuja el arte final.** Claude escribe escenas, encargos y controles; las imágenes las pinta el generador (ChatGPT u otro). Dibujos vectoriales hechos por código no son propuestas.
+
+Flujo de cada carta: `control.py plantilla <lote> <id>` → adjuntar al generador solo las rutas de «adjuntadas» → `revisar.py ... --salida fabrica/tirajes/<lote>/control/<id>-58x88.png` → llenar lectura ciega, acabado, `imagen_sha256` y `qa` → `lote.py agregar`.
+
 1. **Recibir o escribir la escena.** Identificar carta, tipo, variante, fuente del texto y alcance del pedido.
    - Si el encargo trae guion, trabajar con la descripción íntegra de esa variante y las indicaciones posteriores del autor. Si el guion choca con las reglas por familia, señalarlo a quien lo encargó antes de dibujar.
    - Si el encargo pide proponer, escribir cada variante como una escena nueva de la leyenda o del efecto: otro lugar de la casona, otro instante u otro sujeto principal, distinta de la carta actual y de las otras variantes. Partir del efecto de juego (`fabrica/catalogo_juego.json`) y de la leyenda del ánima (`fabrica/PERSONAJES.md`), no de la composición existente.
