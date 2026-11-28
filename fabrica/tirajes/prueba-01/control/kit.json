@@ -45,7 +45,16 @@
       "lectura_ciega": "",
       "acabado": "",
       "observaciones": "",
-      "qa": false
+      "qa": false,
+      "limites": {
+        "capas_planas": false,
+        "sin_textura_material": false,
+        "objetos_icono": false,
+        "fondo_dos_planos": false,
+        "pocos_objetos": false,
+        "adorno_calado": false,
+        "luz_plana": false
+      }
     },
     "b": {
       "guion": "El kit colgado de un perchero de la entrada, como un morral de cuero con bolsillos; de cada bolsillo asoma la punta de un aparato distinto, reconocible por su silueta. A sus pies, un farol encendido es la única luz cálida.",
@@ -57,7 +66,33 @@
       "lectura_ciega": "",
       "acabado": "",
       "observaciones": "",
-      "qa": false
+      "qa": false,
+      "limites": {
+        "capas_planas": false,
+        "sin_textura_material": false,
+        "objetos_icono": false,
+        "fondo_dos_planos": false,
+        "pocos_objetos": false,
+        "adorno_calado": false,
+        "luz_plana": false
+      }
     }
-  }
+  },
+  "intentos": [
+    {
+      "n": 1,
+      "fecha": "2026-11-28",
+      "imagenes": 3,
+      "resultado": "rechazado por el autor",
+      "nota": "Demasiado realistas; no respetan el estilo gráfico simple del juego. Ninguna le gustó.",
+      "fallan": [
+        "capas_planas",
+        "sin_textura_material",
+        "objetos_icono",
+        "fondo_dos_planos",
+        "pocos_objetos",
+        "luz_plana"
+      ]
+    }
+  ]
 }

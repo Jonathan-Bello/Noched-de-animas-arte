@@ -17,7 +17,8 @@ Reglas que comprueba, por variante:
      web/revision salvo el original votado que la ficha marque como utilizable.
   2. Al menos una referencia de acabado de la familia (o la versión que el autor prefirió).
   3. Hoja de revisión a 58 × 88 mm hecha con scripts/revisar.py (archivo existente).
-  4. Lectura ciega escrita, acabado comparado con la familia marcado «encaja» y qa = true.
+  4. Los siete límites de estilo simple (referencias/estilo-simple.md) revisados y cumplidos.
+  5. Lectura ciega escrita, acabado comparado con la familia marcado «encaja» y qa = true.
 """
 import argparse
 import hashlib
@@ -28,6 +29,7 @@ from pathlib import Path
 from comun import R, Fabrica
 
 PROHIBIDO = ("fabrica/entrada/", "fabrica/tirajes/", "web/revision/")
+LIMITES = ("capas_planas", "sin_textura_material", "objetos_icono", "fondo_dos_planos", "pocos_objetos", "adorno_calado", "luz_plana")
 FAMILIA = ("acabado de la familia", "versión preferida por el autor", "identidad en una carta elegida")
 
 
@@ -51,7 +53,7 @@ def plantilla(p):
         "referencias_disponibles": [{"ruta": r["ruta"], "sha256": r["sha256"], "funciones": r["funciones"]} for r in refs.values()],
         "hoja_58x88": "",
         "variantes": {op: {"guion": "", "adjuntadas": list(refs), "imagen_sha256": "", "lectura_ciega": "",
-                           "acabado": "", "observaciones": "", "qa": False} for op in p.variantes},
+                           "acabado": "", "limites": {k: False for k in LIMITES}, "observaciones": "", "qa": False} for op in p.variantes},
     }
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -85,6 +87,10 @@ def errores(lote, cid, imgs=None):
             mal.append(f"{pre} falta la lectura ciega (qué se entiende con el título tapado)")
         if (v.get("acabado") or "").strip().lower() != "encaja":
             mal.append(f"{pre} el acabado no está marcado «encaja» con su familia")
+        lim = v.get("limites") or {}
+        faltan = [k for k in LIMITES if lim.get(k) is not True]
+        if faltan:
+            mal.append(f"{pre} no cumple o no revisó los límites de estilo simple: {', '.join(faltan)} (referencias/estilo-simple.md)")
         if v.get("qa") is not True:
             mal.append(f"{pre} qa no está aprobado")
         if imgs and op in imgs:
