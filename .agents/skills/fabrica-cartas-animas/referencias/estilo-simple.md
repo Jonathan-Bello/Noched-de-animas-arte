@@ -1,26 +1,30 @@
-# Qué hace «simple» el estilo del mazo
+# El punto de estilo del mazo
 
-Este documento salió de prueba-01 (28-nov-2026). Jonathan rechazó las tres imágenes del Kit de campo por «demasiado realistas»: no respetaban el estilo gráfico simple del mazo. Las comparamos con 12 cartas aprobadas: i08, i06, i09, i11, i14, o04, o07, h04, e01, a03, id01 y s02. Las aprobadas no son «poco detalladas»: tienen bastantes cosas. Lo que las hace simples es **cómo** están hechas, y eso es lo que fallaba.
+## Historial
 
-Una medida automática de zonas planas y de colores no separa las aprobadas de las rechazadas. Por eso estos límites se revisan a ojo, uno por uno, en `control.py` (campo `limites`).
+- **Intento 1 de prueba-01** (28-nov-2026): rechazado por demasiado realista. Tenía volumen pintado, cuero con poros, costuras y remaches, aparatos de catálogo y un espacio con perspectiva real.
+- **Intento 2**: rechazado por demasiado simple. Era papel recortado casi vectorial, con superficies grandes de un solo color, un fondo vacío y aparatos reducidos a rectángulos.
 
-## Límites (todos obligatorios)
+Pasamos de un extremo al otro porque el estilo estaba descrito con adjetivos. **Desde ahora manda la imagen, no la descripción.** Las cartas que Jonathan marque como «en el punto» en la página de calibración (`calibracion-estilo-01`) se adjuntan a **todo** encargo, sean de la familia que sean, además de las referencias de la carta. Este texto solo explica qué tienen esas cartas.
 
-| Límite | Las aprobadas | Lo que salió mal en prueba-01 |
-|---|---|---|
-| **Capas de papel planas** | Cada forma es un recorte de color plano, con contorno oscuro y una sombra corta de capa debajo. Cada color tiene como mucho tres tonos: base, sombra y luz. | Volumen pintado con degradados suaves, brillos y sombras difusas, como en una pintura digital. |
-| **Sin textura de material** | La única textura es el grano fino de papel, igual en toda la imagen. | Cuero con poros, costuras punteadas, remaches con brillo, piedra porosa del molcajete, fieltro y vetas de madera. |
-| **Objetos como ícono** | Cada aparato es su silueta más uno o dos rasgos, como una pantalla en rectángulo plano o una aguja. | Grabadora con rejilla y botones, linterna con LEDs y EMF con carcasa moldeada: aparatos de catálogo. |
-| **Fondo en dos planos** | Arcos recortados, más velas, cempasúchil o papel picado. El fondo es decoración plana, no un lugar. | Azulejos con perspectiva, mesa con canto y suelo de losas: un espacio real. |
-| **Pocos objetos** | Un protagonista y como mucho tres objetos secundarios, todos grandes. | Molcajete, chiles, calabazas, jarras, mazorcas, mantel y velas compitiendo con la maleta. |
-| **Adorno calado** | Telas, cerámica y bordes llevan motivos de flor recortada, como de papel picado. | Hubo adornos, pero pintados, no calados. |
-| **Luz plana** | La llama es una forma plana con un halo de un círculo; el color cálido se reparte en capas. | Iluminación volumétrica con rebotes y oscurecimiento en los bordes. |
+## Qué tienen las cartas aprobadas
+
+Cada límite se revisa en las dos direcciones. Si la imagen cae en cualquiera de los dos extremos, el límite no se cumple.
+
+| Límite | En el punto (cartas aprobadas) | Demasiado realista (intento 1) | Demasiado plano (intento 2) |
+|---|---|---|---|
+| **Capas de papel con volumen** | Capas recortadas con contorno oscuro y sombra de capa; dentro de cada capa hay sombreado suave y luz cálida que modela el objeto. | Pintura digital: degradados fotográficos, brillos especulares y bordes difusos. | Formas de un solo color, sin modelado, como en un vector. |
+| **Textura** | Grano de papel visible en todo, con un toque de material solo donde ayuda a leer, como el lomo de un libro o el cuero de la maleta. | Poros, costuras punteadas, remaches, fieltro, piedra porosa. | Nada de textura: superficies lisas. |
+| **Detalle de los objetos** | Reconocibles y ricos: una brújula con su rosa de los vientos y un sello de lacre. Detalle de ilustración, no de catálogo. | Aparatos de producto real, con botones, rejillas y tornillos. | Rectángulos con una raya. |
+| **Fondo** | Arcos de la casona en dos o tres planos, con velas, cempasúchil y papel picado. Está lleno y es decorativo, y se oscurece hacia los bordes para que el sujeto resalte. | Un lugar real, con azulejos en perspectiva y suelo de losas. | Un muro casi vacío y un solo color plano de mesa. |
+| **Cantidad de cosas** | El protagonista grande al centro y alrededor varios elementos pequeños de ambiente (velas, flores) que no compiten con él. | Utilería de cocina que compite con el protagonista: molcajete, chiles, calabazas, mazorcas. | Protagonista y un objeto suelto, con huecos vacíos. |
+| **Adorno calado** | Flores recortadas en telas, cerámica y papel picado, en varias partes de la imagen. | Adornos pintados. | Un solo papel picado. |
+| **Luz** | Una luz cálida de velas que tiñe las capas cercanas, con halos suaves. | Iluminación de render, con rebotes y oscurecimiento en los bordes. | Halos como círculos planos, sin efecto sobre lo demás. |
 
 ## Párrafo para el prompt (pegar tal cual en cada encargo)
 
 ```text
-Estilo obligatorio: ilustración de papel recortado en capas, como las cartas adjuntas. Cada forma es un recorte de color plano con contorno oscuro y una sombra corta de capa; como mucho tres tonos por color (base, sombra, luz) y nada de degradados suaves. La única textura es un grano fino de papel uniforme. Los objetos se dibujan como íconos: silueta clara y uno o dos rasgos, sin botones, rejillas, tornillos, costuras ni remaches. El fondo son dos planos decorativos (arcos recortados y velas, cempasúchil o papel picado), no un espacio realista. Un protagonista grande y como mucho tres objetos secundarios. Telas y cerámica con motivos de flor calados. Luz de vela como forma plana con un halo simple.
-Prohibido: pintura digital, óleo, acuarela, render 3D, fotorrealismo, texturas de cuero, fieltro, piedra o madera, brillos especulares, perspectiva de azulejos o suelo detallado.
+Estilo: el mismo de las cartas adjuntas marcadas como «punto de estilo». Imítalas en nivel de detalle, textura, densidad del fondo y luz; no copies su composición.
+Es papel recortado en capas con volumen: cada capa tiene contorno oscuro, sombra de capa y un sombreado suave interior con luz cálida de velas. Grano de papel visible en todo. Los objetos son reconocibles y con detalle de ilustración, no de catálogo. El fondo son los arcos de la casona en dos o tres planos, con velas, cempasúchil y papel picado, lleno y decorativo y más oscuro hacia los bordes. Adornos de flor calados en telas y cerámica.
+Ni un extremo ni el otro: no hagas pintura digital realista (texturas de cuero o piedra, costuras, remaches, aparatos de producto real, perspectiva de azulejos) y tampoco vector plano (superficies de un solo color, fondo vacío, objetos reducidos a rectángulos).
 ```
-
-No escribir en el prompt «imita su acabado, no lo simplifiques». Eso empujó a ChatGPT hacia más detalle. Lo correcto es pedir que **simplifique igual que las adjuntas**.

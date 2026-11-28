@@ -47,13 +47,13 @@
       "observaciones": "",
       "qa": false,
       "limites": {
-        "capas_planas": false,
-        "sin_textura_material": false,
-        "objetos_icono": false,
-        "fondo_dos_planos": false,
-        "pocos_objetos": false,
+        "capas_con_volumen": false,
+        "textura": false,
+        "detalle_objetos": false,
+        "fondo": false,
+        "cantidad": false,
         "adorno_calado": false,
-        "luz_plana": false
+        "luz": false
       }
     },
     "b": {
@@ -68,13 +68,13 @@
       "observaciones": "",
       "qa": false,
       "limites": {
-        "capas_planas": false,
-        "sin_textura_material": false,
-        "objetos_icono": false,
-        "fondo_dos_planos": false,
-        "pocos_objetos": false,
+        "capas_con_volumen": false,
+        "textura": false,
+        "detalle_objetos": false,
+        "fondo": false,
+        "cantidad": false,
         "adorno_calado": false,
-        "luz_plana": false
+        "luz": false
       }
     }
   },
@@ -92,6 +92,21 @@
         "fondo_dos_planos",
         "pocos_objetos",
         "luz_plana"
+      ]
+    },
+    {
+      "n": 2,
+      "fecha": "2026-11-28",
+      "imagenes": 1,
+      "resultado": "rechazado por el autor",
+      "nota": "Se pasó de simple: papel recortado casi vectorial.",
+      "fallan": [
+        "capas_con_volumen",
+        "textura",
+        "detalle_objetos",
+        "fondo",
+        "cantidad",
+        "luz"
       ]
     }
   ]
