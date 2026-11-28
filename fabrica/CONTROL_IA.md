@@ -1,6 +1,6 @@
 # Control de calidad para arte hecho con IA
 
-Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota y qué hace la fábrica para evitarlo. Claude revisa cada propuesta con esta lista antes de mostrársela a Jonathan.
+Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota y qué hace la fábrica para evitarlo. El asistente que prepara el tiraje revisa cada propuesta con esta lista antes de mostrársela a Jonathan.
 
 ## Problemas y prevención
 
@@ -21,6 +21,20 @@ Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota 
 | **Colores fuera de paleta** | Neón, saturación extrema, grises fríos | La paleta del mazo está en el bloque de estilo | Pedir la paleta de la referencia |
 | **Inconsistencia entre cartas de una familia** | Una herramienta se ve más detallada o con otra luz que las demás | Referencias de la misma familia en cada pedido | Comparar lado a lado con la familia antes de aprobar |
 | **Contenido sensible** | Rostros de personas reales en lugares públicos sin permiso | Solo personas que dieron permiso; las fotos no se suben | No aprobar hasta tener el permiso |
+
+## Contraste de acabado
+
+Usar las mismas cartas aprobadas que recibió el generador. Colocar la candidata y las referencias lado a lado. A 58 × 88 mm, cubrir títulos y leyendas. Registrar qué se reconoce primero y si los objetos o el gesto del guion se distinguen. En ampliación, comparar estas tres zonas de la imagen:
+
+| Zona | Qué contrastar con el arte aprobado |
+|---|---|
+| Sujeto principal | Silueta clara, cantos con espesor, tonos medios y detalle donde explica el material o la construcción. En cuero, una costura, un borde y un herraje pueden bastar para leerlo. Revisar si hay poros, rayas, reflejos o texturas competidoras. |
+| Acción, aparato o indicio | La forma y los controles esenciales distinguen cada objeto. Comprobar que la simplificación conserva el modelo y permite leer lo que pide el guion. |
+| Fondo y objetos secundarios | La luz y unos pocos planos ubican la escena. Si se ve primero la veta de la madera, los poros de la piedra o el ornamento, reducir contraste y microdetalle ahí. Mantener los elementos que pide el guion. |
+
+En **Kit de campo**, con **i08** como referencia de cuero y volumen e **i06** como referencia de planos de tinta, comprobar que primero se lee el maletín o morral y luego cada instrumento. Comparar el cuero y el fondo por separado. Conservar el volumen y tonos medios del original, con el detalle concentrado en el borde, una costura representativa y los rasgos del aparato. La prueba de acabado conserva las escenas A y B del encargo.
+
+Dejar junto a la prueba los IDs de carta y variante, los adjuntos usados, una lectura a tamaño de carta, la zona que se desvía y el resultado (`encaja` o `requiere corrección`). Si la desviación es visible en el contraste, indicar una corrección localizada y volver a evaluar con las mismas cartas aprobadas. Una hoja de miniaturas del lote sirve para ver el conjunto y requiere este contraste por variante para decidir si encaja.
 
 ## Revisión técnica (antes de mostrar a Jonathan)
 
@@ -43,7 +57,7 @@ Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota 
 ## Revisión de arte (Jonathan)
 
 Se muestra en este orden:
-1. La propuesta sola, junto a 3–4 cartas aprobadas de su familia.
+1. La propuesta sola, junto a las cartas aprobadas que se usaron en el encargo.
 2. La propuesta con el marco y el título, a tamaño real (58 × 88 mm).
 3. Si es un personaje, junto a la identidad aprobada.
 
