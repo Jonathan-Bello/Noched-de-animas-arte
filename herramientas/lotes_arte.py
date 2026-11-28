@@ -207,7 +207,7 @@ def comprobar(_p=None):
             total += 1
             if c["id"] not in desc:
                 errores.append(f"{e['lote']}/{c['id']}: el ID no está en el catálogo")
-            ops = list("abcd") if datos.get("guionistas") else list("ab")
+            ops = list(datos["guionistas"]) if datos.get("guionistas") else list("ab")
             if desc.get(c["id"], {}).get("id_arte") or c.get("original") or not datos.get("guionistas"):
                 ops.append("original")
             for op in ops:
