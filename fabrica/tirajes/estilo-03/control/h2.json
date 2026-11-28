@@ -1,0 +1,131 @@
+{
+  "id": "h2",
+  "nombre": "Lamento",
+  "familia": "Habilidades de evidencia",
+  "lectura_clave": "La voz que llora fuera de la cinta.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_amalia.webp",
+      "sha256": "08a3e2fbd94adb8ecb3b450d49f6194b2f4a68cb0a56eacb4ccbcb2190e40dcf",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o04@2x.webp",
+      "sha256": "bedbd6475b4d077029c9a4d632eccb44a6399b9a81f8612e8d1b611551b51749",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h03@2x.webp",
+      "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h04@2x.webp",
+      "sha256": "7c00b91fe1ef463a44118148a08407092bc45e11a756ad152fb171919a79accc",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h06@2x.webp",
+      "sha256": "ded263cf3d023515bbafeaa179c6ca7d04c899352f494be6f3d2849238c2347e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h07@2x.webp",
+      "sha256": "9a49a7ce1a4060e607ec7a1aca8fc55a4d1b5179b4648904493275cef00d0efb",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/h2-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Amalia, investigadora mayor de trenza gris plateada larga, arete dorado, rebozo crema con flores guinda y blusa clara, se tapa UN solo oído con la palma de la mano en primer plano. El otro oído queda girado hacia una celosía de madera floral de la casona. A través de las hendiduras de esta celosía pasan tres bandas de voz de papel traslúcido que se curvan hacia su oído descubierto. Fuera de la celosía, exactamente en el origen de las bandas, apenas se insinúa un rostro abatido sin cuerpo, con ojos bajos y boca abierta de lamento, asomado tras el calado. Una lágrima de luz muy tenue en una banda refuerza que se oye un llanto, no una ráfaga. Rostro de Amalia preocupado, ojos cerrados, palma anatómica. Dominante violeta ciruela, en capas con grano y ámbar discreto, pequeña cerámica calada y una flor de cempasúchil en segundo plano. Sin texto, sonidos escritos, letras, números, naipes, aparatos ni personas adicionales.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp",
+        "web/mesa/arte/inv_amalia.webp"
+      ],
+      "imagen_sha256": "a23290a54836d1423b800508934aa2f103c8b9c8e515cec7792e9969925a35ed",
+      "lectura_ciega": "Amalia se tapa el oído mientras se cuela por la celosía el llanto de una figura abatida.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se agregó un rostro abatido parcial al origen del sonido para que se lea lamento. El retrato de Amalia y Arrastrar se montaron en un mismo adjunto.",
+      "qa": true
+    },
+    "b": {
+      "guion": "En un pasillo nocturno de la casona, un casete antiguo abandonado sobre una mesa lateral se desenrolla solo. La banda marrón pálido sale visiblemente de una de sus bobinas y forma en el aire dos contornos largos que juntos dibujan una BOCA ABIERTA DE LLANTO, curvada hacia abajo, como silueta de papel flotante. Detrás de la boca apenas se insinúa un par de ojos caídos y una lágrima diminuta creados por el mismo humo, para que el sentido sea un gemido triste. El casete es pequeño, el lamento domina. Más lejos al fondo vemos a Amalia de trenza gris plateada y rebozo crema bordado guinda, que se gira en el pasillo sorprendida por el sonido. No hay celosía ni se tapa un oído: el pasillo y la cinta de casete cuentan una escena distinta. Dominante violeta guinda, arcos de dos o tres capas, luz ámbar pálida de velas, flores caladas en cerámica y cempasúchiles secundarios. Sin naipes, cifras, letras ni texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp",
+        "web/mesa/arte/inv_amalia.webp"
+      ],
+      "imagen_sha256": "7651255b55cf5ce3a971492e1d9ba6ed8227d2850f2f03f38f2bdafd7c3aa897",
+      "lectura_ciega": "La cinta sale de un casete y dibuja una boca que llora. Amalia se gira al oírla.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El llanto se reconoce por boca, ojos caídos y lágrima. Amalia reacciona en segundo plano. El retrato y el acabado de familia se montaron en el mismo adjunto.",
+      "qa": true
+    }
+  }
+}

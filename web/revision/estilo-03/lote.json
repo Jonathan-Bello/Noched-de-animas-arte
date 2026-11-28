@@ -356,6 +356,78 @@
     "archivo": "web/miniaturas/a07@2x.webp",
     "sha256": "c1a06443f29a6b71160ede6c14b2587556400e55064ac58399036bce6591336d"
    }
+  },
+  {
+   "id": "h0",
+   "nombre": "Helada",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/estilo-03/h0-a.webp?v=aa985d6478",
+    "sha256": "aa985d6478f6fbfc158443b37c9074dff5c61d3ccac17e1d94de06a785316cc5"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/h0-b.webp?v=0a9e0ded9e",
+    "sha256": "0a9e0ded9e2aa94063bdc30d05ee172a2ea29dd8681da4d8b66b1066a7b9882d"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h01@2x.webp",
+    "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b"
+   }
+  },
+  {
+   "id": "h1",
+   "nombre": "Acecho",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/estilo-03/h1-a.webp?v=3984ef037e",
+    "sha256": "3984ef037e081c099f0d08a69fb8d9d02e4e036316b052fedc93047e5c2b411d"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/h1-b.webp?v=4732ea33cf",
+    "sha256": "4732ea33cfb3a83c8f98903f388587ba33a9cb0477a1e28c23a48e38e859efac"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h02@2x.webp",
+    "sha256": "9b49f828424f311da28aa06a5018ed707e0f5f093287b93e4fd56ccd2aec32e3"
+   }
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/estilo-03/h2-a.webp?v=f18cae8e32",
+    "sha256": "f18cae8e3293f8b365b8eb75ec9a7f851f1e49c5497317cc61fb847370c7ed14"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/h2-b.webp?v=6a7027237a",
+    "sha256": "6a7027237a8e6b5efe12539ead0d5db218012e9e1bb702442bd53d7918c196ff"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h03@2x.webp",
+    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b"
+   }
+  },
+  {
+   "id": "h4",
+   "nombre": "Apagón",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/estilo-03/h4-a.webp?v=6b08d8289e",
+    "sha256": "6b08d8289e07fd8e466c21fcdd51fc255d6012aebc21551dc9cf2bd736cfdeb0"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/h4-b.webp?v=070330eb15",
+    "sha256": "070330eb159e8811a698ccd1e8e7ae175d754d4e6e6fb841b16e2aa46d946266"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h05@2x.webp",
+    "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+   }
   }
  ]
 }
