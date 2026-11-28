@@ -1,0 +1,121 @@
+{
+  "id": "presencia",
+  "nombre": "Presencia",
+  "familia": "Acciones del ánima",
+  "lectura_clave": "La sensación de alguien más en el cuarto.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_ines.webp",
+      "sha256": "3995b3814c3f688ad8a9c458e5854405b09cd7fb0d1ffcc0f0a7bfb894dd7d37",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h06@2x.webp",
+      "sha256": "ded263cf3d023515bbafeaa179c6ca7d04c899352f494be6f3d2849238c2347e",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a07@2x.webp",
+      "sha256": "c1a06443f29a6b71160ede6c14b2587556400e55064ac58399036bce6591336d",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a04@2x.webp",
+      "sha256": "4b7852b85221ae2fc4dd8db6ffb0209a9849af7107921b99ae501122e4722ce9",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a05@2x.webp",
+      "sha256": "fdd786aeb58a8b07b4554210416c062eb66a74d0b91fe10b17faef1315ef681a",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/presencia-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Desde el borde de una mesa en el comedor de la casona, dos hojas de papel crema de una libreta abierta se desplazan solas hacia una silla desocupada. Las hojas son páginas irregulares dobladas, no naipes, y no tienen texto. El centro del cojín del asiento se hunde visiblemente bajo un peso invisible; los pliegues del cojín nacen de la depresión y permiten reconocer que hay algo sentado sin mostrarlo. A la derecha entra solo una mano de Inés con manga crema bordada guinda que se retira sorprendida del canto de la mesa, sin tocar silla o papeles. Cámara a media altura, mesa y silla al mismo nivel, sin espejo visible. Composición guinda con dos arcos recortados en sombra, calados en mantel y maceta, veladora ámbar y cempasúchil secundario. Sin naipes, letras, números, cuerpo humano ni figura visible en la silla.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "62c66ecef15fde112eee8ae6ad1b9f069109409d10e768c6701d16a420c28939",
+      "lectura_ciega": "Hay dos hojas que se mueven hacia una silla vacía cuyo cojín está hundido. Una mano retrocede de la mesa.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Los naipes se sustituyeron por dos hojas irregulares en blanco. Los pliegues del cojín se concentran debajo del peso invisible.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Inés, investigadora de la trenza negra con flor naranja, aros dorados, blusa crema bordada guinda y falda vino, está inclinada ante una mesa de la casona y detiene el lápiz sobre una libreta abierta porque ve algo extraño en el espejo. La libreta muestra dos trazos ondulados muy discretos que no forman letras. Plano lateral medio. En la parte superior media, un espejo rectangular de marco floral de papel oscuro refleja bien una SILLA CON UNA SOMBRA SENTADA y el arco del cuarto. En el cuarto real se ve justo debajo o a un lado del espejo esa misma silla VISIBLE Y VACÍA, con respaldo igual al del reflejo. La sombra del espejo no tiene ojos, manos ni rostro definidos, es una silueta translúcida guinda que pesa sobre el asiento. Mantén distinguidos el vidrio y la habitación. Dominante guinda, crema y ámbar, veladora secundaria, papel calado y detalles de cempasúchil. Sin naipes, cifras, letras ni otras figuras.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/mesa/arte/inv_ines.webp"
+      ],
+      "imagen_sha256": "2514204447ec4341e1b7bf72360135fdbc7ce27b5749150efeb473e1073cccd7",
+      "lectura_ciega": "Inés levanta la vista de la libreta. La silla del cuarto está vacía y en el espejo se ve una silueta que la ocupa.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se adjuntó el retrato aprobado de Inés para el vestuario. El contorno de la silla se repite dentro del espejo y en el cuarto, donde permanece vacía.",
+      "qa": true
+    }
+  }
+}
