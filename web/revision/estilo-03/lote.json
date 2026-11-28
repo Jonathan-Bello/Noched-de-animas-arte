@@ -500,6 +500,42 @@
     "archivo": "web/miniaturas/id08@2x.webp",
     "sha256": "ea4ec79a54b91d72de0d14587c236d2fdce19ded6010483be168e8a12ae17ffd"
    }
+  },
+  {
+   "id": "id_cihuateteo",
+   "nombre": "Cihuateteo",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_cihuateteo-a.webp?v=70df09c335",
+    "sha256": "70df09c33577be321abd7b6134cb8bffa5278dbf44a5931287ce1b5b5c19e75b"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_cihuateteo-b.webp?v=a56c297e0d",
+    "sha256": "a56c297e0d0a5541344093e41dee055e21004a00be5127d0cea5a8d23858a348"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id09@2x.webp",
+    "sha256": "1c7dba4c53272924949a9454bfba1c441d9d3a47255917ddff11d77dc6dad7d9"
+   }
+  },
+  {
+   "id": "id_tlahuelpuchi",
+   "nombre": "Tlahuelpuchi",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_tlahuelpuchi-a.webp?v=3ff29aa26c",
+    "sha256": "3ff29aa26ccdbc5bac0b16da12f762dbca4f81c954b2dd7ca3ffa09a2161e120"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_tlahuelpuchi-b.webp?v=fac7e869ce",
+    "sha256": "fac7e869cee1ebd444e04679a9caa08aae75a3dfc7cb67c587f17d4117fac200"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id10@2x.webp",
+    "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d"
+   }
   }
  ]
 }
