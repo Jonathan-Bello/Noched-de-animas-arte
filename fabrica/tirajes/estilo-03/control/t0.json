@@ -1,0 +1,109 @@
+{
+  "id": "t0",
+  "nombre": "Termómetro",
+  "familia": "Herramientas",
+  "lectura_clave": "El termómetro con su lectura bajo cero y la escarcha.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_tomas.webp",
+      "sha256": "4928cbc31f596ae6efb3b4a7a6044fc038b658b4f87274ebce3e704c259c131e",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/e01@2x.webp",
+      "sha256": "0c991a1a79c1dd99647b073208f109f1a0e18da2836e9f36dd1cd56e19b9117b",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i01@2x.webp",
+      "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a",
+      "funciones": [
+        "modelo del aparato",
+        "arte actual · el autor quiere modificarlo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t0-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "El termómetro descansa en el alféizar de una ventana de la recámara, con la pantalla vuelta hacia la cama vacía de colcha bordada. Su lectura bajo cero es la única luz fría de la escena, entre el ámbar de dos veladoras. Traduce esa lectura con un copo de hielo ilustrado grande en la pantalla, sin cifras, y un toque de escarcha en el alféizar pegado al instrumento. En primer plano, el termómetro ocupa un tercio del ancho o más, con la pantalla legible para el espectador en perspectiva tres cuartos. Su empuñadura ancha, marco crema, cuerpo petróleo y dos botones físicos siguen el modelo del quinto adjunto. La cama vacía lleva una colcha con motivos florales; queda secundaria detrás del instrumento. Paleta dominante azul petróleo con crema, ámbar de dos veladoras y unos pétalos cempasúchil secundarios. Ninguna persona, mano, figura ni naipes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i01@2x.webp"
+      ],
+      "imagen_sha256": "dd82fe7ada9dce3274fa9083bea17f674d0ea5ec53d24c059b698ead00b372a9",
+      "lectura_ciega": "Un termómetro portátil se apoya en el alféizar. El copo del visor y la escarcha al pie del aparato indican frío. Detrás se distingue una cama vacía con colcha.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se conserva el alféizar y la cama vacía de la opción C de estilo-01. Se usa un copo en el visor para omitir cifras. Dos veladoras enmarcan el instrumento y una tercera luce al fondo. La carcasa conserva espesor, planos mate e iluminación ámbar en el canto.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Vista estrictamente cenital a 90 grados, como si miráramos un mapa, de una ofrenda de la casona con un termómetro de campo y escarcha. Escena totalmente diferente a cualquier adjunto: en el centro, el termómetro está acostado casi horizontal, con la pantalla a la izquierda de la imagen y el mango ancho hacia la derecha, apoyado plano sobre un mantel petróleo, visto completamente desde arriba. Marco crema y dos botones físicos. En la pantalla mate, un copo de hielo sencillo y oscuro, sin números. Una cenefa semicircular de encaje floral calado crema cruza la mitad baja del mantel. La escarcha baja por encima de la cenefa y congela un cempasúchil caído cerca del instrumento. Una pequeña veladora solitaria vista cenitalmente en el extremo izquierdo tiñe de ámbar la puntilla y las capas del aparato. Alrededor, los contornos de dos nichos arqueados en sombras petróleo, como motivos que enmarcan la ofrenda en la cenefa y en el papel picado. Mantén la riqueza tonal y las sombras del relieve. Nada de perspectivas de tres cuartos, de jarrones verticales, retrato, personas, naipes, cama o ventana. El aparato horizontal visto directamente desde arriba y el mantel escarchado ocupan la escena.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i01@2x.webp"
+      ],
+      "imagen_sha256": "64e09c2bff7935b1b3ae71a85452448c4a58d58b8cc6e38de0d1774ae5b03abb",
+      "lectura_ciega": "El termómetro acostado indica frío con un copo en la pantalla. La escarcha cubre el mantel y un cempasúchil de la ofrenda.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se omite el retrato para que la herramienta quede sola. El aparato, el mantel y la vela principal se leen desde arriba, con arcos de fondo en planos decorativos. La escarcha es más tupida que en A y deja despejada la lectura del visor.",
+      "qa": true
+    }
+  }
+}

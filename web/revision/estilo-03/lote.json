@@ -18,6 +18,24 @@
     "archivo": "web/miniaturas/i08@2x.webp",
     "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
    }
+  },
+  {
+   "id": "t0",
+   "nombre": "Termómetro",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t0-a.webp?v=03bdf1f9a9",
+    "sha256": "03bdf1f9a938ab825fcf48467723feded8162234c2f3c930326ab95a80f7f755"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t0-b.webp?v=dbfc84de30",
+    "sha256": "dbfc84de3012b74f203580cb992e410d886610d030f17227b5c733316dc46921"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i01@2x.webp",
+    "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
+   }
   }
  ]
 }
