@@ -680,6 +680,24 @@
     "archivo": "web/miniaturas/id21@2x.webp",
     "sha256": "48dd1d9f5aba3b8a6db5ccd65c9655d553400472acfa03ed6480bee31482291a"
    }
+  },
+  {
+   "id": "es_demonio",
+   "nombre": "Infierno",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/estilo-03/es_demonio-a.webp?v=4a0a34272b",
+    "sha256": "4a0a34272b7b71d3640a994d2b8949d560c96fcd7610f771a81d3b4b22ee9f9a"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/es_demonio-b.webp?v=79c0f166a8",
+    "sha256": "79c0f166a828dd20223017b08cf9445cdd1fd5dafd12e92aa1c52d65238d9c42"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s04@2x.webp",
+    "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5"
+   }
   }
  ]
 }
