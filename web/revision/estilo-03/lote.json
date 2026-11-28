@@ -716,6 +716,24 @@
     "archivo": "web/miniaturas/s05@2x.webp",
     "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152"
    }
+  },
+  {
+   "id": "es_chaneque",
+   "nombre": "Juego del monte",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/estilo-03/es_chaneque-a.webp?v=ebbf37794e",
+    "sha256": "ebbf37794e52ce86d48ef93f9af53b9277967d6ae653716f088f02ada6616dd7"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/es_chaneque-b.webp?v=4c34e6b1fe",
+    "sha256": "4c34e6b1fe850c14b07677f39ba8ea541c16b2550954f11fb66049b181c71eaa"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s07@2x.webp",
+    "sha256": "315f00551d164f4c3c24d35f8003a686de024edce5d181cc369857a10c20ca1a"
+   }
   }
  ]
 }
