@@ -1,0 +1,131 @@
+{
+  "id": "esc",
+  "nombre": "Esconderse",
+  "familia": "Apoyos y reacciones",
+  "lectura_clave": "El escondido y la sombra que pasa de largo.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_tomas.webp",
+      "sha256": "4928cbc31f596ae6efb3b4a7a6044fc038b658b4f87274ebce3e704c259c131e",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/e01@2x.webp",
+      "sha256": "0c991a1a79c1dd99647b073208f109f1a0e18da2836e9f36dd1cd56e19b9117b",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i12@2x.webp",
+      "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638",
+      "funciones": [
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i09@2x.webp",
+      "sha256": "82097b0f97056e7a6c4414c42680d142f5b333662af4d09d9d3be7320fbb719f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i11@2x.webp",
+      "sha256": "c5c4fe6fde008f2cdd6c566df64e1e78ab5bb0a0aa293d73b5d1f985ca54ccb7",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i15@2x.webp",
+      "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/esc-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Tomás se esconde bajo la mesa larga del comedor, tapado por el mantel bordado que llega al piso; solo asoman el ala de su sombrero y sus ojos muy abiertos. Su morral con los aparatos quedó encima de la mesa, fuera de su alcance. Junto al mantel pasan los pies descalzos y traslúcidos del ánima. Encuadre bajo desde el extremo de la mesa, mantel guinda y crema con calados florales, levantado un poquito para que se vean los dos ojos atentos y parte del sombrero de ala petróleo del investigador. Nada de su cuerpo fuera de la mesa. El morral propio del retrato con su única hebilla visible y tapa cerrada, sobre la mesa y claramente separado de Tomás. Solo dos pies traslúcidos del ánima de paso junto al mantel, como capas de papel deslavadas que dejan ver el suelo; no mostrar al ánima completa. Dominante guinda profundo, ámbar de una vela, arcos en sombra, cerámica floral y cempasúchiles pequeños al fondo. Sin naipes ni texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/mesa/arte/inv_tomas.webp",
+        "web/miniaturas/i11@2x.webp"
+      ],
+      "imagen_sha256": "9b28d0820a37f3284852454f3bfffcb5908f7ecbd8b8af9be286c864d4667d8a",
+      "lectura_ciega": "Bajo el mantel de la mesa asoman el sombrero y los ojos del hombre escondido. Los pies transparentes pasan y el morral quedó sobre la mesa.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A conserva la escena votada A de estilo-01. El morral y el escondite se leen como dos niveles en la misma mesa. Se adjuntaron el retrato y Rosario juntos en una hoja.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Tomás se oculta dentro de un ropero calado, conteniendo la respiración. Escena vista desde una esquina del INTERIOR del ropero, encuadre medio de perfil: en la mitad izquierda se reconoce su sombrero de ala petróleo, rostro alargado con bigote y sarape petróleo con greca crema. Agachado con el hombro contra el costado del mueble, una mano cubre suavemente su propia boca; la otra se apoya en la pared interior. En la mitad derecha, vemos la hoja de la puerta con calados florales, y por sus ranuras se ven franjas de la sombra incorpórea que pasa por el corredor, sobre arcos desenfocados en dos capas. Una franja de luz tibia se desliza sobre su mejilla y su sarape. Una veladora ámbar exterior y uno o dos cempasúchiles, secundarios y visibles a través de una abertura. Dominante petróleo y sombras profundas, encanto artesanal y legibilidad. Sin pies visibles del ánima, ninguna mesa o mantel, naipes ni texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/mesa/arte/inv_tomas.webp",
+        "web/miniaturas/i11@2x.webp"
+      ],
+      "imagen_sha256": "5dd4b0631bb67625051b9f836f4701bf7a39d5dccc777c1225796606704c611e",
+      "lectura_ciega": "Dentro de un ropero, el hombre se tapa la boca y mira una silueta que pasa tras el calado.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B cambia a un encuadre desde el interior del ropero. La presencia exterior queda fragmentada por los huecos. Se adjuntaron el retrato y Rosario juntos en una hoja.",
+      "qa": true
+    }
+  }
+}

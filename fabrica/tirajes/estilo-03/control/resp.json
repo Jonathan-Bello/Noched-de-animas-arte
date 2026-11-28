@@ -1,0 +1,124 @@
+{
+  "id": "resp",
+  "nombre": "Respirar hondo",
+  "familia": "Apoyos y reacciones",
+  "lectura_clave": "El gesto de la mano en el pecho y los hombros que bajan.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_rafael.webp",
+      "sha256": "0a5ded3dcd8392a05bb2249b8cfdffbcc4796fc939345c53b89578b25c0ca602",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i10@2x.webp",
+      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i09@2x.webp",
+      "sha256": "82097b0f97056e7a6c4414c42680d142f5b333662af4d09d9d3be7320fbb719f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i11@2x.webp",
+      "sha256": "c5c4fe6fde008f2cdd6c566df64e1e78ab5bb0a0aa293d73b5d1f985ca54ccb7",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i15@2x.webp",
+      "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/resp-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Rafael recupera el aliento al detenerse junto al brocal bajo del pozo en el patio de noche. Adulto de cabello oscuro ondulado, bigote y barba corta angular. Lleva la camisa crema remangada, chaleco verde con bolsillos de tapa, paliacate rojo al cuello y pantalón café del retrato de referencia. De perfil en tres cuartos, se apoya con un antebrazo relajado sobre el brocal y descansa la otra mano sobre el pecho sin apretar. Ojos cerrados y hombros caídos; una curva muy tenue de papel crema junto a la boca sugiere una exhalación tranquila. Detrás, una cortina quieta cuelga en el vano, rodeada de arcos en planos. Paleta de noche verde petróleo, veladora ámbar, cerámica calada y pocos cempasúchiles a los lados. Sin otros personajes, detector visible, naipes ni texto. Rostro sencillo y amable, manos anatómicas y apoyo legible.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/mesa/arte/inv_rafael.webp",
+        "web/miniaturas/i11@2x.webp"
+      ],
+      "imagen_sha256": "427268324c9d0d61152d5f38893d3b1f77308582c9969b588b646a88ce523344",
+      "lectura_ciega": "Rafael cierra los ojos, deja caer los hombros y suelta el aire con una mano en el pecho y el antebrazo sobre el pozo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El brocal sostiene el antebrazo y la cortina cuelga quieta. El retrato y Rosario se adjuntaron juntos en una hoja de referencias.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Rafael está sentado en un escalón ancho bajo dos arcos de la casona. Repite con precisión la identidad de la referencia: cabello oscuro ondulado, bigote y barba corta angular, camisa crema remangada, chaleco verde olivo de bolsillos con tapa, paliacate rojo, pantalón café. Cabeza un poco baja, ojos serenamente cerrados y hombros relajados. Una mano descansa sobre el pecho; con la otra, palma de cara al espectador, cuenta hasta cuatro mostrando cuatro dedos cómodamente extendidos y el pulgar doblado. Los cinco dedos están unidos anatómicamente a la mano. Al lado sobre el mismo escalón, un farol de mano pequeño con llama estable, con luz cálida sobre las mangas y la piedra representada como papel liso texturizado. Escena de descanso sentado, sin brocal de pozo ni cortina. Dominante verde petróleo profundo con cempasúchil discreto y cerámica calada, recorte cálido. Sin detector, personas adicionales, naipes, letras ni cifras.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/mesa/arte/inv_rafael.webp",
+        "web/miniaturas/i11@2x.webp"
+      ],
+      "imagen_sha256": "20694789449d8daf5022152588af833149dcfc2f25af4053f3a9679d4cbf2c00",
+      "lectura_ciega": "Rafael descansa sentado con los ojos cerrados, una mano al pecho y cuatro dedos alzados. Un farol está quieto a su lado.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El pulgar plegado separa el conteo de cuatro dedos y el farol descansa en el escalón. El retrato y Rosario se adjuntaron juntos en una hoja de referencias.",
+      "qa": true
+    }
+  }
+}

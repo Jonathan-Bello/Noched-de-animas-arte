@@ -126,6 +126,42 @@
     "archivo": "web/miniaturas/i07@2x.webp",
     "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
    }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/resp-a.webp?v=7e7cf0c6bc",
+    "sha256": "7e7cf0c6bcd1215941140661a6838d91466b4e03466f51ea98658b91a8b920fc"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/resp-b.webp?v=d019d6f316",
+    "sha256": "d019d6f3168739e8c79828bd1bc19a25f0b32c71215b83547fc47cc9cd00a2ca"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i10@2x.webp",
+    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+   }
+  },
+  {
+   "id": "esc",
+   "nombre": "Esconderse",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/esc-a.webp?v=066588c860",
+    "sha256": "066588c8609ab964484fffa1245bd9031f2c3e12583604e334dfa5bca90454ba"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/esc-b.webp?v=03d07abf00",
+    "sha256": "03d07abf0081a04cff37fb835bde7fa852bfe9612b6d6604b4e0c3f7e785842c"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i12@2x.webp",
+    "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
+   }
   }
  ]
 }
