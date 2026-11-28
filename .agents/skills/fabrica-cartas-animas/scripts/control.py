@@ -62,7 +62,7 @@ def plantilla(p):
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Escrito {destino.relative_to(R)}. Adjunta al generador solo las rutas de «adjuntadas» y después:")
-    print(f"  python3 .agents/skills/fabrica-cartas-animas/scripts/revisar.py {p.id} --a A.png --b B.png --salida fabrica/tirajes/{p.lote}/control/{p.id}-58x88.png")
+    print(f"  python3 .agents/skills/fabrica-cartas-animas/scripts/revisar.py {p.id} --a A.png --b B.png --salida web/revision/{p.lote}/hojas/{p.id}-58x88.webp")
 
 
 def punto_de_estilo():

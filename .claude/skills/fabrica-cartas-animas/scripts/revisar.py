@@ -103,6 +103,10 @@ def main():
     franja = hex_rgb(paleta["franjas"].get(f["tipo"], {}).get("hex", "#3B2418"))
     variantes = {"A": Image.open(p.a), "B": Image.open(p.b)}
     refs = [r for r in f["referencias"] if r["usar"] and r["existe"]]
+    punto = R / "guias/punto-de-estilo.json"  # las anclas de estilo se comparan siempre
+    if punto.is_file():
+        vistas = {r["ruta"] for r in refs}
+        refs += [{"ruta": x["ruta"], "funciones": ["punto de estilo"]} for x in json.loads(punto.read_text(encoding="utf-8"))["referencias"] if x["ruta"] not in vistas]
 
     amp = {k: v.convert("RGB").resize((round(v.width * AMPLIADA / v.height), AMPLIADA), Image.LANCZOS) for k, v in variantes.items()}
     mesa = {k: en_carta(v, franja) for k, v in variantes.items()}

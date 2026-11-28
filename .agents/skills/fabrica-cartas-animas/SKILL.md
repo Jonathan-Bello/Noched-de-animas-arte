@@ -26,7 +26,7 @@ Antes de todo, leer las [reglas por familia](referencias/familias.md). Son indic
 
 Aplicar estos controles también a una sola carta. Durante una calibración de acabado, obtener primero una variante que pase la revisión visual antes de comenzar la siguiente. Mantener el guion y las referencias aprobadas del encargo durante la corrección. Adjuntar los archivos de referencia como imágenes en cada generación. Si la herramienta no puede recibirlos, resolver esa limitación antes de generar.
 
-Flujo de cada carta: `control.py plantilla <lote> <id>` → adjuntar al generador solo las rutas de «adjuntadas» → `revisar.py ... --salida fabrica/tirajes/<lote>/control/<id>-58x88.png` → llenar lectura ciega, acabado, `imagen_sha256` y `qa` → `lote.py agregar`.
+Flujo de cada carta: `control.py plantilla <lote> <id>` → adjuntar al generador solo las rutas de «adjuntadas» → `revisar.py ... --salida web/revision/<lote>/hojas/<id>-58x88.webp` (webp fuera de Git LFS) → llenar lectura ciega, acabado, `imagen_sha256` y `qa` → `lote.py agregar`.
 
 1. **Recibir o escribir la escena.** Identificar carta, tipo, variante, fuente del texto y alcance del pedido.
    - Si el encargo trae guion, trabajar con la descripción íntegra de esa variante y las indicaciones posteriores del autor. Si el guion choca con las reglas por familia, señalarlo a quien lo encargó antes de dibujar.
