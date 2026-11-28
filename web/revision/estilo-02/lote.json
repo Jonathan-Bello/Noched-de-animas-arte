@@ -1,0 +1,34 @@
+{
+ "lote": "estilo-02",
+ "etapa": "guion",
+ "guionistas": {
+  "a": "Claude",
+  "b": "Claude",
+  "c": "Claude"
+ },
+ "guiones": "https://github.com/Jonathan-Bello/Noched-de-animas-arte/blob/main/fabrica/tirajes/estilo-02/README.md",
+ "cartas": [
+  {
+   "id": "h4",
+   "nombre": "Apagón",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "descripcion": "Inés, en el pasillo de arcos, se cubre la cabeza con el rebozo guinda: los focos del techo revientan uno tras otro desde el fondo hacia ella, en estallidos de vidrio que caen como confeti ámbar, y detrás de cada uno el pasillo queda negro. El foco que está sobre ella ya se agrieta y es la última luz de la escena.",
+    "sha256": "84da6b43154cf715bd3a9a9ef3d9f6d27e920cd290961276ba142b7e665c57b8"
+   },
+   "b": {
+    "descripcion": "Vista desde el patio: la casona entera se apaga de golpe, ventana por ventana, hasta quedar como una silueta negra contra el cielo morado. En la única ventana que aún brilla, el Padre Mateo alza su rosario mientras el foco que tiene encima estalla en chispas; la cruz no da luz.",
+    "sha256": "c27aa2946e5d35ba5c4e390195019fa2c4a62950300ada25a0ba7bc4b82f7e20"
+   },
+   "c": {
+    "descripcion": "Rafael, en la sala, levanta la vista con la linterna apagada en la mano: la araña de cristal estalla en una lluvia de chispas y prismas. Por las puertas abiertas se ve que todos los cuartos de la casa ya están a oscuras; solo la última chispa le ilumina la cara de sorpresa.",
+    "sha256": "5605ac3c8438a3c2a0e7c3ba11ad0ab820a36bf28f8e10c72bc86bba9cfc9c35"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h05@2x.webp",
+    "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+   }
+  }
+ ]
+}

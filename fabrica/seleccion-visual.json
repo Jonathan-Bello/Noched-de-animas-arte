@@ -4,12 +4,14 @@
   {
    "id": "t0",
    "nombre": "Termómetro",
-   "lote": "comparativa-01",
-   "voto": "b",
+   "lote": "estilo-01",
+   "voto": "c",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/t0-b.webp",
-   "sha256": "8317036e4c97d7e5db082b429f5f4671e13c39dc5d337cd0b9dc0a68d6a34c0e",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "5d0a86c5be271cc8cae905ba5a18904f4ed9c0b5e1f905aad45fc91250a479d7",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "El termómetro descansa en el alféizar de una ventana de la recámara, con la pantalla vuelta hacia la cama vacía de colcha bordada. Su lectura bajo cero es la única luz fría de la escena, entre el ámbar de dos veladoras.",
    "historial": [
     {
      "id": "t0",
@@ -19,6 +21,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i01@2x.webp",
      "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
+    },
+    {
+     "id": "t0",
+     "nombre": "Termómetro",
+     "lote": "comparativa-01",
+     "voto": "b",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/t0-b.webp",
+     "sha256": "8317036e4c97d7e5db082b429f5f4671e13c39dc5d337cd0b9dc0a68d6a34c0e",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -130,12 +142,13 @@
   {
    "id": "kit",
    "nombre": "Kit de campo",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/i08@2x.webp",
    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Usaste un estilo grafico demasiado simple, se ve muy generado por IA",
    "historial": [
     {
      "id": "kit",
@@ -145,18 +158,28 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i08@2x.webp",
      "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+    },
+    {
+     "id": "kit",
+     "nombre": "Kit de campo",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/i08@2x.webp",
+     "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78",
+     "registrado": "2026-11-25"
     }
    ]
   },
   {
    "id": "resp",
    "nombre": "Respirar hondo",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/i10@2x.webp",
    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
    "historial": [
     {
      "id": "resp",
@@ -166,6 +189,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i10@2x.webp",
      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+    },
+    {
+     "id": "resp",
+     "nombre": "Respirar hondo",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/i10@2x.webp",
+     "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -193,12 +226,14 @@
   {
    "id": "esc",
    "nombre": "Esconderse",
-   "lote": "comparativa-01",
-   "voto": "d",
+   "lote": "estilo-01",
+   "voto": "a",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/esc-d.webp",
-   "sha256": "eb3317166a6f4e05accfcab964e1ba978bcc05766efe2c9f6bd29fdbceada2d9",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "fcd1b9374bf762d5b8cf70e95f009f521a4732cf682ae60998c29682155c2b83",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "Tomás se esconde bajo la mesa larga del comedor, tapado por el mantel bordado que llega al piso; solo asoman el ala de su sombrero y sus ojos muy abiertos. Su morral con los aparatos quedó encima de la mesa, fuera de su alcance. Junto al mantel pasan los pies descalzos y traslúcidos del ánima.",
    "historial": [
     {
      "id": "esc",
@@ -208,6 +243,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/i12@2x.webp",
      "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
+    },
+    {
+     "id": "esc",
+     "nombre": "Esconderse",
+     "lote": "comparativa-01",
+     "voto": "d",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/esc-d.webp",
+     "sha256": "eb3317166a6f4e05accfcab964e1ba978bcc05766efe2c9f6bd29fdbceada2d9",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -256,12 +301,14 @@
   {
    "id": "tablilla",
    "nombre": "Tablilla espiritista",
-   "lote": "comparativa-01",
-   "voto": "a",
+   "lote": "estilo-01",
+   "voto": "c",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/tablilla-a.webp",
-   "sha256": "5475b6896a829743f41f2667a53f8056b20785721855bd7c4227ea091858c6cb",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "976de06cc500624e87ed7fc173a2f5fb4981acf2b895c4e0a0cc93a7acf36dd8",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "La tablilla dentro de su caja de madera abierta, forrada de terciopelo guinda, en el baúl del desván. La pieza triangular brilla como recién despierta y el polvo alrededor de la caja forma un círculo limpio.",
    "historial": [
     {
      "id": "tablilla",
@@ -271,6 +318,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/revision/lote-01/tablilla-b.webp",
      "sha256": "c5012c22e07a08c02af4f9f3c4a3d698263a2bce70aa6d641f089d5e8bf52e23"
+    },
+    {
+     "id": "tablilla",
+     "nombre": "Tablilla espiritista",
+     "lote": "comparativa-01",
+     "voto": "a",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/tablilla-a.webp",
+     "sha256": "5475b6896a829743f41f2667a53f8056b20785721855bd7c4227ea091858c6cb",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -319,12 +376,13 @@
   {
    "id": "tarot",
    "nombre": "Tarot",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/o06@2x.webp",
    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "El estilo grafico erroneo, no sigue la tendencia de las cartas",
    "historial": [
     {
      "id": "tarot",
@@ -334,6 +392,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/o06@2x.webp",
      "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+    },
+    {
+     "id": "tarot",
+     "nombre": "Tarot",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/o06@2x.webp",
+     "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -361,12 +429,13 @@
   {
    "id": "escalofrio",
    "nombre": "Escalofrío",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/a01@2x.webp",
    "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Original es mejor",
    "historial": [
     {
      "id": "escalofrio",
@@ -376,6 +445,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/a01@2x.webp",
      "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
+    },
+    {
+     "id": "escalofrio",
+     "nombre": "Escalofrío",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/a01@2x.webp",
+     "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -403,12 +482,14 @@
   {
    "id": "interferencia",
    "nombre": "Interferencia",
-   "lote": "comparativa-01",
-   "voto": "original",
+   "lote": "estilo-01",
+   "voto": "c",
    "alcance": "preferencia_visual",
-   "archivo": "web/miniaturas/a06@2x.webp",
-   "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "3fd9c100c4b3a50299727208a9ec9d7c0a9e458a0fac948ed89c92ddae3b6e08",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "Vista cenital de la mesa de trabajo: termómetro, grabadora, lámpara UV y detector EMF en fila, listos. Solo la cámara de movimiento está cubierta por un velo fino, como mortaja, y de él sale vaho frío. Sin personas.",
    "historial": [
     {
      "id": "interferencia",
@@ -418,6 +499,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/a06@2x.webp",
      "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51"
+    },
+    {
+     "id": "interferencia",
+     "nombre": "Interferencia",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/a06@2x.webp",
+     "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -487,12 +578,13 @@
   {
    "id": "h2",
    "nombre": "Lamento",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/h03@2x.webp",
    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "No da a tender lamentos las demas",
    "historial": [
     {
      "id": "h2",
@@ -502,18 +594,30 @@
      "alcance": "preferencia_visual",
      "archivo": "web/revision/lote-01/h2-a.webp",
      "sha256": "84a313ac20cf025c6f3b66590b9c5ad26a58a0a50b06627327737945f6d1ef9e"
+    },
+    {
+     "id": "h2",
+     "nombre": "Lamento",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/h03@2x.webp",
+     "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b",
+     "registrado": "2026-11-25"
     }
    ]
   },
   {
    "id": "h4",
    "nombre": "Apagón",
-   "lote": "comparativa-01",
-   "voto": "c",
+   "lote": "estilo-02",
+   "voto": "b",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/h4-c.webp",
-   "sha256": "eaa183edd768dcd3c363eabfd92589e8b42e79d920b5252e13f5e43f6e285194",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "c27aa2946e5d35ba5c4e390195019fa2c4a62950300ada25a0ba7bc4b82f7e20",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "Vista desde el patio: la casona entera se apaga de golpe, ventana por ventana, hasta quedar como una silueta negra contra el cielo morado. En la única ventana que aún brilla, el Padre Mateo alza su rosario mientras el foco que tiene encima estalla en chispas; la cruz no da luz.",
    "historial": [
     {
      "id": "h4",
@@ -523,6 +627,29 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/h05@2x.webp",
      "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
+    },
+    {
+     "id": "h4",
+     "nombre": "Apagón",
+     "lote": "comparativa-01",
+     "voto": "c",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/h4-c.webp",
+     "sha256": "eaa183edd768dcd3c363eabfd92589e8b42e79d920b5252e13f5e43f6e285194",
+     "registrado": "2026-11-25"
+    },
+    {
+     "id": "h4",
+     "nombre": "Apagón",
+     "lote": "estilo-01",
+     "voto": "b",
+     "alcance": "preferencia_visual",
+     "archivo": null,
+     "sha256": "faac8e4a15b7a4f21aec6491bc1c7f03e91425ee54aa1e9d678fa57d2d2f568e",
+     "registrado": "2026-11-28",
+     "etapa": "guion",
+     "guion": "La araña de cristal del salón se acaba de apagar; sus prismas guardan un último destello ámbar. Debajo, sobre la mesa, quedó el rosario del Padre Mateo con la cruz sin brillo, y una sombra de dedos largos se acerca desde el borde de la mesa.",
+     "nota": "Me gusta la aprobada actual, necesito que se vea mejor una escena donde se note como los focos se rompen y toda la casa queda a oscuras. Necesito que me elabores nuevas propuestas, la votada esta bien pero su estilo se ve muy reallista."
     }
    ]
   },
@@ -550,12 +677,14 @@
   {
    "id": "id_bruja",
    "nombre": "Bruja",
-   "lote": "comparativa-01",
+   "lote": "estilo-01",
    "voto": "a",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/id_bruja-a.webp",
-   "sha256": "7d047e654f078062d335f04c2b013f0f6aeae71b6d0fe563d622f8b61d36a19a",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "af2dbd097faef2092564591989e7f667e4a787c9060fee2faac35c3b7f13a93b",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "En el patio, bajo la luna, la Bruja de cabello blanco abre su rebozo guinda como alas y sus pies descalzos se despegan del suelo. A su lado la olla humea sobre tres piedras y el ojo de venado le cuelga del cuello. Sonrisa pícara, no grotesca.",
    "historial": [
     {
      "id": "id_bruja",
@@ -565,6 +694,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/id06@2x.webp",
      "sha256": "279eb3c0a890865d9c0eead36815be4eb8ba169b6f31926c7d262ce8ffbf1985"
+    },
+    {
+     "id": "id_bruja",
+     "nombre": "Bruja",
+     "lote": "comparativa-01",
+     "voto": "a",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/id_bruja-a.webp",
+     "sha256": "7d047e654f078062d335f04c2b013f0f6aeae71b6d0fe563d622f8b61d36a19a",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -739,12 +878,13 @@
   {
    "id": "id_guardian",
    "nombre": "El Guardián del Entierro",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/id16@2x.webp",
    "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Estilo grafico que no concuerda",
    "historial": [
     {
      "id": "id_guardian",
@@ -754,6 +894,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/id16@2x.webp",
      "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
+    },
+    {
+     "id": "id_guardian",
+     "nombre": "El Guardián del Entierro",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/id16@2x.webp",
+     "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -979,12 +1129,14 @@
   {
    "id": "es_guardian",
    "nombre": "Maldición del entierro",
-   "lote": "comparativa-01",
-   "voto": "original",
+   "lote": "estilo-01",
+   "voto": "c",
    "alcance": "preferencia_visual",
-   "archivo": "web/miniaturas/s16@2x.webp",
-   "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "5e82693805d264e4eeb2a9dfe6f71e64c27be566ad2f9206a122c61dad318212",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "El Guardián, de cuerpo entero, se yergue sobre un montón de monedas que se derrite en brasa roja. Golpea el suelo con su bastón y las losas del cuarto se levantan como una reja alrededor del tesoro. Toda la escena en rojos carmín, guinda y negro, con crema y oro solo como luz.",
    "historial": [
     {
      "id": "es_guardian",
@@ -994,6 +1146,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/s16@2x.webp",
      "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534"
+    },
+    {
+     "id": "es_guardian",
+     "nombre": "Maldición del entierro",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/s16@2x.webp",
+     "sha256": "fd83022df5688ea86403cfcce20a62b1f904da92a30b53a86f8ac55b09608534",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1021,12 +1183,13 @@
   {
    "id": "es_cadejo",
    "nombre": "Arrastre de cadenas",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/s18@2x.webp",
    "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "Ilsutracion no concuenteda el estilo y se ve mal",
    "historial": [
     {
      "id": "es_cadejo",
@@ -1036,6 +1199,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/s18@2x.webp",
      "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+    },
+    {
+     "id": "es_cadejo",
+     "nombre": "Arrastre de cadenas",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/s18@2x.webp",
+     "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1147,12 +1320,13 @@
   {
    "id": "ev3",
    "nombre": "Objetos movidos",
-   "lote": "comparativa-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/e04@2x.webp",
    "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79",
-   "registrado": "2026-11-25",
+   "registrado": "2026-11-28",
+   "nota": "La original si da sensaion de un poltergaist moviendo cosas",
    "historial": [
     {
      "id": "ev3",
@@ -1162,18 +1336,30 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/e04@2x.webp",
      "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+    },
+    {
+     "id": "ev3",
+     "nombre": "Objetos movidos",
+     "lote": "comparativa-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/e04@2x.webp",
+     "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79",
+     "registrado": "2026-11-25"
     }
    ]
   },
   {
    "id": "ev4",
    "nombre": "Luces parpadeantes",
-   "lote": "comparativa-01",
+   "lote": "estilo-01",
    "voto": "a",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/comparativa-01/ev4-a.webp",
-   "sha256": "b9c5887f188d1a93f603eff70f58608c3b27c2693b1c4a49a94983bdb791e7c9",
-   "registrado": "2026-11-25",
+   "archivo": null,
+   "sha256": "be6fa6a9143bd0d42992a92047f27ec11e46898ac96ff32e6a56c40db385b3cb",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "La fachada de la casona vista desde la calle empedrada, de noche: tres ventanas en fila; la del centro arde en ámbar con un foco desnudo a medio brillo y las de los lados están a oscuras. Sin personas.",
    "historial": [
     {
      "id": "ev4",
@@ -1183,6 +1369,16 @@
      "alcance": "preferencia_visual",
      "archivo": "web/miniaturas/e05@2x.webp",
      "sha256": "3d2e3dd772affd0257e86ee3eddd2167f8498fca859426c4a6e99b26bd862dd1"
+    },
+    {
+     "id": "ev4",
+     "nombre": "Luces parpadeantes",
+     "lote": "comparativa-01",
+     "voto": "a",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/comparativa-01/ev4-a.webp",
+     "sha256": "b9c5887f188d1a93f603eff70f58608c3b27c2693b1c4a49a94983bdb791e7c9",
+     "registrado": "2026-11-25"
     }
    ]
   },
@@ -1282,11 +1478,25 @@
   {
    "id": "R02",
    "nombre": "Reglas 2: Investigar",
-   "lote": "frentes-01",
-   "voto": "b",
+   "lote": "estilo-01",
+   "voto": "a",
    "alcance": "preferencia_visual",
-   "archivo": "web/revision/lote-01/R02-b.webp",
-   "sha256": "6248b884ce7afc4a297dfd0789fd1758e4f0fe702c3da26e880d6b5b93893227"
+   "archivo": null,
+   "sha256": "c954df1d1ef6baa80eefa0e94368a135d08dbbd9cd69668bd145845568721c2c",
+   "registrado": "2026-11-28",
+   "etapa": "guion",
+   "guion": "Inés y Rafael, inclinados juntos sobre la libreta de Tomás en la mesa del comedor: Rafael señala con el lápiz una casilla e Inés acerca el farol. Ambiente cálido de equipo.",
+   "historial": [
+    {
+     "id": "R02",
+     "nombre": "Reglas 2: Investigar",
+     "lote": "frentes-01",
+     "voto": "b",
+     "alcance": "preferencia_visual",
+     "archivo": "web/revision/lote-01/R02-b.webp",
+     "sha256": "6248b884ce7afc4a297dfd0789fd1758e4f0fe702c3da26e880d6b5b93893227"
+    }
+   ]
   },
   {
    "id": "R03",
@@ -1309,11 +1519,24 @@
   {
    "id": "R05",
    "nombre": "El espíritu",
-   "lote": "frentes-01",
+   "lote": "familias-03",
    "voto": "original",
    "alcance": "preferencia_visual",
    "archivo": "web/miniaturas/p07@2x.webp",
-   "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+   "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129",
+   "registrado": "2026-11-28",
+   "nota": "La orignal si usa unbuen estilo",
+   "historial": [
+    {
+     "id": "R05",
+     "nombre": "El espíritu",
+     "lote": "frentes-01",
+     "voto": "original",
+     "alcance": "preferencia_visual",
+     "archivo": "web/miniaturas/p07@2x.webp",
+     "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+    }
+   ]
   },
   {
    "id": "t5",
@@ -1378,6 +1601,17 @@
    "archivo": "web/revision/comparativa-01/cordura-mateo-a.webp",
    "sha256": "93e6e70e6e5f07d887d17bcb87ac05fcbe980806e82ebadacbf4f10ebe656c54",
    "registrado": "2026-11-25"
+  },
+  {
+   "id": "ult",
+   "nombre": "Ultraje espiritual",
+   "lote": "familias-03",
+   "voto": "original",
+   "alcance": "preferencia_visual",
+   "archivo": "web/miniaturas/i15@2x.webp",
+   "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf",
+   "registrado": "2026-11-28",
+   "nota": "Debes usar el estilo simplificado de los personajes como en la carta original"
   }
  ]
 }

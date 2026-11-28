@@ -71,6 +71,10 @@ def preparar(lote, origen):
                 nombre = f"{clave}-{op}.webp"
                 carta[op] = propuesta(origen / nombre, destino / nombre, anteriores.get(clave, {}).get(op), descripcion)
                 copias.append((origen / nombre, destino / nombre))
+            from control import errores
+            mal = errores(lote, cid, {op: origen / f"{clave}-{op}.webp" for op in "abcd"})
+            if mal:
+                raise ValueError(f"{cid}: control incompleto: " + "; ".join(mal))
             if len({carta[k]["sha256"] for k in "abcd"}) != 4:
                 raise ValueError(f"{clave}: hay propuestas idénticas")
             original = pieza.get("original") or encargo.get("originales", {}).get(cid) or miniatura(fabrica.desc[cid]["id_arte"])

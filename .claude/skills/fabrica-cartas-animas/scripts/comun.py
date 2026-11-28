@@ -192,7 +192,7 @@ class Fabrica:
             add(miniatura(d["id_arte"]), "modelo del aparato", nota)
         # 4. Votos del autor
         v = self.votos.get(cid)
-        if v and v["voto"] == "ninguna":
+        if v and (v["voto"] == "ninguna" or not v.get("archivo")):  # voto de guion: no hay imagen elegida
             v = None
         vigente = v and (R / v["archivo"]).is_file() and sha256(v["archivo"]) == v["sha256"]
         if v and not vigente:

@@ -1,0 +1,19 @@
+{
+ "lote": "familias-03",
+ "modo": "guion",
+ "descripciones": "descripciones.json",
+ "titulo": "Claude contra ChatGPT · una carta por familia",
+ "ilustrador": "ChatGPT",
+ "ids": [
+  "kit",
+  "resp",
+  "ult",
+  "tarot",
+  "escalofrio",
+  "h2",
+  "id_guardian",
+  "es_cadejo",
+  "ev3",
+  "R05"
+ ]
+}

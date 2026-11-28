@@ -86,6 +86,12 @@ def agregar(p):
     f = fab.ficha(p.id)
     if f["accion"] != "generar" and not p.forzar:
         sys.exit(f"{p.id}: {f['accion_texto']} Usa --forzar si el autor lo pidió.")
+    # El control de calidad no tiene --forzar: sin referencias aprobadas por carta y sin revisión a 58 × 88 mm
+    # contra su familia no se publica nada (lección de familias-03).
+    from control import errores
+    mal = errores(p.lote, p.id, {"a": p.a, "b": p.b})
+    if mal:
+        sys.exit(f"{p.id}: control incompleto\n- " + "\n- ".join(mal))
     if not f["id_arte"]:
         sys.exit(f"{p.id} no tiene versión vigente (id_arte) para la columna «original».")
     carpeta = R / "web/revision" / p.lote
@@ -207,7 +213,7 @@ def comprobar(_p=None):
             total += 1
             if c["id"] not in desc:
                 errores.append(f"{e['lote']}/{c['id']}: el ID no está en el catálogo")
-            ops = list("abcd") if datos.get("guionistas") else list("ab")
+            ops = list(datos["guionistas"]) if datos.get("guionistas") else list("ab")
             if desc.get(c["id"], {}).get("id_arte") or c.get("original") or not datos.get("guionistas"):
                 ops.append("original")
             for op in ops:
