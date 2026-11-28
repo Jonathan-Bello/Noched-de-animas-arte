@@ -1,0 +1,24 @@
+{
+ "version": 1,
+ "lote": "calibracion-estilo-01",
+ "elegidas": [
+  {
+   "n": 4,
+   "clave": "a03",
+   "nombre": "Travesura"
+  },
+  {
+   "n": 8,
+   "clave": "id01",
+   "nombre": "La Llorona"
+  },
+  {
+   "n": 9,
+   "clave": "i06",
+   "nombre": "Espejo de mano"
+  }
+ ],
+ "nota": "",
+ "fecha": "2026-11-28",
+ "fuente": "Jonathan, página de calibración (https://claude.ai/artifact/U4UaHk6BP3GQP6JtKm2Yxx)"
+}

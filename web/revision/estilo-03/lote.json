@@ -1,0 +1,23 @@
+{
+ "lote": "estilo-03",
+ "cartas": [
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/kit-a.webp?v=84122dfae5",
+    "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/kit-b.webp?v=260f289adb",
+    "sha256": "260f289adbaf34c725a08b7b684ef22bae858c468bdda11019c3efe9209a4f67"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i08@2x.webp",
+    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+   }
+  }
+ ]
+}

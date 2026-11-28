@@ -17,7 +17,8 @@ Reglas que comprueba, por variante:
      web/revision salvo el original votado que la ficha marque como utilizable.
   2. Al menos una referencia de acabado de la familia (o la versión que el autor prefirió).
   3. Hoja de revisión a 58 × 88 mm hecha con scripts/revisar.py (archivo existente).
-  4. Los siete límites de estilo simple (referencias/estilo-simple.md) revisados y cumplidos.
+  4. Las cartas de punto de estilo (guias/punto-de-estilo.json) adjuntadas, y los siete límites de
+     referencias/estilo-simple.md revisados en las dos direcciones (ni realista ni plano).
   5. Lectura ciega escrita, acabado comparado con la familia marcado «encaja» y qa = true.
 """
 import argparse
@@ -29,7 +30,8 @@ from pathlib import Path
 from comun import R, Fabrica
 
 PROHIBIDO = ("fabrica/entrada/", "fabrica/tirajes/", "web/revision/")
-LIMITES = ("capas_planas", "sin_textura_material", "objetos_icono", "fondo_dos_planos", "pocos_objetos", "adorno_calado", "luz_plana")
+LIMITES = ("capas_con_volumen", "textura", "detalle_objetos", "fondo", "cantidad", "adorno_calado", "luz")
+PUNTO = "guias/punto-de-estilo.json"  # cartas que el autor marcó «en el punto» (calibración); van en todo encargo
 FAMILIA = ("acabado de la familia", "versión preferida por el autor", "identidad en una carta elegida")
 
 
@@ -44,6 +46,8 @@ def aprobadas(cid):
 
 def plantilla(p):
     f, refs = aprobadas(p.id)
+    for r in punto_de_estilo() or []:  # las anclas de estilo van en todo encargo
+        refs.setdefault(r, {"ruta": r, "sha256": None, "funciones": ["punto de estilo"]})
     destino = ruta_control(p.lote, p.id)
     if destino.exists() and not p.forzar:
         sys.exit(f"Ya existe {destino.relative_to(R)}; usa --forzar para rehacerlo.")
@@ -58,7 +62,12 @@ def plantilla(p):
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Escrito {destino.relative_to(R)}. Adjunta al generador solo las rutas de «adjuntadas» y después:")
-    print(f"  python3 .agents/skills/fabrica-cartas-animas/scripts/revisar.py {p.id} --a A.png --b B.png --salida fabrica/tirajes/{p.lote}/control/{p.id}-58x88.png")
+    print(f"  python3 .agents/skills/fabrica-cartas-animas/scripts/revisar.py {p.id} --a A.png --b B.png --salida web/revision/{p.lote}/hojas/{p.id}-58x88.webp")
+
+
+def punto_de_estilo():
+    p = R / PUNTO
+    return [x["ruta"] for x in json.loads(p.read_text(encoding="utf-8"))["referencias"]] if p.is_file() else None
 
 
 def errores(lote, cid, imgs=None):
@@ -68,6 +77,13 @@ def errores(lote, cid, imgs=None):
     c = json.loads(destino.read_text(encoding="utf-8"))
     _, refs = aprobadas(cid)
     mal = []
+    punto = punto_de_estilo()
+    if punto is None:
+        mal.append(f"falta {PUNTO}: el autor aún no marcó las cartas «en el punto» de estilo")
+    else:
+        for r in punto:  # sin pisar las funciones que la carta ya le da (p. ej. acabado de la familia)
+            e = refs.setdefault(r, {"ruta": r, "funciones": []})
+            e["funciones"] = e["funciones"] + ["punto de estilo"]
     hoja = c.get("hoja_58x88") or ""
     if not hoja or not (R / hoja).is_file():
         mal.append("falta la hoja de revisión a 58 × 88 mm (scripts/revisar.py --salida)")
@@ -81,6 +97,8 @@ def errores(lote, cid, imgs=None):
                 mal.append(f"{pre} usa una propuesta como referencia ({ruta}); solo valen cartas aprobadas")
             elif ruta not in refs:
                 mal.append(f"{pre} {ruta} no es referencia aprobada de esta carta (ver ficha.py {cid})")
+        if punto and not set(punto) <= set(adj):
+            mal.append(f"{pre} faltan adjuntar las cartas de punto de estilo: {', '.join(sorted(set(punto) - set(adj)))}")
         if adj and not any(any(fn in FAMILIA for fn in refs[r]["funciones"]) for r in adj if r in refs):
             mal.append(f"{pre} ninguna referencia de acabado de la familia")
         if not (v.get("lectura_ciega") or "").strip():
@@ -90,7 +108,7 @@ def errores(lote, cid, imgs=None):
         lim = v.get("limites") or {}
         faltan = [k for k in LIMITES if lim.get(k) is not True]
         if faltan:
-            mal.append(f"{pre} no cumple o no revisó los límites de estilo simple: {', '.join(faltan)} (referencias/estilo-simple.md)")
+            mal.append(f"{pre} no cumple o no revisó los límites de estilo simple: {', '.join(faltan)} (dos direcciones: ni realista ni plano; referencias/estilo-simple.md)")
         if v.get("qa") is not True:
             mal.append(f"{pre} qa no está aprobado")
         if imgs and op in imgs:

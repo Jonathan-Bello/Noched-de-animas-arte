@@ -1,0 +1,24 @@
+{
+ "descripcion": "Cartas que el autor marcó «en el punto» de estilo. Van adjuntas en todo encargo de ilustración (control.py lo exige).",
+ "origen": "fabrica/tirajes/calibracion-estilo-01/seleccion.json",
+ "referencias": [
+  {
+   "ruta": "web/miniaturas/a03@2x.webp",
+   "carta": "a03",
+   "nombre": "Travesura",
+   "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024"
+  },
+  {
+   "ruta": "web/miniaturas/id01@2x.webp",
+   "carta": "id01",
+   "nombre": "La Llorona",
+   "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922"
+  },
+  {
+   "ruta": "web/miniaturas/i06@2x.webp",
+   "carta": "i06",
+   "nombre": "Espejo de mano",
+   "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f"
+  }
+ ]
+}

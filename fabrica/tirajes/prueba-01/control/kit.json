@@ -38,8 +38,10 @@
     "a": {
       "guion": "El maletín de cuero del kit, abierto sobre la mesa de la cocina junto a un molcajete, con sus compartimentos en fila: termómetro, lámpara UV, grabadora y detector EMF, cada uno en su hueco de terciopelo. Un hueco del centro está vacío, la pieza que se eligió. Sin manos.",
       "adjuntadas": [
-        "web/miniaturas/i08@2x.webp",
-        "web/miniaturas/i06@2x.webp"
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/miniaturas/i08@2x.webp"
       ],
       "imagen_sha256": "",
       "lectura_ciega": "",
@@ -47,20 +49,22 @@
       "observaciones": "",
       "qa": false,
       "limites": {
-        "capas_planas": false,
-        "sin_textura_material": false,
-        "objetos_icono": false,
-        "fondo_dos_planos": false,
-        "pocos_objetos": false,
+        "capas_con_volumen": false,
+        "textura": false,
+        "detalle_objetos": false,
+        "fondo": false,
+        "cantidad": false,
         "adorno_calado": false,
-        "luz_plana": false
+        "luz": false
       }
     },
     "b": {
       "guion": "El kit colgado de un perchero de la entrada, como un morral de cuero con bolsillos; de cada bolsillo asoma la punta de un aparato distinto, reconocible por su silueta. A sus pies, un farol encendido es la única luz cálida.",
       "adjuntadas": [
-        "web/miniaturas/i08@2x.webp",
-        "web/miniaturas/i06@2x.webp"
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/miniaturas/i08@2x.webp"
       ],
       "imagen_sha256": "",
       "lectura_ciega": "",
@@ -68,13 +72,13 @@
       "observaciones": "",
       "qa": false,
       "limites": {
-        "capas_planas": false,
-        "sin_textura_material": false,
-        "objetos_icono": false,
-        "fondo_dos_planos": false,
-        "pocos_objetos": false,
+        "capas_con_volumen": false,
+        "textura": false,
+        "detalle_objetos": false,
+        "fondo": false,
+        "cantidad": false,
         "adorno_calado": false,
-        "luz_plana": false
+        "luz": false
       }
     }
   },
@@ -92,6 +96,21 @@
         "fondo_dos_planos",
         "pocos_objetos",
         "luz_plana"
+      ]
+    },
+    {
+      "n": 2,
+      "fecha": "2026-11-28",
+      "imagenes": 1,
+      "resultado": "rechazado por el autor",
+      "nota": "Se pasó de simple: papel recortado casi vectorial.",
+      "fallan": [
+        "capas_con_volumen",
+        "textura",
+        "detalle_objetos",
+        "fondo",
+        "cantidad",
+        "luz"
       ]
     }
   ]
