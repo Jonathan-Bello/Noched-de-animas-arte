@@ -22,6 +22,12 @@ Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota 
 | **Inconsistencia entre cartas de una familia** | Una herramienta se ve más detallada o con otra luz que las demás | Referencias de la misma familia en cada pedido | Comparar lado a lado con la familia antes de aprobar |
 | **Contenido sensible** | Rostros de personas reales en lugares públicos sin permiso | Solo personas que dieron permiso; las fotos no se suben | No aprobar hasta tener el permiso |
 
+## Contraste de acabado
+
+Aplicar los [límites visuales](../.agents/skills/fabrica-cartas-animas/referencias/estilo-simple.md) y registrarlos en el control del tiraje. Comparar cada variante con sus adjuntos aprobados a 58 × 88 mm y ampliada. Indicar en qué zona aparece la desviación: protagonista, aparato o fondo.
+
+Para Kit de campo, i08 e i06 son las referencias de acabado en la prueba. La silueta y las capas de color deben dar forma al maletín o morral. Cada instrumento se reconoce por su silueta y uno o dos rasgos simples. El cuero, el terciopelo y el molcajete se distinguen por sus formas y colores. La revisión debe detectar si aparecen poros, costuras punteadas, reflejos de catálogo o azulejos en perspectiva. Conservar los elementos de la escena y corregir únicamente la representación que se desvió.
+
 ## Revisión técnica (antes de mostrar a Jonathan)
 
 - [ ] Vertical, 2:3, al menos 1024 × 1536 px
@@ -43,7 +49,7 @@ Lo que suele fallar al generar con ChatGPT (u otra IA de imagen), cómo se nota 
 ## Revisión de arte (Jonathan)
 
 Se muestra en este orden:
-1. La propuesta sola, junto a 3–4 cartas aprobadas de su familia.
+1. La propuesta sola, junto a las cartas aprobadas que se usaron en el encargo.
 2. La propuesta con el marco y el título, a tamaño real (58 × 88 mm).
 3. Si es un personaje, junto a la identidad aprobada.
 
