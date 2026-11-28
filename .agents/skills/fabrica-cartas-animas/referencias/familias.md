@@ -13,6 +13,24 @@ De 65 elecciones, Jonathan conservó el original en 47 y eligió una propuesta e
 | Espanto con petróleo, azul o verde en la paleta | 30 de 48 (medido) | 0 |
 | Objeto o ánima sola como protagonista, sin investigador o con solo una mano | — | 12 de las 13 escenas elegidas |
 
+## Lo que eligió estilo-01 (27-nov-2026)
+
+Jonathan votó el estilo general y la composición de cada tipo de carta en el lote `estilo-01`. Estas elecciones mandan sobre las secciones de familia de abajo cuando chocan.
+
+**Estilo general: A, Papel recortado cálido** (C, Cuento ilustrado de noche, quedó segundo). Capas de papel recortado con contorno por cambio de tinta en café oscuro y grano fino. Paleta acotada a seis tintas (petróleo, crema, cempasúchil, ámbar, guinda y morado) con una sola luz cálida por escena. Fondo de arcos en dos planos sencillos para que el sujeto respire. Rostros de rasgos suaves y expresión serena. Nada realista: Jonathan rechazó la propuesta votada del Apagón por verse «muy realista».
+
+| Familia | Composición elegida | Lo que dijo Jonathan |
+|---|---|---|
+| Herramientas | **El aparato en su sitio**, solo, como bodegón, sin manos | Con el aparato solo se entiende qué aparato es, y el entorno da a entender qué mide. |
+| Reacciones | **El investigador y su gesto**, emoción reconocible y amable | Le encanta. |
+| Apoyos | Como herramientas: el remedio protagoniza | Son casi herramientas; siguen el estándar de las herramientas. |
+| Objetos | **Retrato del objeto**, centrado | Predomina el elemento central; en uso solo si el concepto lo pide. |
+| Acciones del ánima y habilidades | **El investigador vive el efecto** | En los efectos se ve lo que le pasa al investigador. |
+| Identidades | **Cuerpo entero en su lugar** | Prefiere el retrato de cuerpo entero. |
+| Espantos | **El ánima domina**, encuadre cerrado (el plano medio con la casa también vale) | A se usa más; ambas sirven. |
+| Evidencias | **El indicio de cerca** | Lo importante es que se vea el indicio. |
+| Reglas | **La mesa de trabajo** (el equipo junto también vale) | Ambas son perfectas. |
+
 ## Reglas para todas las familias
 
 1. **Propuesta nueva, no réplica.** Cuando una carta se rehace, cada variante es una escena nueva de la misma idea: otro lugar de la casona, otro momento u otro encuadre. No copiar la composición de la carta actual, que ya está en el selector como «Conservar original». Las réplicas fallan porque pierden lo que el original ya tenía y no aportan nada nuevo. «Mantener su identidad» significa conservar los rasgos del ánima en `fabrica/PERSONAJES.md`, no su pose ni su encuadre. Una réplica solo se hace si Jonathan la pide expresamente para corregir un detalle.

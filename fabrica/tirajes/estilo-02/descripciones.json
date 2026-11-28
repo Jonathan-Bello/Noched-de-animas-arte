@@ -1,0 +1,10 @@
+{
+ "lote": "estilo-02",
+ "guionistas": {"a": "Claude", "b": "Claude", "c": "Claude"},
+ "cartas": [
+  {"id": "h4", "nombre": "Apagón", "tipo": "habilidad", "estado": "rehacer", "en_selector": true, "variantes": {
+   "a": "Inés, en el pasillo de arcos, se cubre la cabeza con el rebozo guinda: los focos del techo revientan uno tras otro desde el fondo hacia ella, en estallidos de vidrio que caen como confeti ámbar, y detrás de cada uno el pasillo queda negro. El foco que está sobre ella ya se agrieta y es la última luz de la escena.",
+   "b": "Vista desde el patio: la casona entera se apaga de golpe, ventana por ventana, hasta quedar como una silueta negra contra el cielo morado. En la única ventana que aún brilla, el Padre Mateo alza su rosario mientras el foco que tiene encima estalla en chispas; la cruz no da luz.",
+   "c": "Rafael, en la sala, levanta la vista con la linterna apagada en la mano: la araña de cristal estalla en una lluvia de chispas y prismas. Por las puertas abiertas se ve que todos los cuartos de la casa ya están a oscuras; solo la última chispa le ilumina la cara de sorpresa."}}
+ ]
+}

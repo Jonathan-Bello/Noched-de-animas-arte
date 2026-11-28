@@ -33,3 +33,13 @@ Ninguna cara del juego carece de arte fuera de las 12 de `montaje-01`. Se tomaro
 
 - `lote.py registrar seleccion-estilo-01.json` guarda las escenas elegidas. `estilo` y `familias` se pasan a `guias/ESTILO_DE_CARTAS.md` y a `referencias/familias.md`; `aprobar_votada` va a `catalogo/aprobaciones.json` con las palabras de Jonathan.
 - Con el estilo y la familia elegidos se escribe el bloque «Encargo» de cada carta para ChatGPT. Las ilustraciones vuelven al selector en etapa de arte.
+
+## Resultado (27-nov-2026)
+
+Selección en [`seleccion-estilo-01.json`](seleccion-estilo-01.json), registrada con `lote.py registrar`.
+
+- **Estilo general:** A, Papel recortado cálido (C quedó segundo). Anotado en `guias/ESTILO_DE_CARTAS.md`.
+- **Arte por tipo:** herramientas B (aparato solo); el resto A. Los apoyos siguen el estándar de las herramientas. Anotado con sus comentarios en `referencias/familias.md`.
+- **Ruda:** aprobada la ilustración votada en comparativa-01 (`catalogo/aprobaciones.json`). Sigue el montaje con `disenar-carta-animas`.
+- **Apagón:** pidió escenas nuevas (focos que revientan y la casa a oscuras, sin acabado realista): lote [`estilo-02`](../estilo-02/descripciones.json), selector https://claude.ai/artifact/JAN7u7FAKZorH9x5GSAXwv
+- **Escenas elegidas para ilustrar:** Termómetro C, Esconderse A, Tablilla C, Interferencia C, Bruja A, Maldición del entierro C, Luces parpadeantes A, Investigar A. Encargos para ChatGPT en [`encargos/`](encargos/ENCARGOS.md).
