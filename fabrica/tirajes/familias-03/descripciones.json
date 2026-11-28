@@ -84,20 +84,20 @@
    }
   },
   {
-   "id": "manifestacion",
-   "nombre": "Manifestación",
+   "id": "escalofrio",
+   "nombre": "Escalofrío",
    "tipo": "anima",
    "estado": "rehacer",
    "en_selector": true,
    "variantes": {
-    "a": "Inés, sentada en la cama de la recámara, ve cómo el ánima se forma frente a ella desde el vapor de una taza: primero un rostro y luego unos hombros. Inés aprieta su farol con las dos manos; se asusta, pero nada la hiere.",
-    "b": "Amalia lee en su sillón; la cortina de atrás toma la forma de una figura alta que se inclina sobre su hombro. Amalia la mira de reojo y se le cae el ramo de hierbas; dos flores se marchitan al tocar el piso.",
+    "a": "En la cocina, Rafael y Amalia, junto al fogón de azulejo, se abrazan los hombros al mismo tiempo: un soplo blanco del ánima pasa entre ellos y les eriza el cabello, y el vapor de la olla se tuerce hacia arriba en forma de mano.",
+    "b": "Tomás, sentado en un escalón con su libreta, se sube el sarape hasta la nariz; detrás de él, el aliento frío del ánima deja en la pared encalada una escarcha en forma de dedos largos.",
     "c": "",
     "d": ""
    },
    "como": {
-    "a": "Acciones del ánima = el investigador vive el efecto (estilo-01). Miedo por atmósfera, sin violencia.",
-    "b": "La pérdida de cordura se cuenta con las flores que se marchitan.",
+    "a": "Acciones del ánima = el investigador vive el efecto (estilo-01). «Todos pierden 1» se cuenta con dos investigadores a la vez; frío, no violencia.",
+    "b": "Un solo investigador y el rastro del frío en la pared; el gesto del sarape cuenta el escalofrío.",
     "c": "",
     "d": ""
    }

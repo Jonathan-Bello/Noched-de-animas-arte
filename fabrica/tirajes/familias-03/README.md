@@ -8,9 +8,9 @@ Se eligieron cartas que siguen por resolver: Jonathan conservó el original fren
 |---|---|---|
 | Herramienta | [Kit de campo](kit.md) | Original conservado en comparativa-01; familias-02 sin votar |
 | Apoyo | [Respirar hondo](resp.md) | Original conservado en comparativa-01 y familias-01 |
-| Reacción | [Ultraje espiritual](ult.md) | Nunca rehecho con las reglas nuevas |
+| Reacción | [Ultraje espiritual](ult.md) | Todas las reacciones son referencia de acabado o ya están en estilo-01; se publica con `--forzar` solo para esta comparación, y conservarla sigue siendo opción |
 | Objeto | [Tarot](tarot.md) | En la lista de artes a modificar; familias-02 sin votar |
-| Acción del ánima | [Manifestación](manifestacion.md) | Nunca rehecho con las reglas nuevas |
+| Acción del ánima | [Escalofrío](escalofrio.md) | Nunca rehecho con las reglas nuevas (Manifestación es referencia de acabado y no se rehace) |
 | Habilidad | [Lamento](h2.md) | Original conservado en comparativa-01; familias-02 sin votar |
 | Identidad | [El Guardián del Entierro](id_guardian.md) | En la lista de artes a modificar |
 | Espanto | [Arrastre de cadenas](es_cadejo.md) | Original conservado en comparativa-01; familias-02 sin votar |

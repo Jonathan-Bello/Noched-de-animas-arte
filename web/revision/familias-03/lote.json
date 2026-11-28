@@ -1,0 +1,185 @@
+{
+ "lote": "familias-03",
+ "cartas": [
+  {
+   "id": "kit",
+   "nombre": "Kit de campo",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/familias-03/kit-a.webp?v=ddb9a24e21",
+    "sha256": "ddb9a24e2139765e60213bac10632d2b3b909aa727c1b5b695d80e2c1eab4fdd"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/kit-b.webp?v=3b98db9ec9",
+    "sha256": "3b98db9ec902f3165f6694f0a45773e2f2e218a3961b17e4643a113b60e89364"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i08@2x.webp",
+    "sha256": "019b363faaaa806db99066fee0c81d24897c3a760c1e4b78f0251c41070dab78"
+   }
+  },
+  {
+   "id": "resp",
+   "nombre": "Respirar hondo",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/familias-03/resp-a.webp?v=abda89f2a8",
+    "sha256": "abda89f2a826835f5e2fb49aff3b3be9eb9ed35b21bc322c00b64a311bb26077"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/resp-b.webp?v=af72d81fd2",
+    "sha256": "af72d81fd247fc4428e9061ca87befaa01e7cd3f018d14ff3174542877e4456c"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i10@2x.webp",
+    "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa"
+   }
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/familias-03/tarot-a.webp?v=a053ced15d",
+    "sha256": "a053ced15d283d2e0b0d0ed9f1adf26d58253b65a004349c4416045f851e06b5"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/tarot-b.webp?v=036c16a903",
+    "sha256": "036c16a903538e19922d09ef6727acf705116155ad271a8deaf6e95cea689594"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o06@2x.webp",
+    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+   }
+  },
+  {
+   "id": "h2",
+   "nombre": "Lamento",
+   "familia": "Habilidades de evidencia",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/familias-03/h2-a.webp?v=def60e8916",
+    "sha256": "def60e891638a85084ce9ded61e59c9ef53a72f59d28da71eb9851bd2057988f"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/h2-b.webp?v=74dbf70f87",
+    "sha256": "74dbf70f87ba39a6fb69e5dbb4d29ffe94dc44faf2d05d9014547e51201a26cc"
+   },
+   "original": {
+    "archivo": "web/miniaturas/h03@2x.webp",
+    "sha256": "7d5fca3544b7c960efeb44e837620ad89251a8ce8968dc4ab8728d14e9ff192b"
+   }
+  },
+  {
+   "id": "id_guardian",
+   "nombre": "El Guardián del Entierro",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/familias-03/id_guardian-a.webp?v=3b766b47f2",
+    "sha256": "3b766b47f2f08605528969af2e67be621d5662f6e105261865c0acb850a24f64"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/id_guardian-b.webp?v=9fd02bc145",
+    "sha256": "9fd02bc14564653196da5488faf6c96f54432d89e99018d0a90b205b02b362b7"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id16@2x.webp",
+    "sha256": "df7963fb4692e94a85247d9a05581378aeec74696218d29c075d4716d25049c3"
+   }
+  },
+  {
+   "id": "es_cadejo",
+   "nombre": "Arrastre de cadenas",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/familias-03/es_cadejo-a.webp?v=90f239b117",
+    "sha256": "90f239b117a5f446b282c5613b4ef930f7d7ce7a4b0ac082450d5bf989bf0fa8"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/es_cadejo-b.webp?v=141a507f55",
+    "sha256": "141a507f5586aec7718e33adfac227b6d0f25f8d20fc6f7ef5d98c0b5712da0e"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s18@2x.webp",
+    "sha256": "12e9f7c27af4abd4e8e6d03089501b575a172e76f9e3a2ba35a925d7286c037e"
+   }
+  },
+  {
+   "id": "ev3",
+   "nombre": "Objetos movidos",
+   "familia": "Evidencias",
+   "reverso": "back05",
+   "a": {
+    "archivo": "web/revision/familias-03/ev3-a.webp?v=1894848d77",
+    "sha256": "1894848d77474c088ec2aaf2604c544a326acd5c07bc93d45f114c88e950be84"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/ev3-b.webp?v=93ad0fe6e2",
+    "sha256": "93ad0fe6e2c024aed9d6f71c43a43d1a8334145c52e3f0f7810c19c4617473dd"
+   },
+   "original": {
+    "archivo": "web/miniaturas/e04@2x.webp",
+    "sha256": "82238f267aa6af5d496936cb56b585e0574027a706b59269dfc4c1e1709dae79"
+   }
+  },
+  {
+   "id": "escalofrio",
+   "nombre": "Escalofrío",
+   "familia": "Acciones del ánima",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/familias-03/escalofrio-a.webp?v=d8c4dae46f",
+    "sha256": "d8c4dae46f83debd3e4100e9c78e4e2002f523af6b96ccc959a27da50909adad"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/escalofrio-b.webp?v=d208044d25",
+    "sha256": "d208044d25dba0f07e7b270fd0177c0d22066ac8e012b180a699198d68297800"
+   },
+   "original": {
+    "archivo": "web/miniaturas/a01@2x.webp",
+    "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb"
+   }
+  },
+  {
+   "id": "ult",
+   "nombre": "Ultraje espiritual",
+   "familia": "Apoyos y reacciones",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/familias-03/ult-a.webp?v=13a11371cc",
+    "sha256": "13a11371cc40333fab65953c0a8864ddeb7d3c8f48805c6951208462b41d8655"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/ult-b.webp?v=6660fd9d60",
+    "sha256": "6660fd9d60a1d7f81acd17e12712148854cdd64b53a8397ece14d89e15b19d93"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i15@2x.webp",
+    "sha256": "7a3adb3ae30d0bf679d9907a003c51e5c09ec03d1d33d3c5eb918d706a878acf"
+   }
+  },
+  {
+   "id": "R05",
+   "nombre": "El espíritu",
+   "familia": "Consulta, reglas y componentes",
+   "reverso": "R05B",
+   "a": {
+    "archivo": "web/revision/familias-03/R05-a.webp?v=a8fcb3c05a",
+    "sha256": "a8fcb3c05a83bc3ad579597c7dac24146f3e5156828ecc40c4759987fd48ab3d"
+   },
+   "b": {
+    "archivo": "web/revision/familias-03/R05-b.webp?v=ab507805d0",
+    "sha256": "ab507805d025713dc1b684b9566a140c938f6b3a812cc82866437b30a6112b2b"
+   },
+   "original": {
+    "archivo": "web/miniaturas/p07@2x.webp",
+    "sha256": "ea0479bd198e13f64958149dbe7f0afcd0857667d22c21a9eace14f24ce97129"
+   }
+  }
+ ]
+}
