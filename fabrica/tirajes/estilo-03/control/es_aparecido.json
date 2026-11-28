@@ -1,0 +1,126 @@
+{
+  "id": "es_aparecido",
+  "nombre": "Aparición final",
+  "familia": "Espantos",
+  "lectura_clave": "La figura que llena el umbral y el rosario.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id05@2x.webp",
+      "sha256": "c0250ada38aba59b4d83d4be0b52897e7c6706607f5c90ffca89dec354c569a4",
+      "funciones": [
+        "identidad del ánima"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s05@2x.webp",
+      "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s01@2x.webp",
+      "sha256": "ebe91b50e6650169486afb92f8ca70e615a01ae5af4f1567752964b6d62a5510",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s02@2x.webp",
+      "sha256": "00cdfdf58598ae3b9d9bc6de67f771661847a9f6b9642b72908b8dd97800a8c4",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s03@2x.webp",
+      "sha256": "31392a88d2923b1f8d67ee5bc7c64c4f5e43285be0a20adfc715a1cd9fff1bff",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/es_aparecido-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Solo el Aparecido, un anciano espectral con bigote blanco, sombrero ancho y sarape de franjas carmín, llena el umbral carmín. Su silueta oscura avanza y se inclina hacia la parte central. Un rosario de cuentas de color guinda cuelga sin manos de un clavo del dintel adelantado; su cruz pequeña emite una luz crema en medio del pecho del ánima. La luz abre un agujero recortado en el sarape espectral, se ve por él el arco de atrás. Toda la persona es tinta carmín oscuro y guinda con bordes en rojo, cara en luz roja, solo bigote claro y cruz crema como iluminación. Toda la arquitectura, papel picado, vegetación, cerámica y sombras en rojos saturados cama de negro; una vela diminuta como acento. Cara al 34 %, cruz y hueco al 61 %. Sin otra gente, manos ajenas ni pies ajenos.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id05@2x.webp",
+        "web/miniaturas/s05@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "1aff77e8cf422e16a05908fe1aebf1dbd85ec725bb1375cca6cdca413a8b299c",
+      "lectura_ciega": "El anciano de sombrero y sarape llena el umbral. La cruz del rosario abre un hueco luminoso en su silueta.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se retiró la mano ajena y se suspendió el rosario del arco. Referencias aprobadas adicionales en hoja de contacto: Aparecido, Aparición final original y Llanto eterno. Paleta: 77 % carmín, 0 % frío.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Plano cercano oblicuo de perfil, muy distinto de un retrato frontal. A la izquierda domina solo el Aparecido, en carmín y guinda sombríos, su rizado bigote largo y el ala de sombrero trenzada recortados contra una hornacina. Está inclinado desde la izquierda hacia la derecha con la boca sombría y la mirada tensa. El ala casi toca un rosario puesto encima de un reclinatorio vacío de madera de la capilla. Las cuentas se apoyan en el borde y la cruz colgante da luz que detiene el ala a un dedo de distancia; siluetas claramente separadas por la luz. Nadie está arrodillado ni es visible en la capilla, ninguna mano humana. Arco en dos planos al fondo, papel picado de carmín y una vela al margen. La piedra, sombrero, rostro y sarape también en carmín rojo saturado; crema solo en los reflejos del bigote y de la cruz, oro solo luz pequeña. Todo lo esencial entre 23 y 84 % vertical, borde sin recuadro.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id05@2x.webp",
+        "web/miniaturas/s05@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "5352310940a048b5f816942dc5d4eb8ceef20e0fe3f5580d6da93eef49d59ac3",
+      "lectura_ciega": "El Aparecido se inclina de perfil hacia un asiento de capilla. El rosario colgante ilumina la separación entre el espectro y el asiento.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se retiró al investigador y se trasladó su rosario al reclinatorio vacío. Se adjuntó la misma hoja de contacto. Paleta: 63 % carmín, 0 % frío.",
+      "qa": true
+    }
+  }
+}

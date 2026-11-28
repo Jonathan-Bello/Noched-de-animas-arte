@@ -698,6 +698,24 @@
     "archivo": "web/miniaturas/s04@2x.webp",
     "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5"
    }
+  },
+  {
+   "id": "es_aparecido",
+   "nombre": "Aparición final",
+   "familia": "Espantos",
+   "reverso": "back04",
+   "a": {
+    "archivo": "web/revision/estilo-03/es_aparecido-a.webp?v=3df1fb4135",
+    "sha256": "3df1fb4135de2288f4b9f25b22375d0ef52bfbdcd75a2ff19d0fcac82bca59e4"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/es_aparecido-b.webp?v=e6b307eec4",
+    "sha256": "e6b307eec4a5153beeea139e54da6983e2ac2a888fbda5a058aac2eb400efe20"
+   },
+   "original": {
+    "archivo": "web/miniaturas/s05@2x.webp",
+    "sha256": "8e5151c9899df60de95411aa7a5f934ce7de691b9d12e28fad3d0fa318c8d152"
+   }
   }
  ]
 }
