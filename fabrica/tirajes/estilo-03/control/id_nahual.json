@@ -1,0 +1,108 @@
+{
+  "id": "id_nahual",
+  "nombre": "Nahual",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "La sombra que ya es animal.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id02@2x.webp",
+      "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_nahual-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Carta de identidad Nahual. ÚNICO personaje de cuerpo entero en cuclillas a la orilla del monte, en claro de tierra junto a la última arcada de una casona, con el machete ausente y manos a la vista relajadas en una rodilla. Hombre adulto de bigote oscuro, sombrero de palma crema con calados, sarape de bandas crema, guinda y magenta, pantalón crema y faja roja. El sombrero va puesto. La luz lateral de una veladora de camino le proyecta en el suelo, hacia el frente y la derecha, una sombra INEQUÍVOCAMENTE DE COYOTE, plana oscura pegada a la tierra con hocico, orejas puntiagudas, cuatro patas y cola. La sombra está unida al punto de contacto del hombre con tierra, no hay animal corpóreo, víctima, investigador, otras figuras ni manos ajenas. Magenta y guinda dominantes con acentos crema y ámbar. Hojas del monte recortadas y puerta pequeña de la casona al fondo; cempasúchiles secundarios y calado discreto. Sin naipes, cifras o texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id02@2x.webp"
+      ],
+      "imagen_sha256": "dedf819b21576561384e022ca3aefc66a7d85986afede4d8763720c35b5118b5",
+      "lectura_ciega": "Un hombre agachado con sombrero de palma proyecta sobre la tierra la sombra de un coyote.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se lee la prenda a rayas y faja roja. La sombra animal nace cerca del apoyo de los pies y permanece pegada al suelo.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Único personaje, el Nahual, de cuerpo entero al pie del muro bajo de la casona al que da un fogón pequeño. Acaba de quitarse su sombrero de palma crema: lo sostiene abajo junto al muslo con su mano derecha, pelo oscuro visible, bigote, sarape a rayas anchas crema, guinda y magenta, calzón crema y faja roja. Perfil erguido en tres cuartos, a la derecha mirando hacia el fogón que ilumina desde el suelo. La sombra sobre el muro inmediatamente a la izquierda es de un coyote de cuatro patas, hocico inclinado hacia abajo y cola visible, con cabeza girada hacia el hombre. Queda plana sobre el muro, sin ojos independientes ni relieve de cuerpo. No se ve un animal físico, ni otras personas ni manos ajenas. Arcos de la casona vistos en leve escorzo, árbol de bugambilia cerca de la luz, cerámica secundaria calada y cempasúchil discreto. Vino y magenta dominantes, crema y ámbar de luz. Sin naipes, texto, cifras ni marcos añadidos.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id02@2x.webp"
+      ],
+      "imagen_sha256": "9cf941bb5cc67b9ffc731ded502a6d8a5a21e60adf6acc692044755ba156ad4b",
+      "lectura_ciega": "El hombre sostiene el sombrero al lado del muslo. El fogón deja una sombra de coyote en el muro.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se conserva la misma ropa y el sombrero fuera de la cabeza. La sombra queda sobre el muro. El fogón y la postura de cuerpo entero distinguen la variante del original.",
+      "qa": true
+    }
+  }
+}

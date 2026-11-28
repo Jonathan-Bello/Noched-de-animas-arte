@@ -428,6 +428,24 @@
     "archivo": "web/miniaturas/h05@2x.webp",
     "sha256": "a6120cbba87a9c314ae9bf3b22f72a6910cc48fb2857bb6a9a4b18fa9301513a"
    }
+  },
+  {
+   "id": "id_nahual",
+   "nombre": "Nahual",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_nahual-a.webp?v=5da19c04e1",
+    "sha256": "5da19c04e1ae9a0ec138eaebb9e68ab46e3187e05de9a4c3918346aa48cf239b"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_nahual-b.webp?v=c466fa11c1",
+    "sha256": "c466fa11c1bfb1610b3e1381fe75d3b217c084501a2e9636e7c9b49234e715b5"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id02@2x.webp",
+    "sha256": "20d43f204c4bc226bbc1a252bf169b586f64b2903eae962272dda79d41fd75e0"
+   }
   }
  ]
 }
