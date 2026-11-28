@@ -32,7 +32,7 @@ from comun import R, Fabrica
 PROHIBIDO = ("fabrica/entrada/", "fabrica/tirajes/", "web/revision/")
 LIMITES = ("capas_con_volumen", "textura", "detalle_objetos", "fondo", "cantidad", "adorno_calado", "luz")
 PUNTO = "guias/punto-de-estilo.json"  # cartas que el autor marcó «en el punto» (calibración); van en todo encargo
-FAMILIA = ("punto de estilo", "acabado de la familia", "versión preferida por el autor", "identidad en una carta elegida")
+FAMILIA = ("acabado de la familia", "versión preferida por el autor", "identidad en una carta elegida")
 
 
 def ruta_control(lote, cid):
@@ -46,6 +46,8 @@ def aprobadas(cid):
 
 def plantilla(p):
     f, refs = aprobadas(p.id)
+    for r in punto_de_estilo() or []:  # las anclas de estilo van en todo encargo
+        refs.setdefault(r, {"ruta": r, "sha256": None, "funciones": ["punto de estilo"]})
     destino = ruta_control(p.lote, p.id)
     if destino.exists() and not p.forzar:
         sys.exit(f"Ya existe {destino.relative_to(R)}; usa --forzar para rehacerlo.")
@@ -79,7 +81,9 @@ def errores(lote, cid, imgs=None):
     if punto is None:
         mal.append(f"falta {PUNTO}: el autor aún no marcó las cartas «en el punto» de estilo")
     else:
-        refs.update({r: {"ruta": r, "funciones": ["punto de estilo"]} for r in punto})
+        for r in punto:  # sin pisar las funciones que la carta ya le da (p. ej. acabado de la familia)
+            e = refs.setdefault(r, {"ruta": r, "funciones": []})
+            e["funciones"] = e["funciones"] + ["punto de estilo"]
     hoja = c.get("hoja_58x88") or ""
     if not hoja or not (R / hoja).is_file():
         mal.append("falta la hoja de revisión a 58 × 88 mm (scripts/revisar.py --salida)")
