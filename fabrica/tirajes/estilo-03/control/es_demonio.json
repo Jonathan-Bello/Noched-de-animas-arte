@@ -1,0 +1,126 @@
+{
+  "id": "es_demonio",
+  "nombre": "Infierno",
+  "familia": "Espantos",
+  "lectura_clave": "El fuego que sube y el copal que no sirve.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "identidad del ánima"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s04@2x.webp",
+      "sha256": "1b5d7fd408a19abb7947b251fe853539ffaf212f91c8cddb779685e867684ec5",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s01@2x.webp",
+      "sha256": "ebe91b50e6650169486afb92f8ca70e615a01ae5af4f1567752964b6d62a5510",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s02@2x.webp",
+      "sha256": "00cdfdf58598ae3b9d9bc6de67f771661847a9f6b9642b72908b8dd97800a8c4",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s03@2x.webp",
+      "sha256": "31392a88d2923b1f8d67ee5bc7c64c4f5e43285be0a20adfc715a1cd9fff1bff",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/es_demonio-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "En plano cerrado y desde un costado, un arco de casona carmín al rojo vivo ocupa la mitad central. En su sombra negror carmín se ven dos ojos de brasa y una pequeña insinuación de cuernos del único Demonio, sin figuras alrededor. En primer plano, un brasero de barro con copal devuelve dentro de su propia boca un hilo de humo en bucle, forzado de vuelta por la banda carmín del arco. La espiral termina claramente dentro del brasero y no sube hacia el ánima. Los ojos negros y rojos, el humo rojo pálido y el borde del brasero son los tres puntos de lectura, entre 30 y 82 % vertical. Arcos de fondo carmín, papel picado y relieve de flor en carmín oscuro, tres velas mínimas lejos. El fuego aparece rojo con muy pequeñas puntas ámbar. Paleta dominante de rojo exactamente carmín, bermellón profundo y negro.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id04@2x.webp",
+        "web/miniaturas/s04@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "2b012d61678eb70c64d9f1c15b3fb2d561ebd8afb2bd02ab36842fd468466ef3",
+      "lectura_ciega": "Dos ojos y cuernos insinuados en un arco encendido. El humo gira y vuelve a la boca del brasero de copal.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se adjuntaron juntas las tres referencias aprobadas adicionales en una hoja de contacto: identidad Demonio, Infierno original y Llanto eterno. Paleta validada: 75 % carmín, 0 % frío. Solo se ve al Demonio.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Encuadre estrecho diagonal desde el pie de una escalera interior de casona. En lo alto entre dos arcos, dos ojos de brasa y el contorno de dos cuernos en la única masa oscura del Demonio, amenazante. El fuego sobrenatural de papel recortado salta de dos en dos los escalones hacia él: grupos de llamas rojas en diagonal, separadas por peldaños oscuros. En un lado de la base de la escalera, entre el 70 y 81 % vertical, un sahumerio de barro volcado de lado con dos brasas caídas y un hilo de humo pálido. Únicamente el Demonio como personaje. Arcos, peldaños, papel picado, azulejo recortado floral, vegetación y cerámica en rojo CARMIN y rojo bermellón saturado, guinda roja y negro; ninguna zona púrpura, azul o verde. Ámbar y crema exclusivamente como pequeñas luces y puntas de fuego, domina el rojo. La cara oscura queda dentro del 20 al 37 % vertical y el resto del foco hasta 83 %, sombra arriba y abajo.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id04@2x.webp",
+        "web/miniaturas/s04@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "5b8eabc2c1681a1838a4d461279f4c598baec5a60bd2d65c0be089f09ae68048",
+      "lectura_ciega": "El fuego asciende por grupos de peldaños hacia los ojos del Demonio. Abajo queda el sahumerio volcado.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Las mismas tres referencias adicionales se adjuntaron en la misma hoja de contacto. Paleta validada: 70 % carmín, 0 % frío. El Demonio aparece solo y los peldaños separan la secuencia de llamas.",
+      "qa": true
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "t6",
+  "nombre": "Sensor de gases",
+  "familia": "Herramientas",
+  "lectura_clave": "La aguja clavada en rojo y el humo amarillo entrando por la sonda.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/i07@2x.webp",
+      "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781",
+      "funciones": [
+        "modelo del aparato",
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t6-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Un sensor de gases portátil está apoyado enteramente en el suelo del patio interior, visto desde arriba en tres cuartos, gran protagonista en la mitad izquierda central. Modelo del quinto adjunto: carcasa petróleo de canto grueso, esfera de AGUJA FÍSICA, rejilla y una sonda ranurada unida al cuerpo por manguera flexible acanalada. No pantalla digital. La única aguja toca claramente el sector ROJO del extremo derecho de la escala, sin cifras. A la derecha, una grieta delgada entre dos baldosas dibujadas en capas de papel deja salir una única cinta de humo amarillo azufre; la cinta se curva y entra directamente en la abertura de la punta de la sonda. Deja visibles los tres puntos de la historia: la grieta, la sonda y el dial. No cubras el aparato de humo. Dominante petróleo con arcos bajos de patio en capas, sombra hacia los bordes, velas ámbar y algún cempasúchil y maceta con calado floral hacia el fondo. Sin manos, personas, naipes, letras ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i07@2x.webp"
+      ],
+      "imagen_sha256": "32eb9d0aec42f6edeee560813f2e1ade83b3d60381835e60ce4b62f339dda070",
+      "lectura_ciega": "Sale un hilo amarillo de una grieta entre baldosas y entra en la sonda del medidor. La aguja está en rojo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A conserva la sonda conectada y limita el humo a la trayectoria entre la grieta y la toma. Se reconoce el dial analógico incluso a tamaño de juego.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Sensor de gases de aguja junto a una puerta de cocina cerrada de la casona. Plano lateral cercano. La puerta guinda con cuarterones calados ocupa la mitad izquierda; el sensor rectangular petróleo está apoyado solo sobre un banco bajo a la derecha, con rejilla y un dial crema de AGUJA FÍSICA que entra inequívocamente en el sector rojo, sin números. La sonda ranurada cuelga entre la puerta y el banco: una ÚNICA manguera corta gris acanalada se puede seguir íntegra y sin obstrucción desde una toma visible del COSTADO IZQUIERDO del sensor hasta la sonda, cerca del umbral. El gas amarillo pasa por debajo de la puerta y termina dentro de las ranuras de la sonda. No dibujar tirantes, correas, asas o mangueras adicionales: atascarían la lectura de la conexión. Una veladora cálida junto al dintel, dos arcos en capas, papel picado y pocos pétalos. Guinda dominante con petróleo y ámbar de acento. Sin figuras, pies, manos, naipes o textos. El protagonista es el instrumento completo, situado dentro del margen lateral del 5 %.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i07@2x.webp"
+      ],
+      "imagen_sha256": "535dfc56f246497f44a9bd1a4d34a73d84862ceb7b8e9fd6edfa3c68e7c4bc7d",
+      "lectura_ciega": "El gas amarillo pasa por debajo de una puerta cerrada y entra en la sonda. La manguera conduce al medidor sobre un banco y la aguja marca rojo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B sustituye a Amalia por un banco que sostiene el instrumento. Se rehízo la conexión para que una sola manguera se vea de principio a fin.",
+      "qa": true
+    }
+  }
+}

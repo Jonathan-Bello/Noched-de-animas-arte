@@ -1,0 +1,115 @@
+{
+  "id": "h0",
+  "nombre": "Helada",
+  "familia": "Habilidades de evidencia",
+  "lectura_clave": "El hielo que alcanza a quien se escondía.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/h01@2x.webp",
+      "sha256": "bf0ca379a916be03d0bd432b26e042ce5bb03c6922222e481973e2ff559ceb0b",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h04@2x.webp",
+      "sha256": "7c00b91fe1ef463a44118148a08407092bc45e11a756ad152fb171919a79accc",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h06@2x.webp",
+      "sha256": "ded263cf3d023515bbafeaa179c6ca7d04c899352f494be6f3d2849238c2347e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h07@2x.webp",
+      "sha256": "9a49a7ce1a4060e607ec7a1aca8fc55a4d1b5179b4648904493275cef00d0efb",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/h0-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Vista baja a ras del piso, desde dentro del escondite de Tomás. Una puerta arqueada de madera oscura cerrada ocupa la izquierda central. El hielo que viene desde fuera cruza claramente POR DEBAJO de su junta inferior; las ramas de escarcha comienzan en esa rendija, siguen por las baldosas y alcanzan en una línea continua LA PUNTA DE UNA BOTA real de Tomás. La bota se ve a la derecha, unida al pantalón café; solo un pliegue del sarape de greca crema y la posición agachada detrás del muro identifican al investigador, sin cara ni manos. Congela apenas el borde delantero de la bota para que el contacto sea inequívoco. Dominante petróleo noche y escarcha crema azulada, veladora pequeña en un nicho y cempasúchil en una maceta calada secundaria. El dibujo no lleva termómetro, naipes, números ni texto. Mantén el trayecto de la escarcha dentro de la zona central legible a 58 × 88 mm.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp"
+      ],
+      "imagen_sha256": "23821502e7dca1c8f1ff76d74db709ce53ee88ab94bbe8040c3c1bab6dc9592b",
+      "lectura_ciega": "La helada entra por debajo de una puerta cerrada y se extiende hasta la punta de una bota escondida tras el muro.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "La escarcha se lee como un trayecto continuo entre la rendija y el calzado. El investigador queda parcialmente oculto.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Helada en el escondite. Tomás dentro de un cuarto en penumbra intenta girar el picaporte de una puerta maciza, con una mano atrapada por ramas de escarcha alrededor del metal. Encuadre medio lateral: a la derecha se ve su rostro alargado de perfil con bigote y sombrero azul petróleo, sarape del mismo color con greca geométrica crema, camisa crema. En el centro-izquierda queda claro el contacto exacto entre la única mano visible, el picaporte de palanca tostada y la escarcha de papel pálido que forma puentes sobre los dedos. Del rostro sale un pequeño aliento frío que flota hasta la puerta sin tapar el gesto. Fondo de arcos en capas petróleo oscuro, veladora ámbar fuera de la puerta para contraste y sombra hacia los bordes. Un borde calado en tela, detalles de cerámica y unos cempasúchiles en segundo plano. Sin herramientas, marcas, cartas, letras, números ni otros personajes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp"
+      ],
+      "imagen_sha256": "f4199acc9d257565f3ecb093ba3f5fa874b3981856c5b70a20e66cef57d5f681",
+      "lectura_ciega": "A Tomás se le pega la mano al picaporte escarchado. El vaho que sale de su boca también indica frío.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El agarre queda rodeado de hielo, con vaho y gesto visibles. Se conserva la identidad de Tomás y se elimina la herramienta del arte original.",
+      "qa": true
+    }
+  }
+}

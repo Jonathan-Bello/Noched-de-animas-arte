@@ -1,0 +1,117 @@
+{
+  "id": "tablilla",
+  "nombre": "Tablilla espiritista",
+  "familia": "Alba y objetos malditos",
+  "lectura_clave": "El dedo vivo y el traslúcido en la misma pieza.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/o02@2x.webp",
+      "sha256": "12fb8434583f55febfd9b24966f5a5c5c1c7ab64584106e5040f83319aec3dd6",
+      "funciones": [
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o04@2x.webp",
+      "sha256": "bedbd6475b4d077029c9a4d632eccb44a6399b9a81f8612e8d1b611551b51749",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o07@2x.webp",
+      "sha256": "8092b6248efa9f98df916d20a70929063ac1db5b859390791894351fcc75fe60",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o08@2x.webp",
+      "sha256": "49edfb884fe02424c5186b967d8e74ead4370d0a3d32f61c2cea57b40ff44461",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/tablilla-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "La tablilla dentro de su caja de madera abierta, forrada de terciopelo guinda, en el baúl del desván. La pieza triangular brilla como recién despierta y el polvo alrededor de la caja forma un círculo limpio. Chalet de papel artesanal mexicano. Vista oblicua alta, gran tablero de sesión espiritista rectangular con esquinas redondeadas, con un puntero triangular de orificio redondo centrado y un halo crema ámbar muy discreto. En la superficie agrega solo motivos simbólicos: un sol, luna creciente, flores caladas y dos hileras de pequeños círculos y estrellas geométricas sin parecido a escritura. No copiar ninguna letra del tablero de referencia. El forro del estuche es mate, granulado como papel guinda y con pliegues amplios, no fibras. El estuche abierto descansa en el interior del baúl viejo, entre lazos de polvo que dibujan un círculo alrededor. Arcos del desván que se pierden en sombras guinda; veladora pequeña y flores al lado. No manos, personas, naipes, números, caracteres ni marcos añadidos.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/o02@2x.webp",
+        "web/miniaturas/o04@2x.webp"
+      ],
+      "imagen_sha256": "ed292def326895f55a9141d26e4e4e04e7c53bc12a3621dd4cbc33ab22ef0a22",
+      "lectura_ciega": "La tablilla está guardada en un estuche guinda abierto. El puntero triangular parece activarse y hay un círculo de polvo alrededor.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se conserva la opción C de estilo-01 en el desván. Las letras y cifras de la versión original se sustituyeron por símbolos para ajustarse al encargo. El modelo de tablero y la referencia de familia se adjuntaron en una hoja.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Sobre una mesa redonda de la casona se encuentra una tablilla de sesión espiritista, abierta sobre un mantel berenjena y contemplada desde arriba. La tablilla de madera ilustrada es rectangular con esquinas redondeadas y cenefa floral crema y guinda. Su puntero triangular de orificio circular se desliza SOLO hacia el borde derecho de la tabla, dejando dos pequeños rastros de movimiento en forma de arcos opacos en la parte izquierda del triángulo. TRES veladoras bajas colocadas en semicírculo alrededor de la tabla tienen llamas inclinadas hacia el mismo lado que el puntero. El tablero lleva solamente un sol, una luna creciente y dos hileras de motivos geométricos o florales, sin letra o cifra reconocible. La forma del puntero y el tablero deben verse a tamaño de carta. Mantel de papel grabado con sombras de capas y encaje, arcos secundarios hacia la parte superior, poco cempasúchil. Guinda profundo y crema. Sin baúl, caja, manos, piernas, figuras, naipes o texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/o02@2x.webp",
+        "web/miniaturas/o04@2x.webp"
+      ],
+      "imagen_sha256": "0a209747536d1d137d91df4867951ab55f52d07fd7a463246a300a19f5845816",
+      "lectura_ciega": "El puntero triangular se desliza hacia un borde y las llamas de las tres velas cercanas se inclinan hacia el mismo lado.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se usó la escena alternativa sin manos. Las llamas y las líneas tras el puntero indican el desplazamiento. El modelo de tablero y la referencia de familia se adjuntaron en una hoja.",
+      "qa": true
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "t1",
+  "nombre": "Lámpara UV",
+  "familia": "Herramientas",
+  "lectura_clave": "El cono violeta y las pisadas que solo existen dentro de él.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_ines.webp",
+      "sha256": "3995b3814c3f688ad8a9c458e5854405b09cd7fb0d1ffcc0f0a7bfb894dd7d37",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "identidad en una carta elegida",
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h06@2x.webp",
+      "sha256": "ded263cf3d023515bbafeaa179c6ca7d04c899352f494be6f3d2849238c2347e",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i02@2x.webp",
+      "sha256": "e9a696c083a2ab69463c26c846090fb92b102319b3c6301a39a16816324bcbe3",
+      "funciones": [
+        "modelo del aparato",
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/revision/comparativa-01/t1-b.webp",
+      "sha256": "0060edba7bf1049f5896d131fd54e8a5fc579439a4d8a3ad9a6107a65c70ca9c",
+      "funciones": [
+        "propuesta preferida (voto B)"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t1-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "La linterna quedó encendida en el suelo de un pasillo de la casona. El haz rasante revela una hilera de pisadas de ceniza en las baldosas, solo dentro del cono violeta. El pasillo se pierde en la oscuridad. Mostrar todo el cuerpo de la linterna cilíndrica, con lente frontal y botón físico, apoyado horizontal en la esquina inferior derecha dentro de la zona segura; el cono parte del lente y se ensancha en diagonal hacia el centro-izquierda del corredor, con TRES pequeñas siluetas de pisadas sucesivas claramente encerradas en el cono. Fuera del cono, el patrón de baldosas sigue limpio. Encuadre más abierto que el original: la profundidad del corredor y su sucesión de arcos quedan claras. Paleta dominante morado berenjena; acentos ámbar en un nicho al fondo, papel picado, pocos pétalos y plano de piso de mosaico de papel. No manos, personas, retratos o naipes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i02@2x.webp"
+      ],
+      "imagen_sha256": "8e33932f80425b721b7730ad2c6b946f13629aefd4413cf56ddc6b419feb2cd0",
+      "lectura_ciega": "La linterna en el suelo emite luz violeta y deja ver tres pisadas consecutivas hacia el interior de un pasillo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A conserva la composición votada B de comparativa-01. Se reconoce lente, botón y cilindro, con sombras en el apoyo sobre baldosas y pisadas confinadas al haz.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Una linterna ultravioleta de mano cilíndrica, con una lente redonda frontal y un botón físico grande, queda sola apoyada HORIZONTALMENTE SOBRE UN BANQUITO BAJO DE PERFIL situado al centro-izquierda. Encuadre íntimo en un pequeño rellano al pie de una escalera de la casona. El aparato ocupa un tercio del ancho y se ve de perfil. Su lente apunta hacia abajo y a la derecha al pie del zócalo; dibuja el haz violeta continuo desde el lente hasta la juntura del zócalo con el suelo. Solo dos huellas pequeñas de ceniza se revelan juntas dentro del haz junto al zócalo. No hay un corredor largo ni huellas que conduzcan al fondo. Dominante ciruela, luz cálida de una vela en un nicho alto, cempasúchiles pequeños y una cenefa de papel picado; arcos escalonados en dos planos. Mantén como primer foco la linterna sola. No personas ni manos ni naipes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i02@2x.webp"
+      ],
+      "imagen_sha256": "d162d74ca9895b904ce3cb4d160091c2b5890d78dd2eec344f4ec72ab33ad583",
+      "lectura_ciega": "Una linterna sobre un banco bajo ilumina dos huellas de ceniza en el zócalo de la escalera.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B conserva el haz al zócalo, con un banquito en lugar de la mano de Inés. Las huellas quedan sobre el zócalo y la lámpara se sostiene por contacto con el asiento.",
+      "qa": true
+    }
+  }
+}

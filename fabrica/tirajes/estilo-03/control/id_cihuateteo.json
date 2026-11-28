@@ -1,0 +1,108 @@
+{
+  "id": "id_cihuateteo",
+  "nombre": "Cihuateteo",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "Ella en la bifurcación.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id09@2x.webp",
+      "sha256": "1c7dba4c53272924949a9454bfba1c441d9d3a47255917ddff11d77dc6dad7d9",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_cihuateteo-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Cihuateteo, una sola ánima de cuerpo entero, quieta donde la vereda del monte se bifurca. Vista nueva desde ATRÁS en tres cuartos: el cuerpo se orienta hacia las dos ramas oscuras y la cabeza gira hacia el espectador, mostrando de perfil su rostro claramente de calavera crema, con cuencas oscuras y dientes simbólicos. Cabello oscuro ondulante con dos cempasúchiles, vestido blanco crema con bordes florales calados violeta. Una mano recoge discreta el vestido, que toca el suelo. Las ramas del camino dibujan una Y alrededor de su silueta blanca en el centro. Dos pequeños muros arqueados y magueyes recortados de papel encuadran el cruce. Dominante morado noche y crema, uno o dos puntos cálidos secundarios. Textura de papel y luz recortada. Ninguna segunda figura, víctima, investigador, manos ajenas, naipes, números o texto.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id09@2x.webp"
+      ],
+      "imagen_sha256": "568fb95e4e1fb5139193cb595706f7290895ebdea10b1240e972f3c34c147e6c",
+      "lectura_ciega": "Una figura de rostro de calavera y vestido claro está en la bifurcación, mirando por encima del hombro.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se cambia la pose al tres cuartos posterior y se conservan calavera y flores. Las dos ramas se distinguen detrás del vestido.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Vista alta de la encrucijada nocturna de CINCO senderos que parten radialmente de un mismo claro, como cinco brazos naturales de vereda, no dibujar estrella ni naipes. En el centro del cruce hay UNA SOLA mujer ánima Cihuateteo, de cuerpo entero, vestido blanco crema calado de flores, cabello oscuro con cempasúchiles y rostro reconocible de calavera estilizada. Va de pie con los brazos bajos y la mirada un poco levantada hacia nosotros para mostrar las cuencas. Cerca del inicio de los senderos hay pequeñas veladoras, una por cada vereda, en vez de personas adicionales. Magueyes color violeta en capas oscuras en los intersticios de la tierra más clara, abajo una pequeña arcada de papel con ornamental floral; acentos cálidos crema. Formato alto, cruce legible en pequeño con salidas distintas, el personaje único ocupa alrededor de la mitad de la altura. Dominante morado, vestido crema. Sin otros seres, investigadores, retratos, números ni letras.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id09@2x.webp"
+      ],
+      "imagen_sha256": "41abb69a6346df4f4709f906cede5a68f9fb65c78f33ad7ac4e4bda6c901a58c",
+      "lectura_ciega": "Cihuateteo está sola en el centro de cinco veredas marcadas por veladoras.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se sustituyeron las otras cuatro figuras del guion por veladoras para cumplir el reparto de Identidades. Las cinco rutas permanecen visibles.",
+      "qa": true
+    }
+  }
+}

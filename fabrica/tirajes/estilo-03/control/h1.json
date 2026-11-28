@@ -1,0 +1,123 @@
+{
+  "id": "h1",
+  "nombre": "Acecho",
+  "familia": "Habilidades de evidencia",
+  "lectura_clave": "Las pisadas que se acercan al talón.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_ines.webp",
+      "sha256": "3995b3814c3f688ad8a9c458e5854405b09cd7fb0d1ffcc0f0a7bfb894dd7d37",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h06@2x.webp",
+      "sha256": "ded263cf3d023515bbafeaa179c6ca7d04c899352f494be6f3d2849238c2347e",
+      "funciones": [
+        "identidad en una carta elegida",
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h02@2x.webp",
+      "sha256": "9b49f828424f311da28aa06a5018ed707e0f5f093287b93e4fd56ccd2aec32e3",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h04@2x.webp",
+      "sha256": "7c00b91fe1ef463a44118148a08407092bc45e11a756ad152fb171919a79accc",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/h07@2x.webp",
+      "sha256": "9a49a7ce1a4060e607ec7a1aca8fc55a4d1b5179b4648904493275cef00d0efb",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/h1-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Inés se detiene en el descanso de una escalera que acaba de subir en la casona. En el tercio medio derecho, la investigadora de cuerpo casi entero vuelve la cabeza sobre el hombro con gesto preocupado: trenza negra, flor naranja junto a la oreja, aros dorados, blusa crema con calados guinda y falda larga vino. Mantén visible el talón de un zapato firme sobre el descanso. En los últimos cuatro escalones a la izquierda se dibuja una huella clara de ceniza gris crema por escalón, como pisadas de una presencia invisible. La más cercana termina apenas detrás del talón. Ninguna persona o figura persigue a Inés en el cuadro, solo el rastro. Arcos en planos de noche guinda, ámbar suave de una vela, cerámica floral y cempasúchil junto al descanso. Contraste alto y perspectiva ilustrada, huellas reconocibles con los dedos y la planta. Sin lámpara UV, cartas, texto ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp"
+      ],
+      "imagen_sha256": "185b47447cd6f1acaf6c569ea7ab330b2216d91e9e4b0e7a332bf0353bc2d40e",
+      "lectura_ciega": "Inés mira hacia atrás en la escalera. Un rastro polvoriento llega casi a su talón.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El talón queda afianzado en el descanso. Las huellas se acercan entre escalones y ninguna figura las causa a la vista.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Vista cenital desde arriba del corredor de la casona, sin escalera. Arriba a la derecha se ve a Inés solo desde arriba, pequeña pero identificable por la trenza oscura, una flor naranja, falda guinda y hombro crema calado; se detiene con ambas plantas apoyadas. En el mosaico de papel del corredor, desde la parte baja hasta su posición, se ve un mismo rastro doble: huellas pequeñas GUINDA de suela lisa de zapato, con las formas mayores de huellas descalzas de ceniza gris claro superpuestas exactamente sobre ellas, dejando ver el centro oscuro de las huellas chicas y los dedos claros de las grandes sobresaliendo. Estas formas se repiten tres veces, en parejas que no se apartan una de otra, hasta quedar justo detrás del personaje. Las dos capas se distinguen por tamaño, color y dedos. Fondo ciruela profundo con dos arcos insinuados por sombras de piso, una vela ámbar y detalles de papel picado y cempasúchil hacia los bordes. Sin lámpara UV, letras, números, naipes, escalones ni cuerpo que cause las huellas grandes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/h06@2x.webp"
+      ],
+      "imagen_sha256": "deae1e8bd5416131af5d0727f5ddd40485a7d13a38d5e8761740e122acad2344",
+      "lectura_ciega": "Desde arriba se ven pisadas grandes con dedos sobre las marcas de zapatos más pequeñas de Inés.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "La segunda escena usa dos tamaños de huella superpuestos. La flor, la trenza y el vestuario reconocen a Inés desde arriba.",
+      "qa": true
+    }
+  }
+}

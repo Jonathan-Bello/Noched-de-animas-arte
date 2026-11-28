@@ -1,0 +1,106 @@
+{
+  "id": "escalofrio",
+  "nombre": "Escalofrío",
+  "familia": "Acciones del ánima",
+  "lectura_clave": "La mano helada a punto de tocar la nuca.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/a01@2x.webp",
+      "sha256": "6632969acc92390ea1c1358ec281ac86f1afb5a243677ed592823f4d0756fadb",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a04@2x.webp",
+      "sha256": "4b7852b85221ae2fc4dd8db6ffb0209a9849af7107921b99ae501122e4722ce9",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a05@2x.webp",
+      "sha256": "fdd786aeb58a8b07b4554210416c062eb66a74d0b91fe10b17faef1315ef681a",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/escalofrio-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Escalofrío sobrenatural. Plano cercano desde atrás del investigador Tomás junto a una columna de la casona. Está de lado, cabello oscuro, sombrero de fieltro petróleo con greca crema, poncho petróleo y cuello claro. Se contrae un hombro, se tensa el cuello de la camisa y con SU PROPIA MANO se frota la nuca desde abajo; se sigue claramente tejida la manga, muñeca y palma. Al otro lado, independiente, una mano fantasmal pálida de papel traslúcido está a punto de rozar su nuca, que se distingue por el filo frío entre mano y piel. No repetir el retrato de una mujer de espaldas: es un hombre bajo una arcada, con la mano propia levantada y más espacio a través del corredor. Un toque de vaho en la nuca. Arcos noche ciruela en capas, ámbar de vela tenue y calados crema en textiles y cerámica, cempasúchiles discretos. Nada de naipes, letras, números ni figuras adicionales completas.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "5cc9b255282b1eb9cf396ab94f2ecdfba0086a1e88081fbbabfcb99bf1c60de5",
+      "lectura_ciega": "Un investigador se frota la nuca mientras una mano transparente está a punto de rozarlo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Tomás sustituye a la figura del original y se muestra su propia reacción en la nuca. La mano espectral entra desde el lado opuesto, separada de la mano viva.",
+      "qa": true
+    },
+    "b": {
+      "guion": "En el comedor nocturno de la casona, un par de investigadores sentados a lados de una mesa se estremecen a la vez. Borlas y sombras azul verdoso, dominante AZUL PETRÓLEO de La Llorona en los arcos y en el poncho. A la izquierda, Tomás de bigote, sombrero de ala azul verdoso y sarape AZUL PETRÓLEO con greca geométrica crema se encoge y se lleva una mano a la nuca. El poncho de Tomás es azul verdoso de manera inequívoca, no rojo, no vino, no morado. A la derecha, Inés de trenza negra, flor cempasúchil junto al oído, arete redondo y blusa crema con flores guinda se abraza de frío. Solo dos personajes, hombros alzados, dientes o labios tensos, con cara amable y ojos que se cierran. Tres veladoras en fila tienen las llamas inclinadas todas hacia la derecha. Un hilo de aire translúcido cruza detrás de sus nucas. Plano medio de ambos personajes, calado discreto crema en la mesa, cerámica y dos macetas cempasúchiles secundarias. No naipes, texto o números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "766e051ed0aece5b0dffb27f376c60938f51786f77024c9d2a3f0afe182407ef",
+      "lectura_ciega": "Dos investigadores se encogen de frío detrás de la mesa. Un hilo pálido pasa entre ellos y las tres llamas se tuercen.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se corrigió el color del sarape para conservar el petróleo de Tomás. La corriente y las llamas sincronizadas cuentan que el efecto alcanza a ambos.",
+      "qa": true
+    }
+  }
+}

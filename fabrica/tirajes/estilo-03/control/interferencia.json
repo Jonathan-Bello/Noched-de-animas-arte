@@ -1,0 +1,120 @@
+{
+  "id": "interferencia",
+  "nombre": "Interferencia",
+  "familia": "Acciones del ánima",
+  "lectura_clave": "El aparato que acaba de fallar.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_rafael.webp",
+      "sha256": "0a5ded3dcd8392a05bb2249b8cfdffbcc4796fc939345c53b89578b25c0ca602",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i10@2x.webp",
+      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a06@2x.webp",
+      "sha256": "f18b6d0a6a49730fc0c14b27e5d1b8573830998e303950321a670a1eb78cce51",
+      "funciones": [
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a04@2x.webp",
+      "sha256": "4b7852b85221ae2fc4dd8db6ffb0209a9849af7107921b99ae501122e4722ce9",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a05@2x.webp",
+      "sha256": "fdd786aeb58a8b07b4554210416c062eb66a74d0b91fe10b17faef1315ef681a",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/interferencia-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Vista cenital de la mesa de trabajo: termómetro, grabadora, lámpara UV y detector EMF en fila, listos. Solo la cámara de movimiento está cubierta por un velo fino, como mortaja, y de él sale vaho frío. Sin personas. La protagonista es la cámara compacta de caja color petróleo, de lente redondo prominente y piloto apagado, sola en la mitad central inferior, reconocible bajo un velo translúcido gris crema de calado fino. La mortaja toca los cantos y permite ver el lente entero a través del papel, no lo oculta. Una única hebra de vaho emerge de la cámara. En la parte media superior, visiblemente menores, cuatro aparatos alineados: termómetro de mango y visor, grabadora con ventana de casete, linterna cilíndrica con botón y detector con cinco luces discretas. Cada aparato descubierto, limpio proporcionado, del conjunto del Kit de campo adjunto. Mesa de papel de noche guinda, orla con encaje floral, luces ámbar laterales y arcos poco profundos en las sombras del extremo superior. La falla ocurre solo a la cámara. Sin manos, naipes, letras ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "2b18c60d28e54f2894fee9186f25e5403cc398a3c7cc9b7754286b0412dfa43e",
+      "lectura_ciega": "La cámara de la mesa está velada y desprende vaho. Las otras cuatro herramientas permanecen descubiertas.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A sigue la opción C de estilo-01. El lente y el piloto apagado se reconocen debajo del velo. Los cuatro aparatos pequeños quedan despejados.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Una grabadora portátil de casete falla sobre el banco de trabajo. Vista cercana a ras del banco con una sola grabadora analógica de carcasa petróleo, teclas crema, botón rojo, rejilla y puerta del casete entreabierta. Una cinta MARRÓN de grabación sale del casete y se atasca formando dos espiras aparentes en el centro. A la derecha, una única mano pálida traslúcida de ánima surge de la sombra y pinza entre pulgar e índice el extremo de cinta para tirar. Se ve con claridad el contacto entre la cinta y la mano fantasmal, el otro extremo se pierde dentro de la ventanilla de carretes. No hay otras herramientas ni personas, ni repetición de la escena de mesa cenital. Dominante ciruela, luz local ámbar de veladora y arcos de casona en dos planos, envoltura crema con calados y cempasúchiles discretos. Sin naipes, texto, letras ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "eaba0eea0debdc3a82105d91d000fc4ce1518ddd1c39d4b7c693ce8e0874eee3",
+      "lectura_ciega": "Una mano fantasma extrae cinta del casete abierto. La cinta se enrolla sobre la grabadora.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "En B, la cinta une de forma continua el casete y la pinza de los dedos. La mano traslúcida interfiere directamente con el aparato.",
+      "qa": true
+    }
+  }
+}

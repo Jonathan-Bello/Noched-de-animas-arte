@@ -1,0 +1,126 @@
+{
+  "id": "es_chaneque",
+  "nombre": "Juego del monte",
+  "familia": "Espantos",
+  "lectura_clave": "La mano pequeña que revuelve las cartas.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id07@2x.webp",
+      "sha256": "cef79f1805b7fd2315f5a20a8d16b21cb1b46a4b8cf3c17a018f830d42a95275",
+      "funciones": [
+        "identidad del ánima"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s07@2x.webp",
+      "sha256": "315f00551d164f4c3c24d35f8003a686de024edce5d181cc369857a10c20ca1a",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s01@2x.webp",
+      "sha256": "ebe91b50e6650169486afb92f8ca70e615a01ae5af4f1567752964b6d62a5510",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s02@2x.webp",
+      "sha256": "00cdfdf58598ae3b9d9bc6de67f771661847a9f6b9642b72908b8dd97800a8c4",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/s03@2x.webp",
+      "sha256": "31392a88d2923b1f8d67ee5bc7c64c4f5e43285be0a20adfc715a1cd9fff1bff",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/es_chaneque-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Vista oblicua alta de un solo Chaneque travieso de orejas puntiagudas con túnica de hojas secas teñidas carmín, agazapado entre raíces grandes que cubren el costado del patio arbolado de la casona. Su mano pequeña barre varias hojas secas enteras de pecíolo, formas irregulares, mientras retiene una sola hoja de ceiba debajo de su palma, sobre una piedra. No dibujar tarjetas, naipes, rectángulos de papel, marcas ni otras figuras. Las hojas secas vuelan hacia fuera en un arco que se distingue del papel picado de fondo. Su mirada torcida guía hacia esa mano central. Follaje, raíz, manita, ropa, piso y arcos en rojo carmín puro, escarlata, guinda roja y negro, sin azul, petróleo o verde; solo luces ámbar en una vela minúscula y cempasúchil lateral. Mano y hojas dentro del 25 a 78 % vertical, nada esencial arriba o abajo.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id07@2x.webp",
+        "web/miniaturas/s07@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "f4330503643506a0393a4224eb08fb904829710380eedf10d651d6a5e9a6dbe7",
+      "lectura_ciega": "Una mano pequeña aparta las hojas voladoras mientras la otra sujeta una sola hoja contra una piedra entre raíces.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se sustituyeron los naipes por hojas para respetar la regla editorial. Las referencias adicionales se adjuntaron en hoja de contacto: identidad Chaneque, Juego del monte original y Llanto eterno. Para estas variantes se siguió el carmín pedido en el encargo, conservando el verde del arte original en el selector. Validación general: 55 % carmín, 0 % frío.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Un solo Chaneque de orejas puntiagudas y túnica de hojas secas carmín. Huye cuesta arriba por el sendero del monte que empieza tras el portón arqueado de casona. Va de tres cuartos alejándose y vuelve su cara sonriente, lleva con una mano tres faroles de formas distintas reunidos por sus asas (uno con llama fuerte, otro casi apagado, otro oscuro), cada farol cuelga de su asa y se distingue de los demás. Ningún otro chaneque ni investigador, ningún naipe, sin tarjetas. Contrapicado diagonal entre raíces, faroles en el tercio central, chaneque completo contra troncos, arcos en planos al fondo y calados en el umbral. Rojos carmín y escarlata dominan cada hoja, raíz, tela y piedra; guinda roja y negro en sombras. No verde, azul ni petróleo. Crema y ámbar solo destellos en los faroles y una pequeña vela al fondo. Acción entre 24 y 80 % vertical y zonas de sombra arriba y abajo.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id07@2x.webp",
+        "web/miniaturas/s07@2x.webp",
+        "web/miniaturas/s01@2x.webp"
+      ],
+      "imagen_sha256": "43562e202f43b7cb4ba507bcd124edf6e0c5c7bdef4d8d9549894fbc47a02c52",
+      "lectura_ciega": "Un solo Chaneque se lleva tres faroles hacia el monte. Uno brilla, otro se apaga y el tercero ya está oscuro.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Un solo Chaneque reúne los tres faroles, en lugar del grupo de la ficha. Se adjuntó la misma hoja de contacto. Validación general: 60 % carmín, 0 % frío.",
+      "qa": true
+    }
+  }
+}

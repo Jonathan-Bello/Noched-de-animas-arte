@@ -1,0 +1,116 @@
+{
+  "id": "tarot",
+  "nombre": "Tarot",
+  "familia": "Alba y objetos malditos",
+  "lectura_clave": "La carta al revés y el dado.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_amalia.webp",
+      "sha256": "08a3e2fbd94adb8ecb3b450d49f6194b2f4a68cb0a56eacb4ccbcb2190e40dcf",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o04@2x.webp",
+      "sha256": "bedbd6475b4d077029c9a4d632eccb44a6399b9a81f8612e8d1b611551b51749",
+      "funciones": [
+        "identidad en una carta elegida",
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o07@2x.webp",
+      "sha256": "8092b6248efa9f98df916d20a70929063ac1db5b859390791894351fcc75fe60",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/o08@2x.webp",
+      "sha256": "49edfb884fe02424c5186b967d8e74ead4370d0a3d32f61c2cea57b40ff44461",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/tarot-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Tres arcanos del tarot sobre un paño de terciopelo ciruela ilustrado con pliegues de papel. La mano de Amalia, identificable por la manga crema calada con flores guinda, levanta con pulgar e índice una esquina de la carta central, que muestra invertida la figura ilustrada de una luna entre dos torres pequeñas con las torres hacia arriba y el rostro de la luna boca abajo. Dos cartas de tarot más pequeñas solo como contexto de la tirada, con motivos icónicos de estrella y sol. Ninguna letra, dígito, número romano, título ni marcas de naipes en ninguna carta. Un dado de marfil queda detenido contra el borde inferior de la carta central, simple y pequeño. Por el ángulo alto se ve principalmente su cara superior, con CINCO puntos guinda (cuatro esquinas y centro, como un dado convencional). De verse un lado vertical, mostrar un solo punto centrado y no mostrar el otro lado. Vista alta oblicua con contacto de los dedos y apoyo legibles. Una veladora ámbar y ornamento floral en el paño; arcos de casona al fondo en planos guinda y cempasúchiles discretos a los lados. Sin otras manos ni personas.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/o04@2x.webp"
+      ],
+      "imagen_sha256": "1a2d313e5ed1e66b3bc39c1aae098315534559a707ba1d488d73c81da3c0a436",
+      "lectura_ciega": "Una mano levanta la esquina del arcano invertido entre dos cartas. Un dado muestra cinco puntos en su cara superior.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "La manga de Amalia identifica la única mano. Se rehízo el dado para que la tirada de cinco destaque a tamaño de juego.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Una sola carta de tarot invertida, La Luna sin rótulo, queda apuntalada en el centro de una mesa de lectura de la casona. Se ve inequívocamente boca abajo: su rostro lunar invertido, nubes y torres de cabeza, todos dentro del marco pintado del propio arcano sin texto ni cifras. Encuadre bajo de un costado. La carta se apoya firmemente sobre un pequeño pie oculto tras ella. Dos veladoras bajas a la izquierda proyectan la sombra de la carta en diagonal hasta una libreta abierta en el extremo inferior derecho. En la libreta solo hay el dibujo de una pequeña llama tachado por dos trazos diagonales. La carta domina, la libreta es secundaria. Un dado de marfil queda tras la libreta mostrando una sola cara con cinco motas en quincunce, las otras caras quedan ocultas por la libreta. Arcos guinda oscuros, vaso floral calado y mantel crema con volúmenes de papel. No manos, personas, más cartas, letras ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/o04@2x.webp"
+      ],
+      "imagen_sha256": "59ca5f51101a676770d318ba85d3fa796ccdfe9ebd905e41ae99178f97d3157a",
+      "lectura_ciega": "Una sola carta de la Luna está de cabeza, iluminada por dos veladoras. En la libreta hay una llama tachada, junto a un dado.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "La carta invertida se sostiene con un pie visible detrás. Se añade el dado a la segunda escena para conservar el elemento común solicitado. Sólo se usó arte de tarot sin caracteres.",
+      "qa": true
+    }
+  }
+}

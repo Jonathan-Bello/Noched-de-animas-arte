@@ -1,7 +1,7 @@
 """Lotes del selector de ilustraciones (revision.html) y registro de la elección del autor.
 
-Un lote es una ronda de revisión: para cada carta muestra la propuesta A, la propuesta B y la
-versión vigente («original»), y el autor elige una de las tres.
+Un lote es una ronda de revisión: para cada carta muestra las propuestas A y B y, cuando
+existe, la versión vigente («original»). El autor elige entre las opciones disponibles.
 
   estado <lote>                         Qué falta en el lote: fichas, propuestas, publicación y votos.
   agregar <lote> <id> --a IMG --b IMG   Publica las dos propuestas de una carta en el selector.
@@ -92,8 +92,9 @@ def agregar(p):
     mal = errores(p.lote, p.id, {"a": p.a, "b": p.b})
     if mal:
         sys.exit(f"{p.id}: control incompleto\n- " + "\n- ".join(mal))
-    if not f["id_arte"]:
-        sys.exit(f"{p.id} no tiene versión vigente (id_arte) para la columna «original».")
+    orig = miniatura(f["id_arte"]) if f["id_arte"] else None
+    if orig and not (R / orig).is_file():
+        sys.exit(f"{p.id}: falta la miniatura de la versión vigente: {orig}")
     carpeta = R / "web/revision" / p.lote
     archivo = carpeta / "lote.json"
     datos = cargar(archivo, {"lote": p.lote, "cartas": []})
@@ -120,8 +121,7 @@ def agregar(p):
             nuevo["anteriores"] = anteriores
         carta[op] = nuevo
         cambios.append(op.upper())
-    orig = miniatura(f["id_arte"])
-    if (R / orig).exists():
+    if orig:
         h = sha256(orig)
         if carta.get("original", {}).get("sha256") != h:
             previo = carta.get("original")
@@ -214,7 +214,7 @@ def comprobar(_p=None):
             if c["id"] not in desc:
                 errores.append(f"{e['lote']}/{c['id']}: el ID no está en el catálogo")
             ops = list(datos["guionistas"]) if datos.get("guionistas") else list("ab")
-            if desc.get(c["id"], {}).get("id_arte") or c.get("original") or not datos.get("guionistas"):
+            if desc.get(c["id"], {}).get("id_arte") or c.get("original"):
                 ops.append("original")
             for op in ops:
                 x = c.get(op)

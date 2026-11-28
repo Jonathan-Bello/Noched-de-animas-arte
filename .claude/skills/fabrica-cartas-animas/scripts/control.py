@@ -31,6 +31,7 @@ from comun import R, Fabrica
 
 PROHIBIDO = ("fabrica/entrada/", "fabrica/tirajes/", "web/revision/")
 LIMITES = ("capas_con_volumen", "textura", "detalle_objetos", "fondo", "cantidad", "adorno_calado", "luz")
+CALIBRACION = {"estilo-03": ("web/revision/estilo-03/kit-a.webp", "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480")}
 PUNTO = "guias/punto-de-estilo.json"  # cartas que el autor marcó «en el punto» (calibración); van en todo encargo
 FAMILIA = ("acabado de la familia", "versión preferida por el autor", "identidad en una carta elegida")
 
@@ -44,8 +45,20 @@ def aprobadas(cid):
     return f, {r["ruta"]: r for r in f["referencias"] if r["usar"] and r["existe"]}
 
 
+def calibracion(lote, cid):
+    """Ancla adicional elegida por el autor para este tiraje."""
+    if cid == "kit" or lote not in CALIBRACION:
+        return {}
+    ruta, sha = CALIBRACION[lote]
+    archivo = R / ruta
+    if not archivo.is_file() or hashlib.sha256(archivo.read_bytes()).hexdigest() != sha:
+        sys.exit(f"Falta la versión de calibración elegida para {lote}: {ruta}")
+    return {ruta: {"ruta": ruta, "sha256": sha, "funciones": ["ejemplo de calibración del autor"]}}
+
+
 def plantilla(p):
     f, refs = aprobadas(p.id)
+    refs.update(calibracion(p.lote, p.id))
     for r in punto_de_estilo() or []:  # las anclas de estilo van en todo encargo
         refs.setdefault(r, {"ruta": r, "sha256": None, "funciones": ["punto de estilo"]})
     destino = ruta_control(p.lote, p.id)
@@ -76,6 +89,8 @@ def errores(lote, cid, imgs=None):
         return [f"falta el control {destino.relative_to(R)} (crea la plantilla con control.py plantilla {lote} {cid})"]
     c = json.loads(destino.read_text(encoding="utf-8"))
     _, refs = aprobadas(cid)
+    ancla = calibracion(lote, cid)
+    refs.update(ancla)
     mal = []
     punto = punto_de_estilo()
     if punto is None:
@@ -90,6 +105,8 @@ def errores(lote, cid, imgs=None):
     for op, v in sorted(c.get("variantes", {}).items()):
         pre = f"{op.upper()}:"
         adj = v.get("adjuntadas") or []
+        if not set(ancla) <= set(adj):
+            mal.append(f"{pre} falta el ejemplo de calibración elegido para {lote}")
         if not adj:
             mal.append(f"{pre} no anota qué referencias se adjuntaron")
         for ruta in adj:

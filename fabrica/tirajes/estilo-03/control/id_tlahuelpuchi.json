@@ -1,0 +1,108 @@
+{
+  "id": "id_tlahuelpuchi",
+  "nombre": "Tlahuelpuchi",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "Las piernas sin dueña.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id10@2x.webp",
+      "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_tlahuelpuchi-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Arte vertical a sangre con margen superior de fondo oscuro de un QUINTO de toda la altura. Más abajo, en el tramo central de la carta, Tlahuelpuchi en forma de guajolote de ojos rojos, plumas negras vino y cola en abanico, perfil entero sobre un tejado bajo. Coloca de manera inequívoca la cabeza y ojos al 34 % de la altura total y la punta de la cola debajo del 22 %, para que el título nunca corte cara, ojos ni plumas. Las alas se abren a medias y la sombra alada se dobla sobre las tejas en una sola silueta plana. Encadre general del tejado bajo en el patio de la casona, con un arco y un farol pequeño, luna apenas visible detrás de los árboles. En un alféizar inferior separado del ave, dos pies y pantorrillas descalzas de la misma criatura asoman bajo una tela plana doblada, sin otra persona, cortes o sangre. Dominante rojo y vino, acentos crema y ámbar de vela, calado floral y pétalos discretos. Sin naipes, números, letras ni textos.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id10@2x.webp"
+      ],
+      "imagen_sha256": "a97d570f860aee6201bb32d3b341535ec691f9a18e9b87572a0c61ea54185d9d",
+      "lectura_ciega": "El guajolote de ojos rojos está en el tejado, con su sombra extendida sobre las tejas. Debajo quedan dos pies descalzos bajo una tela.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se rehízo el encuadre para que se lean la cabeza y el abanico del ave después de colocar el título. Las piernas son de la misma ánima y quedan cubiertas en la parte superior.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Desde DENTRO de la cocina nocturna junto al fogón, la Tlahuelpuchi es la única ánima. Sus piernas humanas quedan abandonadas bajo una banqueta al lado de las brasas: solo se ven los pies desnudos y parte de las pantorrillas de papel, apoyados enteramente en el piso; una tela guinda bordada cubre sus extremos, sin torso, sangre ni heridas. En la ventana a media altura vemos solo una enorme sombra de guajolote a punto de despegar, proyectada sobre el papel translúcido de la ventana, forma negra plana de alas extendidas, cola en abanico, dos puntos carmín en la cabeza de perfil. No aparece un ave física encima del techo, y no hay luna grande. Encuadre cercano al fogón de barro del lado derecho con unos carbones tabaco, las piernas en el centro inferior y la ventana al lado opuesto. Dominante vino oscuro y rojo, luz calada de brasas y vigas y arcos en planos, pequeños cempasúchiles y cerámica recortada discretos. Sin otras personas, manos, naipes, texto ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id10@2x.webp"
+      ],
+      "imagen_sha256": "37284d7916c85ed73544cd1f70b17994407138a83f869273387f020ff7ea7102",
+      "lectura_ciega": "Junto al fogón quedan unas piernas bajo una tela, mientras un ave alada se proyecta en la ventana.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B muestra solo la sombra alada y las piernas abandonadas junto a las brasas. La tela cubre los extremos y no se ven otras figuras.",
+      "qa": true
+    }
+  }
+}

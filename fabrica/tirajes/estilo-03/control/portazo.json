@@ -1,0 +1,106 @@
+{
+  "id": "portazo",
+  "nombre": "Portazo",
+  "familia": "Acciones del ánima",
+  "lectura_clave": "El golpe y las cartas que salen volando.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/a02@2x.webp",
+      "sha256": "b69de2b73940b490edc48a1728ddb922ca3cbb0f27e905159425258e8436f363",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": "c86fc3558f9ef134ccd785bcc9423091359d728ba49b6c2046ca6a74caea4024",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a04@2x.webp",
+      "sha256": "4b7852b85221ae2fc4dd8db6ffb0209a9849af7107921b99ae501122e4722ce9",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a05@2x.webp",
+      "sha256": "fdd786aeb58a8b07b4554210416c062eb66a74d0b91fe10b17faef1315ef681a",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/portazo-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Instante de un portazo en la casona. Plano lateral y bajo; una sola puerta de cuarterones de guinda se estampa contra la jamba en el costado derecho, con una fina línea de luz que se cierra y un pequeño estallido de tres trazos de papel crema marcando el punto de golpe. De la corriente se levanta una sola hoja de papel crema totalmente en blanco, grande e irregular, con un doblez, para que se lea como papel suelto y no como carta. A la izquierda se distingue solo de cintura arriba a Inés, trenza negra con flor naranja, aros y blusa crema con flores guinda, que se sobresalta e inclina el hombro alejándose del golpe. Los dos elementos que se leen primero son el canto de la puerta y la reacción. Vestíbulo dominante vino profundo, arcos abstractos superpuestos y vela ámbar separada del golpe. No hojas impresas, naipes, escritura, letras ni números.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "22acc6ce5f8d847423a4b24f5e391a7973a2a05a1edc2a0df9ad97998588107d",
+      "lectura_ciega": "La puerta golpea el marco, una hoja vuela e Inés se sobresalta.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Una hoja de papel en blanco sustituye el naipe de la ficha. La reacción de Inés y el canto contra la jamba se distinguen a tamaño de carta.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Una hilera de tres puertas de madera en el MISMO lado de un corredor de la casona se cierra en cadena: la más próxima, a la izquierda, ya está casi cerrada; la segunda está a medio giro; la tercera se abre apenas al fondo. Cada marco pertenece al mismo corredor, espaciar para que se lean tres puertas y sus ángulos distintos. Una corriente de papel crema curva conecta los tres golpes y levanta varias hojas irregulares onduladas completamente en blanco, no tarjetas. En el primer plano a la derecha, Tomás de sombrero y sarape azul petróleo con greca crema alza un antebrazo para protegerse del viento, mirando de perfil hacia la cadena de puertas. Encuadre más abierto y dinámico que un solo portón, perspectiva ilustrada de arcos superpuestos. Dominante ciruela, crema y ámbar de veladoras pequeñas, dos macetas de cempasúchil y papel picado calado. Sin naipes, texto, números ni figuras adicionales.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp"
+      ],
+      "imagen_sha256": "588f0b2d073e7f815f0344c3134e1c7a86bfe958b4f630103c50ba0a3b3fbdf9",
+      "lectura_ciega": "Tres puertas se cierran por el corredor, el aire levanta las hojas y Tomás se protege.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Varias hojas sueltas sustituyen los naipes. El sombrero de Tomás salió en crema. Su bigote y sarape de greca petróleo conservan la identidad.",
+      "qa": true
+    }
+  }
+}

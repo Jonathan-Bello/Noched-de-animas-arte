@@ -1,0 +1,116 @@
+{
+  "id": "t2",
+  "nombre": "Grabadora",
+  "familia": "Herramientas",
+  "lectura_clave": "La grabadora de casete con la cinta girando y el botón rojo hundido.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_mateo.webp",
+      "sha256": "93ab54aa98114bfe08a31ea955ef298f3e690d23b885e336a03d36befaaddba2",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i11@2x.webp",
+      "sha256": "c5c4fe6fde008f2cdd6c566df64e1e78ab5bb0a0aa293d73b5d1f985ca54ccb7",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i03@2x.webp",
+      "sha256": "c59c5aaa4f4d98c7590850ac230bff681e6190bc92a2bc99556e058030022317",
+      "funciones": [
+        "modelo del aparato",
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/revision/comparativa-01/t2-c.webp",
+      "sha256": "2108ae41468cf6b8fd2e13ea32da56def8d5d6a60fd57aa1e1a5a26cf8ff9e6f",
+      "funciones": [
+        "propuesta preferida (voto C)"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t2-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "La casetera con su tecla roja hundida ocupa la esquina de una mesa; junto a la rejilla un hilillo de voz hace temblar una tira de papel suspendida, y el carrete se distingue por la ventanilla. Casetera antigua portátil, tamaño protagonista, dispuesta plana sobre la mesa en un escorzo claramente alto, con su ventanilla superior de dos carretes visible, rejilla y fila de teclas de marfil. Una tecla bermellón está claramente más hundida que las demás. Un único hilillo fino curvo de voz, crema tenue, toca una tirita suelta que cuelga de una cuerda al lado de la máquina y la comba levemente. Mesa en la esquina del archivo de la casona, al fondo arcos en tono verde petróleo, un nicho con una veladora y papel picado discreto. Cerámica floral calada y cempasúchil secundarios en sombra. Sin manos, personas, retratos, etiquetas, letras, números ni naipes. Mantener el diseño analógico del quinto adjunto sin repetir su pose vertical.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i03@2x.webp"
+      ],
+      "imagen_sha256": "50555c30ed0517dfcb7c2b10355c5d8e443c8425043e7fd3be379603876ee3df",
+      "lectura_ciega": "Una casetera encendida con dos carretes a la vista emite un hilo hacia una tira de papel colgada que se dobla.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A conserva la opción C de comparativa-01. El hilo llega a la tira suspendida y las líneas cortas indican su movimiento. La tecla roja está más baja que las de crema.",
+      "qa": true
+    },
+    "b": {
+      "guion": "En la capilla lateral de la casona, una grabadora portátil de casete queda sola sobre el asiento de una banca de madera ilustrada, con la cinta avanzando. Encuadre lateral bajo. Coloca el aparato grande en la mitad izquierda central y muestra claramente dos carretes crema, rejilla perforada y una tecla roja notablemente más baja que las teclas crema. Una única cinta tenue de voz de papel crema sale de la rejilla y se curva hacia un confesionario vacío al fondo a la derecha, reconocible por su celosía floral y puerta entreabierta, sin figuras. Ni mesa, ni papel colgado que tiemble. Dominante azul petróleo profundo, sombras de los arcos recortados de la capilla, pequeños cempasúchiles cerca de la banca y veladora color ámbar en el confesionario. Un trozo de encaje de papel discreto en el extremo del asiento. Sin manos, figuras, retratos, naipes, cruz con letras, etiquetas ni texto. Respeta el diseño analógico del quinto adjunto, nunca su composición.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i03@2x.webp"
+      ],
+      "imagen_sha256": "1457c099c2dd6f5ff905c3ffadf6d87079e12736f4669d726f15b610ad744abf",
+      "lectura_ciega": "La casetera está sola sobre una banca. De su rejilla sale una cinta pálida hacia un confesionario abierto y vacío.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B conserva la banca de capilla sin investigadores. Se distingue el apoyo sobre el asiento, la tecla roja hundida y la continuidad de la cinta de voz hasta la puerta.",
+      "qa": true
+    }
+  }
+}

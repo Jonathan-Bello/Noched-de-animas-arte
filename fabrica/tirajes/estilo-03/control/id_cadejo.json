@@ -1,0 +1,108 @@
+{
+  "id": "id_cadejo",
+  "nombre": "El Cadejo Negro",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "La masa negra y las cadenas.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id18@2x.webp",
+      "sha256": "0b477aa90372a1422d7d61938cd80f4318021b3a866b24f85dd7ef5e168abe84",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_cadejo-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Composición nueva con vista alta desde un balcón que mira diagonalmente una curva cerrada del camino de casona. El Cadejo Negro se mantiene DE PIE quieto en perfil horizontal mirando a la IZQUIERDA; solamente la cabeza se gira hacia la cámara para mostrar dos pequeños ojos de brasa. Cola baja claramente detrás del cuerpo y cuatro patas quietas sujetando el suelo. Una sola figura de perro negro y pelaje erizado en masa recogida ocupa entre 30 y 70 % vertical y conserva una silueta negra contra el sendero índigo. Eslabones gruesos caen casi verticales de su cuello, con un único tramo corto recostado en el piso debajo de sus patas, cobre oscuro. No pose agachada, no amenaza física. Arcos al fondo y a la izquierda, paleta dominante azul índigo noche y petróleo azulado para toda la arquitectura, papel picado azul, dos velas muy pequeñas, acentos de cempasúchil muy discretos, sombra en 12 % arriba y abajo.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id18@2x.webp"
+      ],
+      "imagen_sha256": "5f214162960964b9a21fff7058b654b23cc4e64fe4ca9a59e338f798395f8c20",
+      "lectura_ciega": "Perro de pelaje negro erizado, ojos rojos y cadena al cuello, parado en el recodo.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Se repitió A para cambiar la pose respecto al original. La miniatura guía solamente el aspecto del Cadejo. La Llorona es referencia del acabado de la familia.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Escena sin figura visible. Punto de vista muy bajo, casi a ras del polvo del camino índigo que se curva y se pierde bajo un arco oscuro de la casona. Dentro de la zona central se leen tres o cuatro huellas hondas de pezuña partida (dos hendiduras juntas por huella, no pisadas de bota ni almohadillas). En paralelo pasa una línea sinuosa raspada por el arrastre, con leves marcas de eslabones en la parte más próxima y un tramo de cadena de cobre oscuro que se pierde hacia la umbría del recodo. Ningún ojo, cola o silueta de perro, solo el rastro único del Cadejo. Luz de vela cálida a ras del sendero contornea las marcas; al fondo, arcos en planos, papel picado apagado, cempasúchil lateral. Dominante índigo profundo y azul petróleo en polvo, hojas, arquitectura y decoración. Marcas esenciales entre 28 y 81 % vertical.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id18@2x.webp"
+      ],
+      "imagen_sha256": "4b9da1f83058b63b5126ca2252eb7a08947780aa1f586b130e663b599f36d778",
+      "lectura_ciega": "Pezuñas partidas en el polvo y una marca de arrastre siguen la curva hacia la sombra, junto a tramos visibles de cadena.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Solo se muestra el rastro que prescribe la ficha. La luz rasante separa la marca de arrastre de las huellas.",
+      "qa": true
+    }
+  }
+}
