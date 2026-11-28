@@ -162,6 +162,128 @@
     "archivo": "web/miniaturas/i12@2x.webp",
     "sha256": "368ad2b4a0452e5895929ef0332c6bba05fc21796f4310f61157c48cc03c2638"
    }
+  },
+  {
+   "id": "alba",
+   "nombre": "Alba",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/alba-a.webp?v=35e43d91cf",
+    "sha256": "35e43d91cfdc8f5c99343f0b9fcb41d52cf0831d6f5c7b8141a57b2131aefc55"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/alba-b.webp?v=69d3c25b34",
+    "sha256": "69d3c25b34555202ef1775ea6b43c0f12e7e0ea02448f92eca84fc27a8f3d654"
+   },
+   "original": {
+    "archivo": "web/miniaturas/p02@2x.webp",
+    "sha256": "88238445aec43df1dcad03d9578d692fa150b62498d841dbed08c3e958c4adc9"
+   }
+  },
+  {
+   "id": "radio",
+   "nombre": "Radio",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/radio-a.webp?v=3d21d73730",
+    "sha256": "3d21d73730733741a1f7871ba27114c73f754ecfc76b4df204b84668caf52bc2"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/radio-b.webp?v=d279eb9df5",
+    "sha256": "d279eb9df597d630671fb589a5408a4cb53064e7ef855991c03220845021829d"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o01@2x.webp",
+    "sha256": "8a366eec49ab1e55bd0861c55cd061ecffe92a38f9fc25856d4a236b3eb8b004"
+   }
+  },
+  {
+   "id": "tablilla",
+   "nombre": "Tablilla espiritista",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/tablilla-a.webp?v=305fb4a7ab",
+    "sha256": "305fb4a7abd6077afcacd0794d3e07e1c01ff8976b68afef5296636865c32167"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/tablilla-b.webp?v=149ce1de5d",
+    "sha256": "149ce1de5d2e861a1f207c1d914af64d45da1d1e0dfa0e55cdf70dfa29671200"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o02@2x.webp",
+    "sha256": "12fb8434583f55febfd9b24966f5a5c5c1c7ab64584106e5040f83319aec3dd6"
+   }
+  },
+  {
+   "id": "mano",
+   "nombre": "Mano del mono",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/mano-a.webp?v=15f082333e",
+    "sha256": "15f082333ec4894848d767c17489a249baf02426e6448db9219cd6513f586860"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/mano-b.webp?v=be18251d30",
+    "sha256": "be18251d3098fb36b9a1c6395753511285dfec95fe5d6b04bbf9b84cc4747875"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o03@2x.webp",
+    "sha256": "b7a751ada0abad82df1156dab84b614455887c84924c1ec5fea48739aeb7c521"
+   }
+  },
+  {
+   "id": "espejo_plata",
+   "nombre": "Espejo de plata",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/espejo_plata-a.webp?v=0340c9aeb1",
+    "sha256": "0340c9aeb101cd69b7db764a65c9923a1d811ab9f6584d6e354b8f9ddfb27537"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/espejo_plata-b.webp?v=58a28c447d",
+    "sha256": "58a28c447ded2ffd6ce54b0db390b043f2c616dc20aad5cf540257365831f149"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o05@2x.webp",
+    "sha256": "bfc9e47d60ce278108097265af9e7098bda28c8cbdaf57429ff3a83cb6baef95"
+   }
+  },
+  {
+   "id": "tarot",
+   "nombre": "Tarot",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/tarot-a.webp?v=9995ca7c88",
+    "sha256": "9995ca7c889df13ad0589e53851fdcbb504e5b37fad50102e2efb27cc2bcdf48"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/tarot-b.webp?v=f47e86951e",
+    "sha256": "f47e86951ed51fb659ec0a9835fa94a89906340976517aec2087a0b82eeb6c67"
+   },
+   "original": {
+    "archivo": "web/miniaturas/o06@2x.webp",
+    "sha256": "b92349fac16d136f2d8f534105fbd4c6297558233e09633966f685a8ce47862f"
+   }
+  },
+  {
+   "id": "pentagrama",
+   "nombre": "Pentagrama",
+   "familia": "Alba y objetos malditos",
+   "reverso": "back02",
+   "a": {
+    "archivo": "web/revision/estilo-03/pentagrama-a.webp?v=45683b7edf",
+    "sha256": "45683b7edfb2c206c8bfc18eda4e2892e5053fd95bd84f8de437e2c87c581f3c"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/pentagrama-b.webp?v=fe7578b16e",
+    "sha256": "fe7578b16e71e8f6efef23013111bb0b23c6f2d8f0ae5d22e63c1f11bb355cb0"
+   }
   }
  ]
 }
