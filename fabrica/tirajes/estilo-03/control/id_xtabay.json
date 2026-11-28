@@ -1,0 +1,108 @@
+{
+  "id": "id_xtabay",
+  "nombre": "Xtabay",
+  "familia": "Identidades de las ánimas",
+  "lectura_clave": "El peine y la ceiba.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/id14@2x.webp",
+      "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f",
+      "funciones": [
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": "3a3c939dbcdef862e963372da2d5334114610331aa5c3e9ff1cea0f8a6105922",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id03@2x.webp",
+      "sha256": "1355970ac6ba4cfed806128b9d85bc4f74c5f544056e5e18d76bf4e9d5cf575e",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id04@2x.webp",
+      "sha256": "a2ea092e6f79adb9989af997a6872119dac6d70be3db02fb043aaafe05b45021",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/id_xtabay-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "Xtabay sola, de pie de perfil al costado de la ceiba en el patio de la casona. Cabello larguísimo negro con flores, huipil crema de calados y enagua burdeos, como el quinto adjunto. Pasa un peine de madera crema de dientes anchos por un solo mechón oscuro extendido delante de ella; que el peine se vea de lado y a contraluz. Un hueco de aire color guinda separa el mechón de una raíz clara de la ceiba que baja del lado opuesto. Encuadre entero con cara al 28 %, pies al 81 %, espacio arriba y abajo. Morado guinda dominante con raíz ámbar, cempasúchil y velas pequeñas.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id14@2x.webp"
+      ],
+      "imagen_sha256": "5b92c5307d243ba6e934889b098e5d4da2f8851c33bf9199259bc999581158fb",
+      "lectura_ciega": "Una mujer con flores en el pelo pasa un peine claro por un mechón negro que se recorta junto a la ceiba.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "El peine toca el mechón y queda separado de la raíz por un hueco. El original aportó indumentaria, peine y ceiba; La Llorona, el acabado de familia.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Solo el canto sobrenatural de Xtabay, sin ninguna otra persona, sin cuerpo humano aparte ni espectador. En el patio de arcos de la casona, la ceiba domina la parte central y se ve desde raíces hasta la copa. En el centro de la copa, las hojas mismas, sin piel añadida, forman con espacio negativo un rostro de perfil con la boca abierta cantando, reconocible como Xtabay por su perfil y por las flores entre hojas oscuras como su cabellera. Dos corrientes gráficas de hojas curvadas recorren en pliegues el aire hacia el patio vacío, sin notas musicales ni símbolos. Entre raíces bajo el rostro queda su peine crema de dientes anchos, en una raíz claramente iluminada. Árbol y rostro bien dentro del 12 al 88 % vertical, arco de casona en planos atrás, guinda/morado dominante, ocres y ámbar en vela y cempasúchil. Es una sola ánima manifestada como follaje.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/id14@2x.webp"
+      ],
+      "imagen_sha256": "114fcf743c35a795191bd205b049e840c96959020e6374eefd1c06163c6efac8",
+      "lectura_ciega": "Un rostro canta desde la copa de una ceiba y las hojas se arremolinan. El peine está iluminado entre las raíces.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "Ajuste por familia: se retiró al investigador de la ficha para conservar a Xtabay como única ánima. Su canto se lee en el rostro integrado a la copa y el remolino.",
+      "qa": true
+    }
+  }
+}

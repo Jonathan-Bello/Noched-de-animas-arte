@@ -536,6 +536,60 @@
     "archivo": "web/miniaturas/id10@2x.webp",
     "sha256": "ef993fff52de170c9a96493d55d78fe91b31fbe592efe775cb2d7c588b9b449d"
    }
+  },
+  {
+   "id": "id_matlacihuatl",
+   "nombre": "Matlacíhuatl",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_matlacihuatl-a.webp?v=19eb48900b",
+    "sha256": "19eb48900b41dfb2ace4c6353d0ad6e2be503bcdd74e6a3473eb1b96ed3c8fa4"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_matlacihuatl-b.webp?v=20d9bd294e",
+    "sha256": "20d9bd294e3b47582b3f58570275b710044f0cfc575fff7f11df6983cbb591c8"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id11@2x.webp",
+    "sha256": "d50987b715675878ae43fc32f63ebbcacc90274ffa6192892f87d04a6a35b369"
+   }
+  },
+  {
+   "id": "id_planchada",
+   "nombre": "La Planchada",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_planchada-a.webp?v=9592fb7b5e",
+    "sha256": "9592fb7b5ea8ebdbdcb29b8ce39986a0bcc00c3cdb120773de43fb563e770056"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_planchada-b.webp?v=6dfd600f50",
+    "sha256": "6dfd600f50e5015746a2e0345aa9be1a3e9033348e0e27b1c5eb0c07d96d373c"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id13@2x.webp",
+    "sha256": "c32b9a257333cdf907f804448298cb031b34c018d6b0e0e95602f70cf38212bb"
+   }
+  },
+  {
+   "id": "id_xtabay",
+   "nombre": "Xtabay",
+   "familia": "Identidades de las ánimas",
+   "reverso": "back03",
+   "a": {
+    "archivo": "web/revision/estilo-03/id_xtabay-a.webp?v=9a4f75e90f",
+    "sha256": "9a4f75e90fd7fa4de89a991a7e2dafacaa269438ea2ccaf6bf6309e9d8ecfff1"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/id_xtabay-b.webp?v=00ca75c5f2",
+    "sha256": "00ca75c5f2a99fc1c200b57982525fea43618174753b1ba605da0c1b2325d660"
+   },
+   "original": {
+    "archivo": "web/miniaturas/id14@2x.webp",
+    "sha256": "dcbc171b511a45b4989f9541ebe522a8e81b02eafddf275dd255cc706b762f5f"
+   }
   }
  ]
 }
