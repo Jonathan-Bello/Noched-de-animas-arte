@@ -1,0 +1,102 @@
+{
+  "id": "t3",
+  "nombre": "Cámara de movimiento",
+  "familia": "Herramientas",
+  "lectura_clave": "La cámara física, en el plano, apuntando al mueble que se mueve.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/miniaturas/i04@2x.webp",
+      "sha256": "aeb9980b57c01405c351e40341d6cc4743dd04e56420a2e53e6d59b87a9bb71c",
+      "funciones": [
+        "modelo del aparato",
+        "arte actual"
+      ]
+    },
+    {
+      "ruta": "web/revision/comparativa-01/t3-a.webp",
+      "sha256": "f1a7fb716c2db2f3b58d14d0cccf04cfd58fe454ee9aa71b02b251bb55c46d25",
+      "funciones": [
+        "propuesta preferida (voto A)"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t3-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "La cámara sobre su trípode, en primer plano, apunta a una silla de madera a medio caer, todavía apoyada en dos patas y a dos cuadros desplazados en la pared. En primer plano a la derecha se distingue físicamente la cámara compacta de caja petróleo, su lente redondo apuntando en tres cuartos hacia la izquierda, indicador rojo discreto y un trípode estable de tres patas. Es el elemento más cercano, inequívoco y grande. Más allá a la izquierda, una silla recta de cuatro patas sin mecedoras se inclina hacia atrás con las dos patas delanteras claramente en el aire y las dos traseras en contacto con el suelo. Dos cuadros torcidos con motivos botánicos sin gente marcan la pared. Dominante guinda de casona nocturna, arcos en capas, papel picado floral, velas ámbar y cempasúchil periféricos. Sin figuras, manos, naipes ni encuadre de grabación. El quinto adjunto aporta modelo de caja y montura, la silla y la composición son nuevas.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i04@2x.webp"
+      ],
+      "imagen_sha256": "4740fbbecb862fab43dcbf4657de5a822fd93407f873fcfb2d11d615ce0e075f",
+      "lectura_ciega": "Una cámara sobre trípode apunta a una silla que se está volcando. Dos cuadros están torcidos más arriba.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A conserva los dos puntos de apoyo de la silla y los dos cuadros de la opción A de comparativa-01. El lente y el indicador se reconocen al corte.",
+      "qa": true
+    },
+    "b": {
+      "guion": "Vista desde atrás de la cámara física de movimiento, en el extremo izquierdo del primer plano, cámara de caja portátil verde petróleo de guías adjuntas con cuerpo, asa, piloto rojo discreto y unión al trípode claramente visibles. Su pantalla rectangular posterior integrada muestra en silueta una mecedora centrada vertical, quieta sobre sus dos balancines de descanso. Más allá de la cámara, a la derecha media, LA MISMA mecedora se inclina hacia delante a medio balanceo, dos curvas cortas de papel indican oscilación. Su base curva toca coherentemente el suelo. Diferencia inequívoca entre la mecedora pequeña que está DENTRO DEL VISOR y la única mecedora física en la habitación. El aparato mismo, con contornos de espesor claramente dibujados, y ambas mecedoras deben reconocerse al tamaño de una carta. Casona guinda con arcos superpuestos, un nicho ámbar, puntilla calada y cempasúchiles secundarios. No hay personas, manos, naipes, letras, números ni gráficos de interfaz en la pantalla o sobre la escena.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i04@2x.webp"
+      ],
+      "imagen_sha256": "ce01e4f3e910890b3b109f2d000bb87eb2d5a22f7684ec9df31a70dcfd70490f",
+      "lectura_ciega": "El visor de la cámara sobre trípode muestra una mecedora recta. La mecedora del cuarto está inclinada y marcada por dos curvas de movimiento.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B distingue el visor integrado de la mecedora física. El extremo del cuerpo de la cámara queda a sangre, con la pantalla y la unión al soporte legibles a 58 × 88 mm.",
+      "qa": true
+    }
+  }
+}

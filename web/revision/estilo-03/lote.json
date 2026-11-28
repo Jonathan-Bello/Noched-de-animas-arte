@@ -36,6 +36,96 @@
     "archivo": "web/miniaturas/i01@2x.webp",
     "sha256": "aa9e45c8f229cd218fcfb88de89a04d77d4365dc896d6ffcca3aba4f9e7a677a"
    }
+  },
+  {
+   "id": "t1",
+   "nombre": "Lámpara UV",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t1-a.webp?v=5e974f3e63",
+    "sha256": "5e974f3e63776affc055ee1074b2a43c31e3970deb6d66f8dac2c9e71c1bd354"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t1-b.webp?v=347ec4d34d",
+    "sha256": "347ec4d34dd9d51f4abce24cd8b576038a6f5a480b6129df810d4c6cbb72d50b"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i02@2x.webp",
+    "sha256": "e9a696c083a2ab69463c26c846090fb92b102319b3c6301a39a16816324bcbe3"
+   }
+  },
+  {
+   "id": "t2",
+   "nombre": "Grabadora",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t2-a.webp?v=9060fe3b39",
+    "sha256": "9060fe3b39cba470c31e74dbbe58e0fc42364e53196f6369884f5f0471a75a2d"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t2-b.webp?v=5cccb02af2",
+    "sha256": "5cccb02af2e1d90cb301b61293fc596552127db608b516577416a4c636c480b0"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i03@2x.webp",
+    "sha256": "c59c5aaa4f4d98c7590850ac230bff681e6190bc92a2bc99556e058030022317"
+   }
+  },
+  {
+   "id": "t3",
+   "nombre": "Cámara de movimiento",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t3-a.webp?v=7acd2f9320",
+    "sha256": "7acd2f93207eeacde09053eb90dde6be1d2efe7791927bedd78bbe33db492aec"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t3-b.webp?v=d68de16c0b",
+    "sha256": "d68de16c0b984f9ee328119416436944d48960af4f7300c224d5fba5c8acbf4f"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i04@2x.webp",
+    "sha256": "aeb9980b57c01405c351e40341d6cc4743dd04e56420a2e53e6d59b87a9bb71c"
+   }
+  },
+  {
+   "id": "t4",
+   "nombre": "Detector EMF",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t4-a.webp?v=370674664c",
+    "sha256": "370674664ca9cf23c13a61bc956616bf245b49e3afc46242e73e4f980042a91a"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t4-b.webp?v=2f11ee76fa",
+    "sha256": "2f11ee76fa2d4519aac7e40c0bca30398f5a383d84dee61dfd56fb1038efb1f2"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i05@2x.webp",
+    "sha256": "249cde19138cebc6aa43cf466d0c648d5fc02f0c0ffd3aa49c75f0337784d3a5"
+   }
+  },
+  {
+   "id": "t6",
+   "nombre": "Sensor de gases",
+   "familia": "Herramientas",
+   "reverso": "back01",
+   "a": {
+    "archivo": "web/revision/estilo-03/t6-a.webp?v=342b76eba1",
+    "sha256": "342b76eba143f0a80d65f2c184fe1a32519f71deeee36bd32b7973f213ebf401"
+   },
+   "b": {
+    "archivo": "web/revision/estilo-03/t6-b.webp?v=077dc84a65",
+    "sha256": "077dc84a6538617cf82bba14dd8818ce259c147b98f00cb91f017f827dc087bb"
+   },
+   "original": {
+    "archivo": "web/miniaturas/i07@2x.webp",
+    "sha256": "cc2410d8f0362d80f2c6646092cb9c3ec677b6992c4d3e8130c9ffc2a8d8b781"
+   }
   }
  ]
 }

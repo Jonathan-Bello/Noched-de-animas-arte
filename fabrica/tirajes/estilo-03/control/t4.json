@@ -1,0 +1,109 @@
+{
+  "id": "t4",
+  "nombre": "Detector EMF",
+  "familia": "Herramientas",
+  "lectura_clave": "La hilera de cinco luces del EMF encendida.",
+  "referencias_disponibles": [
+    {
+      "ruta": "web/mesa/arte/inv_rafael.webp",
+      "sha256": "0a5ded3dcd8392a05bb2249b8cfdffbcc4796fc939345c53b89578b25c0ca602",
+      "funciones": [
+        "identidad del investigador"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i10@2x.webp",
+      "sha256": "ad4736000131ca0440e6c4681277d24c4cf51caaa62ad1e1a2c8bf2e43649daa",
+      "funciones": [
+        "identidad en una carta elegida"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i05@2x.webp",
+      "sha256": "249cde19138cebc6aa43cf466d0c648d5fc02f0c0ffd3aa49c75f0337784d3a5",
+      "funciones": [
+        "modelo del aparato",
+        "versión preferida por el autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/i06@2x.webp",
+      "sha256": "8620c028ec44c01aaae694eade33a76ae52b747c67b976394e2f83719948353f",
+      "funciones": [
+        "acabado de la familia"
+      ]
+    },
+    {
+      "ruta": "web/revision/estilo-03/kit-a.webp",
+      "sha256": "84122dfae5118d3798f2204ce7b43d30269812a4ae5cb8298abf27ea893f0480",
+      "funciones": [
+        "ejemplo de calibración del autor"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/a03@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    },
+    {
+      "ruta": "web/miniaturas/id01@2x.webp",
+      "sha256": null,
+      "funciones": [
+        "punto de estilo"
+      ]
+    }
+  ],
+  "hoja_58x88": "web/revision/estilo-03/hojas/t4-58x88.webp",
+  "variantes": {
+    "a": {
+      "guion": "El detector EMF de campo está erguido y apoyado sobre un alféizar ancho entre dos cuartos contiguos de la casona. Primer plano muy claro del aparato solo, cuerpo petróleo con espesor de papel, rejilla inferior y una escala sin caracteres bajo EXACTAMENTE CINCO luces redondas activas de izquierda a derecha: verde oscuro, verde lima, amarillo, naranja, rojo. Separar bien los cinco puntos. Al fondo, dos habitaciones se ven a través de arcos diferentes: una con foco incandescente ámbar claro, otra con foco colgante tenue, con dos trazos cortos que indican el titileo. Así se lee simultáneamente la reacción de la herramienta y de las lámparas vecinas. Sombras dominantes petróleo, veladora secundaria ámbar y flores caladas discretas en cerámica y papel picado. Nunca una mano, cara, persona, cifras, graduaciones escritas, textos o naipes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i05@2x.webp"
+      ],
+      "imagen_sha256": "79a9f2174dc32fb26cc5205bf73c723f2ec18b156dd25f2944a6896f5c8b725e",
+      "lectura_ciega": "Cinco luces del medidor están encendidas mientras las luces de los dos arcos vecinos se ven en intensidades distintas.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "A mantiene la reacción simultánea elegida por Jonathan. El alféizar sustituye la mano de Rafael para que el aparato aparezca solo.",
+      "qa": true
+    },
+    "b": {
+      "guion": "La hilera de focos de una guirnalda antigua se apaga sucesivamente hacia el detector EMF apoyado tumbado sobre una repisa. Vista elevada diagonal, el detector portátil grande aparece en la mitad inferior derecha: cuerpo grueso petróleo, rejilla y EXACTAMENTE CINCO luces circulares legibles en su propia escala de verde a rojo. Las primeras cuatro dan luz muy tenue y la roja satura como señal máxima. De la parte izquierda alta del cuadro al aparato baja una única guirnalda de papel picado electrificada con tres focos colgantes, uno ámbar encendido en el extremo alejado, uno tenue y uno oscuro en el extremo junto al aparato. Distingue focos grandes de los diminutos indicadores de la carcasa. Rinconera de galería de casona, dos arcos discretos en capas, cempasúchiles y un pequeño portavela de cerámica calada. Que domine un solo tono petróleo noche y que el centro de atención sea el medidor en escorzo. Sin manos, personas, números, texto ni naipes.",
+      "adjuntadas": [
+        "web/miniaturas/a03@2x.webp",
+        "web/miniaturas/id01@2x.webp",
+        "web/miniaturas/i06@2x.webp",
+        "web/revision/estilo-03/kit-a.webp",
+        "web/miniaturas/i05@2x.webp"
+      ],
+      "imagen_sha256": "0715881ae5d54c362857d784e75e5bbdb046ea24b8e6e8e2aacf9100c91273e0",
+      "lectura_ciega": "El medidor en la repisa llega al rojo. Tres focos en fila pierden luz en dirección al aparato.",
+      "acabado": "encaja",
+      "limites": {
+        "capas_con_volumen": true,
+        "textura": true,
+        "detalle_objetos": true,
+        "fondo": true,
+        "cantidad": true,
+        "adorno_calado": true,
+        "luz": true
+      },
+      "observaciones": "B conserva la guirnalda con niveles encendido, tenue y apagado. El quinto indicador es el más luminoso y los otros cuatro son visibles.",
+      "qa": true
+    }
+  }
+}
